@@ -1,0 +1,470 @@
+{
+ "id": "2026-11-01-brief",
+ "kind": "archive",
+ "title": "Headlines you need to know",
+ "date": "2026-11-01",
+ "updatedLabel": "Sun Nov 1, 2026, morning ET",
+ "summary": "US, Canada, Hong Kong, China and world news through Sun Nov 1, 2026 morning ET. Midterms are Tuesday. Every story was checked at the source, and conflicting reports are flagged.",
+ "blocks": [
+  {
+   "type": "Section",
+   "props": {
+    "heading": "Quick hits",
+    "id": "quick"
+   },
+   "children": [
+    {
+     "type": "NumberedList",
+     "props": {
+      "items": [
+       "US midterms are Tuesday, Nov 3. A new NBC News poll (Oct 28–30) has Democrats up 52%–45% on the generic congressional ballot; Trump disapproval is 60%.",
+       "In New York, in-person early voting ends today (Sun Nov 1). Election Day polls are open 6 a.m.–9 p.m. statewide.",
+       "Hong Kong’s justice secretary said Sunday that post–Wang Fuk Court reforms aim at a ‘revolutionary change’ in building maintenance, with bid-rigging bills hoped for by April 2027.",
+       "Most of Canada and the US fell back an hour today; B.C. (and some other regions) stayed on permanent daylight time, so clocks no longer match Washington state.",
+       "APEC leaders meet in Shenzhen Nov 18–19. A US–China trade truce has been extended toward Jan 2027, but several legal deadlines still land this month."
+      ]
+     },
+     "children": []
+    }
+   ]
+  },
+  {
+   "type": "Section",
+   "props": {
+    "heading": "If you vote in New York",
+    "id": "vote"
+   },
+   "children": [
+    {
+     "type": "Callout",
+     "props": {
+      "lead": "Today is the last early-voting day",
+      "tone": "info"
+     },
+     "children": [
+      "Per NY Attorney General guidance: early voting runs Oct 24–Nov 1. Election Day is Tue Nov 3, polls 6 a.m.–9 p.m. Registration for this election closed Oct 24. NYC voters have an assigned early site (often different from Election Day). Look up both at the NY Board of Elections voter lookup. Photo ID is not required in New York."
+     ]
+    },
+    {
+     "type": "LinkCards",
+     "props": {
+      "links": [
+       {
+        "title": "Voter guidance and key dates",
+        "site": "NY Attorney General",
+        "date": "Oct 6",
+        "href": "https://ag.ny.gov/press-release/2026/attorney-general-james-issues-voter-guidance-inform-new-yorkers-their-rights"
+       },
+       {
+        "title": "Find your poll site",
+        "site": "NY State Board of Elections",
+        "href": "https://elections.ny.gov/ways-vote"
+       },
+       {
+        "title": "Registration and voting deadlines",
+        "site": "NY State Board of Elections",
+        "href": "https://elections.ny.gov/registration-and-voting-deadlines"
+       }
+      ]
+     },
+     "children": []
+    }
+   ]
+  },
+  {
+   "type": "Section",
+   "props": {
+    "heading": "United States",
+    "id": "us"
+   },
+   "children": [
+    {
+     "type": "Section",
+     "props": {
+      "heading": "Deep dive: Midterms in 2 days"
+     },
+     "children": [
+      {
+       "type": "Properties",
+       "props": {
+        "items": [
+         {
+          "label": "What's happening",
+          "value": "Election Day is Tue, Nov 3. NBC News’s final national poll of registered voters (Oct 28–30, ±3.1 pts) has Democrats preferred for Congress 52%–45%, with a 21-point lead among independents. Trump’s approval is 40% and disapproval a poll high of 60%."
+         },
+         {
+          "label": "What voters say",
+          "value": "About three in four are dissatisfied with the economy; 64% want a change from Trump’s direction (50% ‘a great deal’). Cost of living ranks first, then government corruption, threats to democracy, and immigration."
+         },
+         {
+          "label": "Where it gets close",
+          "value": "USA Today (Nov 1) cites RealClearPolitics averages with Democrats narrowly ahead in Senate races in Texas (Talarico over Paxton), Michigan (El-Sayed over Rogers), and Maine (Jackson over Collins), all within typical poll error. House control starts from a thin GOP edge."
+         },
+         {
+          "label": "Framing gap",
+          "value": "NBC shows Democrats popular as a check on Trump, not as a beloved brand (only 29% view Democrats positively vs 38% for Republicans). The Guardian (Nov 1) frames a possible ‘blue wave’; poll averages differ by a few points, so treat any single number loosely."
+         },
+         {
+          "label": "Why it matters to you",
+          "value": "If you’re registered in New York, you can still early-vote today or go Tuesday. Control of Congress shapes tariffs, energy costs tied to the Iran conflict, and student-related federal policy."
+         },
+         {
+          "label": "Source check",
+          "value": "NBC poll page read in full Nov 1. USA Today live midterm updates and Guardian interactive cited for race-level color; averages can disagree."
+         }
+        ]
+       },
+       "children": []
+      },
+      {
+       "type": "LinkCards",
+       "props": {
+        "links": [
+         {
+          "title": "NBC News poll: Democratic midterm advantage",
+          "site": "NBC News",
+          "date": "Nov 1",
+          "href": "https://www.nbcnews.com/politics/2026-election/poll-voters-demand-change-check-trump-fueling-steep-democratic-midterm-rcna606183"
+         },
+         {
+          "title": "Midterm live updates and battleground polls",
+          "site": "USA Today",
+          "date": "Nov 1",
+          "href": "https://www.usatoday.com/story/news/politics/elections/2026/11/01/midterm-elections-news-updates-polls--live/92383820007/"
+         },
+         {
+          "title": "Blue wave or blue flood?",
+          "site": "The Guardian",
+          "date": "Nov 1",
+          "href": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/01/us-midterms-trump-blue-wave"
+         }
+        ]
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "type": "Section",
+     "props": {
+      "heading": "More US headlines"
+     },
+     "children": [
+      {
+       "type": "Rows",
+       "props": {
+        "rows": [
+         {
+          "title": "G20 foreign ministers end Atlanta meeting with no joint communique",
+          "detail": "Chaired by Secretary of State Marco Rubio; Xinhua reports deep splits over Ukraine, US–Iran tensions, energy and supply chains.",
+          "meta": "Xinhua · Nov 1"
+         },
+         {
+          "title": "Iran says it has no plans to meet US officials right now",
+          "detail": "Foreign Minister Araghchi told Al Jazeera talks with Qatari and Pakistani mediators continue; he called meeting reports speculation.",
+          "meta": "Xinhua / Al Jazeera · Nov 1"
+         }
+        ]
+       },
+       "children": []
+      },
+      {
+       "type": "LinkCards",
+       "props": {
+        "links": [
+         {
+          "title": "Daily World Briefing, Nov 1",
+          "site": "Xinhua",
+          "date": "Nov 1",
+          "href": "https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html"
+         }
+        ]
+       },
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "Section",
+   "props": {
+    "heading": "Canada",
+    "id": "canada"
+   },
+   "children": [
+    {
+     "type": "Section",
+     "props": {
+      "heading": "Deep dive: Clock patchwork and Carney’s EU pitch"
+     },
+     "children": [
+      {
+       "type": "Properties",
+       "props": {
+        "items": [
+         {
+          "label": "Clocks",
+          "value": "Most of Ontario and the US fell back one hour early Sunday. British Columbia (permanent Pacific daylight time) did not, so much of B.C. is now one hour ahead of Washington state (CBC, Oct 31)."
+         },
+         {
+          "label": "EU associate membership",
+          "value": "CBC’s The National reported Carney confirmed Canada is working toward becoming the EU’s first ‘associate member,’ short of accession, with substance to be defined in coming months and a European Council visit framed for June. Summit statements still leave the label unsettled among the 27 members."
+         },
+         {
+          "label": "Consumer watch",
+          "value": "CBC Marketplace (Nov 1) says Air Canada and WestJet have used safety-related maintenance claims to cancel flights and deny compensation, while still flying those planes on other routes; the transport minister said he is reluctant to instruct the independent CTA."
+         },
+         {
+          "label": "Why it matters to you",
+          "value": "Time-zone quirks affect calls with the West Coast. Airline compensation fights matter if you fly Air Canada (including any Toronto travel). Midterm outcomes in the US will ripple into Canada–US trade talks."
+         }
+        ]
+       },
+       "children": []
+      },
+      {
+       "type": "LinkCards",
+       "props": {
+        "links": [
+         {
+          "title": "B.C. won’t change clocks Nov 1",
+          "site": "CBC",
+          "date": "Oct 31",
+          "href": "https://www.cbc.ca/news/canada/british-columbia/bc-time-changes-what-people-need-to-know-9.7400476"
+         },
+         {
+          "title": "Airlines using safety exemptions to deny compensation",
+          "site": "CBC Marketplace",
+          "date": "Nov 1",
+          "href": "https://www.cbc.ca/news/marketplace/marketplace-cheat-sheet-nov-1-9.7403084"
+         },
+         {
+          "title": "Pesticide ‘die-in’ on Parliament Hill",
+          "site": "CBC",
+          "date": "Oct 31",
+          "href": "https://www.cbc.ca/news/canada/ottawa/die-in-protests-parliament-hill-9.7404343"
+         }
+        ]
+       },
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "Section",
+   "props": {
+    "heading": "Hong Kong",
+    "id": "hk"
+   },
+   "children": [
+    {
+     "type": "Section",
+     "props": {
+      "heading": "Deep dive: Building-maintenance reform after Wang Fuk"
+     },
+     "children": [
+      {
+       "type": "Properties",
+       "props": {
+        "items": [
+         {
+          "label": "What happened",
+          "value": "On Sunday, Justice Secretary Paul Lam said legislative amendments after the Wang Fuk Court fire aim at a ‘revolutionary change’ to the building-maintenance ecosystem, driving dishonest contractors out so honest firms will re-enter (RTHK)."
+         },
+         {
+          "label": "What's next",
+          "value": "Commerce Secretary Algernon Yau said criminalising bid-rigging would give stronger tools and hopes amendments can pass by April 2027. Bills are slated for LegCo within this year."
+         },
+         {
+          "label": "Also today",
+          "value": "The Standard’s Nov 1 night recap: first Northern Metropolis Marathon (~15,000 runners); warmest October on record since 1884, cooler weather next week; One Marina flat sale oversubscribed ~33×."
+         },
+         {
+          "label": "Why it matters to you",
+          "value": "Follow-through on the Tai Po fire report is the city’s biggest housing-safety accountability fight in years."
+         }
+        ]
+       },
+       "children": []
+      },
+      {
+       "type": "LinkCards",
+       "props": {
+        "links": [
+         {
+          "title": "Revolutionary change aimed for building maintenance",
+          "site": "RTHK",
+          "date": "Nov 1",
+          "href": "https://news.rthk.hk/rthk/en/component/k2/1876125-20261101.htm"
+         },
+         {
+          "title": "Night Recap, November 1, 2026",
+          "site": "The Standard",
+          "date": "Nov 1",
+          "href": "https://www.thestandard.com.hk/news/article/347154/Night-Recap-November-1-2026"
+         },
+         {
+          "title": "Evening News on TV32 - Nov 1",
+          "site": "RTHK",
+          "date": "Nov 1",
+          "href": "https://news.rthk.hk/rthk/en/component/k2/1876151-20261101.htm"
+         }
+        ]
+       },
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "Section",
+   "props": {
+    "heading": "China",
+    "id": "china"
+   },
+   "children": [
+    {
+     "type": "Section",
+     "props": {
+      "heading": "Deep dive: APEC Shenzhen and a fragile trade calm"
+     },
+     "children": [
+      {
+       "type": "Properties",
+       "props": {
+        "items": [
+         {
+          "label": "APEC",
+          "value": "Leaders’ meeting is Nov 18–19 in Shenzhen (China’s APEC year). Chinese coverage on Nov 1 framed ~300 related events and priorities around openness, innovation and cooperation."
+         },
+         {
+          "label": "Trade truce",
+          "value": "The Guardian (Nov 1) says the US–China trade war looks quieter but the calm is misleading. Other trackers note a truce extended toward Jan 10, 2027, while some rare-earth and export-control legal deadlines still land in early November unless renewed."
+         },
+         {
+          "label": "Why it matters to you",
+          "value": "Tariffs and flight capacity still shape prices and family travel options. Shenzhen week is the next big Xi–Trump-era diplomacy checkpoint."
+         },
+         {
+          "label": "Source check",
+          "value": "State media (Xinhua / China News) emphasize smooth APEC prep; Western outlets stress unfinished tariff and export-control paperwork. Both are labelled."
+         }
+        ]
+       },
+       "children": []
+      },
+      {
+       "type": "LinkCards",
+       "props": {
+        "links": [
+         {
+          "title": "The US–China trade war calm is misleading",
+          "site": "The Guardian",
+          "date": "Nov 1",
+          "href": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi"
+         },
+         {
+          "title": "APEC China Year expert roundup",
+          "site": "China News Service",
+          "date": "Nov 1",
+          "href": "https://www.chinanews.com.cn/aseaninfo/2026/11-01/10724297.shtml"
+         }
+        ]
+       },
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "Section",
+   "props": {
+    "heading": "Global",
+    "id": "world"
+   },
+   "children": [
+    {
+     "type": "Section",
+     "props": {
+      "heading": "More world headlines"
+     },
+     "children": [
+      {
+       "type": "Rows",
+       "props": {
+        "rows": [
+         {
+          "title": "France: large cost-of-living protests",
+          "detail": "Interior Ministry figures cited by Le Monde put Saturday turnout around 320,000 nationwide (unions claim higher); Paris metro stations closed; hundreds arrested per BFM.",
+          "meta": "Xinhua / AA · Nov 1"
+         },
+         {
+          "title": "Ukraine–Türkiye talk a new Black Sea grain corridor",
+          "detail": "Zelenskyy said in Istanbul he agreed with Erdogan to work on a corridor; Erdogan warned the war is spilling into the Black Sea.",
+          "meta": "Anadolu / Xinhua · Nov 1"
+         },
+         {
+          "title": "Mayon Volcano, Philippines",
+          "detail": "Alert raised to 3 after a moderately explosive eruption; 1,400+ evacuated from the 6 km danger zone.",
+          "meta": "Xinhua · Nov 1"
+         },
+         {
+          "title": "North Korea cluster-bomb warhead test",
+          "detail": "KCNA said Saturday a cluster-bomb warhead for tactical ballistic missiles was tested.",
+          "meta": "KCNA via Nhan Dan · Nov 1"
+         }
+        ]
+       },
+       "children": []
+      },
+      {
+       "type": "LinkCards",
+       "props": {
+        "links": [
+         {
+          "title": "Morning Briefing: Nov 1, 2026",
+          "site": "Anadolu Agency",
+          "date": "Nov 1",
+          "href": "https://www.aa.com.tr/en/world/morning-briefing-nov-1-2026/4107709"
+         },
+         {
+          "title": "Daily World Briefing, Nov 1",
+          "site": "Xinhua",
+          "date": "Nov 1",
+          "href": "https://english.news.cn/20261101/c44843d14a2a41a4bbb81fc1d0943cff/c.html"
+         }
+        ]
+       },
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "Section",
+   "props": {
+    "heading": "How this was checked"
+   },
+   "children": [
+    {
+     "type": "BulletList",
+     "props": {
+      "items": [
+       "Sources were fetched or searched on Sun Nov 1, 2026 morning America/New_York. NY voting dates come from the Attorney General’s Oct 6 guidance page.",
+       "Deep dives use at least two outlets where possible; state media is labelled.",
+       "Where polls or turnout numbers conflict, both are shown. This page is a snapshot and will not auto-update."
+      ]
+     },
+     "children": []
+    }
+   ]
+  }
+ ],
+ "droppedSections": []
+}

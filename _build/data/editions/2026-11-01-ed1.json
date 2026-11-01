@@ -1,0 +1,624 @@
+{
+ "id": "2026-11-01-ed1",
+ "kind": "edition",
+ "title": "Edition 1 (trial)",
+ "date": "2026-11-01",
+ "leadId": "us-vote",
+ "notes": [
+  "Trial edition: the first Donna Daily website edition, ported from the Nov 1 trial Page with every source re-checked. More stories arrive with the twice-daily updates."
+ ],
+ "stories": [
+  {
+   "id": "us-vote",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-01T09:00",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "Last call: NYC early voting closes at 5 p.m. today; Election Day is Tuesday",
+   "summary": "Today is the ninth and final day of early voting in New York City, 9 a.m. to 5 p.m., at your assigned early-voting site, which can differ from your Election Day site. On Tuesday, Nov 3, polls open 6 a.m. to 9 p.m., and anyone in line by 9 p.m. can still vote. Mail and absentee ballots must be postmarked or dropped off by Nov 3. Nationally, Reuters reports more than 51 million Americans had already voted, citing the University of Florida Election Lab, up from about 46 million before Election Day in 2022.",
+   "why": "All 435 House seats and 35 Senate seats are on the ballot, deciding whether Republicans keep control of Congress (they hold the Senate 53-47).",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Upcoming Elections 2026",
+     "site": "NYC Board of Elections",
+     "href": "https://www.vote.nyc/elections"
+    },
+    {
+     "title": "2026 General Election",
+     "site": "NYC311",
+     "href": "https://portal.311.nyc.gov/article/?kanumber=KA-03114"
+    },
+    {
+     "title": "US midterm campaign enters final weekend",
+     "site": "Reuters via Yahoo",
+     "date": "Oct 31, 2026",
+     "href": "https://www.yahoo.com/news/politics/articles/us-campaign-control-congress-enters-100758118.html"
+    }
+   ]
+  },
+  {
+   "id": "us-doj",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-10-31T19:06",
+   "dateLabel": "Oct 30-31, 2026",
+   "headline": "Judge bars DOJ from pressuring election officials over ballots; administration appeals",
+   "summary": "A federal judge on Friday ordered the Trump administration not to threaten or coerce state and local election workers into halting the processing of ballots from voters it alleges are ineligible. The order runs through Nov 16. The Justice Department appealed to the 9th Circuit on Saturday. Separately, federal prosecutors are investigating whether aides to Alaska Democrat Mary Peltola recruited a candidate whose name resembles Sen. Dan Sullivan's; Peltola's campaign and that candidate deny it.",
+   "why": "Fights over who gets counted could shape close races and post-election challenges.",
+   "label": "Fact + allegation",
+   "note": "The noncitizen-voter claims and the Alaska recruitment claim are allegations, not proven.",
+   "sources": [
+    {
+     "title": "Trump administration appeals judge's order on election officials",
+     "site": "NBC News",
+     "date": "Oct 31, 2026",
+     "href": "https://www.nbcnews.com/politics/2026-election/judge-orders-trump-administration-stop-threatening-election-officials-rcna606659"
+    },
+    {
+     "title": "US midterm campaign enters final weekend",
+     "site": "Reuters via Yahoo",
+     "date": "Oct 31, 2026",
+     "href": "https://www.yahoo.com/news/politics/articles/us-campaign-control-congress-enters-100758118.html"
+    }
+   ]
+  },
+  {
+   "id": "us-wsj",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-10-31T15:46",
+   "dateLabel": "Oct 31, 2026",
+   "headline": "Judge throws out Trump's defamation suit against WSJ over Epstein letter story",
+   "summary": "A federal judge in Miami, Darrin Gayles, dismissed Trump's amended defamation suit against Rupert Murdoch and The Wall Street Journal with prejudice, meaning it cannot be refiled. The judge found Trump again failed to plausibly allege the paper acted with actual malice in its July 2025 story about a birthday letter to Jeffrey Epstein. Trump, who denies writing the letter, plans to appeal.",
+   "why": "It is a major test of how far a sitting president can push libel suits against the press.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Trump defamation suit vs. Murdoch, WSJ dismissed with prejudice",
+     "site": "CNBC",
+     "date": "Oct 31, 2026",
+     "href": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html"
+    }
+   ]
+  },
+  {
+   "id": "us-arch",
+   "region": "us",
+   "topic": "culture",
+   "ts": "2026-10-31T13:03",
+   "dateLabel": "Oct 31, 2026",
+   "headline": "D.C. and Virginia sue to stop Trump's triumphal arch at Memorial Circle",
+   "summary": "Virginia and the District of Columbia filed a federal lawsuit to block a triumphal arch the administration plans to start building as soon as Nov 5. Their suit argues the arch lacks the required approval from Congress, would exceed D.C.'s 130-foot height limit, and skips environmental and historic-preservation reviews.",
+   "why": "The ruling will decide whether a major new monument goes up at one of Washington's most visible gateways.",
+   "label": "Allegation",
+   "note": "Claims are the plaintiffs' legal arguments; no court has ruled yet.",
+   "sources": [
+    {
+     "title": "Virginia and D.C. sue to stop proposed Trump arch",
+     "site": "NBC News",
+     "date": "Oct 31, 2026",
+     "href": "https://www.nbcnews.com/politics/white-house/dc-virginia-lawsuit-stop-proposed-trump-arch-construction-rcna606705"
+    }
+   ]
+  },
+  {
+   "id": "us-marathon",
+   "region": "us",
+   "topic": "sports",
+   "ts": "2026-11-01T12:33",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "Sweden's Almgren wins NYC Marathon in his debut; Chepkirui takes women's title",
+   "summary": "Andreas Almgren pulled away from Italy's Yemaneberhan Crippa in the last mile to win in 2:06:01, the third-fastest time in the course's history. Kenya's Sheila Chepkirui won the women's race in 2:24:36 for her second NYC title, and American Jessica McClain finished second.",
+   "why": "A first-time marathoner winning New York is rare; the last to do it was in 2010.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Almgren and Chepkirui win as 60,000 take part",
+     "site": "NPR / AP",
+     "date": "Nov 1, 2026",
+     "href": "https://www.npr.org/2026/11/01/nx-s1-6025437/new-york-marathon-almgren-chepkirui-win"
+    },
+    {
+     "title": "Almgren wins on marathon debut, Chepkirui regains title",
+     "site": "World Athletics",
+     "href": "https://worldathletics.org/competitions/world-athletics-label-road-races/news/new-york-city-marathon-2026-almgren-chepkirui"
+    }
+   ]
+  },
+  {
+   "id": "ca-boc",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-10-28T09:45",
+   "dateLabel": "Oct 28, 2026",
+   "headline": "Bank of Canada raises its key rate to 2.5%, its first hike in three years",
+   "summary": "The Bank of Canada lifted its policy rate a quarter point to 2.5%, citing high oil prices that could spread into broader inflation. Governor Tiff Macklem said another hike is possible but the bank will decide one meeting at a time.",
+   "why": "Higher rates mean pricier mortgages and loans for Canadians; the next decision is Dec 9.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Interest rate announcement, Oct 28, 2026",
+     "site": "Bank of Canada",
+     "href": "https://www.bankofcanada.ca/2026/10/interest-rate-announcement-and-monetary-policy-report-october-28-2026/"
+    },
+    {
+     "title": "BoC hikes rate to 2.5%",
+     "site": "The Globe and Mail",
+     "href": "https://www.theglobeandmail.com/business/article-bank-of-canada-raises-interest-rate-october-2026/"
+    }
+   ]
+  },
+  {
+   "id": "ca-cohere",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-10-29T12:00",
+   "dateLabel": "Oct 29, 2026",
+   "headline": "Ottawa takes up to a C$1.6B stake in Toronto AI firm Cohere",
+   "summary": "Prime Minister Mark Carney announced a federal equity investment of up to C$1.6 billion in Cohere as part of a large funding round alongside private investors. The Globe and Mail reports the round values Cohere at C$35.7 billion. Carney said the deal keeps the company Canadian.",
+   "why": "It is an unusually direct government bet on a homegrown AI company in a costly, unprofitable industry.",
+   "label": "Fact",
+   "note": "The exact ownership percentage was not disclosed.",
+   "sources": [
+    {
+     "title": "Canada announces landmark investment in Cohere",
+     "site": "Prime Minister of Canada",
+     "date": "Oct 29, 2026",
+     "href": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai"
+    },
+    {
+     "title": "Canada to invest up to $1.6B in Cohere",
+     "site": "CBC News",
+     "href": "https://www.cbc.ca/news/business/canada-cohere-ai-investment-9.7401367"
+    }
+   ]
+  },
+  {
+   "id": "ca-eu",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-10-30T12:00",
+   "dateLabel": "Oct 30, 2026",
+   "headline": "Canada and the EU launch an 'Alliance for the Future' and talk closer membership",
+   "summary": "At a Canada-EU summit, the two sides announced a new alliance on areas including AI, energy and critical minerals, open to other like-minded countries. Canada is pursuing a new 'associate' relationship with the EU, with talks aiming to wrap up by June 2027.",
+   "why": "Canada is building ties beyond the US as trade with Washington stays turbulent.",
+   "label": "Fact",
+   "note": "What 'associate membership' would mean legally is still undefined.",
+   "sources": [
+    {
+     "title": "Canada and the EU announce new Alliance for the Future",
+     "site": "Prime Minister of Canada",
+     "date": "Oct 30, 2026",
+     "href": "https://www.pm.gc.ca/en/news/news-releases/2026/10/30/canada-and-european-union-announce-new-alliance-future-create-greater"
+    },
+    {
+     "title": "Canada and EU announce new alliance",
+     "site": "The Guardian",
+     "date": "Oct 30, 2026",
+     "href": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance"
+    }
+   ]
+  },
+  {
+   "id": "ca-cfl",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-01T13:09",
+   "dateLabel": "Oct 31-Nov 1, 2026",
+   "headline": "Argonauts knocked out of CFL playoffs; Lions beat Roughriders in the West",
+   "summary": "Winnipeg beat Toronto 25-22 in the Eastern Semi-Final on Halloween. Argos quarterback Chad Kelly told TSN he felt his throwing shoulder 'separating' in the second half and expects a 4-6 week recovery. In the Western Semi-Final, Nathan Rourke threw for 366 yards and three touchdowns as BC beat Saskatchewan 33-26.",
+   "why": "Toronto's season is over, and Winnipeg and BC move on to the division finals on the road to the Grey Cup.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Argonauts QB Kelly felt shoulder 'separating' in Eastern Semi-Final",
+     "site": "TSN",
+     "date": "Nov 1, 2026",
+     "href": "https://www.tsn.ca/cfl/article/argonauts-qb-kelly-felt-shoulder-separating-in-eastern-semi-final-vs-blue-bombers/"
+    },
+    {
+     "title": "WSF Recap: BC 33, Saskatchewan 26",
+     "site": "CFL.ca",
+     "date": "Nov 1, 2026",
+     "href": "https://www.cfl.ca/article/wsf-recap-bc-33-saskatchewan-26"
+    }
+   ]
+  },
+  {
+   "id": "ca-yvr",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-10-31T19:05",
+   "dateLabel": "Oct 31, 2026",
+   "headline": "Workers rally at Vancouver airport against Ottawa's privatization plan",
+   "summary": "Unionized federal workers rallied at YVR against Ottawa's plan to let private investors run the country's four largest airports under long-term concessions while the government keeps the land. Union leaders argue it could cut wages and services.",
+   "why": "The plan could change how Toronto Pearson, Vancouver and other big airports are run and priced.",
+   "label": "Fact + opinion",
+   "note": "Warnings about cuts are the unions' view.",
+   "sources": [
+    {
+     "title": "Unions rally against plan to privatize Vancouver airport",
+     "site": "CBC News",
+     "date": "Oct 31, 2026",
+     "href": "https://www.cbc.ca/news/canada/british-columbia/vancouver-airport-privatization-rally-9.7402960"
+    }
+   ]
+  },
+  {
+   "id": "hk-fire",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-10-29T05:00",
+   "dateLabel": "Oct 29-30, 2026",
+   "headline": "Tai Po fire report faults inspectors; housing chief Winnie Ho resigns",
+   "summary": "Hong Kong released the independent committee's report on last November's Wang Fuk Court fire, which killed 168 people. It heavily faulted the Housing Bureau's inspection unit. Housing Secretary Winnie Ho resigned to take political responsibility, and leader John Lee and officials bowed in apology. Some survivors told HKFP the apology lacked sincerity.",
+   "why": "It is the city's deadliest fire in decades, and the findings drive sweeping building-safety reforms.",
+   "label": "Fact + opinion",
+   "note": "The released report is redacted; criminal cases over the fire are ongoing.",
+   "sources": [
+    {
+     "title": "Report of Independent Committee released",
+     "site": "HKSAR Government",
+     "date": "Oct 29, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202610/29/P2026102900343.htm"
+    },
+    {
+     "title": "Housing chief Winnie Ho resigns over Wang Fuk fire",
+     "site": "RTHK",
+     "date": "Oct 29, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1875773-20261029.htm"
+    },
+    {
+     "title": "Survivors say officials' apology lacked sincerity",
+     "site": "Hong Kong Free Press",
+     "date": "Oct 30, 2026",
+     "href": "https://hongkongfp.com/2026/10/30/some-wang-fuk-court-survivors-say-top-officials-apology-nearly-one-year-since-fatal-fire-lacked-sincerity/"
+    }
+   ]
+  },
+  {
+   "id": "hk-bid",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-10-30T03:00",
+   "dateLabel": "Oct 30, 2026",
+   "headline": "Hong Kong moves to make renovation bid-rigging a crime and scraps disgraced inspection unit",
+   "summary": "The government proposed making bid-rigging, price-fixing and similar collusion in building-repair tenders a criminal offence with up to 10 years in jail. It also said the faulted inspection unit will be replaced within about a month by a new section, with its roughly 300 staff moving over.",
+   "why": "Triad-linked bid-rigging in renovations was flagged by the fire inquiry as a serious problem.",
+   "label": "Fact (proposal)",
+   "note": "The criminal offence is a proposal; RTHK reports the target is to pass it by April.",
+   "sources": [
+    {
+     "title": "Measures to combat bid-rigging announced",
+     "site": "HKSAR Government",
+     "date": "Oct 30, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202610/30/P2026103000392.htm"
+    },
+    {
+     "title": "300 staff from inspection unit to move to new body",
+     "site": "Hong Kong Free Press",
+     "date": "Oct 30, 2026",
+     "href": "https://hongkongfp.com/2026/10/30/tai-po-fire-300-civil-servants-from-disgraced-inspection-unit-to-be-transferred-to-new-regulatory-body/"
+    },
+    {
+     "title": "Major renovations to get dedicated checks by new unit",
+     "site": "RTHK",
+     "date": "Oct 30, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1875939-20261030.htm"
+    }
+   ]
+  },
+  {
+   "id": "hk-ride",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-10-30T05:17",
+   "dateLabel": "Oct 30, 2026",
+   "headline": "Eight firms, including Uber and Didi, apply for Hong Kong's first ride-hailing licences",
+   "summary": "The Transport Department received eight applications before Friday's deadline under the city's new ride-hailing rules. Uber, Tada, Amap and Didi confirmed they applied, and the first approvals are expected in late November or early December.",
+   "why": "Ride-hailing has operated in a legal grey zone in Hong Kong for years.",
+   "label": "Fact",
+   "note": "SCMP may be paywalled.",
+   "sources": [
+    {
+     "title": "8 companies apply for ride-hailing licences",
+     "site": "South China Morning Post",
+     "date": "Oct 30, 2026",
+     "href": "https://www.scmp.com/news/hong-kong/transport/article/3372730/8-major-operators-apply-hong-kong-ride-hailing-licences-deadline"
+    },
+    {
+     "title": "Government press releases, Oct 30",
+     "site": "HKSAR Government",
+     "href": "https://www.info.gov.hk/gia/general/202610/30.htm"
+    }
+   ]
+  },
+  {
+   "id": "hk-heat",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-01T05:27",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "Hong Kong just had its warmest October since records began in 1884",
+   "summary": "The Observatory said October's mean temperature was 27.6°C, with the average high and low also setting October records. It blamed a very strong El Niño and a weak northeast monsoon, with climate change also playing a role. A cooler monsoon is expected early this week.",
+   "why": "Record heat is becoming routine, even in what is normally a mild month.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Hong Kong records warmest October since records begin",
+     "site": "RTHK",
+     "date": "Nov 1, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1876147-20261101.htm"
+    },
+    {
+     "title": "October 2026 weather review (Chinese)",
+     "site": "Hong Kong Observatory",
+     "href": "https://www.hko.gov.hk/tc/wxinfo/pastwx/mws2026/mws202610.htm"
+    }
+   ]
+  },
+  {
+   "id": "hk-run",
+   "region": "hk",
+   "topic": "sports",
+   "ts": "2026-11-01T03:00",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "About 15,000 run the first Northern Metropolis Marathon, in the heat",
+   "summary": "The inaugural race ran from Shek Mun through Tai Po and the Lung Shan Tunnel to the new Fanling Bypass. Runners said the heat was tough and some complained about too few water stations. Organizers hope to hold future races in cooler months and may extend the route toward Shenzhen.",
+   "why": "It showcases the government's huge Northern Metropolis development zone.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Runners unfazed by heat in first-ever NM marathon",
+     "site": "RTHK",
+     "date": "Nov 1, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1876136-20261101.htm"
+    },
+    {
+     "title": "Northern Metropolis Marathon kicks off with 15,000 runners",
+     "site": "The Standard",
+     "date": "Nov 1, 2026",
+     "href": "https://www.thestandard.com.hk/news/article/347108/Northern-Metropolis-Marathon-kicks-off-with-15000-runners"
+    }
+   ]
+  },
+  {
+   "id": "cn-pmi",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-10-30T21:42",
+   "dateLabel": "Oct 31, 2026",
+   "headline": "China's factories shrank again in October, the third contraction in four months",
+   "summary": "The official manufacturing index fell to 49.3 from 50.1 in September; below 50 means contraction. Reuters reports weaker demand at home and cooling export orders, and economists urged more support for growth.",
+   "why": "Exports have carried China's economy this year, and that engine is showing strain.",
+   "label": "Fact + analysis",
+   "note": "Calls for more stimulus are economists' views.",
+   "sources": [
+    {
+     "title": "China's manufacturing PMI at 49.3 in October",
+     "site": "Xinhua",
+     "date": "Oct 31, 2026",
+     "href": "https://english.news.cn/20261031/8919056294574c1d9362799ddf644df1/c.html"
+    },
+    {
+     "title": "China's factory activity shrinks in October (Reuters)",
+     "site": "MarketScreener",
+     "date": "Oct 31, 2026",
+     "href": "https://hk.marketscreener.com/news/china-s-factory-activity-shrinks-in-october-third-contraction-in-four-months-ce785fd8d980f320"
+    }
+   ]
+  },
+  {
+   "id": "cn-lift",
+   "region": "cn",
+   "topic": "sports",
+   "ts": "2026-10-29T21:47",
+   "dateLabel": "Oct 29, 2026",
+   "headline": "China's Zhang Haiqin wins 53kg gold at home weightlifting worlds by one kilogram",
+   "summary": "At the IWF World Championships in Ningbo, Zhang totalled 221kg (98kg snatch, 123kg clean and jerk) to edge American Miranda Ulrey's 220kg. A final 126kg lift that would have broken the world standard failed. North Korea's Kim So Hyon took bronze.",
+   "why": "It is a home-soil world title in a new Olympic weight class at the start of the Los Angeles 2028 cycle.",
+   "label": "Fact (state media)",
+   "note": "Reported by Xinhua; not independently corroborated here.",
+   "sources": [
+    {
+     "title": "China's Zhang wins 53kg total at weightlifting worlds",
+     "site": "People's Daily (Xinhua)",
+     "date": "Oct 30, 2026",
+     "href": "https://en.people.cn/n3/2026/1030/c90000-20514017.html"
+    }
+   ]
+  },
+  {
+   "id": "cn-patrols",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-10-31T10:30",
+   "dateLabel": "Oct 30-31, 2026",
+   "headline": "China steps up patrols east of Taiwan and around Scarborough Shoal",
+   "summary": "China's coast guard said it ran law-enforcement patrols in waters east of Taiwan on Saturday, part of a rise in activity there since June. A day earlier, the military and coast guard patrolled around Scarborough Shoal, calling it a response to Philippine 'provocations' without giving details.",
+   "why": "Taiwanese officials say they believe China is rehearsing a possible blockade.",
+   "label": "Fact + allegation",
+   "note": "Blockade practice is Taiwan officials' assessment; Beijing calls the patrols routine.",
+   "sources": [
+    {
+     "title": "China's coast guard patrols east of Taiwan (Reuters)",
+     "site": "ThePrint",
+     "date": "Oct 31, 2026",
+     "href": "https://theprint.in/world/chinas-coast-guard-conducts-patrols-east-of-taiwan-cctv-reports/3087174/"
+    },
+    {
+     "title": "China boosts patrols around disputed shoal",
+     "site": "The Manila Times",
+     "date": "Oct 31, 2026",
+     "href": "https://www.manilatimes.net/2026/10/31/news/china-boosts-patrols-around-disputed-shoal/2458437"
+    }
+   ]
+  },
+  {
+   "id": "cn-apec",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-01T03:00",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "Shenzhen tightens security and bans drones ahead of APEC summit",
+   "summary": "Guangdong police are stepping up security, including drone bans, before the APEC leaders' meeting in Shenzhen, where Xi and Trump are expected to meet. In October the SCMP reported, citing unnamed sources, that US and Chinese negotiators were racing to finish investment deals before then.",
+   "why": "The summit is the next big moment for the US-China trade truce.",
+   "label": "Fact + reported",
+   "note": "Deal talks are based on unnamed sources (SCMP, Oct 20; may be paywalled).",
+   "sources": [
+    {
+     "title": "Guangdong ramps up security for Shenzhen APEC summit",
+     "site": "The Standard (Xinhua)",
+     "date": "Nov 1, 2026",
+     "href": "https://www.thestandard.com.hk/china/article/347163/Guangdong-ramps-up-security-and-bans-drones-for-Shenzhen-APEC-summit"
+    },
+    {
+     "title": "US-China negotiators race to nail down deals",
+     "site": "South China Morning Post",
+     "date": "Oct 20, 2026",
+     "href": "https://www.scmp.com/news/china/diplomacy/article/3371413/us-china-negotiators-race-nail-down-concrete-deals-shenzhen-apec-looms"
+    }
+   ]
+  },
+  {
+   "id": "cn-film",
+   "region": "cn",
+   "topic": "culture",
+   "ts": "2026-10-27T03:32",
+   "dateLabel": "Oct 27, 2026",
+   "headline": "China's 2026 box office passes 31.5 billion yuan",
+   "summary": "State broadcaster CGTN reports the year's box office, including presales, has topped 31.5 billion yuan, and highlights a push to pair films with sports events to drive spending.",
+   "why": "Cinema is a key test of whether Chinese consumers are spending again.",
+   "label": "Fact (state media)",
+   "note": "Single state-media source; not independently corroborated.",
+   "sources": [
+    {
+     "title": "Film market tops 31.5 billion yuan",
+     "site": "CGTN",
+     "date": "Oct 27, 2026",
+     "href": "https://news.cgtn.com/news/2026-10-27/Film-market-tops-31-5-billion-yuan-with-new-film-sports-momentum-1RA9WRw5Ipa/p.html"
+    }
+   ]
+  },
+  {
+   "id": "w-iran",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-10-31T14:00",
+   "dateLabel": "Oct 31, 2026",
+   "headline": "Iran holds talks via Qatar as region braces for possible US strikes after the midterms",
+   "summary": "Iranian envoys met Qatari mediators in Doha on Saturday on ways to end the Gulf war, Reuters reported, citing a source. Secretary of State Marco Rubio said Trump hasn't decided on new strikes and prefers diplomacy. Supreme Leader Mojtaba Khamenei ordered the armed forces to respond immediately and without geographic limits to any attack.",
+   "why": "A return to fighting could hit oil prices and shipping through the Strait of Hormuz.",
+   "label": "Fact + analysis",
+   "note": "Talks details come from one anonymous source.",
+   "sources": [
+    {
+     "title": "Iranian envoys meet Qatari mediators (Reuters)",
+     "site": "Al-Monitor",
+     "date": "Oct 31, 2026",
+     "href": "https://www.al-monitor.com/originals/2026/10/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms"
+    }
+   ]
+  },
+  {
+   "id": "w-canelo",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-01T02:00",
+   "dateLabel": "Oct 31-Nov 1, 2026",
+   "headline": "Canelo Alvarez regains WBC super-middleweight title in Riyadh",
+   "summary": "Mexico's Saul 'Canelo' Alvarez, 36, beat France's previously unbeaten Christian Mbilli by unanimous decision (115-112, 116-111, 117-110) in his first fight since losing to Terence Crawford in September 2025. AFP notes the bout went ahead despite Houthi drone and missile attacks on Saudi Arabia that have called off other events.",
+   "why": "Boxing's biggest star is back as a champion, and the fight shows Saudi Arabia keeping big events going despite the conflict.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Canelo Alvarez defeats Christian Mbilli to reclaim WBC title",
+     "site": "Al Jazeera (AFP)",
+     "date": "Nov 1, 2026",
+     "href": "https://www.aljazeera.com/sports/2026/11/1/canelo-alvarez-defeats-christian-mbilli-to-reclaim-wbc-title-in-riyadh"
+    },
+    {
+     "title": "Canelo regains WBC super-middleweight title",
+     "site": "NBC News (AP)",
+     "href": "https://www.nbcnews.com/sports/boxing/canelo-alvarez-regains-wbc-super-middleweight-title-unanimous-decision-rcna606787"
+    }
+   ]
+  },
+  {
+   "id": "w-spain",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-10-28T03:53",
+   "dateLabel": "Oct 28-31, 2026",
+   "headline": "Spain's deadliest high-speed rail crash kills 69; probe focuses on control center",
+   "summary": "A Renfe high-speed train slammed into a stopped Iryo train near Urda, south of Madrid, on Wednesday, killing at least 69 people. Investigators are looking at how the control center responded after a safety signaling system failed on the Madrid-Seville line.",
+   "why": "It raises questions about safety on one of Europe's busiest high-speed networks.",
+   "label": "Fact",
+   "note": "Cause is still under investigation.",
+   "sources": [
+    {
+     "title": "What we know about the Spain train crash",
+     "site": "BBC News",
+     "href": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo"
+    },
+    {
+     "title": "Investigation focuses on control center failure",
+     "site": "EFE",
+     "date": "Oct 31, 2026",
+     "href": "https://efe.com/english/other-news/2026-10-31/spain-high-speed-rail-crash-control-center-failure/"
+    }
+   ]
+  },
+  {
+   "id": "w-ukraine",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-10-31T12:00",
+   "dateLabel": "Oct 31-Nov 1, 2026",
+   "headline": "Oleshky civilians reach Ukraine under a rare truce as Russian strikes cut power",
+   "summary": "Exhausted residents of Russian-occupied Oleshky crossed into Ukraine under a six-day local ceasefire mediated by US first lady Melania Trump with the Pope's involvement, after a long trip via Crimea, Russia and Belarus. Meanwhile, Russian strikes left tens of thousands without power, including in Kyiv.",
+   "why": "It is the first humanitarian truce of its kind in more than four years of war.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Oleshky evacuees arrive in Ukraine (Reuters)",
+     "site": "The Moscow Times",
+     "date": "Oct 31, 2026",
+     "href": "https://www.themoscowtimes.com/2026/10/31/oleshky-evacuees-arrive-in-belarus-before-heading-to-ukraine-a94142"
+    },
+    {
+     "title": "Russian attacks leave tens of thousands without power",
+     "site": "DW",
+     "date": "Nov 1, 2026",
+     "href": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409"
+    }
+   ]
+  },
+  {
+   "id": "w-mayon",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-10-31T02:18",
+   "dateLabel": "Oct 30-Nov 1, 2026",
+   "headline": "Mayon volcano erupts in the Philippines; 2,000+ evacuated",
+   "summary": "A moderately explosive eruption on Oct 30 sent ash 3 km high and put Mayon on Alert Level 3. More than 2,000 people were evacuated, and about 420 families spent All Saints' Day in evacuation centers.",
+   "why": "Mayon is the Philippines' most active volcano, and a bigger eruption would force more evacuations.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Mayon eruption displaces over 2,000 residents",
+     "site": "Philstar",
+     "date": "Oct 31, 2026",
+     "href": "https://www.philstar.com/nation/2026/10/31/2566927/mayon-volcano-eruption-displaces-over-2000-residents-albay"
+    },
+    {
+     "title": "420 families spend All Saints' Day in evacuation centers",
+     "site": "Daily Tribune",
+     "date": "Nov 1, 2026",
+     "href": "https://tribune.net.ph/2026/11/01/420-families-spend-all-saints-day-in-albay-evacuation-centers"
+    }
+   ]
+  }
+ ]
+}
