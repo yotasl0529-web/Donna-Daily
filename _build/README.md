@@ -32,17 +32,3 @@ Aim to give the lead and most stories a photo. Skip a story rather than bend the
 
 Commons lookup that returns licence/author/thumbnail in one call:
 `https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File:NAME&prop=imageinfo&iiprop=extmetadata|url|size&iiurlwidth=1280` (read `LicenseShortName`, `LicenseUrl`, `Artist`, `Credit`; send a descriptive User-Agent).
-
-
-## Path note (this repo)
-
-The published site is the **repository root** (what used to be `public/`: `index.html`, `editions/`, `data.json`, `.nojekyll`). Build inputs live under `_build/` and the scripts were not rewritten.
-
-`tools/build.mjs`, `tools/test.mjs`, and `tools/linkcheck.mjs` set `ROOT` to the parent of `tools/` (here, `_build/`). `tools/update.sh` does `cd` to that same directory, then calls `node tools/...` and copies `public/`.
-
-- `linkcheck.mjs` reads `_build/data/editions` — that path still matches.
-- `build.mjs` writes `_build/public/` (and `_build/.public-tmp`), **not** the repository root that GitHub Pages serves.
-- `update.sh` snapshots and restores `_build/public`, and records state in `_build/data/state.json`.
-- `test.mjs` defaults to `file://` + `_build/public/`.
-
-A successful rebuild therefore lands in `_build/public/`. To update the live site, copy that directory's contents onto the repository root (keep `.nojekyll`) and commit. Do not refactor the scripts to chase the new layout.

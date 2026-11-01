@@ -1,0 +1,875 @@
+{
+ "id": "2026-11-01-pm",
+ "kind": "edition",
+ "title": "Evening Edition",
+ "date": "2026-11-01",
+ "leadId": "us-stevens",
+ "notes": [
+  "Evening edition for Sunday, Nov 1, 2026. Every source and date was rechecked this evening; nearly all stories are new since Edition 1 earlier on Nov 1, and two ongoing stories (Alaska ballots, Hong Kong bid-rigging) are marked with their earlier dates.",
+  "Hong Kong has four stories tonight: we didn't find a fifth verified development worth including. The Gaza story has no photo because we found no suitable openly licensed image."
+ ],
+ "stories": [
+  {
+   "id": "us-stevens",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-01T14:49",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "Michigan Democrat Haley Stevens endorses Republican Mike Rogers for Senate, two days before the vote",
+   "summary": "Rep. Haley Stevens, who lost the Democratic primary to Abdul El-Sayed, appeared with GOP nominee Mike Rogers at a Detroit church on Sunday and then endorsed him in a video. She said El-Sayed had told her she was no longer welcome at his events. She has criticized him over his past campaigning with streamer Hasan Piker and over an ad by Cenk Uygur blaming Israel for high grocery prices; El-Sayed's campaign says it had nothing to do with the ad and criticized it. Senate Minority Leader Chuck Schumer called the move a \"despicable betrayal\"; El-Sayed told reporters it doesn't matter to voters. Trump praised her at his Iowa rally.",
+   "why": "Michigan's open seat is one of the races that decides whether Democrats can win the Senate, and the split exposes a wider Democratic rift over Israel.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Haley Stevens endorses GOP candidate in Michigan Senate race, spurning Abdul El-Sayed",
+     "site": "NPR",
+     "href": "https://www.npr.org/2026/11/01/nx-s1-6020993/michigan-senate-race-abdul-el-sayed-haley-stevens-mike-rogers",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "Election 2026 live updates",
+     "site": "NBC News",
+     "href": "https://www.nbcnews.com/politics/donald-trump/live-blog/trump-rally-kansas-iowa-gop-midterm-elections-live-updates-rcna606540",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/us-stevens.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Official portrait of Rep. Haley Stevens in front of US and Michigan flags.",
+    "caption": "Rep. Haley Stevens' official House portrait, 2018.",
+    "credit": "Phi Nguyen (US House)",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Haley_Stevens,_official_portrait,_116th_Congress.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Haley_Stevens,_official_portrait,_116th_Congress.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "us-alaska",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-01T14:03",
+   "dateLabel": "Updated Nov 1, 2026 (ongoing since Oct)",
+   "headline": "Judge throws out DOJ bid to set aside 'second Dan Sullivan' ballots in Alaska; DOJ appeals",
+   "summary": "U.S. District Judge Sharon Gleason on Sunday dismissed the Justice Department's lawsuit seeking to separate ballots cast for little-known candidate Daniel J. Sullivan and to hold off certifying the Senate race if Republican Sen. Dan S. Sullivan loses. She wrote that the request would violate Alaskans' right to a secret ballot. The department said it will appeal. Republicans allege Democrat Mary Peltola's camp recruited the second Sullivan to confuse voters; Peltola denies it. Separately, California Gov. Gavin Newsom on Oct 31 wrote to the state's four chief federal judges warning they may be asked for warrants to seize ballots before results are certified.",
+   "why": "Courts are now refereeing how votes are counted and certified in races that could decide control of Congress.",
+   "label": "Fact + allegation",
+   "note": "Ongoing: an earlier ruling against DOJ pressure on election officials was in Edition 1 (Nov 1).",
+   "sources": [
+    {
+     "title": "Federal judge dismisses Trump attempt to interfere in Alaska Senate race",
+     "site": "NBC News",
+     "href": "https://www.nbcnews.com/politics/2026-election/federal-judge-dismisses-trump-attempt-ballots-alaska-senate-race-rcna606838",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "Judge tosses Trump administration's lawsuit over two Dan Sullivans",
+     "site": "BBC News",
+     "href": "https://www.bbc.com/news/articles/cv4g1y02jejro",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "Governor Newsom sends letter to top federal judges in California",
+     "site": "Office of the Governor of California",
+     "href": "https://www.gov.ca.gov/2026/10/31/governor-newsom-sends-letter-to-top-federal-judges-in-california-warning-of-potential-election-interference-by-trump-administration/",
+     "date": "Oct 31, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/us-alaska.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Official portrait of Sen. Dan Sullivan of Alaska.",
+    "caption": "Sen. Dan S. Sullivan's official Senate portrait, 2015.",
+    "credit": "United States Senate",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Senator_Dan_Sullivan_official.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Senator_Dan_Sullivan_official.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "us-rallies",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-01T16:40",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "Trump closes the campaign in Iowa and Kansas as GOP defends its majorities",
+   "summary": "After canceling and then reinstating the in-person stops, Trump rallied Sunday in Dubuque, Iowa, where Republicans are defending a Senate seat, the governorship and a competitive House district, and then headed to Salina, Kansas, where Sen. Roger Marshall faces an unexpectedly close race. Republicans hold the Senate 53-47 and a narrow House edge. More than 52 million Americans had already voted, a midterm record, according to the University of Florida Election Lab.",
+   "why": "Campaigning in states Trump won easily shows how defensive the GOP has become going into Tuesday's vote.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Trump rallies in Iowa, Kansas to maintain Republican control of US Senate",
+     "site": "Al Jazeera (AP, Reuters)",
+     "href": "https://www.aljazeera.com/news/2026/11/1/trump-rallies-in-iowa-kansas-to-maintain-republican-control-of-us-senate",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "Election 2026 live updates",
+     "site": "NBC News",
+     "href": "https://www.nbcnews.com/politics/donald-trump/live-blog/trump-rally-kansas-iowa-gop-midterm-elections-live-updates-rcna606540",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/us-rallies.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Five Flags Center, an arena and theater in downtown Dubuque, Iowa.",
+    "caption": "Five Flags Center in Dubuque, Iowa, pictured in 2010.",
+    "credit": "Dirk Hansen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Five_Flags_Center.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "us-ballot",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-01T09:00",
+   "dateLabel": "Election Day: Tue, Nov 3, 2026",
+   "headline": "NYC voters: five city charter questions are on the back of Tuesday's ballot",
+   "summary": "Besides the races for Congress and state offices, New York City ballots carry five yes-or-no charter amendments from the Commission on Government Efficiency (COGE), the 2026 charter review commission: (1) faster permits for sidewalk cafes, ramps and planters; (2) less contractor paperwork; (3) quicker street-safety projects, sales of unused city property and office leasing, with City Planning Commission approval instead of a Council vote on property sales; (4) a central construction-permit hub at the Buildings Department; and (5) a target for the city's rainy-day reserves. Polls are open 6 a.m. to 9 p.m. on Nov 3.",
+   "why": "Question 3 in particular would shift some land-sale decisions away from the City Council, so it's worth reading before you vote.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Proposed Ballot Questions (Appendix A)",
+     "site": "NYC Board of Elections",
+     "href": "https://www.vote.nyc/sites/default/files/pdf/Ballot_Proposals/GE2026/Appendix_A_Proposed_Ballot_Questions_20260723_ENGLISH.pdf"
+    },
+    {
+     "title": "Ballot Proposals",
+     "site": "NYC Board of Elections",
+     "href": "https://www.vote.nyc/page/ballot-proposals"
+    },
+    {
+     "title": "Upcoming Elections 2026",
+     "site": "NYC Board of Elections",
+     "href": "https://www.vote.nyc/elections"
+    },
+    {
+     "title": "COGE releases 5 ballot proposals",
+     "site": "NYC Mayor's Office",
+     "href": "https://www.nyc.gov/mayors-office/news/2026/07/coge-releases-5-ballot-proposals-and-final-report-to-make-govern",
+     "date": "Jul 23, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/us-ballot.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "New York City Hall, a white stone building with a cupola, behind trees in City Hall Park.",
+    "caption": "New York City Hall, pictured in Sept 2025.",
+    "credit": "Nielsoncaetanosalmeron",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:New_York_City_Hall_-_September_2025.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "us-bills",
+   "region": "us",
+   "topic": "sports",
+   "ts": "2026-11-01T16:46",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "Josh Allen passes Jim Kelly for the Bills' touchdown record in 36-10 rout of Baltimore",
+   "summary": "Allen's 11-yard fourth-quarter throw to DJ Moore was his 259th career touchdown pass, the most in Bills history. Buffalo (6-1) led from the opening drive; Baltimore lost QB Lamar Jackson to a thumb injury on its first offensive play and backup Tyler Huntley to a toe injury.",
+   "why": "It's a franchise milestone; Buffalo (6-1) next plays at Minnesota on Monday night, Nov 9.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Bills 36, Ravens 10 | Final score, recap + highlights",
+     "site": "Buffalo Bills",
+     "href": "https://www.buffalobills.com/news/bills-36-ravens-10-final-score-recap-highlights",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/us-bills.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Fans walk past stadium buildings in Orchard Park, New York, under a cloudy sky.",
+    "caption": "Old and new Highmark Stadium sites in Orchard Park, N.Y., Nov 2025.",
+    "credit": "WuTang94",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Highmark-Stadium-old-and-new-2025.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "ca-trade",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-01T11:47",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "Carney and Trump talk trade; teams to work on a deal 'in the coming weeks'",
+   "summary": "Prime Minister Mark Carney said he had a \"good conversation\" with Trump and that negotiators will work toward a deal that respects Canada's languages, culture and sovereignty. Trump said there is \"the concept of a deal\" that would be good for U.S. farmers and \"fine for Canada.\" A senior Canadian source told CBC it is unclear what form the talks will take, and autos are expected to remain a sticking point, as they were when talks collapsed in August.",
+   "why": "The tariff war hits Canadian jobs in autos, steel and aluminum; any deal, or no deal, shapes prices on both sides of the border.",
+   "label": "Fact + reported (unnamed sources)",
+   "sources": [
+    {
+     "title": "Carney has 'good conversation' with Trump on future of Canada-U.S. trade",
+     "site": "CBC News",
+     "href": "https://www.cbc.ca/news/politics/carney-trump-conversation-midterms-9.7404845",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/ca-trade.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Ambassador Bridge, a green suspension bridge, spanning the Detroit River.",
+    "caption": "The Ambassador Bridge between Windsor, Ont., and Detroit, June 2025.",
+    "credit": "Crisco 1492",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Ambassador_Bridge,_Windsor,_Ontario,_2025-06-01.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "ca-byelect",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-01T09:35",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "Six federal byelections called for Dec 7 in Ontario, Quebec and Saskatchewan",
+   "summary": "Carney called votes in Brantford-Brant South, Scarborough North, Laurier-Sainte-Marie, Rosemont-La Petite-Patrie, Saint-Hyacinthe-Bagot-Acton and Yorkton-Melville. The seats were last held by Liberal, Conservative, NDP and Bloc MPs. The Liberals hold a thin majority of 173 seats; losing every race would not threaten the government, but wins would pad its margin.",
+   "why": "They are the first federal tests of voter mood since the trade war flared again.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Prime Minister Carney announces by-elections",
+     "site": "Prime Minister of Canada",
+     "href": "https://www.pm.gc.ca/en/news/news-releases/2026/11/01/prime-minister-carney-announces-elections",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "Carney calls December byelections for 6 ridings",
+     "site": "CBC News",
+     "href": "https://www.cbc.ca/news/politics/carney-byelections-saskatchewan-ontario-quebec-9.7404287",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/ca-byelect.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A yellow Elections Canada sign reading VOTE with an arrow, tied to a fence.",
+    "caption": "Elections Canada polling-station sign, 2025 federal election.",
+    "credit": "Can Pac Swire",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Elections_Canada_polling_station_sign,_2025_Canadian_Federal_Election.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "ca-alberta",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-10-31T17:47",
+   "dateLabel": "Oct 30-31, 2026",
+   "headline": "Alberta's elections chief says: keep the old riding map or delay the 2027 vote",
+   "summary": "In a letter dated Oct 30, Chief Electoral Officer Gordon McClure told MLAs that Elections Alberta needs 12 to 18 months to run an election on new boundaries and cannot prepare for two maps at once, so the Oct 18, 2027 election should use current boundaries or be postponed. A contested boundary report is due in the legislature Monday. NDP Leader Naheed Nenshi says the proposed map gerrymanders Calgary and Lethbridge and vows a court challenge; Premier Danielle Smith denies manipulating the vote. The justice minister's office says it is reviewing the letter.",
+   "why": "It raises the prospect of Alberta's next election being delayed amid a fight over fair representation.",
+   "label": "Fact + allegation",
+   "sources": [
+    {
+     "title": "Elections Alberta recommends 2027 vote be delayed as gerrymandering accusations fly",
+     "site": "Global News",
+     "href": "https://globalnews.ca/news/12128904/possible-delayed-albert-election/",
+     "date": "Oct 31, 2026"
+    },
+    {
+     "title": "Chief electoral officer: Alberta should delay boundary changes or 2027 vote",
+     "site": "Edmonton Journal",
+     "href": "https://edmontonjournal.com/news/chief-electoral-officer-province-should-delay-electoral-boundary-changes-or-october-2027-election",
+     "date": "Oct 31, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/ca-alberta.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The domed sandstone Alberta Legislature Building in Edmonton on a sunny day.",
+    "caption": "Alberta Legislature Building in Edmonton, June 2024.",
+    "credit": "D. Benjamin Miller",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Alberta_Legislature_Building,_June_7,_2024.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "ca-goodall",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-01T04:00",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "Ottawa quietly shelves the 'Jane Goodall Act' on elephant and great ape captivity",
+   "summary": "The bill, which would have banned new captivity, breeding and import or export of elephants and great apes except for conservation, welfare or research, passed the Senate in 2024 but died when Parliament was prorogued in January 2025. Despite a 2025 Liberal campaign pledge, the environment minister's office told CBC no decision has been made to reintroduce it. Advocates suspect the government's focus on the tariff war. About 23 elephants live in Canada.",
+   "why": "Ottawa says zoos and animal welfare are mainly provincial matters, so for now there's no national rule on keeping these animals.",
+   "label": "Fact + opinion",
+   "sources": [
+    {
+     "title": "Canada shelves pledge to phase out captivity of elephants and great apes",
+     "site": "CBC News",
+     "href": "https://www.cbc.ca/news/canada/jane-goodall-act-elephant-captivity-9.7403457",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/ca-goodall.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "An elephant standing on grass in front of trees.",
+    "caption": "Lucy the elephant at the Edmonton Valley Zoo, July 2018.",
+    "credit": "Mack Male from Edmonton, AB, Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Lucy_the_Elephant_(41541958460).jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "ca-leafs",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-01T00:00",
+   "dateLabel": "Oct 31, 2026",
+   "headline": "Matthews scores again as Maple Leafs beat Canucks 4-2 in Vancouver",
+   "summary": "Auston Matthews' 11th goal of the season put Toronto ahead for good, extending his road point streak to all eight road games this season. William Nylander had a goal and an assist and Anthony Stolarz made 26 saves as the Leafs (8-6-2) ended a two-game skid. Vancouver (3-12-1) has won once in its last 13 games.",
+   "why": "Toronto salvaged its road trip, while Vancouver's slide deepens.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Matthews extends road point streak to eight, Maple Leafs hold off Canucks",
+     "site": "NHL.com",
+     "href": "https://www.nhl.com/news/toronto-maple-leafs-vancouver-canucks-game-recap-october-31-2026",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/ca-leafs.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Rogers Arena, a round arena with glass walls, in downtown Vancouver.",
+    "caption": "Rogers Arena in Vancouver, May 2026.",
+    "credit": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Rogers_Arena_(Vancouver).jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "hk-bid",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-01T00:15",
+   "dateLabel": "Updated Nov 1, 2026 (first reported Oct 30)",
+   "headline": "Officials promise a 'revolutionary change' to building repairs, including interception powers against bid-rigging",
+   "summary": "Justice Secretary Paul Lam said planned law changes after the Wang Fuk Court fire will strengthen evidence-gathering, including interception powers, because bid-rigging deals are well hidden and often made through electronic communications. Amendments are to go to the Legislative Council this year, and Commerce Secretary Algernon Yau hopes they pass by April. Security Secretary Chris Tang said a new interdepartmental task force will be able to attend owners' corporation meetings and act on red flags before offences happen.",
+   "why": "Hong Kong's big repair contracts affect millions of flat owners, and interception powers are a significant expansion of enforcement.",
+   "label": "Fact (proposal)",
+   "note": "Ongoing: the plan to criminalise bid-rigging was first announced Oct 30 (see Edition 1, Nov 1).",
+   "sources": [
+    {
+     "title": "'Revolutionary change aimed for building maintenance'",
+     "site": "RTHK",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1876125-20261101.htm",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "林定國稱宏福苑悲劇教訓大 (in Chinese)",
+     "site": "RTHK",
+     "href": "https://news.rthk.hk/rthk/ch/component/k2/1876127-20261101.htm",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "Chris Tang pledges stronger deterrent against bid-rigging",
+     "site": "The Standard",
+     "href": "https://www.thestandard.com.hk/news/article/347151/Chris-Tang-pledges-stronger-deterrent-against-bid-rigging-with-new-task-force-and-reforms",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/hk-bid.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Bamboo scaffolding and green netting on a Hong Kong building.",
+    "caption": "Bamboo scaffolding on a Hong Kong building, 2013.",
+    "credit": "Mike Peel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Bamboo_scaffolding,_Hong_Kong_3.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "hk-gdp",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-11-01T03:18",
+   "dateLabel": "Nov 1, 2026 (data due Tue, Nov 3)",
+   "headline": "Paul Chan says Q3 growth will beat forecasts as AI demand lifts exports",
+   "summary": "In his Sunday blog, Financial Secretary Paul Chan said advance third-quarter GDP figures due Tuesday should show growth above market expectations, a 15th straight quarter of expansion, and that the full-year forecast is likely to be raised again. He said September merchandise exports jumped 64.9% year on year, driven by AI-related electronics. Hong Kong Fintech Week and a global financial leaders' summit start Monday.",
+   "why": "It is an official preview, not the data itself; Tuesday's numbers will show whether the export boom is broadening.",
+   "label": "Official forecast",
+   "sources": [
+    {
+     "title": "HK Q3 growth set to beat forecasts: FS",
+     "site": "RTHK",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1876139-20261101.htm",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/hk-gdp.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Container cranes at Kwai Tsing Container Terminals with hills behind.",
+    "caption": "Kwai Tsing Container Terminals, Hong Kong, May 2024.",
+    "credit": "Qwer132477",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kwai_Tsing_Container_Terminals_2024_05_part1.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "hk-triad",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-10-31T04:28",
+   "dateLabel": "Oct 31, 2026",
+   "headline": "58 arrested, including 10 students, after undercover police infiltrate triads recruiting teens",
+   "summary": "Police said undercover officers spent months inside two triad groups that befriended young people in online game chats and billiard halls, held simple initiation rituals, then used them for assaults, intimidation, drug trafficking and money laundering. Those arrested are aged 14 to 73, including 13 minors. Raids also hit gambling and drug dens. The Standard reports the raids began Tuesday; police announced them Saturday and say more arrests are possible.",
+   "why": "Police say youth involvement in triad crime is rising, and parents are being urged to watch for 'quick money' offers.",
+   "label": "Allegation",
+   "sources": [
+    {
+     "title": "58 arrested in triad crackdown as youth crimes spike",
+     "site": "RTHK",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1876048-20261031.htm",
+     "date": "Oct 31, 2026"
+    },
+    {
+     "title": "Police arrest 58 including 10 students after undercover officers bust triad recruitment rings",
+     "site": "The Standard",
+     "href": "https://www.thestandard.com.hk/news/article/347084/Police-arrest-58-including-10-students-after-undercover-officers-bust-triad-recruitment-rings",
+     "date": "Oct 31, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/hk-triad.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Arsenal House, the Hong Kong Police Headquarters tower in Wan Chai.",
+    "caption": "Hong Kong Police Headquarters, Arsenal House, 2008.",
+    "credit": "WiNG",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:HK_Arsenal_House_Police_Headquarters.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "hk-lkf",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-01T04:35",
+   "dateLabel": "Oct 31-Nov 1, 2026",
+   "headline": "Lan Kwai Fong draws a record 105,000 Halloween revellers",
+   "summary": "Lan Kwai Fong Group chairman Allan Zeman said the nightlife district drew 105,000 people on Halloween night, up from 80,000 a year earlier, on the last day of the Tourism Board's first month-long Halloween programme. He said bars and restaurants did roughly double a normal Saturday's business. About half or more of the crowd were locals and 20-30% mainland visitors, by his estimate, with more international tourists than before.",
+   "why": "It's a sign Hong Kong's nightlife and tourism push is paying off, though the figures come from the district's own operator.",
+   "label": "Fact (industry figures)",
+   "sources": [
+    {
+     "title": "Lan Kwai Fong welcomes record 105k Halloween revellers",
+     "site": "RTHK",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1876142-20261101.htm",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/hk-lkf.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A sloping street of bars and shops in Lan Kwai Fong, Central.",
+    "caption": "Lan Kwai Fong, Central, Hong Kong, Dec 2023.",
+    "credit": "LN9267",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Lan_Kwai_Fong_27-12-2023(3).jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "cn-cpc",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-01T05:24",
+   "dateLabel": "Adopted Oct 29; published Nov 1, 2026",
+   "headline": "Communist Party publishes plenum resolution tightening oversight of officials and their families",
+   "summary": "Xinhua released the full resolution on \"full and rigorous Party self-governance\" adopted at the fifth plenum. It calls for tighter career-long oversight of officials, starting with senior ranks, checks on those whose family assets or spending far exceed their income, closer watch on business activities of officials' spouses and children, and a drive against nepotism. In an accompanying explanation, Xi Jinping said misconduct and \"hidden dangers\" persist; the SCMP notes he argued strict discipline does not stifle growth.",
+   "why": "It sets the tone for Party discipline ahead of next year's Party congress, where a leadership reshuffle is expected.",
+   "label": "Fact (state media)",
+   "sources": [
+    {
+     "title": "Full text: Resolution of the CPC Central Committee on ... Full and Rigorous Party Self-Governance",
+     "site": "Xinhua (state media)",
+     "href": "https://english.news.cn/20261101/0a24f557fb41421083c20fc0eb4eadc2/c.html",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "Party releases resolution after plenum on governance",
+     "site": "RTHK",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1876161-20261101.htm",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "China's Xi says strict party governance has positive impact, does not stifle growth",
+     "site": "South China Morning Post (may be paywalled)",
+     "href": "https://www.scmp.com/news/china/politics/article/3372901/chinas-xi-says-strict-party-governance-has-positive-impact-does-not-stifle-growth",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/cn-cpc.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Great Hall of the People in Beijing, a long colonnaded building.",
+    "caption": "The Great Hall of the People in Beijing, Oct 2025.",
+    "credit": "Windmemories",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:20251026_Great_Hall_of_the_People.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "cn-swiss",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-10-30T12:00",
+   "dateLabel": "Oct 30, 2026",
+   "headline": "China and Switzerland sign an upgraded free-trade deal during Swiss president's Beijing visit",
+   "summary": "Swiss President Guy Parmelin met Xi Jinping, and the two sides signed a protocol upgrading their 2014 free-trade agreement, covering goods, services, investment, digital trade and more. Switzerland says it is the first Chinese trade deal with a legally binding chapter on labour and environmental standards. Both countries must still ratify it. China's commerce ministry put 2025 bilateral trade at $49.04 billion.",
+   "why": "It is a rare new trade opening between China and a Western economy amid global tariff fights.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "China, Switzerland sign protocol to upgrade free trade agreement",
+     "site": "gov.cn (Xinhua)",
+     "href": "https://english.www.gov.cn/news/202610/31/content_WS6ae54f49c6d00ca5f9a0e00d.html",
+     "date": "Oct 31, 2026"
+    },
+    {
+     "title": "Switzerland and China strengthen cooperation in trade and science",
+     "site": "SECO, Swiss government",
+     "href": "https://www.seco.admin.ch/en/newnsb/Nb4J2LzVCEaA",
+     "date": "Oct 30, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/cn-swiss.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Switzerland's Federal Palace in Bern lit up at night.",
+    "caption": "The Federal Palace (Bundeshaus) in Bern, Feb 2022.",
+    "credit": "August Geyler",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Bundeshaus_in_Bern_bei_Nacht.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "cn-lunar",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-10-31T13:44",
+   "dateLabel": "Oct 31, 2026",
+   "headline": "China details its Moon-landing plan: uncrewed test flights first, then two astronauts on the surface",
+   "summary": "At a space symposium in Beijing, program officials said two Long March 10 rockets will separately launch the Lanyue lander and Mengzhou crew ship, which will dock in lunar orbit before two astronauts descend. Before any crewed landing, China plans first flights of both spacecraft and a full uncrewed rehearsal of the mission. China aims to land astronauts this decade; no launch dates were given.",
+   "why": "It lays out the steps China must clear before trying to put astronauts on the Moon, a race also being run by NASA's Artemis program.",
+   "label": "Fact (state media)",
+   "sources": [
+    {
+     "title": "China unveils detailed plan for manned moon landing",
+     "site": "Xinhua (state media)",
+     "href": "https://english.news.cn/20261101/e78a700b8122408d9ef672ab994b004f/c.html",
+     "date": "Oct 31, 2026"
+    },
+    {
+     "title": "China details precursors to crewed Moon landing",
+     "site": "China in Space",
+     "href": "https://www.china-in-space.com/p/china-details-precursors-to-crewed",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/cn-lunar.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Scale models of Chinese Long March rockets on display in an exhibition hall.",
+    "caption": "Long March rocket models, including the Long March 9 and 10, on display in Zhuhai, 2024.",
+    "credit": "Shujianyang",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Long_March_rocket_mockups_at_ZHAL.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "cn-ev",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-01T09:07",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "XPeng tops 50,000 monthly deliveries for the first time as China's EV makers diverge",
+   "summary": "XPeng delivered 50,237 vehicles in October, up about 20% from a year earlier, with a record 13,326 sold abroad. Leapmotor delivered a record 106,127, and BYD sold 490,168 new-energy vehicles with exports doubling. Nio's deliveries fell 15% year on year, ending a 31-month growth streak, and Li Auto and Huawei-backed HIMA also declined.",
+   "why": "Chinese carmakers are leaning on exports as home demand cools, which matters for car prices and trade fights abroad.",
+   "label": "Fact (company figures)",
+   "sources": [
+    {
+     "title": "Roundup: October 2026 deliveries by major Chinese automakers",
+     "site": "CnEVPost",
+     "href": "https://cnevpost.com/2026/11/01/roundup-oct-2026-deliveries-chinese-automakers/",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/cn-ev.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A white XPeng X9 minivan parked outdoors.",
+    "caption": "An XPeng X9 minivan, 2024.",
+    "credit": "Zoerides",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:XPeng_X9_002.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "cn-panda",
+   "region": "cn",
+   "topic": "human",
+   "ts": "2026-10-31T08:37",
+   "dateLabel": "Oct 30-31, 2026",
+   "headline": "Dutch-born panda cub Lang Yue moves to China",
+   "summary": "Lang Yue, born at Ouwehands Zoo in Rhenen, Netherlands, in July 2024, arrived in Chengdu on Saturday and went into at least 30 days of quarantine at the Ya'an panda base. Under the zoo's agreement with China, cubs born abroad move to China before age four; her parents, Wu Wen and Xing Ya, stay in the Netherlands.",
+   "why": "Panda loans remain one of China's most visible diplomatic tools.",
+   "label": "Fact (state media)",
+   "sources": [
+    {
+     "title": "Giant panda Lang Yue returns to China from Netherlands",
+     "site": "Xinhua (state media)",
+     "href": "https://english.news.cn/20261031/9b39808f34524aeb81528de818299448/c.html",
+     "date": "Oct 31, 2026"
+    },
+    {
+     "title": "Pandajong Lang Yue vertrekt naar China (in Dutch)",
+     "site": "Ouwehands Dierenpark",
+     "href": "https://www.ouwehand.nl/nieuws/pandajong-lang-yue-vertrekt-naar-china-voor-belangrijke-rol-in-soortbehoud"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/cn-panda.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A giant panda eating bamboo.",
+    "caption": "Xing Ya, Lang Yue's mother, at Ouwehands Zoo, 2018.",
+    "credit": "Ruben van Kuik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Xing_Ya,_a_captive_giant_panda_(Ailuropoda_melanoleuca)_held_at_Ouwehands_Zoo.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "w-bulgaria",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-01T15:01",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "Iliana Yotova wins Bulgaria's presidential runoff to become its first woman president, parallel counts show",
+   "summary": "Completed parallel counts by polling agencies put acting President Iliana Yotova at about 56.6% to 58.2%, against 38.6% to 40.6% for pro-Western challenger Andrey Gyurov, who conceded. Turnout was below 30%. Yotova, backed by Prime Minister Rumen Radev's governing Progressive Bulgaria, opposes more arms for Ukraine and favors a negotiated peace. Official results were still pending.",
+   "why": "Bulgaria is an EU and NATO member on the Black Sea, and the result hands the presidency to the camp that controls the government.",
+   "label": "Fact (preliminary)",
+   "sources": [
+    {
+     "title": "Bulgaria's Yotova wins presidential runoff with clear lead in exit polls",
+     "site": "Anadolu Agency",
+     "href": "https://aa.com.tr/en/europe/bulgaria-s-yotova-wins-presidential-runoff-with-clear-lead-in-exit-polls/4108180",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "Bulgaria Elects First Woman President as Yotova Defeats Gyurov in Runoff",
+     "site": "Novinite",
+     "href": "https://www.novinite.com/articles/241385/Bulgaria+Elects+First+Woman+President+as+Yotova+Defeats+Gyurov+in+Runoff",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/w-bulgaria.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The National Palace of Culture in Sofia lit up at dusk with fountains in front.",
+    "caption": "National Palace of Culture, Sofia, May 2021.",
+    "credit": "Ivano Giambattista",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:National_Palace_of_Culture,_Sofia_1.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "w-moscow",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-01T08:20",
+   "dateLabel": "Oct 31-Nov 1, 2026",
+   "headline": "Russia detains a teenager after a U.S. warning of a 'mass casualty' threat in Moscow",
+   "summary": "The U.S. Embassy warned Saturday of a credible threat of a mass-casualty event at Moscow's Tsaritsyno Museum Reserve, and Canada repeated the alert. Russian media reported the site was closed and evacuated. Russia's FSB said Sunday it verified the U.S. tip and detained a Russian minor who had posted TikTok photos in tactical gear with an object resembling an automatic weapon. Those details come from the FSB via state media and have not been independently confirmed.",
+   "why": "A similar U.S. warning came days before the 2024 Crocus City Hall attack that killed more than 140 people.",
+   "label": "Fact + allegation (Russian state media)",
+   "sources": [
+    {
+     "title": "Minor detained after U.S. warned Russia of possible Moscow terrorist attack, FSB says",
+     "site": "NBC News (Reuters)",
+     "href": "https://www.nbcnews.com/world/russia/us-warned-russia-possible-moscow-terror-attack-fsb-says-rcna606789",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "Russia arrests minor after US embassy warns of 'credible threat'",
+     "site": "Euronews",
+     "href": "https://www.euronews.com/2026/11/01/russia-arrests-minor-after-us-embassy-warns-of-credible-threat-of-a-mass-casualty-event",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "Canada echoes U.S. 'mass casualty event' warning for Moscow",
+     "site": "Global News",
+     "href": "https://globalnews.ca/news/12128764/mass-casualty-threat-russia/",
+     "date": "Oct 31, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/w-moscow.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The red-brick Grand Tsaritsyno Palace in Moscow.",
+    "caption": "The Grand Tsaritsyno Palace in Moscow, Feb 2020.",
+    "credit": "MBH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Grand_Tsaritsyno_Palace_01.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "w-frankfurt",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-01T11:23",
+   "dateLabel": "Oct 31-Nov 1, 2026",
+   "headline": "Rioting and looting in Frankfurt after Germany's 'Gen Z' protests; 100+ police hurt",
+   "summary": "Tens of thousands joined largely peaceful 'Gen Z regelt' rallies in German cities on Saturday over school funding, living costs and military conscription. In Frankfurt, rioters later damaged 17 shops and looted five, attacking police with stones, fireworks and petrol bombs. Police arrested 54 people aged 13 to 29; more than 100 officers were injured. Hesse's interior minister said most suspects were German nationals but many had immigrant backgrounds; the city's mayor said passports don't matter, only accountability. Organisers condemned the violence and plan to join Europe-wide protests on Nov 20.",
+   "why": "It follows riots in France last month, as a youth protest wave spreads across Europe.",
+   "label": "Fact + opinion",
+   "sources": [
+    {
+     "title": "German ministers vow tough response to Frankfurt riots and looting",
+     "site": "Reuters via Yahoo",
+     "href": "https://www.yahoo.com/news/world/articles/germanys-dobrindt-calls-tough-penalties-112749883.html",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "Polizei zieht Bilanz zu Krawallen in Frankfurt (in German)",
+     "site": "tagesschau",
+     "href": "https://www.tagesschau.de/inland/regional/hessen/krawalle-frankfurt-polizei-bilanz-100.html",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/w-frankfurt.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The glass-and-steel MyZeil shopping mall facade on Frankfurt's Zeil.",
+    "caption": "The Zeil shopping street in Frankfurt, Feb 2015.",
+    "credit": "Ermell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Zeil-Frankfurt-Main-P1330197NPS.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "w-gaza",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-01T12:00",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "Israeli strikes kill at least eight in Gaza, including five police officers and a 4-year-old",
+   "summary": "A drone strike in al-Mawasi near Khan Younis killed five police officers, who Gaza's Hamas-run interior ministry said were on routine duty; the Israeli military said it targeted militants but gave no evidence. A separate strike in Gaza City killed three people, including a 4-year-old boy, according to hospital officials. Gaza's health ministry says about 1,580 people have been killed since the October 2025 ceasefire took effect.",
+   "why": "Near-daily strikes and a stalled U.S. peace plan leave the year-old ceasefire fragile.",
+   "label": "Fact + allegation",
+   "sources": [
+    {
+     "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
+     "site": "BBC News",
+     "href": "https://www.bbc.com/news/articles/cmqln14rrzxvo",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "At least eight Palestinians killed in Israeli attacks across Gaza",
+     "site": "Al Jazeera",
+     "href": "https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza",
+     "date": "Nov 1, 2026"
+    }
+   ]
+  },
+  {
+   "id": "w-barca",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-10-31T12:00",
+   "dateLabel": "Oct 31, 2026",
+   "headline": "Lamine Yamal scores twice as Barcelona thrash Alaves 6-1 to retake La Liga lead",
+   "summary": "Yamal and Raphinha each scored twice at Camp Nou as Barcelona bounced back from losses to PSG and Real Madrid in the past week. The win moved Hansi Flick's side two points clear of Atletico Madrid, whom they visit next Sunday; they host Aston Villa in the Champions League on Tuesday. A minute of silence was held for the 69 victims of Spain's train crash.",
+   "why": "Barca's title race with Atletico now heads into a head-to-head showdown.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Lamine Yamal, Raphinha help Barcelona hammer Alaves to retain Liga top spot",
+     "site": "Al Jazeera (AFP)",
+     "href": "https://www.aljazeera.com/sports/2026/11/1/lamine-yamal-raphinha-help-barcelona-hammer-alaves-to-retain-liga-top-spot",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-01-pm/w-barca.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Camp Nou stadium in Barcelona with new roof structures under construction.",
+    "caption": "Camp Nou under renovation, Barcelona, Sept 2025.",
+    "credit": "SimpleObjects-9ei",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Camp_Nou_under_renovation_-_Sept._21,_2025.jpg",
+    "isFilePhoto": true
+   }
+  }
+ ]
+}
