@@ -35,7 +35,19 @@
      "date": "Oct 31, 2026",
      "href": "https://www.yahoo.com/news/politics/articles/us-campaign-control-congress-enters-100758118.html"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/us-vote.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Voters line up for early voting in New York City, Oct 2020.",
+    "caption": "Voters line up for early voting in New York City, Oct 2020.",
+    "credit": "Eden, Janine and Jim from New York City",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Early_Voting_Line_(50524986212).jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "us-doj",
@@ -61,7 +73,19 @@
      "date": "Oct 31, 2026",
      "href": "https://www.yahoo.com/news/politics/articles/us-campaign-control-congress-enters-100758118.html"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/us-doj.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Justice Department's headquarters in Washington.",
+    "caption": "The Justice Department's headquarters in Washington.",
+    "credit": "Gunnar Klack",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:2014-04-04-Robert-F-Kennedy-Department-of-Justice-Building-Washington-DC.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "us-wsj",
@@ -80,7 +104,19 @@
      "date": "Oct 31, 2026",
      "href": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/us-wsj.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "1211 Avenue of the Americas in Manhattan, headquarters of News Corp, which owns The Wall Street Journal.",
+    "caption": "1211 Avenue of the Americas in Manhattan, headquarters of News Corp, which owns The Wall Street Journal.",
+    "credit": "Tdorante10",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:48th_St_6th_Av_td_17_-_1211_Avenue_of_the_Americas.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "us-arch",
@@ -100,7 +136,19 @@
      "date": "Oct 31, 2026",
      "href": "https://www.nbcnews.com/politics/white-house/dc-virginia-lawsuit-stop-proposed-trump-arch-construction-rcna606705"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/us-arch.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The traffic circle on Columbia Island at the Virginia end of Arlington Memorial Bridge, 2011 aerial view.",
+    "caption": "The traffic circle on Columbia Island at the Virginia end of Arlington Memorial Bridge, 2011 aerial view.",
+    "credit": "National Park Service",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Traffic_plaza_on_Columbia_Island_-_Arlington_Memorial_Bridge_-_2011.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Traffic_plaza_on_Columbia_Island_-_Arlington_Memorial_Bridge_-_2011.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "us-marathon",
@@ -124,7 +172,19 @@
      "site": "World Athletics",
      "href": "https://worldathletics.org/competitions/world-athletics-label-road-races/news/new-york-city-marathon-2026-almgren-chepkirui"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/us-marathon.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Runners in the 2014 New York City Marathon.",
+    "caption": "Runners in the 2014 New York City Marathon.",
+    "credit": "Metropolitan Transportation Authority of the State of New York",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:New_York_City_Marathon_2014_(15082977714).jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "ca-boc",
@@ -147,7 +207,19 @@
      "site": "The Globe and Mail",
      "href": "https://www.theglobeandmail.com/business/article-bank-of-canada-raises-interest-rate-october-2026/"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/ca-boc.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Bank of Canada building in Ottawa.",
+    "caption": "The Bank of Canada building in Ottawa.",
+    "credit": "Wladyslaw",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Ottawa_-_ON_-_Bank_of_Canada.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "ca-cohere",
@@ -172,7 +244,19 @@
      "site": "CBC News",
      "href": "https://www.cbc.ca/news/business/canada-cohere-ai-investment-9.7401367"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/ca-cohere.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Toronto's downtown skyline; Cohere is based in Toronto.",
+    "caption": "Toronto's downtown skyline; Cohere is based in Toronto.",
+    "credit": "Arild Vågen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Toronto_August_2017_04.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "ca-eu",
@@ -198,7 +282,19 @@
      "date": "Oct 30, 2026",
      "href": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/ca-eu.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Prime Minister Mark Carney at the White House, May 2025.",
+    "caption": "Prime Minister Mark Carney at the White House, May 2025.",
+    "credit": "The White House",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mark_Carney_in_2025.png",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Mark_Carney_in_2025.png",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "ca-cfl",
@@ -223,7 +319,19 @@
      "date": "Nov 1, 2026",
      "href": "https://www.cfl.ca/article/wsf-recap-bc-33-saskatchewan-26"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/ca-cfl.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "BMO Field, the Argonauts' home stadium, before a June 2025 game.",
+    "caption": "BMO Field, the Argonauts' home stadium, before a June 2025 game.",
+    "credit": "Daniel from Glasgow, United Kingdom",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:BMO_Field_before_the_Argonauts_Game_(54589811155).jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "ca-yvr",
@@ -243,7 +351,19 @@
      "date": "Oct 31, 2026",
      "href": "https://www.cbc.ca/news/canada/british-columbia/vancouver-airport-privatization-rally-9.7402960"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/ca-yvr.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Vancouver International Airport's international terminal, 2018.",
+    "caption": "Vancouver International Airport's international terminal, 2018.",
+    "credit": "Wpcpey",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:YVR_International_Terminal_2018.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "hk-fire",
@@ -275,7 +395,19 @@
      "date": "Oct 30, 2026",
      "href": "https://hongkongfp.com/2026/10/30/some-wang-fuk-court-survivors-say-top-officials-apology-nearly-one-year-since-fatal-fire-lacked-sincerity/"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/hk-fire.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Wang Fuk Court in Tai Po, pictured in 2009.",
+    "caption": "Wang Fuk Court in Tai Po, pictured in 2009.",
+    "credit": "WiNG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Wang_Fuk_Court.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "hk-bid",
@@ -307,7 +439,19 @@
      "date": "Oct 30, 2026",
      "href": "https://news.rthk.hk/rthk/en/component/k2/1875939-20261030.htm"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/hk-bid.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Bamboo scaffolding on a Hong Kong building, 2013.",
+    "caption": "Bamboo scaffolding on a Hong Kong building, 2013.",
+    "credit": "Mike Peel (www.mikepeel.net)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Bamboo_scaffolding,_Hong_Kong_3.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "hk-ride",
@@ -332,7 +476,19 @@
      "site": "HKSAR Government",
      "href": "https://www.info.gov.hk/gia/general/202610/30.htm"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/hk-ride.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A Hong Kong urban taxi.",
+    "caption": "A Hong Kong urban taxi.",
+    "credit": "User3204",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:2014_Nissan_NV200_Hong_Kong_red_taxi.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "hk-heat",
@@ -356,7 +512,19 @@
      "site": "Hong Kong Observatory",
      "href": "https://www.hko.gov.hk/tc/wxinfo/pastwx/mws2026/mws202610.htm"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/hk-heat.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Weather instruments at the Hong Kong Observatory headquarters, 2007.",
+    "caption": "Weather instruments at the Hong Kong Observatory headquarters, 2007.",
+    "credit": "Stewart~惡龍",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Meteorological_Instruments_-_TST_Observatory,_HK_-_2007-03-25_09h46m_DSC07450.JPG",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "hk-run",
@@ -381,7 +549,19 @@
      "date": "Nov 1, 2026",
      "href": "https://www.thestandard.com.hk/news/article/347108/Northern-Metropolis-Marathon-kicks-off-with-15000-runners"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/hk-run.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Runners in a different race, the Hong Kong Marathon, January 2026.",
+    "caption": "Runners in a different race, the Hong Kong Marathon, January 2026.",
+    "credit": "LN9267",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Standard_Chartered_Hong_Kong_Marathon_2026_runners_18-01-2026(1).jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "cn-pmi",
@@ -407,7 +587,19 @@
      "date": "Oct 31, 2026",
      "href": "https://hk.marketscreener.com/news/china-s-factory-activity-shrinks-in-october-third-contraction-in-four-months-ce785fd8d980f320"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/cn-pmi.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A Geely car assembly line in Ningbo, 2011.",
+    "caption": "A Geely car assembly line in Ningbo, 2011.",
+    "credit": "Siyuwj",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Geely_assembly_line_in_Beilun,_Ningbo.JPG",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "cn-lift",
@@ -427,7 +619,19 @@
      "date": "Oct 30, 2026",
      "href": "https://en.people.cn/n3/2026/1030/c90000-20514017.html"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/cn-lift.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Ningbo Olympic Sports Center in Ningbo, the championships' host city, 2021.",
+    "caption": "Ningbo Olympic Sports Center in Ningbo, the championships' host city, 2021.",
+    "credit": "Siyuwj",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Ningbo_Olympic_Sports_Center,_2021-01-01_01.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "cn-patrols",
@@ -453,7 +657,19 @@
      "date": "Oct 31, 2026",
      "href": "https://www.manilatimes.net/2026/10/31/news/china-boosts-patrols-around-disputed-shoal/2458437"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/cn-patrols.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Scarborough Shoal seen from the International Space Station, 2015.",
+    "caption": "Scarborough Shoal seen from the International Space Station, 2015.",
+    "credit": "NASA Johnson Space Center (ISS crew photo)",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:ISS045-E-77332_-_View_of_Scarborough_Shoal.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:ISS045-E-77332_-_View_of_Scarborough_Shoal.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "cn-apec",
@@ -479,7 +695,19 @@
      "date": "Oct 20, 2026",
      "href": "https://www.scmp.com/news/china/diplomacy/article/3371413/us-china-negotiators-race-nail-down-concrete-deals-shenzhen-apec-looms"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/cn-apec.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Shenzhen's Futian business district, 2018.",
+    "caption": "Shenzhen's Futian business district, 2018.",
+    "credit": "Sparktour",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Skyline_of_Futian_District_in_2018.5.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "cn-film",
@@ -499,7 +727,19 @@
      "date": "Oct 27, 2026",
      "href": "https://news.cgtn.com/news/2026-10-27/Film-market-tops-31-5-billion-yuan-with-new-film-sports-momentum-1RA9WRw5Ipa/p.html"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/cn-film.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A Wanda cinema in Dongguan, Guangdong, December 2025.",
+    "caption": "A Wanda cinema in Dongguan, Guangdong, December 2025.",
+    "credit": "HSOMWEI mATIWM Uatnm LUNGA",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E6%9D%B1%E8%8E%9E_Guangguan_%E8%99%8E%E9%96%80_Humen_Town_%E8%90%AC%E9%81%94%E5%BB%A3%E5%A0%B4_Wanda_Plaza_mall_shop_%E5%BD%B1%E5%9F%8E_Wanda_Cinemas_IMAX_December_2025_N13P_01.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "w-iran",
@@ -519,7 +759,19 @@
      "date": "Oct 31, 2026",
      "href": "https://www.al-monitor.com/originals/2026/10/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/w-iran.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Doha, Qatar's capital, where the talks took place.",
+    "caption": "Doha, Qatar's capital, where the talks took place.",
+    "credit": "Zairon",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Doha_Skyline_01.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "w-canelo",
@@ -543,7 +795,19 @@
      "site": "NBC News (AP)",
      "href": "https://www.nbcnews.com/sports/boxing/canelo-alvarez-regains-wbc-super-middleweight-title-unanimous-decision-rcna606787"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/w-canelo.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Saúl 'Canelo' Álvarez in 2013.",
+    "caption": "Saúl 'Canelo' Álvarez in 2013.",
+    "credit": "Presidencia de la República Mexicana",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Sa%C3%BAl_%C3%81lvarez_2013.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "w-spain",
@@ -568,7 +832,19 @@
      "date": "Oct 31, 2026",
      "href": "https://efe.com/english/other-news/2026-10-31/spain-high-speed-rail-crash-control-center-failure/"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/w-spain.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Renfe and Iryo high-speed trains at Seville's Santa Justa station, 2023.",
+    "caption": "Renfe and Iryo high-speed trains at Seville's Santa Justa station, 2023.",
+    "credit": "Jon Worth from Germany",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Renfe_Series_100_AVE_and_Iryo_Frecciarossa_at_Sevilla_Santa_Justa_(53296528997).jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "w-ukraine",
@@ -593,7 +869,19 @@
      "date": "Nov 1, 2026",
      "href": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/w-ukraine.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The central square of Oleshky, in Ukraine's Kherson region, pictured in 2007.",
+    "caption": "The central square of Oleshky, in Ukraine's Kherson region, pictured in 2007.",
+    "credit": "ru:user:Gottinight",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0_%D0%9E%D0%BB%D0%B5%D1%88%D0%BA%D1%96%D0%B2.jpg",
+    "isFilePhoto": true
+   }
   },
   {
    "id": "w-mayon",
@@ -618,7 +906,19 @@
      "date": "Nov 1, 2026",
      "href": "https://tribune.net.ph/2026/11/01/420-families-spend-all-saints-day-in-albay-evacuation-centers"
     }
-   ]
+   ],
+   "image": {
+    "src": "img/2026-11-01-ed1/w-mayon.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Mayon erupting behind Daraga Church during a 2018 eruption.",
+    "caption": "Mayon erupting behind Daraga Church during a 2018 eruption.",
+    "credit": "Jaycee Esmeria",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Mayon_Volcano_eruption_at_Daraga_Church.jpg",
+    "isFilePhoto": true
+   }
   }
  ]
 }
