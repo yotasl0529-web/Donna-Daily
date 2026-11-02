@@ -1,0 +1,205 @@
+{
+ "edition": "2026-11-02-pm",
+ "ranAt": "2026-11-02T18:07:38-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://apnews.com/live/midterm-elections-trump-house-senate-news-updates-11-2-2026",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T18:07:38-05:00"
+  },
+  {
+   "url": "https://www.scotusblog.com/2026/11/trump-administration-asks-supreme-court-to-intervene-in-california-ballots-dispute/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:38-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/trump-supreme-court-california-ballots-alleged-noncitizens/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:38-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/02/trump-midterm-election-speech-reflecting-pool.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/02/trump-reflecting-pool-renovation-midterms",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:38-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/live-updates/2026-elections-monday-november-2/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://worldathletics.org/news/report/new-york-city-marathon-2026-almgren-chepkirui",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.runningusa.org/industry-news/andreas-almgren-sheila-chepkirui-marcel-hug-and-catherine-debrunner-win-2026-tcs-new-york-city-marathon/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:38-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/budget-carney-affordability-investments-9.7404193",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/01/prime-minister-carney-announces-elections",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/carney-byelections-saskatchewan-ontario-quebec-9.7404287",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.blackstone.com/news/press/blackstone-and-leading-canadian-institutional-investors-announce-3-1b-investment-in-mitsubishi-corporations-interest-in-lng-canada/",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T18:07:38-05:00"
+  },
+  {
+   "url": "https://www.channelnewsasia.com/business/mitsubishi-sell-down-lng-canada-stake-blackstone-funds-16-billion-6512441",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/music/new-music-ryan-gosling-dead-mans-bones-reve-helena-deland-9.7406079",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/news/article/347218/PCPD-warns-public-after-victims-lose-up-to-15m-in-post-breach-fraud",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:38-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/ch/component/k2/1876226-20261102.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.icac.org.hk/en/p/press/index_id_5048.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1876208-20261102.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/02/P2026110200418.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:40-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/02/P2026110200413.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.channelnewsasia.com/world/china-middle-east-iran-saudi-oman-talks-wang-yi-6513771",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/2/china-steps-up-middle-east-diplomacy-with-iran-and-oman-meetings",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.dawn.com/news/2041528",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T18:07:38-05:00"
+  },
+  {
+   "url": "https://www.caixin.com/2026-11-02/102499739.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.straitstimes.com/business/companies-markets/chinas-top-three-airlines-head-for-full-year-losses-as-fuel-costs-weigh",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://bnrnews.bg/en/post/551886/iliana-iotova-is-bulgarias-7th-president-and-first-woman-elected-to-the-post",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/how-iliana-yotova-won-the-presidential-election-in-bulgaria/a-79829019",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.aa.com.tr/en/europe/more-than-200-arrests-in-germany-after-gen-z-protests/4107888",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:40-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/sport/football/articles/c39wz2epven4o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  },
+  {
+   "url": "https://www.arsenal.com/news/report-liverpool-0-1-arsenal-a1JIG2e3jPpA",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:52-05:00"
+  },
+  {
+   "url": "https://www.theartnewspaper.com/2026/11/02/documenta-16-hires-four-new-curators",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T18:07:39-05:00"
+  }
+ ]
+}
