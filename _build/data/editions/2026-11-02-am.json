@@ -1,0 +1,758 @@
+{
+ "id": "2026-11-02-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-02",
+ "leadId": "us-polls",
+ "notes": [
+  "Morning Edition for Monday, Nov 2, 2026, the day before the U.S. midterm elections (Tuesday, Nov 3). Every source and date was opened and checked this morning; ongoing stories are marked with their earlier dates.",
+  "Hong Kong has four stories this morning; Hong Kong's record-warm October (already in Edition 1) was not repeated. The U.S. has four stories, all about the election or breaking news.",
+  "Four stories have no photo because we found no suitable openly licensed image: John Lee's Beijing/Shanghai trip, Ontario jails, China's U-17 women's World Cup exit and the Binance hack."
+ ],
+ "stories": [
+  {
+   "id": "us-polls",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-02T07:38",
+   "dateLabel": "Poll released Nov 1; Election Day Nov 3, 2026",
+   "headline": "Final Times/Siena polls show Democrats ahead in five of seven key Senate races on the eve of the midterms",
+   "summary": "The last New York Times/Siena polls of likely voters (taken Oct 23–Nov 1) show Democrats leading in Michigan (El-Sayed 53%, Rogers 42%), Texas (Talarico 50%, Paxton 43%), Maine (Jackson 51%, Collins 45%), Ohio (Brown 49%, Husted 44%) and Kansas (Hamilton 49%, Marshall 44%). Alaska (Peltola 48%, Sullivan 46%) and Iowa (Turek 48%, Hinson 47%) are within the margin of error. Siena's director said a Democratic Senate majority is 'a distinct possibility' but either party could still win it. CBS News, citing the University of Florida Voting Lab, says more than 54 million Americans had already voted early.",
+   "why": "Republicans hold the Senate 53-47; CNN notes that winning the four GOP-held seats where Democrats lead outside the margin of error, while holding their own seats, would flip control. Polls are not results.",
+   "label": "Fact",
+   "note": "Polls are snapshots with margins of error of roughly ±3.4 to ±5 points per state; most fieldwork ended before Haley Stevens endorsed Mike Rogers on Nov 1.",
+   "sources": [
+    {
+     "title": "NYTimes/Siena Poll of Likely Voters – Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas",
+     "site": "Siena Research Institute",
+     "href": "https://sri.siena.edu/2026/11/01/nytimes-siena-poll-of-likely-voters-alaska-iowa-kansas-maine-michigan-ohio-and-texas/",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "Candidates in final sprint as new polls show Democratic leads in 5 key Senate races (live)",
+     "site": "CNN",
+     "href": "https://www.cnn.com/2026/11/02/politics/live-news/midterm-election-congress",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "2026 elections live updates, Monday, Nov. 2",
+     "site": "CBS News",
+     "href": "https://www.cbsnews.com/live-updates/2026-elections-monday-november-2/",
+     "date": "Nov 2, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/us-polls.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The west front of the US Capitol with its dome, under a blue sky.",
+    "caption": "The US Capitol, west front.",
+    "credit": "Architect of the Capitol",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_west_front_edit2.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_west_front_edit2.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "us-stevens",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-02T07:30",
+   "dateLabel": "Updated Nov 2, 2026 (first reported Nov 1)",
+   "headline": "Stevens won't explain her switch to backing Republican Rogers; El-Sayed says he raised $1.2M+ since",
+   "summary": "In her first interview since endorsing GOP Senate nominee Mike Rogers, Rep. Haley Stevens told CNN's Anderson Cooper her endorsement is 'rock solid' and that 'nothing with me changed', but did not say what changed her mind after she reportedly told Rep. Debbie Dingell on Saturday night she would not endorse him. She again cited El-Sayed's ties to streamer Hasan Piker and an outside group's ad tying grocery costs to the war in Gaza, which El-Sayed's campaign says it had nothing to do with. Her chief of staff said most of her congressional staff resigned. El-Sayed's campaign told CBS it raised more than $1.2 million after the endorsement.",
+   "why": "Michigan's open seat is one of the races that decides Senate control; the final Times/Siena poll there (mostly taken before the switch) had El-Sayed up 11.",
+   "label": "Fact",
+   "note": "Ongoing: the endorsement itself led the Nov 1 Evening Edition.",
+   "sources": [
+    {
+     "title": "2026 elections live updates, Monday, Nov. 2",
+     "site": "CBS News",
+     "href": "https://www.cbsnews.com/live-updates/2026-elections-monday-november-2/",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "Midterm elections latest (live)",
+     "site": "CNN",
+     "href": "https://www.cnn.com/2026/11/02/politics/live-news/midterm-election-congress",
+     "date": "Nov 2, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/us-stevens.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Abdul El-Sayed, in a dark sweater, speaking to a small group at a meet-and-greet.",
+    "caption": "Abdul El-Sayed at a campaign meet-and-greet, Oct 2025.",
+    "credit": "Conlan Houston",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Abdul_El-Sayed_meet-and-greet_by_Conlan_Houston_2.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "us-trump",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-02T07:38",
+   "dateLabel": "Nov 2, 2026",
+   "headline": "Trump closes the campaign at the Reflecting Pool and says he'll be 'Mr. Veto' if Democrats win Congress",
+   "summary": "President Trump planned telerallies and an afternoon event Monday at the Lincoln Memorial Reflecting Pool, whose troubled renovation he has championed; he finished his in-person rallies Sunday in Iowa and Kansas. In a New York Post podcast taped Friday and released Monday, he said that if Republicans lose, 'I veto everything' until Democrats come to make deals. CBS notes the Justice Department has acknowledged in court that a contractor's 'botched installation', not vandals as Trump claimed, caused the pool's peeling paint.",
+   "why": "Trump's closing message frames Tuesday as a vote on his agenda; a Democratic Congress would mean divided government for his last two years.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Midterm elections latest (live)",
+     "site": "CNN",
+     "href": "https://www.cnn.com/2026/11/02/politics/live-news/midterm-election-congress",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "2026 elections live updates, Monday, Nov. 2",
+     "site": "CBS News",
+     "href": "https://www.cbsnews.com/live-updates/2026-elections-monday-november-2/",
+     "date": "Nov 2, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/us-trump.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Lincoln Memorial Reflecting Pool, freshly restored, with the Washington Monument at the far end.",
+    "caption": "The Lincoln Memorial Reflecting Pool after its restoration, June 17, 2026.",
+    "credit": "G. Edward Johnson",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:2026-06-17_Lincoln_Memorial_Reflecting_Pool_post-restoration_Washington_DC_18-53-22.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "us-crash",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-02T03:27",
+   "dateLabel": "Nov 1, 2026 (updated Nov 2)",
+   "headline": "All nine aboard killed as a Learjet nose-dives onto a road in Palm Beach County, Florida",
+   "summary": "A Learjet 60 flying from Austin, Texas, to North Eleuthera in the Bahamas crashed onto Military Trail near Cresthaven around 12:50 p.m. ET Sunday, killing all nine people on board, Transportation Secretary Sean Duffy said. Air-traffic audio has a crew member reporting ice, turbulence and precipitation, then a descent of 20,000 feet per minute. Gov. Ron DeSantis said no one on the ground was reported hurt; about 600 residents of a nearby mobile-home park were evacuated and officials say the road will be closed for at least 30 days. The victims have not been named; the NTSB and FAA are investigating.",
+   "why": "The victims and the cause, including the role of bad weather, are not yet known; the NTSB investigation will take months.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Jet nose-dived onto Florida roadway in 'cataclysmic' crash killing all 9 on board",
+     "site": "NBC News",
+     "href": "https://www.nbcnews.com/news/us-news/jet-crashes-florida-nine-people-board-rcna606874",
+     "date": "Nov 1, 2026 (updated Nov 2)"
+    },
+    {
+     "title": "Nine killed as small jet crashes on Florida street",
+     "site": "BBC News",
+     "href": "https://www.bbc.com/news/articles/cm369yy7lw73o",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/us-crash.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A white and blue Learjet 60 business jet on an airport taxiway.",
+    "caption": "A Learjet 60, the same model, photographed in 2026. It is not the aircraft that crashed.",
+    "credit": "ZLEA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Learjet_60_(N317MM,_cn_60-236)_(2-12-2026).jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "ca-trade",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-02T05:30",
+   "dateLabel": "Updated Nov 2, 2026 (first reported Nov 1)",
+   "headline": "Formal Canada-U.S. trade talks expected to resume within days; Trump says the two sides have 'the concept of a very good deal'",
+   "summary": "After a Saturday call Prime Minister Mark Carney called a 'good conversation', a source told The Globe and Mail that Trump ordered his team to resume formal talks, with negotiations expected to start in a few days and pick up where they stalled, including on autos. Speaking in Iowa on Sunday, Trump said the countries were 'very close' and had 'the concept of a deal' that would be 'great for our farmers' and 'fine for Canada too'. Canada walked away from the table in August.",
+   "why": "Tariffs have hit Canadian autos, steel and other exports; a restart could shape Thursday's federal budget and the wider economy.",
+   "label": "Fact + reported (unnamed source)",
+   "note": "Ongoing: the Carney-Trump call was in the Nov 1 Evening Edition. The talks restart comes from one unnamed source; no date has been announced.",
+   "sources": [
+    {
+     "title": "Trump says U.S., Canada have the 'concept of a very good deal' (The Canadian Press)",
+     "site": "Canada's National Observer",
+     "href": "https://www.nationalobserver.com/2026/11/02/news/trump-says-us-canada-have-concept-very-good-deal",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "Morning Update: Picking up where we left off",
+     "site": "The Globe and Mail (may be paywalled)",
+     "href": "https://www.theglobeandmail.com/canada/article-morning-update-picking-up-where-we-left-off/",
+     "date": "Nov 2, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/ca-trade.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The green steel Ambassador Bridge spanning the Detroit River between Windsor and Detroit.",
+    "caption": "The Ambassador Bridge between Windsor, Ont., and Detroit, a key Canada-U.S. trade crossing, June 2025.",
+    "credit": "Crisco 1492",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Ambassador_Bridge,_Windsor,_Ontario,_2025-06-01.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "ca-clocks",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-02T04:22",
+   "dateLabel": "Nov 1–2, 2026",
+   "headline": "Western Canada didn't fall back: B.C., Alberta, Manitoba, northwestern Ontario and N.W.T. stay on daylight time",
+   "summary": "Clocks did not change on Sunday across British Columbia, Alberta, Manitoba, northwestern Ontario and the Northwest Territories, which chose year-round daylight time. Mornings will be darker: by late December the sun won't rise until about 9:30 a.m. in Winnipeg and 9:50 a.m. in Edmonton. The Canada Border Services Agency shifted hours at 26 land crossings to match U.S. states, Lloydminster no longer has to juggle two times, and schools and ski hills are adjusting; airlines and phone carriers say operations are normal.",
+   "why": "Much of Canada is now on a different clock relationship with the U.S. and the rest of the country, which matters for travel, cross-border business and scheduling.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Some Western Canadians adjusting to time differences, despite clocks not changing (The Canadian Press)",
+     "site": "CBC News",
+     "href": "https://www.cbc.ca/news/canada/manitoba/winnipeg-western-canada-time-changes-9.7404900",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "In the news today: clocks stay put, trade deal nears, Michigan race to watch (The Canadian Press)",
+     "site": "Winnipeg Free Press",
+     "href": "https://www.winnipegfreepress.com/canada/2026/11/02/in-the-news-today-clocks-stay-put-trade-deal-nears-michigan-race-to-watch",
+     "date": "Nov 2, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/ca-clocks.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Calgary downtown skyline seen across the Bow River.",
+    "caption": "Calgary skyline from the river, 2022.",
+    "credit": "Mule hollandaise",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Calgary_Skyline_from_the_river.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "ca-chogm",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-02T04:00",
+   "dateLabel": "Nov 2, 2026",
+   "headline": "Carney heads to Antigua for the Commonwealth summit as its chief pitches the bloc as an alternative to U.S. trade",
+   "summary": "Prime Minister Mark Carney leaves Monday for his first Commonwealth Heads of Government Meeting in St. John's, Antigua and Barbuda, where King Charles presides over ceremonies on Tuesday. Secretary-General Shirley Botchwey told CBC that all 56 members 'had been slapped with tariffs' and that intra-Commonwealth trade, about $900 billion, should more than double. Canadian officials say Canada does about $100 billion a year in trade with Commonwealth partners. Carney is expected back in Ottawa after Tuesday to prepare Thursday's federal budget.",
+   "why": "It is part of Carney's push to diversify trade away from the U.S., and it overlaps with U.S. Election Day.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Commonwealth secretary-general pitches group as 'alternative' to U.S. trade",
+     "site": "CBC News",
+     "href": "https://www.cbc.ca/news/politics/carney-commonwealth-heads-of-government-meeting-antigua-and-barbuda-9.7404765",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "Prime Minister Carney to attend Commonwealth Heads of Government Meeting",
+     "site": "Prime Minister of Canada",
+     "href": "https://www.pm.gc.ca/en/news/news-releases/2026/10/28/prime-minister-carney-attend-commonwealth-heads-government-meeting",
+     "date": "Oct 28, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/ca-chogm.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The low white Parliament building of Antigua and Barbuda in St. John's, behind a gate.",
+    "caption": "Parliament of Antigua and Barbuda in St. John's, 2014.",
+    "credit": "Jeffrey Beall",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Parliament_of_Antigua_and_Barbuda.JPG",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "ca-jails",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-02T04:00",
+   "dateLabel": "Nov 2, 2026",
+   "headline": "Ontario drops its minimum sleeping-space rule for jails; civil liberties groups want it back",
+   "summary": "Ontario amended its Building Code last month to remove a requirement of at least 4.7 square metres of sleeping area per person in provincial adult jails. The Solicitor General's office says the change aligns with the National Building Code and helps add more than 2,500 permanent jail spaces; it says the old rule blocked adding a top bunk to an eight-square-metre cell. The Canadian Civil Liberties Association and Elizabeth Fry Societies say it was made without consultation and will normalize double and triple bunking, with northern jails such as Thunder Bay's hit hardest.",
+   "why": "Most people in Ontario's provincial jails are awaiting trial, and courts have criticized overcrowding there.",
+   "label": "Fact + opinion",
+   "sources": [
+    {
+     "title": "Ontario government criticized for removing minimum sleeping area rules in jails",
+     "site": "CBC News",
+     "href": "https://www.cbc.ca/news/canada/thunder-bay/ontario-jails-sleeping-area-requirements-9.7403068",
+     "date": "Nov 2, 2026"
+    }
+   ]
+  },
+  {
+   "id": "hk-visit",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-01T23:16",
+   "dateLabel": "Nov 2, 2026 (HKT)",
+   "headline": "John Lee heads to Beijing and Shanghai for an economic symposium and the China International Import Expo",
+   "summary": "Chief Executive John Lee leaves Tuesday for the 29th Beijing-Hong Kong Economic Cooperation Symposium, where he will speak at Wednesday's opening, and meets Beijing officials. He then goes to Shanghai for Thursday's opening of the ninth China International Import Expo and the Hongqiao forum, visits the Hong Kong exhibition area and returns Friday. Chief Secretary Chan Kwok-ki will be Acting Chief Executive.",
+   "why": "The trip ties Hong Kong's economic plans to Beijing's next five-year plan, which shapes funding and policy for the city.",
+   "label": "Fact (government statement)",
+   "sources": [
+    {
+     "title": "CE to visit Beijing, Shanghai",
+     "site": "news.gov.hk (HKSAR Government)",
+     "href": "https://www.news.gov.hk/eng/2026/11/20261102/20261102_121618_093.html",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "HKSAR Government press releases, Nov 2, 2026",
+     "site": "info.gov.hk",
+     "href": "https://www.info.gov.hk/gia/general/202611/02.htm",
+     "date": "Nov 2, 2026"
+    }
+   ]
+  },
+  {
+   "id": "hk-repairs",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-02T04:25",
+   "dateLabel": "Updated Nov 2, 2026 (reforms announced last week)",
+   "headline": "Homeowners to get a 'one-stop' liaison officer for major repair projects under post-Tai Po fire reforms",
+   "summary": "Deputy Financial Secretary Michael Wong, acting housing secretary, told a Legislative Council panel that each major estate maintenance project will get a liaison officer to handle owners' questions and complaints. The Housing Bureau's Independent Checking Unit is being replaced this month by a Public Housing Building Control Section with project teams. Wong said AI will be used to flag anomalies in documents, but people will make final decisions.",
+   "why": "The reforms respond to the Wang Fuk Court fire, which killed 168 people last year, and affect anyone living in a block facing major repairs.",
+   "label": "Fact (proposal)",
+   "note": "Ongoing: the reform package and inquiry report were in Edition 1 and the Evening Edition (Nov 1).",
+   "sources": [
+    {
+     "title": "Govt pledges 'one-stop liaison service' for homeowners",
+     "site": "RTHK",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1876244-20261102.htm",
+     "date": "Nov 2, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/hk-repairs.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Tall residential towers of Wang Fuk Court in Tai Po.",
+    "caption": "Wang Fuk Court in Tai Po, pictured in 2009.",
+    "credit": "WiNG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Wang_Fuk_Court.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "hk-visitors",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-11-02T05:02",
+   "dateLabel": "Oct 30–Nov 1, 2026 (reported Nov 2)",
+   "headline": "About 600,000 visitors over the Halloween weekend, up 34%, with record crossings at Huanggang",
+   "summary": "Chief Secretary Chan Kwok-ki said about 600,000 visitors arrived Friday through Sunday, about 470,000 from the mainland and 130,000 from elsewhere, up 34% from a year earlier. More than 150,000 people a day crossed at the Lok Ma Chau–Huanggang control point on both Saturday and Sunday, a record, and more than 20,000 left through it between midnight and 2 a.m. on Nov 1. He said bar takings were up 30–50% over the past two weekends and the Wine & Dine Festival drew 171,000 visits.",
+   "why": "Tourism and spending are key to Hong Kong's recovery, and the crowds test cross-border transport.",
+   "label": "Fact (government figures)",
+   "sources": [
+    {
+     "title": "過去三日訪港旅客約60萬人次按年升34% (in Chinese)",
+     "site": "RTHK",
+     "href": "https://news.rthk.hk/rthk/ch/component/k2/1876260-20261102.htm",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "Chan Kwok-ki: 600,000 visitor arrivals to Hong Kong in the past three days",
+     "site": "GMT Eight",
+     "href": "https://www.gmt8press.com/content/detail/447320",
+     "date": "Nov 2, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/hk-visitors.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The new Huanggang Port building lit up in the early morning.",
+    "caption": "The new Huanggang Port, Shenzhen side of the Lok Ma Chau crossing, Aug 2026.",
+    "credit": "Sir1L0n",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:The_New_Huanggang_Port_in_the_Early_Morning_202608.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "hk-ensemble",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-11-02T00:00",
+   "dateLabel": "Nov 2, 2026 (HKT)",
+   "headline": "HKMA lets banks settle tokenised deposits around the clock in tokenised central-bank money",
+   "summary": "The Hong Kong Monetary Authority said Ensemble TX, the pilot of its Project Ensemble, now supports 24/7 interbank settlement of tokenised-deposit transactions in tokenised central bank money, replacing settlement through the regular HKD interbank system. Participation grew to 12 banks, including HSBC, Standard Chartered and Bank of China (Hong Kong), and 20 firms such as BlackRock and Ant International. The SFC said it enables round-the-clock corporate treasury and tokenised-fund trading.",
+   "why": "It is a step toward money moving outside banking hours, part of Hong Kong's bid to lead in tokenised finance during FinTech Week.",
+   "label": "Fact (official statement)",
+   "sources": [
+    {
+     "title": "HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money",
+     "site": "Hong Kong Monetary Authority",
+     "href": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-5/",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "HKSAR Government press releases, Nov 2, 2026",
+     "site": "info.gov.hk",
+     "href": "https://www.info.gov.hk/gia/general/202611/02.htm",
+     "date": "Nov 2, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/hk-ensemble.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Two International Finance Centre towering over Central, Hong Kong.",
+    "caption": "Two International Finance Centre, home of the HKMA offices, 2008.",
+    "credit": "WiNG",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:HK_International_Finance_Centre_200809.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "cn-pboc",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-02T01:42",
+   "dateLabel": "Nov 2, 2026",
+   "headline": "China's central bank switches its main policy rate to an overnight rate at 1.25%",
+   "summary": "The People's Bank of China injected 541 billion yuan through overnight reverse repos at 1.25% on Monday, the first operation under a new framework that makes the overnight rate its main policy rate instead of the seven-day rate. It will run overnight operations every working day. Analysts quoted by Reuters said it works like a targeted 15-basis-point cut for financial institutions, though Citi called it a 'mark-to-market adjustment' and does not expect a loan prime rate cut in November.",
+   "why": "It changes how China signals borrowing costs, and it comes as credit worries at state developer Zhuhai Huafa have rattled bond markets.",
+   "label": "Fact + analysis",
+   "sources": [
+    {
+     "title": "China's shift to new policy rate signals easier funding conditions (Reuters)",
+     "site": "Investing.com",
+     "href": "https://www.investing.com/news/economy-news/chinas-shift-to-new-policy-rate-signals-easier-funding-conditions-4989818",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "China Shifts Main Policy Rate to Overnight Reverse Repo Rate",
+     "site": "Caixin Global (may be paywalled)",
+     "href": "https://www.caixinglobal.com/2026-11-02/china-shifts-main-policy-rate-to-overnight-reverse-repo-rate-102499911.html",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "Economic Watch: Chinese central bank shifts policy rate anchor to overnight",
+     "site": "Xinhua (state media)",
+     "href": "https://english.news.cn/20261102/9be8dceda0ee4256bbd9f2226090de6c/c.html",
+     "date": "Nov 2, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/cn-pboc.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The curved stone headquarters of the People's Bank of China in Beijing.",
+    "caption": "People's Bank of China headquarters, Beijing, 2016.",
+    "credit": "Max12Max",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:People%27s_Bank_of_China_Headquarter,_Beijing.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "cn-oman",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-02T01:11",
+   "dateLabel": "Nov 1–2, 2026",
+   "headline": "Oman's sultan makes first-ever state visit to China; joint statement urges U.S.-Iran talks and reopening Hormuz",
+   "summary": "Sultan Haitham bin Tarik held talks with Xi Jinping in Beijing on Monday, the first visit by an Omani sultan in 48 years of diplomatic ties. The two sides signed a currency-swap agreement, 14 memorandums (including AI, BeiDou navigation, space and digital currency) and a protocol on date exports. Their joint statement called on the U.S. and Iran to reach a comprehensive ceasefire, return to the 'Islamabad memorandum' and restore safe navigation through the Strait of Hormuz.",
+   "why": "China is Oman's biggest trading partner, and Oman is a key mediator in the Iran war that is choking Gulf oil shipping.",
+   "label": "Fact (official statements)",
+   "sources": [
+    {
+     "title": "Joint statement from Oman and China",
+     "site": "Oman Ministry of Foreign Affairs",
+     "href": "https://www.fm.gov.om/en/63242/",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "HM the Sultan, Chinese President preside over signing of agreement, 14 MoUs, and cooperation protocol",
+     "site": "Times of Oman (ONA)",
+     "href": "https://timesofoman.com/article/178655-hm-the-sultan-chinese-president-preside-over-signing-of-agreement-14-mous-and-cooperation-protocol",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "Xi holds talks with Sultan of Oman",
+     "site": "gov.cn (Xinhua, state media)",
+     "href": "https://english.www.gov.cn/news/202611/02/content_WS6ae8297dc6d00ca5f9a0e062.html",
+     "date": "Nov 2, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/cn-oman.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Great Hall of the People in Beijing seen across Tiananmen Square.",
+    "caption": "The Great Hall of the People, Beijing, June 2021.",
+    "credit": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_Hall_of_the_People_(20210619085952).jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "cn-wic",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-02T06:10",
+   "dateLabel": "Nov 2–5, 2026",
+   "headline": "World Internet Conference opens in Wuzhen with 100+ kinds of 'embodied AI' robots on show",
+   "summary": "The 2026 World Internet Conference Wuzhen Summit runs Nov 2–5 in Zhejiang province. Its 'Light of Internet' expo opened Monday with more than 1,000 products from 671 companies in 54 countries and regions, including satellite internet and 6G technology and over 100 types of robots for factories, health care and elder care, according to CCTV as reported by the UAE's WAM. The main opening forum is scheduled for Tuesday.",
+   "why": "It is China's showcase for its tech industry and its push to shape global internet and AI rules.",
+   "label": "Fact (state media)",
+   "note": "Exhibit figures come from Chinese state broadcaster CCTV, relayed by the UAE state news agency WAM.",
+   "sources": [
+    {
+     "title": "2026 World Internet Conference kicks off in east China's Wuzhen",
+     "site": "Emirates News Agency (WAM, citing CCTV)",
+     "href": "https://www.wam.ae/en/article/c31xc4d-2026-world-internet-conference-kicks-off-east",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "11月2日新闻早知道 (in Chinese)",
+     "site": "Beijing Daily (state media)",
+     "href": "https://xinwen.bjd.com.cn/content/s6ae7cf42e4b0e42f8f0257fd.html",
+     "date": "Nov 2, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/cn-wic.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Lantern-lit canals and old wooden buildings in Wuzhen at night.",
+    "caption": "Wuzhen water town, Zhejiang, at night, Oct 2025.",
+    "credit": "Nico le terrible",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Wuzhen_by_night_2.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "cn-u17",
+   "region": "cn",
+   "topic": "sports",
+   "ts": "2026-11-01T16:21",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "China's best-ever run at the U-17 Women's World Cup ends with a late 2-1 loss to Brazil",
+   "summary": "Wu Yichen gave China a 42nd-minute lead in the quarterfinal in Morocco, but Brazil's Helena equalized a minute after halftime and scored the winner in the 88th minute. China had won all three group games, including 3-2 against the United States, and beat France on penalties for its first quarterfinal. Brazil plays Nigeria in Wednesday's semifinal; Japan meets North Korea in the other.",
+   "why": "It is the furthest a Chinese team has gone at this tournament, a sign of progress for its youth women's program.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "China bows out of U-17 Women's World Cup after Brazil comeback",
+     "site": "Xinhua (state media)",
+     "href": "https://english.news.cn/20261102/e9f19699d43f4606ba6ee5d077965cfd/c.html",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "Brasil vira no fim sobre a China e garante vaga na semifinal da Copa sub-17 (in Portuguese)",
+     "site": "UOL",
+     "href": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/01/brasil-x-china-quartas-de-final-copa-do-mundo-feminina-sub-17.ghtm",
+     "date": "Nov 1, 2026"
+    }
+   ]
+  },
+  {
+   "id": "w-hormuz",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-02T06:48",
+   "dateLabel": "Updated Nov 2, 2026 (talks ongoing since late Oct)",
+   "headline": "Iran says it could reopen the Strait of Hormuz within two days if the U.S. meets its conditions",
+   "summary": "Foreign Ministry spokesman Esmaeil Baghaei said Monday the two-day timeline, down from seven days proposed in September, shows 'good faith', but 'everything depends' on Washington. Iran's conditions include ending the war on all fronts, unfreezing assets, lifting oil sanctions and ending the U.S. naval blockade; Foreign Minister Abbas Araghchi added more demands. A deputy foreign minister went to Doha to help draft a preliminary agreement with Qatar mediating. Trump has said there will be no new strikes before the U.S. vote but has not ruled them out afterward. No deal has been announced.",
+   "why": "Hormuz carries a large share of the world's oil and gas; its closure has pushed up fuel and energy prices worldwide.",
+   "label": "Fact",
+   "note": "Ongoing: the Qatar-mediated talks were in Edition 1 (Nov 1). Iran's offer is conditional and unverified.",
+   "sources": [
+    {
+     "title": "Iran says it can reopen Hormuz in two days if US meets conditions",
+     "site": "Euronews",
+     "href": "https://www.euronews.com/2026/11/02/iran-says-it-can-reopen-hormuz-in-two-days-if-us-meets-conditions",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "Iran says Strait of Hormuz could reopen within two days if US meets its demands (Reuters)",
+     "site": "Arab News",
+     "href": "https://www.arabnews.com/middle-east/iran-says-strait-of-hormuz-could-reopen-within-two-days-if-us-meets-its-demands-3009389",
+     "date": "Nov 2, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/w-hormuz.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Satellite view of the Strait of Hormuz between Iran and the Musandam Peninsula.",
+    "caption": "The Strait of Hormuz seen by NASA’s MODIS satellite instrument, Dec 2020.",
+    "credit": "NASA GSFC (MODIS Land Rapid Response Team)",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "w-binance",
+   "region": "world",
+   "topic": "business",
+   "ts": "2026-11-02T01:10",
+   "dateLabel": "Hack Oct 29; updated Nov 1–2, 2026",
+   "headline": "Binance reopens withdrawals after a $6B+ hack the FBI blames on North Korea; $3.6B net outflow on day one",
+   "summary": "The world's largest crypto exchange resumed withdrawals in phases on Sunday after more than $6 billion in assets were stolen around Oct. 29, thought to be the biggest crypto theft ever. The FBI said North Korea's 'TraderTraitor' group was responsible; Trump said 'we don't know if it's North Korea'. Binance said it processed $4.65 billion in withdrawals and $1.01 billion in deposits Sunday, a $3.64 billion net outflow (about 2.1% of assets), and that it has replenished 90% of the stolen tokens with company funds and will cover the rest.",
+   "why": "A run on the biggest exchange tests confidence in crypto markets, and the theft would be a major source of money for sanctioned North Korea.",
+   "label": "Fact + allegation",
+   "note": "North Korea's role is the FBI's attribution, not a court finding.",
+   "sources": [
+    {
+     "title": "Binance resumes withdrawals after billions stolen in hack",
+     "site": "Euronews",
+     "href": "https://www.euronews.com/2026/11/02/binance-resumes-withdrawals-after-billions-stolen-in-hack",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "Binance resumes withdrawals for some major cryptocurrencies after $6 billion heist",
+     "site": "CBS News (AFP)",
+     "href": "https://www.cbsnews.com/news/binance-crypto-heist-withdrawals/",
+     "date": "Nov 1, 2026"
+    }
+   ]
+  },
+  {
+   "id": "w-belgium",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-02T05:50",
+   "dateLabel": "Nov 2, 2026",
+   "headline": "Belgian PM Bart De Wever offers his resignation after budget talks collapse; the king holds off",
+   "summary": "De Wever went to the palace Monday after his five-party 'Arizona' coalition failed overnight to agree how to find about €10 billion in savings for 2027. King Philippe took the resignation 'under consideration', will consult coalition party leaders from Tuesday and meets De Wever again Friday, urging compromise. The split is left-right: Vooruit, CD&V and Les Engagés want more from higher earners; N-VA and MR want spending cuts. Belgium's deficit was 5% of GDP last year, above the EU's 3% limit.",
+   "why": "A government collapse could mean emergency monthly budgets or new elections in a country that hosts the EU and NATO.",
+   "label": "Fact",
+   "note": "What happens if the king accepts is unclear: Euronews says new elections would follow; VRT says a new majority could in principle be formed without them.",
+   "sources": [
+    {
+     "title": "Belgium's king considering PM Bart De Wever's resignation after budget talks fail",
+     "site": "Euronews",
+     "href": "https://www.euronews.com/2026/11/02/belgiums-pm-bart-de-wever-to-offer-resignation-to-king-after-overnight-budget-talks-fail",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "Prime Minister Bart De Wever offers King Filip his resignation",
+     "site": "VRT NWS",
+     "href": "https://www.vrt.be/vrtnws/en/2026/11/02/prime-minister-de-wever-offers-resignation-to-king-filip/",
+     "date": "Nov 2, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/w-belgium.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Bart De Wever shaking hands with Ursula von der Leyen in front of Belgian and EU flags.",
+    "caption": "Bart De Wever with European Commission President Ursula von der Leyen, March 2025.",
+    "credit": "Dati Bendo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Visit_of_Bart_De_Wever,_Belgian_Prime_Minister,_to_the_European_Commission.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "w-kherson",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-02T05:14",
+   "dateLabel": "Updated Nov 2, 2026 (truce began Oct 27)",
+   "headline": "Russia resumes strikes on Kherson after the war's longest truce ends; alert apps hacked on both sides",
+   "summary": "A local ceasefire in Ukraine's Kherson region that let hundreds of people leave Russian-occupied Oleshky ended Sunday night; a Ukrainian official told AFP Russia refused to extend it. On Monday morning a Russian drone hit a car in Kherson's Korabelny district, wounding two older residents, local authorities said. Ukraine's air-alert app sent fake radiation warnings Sunday night, and Russia said its emergency-warning app suffered a 'massive cyberattack' on Monday. US-mediated talks are due to resume this month.",
+   "why": "The truce was the only real pause in fighting in the full-scale war; its end leaves civilians exposed again as winter power cuts deepen.",
+   "label": "Fact + allegation",
+   "note": "Ongoing: the Oleshky evacuations were in Edition 1 (Nov 1). Claims about who attacked the apps are unverified.",
+   "sources": [
+    {
+     "title": "Russia resumes attacks on Ukraine's Kherson region after truce ends, Kyiv says",
+     "site": "Euronews",
+     "href": "https://www.euronews.com/2026/11/02/russia-resumes-attacks-on-ukraines-kherson-region-after-truce-ends-kyiv-says",
+     "date": "Nov 2, 2026"
+    },
+    {
+     "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+     "site": "BBC News",
+     "href": "https://www.bbc.com/news/articles/c64g1y90p71eo",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/w-kherson.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Aerial view of the ornate red-and-white former city council building in Kherson.",
+    "caption": "The former Kherson city council building, April 2021.",
+    "credit": "Oleksandr Malyon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%91%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA_%D0%BA%D0%BE%D0%BB%D0%B8%D1%88%D0%BD%D1%8C%D0%BE%D1%97_%D0%A5%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%97_%D0%BC%D1%96%D1%81%D1%8C%D0%BA%D0%BE%D1%97_%D0%B4%D1%83%D0%BC%D0%B8_(%D0%BC%D1%83%D1%80.).jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "w-f1",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-01T17:37",
+   "dateLabel": "Nov 1, 2026",
+   "headline": "Kimi Antonelli, 20, becomes F1's youngest world champion as Verstappen wins in Mexico City",
+   "summary": "Mercedes driver Kimi Antonelli clinched the 2026 title by finishing third at the Mexico City Grand Prix, at 20 years and 68 days, breaking Sebastian Vettel's record (23 in 2010). He is the first Italian champion since Alberto Ascari in 1953. Max Verstappen won from fifth on the grid, holding off Lewis Hamilton by 0.8 seconds in a race with a red flag after Valtteri Bottas crashed (he got out unaided) and a late safety car. The season continues in São Paulo on Nov. 6–8.",
+   "why": "It is a new age record for the sport and Italy's first drivers' title in 73 years, with races still to run.",
+   "label": "Fact",
+   "sources": [
+    {
+     "title": "Antonelli crowned youngest ever F1 champion as Verstappen wins eventful Mexico City Grand Prix",
+     "site": "Formula1.com",
+     "href": "https://www.formula1.com/en/latest/article/antonelli-crowned-youngest-ever-f1-champion-as-verstappen-wins-eventful-mexico-city-grand-prix.xpMMeef0KmRURs9IDs3LH",
+     "date": "Nov 1, 2026"
+    },
+    {
+     "title": "Kimi Antonelli becomes youngest ever World Champion with Mexico podium",
+     "site": "Mercedes-AMG PETRONAS F1 Team",
+     "href": "https://www.mercedesamgf1.com/reports/race-report-kimi-antonelli-becomes-youngest-ever-world-champion-with-mexico-podium",
+     "date": "Nov 1, 2026"
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-02-am/w-f1.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Kimi Antonelli in Mercedes race gear standing on his car, celebrating after a race.",
+    "caption": "Kimi Antonelli celebrating after the Chinese Grand Prix, March 2026.",
+    "credit": "Liauzh",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_Mercedes_-_Kimi_Antonelli_-_Post_Race_Celebration.jpg",
+    "isFilePhoto": true
+   }
+  }
+ ]
+}
