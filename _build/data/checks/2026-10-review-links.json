@@ -1,0 +1,667 @@
+{
+ "edition": "2026-10-review",
+ "ranAt": "2026-11-02T10:05:12-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.elections.ab.ca/resources/media/news-releases/2026-10-29-2/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/calgary/alberta-referendum-official-results-9.7401791",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/canada/article-alberta-voters-reject-push-for-separation-referendum-early-results/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:14-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/montreal/parti-quebecois-victory-quebec-election-2026-9.7370571",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/oct/06/election-canada-win-quebec-separatists-parti-quebecois",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/montreal/christine-frechette-future-caq-party-9.7371444",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/politics/article-politics-insider-quebecs-separatist-shakeup/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://thetyee.ca/News/2026/10/24/Eby-Resigns-Conservatives-Sweep-BC-Election/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/british-columbia/bc-conservatives-majority-government-9.7394961",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/british-columbia/livestory/bc-provincial-election-results-live-updates-2026-9.7389208",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/canada/article-five-takeaways-from-bcs-election/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:15-05:00"
+  },
+  {
+   "url": "https://www.canada.ca/en/department-national-defence/news/2026/10/four-canadian-armed-forces-members-killed-during-training-in-cfb-wainwright.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/chief-of-defence-staff-wainwright-speed-of-fire-9.7393268",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/canada/alberta/article-cfb-wainwright-fire-injured-hospital/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-further-modifies-canadian-products-subject-to-tariffs-under-section-338/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/trump-tariffs-canada-susan-collins-ede51283125c071561178e6455048994",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/politics/article-trump-tariff-removal-susan-collins-canada-maine-midterms/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/politics/2026-election/judge-orders-trump-administration-stop-threatening-election-officials-rcna606659",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/judge-orders-doj-stop-threaten-intimidate-california-election-officials/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://elections.wi.gov/sites/default/files/documents/Order%2C%20SEUI%20et%20al%20v.%20US%20DOJ%20et%20al%20%2826-cv-12800-TLT%29%2C%20Oct.%2030%2C%202026.pdf",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.washingtonpost.com/national-security/2026/10/23/doj-seeks-block-alaska-senate-result-if-republican-incumbent-narrowly-loses/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/politics/trump-administration/rep-ilhan-omar-home-searched-federal-agents-criminal-probe-dhs-rcna602950",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cq98zpk30pd5o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/politics/congress/ilhan-omar-details-federal-search-dc-home-will-move-safety-reasons-rcna604930",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/binance-crypto-hack-north-korea-fbi-883f18140c1e21ce0c38781e72cbe315",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://therecord.media/fbi-blames-tradertraitor-for-binance-hack",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/02/nx-s1-6023424/fbi-says-north-korean-hackers-are-behind-the-theft-of-6-3b-from-binance",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.pbs.org/newshour/show/october-30-2026-pbs-news-hour-full-episode",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/inflation-warsh-interest-rates-federal-reserve-c06793b0c50641444701d5d098ccc2c8",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202610/29/P2026102900481.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.news.gov.hk/eng/2026/10/20261029/20261029_160028_023.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:15-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cr5yn9770pgvo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/hong-kong-fire-housing-b9007997e78bf581663863d50c5002a1",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/opinion/comment/article/3372631/ensure-reform-wake-tai-po-fire-report-delivers-intended-results",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/newsletters/hkfp-monitor-oct-31-2026-top-officials-historic-bow-and-the-legacy-of-ministerial-resignations/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:14-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1873348-20261009.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.news.gov.hk/eng/2026/10/20261009/20261009_193419_428.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:14-05:00"
+  },
+  {
+   "url": "https://www.hko.gov.hk/en/wxinfo/pastwx/mws2026/mws202610.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1876147-20261101.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3372881/el-nino-weak-monsoon-behind-hong-kongs-warmest-october-142-years",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/10/29/70-of-hong-kong-subdivided-flats-register-for-grace-period-under-new-regulatory-system/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202610/28/P2026102800349.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.bhu.gov.hk/eng/regulatory-regime/registration/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:14-05:00"
+  },
+  {
+   "url": "https://english.www.gov.cn/news/202610/29/content_WS6ae348a0c6d00ca5f9a0df80.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:14-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/china-plenum-xi-communist-party-discipline-64e17fadcad51932f5d320cd4a97cc1f",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cq5ynw94k7kzo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/oct/30/china-expels-record-number-communist-party-xi-jinping-purges-officials-fifth-plenum",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/19/chinas-economic-growth-quickens-to-4point6percent-as-exports-surge-stimulus-rolls-out.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/world/asia/china-september-exports-soar-putting-1-trillion-trade-surplus-sight-rcna603410",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cm5yn098xz8lo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/opinion/china-opinion/article/3371208/chinas-export-boom-creates-difficult-bargain-southeast-asia",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/china-earthquake-tibet-be27a2db79ada1c6309914d173b983a8",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/ck5ynd1z6e83o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261024/f1b60483013649f78698627b6e8c5342/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:14-05:00"
+  },
+  {
+   "url": "https://www.mfa.gov.cn/eng/wjb/zzjg%5F663340/yzs_663350/xwlb_663352/202610/t20261025_12046447.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://en.yna.co.kr/view/AEN20261025000353315",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261015/b11751719300425d94bf8d6267f459be/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/south-korea-north-kim-jong-un-china-2459fe49f876ceb0c1c17296c70627f7",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.ssa.gov/news/en/press/releases/2026-10-14.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21796/cost-of-living-increase-and-other-determinations-for-2027",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/health/cancer/bemotrizinol-sunscreen-protection-us-fda-stores-rcna603601",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-expands-sunscreen-options-first-time-20-years",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/bemotrizinol-bemt-new-sunscreen-ingredient-fda-7892cc598c0b553b8c9c6715d7a36d6a",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.canada.ca/en/department-justice/news/2026/10/canada-moves-to-allow-advance-requests-for-maid-with-rigorous-safeguards.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.parl.ca/documentviewer/en/45-1/bill/C-41/first-reading",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/ottawa-maid-legislation-9.7397903",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/politics/article-maid-access-mental-illness-legislation/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.simonandschuster.com/books/Learning-to-Breathe/Clara-Hughes/9781668200759",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/life/article-clara-hughes-learning-to-breathe-memoir-menopause/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/social-buzz/article/345781/Video-Dance-the-fray-away-HK-teen-praised-for-defusing-MTR-outburst-with-a-smile",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.dimsumdaily.hk/mtr-rap-exchange-on-train-as-young-passenger-diffuses-tirade-with-witty-refrain/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.metroradio.com.hk/news/details.aspx?CategoryName=english&NewsId=20261019064116&page=0",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/10/26/cost-barriers-leave-hong-kongs-low-income-elderly-shut-out-of-advance-medical-directives-despite-landmark-law/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:14-05:00"
+  },
+  {
+   "url": "https://www.news.gov.hk/eng/2026/07/20260731/20260731_141254_452.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:14-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/10/01/nx-s1-5984583/half-a-century-after-maos-death-fascination-with-the-communist-leader-is-on-the-rise",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/world/asia/frustrated-slowing-economy-young-chinese-turn-mao-zedong-guidance-rcna601812",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/news/china/politics/article/3366813/young-chinese-turn-mao-zedong-life-advice-50-years-after-his-death",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261009/1cbcf94787a340739a3d94b93cdc1e7d/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://english.www.gov.cn/archive/statistics/202610/09/content_WS6ac8c212c6d00ca5f9a0d95b.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.nobelprize.org/prizes/literature/2026/prize-announcement/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.svenskaakademien.se/nobelpriset/2026",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/culture/article-canada-anne-carson-nobel-prize-literature/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://montrealgazette.com/entertainment-life/music/leonard-cohen-tribute-adam-cohen-everybody-knows/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.leonardcohen.com/everybody-knows-official-tribute-tour-added-date-in-montreal",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/culture/article-leonard-cohen-tributes-10-years-after-his-death/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:14-05:00"
+  },
+  {
+   "url": "https://www.nfl.com/news/jay-z-halftime-show-press-release",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.prnewswire.com/news-releases/global-cultural-icon-jay-z-to-perform-at-apple-music-super-bowl-lxi-halftime-show-302920093.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/patrick-stewart-dies-8b38054ff74d4187a32158d78e345ad7",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/culture/2026/oct/30/sir-patrick-stewart-obituary",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cm20v3029p5xo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.mplus.org.hk/en/press/myths-and-monsters-the-art-of-fantasy-in-asia-opening-this-saturday/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:14-05:00"
+  },
+  {
+   "url": "https://www.mplus.org.hk/en/exhibitions/myths-and-monsters-the-art-of-fantasy-in-asia/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.discoverhongkong.com/eng/events/event.id85883.myths-and-monsters-the-art-of-fantasy-in-asia.html",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/10/12/in-pictures-how-hong-kongs-gen-z-rappers-are-navigating-their-careers-online/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.channelnewsasia.com/east-asia/china-first-ai-film-cinemas-ticket-sales-6485401",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:14-05:00"
+  },
+  {
+   "url": "https://www.cartoonbrew.com/box-office-report/sanxingdui-future-past-week-2-box-office-268831.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://news.cgtn.com/news/2026-10-23/China-s-1st-AI-hyper-realistic-film-Sanxingdui-hits-theaters-1RtsLfSgfSM/p.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/china-mbappe-companies-mao-zedong-837fee251df278d5657894ec226fa069",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/china-mbappe-apology-backlash-mao-zedong-8f70d735c800efac568a32fa7b714574",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cv62yg0erp8zo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/10/28/china-mbappe-football-sponsor-meme-controversy.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  },
+  {
+   "url": "https://www.nytimes.com/2026/10/23/opinion/ilhan-omar-trump-citizenship.html",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.hawaiitribune-herald.com/2026/10/25/opinion/trump-is-turning-to-an-old-tool-of-authoritarian-repression/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.foxnews.com/opinion/gregg-jarrett-tortured-defense-ilhan-omar-new-york-times-reaches-darkest-trump-analogy",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/opinion/article-alberta-separatists-lost-badly-danielle-smith-might-have-lost-worse/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/opinion/article-the-pq-is-back-the-rest-of-canada-will-need-to-brace-for-that/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3371144/tai-po-fire-public-accountability-needed-honour-those-who-died",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-02T10:05:12-05:00"
+  },
+  {
+   "url": "https://www.caixinglobal.com/2026-10-28/commentary-what-chinas-record-trade-surplus-does-and-doesnt-tell-us-102498179.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-02T10:05:13-05:00"
+  }
+ ]
+}

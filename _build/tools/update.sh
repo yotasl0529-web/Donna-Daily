@@ -5,6 +5,8 @@
 #    Older edition files are never edited, so they stay available as past editions.
 #    Photos: put processed files in data/img/<edition-id>/<story-id>.webp and add story.image (README).
 #    The build copies data/img/** to public/img/**, so archived editions keep their photos.
+#    Special editions (data/specials/*.json, e.g. 2026-10-review) are rebuilt on every run and kept;
+#    never edit, move or delete them when writing a daily edition (README: Special editions).
 # 2) Run this script. It link-checks, builds into a temp dir, tests at phone/desktop sizes,
 #    and only then swaps public/ and records the last successful update. On any failure the
 #    previous public/ is left as-is and the script exits non-zero.
