@@ -72,7 +72,118 @@ dl.props{margin:0}dl.props dt{font-size:13px;font-weight:800;text-transform:uppe
 .ph figcaption b{color:var(--red);text-transform:uppercase;letter-spacing:.05em;font-size:11px}
 .ph figcaption a{display:inline-block;padding:14px 0;margin:-14px 0;color:var(--muted)}
 .callout{background:var(--soft);border-left:4px solid var(--red);padding:10px 12px;margin:8px 0}
-@media (min-width:760px){.ph-lead{margin:0 0 12px}.ph-lead figcaption{padding:5px 0 0}.card.has-ph:not(.lead){display:grid;grid-template-columns:240px 1fr;column-gap:16px}.card.has-ph:not(.lead)>.ph{grid-row:1/span 3;margin:4px 0 0}.card.has-ph:not(.lead)>:not(.ph){grid-column:2}}
+/* ---- tablet (760-1023px): two-column story grids. Phones (<760px) are untouched by everything below. ---- */
+@media (min-width:760px){.ph-lead{margin:0 0 12px}.ph-lead figcaption{padding:5px 0 0}}
 @media (min-width:760px){body{font-size:17px}.logo{font-size:44px}.lead h1{font-size:42px}.card h3{font-size:23px}.srcs{grid-template-columns:1fr 1fr}}
+@media (min-width:760px) and (max-width:1023.98px){
+section[data-region-sec]:not(#lead-sec){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;align-items:start}
+section[data-region-sec]>h2.sec{grid-column:1/-1}
+section[data-region-sec]:not(#lead-sec)>.card .srcs{grid-template-columns:1fr}
+.arch{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}}
+/* ---- desktop (>=1024px): tabloid front page ---- */
+.dt-only{display:none}
+@media (min-width:1024px){
+:root{--disp:Impact,Anton,"Haettenschweiler","Arial Narrow Bold","Oswald","Arial Black",sans-serif}
+.dt-only{display:revert}.m-only{display:none}.chip.dt-only{display:inline-flex}
+body{background:#fff}
+.wrap{max-width:1264px;padding:0 32px}
+main .wrap.read{max-width:920px}
+main>.wrap>.note:first-child,main>.wrap>.banner+.note{font-size:14px;color:var(--muted)}
+.mast{border-bottom:0;background:var(--red);background-image:linear-gradient(180deg,rgba(255,255,255,.06),rgba(0,0,0,.08))}
+.mast .wrap{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px;padding-top:18px;padding-bottom:16px}
+.mside{font-size:13px;line-height:1.45;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.mside b{display:block;font-size:15px;letter-spacing:.04em}.mside .upd{display:block;opacity:.9;font-weight:600}
+.logo{font-size:82px;letter-spacing:-3px;line-height:.95;text-align:center;white-space:nowrap;text-shadow:0 3px 0 rgba(0,0,0,.18)}
+.logo span{padding:0 10px;margin-left:8px;text-shadow:none}
+.logo:hover span{background:var(--ink);color:#fff}
+.tag{font-size:13px;line-height:1.45}.tag:after{content:"Verified · Sourced · Labelled";display:block;opacity:.85;font-weight:600;margin-top:2px}
+.strap{display:none}
+nav.chips{position:sticky;top:0;z-index:20;background:var(--ink);border-bottom:5px solid var(--red);box-shadow:0 2px 8px rgba(0,0,0,.18)}
+nav.chips .wrap{gap:0;padding-top:0;padding-bottom:0;flex-wrap:nowrap}
+.chip{min-height:50px;padding:0 20px;border:0;border-radius:0;background:transparent;color:#fff;font:800 15px/1 -apple-system,"Helvetica Neue",Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em}
+.chip:hover,.chip:focus-visible,.chip[aria-pressed=true]{background:var(--red);color:#fff}
+.chip:active{background:#8f0b20}
+.chip.red{color:#fff;margin-left:auto;background:#2a2a2a}.chip.red:hover{background:var(--red)}
+h2.sec{font:400 32px/1 var(--disp);text-transform:uppercase;letter-spacing:.5px;margin:40px 0 14px;padding:0 0 8px;border-top:0;border-bottom:4px solid var(--red);display:flex;align-items:center;scroll-margin-top:70px}
+h2.sec:before{content:"";flex:0 0 auto;width:12px;height:26px;background:var(--red);margin-right:10px}
+h2.sec .count{margin-left:auto;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+.card{scroll-margin-top:70px}
+.banner{margin-top:20px}
+.top{display:grid;grid-template-columns:minmax(0,1fr) 340px;grid-template-rows:auto 1fr;column-gap:36px;margin-top:24px;align-items:start}
+.top>#lead-sec{grid-column:1;grid-row:1/span 2}
+.top>.rail{grid-column:2;grid-row:1}
+.top>#latest{grid-column:2;grid-row:2}
+.top>.tools,.top>.empty{grid-column:1/-1}
+.lead{margin:0;padding:0;border-bottom:0;display:flex;flex-direction:column}
+.lead>.kicker{order:-2;align-self:flex-start}.lead>h1{order:-1}.lead>.ph{margin-bottom:12px}
+.lead .ph img{border-bottom-width:8px}
+.lead .kicker{background:var(--red);color:#fff;padding:5px 9px;margin-top:4px}
+.lead h1{font:400 44px/1.02 var(--disp);text-transform:uppercase;letter-spacing:.2px;margin:10px 0 14px;transition:color .15s}
+.lead:hover h1{color:var(--red)}
+.lead>p{font-size:18px;line-height:1.6}
+.rail h2.sec,#latest h2.sec{margin-top:0;font-size:26px}
+.rail ol{list-style:none;margin:0;padding:0}
+.rail li{border-bottom:1px solid var(--rule)}.rail li:last-child{border-bottom:0}
+.rail a{display:grid;grid-template-columns:128px 1fr;gap:12px;padding:10px 0;text-decoration:none;align-items:start}
+.rail .th{display:block;width:128px;height:72px;object-fit:cover;background:#ddd;border-bottom:3px solid var(--red)}
+.rail .nt{display:flex;align-items:center;justify-content:center;width:128px;height:72px;background:var(--ink);color:#fff;font:400 30px/1 var(--disp);border-bottom:3px solid var(--red)}
+.rail .k{display:block;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--red);margin-bottom:3px}
+.rail .h{display:block;font-weight:800;font-size:16px;line-height:1.25}
+.rail .pc{font-size:11px;color:var(--muted);margin:4px 0 0}
+.rail a:hover .h,.latest a:hover .h{color:var(--red);text-decoration:underline;text-decoration-thickness:2px}
+.rail a:hover .th{filter:saturate(1.2) brightness(1.05)}
+#latest{margin-top:22px}
+.latest{counter-reset:n;margin:0}
+.latest li{counter-increment:n}
+.latest a{display:grid;grid-template-columns:38px 1fr;column-gap:6px;padding:9px 0;min-height:0}
+.latest a:before{content:counter(n);grid-row:1/span 2;font:400 30px/1 var(--disp);color:var(--red)}
+.latest a>div{grid-column:2}.latest .h{font-size:16px;line-height:1.25}
+.js .tools{display:grid}
+.tools{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr) auto;grid-template-rows:auto auto;column-gap:18px;align-items:end;margin:32px 0 0;border:0;border-top:4px solid var(--ink);border-radius:0;background:var(--soft);padding:14px 18px 16px}
+.tools>label{grid-column:1;grid-row:1}.tools>#q{grid-column:1;grid-row:2}
+.tools .row{grid-column:2;grid-row:1/span 2;margin-top:0}
+.tools .status{grid-column:3;grid-row:1/span 2;margin:0;align-self:end;min-height:48px}
+section[data-region-sec]:not(#lead-sec){display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:28px;align-items:start;grid-auto-flow:row dense}
+section[data-region-sec]>h2.sec{grid-column:1/-1}
+section[data-region-sec]:not(#lead-sec)>.card{border-bottom:0;padding:0 0 30px}
+section[data-region-sec]:not(#lead-sec)>.card:first-of-type{grid-column:span 2}
+section[data-region-sec]:not(#lead-sec)>.card:first-of-type h3{font:400 36px/1.05 var(--disp);letter-spacing:.2px;text-transform:uppercase}
+section[data-region-sec]:not(#lead-sec)>.card:first-of-type .ph img{border-bottom-width:6px}
+section[data-region-sec]:not(#lead-sec)>.card h3{font-size:20px;line-height:1.22;transition:color .15s}
+section[data-region-sec]:not(#lead-sec)>.card:hover h3{color:var(--red)}
+.card .ph img{transition:filter .2s}.card:hover .ph img{filter:saturate(1.2) brightness(1.04)}
+section[data-region-sec]:not(#lead-sec)>.card p{font-size:16px;line-height:1.5}
+section[data-region-sec]:not(#lead-sec)>.card .why{font-size:15px;line-height:1.45}
+section[data-region-sec]:not(#lead-sec)>.card .srcs,section[data-region-sec]:not(#lead-sec)>.card:first-of-type .srcs{grid-template-columns:1fr;gap:4px}
+section[data-region-sec]:not(#lead-sec)>.card:first-of-type .srcs{grid-template-columns:1fr 1fr}
+.card:not(.lead) .srcs a{min-height:36px;padding:6px 10px;border-radius:6px}
+.card:not(.lead) .srcs .t{font-size:14px}.card:not(.lead) .srcs .s{font-size:12px}
+.srcs a:hover{border-color:var(--red);background:#fff7f7}.srcs a:hover .t{color:var(--red)}
+.ph figcaption{font-size:11px}
+.arch{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.arch a{margin:0;transition:border-color .15s,color .15s}.arch a:hover{border-color:var(--red);color:var(--red)}
+details.guide{max-width:860px}
+footer{background:var(--ink);color:#c9c9c9;border-top:6px solid var(--red);margin-top:24px;padding:24px 0 48px}
+footer b{color:#fff}footer a{color:#fff}footer a:hover{color:#ff8a9a}
+}
+@media (min-width:1200px){
+section[data-region-sec]:not(#lead-sec){grid-template-columns:repeat(4,minmax(0,1fr))}
+.lead h1{font-size:50px}
+}
+/* fill the last grid row so a section never ends with one lonely card (data-n = cards excluding the lead) */
+@media (min-width:1024px) and (max-width:1199.98px){
+.chip{padding:0 13px;font-size:14px;letter-spacing:.05em}
+section[data-region-sec][data-n="1"]>.card:first-of-type,section[data-region-sec][data-n="3"]>.card:last-of-type,section[data-region-sec][data-n="5"]>.card:last-of-type{grid-column:1/-1}
+section[data-region-sec][data-n="1"]>.card:first-of-type.has-ph,section[data-region-sec][data-n="3"]>.card:last-of-type.has-ph,section[data-region-sec][data-n="5"]>.card:last-of-type.has-ph{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);column-gap:28px}
+section[data-region-sec][data-n="1"]>.card:first-of-type.has-ph>.ph,section[data-region-sec][data-n="3"]>.card:last-of-type.has-ph>.ph,section[data-region-sec][data-n="5"]>.card:last-of-type.has-ph>.ph{grid-column:1;grid-row:1/span 6;margin:0}
+section[data-region-sec][data-n="1"]>.card:first-of-type.has-ph>:not(.ph),section[data-region-sec][data-n="3"]>.card:last-of-type.has-ph>:not(.ph),section[data-region-sec][data-n="5"]>.card:last-of-type.has-ph>:not(.ph){grid-column:2}
+}
+@media (min-width:1200px){
+section[data-region-sec][data-n="1"]>.card:first-of-type,section[data-region-sec][data-n="4"]>.card:last-of-type{grid-column:1/-1}
+section[data-region-sec][data-n="1"]>.card:first-of-type.has-ph,section[data-region-sec][data-n="4"]>.card:last-of-type.has-ph{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);column-gap:28px}
+section[data-region-sec][data-n="1"]>.card:first-of-type.has-ph>.ph,section[data-region-sec][data-n="4"]>.card:last-of-type.has-ph>.ph{grid-column:1;grid-row:1/span 6;margin:0}
+section[data-region-sec][data-n="1"]>.card:first-of-type.has-ph>:not(.ph),section[data-region-sec][data-n="4"]>.card:last-of-type.has-ph>:not(.ph){grid-column:2}
+section[data-region-sec][data-n="2"]>.card:first-of-type{grid-column:span 3}
+section[data-region-sec][data-n="5"]>.card:nth-of-type(4),section[data-region-sec][data-n="5"]>.card:nth-of-type(5){grid-column:span 2}
+}
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
-</style></head><body><a class="skip" href="#main">Skip to stories</a><header class="mast"><div class="wrap"><a class="logo" href="../index.html">Donna<span>Daily</span></a><div class="tag">US · Canada<br>HK · China · World</div></div></header><div class="strap"><div class="wrap"><b>Past editions</b><span class="upd">Last successful update: Sun, Nov 1, 2026, 6:21 PM EST</span></div></div><nav class="chips"><div class="wrap"><a class="chip" href="../index.html">Today's edition</a></div></nav><main id="main"><div class="wrap"><h2 class="sec">Today</h2><ul class="arch"><li><a href="../index.html"><span class="t">Evening Edition — Sun, Nov 1, 2026</span><span class="s">24 stories · current</span></a></li></ul><h2 class="sec">Earlier</h2><ul class="arch"><li><a href="2026-11-01-ed1.html"><span class="t">Edition 1 (trial) — Sun, Nov 1, 2026</span><span class="s">25 stories</span></a></li><li><a href="2026-11-01-brief.html"><span class="t">Headlines you need to know — Sun, Nov 1, 2026</span><span class="s">Earlier brief (snapshot)</span></a></li><li><a href="2026-10-29-brief.html"><span class="t">Headlines you need to know — Thu, Oct 29, 2026</span><span class="s">Earlier brief (snapshot)</span></a></li></ul></div></main><footer><div class="wrap"><p><b>Donna Daily</b> is a personal news digest for Derek, compiled by Donna (Grok Bot). Summaries are original; follow the source links for full reporting. Some sources (e.g. SCMP) may be paywalled.</p><p>Last successful update: Sun, Nov 1, 2026, 6:21 PM EST. <a href="../editions/index.html">Past editions</a></p></div></footer></body></html>
+</style></head><body><a class="skip" href="#main">Skip to stories</a><header class="mast"><div class="wrap"><div class="mside dt-only"><b>Past editions</b><span class="upd">Last successful update: Sun, Nov 1, 2026, 8:22 PM EST</span></div><a class="logo" href="../index.html">Donna<span>Daily</span></a><div class="tag">US · Canada<br>HK · China · World</div></div></header><div class="strap"><div class="wrap"><b>Past editions</b><span class="upd">Last successful update: Sun, Nov 1, 2026, 8:22 PM EST</span></div></div><nav class="chips" aria-label="Sections"><div class="wrap"><a class="chip" href="../index.html">Today's edition</a><a class="chip dt-only" href="../index.html?region=us#region-us">US</a><a class="chip dt-only" href="../index.html?region=ca#region-ca">Canada</a><a class="chip dt-only" href="../index.html?region=hk#region-hk">Hong Kong</a><a class="chip dt-only" href="../index.html?region=cn#region-cn">China</a><a class="chip dt-only" href="../index.html?region=world#region-world">World</a><a class="chip dt-only" href="../index.html?topic=sports">Sports</a></div></nav><main id="main"><div class="wrap read"><h2 class="sec">Today</h2><ul class="arch"><li><a href="../index.html"><span class="t">Evening Edition — Sun, Nov 1, 2026</span><span class="s">24 stories · current</span></a></li></ul><h2 class="sec">Earlier</h2><ul class="arch"><li><a href="2026-11-01-ed1.html"><span class="t">Edition 1 (trial) — Sun, Nov 1, 2026</span><span class="s">25 stories</span></a></li><li><a href="2026-11-01-brief.html"><span class="t">Headlines you need to know — Sun, Nov 1, 2026</span><span class="s">Earlier brief (snapshot)</span></a></li><li><a href="2026-10-29-brief.html"><span class="t">Headlines you need to know — Thu, Oct 29, 2026</span><span class="s">Earlier brief (snapshot)</span></a></li></ul></div></main><footer><div class="wrap"><p><b>Donna Daily</b> is a personal news digest for Derek, compiled by Donna (Grok Bot). Summaries are original; follow the source links for full reporting. Some sources (e.g. SCMP) may be paywalled.</p><p>Last successful update: Sun, Nov 1, 2026, 8:22 PM EST. <a href="../editions/index.html">Past editions</a></p></div></footer></body></html>

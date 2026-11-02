@@ -127,8 +127,119 @@ dl.props{margin:0}dl.props dt{font-size:13px;font-weight:800;text-transform:uppe
 .ph figcaption b{color:var(--red);text-transform:uppercase;letter-spacing:.05em;font-size:11px}
 .ph figcaption a{display:inline-block;padding:14px 0;margin:-14px 0;color:var(--muted)}
 .callout{background:var(--soft);border-left:4px solid var(--red);padding:10px 12px;margin:8px 0}
-@media (min-width:760px){.ph-lead{margin:0 0 12px}.ph-lead figcaption{padding:5px 0 0}.card.has-ph:not(.lead){display:grid;grid-template-columns:240px 1fr;column-gap:16px}.card.has-ph:not(.lead)>.ph{grid-row:1/span 3;margin:4px 0 0}.card.has-ph:not(.lead)>:not(.ph){grid-column:2}}
+/* ---- tablet (760-1023px): two-column story grids. Phones (<760px) are untouched by everything below. ---- */
+@media (min-width:760px){.ph-lead{margin:0 0 12px}.ph-lead figcaption{padding:5px 0 0}}
 @media (min-width:760px){body{font-size:17px}.logo{font-size:44px}.lead h1{font-size:42px}.card h3{font-size:23px}.srcs{grid-template-columns:1fr 1fr}}
+@media (min-width:760px) and (max-width:1023.98px){
+section[data-region-sec]:not(#lead-sec){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;align-items:start}
+section[data-region-sec]>h2.sec{grid-column:1/-1}
+section[data-region-sec]:not(#lead-sec)>.card .srcs{grid-template-columns:1fr}
+.arch{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}}
+/* ---- desktop (>=1024px): tabloid front page ---- */
+.dt-only{display:none}
+@media (min-width:1024px){
+:root{--disp:Impact,Anton,"Haettenschweiler","Arial Narrow Bold","Oswald","Arial Black",sans-serif}
+.dt-only{display:revert}.m-only{display:none}.chip.dt-only{display:inline-flex}
+body{background:#fff}
+.wrap{max-width:1264px;padding:0 32px}
+main .wrap.read{max-width:920px}
+main>.wrap>.note:first-child,main>.wrap>.banner+.note{font-size:14px;color:var(--muted)}
+.mast{border-bottom:0;background:var(--red);background-image:linear-gradient(180deg,rgba(255,255,255,.06),rgba(0,0,0,.08))}
+.mast .wrap{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px;padding-top:18px;padding-bottom:16px}
+.mside{font-size:13px;line-height:1.45;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.mside b{display:block;font-size:15px;letter-spacing:.04em}.mside .upd{display:block;opacity:.9;font-weight:600}
+.logo{font-size:82px;letter-spacing:-3px;line-height:.95;text-align:center;white-space:nowrap;text-shadow:0 3px 0 rgba(0,0,0,.18)}
+.logo span{padding:0 10px;margin-left:8px;text-shadow:none}
+.logo:hover span{background:var(--ink);color:#fff}
+.tag{font-size:13px;line-height:1.45}.tag:after{content:"Verified · Sourced · Labelled";display:block;opacity:.85;font-weight:600;margin-top:2px}
+.strap{display:none}
+nav.chips{position:sticky;top:0;z-index:20;background:var(--ink);border-bottom:5px solid var(--red);box-shadow:0 2px 8px rgba(0,0,0,.18)}
+nav.chips .wrap{gap:0;padding-top:0;padding-bottom:0;flex-wrap:nowrap}
+.chip{min-height:50px;padding:0 20px;border:0;border-radius:0;background:transparent;color:#fff;font:800 15px/1 -apple-system,"Helvetica Neue",Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em}
+.chip:hover,.chip:focus-visible,.chip[aria-pressed=true]{background:var(--red);color:#fff}
+.chip:active{background:#8f0b20}
+.chip.red{color:#fff;margin-left:auto;background:#2a2a2a}.chip.red:hover{background:var(--red)}
+h2.sec{font:400 32px/1 var(--disp);text-transform:uppercase;letter-spacing:.5px;margin:40px 0 14px;padding:0 0 8px;border-top:0;border-bottom:4px solid var(--red);display:flex;align-items:center;scroll-margin-top:70px}
+h2.sec:before{content:"";flex:0 0 auto;width:12px;height:26px;background:var(--red);margin-right:10px}
+h2.sec .count{margin-left:auto;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+.card{scroll-margin-top:70px}
+.banner{margin-top:20px}
+.top{display:grid;grid-template-columns:minmax(0,1fr) 340px;grid-template-rows:auto 1fr;column-gap:36px;margin-top:24px;align-items:start}
+.top>#lead-sec{grid-column:1;grid-row:1/span 2}
+.top>.rail{grid-column:2;grid-row:1}
+.top>#latest{grid-column:2;grid-row:2}
+.top>.tools,.top>.empty{grid-column:1/-1}
+.lead{margin:0;padding:0;border-bottom:0;display:flex;flex-direction:column}
+.lead>.kicker{order:-2;align-self:flex-start}.lead>h1{order:-1}.lead>.ph{margin-bottom:12px}
+.lead .ph img{border-bottom-width:8px}
+.lead .kicker{background:var(--red);color:#fff;padding:5px 9px;margin-top:4px}
+.lead h1{font:400 44px/1.02 var(--disp);text-transform:uppercase;letter-spacing:.2px;margin:10px 0 14px;transition:color .15s}
+.lead:hover h1{color:var(--red)}
+.lead>p{font-size:18px;line-height:1.6}
+.rail h2.sec,#latest h2.sec{margin-top:0;font-size:26px}
+.rail ol{list-style:none;margin:0;padding:0}
+.rail li{border-bottom:1px solid var(--rule)}.rail li:last-child{border-bottom:0}
+.rail a{display:grid;grid-template-columns:128px 1fr;gap:12px;padding:10px 0;text-decoration:none;align-items:start}
+.rail .th{display:block;width:128px;height:72px;object-fit:cover;background:#ddd;border-bottom:3px solid var(--red)}
+.rail .nt{display:flex;align-items:center;justify-content:center;width:128px;height:72px;background:var(--ink);color:#fff;font:400 30px/1 var(--disp);border-bottom:3px solid var(--red)}
+.rail .k{display:block;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--red);margin-bottom:3px}
+.rail .h{display:block;font-weight:800;font-size:16px;line-height:1.25}
+.rail .pc{font-size:11px;color:var(--muted);margin:4px 0 0}
+.rail a:hover .h,.latest a:hover .h{color:var(--red);text-decoration:underline;text-decoration-thickness:2px}
+.rail a:hover .th{filter:saturate(1.2) brightness(1.05)}
+#latest{margin-top:22px}
+.latest{counter-reset:n;margin:0}
+.latest li{counter-increment:n}
+.latest a{display:grid;grid-template-columns:38px 1fr;column-gap:6px;padding:9px 0;min-height:0}
+.latest a:before{content:counter(n);grid-row:1/span 2;font:400 30px/1 var(--disp);color:var(--red)}
+.latest a>div{grid-column:2}.latest .h{font-size:16px;line-height:1.25}
+.js .tools{display:grid}
+.tools{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr) auto;grid-template-rows:auto auto;column-gap:18px;align-items:end;margin:32px 0 0;border:0;border-top:4px solid var(--ink);border-radius:0;background:var(--soft);padding:14px 18px 16px}
+.tools>label{grid-column:1;grid-row:1}.tools>#q{grid-column:1;grid-row:2}
+.tools .row{grid-column:2;grid-row:1/span 2;margin-top:0}
+.tools .status{grid-column:3;grid-row:1/span 2;margin:0;align-self:end;min-height:48px}
+section[data-region-sec]:not(#lead-sec){display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:28px;align-items:start;grid-auto-flow:row dense}
+section[data-region-sec]>h2.sec{grid-column:1/-1}
+section[data-region-sec]:not(#lead-sec)>.card{border-bottom:0;padding:0 0 30px}
+section[data-region-sec]:not(#lead-sec)>.card:first-of-type{grid-column:span 2}
+section[data-region-sec]:not(#lead-sec)>.card:first-of-type h3{font:400 36px/1.05 var(--disp);letter-spacing:.2px;text-transform:uppercase}
+section[data-region-sec]:not(#lead-sec)>.card:first-of-type .ph img{border-bottom-width:6px}
+section[data-region-sec]:not(#lead-sec)>.card h3{font-size:20px;line-height:1.22;transition:color .15s}
+section[data-region-sec]:not(#lead-sec)>.card:hover h3{color:var(--red)}
+.card .ph img{transition:filter .2s}.card:hover .ph img{filter:saturate(1.2) brightness(1.04)}
+section[data-region-sec]:not(#lead-sec)>.card p{font-size:16px;line-height:1.5}
+section[data-region-sec]:not(#lead-sec)>.card .why{font-size:15px;line-height:1.45}
+section[data-region-sec]:not(#lead-sec)>.card .srcs,section[data-region-sec]:not(#lead-sec)>.card:first-of-type .srcs{grid-template-columns:1fr;gap:4px}
+section[data-region-sec]:not(#lead-sec)>.card:first-of-type .srcs{grid-template-columns:1fr 1fr}
+.card:not(.lead) .srcs a{min-height:36px;padding:6px 10px;border-radius:6px}
+.card:not(.lead) .srcs .t{font-size:14px}.card:not(.lead) .srcs .s{font-size:12px}
+.srcs a:hover{border-color:var(--red);background:#fff7f7}.srcs a:hover .t{color:var(--red)}
+.ph figcaption{font-size:11px}
+.arch{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.arch a{margin:0;transition:border-color .15s,color .15s}.arch a:hover{border-color:var(--red);color:var(--red)}
+details.guide{max-width:860px}
+footer{background:var(--ink);color:#c9c9c9;border-top:6px solid var(--red);margin-top:24px;padding:24px 0 48px}
+footer b{color:#fff}footer a{color:#fff}footer a:hover{color:#ff8a9a}
+}
+@media (min-width:1200px){
+section[data-region-sec]:not(#lead-sec){grid-template-columns:repeat(4,minmax(0,1fr))}
+.lead h1{font-size:50px}
+}
+/* fill the last grid row so a section never ends with one lonely card (data-n = cards excluding the lead) */
+@media (min-width:1024px) and (max-width:1199.98px){
+.chip{padding:0 13px;font-size:14px;letter-spacing:.05em}
+section[data-region-sec][data-n="1"]>.card:first-of-type,section[data-region-sec][data-n="3"]>.card:last-of-type,section[data-region-sec][data-n="5"]>.card:last-of-type{grid-column:1/-1}
+section[data-region-sec][data-n="1"]>.card:first-of-type.has-ph,section[data-region-sec][data-n="3"]>.card:last-of-type.has-ph,section[data-region-sec][data-n="5"]>.card:last-of-type.has-ph{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);column-gap:28px}
+section[data-region-sec][data-n="1"]>.card:first-of-type.has-ph>.ph,section[data-region-sec][data-n="3"]>.card:last-of-type.has-ph>.ph,section[data-region-sec][data-n="5"]>.card:last-of-type.has-ph>.ph{grid-column:1;grid-row:1/span 6;margin:0}
+section[data-region-sec][data-n="1"]>.card:first-of-type.has-ph>:not(.ph),section[data-region-sec][data-n="3"]>.card:last-of-type.has-ph>:not(.ph),section[data-region-sec][data-n="5"]>.card:last-of-type.has-ph>:not(.ph){grid-column:2}
+}
+@media (min-width:1200px){
+section[data-region-sec][data-n="1"]>.card:first-of-type,section[data-region-sec][data-n="4"]>.card:last-of-type{grid-column:1/-1}
+section[data-region-sec][data-n="1"]>.card:first-of-type.has-ph,section[data-region-sec][data-n="4"]>.card:last-of-type.has-ph{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);column-gap:28px}
+section[data-region-sec][data-n="1"]>.card:first-of-type.has-ph>.ph,section[data-region-sec][data-n="4"]>.card:last-of-type.has-ph>.ph{grid-column:1;grid-row:1/span 6;margin:0}
+section[data-region-sec][data-n="1"]>.card:first-of-type.has-ph>:not(.ph),section[data-region-sec][data-n="4"]>.card:last-of-type.has-ph>:not(.ph){grid-column:2}
+section[data-region-sec][data-n="2"]>.card:first-of-type{grid-column:span 3}
+section[data-region-sec][data-n="5"]>.card:nth-of-type(4),section[data-region-sec][data-n="5"]>.card:nth-of-type(5){grid-column:span 2}
+}
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 `;
 
@@ -136,17 +247,18 @@ const JS = `
 (function(){document.documentElement.classList.add('js');
 var q=document.getElementById('q'),r=document.getElementById('fr'),t=document.getElementById('ft'),st=document.getElementById('fstatus'),clr=document.getElementById('fclear'),em=document.getElementById('fempty');
 if(!q)return;var cards=[].slice.call(document.querySelectorAll('[data-story]'));var secs=[].slice.call(document.querySelectorAll('[data-region-sec]'));
-var chips=[].slice.call(document.querySelectorAll('[data-chip]'));var lat=[].slice.call(document.querySelectorAll('[data-latest]'));
+var chips=[].slice.call(document.querySelectorAll('[data-chip]'));var tch=[].slice.call(document.querySelectorAll('[data-tchip]'));var lat=[].slice.call(document.querySelectorAll('[data-latest]'));
 function apply(){var qs=q.value.trim().toLowerCase(),rv=r.value,tv=t.value,n=0;
 cards.forEach(function(c){var ok=(rv==='all'||c.dataset.region===rv)&&(tv==='all'||c.dataset.topic===tv)&&(!qs||c.textContent.toLowerCase().indexOf(qs)>-1);c.classList.toggle('hidden',!ok);if(ok)n++;});
 lat.forEach(function(l){var c=document.getElementById(l.dataset.latest);l.classList.toggle('hidden',c&&c.classList.contains('hidden'));});
 secs.forEach(function(s){var vis=s.querySelectorAll('[data-story]:not(.hidden)').length;s.classList.toggle('hidden',vis===0);});
-chips.forEach(function(c){c.setAttribute('aria-pressed',String(c.dataset.chip===rv));});
+chips.forEach(function(c){c.setAttribute('aria-pressed',String(c.dataset.chip===rv));});tch.forEach(function(c){c.setAttribute('aria-pressed',String(c.dataset.tchip===tv));});
 var on=rv!=='all'||tv!=='all'||qs;st.firstChild.textContent=on?('Showing '+n+' of '+cards.length+' stories'):(cards.length+' stories in this edition');clr.classList.toggle('hidden',!on);em.classList.toggle('hidden',n>0);
 try{var u=new URL(location.href);['region','topic','q'].forEach(function(k){u.searchParams.delete(k)});if(rv!=='all')u.searchParams.set('region',rv);if(tv!=='all')u.searchParams.set('topic',tv);if(qs)u.searchParams.set('q',q.value.trim());history.replaceState(null,'',u.pathname+u.search+u.hash);}catch(e){}}
 q.addEventListener('input',apply);r.addEventListener('change',apply);t.addEventListener('change',apply);
 clr.addEventListener('click',function(){q.value='';r.value='all';t.value='all';apply();});
 chips.forEach(function(c){c.addEventListener('click',function(e){var v=c.dataset.chip;if(r.value===v){r.value='all';}else{r.value=v;}apply();if(r.value!=='all'){e.preventDefault();var s=document.getElementById('region-'+v);if(s)s.scrollIntoView();}else{e.preventDefault();}});});
+tch.forEach(function(c){c.addEventListener('click',function(e){e.preventDefault();t.value=t.value===c.dataset.tchip?'all':c.dataset.tchip;apply();if(t.value!=='all'){var f=document.querySelector('section[data-region-sec]:not(#lead-sec):not(.hidden)');if(f)f.scrollIntoView();}});});
 var p=new URLSearchParams(location.search);if(p.get('region'))r.value=p.get('region');if(p.get('topic'))t.value=p.get('topic');if(p.get('q'))q.value=p.get('q');apply();})();
 `;
 
@@ -161,24 +273,36 @@ function storyCard(s, lead=false, rel=''){
 }
 
 function head(title, desc, rel){ return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>${esc(title)}</title><meta name="description" content="${esc(desc)}"><meta name="theme-color" content="#C8102E"><meta name="robots" content="noindex"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23C8102E'/%3E%3Ctext x='32' y='46' font-size='40' font-family='Arial Black,Arial' font-weight='900' text-anchor='middle' fill='%23fff'%3ED%3C/text%3E%3C/svg%3E"><style>${CSS}</style></head><body><a class="skip" href="#main">Skip to stories</a>`; }
-function mast(rel, strapHtml){ return `<header class="mast"><div class="wrap"><a class="logo" href="${rel}index.html">Donna<span>Daily</span></a><div class="tag">US · Canada<br>HK · China · World</div></div></header><div class="strap"><div class="wrap">${strapHtml}</div></div>`; }
+function mast(rel, strapHtml){ return `<header class="mast"><div class="wrap"><div class="mside dt-only">${strapHtml}</div><a class="logo" href="${rel}index.html">Donna<span>Daily</span></a><div class="tag">US · Canada<br>HK · China · World</div></div></header><div class="strap"><div class="wrap">${strapHtml}</div></div>`; }
+// desktop-only section links for pages without the live filters (archive pages, past-editions list)
+const dtNav = rel => Object.keys(REGIONS).map(r=>`<a class="chip dt-only" href="${rel}index.html?region=${r}#region-${r}">${esc(SHORT[r])}</a>`).join('') + `<a class="chip dt-only" href="${rel}index.html?topic=sports">Sports</a>`;
 const foot = (rel, upd) => `<footer><div class="wrap"><p><b>Donna Daily</b> is a personal news digest for Derek, compiled by Donna (Grok Bot). Summaries are original; follow the source links for full reporting. Some sources (e.g. SCMP) may be paywalled.</p><p>Last successful update: ${esc(upd)}. <a href="${rel}editions/index.html">Past editions</a></p></div></footer>`;
+
+// Desktop-only "Top stories" rail: the first story of each region (lead excluded), with thumbnails. Hidden on phones
+// (display:none + loading=lazy, so phones never download the thumbnails). Photos are credited on the full story below.
+function rail(stories, lead, rel){
+  const picks=[]; for(const r of Object.keys(REGIONS)){ const s=stories.find(x=>x.region===r&&x.id!==lead.id); if(s) picks.push(s); }
+  for(const s of stories){ if(picks.length>=5) break; if(s.id!==lead.id && !picks.includes(s)) picks.push(s); }
+  if(!picks.length) return '';
+  const li = picks.slice(0,5).map(s=>`<li data-latest="${esc(s.id)}"><a href="#${esc(s.id)}">${s.image?`<img class="th" src="${esc(rel+s.image.src)}" width="128" height="72" alt="" loading="lazy" decoding="async" title="Photo: ${esc(s.image.credit)} · ${esc(s.image.license)}">`:`<span class="nt" aria-hidden="true">${esc(SHORT[s.region].slice(0,2).toUpperCase())}</span>`}<span><span class="k">${esc(REGIONS[s.region])} · ${esc(s.label)}</span><span class="h">${esc(s.headline)}</span></span></a></li>`).join('');
+  return `<aside class="rail dt-only" aria-label="Top stories"><h2 class="sec">Top stories</h2><ol>${li}</ol><p class="pc">Photos are credited with each full story below.</p></aside>`;
+}
 
 function renderEdition(ed, {rel, isCurrent, upd, archiveList, currentHref}){
   const stories = ed.stories; const lead = stories.find(s=>s.id===ed.leadId) || stories[0];
   const latest = [...stories].sort((a,b)=>a.ts<b.ts?1:-1).slice(0,6);
-  const chips = Object.keys(REGIONS).map(r=>`<a class="chip" href="#region-${r}" data-chip="${r}" aria-pressed="false">${esc(SHORT[r])}</a>`).join('') + `<a class="chip red" href="${rel}editions/index.html">Past editions</a>`;
+  const chips = Object.keys(REGIONS).map(r=>`<a class="chip" href="#region-${r}" data-chip="${r}" aria-pressed="false">${esc(SHORT[r])}</a>`).join('') + `<a class="chip dt-only" href="?topic=sports" data-tchip="sports" aria-pressed="false">Sports</a><a class="chip red" href="${rel}editions/index.html"><span class="m-only">Past editions</span><span class="dt-only">Archive</span></a>`;
   const regionSecs = Object.keys(REGIONS).map(r=>{ const items=stories.filter(s=>s.region===r&&s.id!==lead.id); const total=stories.filter(s=>s.region===r).length;
-    return `<section data-region-sec id="region-${r}"><h2 class="sec">${esc(REGIONS[r])}<span class="count">${total} ${total===1?'story':'stories'}${lead.region===r?' incl. lead':''}</span></h2>${items.map(s=>storyCard(s,false,rel)).join('')}</section>`; }).join('');
+    return `<section data-region-sec id="region-${r}" data-n="${items.length}"><h2 class="sec">${esc(REGIONS[r])}<span class="count">${total} ${total===1?'story':'stories'}${lead.region===r?' incl. lead':''}</span></h2>${items.map(s=>storyCard(s,false,rel)).join('')}</section>`; }).join('');
   const strap = `<b>${esc(ed.title)} · ${esc(fmtDate(ed.date))}</b><span class="upd">Last successful update: ${esc(upd)}</span>`;
   return head(`Donna Daily — ${ed.title}, ${fmtDate(ed.date)}`, 'Verified US, Canada, Hong Kong, China and world news, labelled fact, allegation or opinion.', rel) + mast(rel, strap) +
   `<nav class="chips" aria-label="Regions"><div class="wrap">${chips}</div></nav><main id="main"><div class="wrap">` +
   (isCurrent?'':`<div class="banner">You're reading an archived edition. <a href="${currentHref}">Go to today's edition →</a></div>`) +
   (ed.notes?.length?`<p class="note" style="margin-top:12px">${ed.notes.map(esc).join(' ')}</p>`:'') +
-  `<section data-region-sec id="lead-sec">${storyCard(lead,true,rel)}</section>` +
+  `<div class="top"><section data-region-sec id="lead-sec">${storyCard(lead,true,rel)}</section>` + rail(stories, lead, rel) +
   `<form class="tools" role="search" onsubmit="return false"><label for="q">Search this edition</label><input id="q" type="search" placeholder="e.g. election, Cohere, Tai Po" autocomplete="off"><div class="row"><div><label for="fr">Region</label><select id="fr"><option value="all">All regions</option>${Object.entries(REGIONS).map(([k,v])=>`<option value="${k}">${esc(v)}</option>`).join('')}</select></div><div><label for="ft">Topic</label><select id="ft"><option value="all">All topics</option>${Object.entries(TOPICS).map(([k,v])=>`<option value="${k}">${esc(v)}</option>`).join('')}</select></div></div><div class="status" id="fstatus"><span></span><button type="button" class="btn hidden" id="fclear">Clear filters</button></div></form>` +
   `<div class="empty hidden" id="fempty">No stories match. Try another word or clear the filters.</div>` +
-  `<section id="latest"><h2 class="sec">Latest</h2><ul class="latest">${latest.map(s=>`<li data-latest="${esc(s.id)}"><a href="#${esc(s.id)}"><div class="h">${esc(s.headline)}</div><div class="m">${esc(SHORT[s.region])} · ${esc(s.dateLabel)} · ${esc(s.label)}</div></a></li>`).join('')}</ul></section>` +
+  `<section id="latest"><h2 class="sec">Latest</h2><ul class="latest">${latest.map(s=>`<li data-latest="${esc(s.id)}"><a href="#${esc(s.id)}"><div class="h">${esc(s.headline)}</div><div class="m">${esc(SHORT[s.region])} · ${esc(s.dateLabel)} · ${esc(s.label)}</div></a></li>`).join('')}</ul></section></div>` +
   regionSecs +
   `<section id="archive"><h2 class="sec">Past editions</h2><ul class="arch">${archiveList}</ul></section>` +
   `<details class="guide"><summary>How to read the labels</summary><p><span class="lab lab-fact">Fact</span> Reported and confirmed by the linked sources.</p><p><span class="lab lab-alleg">Allegation</span> Claimed, charged or argued in court; not proven.</p><p><span class="lab lab-op">Opinion / analysis</span> Someone's view or interpretation, marked as such.</p><p><span class="lab lab-rep">Reported / state media</span> Based on unnamed sources or a single state-media outlet.</p><p>Every source link was opened and its date checked when the edition was built. Photos are openly licensed (Wikimedia Commons CC0/public domain/CC BY/CC BY-SA, or US-government public domain), cropped to fit, and credited under each picture. "File photo" means the picture shows the person or place, not the event in the story.</p></details>` +
@@ -203,7 +327,7 @@ function renderArchive(ed, {upd, currentHref}){
   const rel='../';
   const strap = `<b>Archive · ${esc(ed.title)} · ${esc(fmtDate(ed.date))}</b><span class="upd">Originally published: ${esc(ed.updatedLabel)}</span>`;
   return head(`Donna Daily archive — ${ed.title}, ${fmtDate(ed.date)}`, ed.summary||'', rel) + mast(rel, strap) +
-  `<nav class="chips" aria-label="Edition"><div class="wrap"><a class="chip" href="${currentHref}">Today's edition</a><a class="chip red" href="index.html">All past editions</a></div></nav><main id="main"><div class="wrap">` +
+  `<nav class="chips" aria-label="Edition"><div class="wrap"><a class="chip" href="${currentHref}">Today's edition</a>${dtNav('../')}<a class="chip red" href="index.html">All past editions</a></div></nav><main id="main"><div class="wrap read">` +
   `<div class="banner">Archived brief, kept as originally published (snapshot; not updated). <a href="${currentHref}">Go to today's edition →</a>${ed.droppedSections?.length?' A personal travel note was removed from this public copy.':''}</div>` +
   `<p style="margin-top:12px">${esc(ed.summary)}</p>` + renderBlocks(ed.blocks) + `</div></main>` + foot(rel, upd) + `</body></html>`;
 }
@@ -224,7 +348,7 @@ fs.rmSync(TMP,{recursive:true,force:true}); fs.mkdirSync(path.join(TMP,'editions
 fs.writeFileSync(path.join(TMP,'index.html'), renderEdition(current,{rel:'',isCurrent:true,upd,archiveList:archLi('editions/')}));
 for(const e of editions) fs.writeFileSync(path.join(TMP,'editions',e.id+'.html'), renderEdition(e,{rel:'../',isCurrent:false,upd,archiveList:archLi(''),currentHref:'../index.html'}));
 for(const a of archives) fs.writeFileSync(path.join(TMP,'editions',a.id+'.html'), renderArchive(a,{upd,currentHref:'../index.html'}));
-fs.writeFileSync(path.join(TMP,'editions','index.html'), head('Donna Daily — Past editions','Archive of Donna Daily editions','../') + mast('../', `<b>Past editions</b><span class="upd">Last successful update: ${esc(upd)}</span>`) + `<nav class="chips"><div class="wrap"><a class="chip" href="../index.html">Today's edition</a></div></nav><main id="main"><div class="wrap"><h2 class="sec">Today</h2><ul class="arch"><li><a href="../index.html"><span class="t">${esc(current.title)} — ${esc(fmtDate(current.date))}</span><span class="s">${current.stories.length} stories · current</span></a></li></ul><h2 class="sec">Earlier</h2><ul class="arch">${archLi('')}</ul></div></main>` + foot('../',upd) + `</body></html>`);
+fs.writeFileSync(path.join(TMP,'editions','index.html'), head('Donna Daily — Past editions','Archive of Donna Daily editions','../') + mast('../', `<b>Past editions</b><span class="upd">Last successful update: ${esc(upd)}</span>`) + `<nav class="chips" aria-label="Sections"><div class="wrap"><a class="chip" href="../index.html">Today's edition</a>${dtNav('../')}</div></nav><main id="main"><div class="wrap read"><h2 class="sec">Today</h2><ul class="arch"><li><a href="../index.html"><span class="t">${esc(current.title)} — ${esc(fmtDate(current.date))}</span><span class="s">${current.stories.length} stories · current</span></a></li></ul><h2 class="sec">Earlier</h2><ul class="arch">${archLi('')}</ul></div></main>` + foot('../',upd) + `</body></html>`);
 fs.writeFileSync(path.join(TMP,'data.json'), JSON.stringify({current: current.id, lastSuccessfulUpdate: upd, editions: editions.map(e=>({id:e.id,date:e.date,title:e.title,stories:e.stories})), archives: archives.map(a=>({id:a.id,date:a.date,title:a.title}))}));
 fs.writeFileSync(path.join(TMP,'.nojekyll'),'');
 // copy every edition's photos (data/img/** -> public/img/**) so archived editions keep their images
