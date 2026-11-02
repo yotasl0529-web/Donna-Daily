@@ -14,27 +14,57 @@ a{color:inherit}img{max-width:100%;height:auto}
 .strap .wrap{display:flex;flex-wrap:wrap;gap:2px 14px;padding-top:7px;padding-bottom:7px}
 .strap b{color:#fff}.strap .upd{color:#ddd}
 nav.chips{border-bottom:1px solid var(--rule);background:#fff}
-nav.chips .wrap{display:flex;gap:8px;overflow-x:auto;padding-top:10px;padding-bottom:10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
-nav.chips .wrap::-webkit-scrollbar{display:none}
-.chip{flex:0 0 auto;display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border:2px solid var(--ink);border-radius:999px;font-weight:800;font-size:15px;text-decoration:none;background:#fff;color:var(--ink);cursor:pointer}
+nav.chips .wrap{display:flex;flex-wrap:wrap;gap:8px;padding-top:10px;padding-bottom:10px}
+.chip{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:44px;padding:0 16px;white-space:nowrap;border:2px solid var(--ink);border-radius:999px;font-weight:800;font-size:15px;text-decoration:none;background:#fff;color:var(--ink);cursor:pointer}
 .chip[aria-pressed=true],.chip:active{background:var(--ink);color:#fff}
+.chip[aria-pressed=true]{box-shadow:inset 0 -4px 0 var(--red)}
+.chip .n{font-size:12px;font-weight:700;opacity:.75}
+.chip .n0{opacity:.5}
+/* phones: all five regions + Past editions in two tidy rows of three, no horizontal scrolling */
+@media (max-width:759.98px){nav.chips .wrap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+nav.chips .chip{padding:2px 4px;font-size:14.5px;min-width:0;white-space:normal;text-align:center;line-height:1.15}}
 .chip.red{border-color:var(--red);color:var(--red)}
 main{padding-bottom:40px}
 .kicker{display:inline-block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--red)}
 h2.sec{font:900 24px/1.1 "Arial Black","Helvetica Neue",Arial,sans-serif;text-transform:uppercase;letter-spacing:-.5px;margin:28px 0 4px;padding-top:10px;border-top:5px solid var(--ink);scroll-margin-top:8px}
 h2.sec .count{font:700 13px/1 -apple-system,Arial,sans-serif;color:var(--muted);text-transform:none;letter-spacing:0;margin-left:6px}
 .lead{margin:16px 0 8px;padding:0 0 4px}
-.lead h1{font:900 30px/1.08 "Arial Black","Helvetica Neue",Arial,sans-serif;letter-spacing:-.8px;margin:6px 0 10px}
+.lead h1{font:900 25px/1.1 "Arial Black","Helvetica Neue",Arial,sans-serif;letter-spacing:-.8px;margin:6px 0 10px}
 .lead .bar{height:6px;background:var(--red);width:64px;margin-bottom:10px}
 .card{border-bottom:1px solid var(--rule);padding:16px 0;scroll-margin-top:8px}
 .card h3{font:800 21px/1.22 -apple-system,"Helvetica Neue",Arial,sans-serif;margin:6px 0 8px;letter-spacing:-.2px}
 .meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font-size:13px;color:var(--muted)}
 .lab{display:inline-block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;padding:3px 8px;border-radius:4px}
-.lab-fact{background:#111;color:#fff}.lab-alleg{background:#fde2e2;color:#8a0b0b;border:1px solid #e9a3a3}
-.lab-op{background:#efe6ff;color:#3f1d7a}.lab-rep{background:#fff2cc;color:#6b4a00}
+.lab-rep{background:#fff;color:#111;border:1px solid #111}.lab-off{background:#e3eefc;color:#0b3b78;border:1px solid #9dbbe6}
+.lab-claim{background:#ffe9d6;color:#7a3300;border:1px solid #f0b182}.lab-alleg{background:#fde2e2;color:#8a0b0b;border:1px solid #e9a3a3}
+.lab-op{background:#efe6ff;color:#3f1d7a;border:1px solid #cdb8f0}.lab-unn{background:#fff2cc;color:#6b4a00;border:1px solid #e6c766}.lab-sm{background:#f1f1f1;color:#333;border:1px dashed #777}
+.deck{font-size:17px}.lead .deck{font-size:17px;line-height:1.5;margin-bottom:12px}
+.lead .meta{margin:0 0 8px}
+details.more{margin:8px 0 0}
+details.more>summary{display:flex;align-items:center;min-height:44px;font-weight:800;font-size:15px;cursor:pointer;color:var(--red);list-style:none}
+details.more>summary::-webkit-details-marker{display:none}
+details.more>summary:before{content:"+";display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border:2px solid currentColor;border-radius:50%;margin-right:8px;font-size:16px;line-height:1}
+details.more[open]>summary:before{content:"−"}
+details.more>summary .c{color:var(--muted);font-weight:600;margin-left:4px}
+details.more h4{font-size:13px;text-transform:uppercase;letter-spacing:.05em;margin:12px 0 4px}
+.chk{list-style:none;margin:4px 0 2px;padding:0 0 0 12px;border-left:3px solid var(--rule);font-size:13px;line-height:1.45;color:#333}
+.chk li{margin:2px 0}.chk .lim{color:#7a3300}
+details.about,details.guide{margin-top:24px;border-top:1px solid var(--rule);padding-top:8px}
+details.about>summary,details.guide>summary{min-height:44px;display:flex;align-items:center;font-weight:800;cursor:pointer}
+details.about h3{font-size:16px;margin:14px 0 6px}
+details.about ul{padding-left:20px;font-size:15px}details.about li{margin:4px 0}
+details.tools{margin:12px 0 0;border:2px solid var(--ink);border-radius:10px;padding:0 12px}
+details.tools>summary{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;font-weight:800;font-size:15px;cursor:pointer;list-style:none}
+details.tools>summary::-webkit-details-marker{display:none}
+details.tools>summary .st{font-weight:600;color:var(--muted);font-size:14px;text-align:right}
+details.tools>summary:after{content:"▾";font-size:14px}details.tools[open]>summary:after{content:"▴"}
+details.tools form{padding:0 0 12px}
+.empty .btn{margin-top:10px}
+.totop{position:fixed;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:30;display:none;align-items:center;min-height:44px;padding:0 14px;border-radius:999px;background:var(--ink);color:#fff;font-weight:800;font-size:14px;text-decoration:none;box-shadow:0 2px 10px rgba(0,0,0,.3)}
+.js .totop.show{display:inline-flex}
 p{margin:0 0 10px}.why{background:var(--soft);border-left:4px solid var(--red);padding:8px 12px;margin:10px 0}
 .why b{font-size:13px;text-transform:uppercase;letter-spacing:.05em}
-.note{font-size:15px;color:#333}.note b{color:#000}
+.note,.srcnote{font-size:15px;color:#333}.note b{color:#000}
 .srcs{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:6px}
 .srcs a{display:flex;flex-direction:column;justify-content:center;min-height:48px;padding:8px 12px;border:1px solid #ccc;border-radius:8px;text-decoration:none;background:#fff}
 .srcs a:active{background:var(--soft)}
@@ -44,7 +74,7 @@ p{margin:0 0 10px}.why{background:var(--soft);border-left:4px solid var(--red);p
 .latest li{border-bottom:1px solid var(--rule)}
 .latest a{display:block;padding:10px 0;min-height:44px;text-decoration:none}
 .latest .h{font-weight:700;line-height:1.3}.latest .m{font-size:13px;color:var(--muted)}
-.tools{margin:18px 0 0;border:2px solid var(--ink);border-radius:10px;padding:12px;display:none}
+.tools{display:none}
 .js .tools{display:block}
 .tools label{display:block;font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;margin:0 0 4px}
 .tools input,.tools select{width:100%;min-height:48px;font-size:17px;padding:8px 12px;border:1px solid #999;border-radius:8px;background:#fff;color:var(--ink)}
@@ -56,8 +86,6 @@ p{margin:0 0 10px}.why{background:var(--soft);border-left:4px solid var(--red);p
 .arch{list-style:none;padding:0;margin:8px 0}
 .arch a{display:flex;flex-direction:column;justify-content:center;min-height:56px;padding:10px 12px;border:2px solid var(--ink);border-radius:8px;text-decoration:none;margin-bottom:8px}
 .arch .t{font-weight:800}.arch .s{font-size:13px;color:var(--muted)}
-details.guide{margin-top:24px;border-top:1px solid var(--rule);padding-top:8px}
-details.guide summary{min-height:44px;display:flex;align-items:center;font-weight:800;cursor:pointer}
 .banner{background:#fff2cc;border:1px solid #e6c766;padding:10px 12px;border-radius:8px;margin-top:14px;font-size:15px}
 .banner a{font-weight:800}
 footer{border-top:5px solid var(--ink);padding:16px 0 40px;font-size:13px;color:var(--muted)}
@@ -67,7 +95,7 @@ dl.props{margin:0}dl.props dt{font-size:13px;font-weight:800;text-transform:uppe
 .ph{margin:0 0 10px;max-width:100%}
 .ph img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;background:#ddd;border-bottom:4px solid var(--red)}
 .ph-lead{margin:0 -16px 12px}.ph-lead img{border-bottom-width:6px}
-.ph figcaption{font-size:12px;line-height:1.4;color:var(--muted);padding:5px 0 0}
+.ph figcaption{font-size:11.5px;line-height:1.35;color:var(--muted);padding:4px 0 0}
 .ph-lead figcaption{padding:5px 16px 0}
 .ph figcaption b{color:var(--red);text-transform:uppercase;letter-spacing:.05em;font-size:11px}
 .ph figcaption a{display:inline-block;padding:14px 0;margin:-14px 0;color:var(--muted)}
@@ -96,12 +124,14 @@ main>.wrap>.note:first-child,main>.wrap>.banner+.note{font-size:14px;color:var(-
 .logo{font-size:82px;letter-spacing:-3px;line-height:.95;text-align:center;white-space:nowrap;text-shadow:0 3px 0 rgba(0,0,0,.18)}
 .logo span{padding:0 10px;margin-left:8px;text-shadow:none}
 .logo:hover span{background:var(--ink);color:#fff}
-.tag{font-size:13px;line-height:1.45}.tag:after{content:"Verified · Sourced · Labelled";display:block;opacity:.85;font-weight:600;margin-top:2px}
+.tag{font-size:13px;line-height:1.45}.tag:after{content:"Sourced · Linked · Labelled";display:block;opacity:.85;font-weight:600;margin-top:2px}
 .strap{display:none}
 nav.chips{position:sticky;top:0;z-index:20;background:var(--ink);border-bottom:5px solid var(--red);box-shadow:0 2px 8px rgba(0,0,0,.18)}
-nav.chips .wrap{gap:0;padding-top:0;padding-bottom:0;flex-wrap:nowrap}
+nav.chips .wrap{display:flex;gap:0;padding-top:0;padding-bottom:0;flex-wrap:nowrap}
+.totop{display:none!important}
 .chip{min-height:50px;padding:0 20px;border:0;border-radius:0;background:transparent;color:#fff;font:800 15px/1 -apple-system,"Helvetica Neue",Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em}
-.chip:hover,.chip:focus-visible,.chip[aria-pressed=true]{background:var(--red);color:#fff}
+.chip:hover,.chip:focus-visible,.chip[aria-pressed=true]{background:var(--red);color:#fff;box-shadow:none}
+.chip .n{font-size:11px}
 .chip:active{background:#8f0b20}
 .chip.red{color:#fff;margin-left:auto;background:#2a2a2a}.chip.red:hover{background:var(--red)}
 h2.sec{font:400 32px/1 var(--disp);text-transform:uppercase;letter-spacing:.5px;margin:40px 0 14px;padding:0 0 8px;border-top:0;border-bottom:4px solid var(--red);display:flex;align-items:center;scroll-margin-top:70px}
@@ -113,7 +143,6 @@ h2.sec .count{margin-left:auto;font-size:13px;text-transform:uppercase;letter-sp
 .top>#lead-sec{grid-column:1;grid-row:1/span 2}
 .top>.rail{grid-column:2;grid-row:1}
 .top>#latest{grid-column:2;grid-row:2}
-.top>.tools,.top>.empty{grid-column:1/-1}
 .lead{margin:0;padding:0;border-bottom:0;display:flex;flex-direction:column}
 .lead>.kicker{order:-2;align-self:flex-start}.lead>h1{order:-1}.lead>.ph{margin-bottom:12px}
 .lead .ph img{border-bottom-width:8px}
@@ -138,9 +167,9 @@ h2.sec .count{margin-left:auto;font-size:13px;text-transform:uppercase;letter-sp
 .latest a{display:grid;grid-template-columns:38px 1fr;column-gap:6px;padding:9px 0;min-height:0}
 .latest a:before{content:counter(n);grid-row:1/span 2;font:400 30px/1 var(--disp);color:var(--red)}
 .latest a>div{grid-column:2}.latest .h{font-size:16px;line-height:1.25}
-.js .tools{display:grid}
-.tools{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr) auto;grid-template-rows:auto auto;column-gap:18px;align-items:end;margin:32px 0 0;border:0;border-top:4px solid var(--ink);border-radius:0;background:var(--soft);padding:14px 18px 16px}
-.tools>label{grid-column:1;grid-row:1}.tools>#q{grid-column:1;grid-row:2}
+details.tools{margin:20px 0 0;border:0;border-top:4px solid var(--ink);border-radius:0;background:var(--soft);padding:0 18px}
+details.tools form{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr) auto;grid-template-rows:auto auto;column-gap:18px;align-items:end;padding:0 0 16px}
+.tools form>label{grid-column:1;grid-row:1}.tools form>#q{grid-column:1;grid-row:2}
 .tools .row{grid-column:2;grid-row:1/span 2;margin-top:0}
 .tools .status{grid-column:3;grid-row:1/span 2;margin:0;align-self:end;min-height:48px}
 section[data-region-sec]:not(#lead-sec){display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:28px;align-items:start;grid-auto-flow:row dense}
@@ -161,7 +190,7 @@ section[data-region-sec]:not(#lead-sec)>.card:first-of-type .srcs{grid-template-
 .srcs a:hover{border-color:var(--red);background:#fff7f7}.srcs a:hover .t{color:var(--red)}
 .ph figcaption{font-size:11px}
 .arch{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.arch a{margin:0;transition:border-color .15s,color .15s}.arch a:hover{border-color:var(--red);color:var(--red)}
-details.guide{max-width:860px}
+details.guide,details.about{max-width:860px}
 footer{background:var(--ink);color:#c9c9c9;border-top:6px solid var(--red);margin-top:24px;padding:24px 0 48px}
 footer b{color:#fff}footer a{color:#fff}footer a:hover{color:#ff8a9a}
 }
@@ -186,4 +215,4 @@ section[data-region-sec][data-n="2"]>.card:first-of-type{grid-column:span 3}
 section[data-region-sec][data-n="5"]>.card:nth-of-type(4),section[data-region-sec][data-n="5"]>.card:nth-of-type(5){grid-column:span 2}
 }
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
-</style></head><body><a class="skip" href="#main">Skip to stories</a><header class="mast"><div class="wrap"><div class="mside dt-only"><b>Past editions</b><span class="upd">Last successful update: Mon, Nov 2, 2026, 7:54 AM EST</span></div><a class="logo" href="../index.html">Donna<span>Daily</span></a><div class="tag">US · Canada<br>HK · China · World</div></div></header><div class="strap"><div class="wrap"><b>Past editions</b><span class="upd">Last successful update: Mon, Nov 2, 2026, 7:54 AM EST</span></div></div><nav class="chips" aria-label="Sections"><div class="wrap"><a class="chip" href="../index.html">Today's edition</a><a class="chip dt-only" href="../index.html?region=us#region-us">US</a><a class="chip dt-only" href="../index.html?region=ca#region-ca">Canada</a><a class="chip dt-only" href="../index.html?region=hk#region-hk">Hong Kong</a><a class="chip dt-only" href="../index.html?region=cn#region-cn">China</a><a class="chip dt-only" href="../index.html?region=world#region-world">World</a><a class="chip dt-only" href="../index.html?topic=sports">Sports</a></div></nav><main id="main"><div class="wrap read"><h2 class="sec">Today</h2><ul class="arch"><li><a href="../index.html"><span class="t">Morning Edition — Mon, Nov 2, 2026</span><span class="s">21 stories · current</span></a></li></ul><h2 class="sec">Earlier</h2><ul class="arch"><li><a href="2026-11-01-pm.html"><span class="t">Evening Edition — Sun, Nov 1, 2026</span><span class="s">24 stories</span></a></li><li><a href="2026-11-01-ed1.html"><span class="t">Edition 1 (trial) — Sun, Nov 1, 2026</span><span class="s">25 stories</span></a></li><li><a href="2026-11-01-brief.html"><span class="t">Headlines you need to know — Sun, Nov 1, 2026</span><span class="s">Earlier brief (snapshot)</span></a></li><li><a href="2026-10-29-brief.html"><span class="t">Headlines you need to know — Thu, Oct 29, 2026</span><span class="s">Earlier brief (snapshot)</span></a></li></ul></div></main><footer><div class="wrap"><p><b>Donna Daily</b> is a personal news digest for Derek, compiled by Donna (Grok Bot). Summaries are original; follow the source links for full reporting. Some sources (e.g. SCMP) may be paywalled.</p><p>Last successful update: Mon, Nov 2, 2026, 7:54 AM EST. <a href="../editions/index.html">Past editions</a></p></div></footer></body></html>
+</style></head><body><a class="skip" href="#main">Skip to stories</a><header class="mast"><div class="wrap"><div class="mside dt-only"><b>Past editions</b><span class="upd">Last successful update: Mon, Nov 2, 2026, 9:14 AM EST</span></div><a class="logo" href="../index.html">Donna<span>Daily</span></a><div class="tag">US · Canada<br>HK · China · World</div></div></header><div class="strap"><div class="wrap"><b>Past editions</b><span class="upd">Last successful update: Mon, Nov 2, 2026, 9:14 AM EST</span></div></div><nav class="chips" aria-label="Sections"><div class="wrap"><a class="chip" href="../index.html">Today's edition</a><a class="chip" href="../index.html?region=us#region-us">US</a><a class="chip" href="../index.html?region=ca#region-ca">Canada</a><a class="chip" href="../index.html?region=hk#region-hk">Hong Kong</a><a class="chip" href="../index.html?region=cn#region-cn">China</a><a class="chip" href="../index.html?region=world#region-world">World</a><a class="chip dt-only" href="../index.html?topic=sports">Sports</a></div></nav><main id="main"><div class="wrap read"><h2 class="sec">Today</h2><ul class="arch"><li><a href="../index.html"><span class="t">Morning Edition — Mon, Nov 2, 2026</span><span class="s">21 stories · current</span></a></li></ul><h2 class="sec">Earlier</h2><ul class="arch"><li><a href="2026-11-01-pm.html"><span class="t">Evening Edition — Sun, Nov 1, 2026</span><span class="s">24 stories</span></a></li><li><a href="2026-11-01-ed1.html"><span class="t">Edition 1 (trial) — Sun, Nov 1, 2026</span><span class="s">25 stories</span></a></li><li><a href="2026-11-01-brief.html"><span class="t">Headlines you need to know — Sun, Nov 1, 2026</span><span class="s">Earlier brief (snapshot)</span></a></li><li><a href="2026-10-29-brief.html"><span class="t">Headlines you need to know — Thu, Oct 29, 2026</span><span class="s">Earlier brief (snapshot)</span></a></li></ul></div></main><footer><div class="wrap"><p><b>Donna Daily</b> is a personal news digest for Derek, compiled by Donna (Grok Bot). Summaries are original; follow the source links for full reporting. Some sources (e.g. SCMP) may be paywalled.</p><p>Last successful update: Mon, Nov 2, 2026, 9:14 AM EST. <a href="../editions/index.html">Past editions</a></p></div></footer></body></html>

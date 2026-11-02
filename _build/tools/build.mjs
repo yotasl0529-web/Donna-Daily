@@ -10,7 +10,64 @@ const esc = s => String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').repl
 const nyNow = () => new Date().toLocaleString('en-US',{timeZone:'America/New_York',weekday:'short',month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'});
 const fmtDate = d => new Date(d+'T12:00:00Z').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric',timeZone:'UTC'});
 
-function labelClass(l){ l=l.toLowerCase(); if(l.includes('allegation')) return 'lab-alleg'; if(l.includes('opinion')||l.includes('analysis')) return 'lab-op'; if(l.includes('reported')||l.includes('state media')) return 'lab-rep'; return 'lab-fact'; }
+// ---------- labels: describe the TYPE of claim, not a verification grade ----------
+// New editions write `label` as one or more of the canonical labels joined with " + ", e.g. "Reported + official statement".
+// Older editions used "Fact", "Fact (state media)", "Fact + allegation"… — those are mapped here so every archived edition renders.
+const LABELS = {
+  rep:   {text:'Reported',           cls:'lab-rep',   desc:'Reported by the linked news outlets; attributed to them, not independently confirmed by Donna Daily.'},
+  off:   {text:'Official statement', cls:'lab-off',   desc:"A government, official body or company's own statement, figures or proposal, attributed to it."},
+  claim: {text:'Claim',              cls:'lab-claim', desc:"An assertion by a person, government or group that hasn't been independently confirmed."},
+  alleg: {text:'Allegation',         cls:'lab-alleg', desc:'Claimed, charged or argued in court; not proven.'},
+  op:    {text:'Analysis',           cls:'lab-op',    desc:"Interpretation or opinion — the outlet's, an expert's, or Donna Daily's own — marked as such."},
+  unn:   {text:'Unnamed sources',    cls:'lab-unn',   desc:'Rests partly on sources the outlet did not name.'},
+  sm:    {text:'State media',        cls:'lab-sm',    desc:'Relies on state-controlled media (e.g. Xinhua, CCTV, Russian state media).'},
+};
+function labelParts(label){
+  const out=[]; const add=(k,text)=>{ if(!out.some(o=>o.k===k&&o.text===(text||LABELS[k].text))) out.push({k,text:text||LABELS[k].text}); };
+  for(let p of String(label||'').split('+')){ p=p.trim().toLowerCase(); if(!p) continue;
+    const hit=[];
+    if(/allegation/.test(p)) hit.push(['alleg']);
+    if(/opinion/.test(p)) hit.push(['op','Opinion']); else if(/analysis/.test(p)) hit.push(['op']);
+    if(/unnamed/.test(p)) hit.push(['unn']);
+    if(/state media/.test(p)) hit.push(['sm']);
+    if(/government statement|official statement|^official$/.test(p)) hit.push(['off']);
+    else if(/government figures|official figures/.test(p)) hit.push(['off','Official figures']);
+    else if(/company figures/.test(p)) hit.push(['off','Company figures']);
+    else if(/industry figures/.test(p)) hit.push(['off','Industry figures']);
+    else if(/proposal/.test(p)) hit.push(['off','Official proposal']);
+    else if(/forecast/.test(p)) hit.push(['off','Official forecast']);
+    if(/\bclaim/.test(p)) hit.push(['claim']);
+    if(/preliminary/.test(p)) hit.push(['rep','Reported (preliminary)']);
+    if(!hit.length && /^(fact|reported)\b/.test(p)) hit.push(['rep']);
+    if(!hit.length) hit.push(['rep', p.replace(/^./,c=>c.toUpperCase())]);
+    for(const [k,t] of hit) add(k,t);
+  }
+  return out.length?out:[{k:'rep',text:'Reported'}];
+}
+const badges = label => labelParts(label).map(b=>`<span class="lab ${LABELS[b.k].cls}" title="${esc(LABELS[b.k].desc)}">${esc(b.text)}</span>`).join('');
+const labelText = label => labelParts(label).map(b=>b.text).join(' · ');
+
+// Remove blanket "every source/story was checked" production copy from older editions at render time
+// (archived JSON stays as published; the provenance section says what was actually checked).
+function deblanket(t){
+  let s=String(t??'');
+  s=s.replace(/,? with every source re-?checked/gi,'');
+  s=s.replace(/\s*Every (?:source and date|story|source) was (?:opened and checked|re-?checked|checked at the source|read at the source|read on its source page)(?: this (?:morning|evening)| on [A-Z][a-z]{2} \d{1,2})?(, and conflicting reports are flagged)?[;.]\s*([a-z])?/g,
+    (m,conf,nx)=> ' '+(conf?'Conflicting reports are flagged. ':'')+(nx?nx.toUpperCase():''));
+  s=s.replace(/\s{2,}/g,' ').trim();
+  return s;
+}
+
+// Front-page deck: an explicit story.deck, else the first one or two sentences of the summary. The rest goes in "Read more".
+function splitDeck(s){
+  if(s.deck) return [s.deck, s.summary];
+  const sents=String(s.summary).split(/(?<=[.!?][’'"”)]?)\s+(?=[A-Z‘“"'(])/);
+  let deck=sents[0], i=1;
+  if(i<sents.length && (deck.length<90 || (deck.length<170 && (deck+' '+sents[i]).length<=280))){ deck+=' '+sents[i]; i++; }
+  return [deck, sents.slice(i).join(' ')];
+}
+const isoOk = v => /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?([+-]\d{2}:\d{2}|Z)$/.test(v);
+const nyTime = iso => new Date(iso).toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'});
 
 // ---------- validation (fail loudly; never publish a broken edition) ----------
 function validate(ed){
@@ -26,7 +83,15 @@ function validate(ed){
     for(const l of s.sources||[]) if(!/^https:\/\//.test(l.href)) errs.push(`${s.id}: non-https source ${l.href}`);
     if(ids.has(s.id)) errs.push(`duplicate id ${s.id}`); ids.add(s.id);
     if(s.image) for(const x of validateImage(s.image)) errs.push(`${s.id}: image ${x}`);
+    if(s.deck!==undefined && (typeof s.deck!=='string'||!s.deck.trim())) errs.push(`${s.id}: deck must be a non-empty string`);
+    for(const c of s.sourceChecks||[]){
+      if(!/^https:\/\//.test(c.url||'')) errs.push(`${s.id}: sourceCheck url not https`);
+      if(!c.checkedBy) errs.push(`${s.id}: sourceCheck missing checkedBy`);
+      if(c.checkedAt!==undefined && !isoOk(c.checkedAt)) errs.push(`${s.id}: sourceCheck checkedAt must be ISO time with offset (${c.checkedAt})`);
+      for(const k of ['claimsSupported','limits']) if(c[k]!==undefined && !(Array.isArray(c[k])&&c[k].every(x=>typeof x==='string'))) errs.push(`${s.id}: sourceCheck ${k} must be a list of strings`);
+    }
   }
+  if(ed.provenance!==undefined && !(Array.isArray(ed.provenance)&&ed.provenance.every(x=>typeof x==='string'))) errs.push('provenance must be a list of strings');
   for(const r of Object.keys(REGIONS)){ const n=(ed.stories||[]).filter(s=>s.region===r).length; if(n>5) errs.push(`${r}: ${n} stories (max 5)`); }
   if(ed.leadId && !ids.has(ed.leadId)) errs.push('leadId not found');
   return errs;
@@ -69,27 +134,57 @@ a{color:inherit}img{max-width:100%;height:auto}
 .strap .wrap{display:flex;flex-wrap:wrap;gap:2px 14px;padding-top:7px;padding-bottom:7px}
 .strap b{color:#fff}.strap .upd{color:#ddd}
 nav.chips{border-bottom:1px solid var(--rule);background:#fff}
-nav.chips .wrap{display:flex;gap:8px;overflow-x:auto;padding-top:10px;padding-bottom:10px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
-nav.chips .wrap::-webkit-scrollbar{display:none}
-.chip{flex:0 0 auto;display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border:2px solid var(--ink);border-radius:999px;font-weight:800;font-size:15px;text-decoration:none;background:#fff;color:var(--ink);cursor:pointer}
+nav.chips .wrap{display:flex;flex-wrap:wrap;gap:8px;padding-top:10px;padding-bottom:10px}
+.chip{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:44px;padding:0 16px;white-space:nowrap;border:2px solid var(--ink);border-radius:999px;font-weight:800;font-size:15px;text-decoration:none;background:#fff;color:var(--ink);cursor:pointer}
 .chip[aria-pressed=true],.chip:active{background:var(--ink);color:#fff}
+.chip[aria-pressed=true]{box-shadow:inset 0 -4px 0 var(--red)}
+.chip .n{font-size:12px;font-weight:700;opacity:.75}
+.chip .n0{opacity:.5}
+/* phones: all five regions + Past editions in two tidy rows of three, no horizontal scrolling */
+@media (max-width:759.98px){nav.chips .wrap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+nav.chips .chip{padding:2px 4px;font-size:14.5px;min-width:0;white-space:normal;text-align:center;line-height:1.15}}
 .chip.red{border-color:var(--red);color:var(--red)}
 main{padding-bottom:40px}
 .kicker{display:inline-block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--red)}
 h2.sec{font:900 24px/1.1 "Arial Black","Helvetica Neue",Arial,sans-serif;text-transform:uppercase;letter-spacing:-.5px;margin:28px 0 4px;padding-top:10px;border-top:5px solid var(--ink);scroll-margin-top:8px}
 h2.sec .count{font:700 13px/1 -apple-system,Arial,sans-serif;color:var(--muted);text-transform:none;letter-spacing:0;margin-left:6px}
 .lead{margin:16px 0 8px;padding:0 0 4px}
-.lead h1{font:900 30px/1.08 "Arial Black","Helvetica Neue",Arial,sans-serif;letter-spacing:-.8px;margin:6px 0 10px}
+.lead h1{font:900 25px/1.1 "Arial Black","Helvetica Neue",Arial,sans-serif;letter-spacing:-.8px;margin:6px 0 10px}
 .lead .bar{height:6px;background:var(--red);width:64px;margin-bottom:10px}
 .card{border-bottom:1px solid var(--rule);padding:16px 0;scroll-margin-top:8px}
 .card h3{font:800 21px/1.22 -apple-system,"Helvetica Neue",Arial,sans-serif;margin:6px 0 8px;letter-spacing:-.2px}
 .meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font-size:13px;color:var(--muted)}
 .lab{display:inline-block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;padding:3px 8px;border-radius:4px}
-.lab-fact{background:#111;color:#fff}.lab-alleg{background:#fde2e2;color:#8a0b0b;border:1px solid #e9a3a3}
-.lab-op{background:#efe6ff;color:#3f1d7a}.lab-rep{background:#fff2cc;color:#6b4a00}
+.lab-rep{background:#fff;color:#111;border:1px solid #111}.lab-off{background:#e3eefc;color:#0b3b78;border:1px solid #9dbbe6}
+.lab-claim{background:#ffe9d6;color:#7a3300;border:1px solid #f0b182}.lab-alleg{background:#fde2e2;color:#8a0b0b;border:1px solid #e9a3a3}
+.lab-op{background:#efe6ff;color:#3f1d7a;border:1px solid #cdb8f0}.lab-unn{background:#fff2cc;color:#6b4a00;border:1px solid #e6c766}.lab-sm{background:#f1f1f1;color:#333;border:1px dashed #777}
+.deck{font-size:17px}.lead .deck{font-size:17px;line-height:1.5;margin-bottom:12px}
+.lead .meta{margin:0 0 8px}
+details.more{margin:8px 0 0}
+details.more>summary{display:flex;align-items:center;min-height:44px;font-weight:800;font-size:15px;cursor:pointer;color:var(--red);list-style:none}
+details.more>summary::-webkit-details-marker{display:none}
+details.more>summary:before{content:"+";display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border:2px solid currentColor;border-radius:50%;margin-right:8px;font-size:16px;line-height:1}
+details.more[open]>summary:before{content:"−"}
+details.more>summary .c{color:var(--muted);font-weight:600;margin-left:4px}
+details.more h4{font-size:13px;text-transform:uppercase;letter-spacing:.05em;margin:12px 0 4px}
+.chk{list-style:none;margin:4px 0 2px;padding:0 0 0 12px;border-left:3px solid var(--rule);font-size:13px;line-height:1.45;color:#333}
+.chk li{margin:2px 0}.chk .lim{color:#7a3300}
+details.about,details.guide{margin-top:24px;border-top:1px solid var(--rule);padding-top:8px}
+details.about>summary,details.guide>summary{min-height:44px;display:flex;align-items:center;font-weight:800;cursor:pointer}
+details.about h3{font-size:16px;margin:14px 0 6px}
+details.about ul{padding-left:20px;font-size:15px}details.about li{margin:4px 0}
+details.tools{margin:12px 0 0;border:2px solid var(--ink);border-radius:10px;padding:0 12px}
+details.tools>summary{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;font-weight:800;font-size:15px;cursor:pointer;list-style:none}
+details.tools>summary::-webkit-details-marker{display:none}
+details.tools>summary .st{font-weight:600;color:var(--muted);font-size:14px;text-align:right}
+details.tools>summary:after{content:"▾";font-size:14px}details.tools[open]>summary:after{content:"▴"}
+details.tools form{padding:0 0 12px}
+.empty .btn{margin-top:10px}
+.totop{position:fixed;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:30;display:none;align-items:center;min-height:44px;padding:0 14px;border-radius:999px;background:var(--ink);color:#fff;font-weight:800;font-size:14px;text-decoration:none;box-shadow:0 2px 10px rgba(0,0,0,.3)}
+.js .totop.show{display:inline-flex}
 p{margin:0 0 10px}.why{background:var(--soft);border-left:4px solid var(--red);padding:8px 12px;margin:10px 0}
 .why b{font-size:13px;text-transform:uppercase;letter-spacing:.05em}
-.note{font-size:15px;color:#333}.note b{color:#000}
+.note,.srcnote{font-size:15px;color:#333}.note b{color:#000}
 .srcs{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:6px}
 .srcs a{display:flex;flex-direction:column;justify-content:center;min-height:48px;padding:8px 12px;border:1px solid #ccc;border-radius:8px;text-decoration:none;background:#fff}
 .srcs a:active{background:var(--soft)}
@@ -99,7 +194,7 @@ p{margin:0 0 10px}.why{background:var(--soft);border-left:4px solid var(--red);p
 .latest li{border-bottom:1px solid var(--rule)}
 .latest a{display:block;padding:10px 0;min-height:44px;text-decoration:none}
 .latest .h{font-weight:700;line-height:1.3}.latest .m{font-size:13px;color:var(--muted)}
-.tools{margin:18px 0 0;border:2px solid var(--ink);border-radius:10px;padding:12px;display:none}
+.tools{display:none}
 .js .tools{display:block}
 .tools label{display:block;font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;margin:0 0 4px}
 .tools input,.tools select{width:100%;min-height:48px;font-size:17px;padding:8px 12px;border:1px solid #999;border-radius:8px;background:#fff;color:var(--ink)}
@@ -111,8 +206,6 @@ p{margin:0 0 10px}.why{background:var(--soft);border-left:4px solid var(--red);p
 .arch{list-style:none;padding:0;margin:8px 0}
 .arch a{display:flex;flex-direction:column;justify-content:center;min-height:56px;padding:10px 12px;border:2px solid var(--ink);border-radius:8px;text-decoration:none;margin-bottom:8px}
 .arch .t{font-weight:800}.arch .s{font-size:13px;color:var(--muted)}
-details.guide{margin-top:24px;border-top:1px solid var(--rule);padding-top:8px}
-details.guide summary{min-height:44px;display:flex;align-items:center;font-weight:800;cursor:pointer}
 .banner{background:#fff2cc;border:1px solid #e6c766;padding:10px 12px;border-radius:8px;margin-top:14px;font-size:15px}
 .banner a{font-weight:800}
 footer{border-top:5px solid var(--ink);padding:16px 0 40px;font-size:13px;color:var(--muted)}
@@ -122,7 +215,7 @@ dl.props{margin:0}dl.props dt{font-size:13px;font-weight:800;text-transform:uppe
 .ph{margin:0 0 10px;max-width:100%}
 .ph img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;background:#ddd;border-bottom:4px solid var(--red)}
 .ph-lead{margin:0 -16px 12px}.ph-lead img{border-bottom-width:6px}
-.ph figcaption{font-size:12px;line-height:1.4;color:var(--muted);padding:5px 0 0}
+.ph figcaption{font-size:11.5px;line-height:1.35;color:var(--muted);padding:4px 0 0}
 .ph-lead figcaption{padding:5px 16px 0}
 .ph figcaption b{color:var(--red);text-transform:uppercase;letter-spacing:.05em;font-size:11px}
 .ph figcaption a{display:inline-block;padding:14px 0;margin:-14px 0;color:var(--muted)}
@@ -151,12 +244,14 @@ main>.wrap>.note:first-child,main>.wrap>.banner+.note{font-size:14px;color:var(-
 .logo{font-size:82px;letter-spacing:-3px;line-height:.95;text-align:center;white-space:nowrap;text-shadow:0 3px 0 rgba(0,0,0,.18)}
 .logo span{padding:0 10px;margin-left:8px;text-shadow:none}
 .logo:hover span{background:var(--ink);color:#fff}
-.tag{font-size:13px;line-height:1.45}.tag:after{content:"Verified · Sourced · Labelled";display:block;opacity:.85;font-weight:600;margin-top:2px}
+.tag{font-size:13px;line-height:1.45}.tag:after{content:"Sourced · Linked · Labelled";display:block;opacity:.85;font-weight:600;margin-top:2px}
 .strap{display:none}
 nav.chips{position:sticky;top:0;z-index:20;background:var(--ink);border-bottom:5px solid var(--red);box-shadow:0 2px 8px rgba(0,0,0,.18)}
-nav.chips .wrap{gap:0;padding-top:0;padding-bottom:0;flex-wrap:nowrap}
+nav.chips .wrap{display:flex;gap:0;padding-top:0;padding-bottom:0;flex-wrap:nowrap}
+.totop{display:none!important}
 .chip{min-height:50px;padding:0 20px;border:0;border-radius:0;background:transparent;color:#fff;font:800 15px/1 -apple-system,"Helvetica Neue",Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em}
-.chip:hover,.chip:focus-visible,.chip[aria-pressed=true]{background:var(--red);color:#fff}
+.chip:hover,.chip:focus-visible,.chip[aria-pressed=true]{background:var(--red);color:#fff;box-shadow:none}
+.chip .n{font-size:11px}
 .chip:active{background:#8f0b20}
 .chip.red{color:#fff;margin-left:auto;background:#2a2a2a}.chip.red:hover{background:var(--red)}
 h2.sec{font:400 32px/1 var(--disp);text-transform:uppercase;letter-spacing:.5px;margin:40px 0 14px;padding:0 0 8px;border-top:0;border-bottom:4px solid var(--red);display:flex;align-items:center;scroll-margin-top:70px}
@@ -168,7 +263,6 @@ h2.sec .count{margin-left:auto;font-size:13px;text-transform:uppercase;letter-sp
 .top>#lead-sec{grid-column:1;grid-row:1/span 2}
 .top>.rail{grid-column:2;grid-row:1}
 .top>#latest{grid-column:2;grid-row:2}
-.top>.tools,.top>.empty{grid-column:1/-1}
 .lead{margin:0;padding:0;border-bottom:0;display:flex;flex-direction:column}
 .lead>.kicker{order:-2;align-self:flex-start}.lead>h1{order:-1}.lead>.ph{margin-bottom:12px}
 .lead .ph img{border-bottom-width:8px}
@@ -193,9 +287,9 @@ h2.sec .count{margin-left:auto;font-size:13px;text-transform:uppercase;letter-sp
 .latest a{display:grid;grid-template-columns:38px 1fr;column-gap:6px;padding:9px 0;min-height:0}
 .latest a:before{content:counter(n);grid-row:1/span 2;font:400 30px/1 var(--disp);color:var(--red)}
 .latest a>div{grid-column:2}.latest .h{font-size:16px;line-height:1.25}
-.js .tools{display:grid}
-.tools{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr) auto;grid-template-rows:auto auto;column-gap:18px;align-items:end;margin:32px 0 0;border:0;border-top:4px solid var(--ink);border-radius:0;background:var(--soft);padding:14px 18px 16px}
-.tools>label{grid-column:1;grid-row:1}.tools>#q{grid-column:1;grid-row:2}
+details.tools{margin:20px 0 0;border:0;border-top:4px solid var(--ink);border-radius:0;background:var(--soft);padding:0 18px}
+details.tools form{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr) auto;grid-template-rows:auto auto;column-gap:18px;align-items:end;padding:0 0 16px}
+.tools form>label{grid-column:1;grid-row:1}.tools form>#q{grid-column:1;grid-row:2}
 .tools .row{grid-column:2;grid-row:1/span 2;margin-top:0}
 .tools .status{grid-column:3;grid-row:1/span 2;margin:0;align-self:end;min-height:48px}
 section[data-region-sec]:not(#lead-sec){display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:28px;align-items:start;grid-auto-flow:row dense}
@@ -216,7 +310,7 @@ section[data-region-sec]:not(#lead-sec)>.card:first-of-type .srcs{grid-template-
 .srcs a:hover{border-color:var(--red);background:#fff7f7}.srcs a:hover .t{color:var(--red)}
 .ph figcaption{font-size:11px}
 .arch{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.arch a{margin:0;transition:border-color .15s,color .15s}.arch a:hover{border-color:var(--red);color:var(--red)}
-details.guide{max-width:860px}
+details.guide,details.about{max-width:860px}
 footer{background:var(--ink);color:#c9c9c9;border-top:6px solid var(--red);margin-top:24px;padding:24px 0 48px}
 footer b{color:#fff}footer a{color:#fff}footer a:hover{color:#ff8a9a}
 }
@@ -244,39 +338,61 @@ section[data-region-sec][data-n="5"]>.card:nth-of-type(4),section[data-region-se
 `;
 
 const JS = `
-(function(){document.documentElement.classList.add('js');
-var q=document.getElementById('q'),r=document.getElementById('fr'),t=document.getElementById('ft'),st=document.getElementById('fstatus'),clr=document.getElementById('fclear'),em=document.getElementById('fempty');
-if(!q)return;var cards=[].slice.call(document.querySelectorAll('[data-story]'));var secs=[].slice.call(document.querySelectorAll('[data-region-sec]'));
-var chips=[].slice.call(document.querySelectorAll('[data-chip]'));var tch=[].slice.call(document.querySelectorAll('[data-tchip]'));var lat=[].slice.call(document.querySelectorAll('[data-latest]'));
+(function(){var d=document;d.documentElement.classList.add('js');
+var tt=d.getElementById('totop');if(tt){var onS=function(){tt.classList.toggle('show',(window.scrollY||d.documentElement.scrollTop)>700);};addEventListener('scroll',onS,{passive:true});onS();}
+var q=d.getElementById('q'),r=d.getElementById('fr'),t=d.getElementById('ft'),st=d.getElementById('fsum'),clr=d.getElementById('fclear'),em=d.getElementById('fempty'),emt=d.getElementById('femptytxt'),rst=d.getElementById('freset'),tools=d.getElementById('ftools');
+if(!q)return;
+try{if(matchMedia('(min-width:1024px)').matches)tools.open=true;}catch(e){}
+var A=function(s){return [].slice.call(d.querySelectorAll(s));};
+var cards=A('[data-story]'),secs=A('[data-region-sec]'),chips=A('[data-chip]'),tch=A('[data-tchip]'),lat=A('[data-lat]'),railLi=A('[data-rail]'),latS=d.getElementById('latest'),rail=d.querySelector('.rail');
+function hid(id){var c=d.getElementById(id);return !c||c.classList.contains('hidden');}
 function apply(){var qs=q.value.trim().toLowerCase(),rv=r.value,tv=t.value,n=0;
 cards.forEach(function(c){var ok=(rv==='all'||c.dataset.region===rv)&&(tv==='all'||c.dataset.topic===tv)&&(!qs||c.textContent.toLowerCase().indexOf(qs)>-1);c.classList.toggle('hidden',!ok);if(ok)n++;});
-lat.forEach(function(l){var c=document.getElementById(l.dataset.latest);l.classList.toggle('hidden',c&&c.classList.contains('hidden'));});
+var k=0;lat.forEach(function(l){var ok=!hid(l.dataset.lat)&&k<6;if(ok)k++;l.classList.toggle('hidden',!ok);});if(latS)latS.classList.toggle('hidden',k===0);
+var kr=0;railLi.forEach(function(l){var ok=!hid(l.dataset.rail);if(ok)kr++;l.classList.toggle('hidden',!ok);});if(rail)rail.classList.toggle('hidden',kr===0);
 secs.forEach(function(s){var vis=s.querySelectorAll('[data-story]:not(.hidden)').length;s.classList.toggle('hidden',vis===0);});
-chips.forEach(function(c){c.setAttribute('aria-pressed',String(c.dataset.chip===rv));});tch.forEach(function(c){c.setAttribute('aria-pressed',String(c.dataset.tchip===tv));});
-var on=rv!=='all'||tv!=='all'||qs;st.firstChild.textContent=on?('Showing '+n+' of '+cards.length+' stories'):(cards.length+' stories in this edition');clr.classList.toggle('hidden',!on);em.classList.toggle('hidden',n>0);
-try{var u=new URL(location.href);['region','topic','q'].forEach(function(k){u.searchParams.delete(k)});if(rv!=='all')u.searchParams.set('region',rv);if(tv!=='all')u.searchParams.set('topic',tv);if(qs)u.searchParams.set('q',q.value.trim());history.replaceState(null,'',u.pathname+u.search+u.hash);}catch(e){}}
+chips.forEach(function(c){var on=c.dataset.chip===rv;c.setAttribute('aria-pressed',String(on));});tch.forEach(function(c){c.setAttribute('aria-pressed',String(c.dataset.tchip===tv));});
+var on=rv!=='all'||tv!=='all'||!!qs;st.textContent=on?('Showing '+n+' of '+cards.length):(cards.length+' stories');clr.classList.toggle('hidden',!on);
+if(n===0){var to=t.options[t.selectedIndex];emt.textContent=(tv!=='all'&&to&&to.dataset.n==='0')?('No '+to.dataset.name+' stories in this edition.'+(rv!=='all'||qs?'':' Try another topic.')):('No stories match'+(qs?' \\u201c'+q.value.trim()+'\\u201d':'')+(rv!=='all'?' in '+r.options[r.selectedIndex].dataset.name:'')+(tv!=='all'?' in '+t.options[t.selectedIndex].dataset.name:'')+'. Try another word or show all stories.');}
+em.classList.toggle('hidden',n>0);
+try{var u=new URL(location.href);['region','topic','q'].forEach(function(x){u.searchParams.delete(x)});if(rv!=='all')u.searchParams.set('region',rv);if(tv!=='all')u.searchParams.set('topic',tv);if(qs)u.searchParams.set('q',q.value.trim());history.replaceState(null,'',u.pathname+u.search+u.hash);}catch(e){}}
+function reset(){q.value='';r.value='all';t.value='all';apply();}
 q.addEventListener('input',apply);r.addEventListener('change',apply);t.addEventListener('change',apply);
-clr.addEventListener('click',function(){q.value='';r.value='all';t.value='all';apply();});
-chips.forEach(function(c){c.addEventListener('click',function(e){var v=c.dataset.chip;if(r.value===v){r.value='all';}else{r.value=v;}apply();if(r.value!=='all'){e.preventDefault();var s=document.getElementById('region-'+v);if(s)s.scrollIntoView();}else{e.preventDefault();}});});
-tch.forEach(function(c){c.addEventListener('click',function(e){e.preventDefault();t.value=t.value===c.dataset.tchip?'all':c.dataset.tchip;apply();if(t.value!=='all'){var f=document.querySelector('section[data-region-sec]:not(#lead-sec):not(.hidden)');if(f)f.scrollIntoView();}});});
-var p=new URLSearchParams(location.search);if(p.get('region'))r.value=p.get('region');if(p.get('topic'))t.value=p.get('topic');if(p.get('q'))q.value=p.get('q');apply();})();
+clr.addEventListener('click',reset);rst.addEventListener('click',function(){reset();var m=d.getElementById('main');if(m)m.scrollIntoView();});
+chips.forEach(function(c){c.addEventListener('click',function(e){e.preventDefault();var v=c.dataset.chip;r.value=(r.value===v)?'all':v;apply();if(r.value!=='all'){var s=d.getElementById('region-'+v);if(s&&!s.classList.contains('hidden'))s.scrollIntoView();}});});
+tch.forEach(function(c){c.addEventListener('click',function(e){e.preventDefault();t.value=t.value===c.dataset.tchip?'all':c.dataset.tchip;apply();if(t.value!=='all'){var f=d.querySelector('section[data-region-sec]:not(#lead-sec):not(.hidden)');if(f)f.scrollIntoView();}});});
+var p=new URLSearchParams(location.search);if(p.get('region')&&r.querySelector('option[value="'+p.get('region')+'"]'))r.value=p.get('region');if(p.get('topic')&&t.querySelector('option[value="'+p.get('topic')+'"]'))t.value=p.get('topic');if(p.get('q'))q.value=p.get('q');apply();})();
 `;
 
-const srcList = srcs => `<ul class="srcs">${srcs.map(l=>`<li><a href="${esc(l.href)}" target="_blank" rel="noopener noreferrer"><span class="t">${esc(l.title)}</span><span class="s">${esc(l.site)}${l.date?' · '+esc(l.date):''} ↗</span></a></li>`).join('')}</ul>`;
+// ---------- sources & checks ----------
+// checks: map url -> [{by, at?, ok:[], lim:[]}] built from story.sourceChecks and the automated link-check record (data/checks/<id>-links.json)
+function chkLines(list){
+  if(!list?.length) return '';
+  return `<ul class="chk">${list.map(c=>c.auto
+    ? `<li${c.ok?'':' class="lim"'}>${esc(c.result)} · automated link check${c.checkedAt?`, ${esc(nyTime(c.checkedAt))}`:''} (checks the link opens, not the claims)</li>`
+    : `<li><b>${esc(c.checkedBy)}</b>${c.checkedAt?` (${esc(nyTime(c.checkedAt))})`:''}${c.claimsSupported?.length?`: supports — ${c.claimsSupported.map(esc).join('; ')}`:''}${c.limits?.length?`<span class="lim">${c.claimsSupported?.length?' · ':': '}Limit — ${c.limits.map(esc).join('; ')}</span>`:''}</li>`).join('')}</ul>`;
+}
+const srcList = (srcs, checks) => `<ul class="srcs">${srcs.map(l=>`<li><a href="${esc(l.href)}" target="_blank" rel="noopener noreferrer"><span class="t">${esc(l.title)}</span><span class="s">${esc(l.site)}${l.date?' · '+esc(l.date):''} ↗</span></a>${checks?chkLines(checks(l.href)):''}</li>`).join('')}</ul>`;
 
-function storyCard(s, lead=false, rel=''){
-  const meta = `<div class="meta"><span class="lab ${labelClass(s.label)}">${esc(s.label)}</span><span>${esc(SHORT[s.region])} · ${esc(TOPICS[s.topic])}</span><span>${esc(s.dateLabel)}</span></div>`;
-  const body = `<p>${esc(s.summary)}</p><div class="why"><b>Why it matters</b><br>${esc(s.why)}</div>${s.note?`<p class="note"><b>Note:</b> ${esc(s.note)}</p>`:''}${srcList(s.sources)}`;
+function storyCard(s, lead=false, rel='', checksFor=null){
+  const meta = `<div class="meta">${badges(s.label)}<span>${esc(SHORT[s.region])} · ${esc(TOPICS[s.topic])}</span><span>${esc(s.dateLabel)}</span></div>`;
+  const [deck, rest] = splitDeck(s);
+  const n = s.sources.length;
+  const why = `<div class="why"><b>Why it matters</b><br>${esc(s.why)}</div>`;
+  const more = `<details class="more"><summary>Read more<span class="c">· ${rest?'full story & ':''}${n} source${n===1?'':'s'}</span></summary>${rest?`<p>${esc(rest)}</p>`:''}${s.note?`<p class="note"><b>Note:</b> ${esc(s.note)}</p>`:''}<h4>Sources &amp; checks</h4>${srcList(s.sources, checksFor?(u=>checksFor(s,u)):null)}</details>`;
   const ph = s.image ? ' has-ph' : '';
-  if(lead) return `<article class="lead card${ph}" id="${esc(s.id)}" data-story data-region="${s.region}" data-topic="${s.topic}">${s.image?figure(s.image,rel,true):'<div class="bar"></div>'}<span class="kicker">Lead story · ${esc(REGIONS[s.region])}</span><h1>${esc(s.headline)}</h1>${meta}<div style="height:10px"></div>${body}</article>`;
-  return `<article class="card${ph}" id="${esc(s.id)}" data-story data-region="${s.region}" data-topic="${s.topic}">${figure(s.image,rel,false)}${meta}<h3>${esc(s.headline)}</h3>${body}</article>`;
+  const attrs = `id="${esc(s.id)}" data-story data-region="${s.region}" data-topic="${s.topic}"`;
+  if(lead) return `<article class="lead card${ph}" ${attrs}><span class="kicker">Lead story · ${esc(REGIONS[s.region])}</span><h1>${esc(s.headline)}</h1>${meta}<p class="deck">${esc(deck)}</p>${s.image?figure(s.image,rel,true):'<div class="bar"></div>'}${why}${more}</article>`;
+  return `<article class="card${ph}" ${attrs}>${figure(s.image,rel,false)}${meta}<h3>${esc(s.headline)}</h3><p class="deck">${esc(deck)}</p>${why}${more}</article>`;
 }
 
 function head(title, desc, rel){ return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>${esc(title)}</title><meta name="description" content="${esc(desc)}"><meta name="theme-color" content="#C8102E"><meta name="robots" content="noindex"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23C8102E'/%3E%3Ctext x='32' y='46' font-size='40' font-family='Arial Black,Arial' font-weight='900' text-anchor='middle' fill='%23fff'%3ED%3C/text%3E%3C/svg%3E"><style>${CSS}</style></head><body><a class="skip" href="#main">Skip to stories</a>`; }
 function mast(rel, strapHtml){ return `<header class="mast"><div class="wrap"><div class="mside dt-only">${strapHtml}</div><a class="logo" href="${rel}index.html">Donna<span>Daily</span></a><div class="tag">US · Canada<br>HK · China · World</div></div></header><div class="strap"><div class="wrap">${strapHtml}</div></div>`; }
-// desktop-only section links for pages without the live filters (archive pages, past-editions list)
-const dtNav = rel => Object.keys(REGIONS).map(r=>`<a class="chip dt-only" href="${rel}index.html?region=${r}#region-${r}">${esc(SHORT[r])}</a>`).join('') + `<a class="chip dt-only" href="${rel}index.html?topic=sports">Sports</a>`;
+// section links for pages without the live filters (archive snapshot pages, past-editions list): wrap on phones, desktop nav on >=1024px
+const dtNav = rel => Object.keys(REGIONS).map(r=>`<a class="chip" href="${rel}index.html?region=${r}#region-${r}">${esc(SHORT[r])}</a>`).join('') + `<a class="chip dt-only" href="${rel}index.html?topic=sports">Sports</a>`;
 const foot = (rel, upd) => `<footer><div class="wrap"><p><b>Donna Daily</b> is a personal news digest for Derek, compiled by Donna (Grok Bot). Summaries are original; follow the source links for full reporting. Some sources (e.g. SCMP) may be paywalled.</p><p>Last successful update: ${esc(upd)}. <a href="${rel}editions/index.html">Past editions</a></p></div></footer>`;
+const LEGEND = `<details class="guide"><summary>How to read the labels</summary>${Object.values(LABELS).map(l=>`<p><span class="lab ${l.cls}">${esc(l.text)}</span> ${esc(l.desc)}</p>`).join('')}<p>Labels describe the type of claim a story rests on; they are not a verification grade. Older editions used “Fact”; it is shown as “Reported”. Photos are openly licensed (Wikimedia Commons CC0/public domain/CC BY/CC BY-SA, or US-government public domain), cropped to fit, and credited under each picture. “File photo” means the picture shows the person or place, not the event in the story.</p></details>`;
+const SOURCING = `<p class="srcnote"><b>How this edition is sourced.</b> Stories are compiled from the linked sources and the summaries are original. Labels reflect the type of claim (reported by outlets, an official statement, a claim, an allegation or analysis); they are not a verification grade, and not every claim has been independently verified. Follow the links for full reporting.</p>`;
 
 // Desktop-only "Top stories" rail: the first story of each region (lead excluded), with thumbnails. Hidden on phones
 // (display:none + loading=lazy, so phones never download the thumbnails). Photos are credited on the full story below.
@@ -284,40 +400,67 @@ function rail(stories, lead, rel){
   const picks=[]; for(const r of Object.keys(REGIONS)){ const s=stories.find(x=>x.region===r&&x.id!==lead.id); if(s) picks.push(s); }
   for(const s of stories){ if(picks.length>=5) break; if(s.id!==lead.id && !picks.includes(s)) picks.push(s); }
   if(!picks.length) return '';
-  const li = picks.slice(0,5).map(s=>`<li data-latest="${esc(s.id)}"><a href="#${esc(s.id)}">${s.image?`<img class="th" src="${esc(rel+s.image.src)}" width="128" height="72" alt="" loading="lazy" decoding="async" title="Photo: ${esc(s.image.credit)} · ${esc(s.image.license)}">`:`<span class="nt" aria-hidden="true">${esc(SHORT[s.region].slice(0,2).toUpperCase())}</span>`}<span><span class="k">${esc(REGIONS[s.region])} · ${esc(s.label)}</span><span class="h">${esc(s.headline)}</span></span></a></li>`).join('');
+  const li = picks.slice(0,5).map(s=>`<li data-rail="${esc(s.id)}"><a href="#${esc(s.id)}">${s.image?`<img class="th" src="${esc(rel+s.image.src)}" width="128" height="72" alt="" loading="lazy" decoding="async" title="Photo: ${esc(s.image.credit)} · ${esc(s.image.license)}">`:`<span class="nt" aria-hidden="true">${esc(SHORT[s.region].slice(0,2).toUpperCase())}</span>`}<span><span class="k">${esc(REGIONS[s.region])} · ${esc(labelText(s.label))}</span><span class="h">${esc(s.headline)}</span></span></a></li>`).join('');
   return `<aside class="rail dt-only" aria-label="Top stories"><h2 class="sec">Top stories</h2><ol>${li}</ol><p class="pc">Photos are credited with each full story below.</p></aside>`;
+}
+
+// checks for one edition: story.sourceChecks + automated link-check record
+function checksIndex(ed){
+  let lc=null; const f=path.join(DATA,'checks',`${ed.id}-links.json`);
+  if(fs.existsSync(f)) try{ lc=JSON.parse(fs.readFileSync(f,'utf8')); }catch(e){ lc=null; }
+  const auto = new Map(); for(const x of lc?.results||[]) auto.set(x.url,x);
+  const forUrl = (s,u)=>{ const out=(s.sourceChecks||[]).filter(c=>c.url===u); const a=auto.get(u);
+    if(a){ const ok=a.tag==='OK'; out.push({auto:true, checkedAt:a.checkedAt,
+      result: ok?`Link opened (HTTP ${a.status})`:a.tag==='WARN'?`Automated access ${a.status==='ERR'?'failed':'blocked (HTTP '+a.status+')'}; not evidence of a broken link or inaccurate reporting`:`Link failed (HTTP ${a.status})`, ok}); }
+    return out; };
+  return {lc, forUrl};
+}
+function aboutEdition(ed, lead, CI){
+  const notes=(ed.notes||[]).map(deblanket).filter(Boolean);
+  const all=ed.stories.flatMap(s=>(s.sourceChecks||[]).map(c=>({s,c})));
+  const byWho={}; for(const {c} of all) byWho[c.checkedBy]=(byWho[c.checkedBy]||0)+1;
+  const res=CI.lc?.results||[]; const nOk=res.filter(x=>x.tag==='OK').length, nWarn=res.filter(x=>x.tag==='WARN').length, nFail=res.filter(x=>x.tag==='FAIL').length;
+  return `<details class="about" id="about"><summary>About this edition</summary>${notes.map(n=>`<p class="note">${esc(n)}</p>`).join('')}${SOURCING}` +
+  `<h3>Source checks on record</h3>` +
+  (all.length||res.length ? '' : '<p class="note">No individual source checks are recorded for this edition.</p>') +
+  (all.length?`<ul>${all.map(({s,c})=>`<li><a href="#${esc(s.id)}">${esc(s.headline)}</a> — <b>${esc(c.checkedBy)}</b>${c.checkedAt?` (${esc(nyTime(c.checkedAt))})`:''} on ${esc(c.publisher||c.url)}${c.claimsSupported?.length?`: ${c.claimsSupported.map(esc).join('; ')}`:''}${c.limits?.length?`. Limit: ${c.limits.map(esc).join('; ')}`:''}</li>`).join('')}</ul>`:'') +
+  (res.length?`<p class="note">Automated link check${CI.lc.ranAt?` (${esc(nyTime(CI.lc.ranAt))})`:''}: ${nOk} of ${res.length} source links opened${nWarn?`; ${nWarn} blocked or failed automated access (not evidence of a broken link)`:''}${nFail?`; ${nFail} failed`:''}. This checks that links open, not what they say.</p>`:'') +
+  ((ed.provenance||[]).map(p=>`<p class="note">${esc(p)}</p>`).join('')) + `</details>`;
 }
 
 function renderEdition(ed, {rel, isCurrent, upd, archiveList, currentHref}){
   const stories = ed.stories; const lead = stories.find(s=>s.id===ed.leadId) || stories[0];
-  const latest = [...stories].sort((a,b)=>a.ts<b.ts?1:-1).slice(0,6);
-  const chips = Object.keys(REGIONS).map(r=>`<a class="chip" href="#region-${r}" data-chip="${r}" aria-pressed="false">${esc(SHORT[r])}</a>`).join('') + `<a class="chip dt-only" href="?topic=sports" data-tchip="sports" aria-pressed="false">Sports</a><a class="chip red" href="${rel}editions/index.html"><span class="m-only">Past editions</span><span class="dt-only">Archive</span></a>`;
-  const regionSecs = Object.keys(REGIONS).map(r=>{ const items=stories.filter(s=>s.region===r&&s.id!==lead.id); const total=stories.filter(s=>s.region===r).length;
-    return `<section data-region-sec id="region-${r}" data-n="${items.length}"><h2 class="sec">${esc(REGIONS[r])}<span class="count">${total} ${total===1?'story':'stories'}${lead.region===r?' incl. lead':''}</span></h2>${items.map(s=>storyCard(s,false,rel)).join('')}</section>`; }).join('');
+  const CI = checksIndex(ed);
+  const byTs = [...stories].sort((a,b)=>a.ts<b.ts?1:-1);
+  const nR = r => stories.filter(s=>s.region===r).length, nT = t => stories.filter(s=>s.topic===t).length;
+  const cnt = n => `<span class="n${n?'':' n0'}" aria-label="${n} ${n===1?'story':'stories'}">${n}</span>`;
+  const chips = Object.keys(REGIONS).map(r=>`<a class="chip" href="#region-${r}" role="button" data-chip="${r}" aria-pressed="false">${esc(SHORT[r])}${cnt(nR(r))}</a>`).join('') + `<a class="chip dt-only" href="?topic=sports" role="button" data-tchip="sports" aria-pressed="false">Sports${cnt(nT('sports'))}</a><a class="chip red" href="${rel}editions/index.html"><span class="m-only">Past editions</span><span class="dt-only">Archive</span></a>`;
+  const regionSecs = Object.keys(REGIONS).map(r=>{ const items=stories.filter(s=>s.region===r&&s.id!==lead.id); const total=nR(r);
+    return `<section data-region-sec id="region-${r}" data-n="${items.length}"><h2 class="sec">${esc(REGIONS[r])}<span class="count">${total} ${total===1?'story':'stories'}${lead.region===r?' incl. lead':''}</span></h2>${items.map(s=>storyCard(s,false,rel,CI.forUrl)).join('')}</section>`; }).join('');
   const strap = `<b>${esc(ed.title)} · ${esc(fmtDate(ed.date))}</b><span class="upd">Last successful update: ${esc(upd)}</span>`;
-  return head(`Donna Daily — ${ed.title}, ${fmtDate(ed.date)}`, 'Verified US, Canada, Hong Kong, China and world news, labelled fact, allegation or opinion.', rel) + mast(rel, strap) +
-  `<nav class="chips" aria-label="Regions"><div class="wrap">${chips}</div></nav><main id="main"><div class="wrap">` +
+  const tools = `<details class="tools" id="ftools"><summary><span>Search &amp; filter</span><span class="st" id="fsum" aria-live="polite">${stories.length} stories</span></summary><form role="search" onsubmit="return false"><label for="q">Search this edition</label><input id="q" type="search" placeholder="e.g. election, Hormuz, Tai Po" autocomplete="off"><div class="row"><div><label for="fr">Region</label><select id="fr"><option value="all" data-name="all regions">All regions (${stories.length})</option>${Object.entries(REGIONS).map(([k,v])=>`<option value="${k}" data-name="${esc(v)}" data-n="${nR(k)}">${esc(v)} (${nR(k)})</option>`).join('')}</select></div><div><label for="ft">Topic</label><select id="ft"><option value="all" data-name="all topics">All topics (${stories.length})</option>${Object.entries(TOPICS).map(([k,v])=>`<option value="${k}" data-name="${esc(v)}" data-n="${nT(k)}">${esc(v)} (${nT(k)}${nT(k)?'':' — none this edition'})</option>`).join('')}</select></div></div><div class="status"><span></span><button type="button" class="btn hidden" id="fclear">Show all stories</button></div></form></details>` +
+    `<div class="empty hidden" id="fempty" role="status"><span id="femptytxt">No stories match.</span><br><button type="button" class="btn" id="freset">Show all stories</button></div>`;
+  return head(`Donna Daily — ${ed.title}, ${fmtDate(ed.date)}`, 'Sourced US, Canada, Hong Kong, China and world news, labelled by type of claim.', rel) + mast(rel, strap) +
+  `<nav class="chips" id="regions" aria-label="Regions"><div class="wrap">${chips}</div></nav><main id="main"><div class="wrap">` +
   (isCurrent?'':`<div class="banner">You're reading an archived edition. <a href="${currentHref}">Go to today's edition →</a></div>`) +
-  (ed.notes?.length?`<p class="note" style="margin-top:12px">${ed.notes.map(esc).join(' ')}</p>`:'') +
-  `<div class="top"><section data-region-sec id="lead-sec">${storyCard(lead,true,rel)}</section>` + rail(stories, lead, rel) +
-  `<form class="tools" role="search" onsubmit="return false"><label for="q">Search this edition</label><input id="q" type="search" placeholder="e.g. election, Cohere, Tai Po" autocomplete="off"><div class="row"><div><label for="fr">Region</label><select id="fr"><option value="all">All regions</option>${Object.entries(REGIONS).map(([k,v])=>`<option value="${k}">${esc(v)}</option>`).join('')}</select></div><div><label for="ft">Topic</label><select id="ft"><option value="all">All topics</option>${Object.entries(TOPICS).map(([k,v])=>`<option value="${k}">${esc(v)}</option>`).join('')}</select></div></div><div class="status" id="fstatus"><span></span><button type="button" class="btn hidden" id="fclear">Clear filters</button></div></form>` +
-  `<div class="empty hidden" id="fempty">No stories match. Try another word or clear the filters.</div>` +
-  `<section id="latest"><h2 class="sec">Latest</h2><ul class="latest">${latest.map(s=>`<li data-latest="${esc(s.id)}"><a href="#${esc(s.id)}"><div class="h">${esc(s.headline)}</div><div class="m">${esc(SHORT[s.region])} · ${esc(s.dateLabel)} · ${esc(s.label)}</div></a></li>`).join('')}</ul></section></div>` +
+  tools +
+  `<div class="top"><section data-region-sec id="lead-sec">${storyCard(lead,true,rel,CI.forUrl)}</section>` + rail(stories, lead, rel) +
+  `<section id="latest"><h2 class="sec">Latest</h2><ul class="latest">${byTs.map((s,i)=>`<li data-lat="${esc(s.id)}"${i>=6?' class="hidden"':''}><a href="#${esc(s.id)}"><div class="h">${esc(s.headline)}</div><div class="m">${esc(SHORT[s.region])} · ${esc(s.dateLabel)} · ${esc(labelText(s.label))}</div></a></li>`).join('')}</ul></section></div>` +
   regionSecs +
   `<section id="archive"><h2 class="sec">Past editions</h2><ul class="arch">${archiveList}</ul></section>` +
-  `<details class="guide"><summary>How to read the labels</summary><p><span class="lab lab-fact">Fact</span> Reported and confirmed by the linked sources.</p><p><span class="lab lab-alleg">Allegation</span> Claimed, charged or argued in court; not proven.</p><p><span class="lab lab-op">Opinion / analysis</span> Someone's view or interpretation, marked as such.</p><p><span class="lab lab-rep">Reported / state media</span> Based on unnamed sources or a single state-media outlet.</p><p>Every source link was opened and its date checked when the edition was built. Photos are openly licensed (Wikimedia Commons CC0/public domain/CC BY/CC BY-SA, or US-government public domain), cropped to fit, and credited under each picture. "File photo" means the picture shows the person or place, not the event in the story.</p></details>` +
-  `</div></main>` + foot(rel, upd) + `<script>${JS}</script></body></html>`;
+  aboutEdition(ed, lead, CI) + LEGEND +
+  `</div></main><a class="totop" id="totop" href="#regions">↑ Top · Regions</a>` + foot(rel, upd) + `<script>${JS}</script></body></html>`;
 }
 
 function renderBlocks(nodes, depth=0){
-  return nodes.map(n=>{ if(typeof n==='string') return esc(n); const p=n.props||{};
+  return nodes.map(n=>{ if(typeof n==='string') return esc(deblanket(n)); const p=n.props||{};
     switch(n.type){
       case 'Section': return depth===0 ? `<section id="${esc(p.id||'')}"><h2 class="sec">${esc(p.heading)}</h2>${renderBlocks(n.children,1)}</section>` : `<div class="blk"><h3>${esc(p.heading)}</h3>${renderBlocks(n.children,depth+1)}</div>`;
-      case 'Properties': return `<dl class="props">${p.items.map(i=>`<dt>${esc(i.label)}</dt><dd>${esc(i.value)}</dd>`).join('')}</dl>`;
-      case 'Rows': return `<ul class="rows">${p.rows.map(r=>`<li><div class="h">${esc(r.title)}</div><div>${esc(r.detail||'')}</div><div class="m">${esc(r.meta||'')}</div></li>`).join('')}</ul>`;
+      case 'Properties': return `<dl class="props">${p.items.map(i=>`<dt>${esc(i.label)}</dt><dd>${esc(deblanket(i.value))}</dd>`).join('')}</dl>`;
+      case 'Rows': return `<ul class="rows">${p.rows.map(r=>`<li><div class="h">${esc(r.title)}</div><div>${esc(deblanket(r.detail||''))}</div><div class="m">${esc(r.meta||'')}</div></li>`).join('')}</ul>`;
       case 'LinkCards': return srcList(p.links);
-      case 'NumberedList': return `<ol>${p.items.map(i=>`<li>${esc(i)}</li>`).join('')}</ol>`;
-      case 'BulletList': return `<ul>${p.items.map(i=>`<li>${esc(i)}</li>`).join('')}</ul>`;
+      case 'NumberedList': return `<ol>${p.items.map(i=>`<li>${esc(deblanket(i))}</li>`).join('')}</ol>`;
+      case 'BulletList': return `<ul>${p.items.map(i=>`<li>${esc(deblanket(i))}</li>`).join('')}</ul>`;
       case 'Callout': return `<div class="callout"><b>${esc(p.lead||'')}</b> ${renderBlocks(n.children,depth+1)}</div>`;
       case 'Text': return `<p>${renderBlocks(n.children,depth+1)}</p>`;
       default: return renderBlocks(n.children||[],depth+1);
@@ -326,10 +469,10 @@ function renderBlocks(nodes, depth=0){
 function renderArchive(ed, {upd, currentHref}){
   const rel='../';
   const strap = `<b>Archive · ${esc(ed.title)} · ${esc(fmtDate(ed.date))}</b><span class="upd">Originally published: ${esc(ed.updatedLabel)}</span>`;
-  return head(`Donna Daily archive — ${ed.title}, ${fmtDate(ed.date)}`, ed.summary||'', rel) + mast(rel, strap) +
+  return head(`Donna Daily archive — ${ed.title}, ${fmtDate(ed.date)}`, deblanket(ed.summary||''), rel) + mast(rel, strap) +
   `<nav class="chips" aria-label="Edition"><div class="wrap"><a class="chip" href="${currentHref}">Today's edition</a>${dtNav('../')}<a class="chip red" href="index.html">All past editions</a></div></nav><main id="main"><div class="wrap read">` +
   `<div class="banner">Archived brief, kept as originally published (snapshot; not updated). <a href="${currentHref}">Go to today's edition →</a>${ed.droppedSections?.length?' A personal travel note was removed from this public copy.':''}</div>` +
-  `<p style="margin-top:12px">${esc(ed.summary)}</p>` + renderBlocks(ed.blocks) + `</div></main>` + foot(rel, upd) + `</body></html>`;
+  `<p style="margin-top:12px">${esc(deblanket(ed.summary))}</p>` + renderBlocks(ed.blocks) + `<details class="about"><summary>About this snapshot</summary>${SOURCING.replace('this edition','this brief')}</details>` + `</div></main>` + foot(rel, upd) + `</body></html>`;
 }
 
 // ---------- main ----------
