@@ -1,0 +1,175 @@
+{
+ "edition": "2026-11-03-am",
+ "ranAt": "2026-11-03T08:03:27-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:29-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:28-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/live/cj1dw0ydn595t",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:28-05:00"
+  },
+  {
+   "url": "https://apnews.com/live/midterm-election-2026",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-03T08:03:27-05:00"
+  },
+  {
+   "url": "https://www.justice.gov/opa/pr/doj-monitor-elections-all-50-states-first-time",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:27-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/weather/floods/floods-severe-weather-beset-parts-us-election-day-rcna607186",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:27-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/toronto/toronto-ontario-new-deal-negotiations-9.7406275",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:30-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/british-columbia/statimc-chiefs-legal-challenge-pacific-link-designation-bc-9.7405913",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:29-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/windsor/brian-mulroney-satirical-documentary-windsor-film-fest-top-prize-9.7405310",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:29-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/03/P2026110300225.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:27-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261103/13b3c02470444d2eaa7dc9927d13190d/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:29-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1876371-20261103.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:30-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1876362-20261103.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:30-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/news/hong-kong/transport/article/3373110/single-check-those-flying-through-hong-kong-mainland-china-under-new-scheme",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-03T08:03:27-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1876244-20261102.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:30-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261103/e8508962977a48f59cafed650d7f2636/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:30-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261102/a10df393e4c14e2cb794e6ded194fd6b/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:30-05:00"
+  },
+  {
+   "url": "https://www.caixinglobal.com/2026-11-03/china-moves-to-support-stocks-with-buyback-and-liquidity-measures-102500134.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:29-05:00"
+  },
+  {
+   "url": "https://www.caixinglobal.com/2026-11-02/china-shifts-main-policy-rate-to-overnight-reverse-repo-rate-102499911.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:29-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261103/eef6e15a190e4af5864b7f86a769337c/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:28-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261103/d9f6d34ef3ab466080b5125e7b4ce47e/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:30-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:28-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:27-05:00"
+  },
+  {
+   "url": "https://www.euronews.com/2026/11/03/which-countries-in-europe-have-been-hit-by-supermarket-fridge-cyber-incidents",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:28-05:00"
+  },
+  {
+   "url": "https://www.euronews.com/2026/11/02/cyberattack-hits-belgian-supermarket-fridges-and-freezers",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:28-05:00"
+  },
+  {
+   "url": "https://www.vrt.be/vrtnws/en/2026/11/03/belgian-prosecutors-launch-investigation-into-supermarket-cybera/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:28-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/sport/formula1/articles/cv62y1e6wly6o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:29-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/sports/2026/11/2/kimi-antonelli-becomes-formula-ones-youngest-world-champion-in-mexico-city",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-03T08:03:27-05:00"
+  }
+ ]
+}
