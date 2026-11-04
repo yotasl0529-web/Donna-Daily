@@ -197,9 +197,14 @@ console.log(`INFO special editions in data.json: ${SPECIALS.map(s=>s.id).join(',
     const first = arch.match(/<ul class="arch">[\s\S]*?<h2 class="sec">Earlier<\/h2><ul class="arch"><li[^>]*><a href="([^"]+)"/);
     check(SPECIALS[0]!==sp || (first && first[1]===sp.href.replace(/^editions\//,'')), `Past editions lists special ${sp.id} first (${first&&first[1]})`);
   }
-  check(DJ.current===CUR.id && !SPECIALS.some(sp=>sp.id===DJ.current), `daily front page stays ${DJ.current}; specials never replace it`); }
+  check(DJ.current===CUR.id && !SPECIALS.some(sp=>sp.id===DJ.current), `daily front page stays ${DJ.current}; specials never replace it`);
+  const ban = [...home.matchAll(/<a class="spb" href="([^"]+)"/g)].map(m=>m[1]);
+  check(ban.length<=1 && ban.every(h=>SPECIALS.some(sp=>sp.href===h)) && home.includes('id="lead-sec"'), `home page featured-special banner: ${ban.join(', ')||'none'} (current edition still shown)`); }
 for (const SP of SPECIALS) {
-  const p = SP.href; const SECS=['news','life','opinion','culture'], SREG=['us','ca','hk','cn'];
+  const p = SP.href; const SECS=Object.keys(SP.sections||{news:1,life:1,opinion:1,culture:1}), SREG=Object.keys(SP.regions||{us:1,ca:1,hk:1,cn:1});
+  // per-special test settings (data.json specials[].test); defaults are the October 2026 in Review values
+  const TC = Object.assign({search:'alberta', combo:['opinion','cn'], share:['opinion','hk'], ourView:[2,3], columnsMin:4}, SP.test||{});
+  const SHOT = SP.id==='2026-10-review' ? 'october' : SP.id;
   const nS = k => SP.stories.filter(s=>k==='all'||s.section===k).length, nR = r => SP.stories.filter(s=>r==='all'||s.regions.includes(r)).length;
   const nSR = (k,r) => SP.stories.filter(s=>(k==='all'||s.section===k)&&(r==='all'||s.regions.includes(r))).length;
   const N = SP.stories.length;
@@ -230,13 +235,15 @@ for (const SP of SPECIALS) {
     if (phone) check(F.h1b<=h && F.deckT<h, `${w}px ${SP.id}: lead headline (bottom ${Math.round(F.h1b)}px) and deck (top ${Math.round(F.deckT)}px, bottom ${Math.round(F.deckB)}px) on the first screen (<${h})`);
     if (w===390) check(F.deckB<=h, `390px ${SP.id}: lead deck fully visible on the first screen (${Math.round(F.deckB)}px)`);
     check(F.aboutClosed && F.aboutAfter && F.prov && F.legend, `${w}px ${SP.id}: collapsed About this edition (with provenance) after the sections, label legend incl. Our view`);
-    if (w===390) await page.screenshot({path:`${shots}/october-390.png`});
+    if (SP.updatedAt) { const up = await page.evaluate(()=>{ const t=document.querySelector('.ttl .kick time'); return t?{txt:t.textContent, dt:t.getAttribute('datetime'), top:t.getBoundingClientRect().top}:null; });
+      check(!!up && up.dt===SP.updatedAt && /Last updated .*E[SD]T/.test(up.txt) && up.top<h, `${w}px ${SP.id}: "last updated" time in ET shown at the top (${up&&up.txt})`); }
+    if (w===390) await page.screenshot({path:`${shots}/${SHOT}-390.png`});
     // ---- controls: 5 section tabs + 5 region buttons visible, wrapping (no hidden scroll), counts ----
     const C = await page.evaluate(()=>{ const inView=e=>{const r=e.getBoundingClientRect();return e.offsetParent&&r.left>=0&&r.right<=innerWidth&&r.width>0;};
       const sc=e=>e.scrollWidth>e.clientWidth+1;
       return {tabs:[...document.querySelectorAll('[data-tab]')].filter(inView).map(e=>[e.dataset.tab,e.querySelector('.n').textContent]), regs:[...document.querySelectorAll('[data-reg]')].filter(inView).map(e=>[e.dataset.reg,e.querySelector('.n').textContent]),
         scroll:sc(document.querySelector('.tabs'))||sc(document.querySelector('.regs')), q:inView(document.getElementById('q'))}; });
-    check(C.tabs.length===5 && C.regs.length===5 && !C.scroll && C.q, `${w}px ${SP.id}: 5 section tabs + 5 region buttons + search visible within the viewport, no hidden scroll`);
+    check(C.tabs.length===SECS.length+1 && C.regs.length===SREG.length+1 && !C.scroll && C.q, `${w}px ${SP.id}: ${SECS.length+1} section tabs + ${SREG.length+1} region buttons + search visible within the viewport, no hidden scroll`);
     check(C.tabs.every(([k,n])=>+n===nS(k)) && C.regs.every(([k,n])=>+n===nR(k)), `${w}px ${SP.id}: counts — sections ${C.tabs.map(x=>x.join(' ')).join(', ')}; regions ${C.regs.map(x=>x.join(' ')).join(', ')}`);
     const minT = phone ? 44 : 24;
     const small = await page.evaluate(m=>[...document.querySelectorAll('[data-tab],[data-reg],#q,.btn:not(.hidden),#glance a,details>summary,.wm,.mast .back,footer a')].filter(e=>e.offsetParent).map(e=>[e.textContent.slice(0,20),e.getBoundingClientRect().height]).filter(x=>x[1]<m), minT);
@@ -247,10 +254,10 @@ for (const SP of SPECIALS) {
       const st = await page.evaluate(k=>({pressed:document.querySelector(`[data-tab=${k}]`).getAttribute('aria-pressed'), others:[...document.querySelectorAll('[data-tab]')].filter(t=>t.dataset.tab!==k&&t.getAttribute('aria-pressed')==='true').length,
         secs:[...document.querySelectorAll('[data-sec]')].filter(s=>!s.classList.contains('hidden')).map(s=>s.dataset.sec), lead:!document.getElementById('leadbox').classList.contains('hidden')}), k);
       check(v===nS(k) && st.pressed==='true' && st.others===0 && st.secs.join()===k && g.ok, `${w}px ${SP.id}: ${k} tab -> ${v} (expected ${nS(k)}), only ${st.secs.join()} shown, lead ${st.lead?'shown':'hidden'}, glance ${g.shown?g.n+' items':'hidden'}`);
-      if (k==='opinion' && w===390) { await page.evaluate(()=>{document.documentElement.style.scrollBehavior='auto';const s=document.getElementById('sec-opinion');scrollTo(0,s.getBoundingClientRect().top+scrollY-8);}); await page.screenshot({path:`${shots}/october-opinion-390.png`}); await page.evaluate(()=>scrollTo(0,0)); }
+      if (k==='opinion' && w===390) { await page.evaluate(()=>{document.documentElement.style.scrollBehavior='auto';const s=document.getElementById('sec-opinion');scrollTo(0,s.getBoundingClientRect().top+scrollY-8);}); await page.screenshot({path:`${shots}/${SHOT}-opinion-390.png`}); await page.evaluate(()=>scrollTo(0,0)); }
       if (k==='opinion') { const O = await page.evaluate(()=>({ov:document.querySelectorAll('[data-sub=ourview] [data-story]').length, cols:[...document.querySelectorAll('[data-sub=columns] [data-story]')].map(c=>({by:c.querySelector('.by')?.textContent||'', lab:c.querySelector('.lab')?.textContent})),
           ovLab:[...document.querySelectorAll('[data-sub=ourview] [data-story] .lab')].every(l=>l.textContent==='Our view')}));
-        check(O.ov>=2 && O.ov<=3 && O.ovLab && O.cols.length>=4 && O.cols.every(c=>/^By .+ · .+/.test(c.by) && c.lab==='Opinion'), `${w}px ${SP.id}: Opinion has ${O.ov} "Our view" pieces and ${O.cols.length} named columnists (author · outlet, labelled Opinion)`); }
+        check(O.ov>=TC.ourView[0] && O.ov<=TC.ourView[1] && O.ovLab && O.cols.length>=TC.columnsMin && O.cols.every(c=>/^By .+ · .+/.test(c.by) && c.lab==='Opinion'), `${w}px ${SP.id}: Opinion has ${O.ov} "Our view" pieces and ${O.cols.length} named columnists (author · outlet, labelled Opinion)`); }
       await page.click(`[data-tab=${k}]`); }
     check(await vis()===N, `${w}px ${SP.id}: section tab toggles off -> all ${N}`);
     // ---- region filters ----
@@ -258,17 +265,17 @@ for (const SP of SPECIALS) {
       const st = await page.evaluate(r=>{const c=document.querySelector(`[data-reg=${r}]`),o=document.querySelector('[data-reg=all]');return {pressed:c.getAttribute('aria-pressed'),bg:getComputedStyle(c).backgroundColor,obg:getComputedStyle(o).backgroundColor,
         tabs:[...document.querySelectorAll('[data-tab]')].map(t=>[t.dataset.tab,+t.querySelector('.n').textContent])};}, r);
       check(v===nR(r) && st.pressed==='true' && st.bg!==st.obg && g.ok && st.tabs.every(([k,n])=>n===nSR(k,r)), `${w}px ${SP.id}: region ${r} -> ${v} (expected ${nR(r)}), active, section counts follow (${st.tabs.map(x=>x.join(' ')).join(', ')}), glance ${g.shown?g.n:'hidden'}`);
-      if (r==='hk' && w===390) { await page.evaluate(()=>scrollTo(0,0)); await page.screenshot({path:`${shots}/october-hk-390.png`}); }
+      if (r===SREG[2] && w===390) { await page.evaluate(()=>scrollTo(0,0)); await page.screenshot({path:`${shots}/${SHOT}-${r}-390.png`}); }
       await page.click(`[data-reg=${r}]`); }
     // combined: Opinion + China (includes the cross-region Our view piece)
-    await page.click('[data-tab=opinion]'); await page.click('[data-reg=cn]'); let v=await vis(); check(v===nSR('opinion','cn') && (await glanceOk()).ok, `${w}px ${SP.id}: Opinion + China -> ${v} (expected ${nSR('opinion','cn')})`);
+    await page.click(`[data-tab=${TC.combo[0]}]`); await page.click(`[data-reg=${TC.combo[1]}]`); let v=await vis(); check(v===nSR(TC.combo[0],TC.combo[1]) && (await glanceOk()).ok, `${w}px ${SP.id}: ${TC.combo[0]} + ${TC.combo[1]} -> ${v} (expected ${nSR(TC.combo[0],TC.combo[1])})`);
     await page.click('[data-reg=all]'); await page.click('[data-tab=all]'); check(await vis()===N, `${w}px ${SP.id}: All tab + All regions -> ${N}`);
     // ---- search ----
-    const nQ = await page.evaluate(()=>[...document.querySelectorAll('[data-story]')].filter(c=>c.textContent.toLowerCase().includes('alberta')).length);
-    await page.fill('#q','alberta'); v=await vis(); check(nQ>=2 && nQ<N && v===nQ && (await glanceOk()).ok, `${w}px ${SP.id}: search "alberta" -> ${v} (expected ${nQ})`);
+    const nQ = await page.evaluate(q=>[...document.querySelectorAll('[data-story]')].filter(c=>c.textContent.toLowerCase().includes(q)).length, TC.search);
+    await page.fill('#q',TC.search); v=await vis(); check(nQ>=2 && nQ<N && v===nQ && (await glanceOk()).ok, `${w}px ${SP.id}: search "${TC.search}" -> ${v} (expected ${nQ})`);
     await page.fill('#q','zzzzqqq'); const g0=await glanceOk(); const E = await page.evaluate(()=>({shown:!document.getElementById('fempty').classList.contains('hidden'), txt:document.getElementById('femptytxt').textContent, secs:[...document.querySelectorAll('[data-sec]:not(.hidden)')].length, top:!document.getElementById('top').classList.contains('hidden')}));
-    check(E.shown && /No stories match/.test(E.txt) && E.secs===0 && !E.top && !g0.shown, `${w}px ${SP.id}: no-results search shows a message + reset, hides every section, the lead and Month at a glance`);
-    if (w===390) { await page.evaluate(()=>scrollTo(0,0)); await page.screenshot({path:`${shots}/october-search-none-390.png`}); }
+    check(E.shown && /No stories match/.test(E.txt) && E.secs===0 && !E.top && !g0.shown, `${w}px ${SP.id}: no-results search shows a message + reset, hides every section, the lead and the at-a-glance list`);
+    if (w===390) { await page.evaluate(()=>scrollTo(0,0)); await page.screenshot({path:`${shots}/${SHOT}-search-none-390.png`}); }
     await page.click('#freset'); v=await vis(); check(v===N && await page.inputValue('#q')==='', `${w}px ${SP.id}: reset -> ${v}/${N}`);
     // ---- Read more ----
     await page.locator('#leadbox details.more > summary').click();
@@ -278,13 +285,13 @@ for (const SP of SPECIALS) {
     check(full, `${w}px ${SP.id}: every story has a deck, Why it matters, a label and sources inside Read more`);
     // ---- layout ----
     const L = await page.evaluate(()=>{ const lb=document.getElementById('leadbox').getBoundingClientRect(), g=document.getElementById('glance').getBoundingClientRect();
-      const cols=[...document.querySelectorAll('[data-sec="news"] .grid')].map(x=>getComputedStyle(x).gridTemplateColumns.split(' ').filter(Boolean).length);
+      const cols=[...document.querySelectorAll('[data-sec] .grid')].map(x=>getComputedStyle(x).gridTemplateColumns.split(' ').filter(Boolean).length);
       return {side: g.left>=lb.right-1 && g.top<lb.bottom, cols:Math.min(...cols), sticky:getComputedStyle(document.getElementById('snav')).position, wrapW:document.querySelector('main .wrap').getBoundingClientRect().width}; });
     if (w>=1024) { check(L.side && L.cols>=3 && L.sticky==='sticky' && L.wrapW<=1200, `${w}px ${SP.id}: desktop — lead with Month at a glance beside it, ${L.cols}-column grids, sticky section bar, ${Math.round(L.wrapW)}px content`);
       await page.evaluate(()=>{ document.querySelectorAll('details.more').forEach(d=>d.open=false); scrollTo(0,0); });
-      if (w===1280) { await page.screenshot({path:`${shots}/october-1280.png`});
+      if (w===1280) { await page.screenshot({path:`${shots}/${SHOT}-1280.png`});
         await page.evaluate(async()=>{ document.querySelectorAll('img[loading=lazy]').forEach(i=>i.loading='eager'); await Promise.all([...document.images].map(i=>i.decode().catch(()=>{}))); });
-        await page.screenshot({path:`${shots}/october-1280-full.png`, fullPage:true}); } }
+        await page.screenshot({path:`${shots}/${SHOT}-1280-full.png`, fullPage:true}); } }
     else check(L.cols<=1 && L.sticky!=='sticky', `${w}px ${SP.id}: phone single column, no sticky bar`);
     // ---- back to top ----
     await page.evaluate(()=>{document.documentElement.style.scrollBehavior='auto';scrollTo(0,3000);}); await page.waitForTimeout(150);
@@ -292,17 +299,17 @@ for (const SP of SPECIALS) {
     check(T.shown && T.h>=44 && T.fixed==='fixed', `${w}px ${SP.id}: Back to top shown after scrolling`);
     await page.click('#totop'); await page.waitForTimeout(250); const nt = await page.evaluate(()=>document.getElementById('snav').getBoundingClientRect().top); check(Math.abs(nt)<5, `${w}px ${SP.id}: Back to top lands on the section bar (${Math.round(nt)}px)`);
     // ---- shareable URL ----
-    await page.goto(base+p+'?section=opinion&region=hk'); v=await vis(); check(v===nSR('opinion','hk'), `${w}px ${SP.id}: ?section=opinion&region=hk -> ${v} (expected ${nSR('opinion','hk')})`);
+    await page.goto(base+p+`?section=${TC.share[0]}&region=${TC.share[1]}`); v=await vis(); check(v===nSR(TC.share[0],TC.share[1]), `${w}px ${SP.id}: ?section=${TC.share[0]}&region=${TC.share[1]} -> ${v} (expected ${nSR(TC.share[0],TC.share[1])})`);
     check(errs.length===0, `${w}px ${SP.id}: no JS errors ${errs.join('|')}`);
     // ---- home page link + screenshot ----
-    if (w===390) { await page.goto(base+'index.html'); await page.screenshot({path:`${shots}/home-390.png`});
+    if (w===390) { await page.goto(base+'index.html'); if (SP===SPECIALS[0]) await page.screenshot({path:`${shots}/home-390.png`});
       const hl = page.locator(`a.spl[href="${SP.href}"]:visible`); check(await hl.count()===1, `390px home shows a small "${SP.title.replace(/ \d{4}/,'')}" link`);
       await hl.click(); check(page.url().endsWith(SP.href), `390px home link opens ${SP.href}`); }
     await ctx.close();
   }
   { const ctx = await browser.newContext({viewport:{width:390,height:844}, javaScriptEnabled:false}); const page = await ctx.newPage(); await page.goto(base+p);
     const n = await page.locator('[data-story]:visible').count(); const t = await page.locator('[data-tab]:visible').count();
-    check(n===N && t===5, `no-JS ${SP.id}: ${n} stories readable (expected ${N}), section links visible`);
+    check(n===N && t===SECS.length+1, `no-JS ${SP.id}: ${n} stories readable (expected ${N}), section links visible`);
     await page.locator('#leadbox details.more > summary').click(); check(await page.locator('#leadbox details.more .srcs a:visible').count()>0, `no-JS ${SP.id}: Read more expands`); await ctx.close(); }
 }
 

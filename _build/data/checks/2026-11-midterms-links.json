@@ -1,0 +1,265 @@
+{
+ "edition": "2026-11-midterms",
+ "ranAt": "2026-11-04T10:50:33-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://apnews.com/article/midterm-election-house-senate-democrats-republicans-trump-f126e12e05b579a327b98481c0ae2226",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.boston.com/news/politics/2026/11/03/trumps-hand-picked-nominees-falter-in-south-carolina-texas-and-north-carolina-imperiling-republican-control-of-senate/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.8newsnow.com/news/politics/ap-politics/ap-when-will-we-know-who-controls-congress-it-could-be-a-while/amp/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:34-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/04/midterm-elections-full-results-senate-house-governor-races",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://news.ballotpedia.org/2026/11/04/democrats-win-u-s-house-and-senate-majorities/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.pbs.org/newshour/politics/live-updates-midterm-voters-go-to-the-polls-on-election-day",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/senate-control-democrats-republicans-2026-midterm-elections/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?entryId=137846796&id=137782085",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:34-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/c893z55pxrewo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://thealaskacurrent.com/2026/11/03/alaskas-2026-election-results-will-peltola-kreiss-tomkins-win/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://abc7ny.com/post/conley-wins-ny-17-bennett-defeats-kean-nj-7/20014683/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.nbcmiami.com/news/local/florida-democrats-hold-ground-in-redrawn-us-house-seats-gop-avoids-washout/3883515/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://floridapolitics.com/archives/828224-maria-elvira-salazar-earns-fourth-term-in-cd-27-with-hard-fought-win-over-eliott-rodriguez/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/ballot-issues-abortion-redistricting-transgender-fe17112e9538f5e4ed5907f6d1f5b470",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.wsoctv.com/news/politics/trumps-agenda-meets/XKCN7NJOSM75LHXZNOXYJAQ2AM/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:34-05:00"
+  },
+  {
+   "url": "https://apnews.com/live/midterm-election-2026",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/california-billionaire-tax-election-proposition-40-f6b671a4eead670f0035e0c20070d628",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://gothamist.com/news/ny-election-results-governor-race",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.fox5ny.com/election/nyc-election-results-2026-governor-hochul-blakeman-vote-ballot-new-york-city",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/newyork/news/election-results-ny-governor-attorney-general-house-2026/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/economy/2026/11/4/democrats-dominate-nyc-races-hochul-re-elected-new-york-governor",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://gothamist.com/news/voting-machine-snafu-may-delay-results-in-ny-house-race-between-lawler-conley",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/03/nx-s1-6028054/midterm-elections-voting",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/newyork/news/mamdani-dsa-candidates-darializa-avila-chevalier-claire-valdez/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://gothamist.com/news/mamdani-allies-valdez-avila-chevalier-win-house-seats-for-new-york",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.amny.com/politics/nyc-voters-approve-all-five-ballot-proposals/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.nyc.gov/mayors-office/news/2026/11/mayor-mamdani-applauds-new-yorkers-for-voting-to-make-government",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/house-speaker-mike-johnson-minority-leader-gop-loses/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/c6x29rr8djy3o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://constitution.congress.gov/browse/amendment-20/",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://michaelmcdonald.substack.com/p/preliminary-2026-turnout-rate",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.pbs.org/newshour/politics/takeaways-from-election-night-young-voters-hispanics-shift-away-from-the-gop-as-voters-show-unhappiness-with-trump",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/cbs-news-exit-polls-2026-midterms-democrats/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/stock-market-soar-democrats-take-control-of-congress/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/business/live/2026/nov/04/dollar-falls-while-gold-us-treasury-bonds-rally-markets-react-democrats-midterm-election-victory-marks-spencer-latest-live-updates",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:34-05:00"
+  },
+  {
+   "url": "https://www.fmprc.gov.cn/eng/xw/fyrbt/lxjzh/202611/t20261104_12053240.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:35-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1876542-20261104.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:35-05:00"
+  },
+  {
+   "url": "https://www.thefp.com/p/victor-davis-hanson-five-lessons-midterms-elections-2026",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/02/democrats-midterms-congress-win-power",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/03/midterms-trump-era-lame-duck",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/03/trump-republicans-democrats-unpopular",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T10:50:33-05:00"
+  }
+ ]
+}

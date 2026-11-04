@@ -213,6 +213,12 @@ p{margin:0 0 10px}.why{background:var(--soft);border-left:4px solid var(--red);p
 .arch .t{font-weight:800}.arch .s{font-size:13px;color:var(--muted)}
 .banner{background:#fff2cc;border:1px solid #e6c766;padding:10px 12px;border-radius:8px;margin-top:14px;font-size:15px}
 .banner a{font-weight:800}
+.spb{display:flex;flex-direction:column;gap:2px;min-height:44px;margin:12px 0 0;padding:9px 12px;background:var(--ink);color:#fff;text-decoration:none;border-left:6px solid var(--red);border-radius:6px}
+.spb .k{font-size:11.5px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:#ffb3bf}
+.spb .h{font-weight:800;font-size:16px;line-height:1.25}.spb .h:after{content:" →"}
+.spb .s{font-size:13px;color:#ddd;line-height:1.35}
+@media (max-width:759.98px){.spb .s{display:none}}
+@media (min-width:1024px){.spb{flex-direction:row;align-items:baseline;gap:14px;padding:12px 18px;margin-top:20px;border-radius:0}.spb .h{font-size:20px}.spb .s{font-size:14px}.spb:hover .h{text-decoration:underline}}
 footer{border-top:5px solid var(--ink);padding:16px 0 40px;font-size:13px;color:var(--muted)}
 .blk h3{font:800 20px/1.25 -apple-system,Arial,sans-serif;margin:18px 0 8px}
 dl.props{margin:0}dl.props dt{font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--red);margin-top:10px}dl.props dd{margin:2px 0 0}
@@ -442,14 +448,16 @@ function renderEdition(ed, {rel, isCurrent, upd, archiveList, currentHref, speci
   const chips = Object.keys(REGIONS).map(r=>`<a class="chip" href="#region-${r}" role="button" data-chip="${r}" aria-pressed="false">${esc(SHORT[r])}${cnt(nR(r))}</a>`).join('') + `<a class="chip dt-only" href="?topic=sports" role="button" data-tchip="sports" aria-pressed="false">Sports${cnt(nT('sports'))}</a><a class="chip red" href="${rel}editions/index.html"><span class="m-only">Past editions</span><span class="dt-only">Archive</span></a>`;
   const regionSecs = Object.keys(REGIONS).map(r=>{ const items=stories.filter(s=>s.region===r&&s.id!==lead.id); const total=nR(r);
     return `<section data-region-sec id="region-${r}" data-n="${items.length}"><h2 class="sec">${esc(REGIONS[r])}<span class="count">${total} ${total===1?'story':'stories'}${lead.region===r?' incl. lead':''}</span></h2>${items.map(s=>storyCard(s,false,rel,CI.forUrl)).join('')}</section>`; }).join('');
-  const spl = specials.slice(0,1).map(sp=>`<a class="spl" href="${rel}editions/${esc(sp.id)}/index.html">${esc(sp.title.replace(/^(\w+) \d{4} in Review$/,'$1 in Review'))} →</a>`).join('');
+  const spl = specials.map(sp=>`<a class="spl" href="${rel}editions/${esc(sp.id)}/index.html">${esc(spCfg(sp).strapLabel)} →</a>`).join('');
+  // prominent banner for featured specials (front page only); never replaces the current edition
+  const spBanner = isCurrent ? specials.filter(sp=>sp.featured).slice(0,1).map(sp=>`<a class="spb" href="${rel}editions/${esc(sp.id)}/index.html"><span class="k">${esc(sp.bannerKicker||'Special edition')}</span><span class="h">${esc(sp.bannerHeadline||sp.title)}</span>${sp.bannerDeck?`<span class="s">${esc(sp.bannerDeck)}</span>`:''}</a>`).join('') : '';
   const strap = `<b>${esc(ed.title)} · ${esc(fmtDate(ed.date))}</b><span class="upd">Last successful update: ${esc(upd)}</span>${spl}`;
   const tools = `<details class="tools" id="ftools"><summary><span>Search &amp; filter</span><span class="st" id="fsum" aria-live="polite">${stories.length} stories</span></summary><form role="search" onsubmit="return false"><label for="q">Search this edition</label><input id="q" type="search" placeholder="e.g. election, Hormuz, Tai Po" autocomplete="off"><div class="row"><div><label for="fr">Region</label><select id="fr"><option value="all" data-name="all regions">All regions (${stories.length})</option>${Object.entries(REGIONS).map(([k,v])=>`<option value="${k}" data-name="${esc(v)}" data-n="${nR(k)}">${esc(v)} (${nR(k)})</option>`).join('')}</select></div><div><label for="ft">Topic</label><select id="ft"><option value="all" data-name="all topics">All topics (${stories.length})</option>${Object.entries(TOPICS).map(([k,v])=>`<option value="${k}" data-name="${esc(v)}" data-n="${nT(k)}">${esc(v)} (${nT(k)}${nT(k)?'':' — none this edition'})</option>`).join('')}</select></div></div><div class="status"><span></span><button type="button" class="btn hidden" id="fclear">Show all stories</button></div></form></details>` +
     `<div class="empty hidden" id="fempty" role="status"><span id="femptytxt">No stories match.</span><br><button type="button" class="btn" id="freset">Show all stories</button></div>`;
   return head(`Donna Daily — ${ed.title}, ${fmtDate(ed.date)}`, 'Sourced US, Canada, Hong Kong, China and world news, labelled by type of claim.', rel) + mast(rel, strap) +
   `<nav class="chips" id="regions" aria-label="Regions"><div class="wrap">${chips}</div></nav><main id="main"><div class="wrap">` +
   (isCurrent?'':`<div class="banner">You're reading an archived edition. <a href="${currentHref}">Go to today's edition →</a></div>`) +
-  tools +
+  spBanner + tools +
   `<div class="top"><section data-region-sec id="lead-sec">${storyCard(lead,true,rel,CI.forUrl)}</section>` + rail(stories, lead, rel) +
   `<section id="latest"><h2 class="sec">Latest</h2><ul class="latest">${byTs.map((s,i)=>`<li data-lat="${esc(s.id)}"${i>=6?' class="hidden"':''}><a href="#${esc(s.id)}"><div class="h">${esc(s.headline)}</div><div class="m">${esc(SHORT[s.region])} · ${esc(s.dateLabel)} · ${esc(labelText(s.label))}</div></a></li>`).join('')}</ul></section></div>` +
   regionSecs +
@@ -488,16 +496,36 @@ const SP_SECTIONS = {news:'News', life:'Life', opinion:'Opinion', culture:'Cultu
 const SP_REGIONS = {us:'United States', ca:'Canada', hk:'Hong Kong', cn:'China'};
 const SP_SHORT = {us:'US', ca:'Canada', hk:'HK', cn:'China'};
 const spRegions = s => [s.region, ...(s.alsoRegions||[])];
+// Per-special configuration. A special may define its own sections/regions (e.g. the midterms special uses
+// Senate/House/States/New York/Reaction/Analysis and National/Northeast/South/Midwest/West/World).
+// Defaults reproduce the October 2026 in Review layout. The opinion section key is always "opinion".
+function spCfg(sp){
+  return {
+    sections: sp.sectionLabels || SP_SECTIONS,
+    regions: sp.regionLabels || SP_REGIONS,
+    short: sp.regionShort || sp.regionLabels || SP_SHORT,
+    glanceTitle: sp.glanceTitle || 'Month at a glance',
+    unit: sp.unitLabel || 'stories this month',
+    wordmark: sp.wordmark || 'Review',
+    searchHint: sp.searchHint || 'Search this edition, e.g. Alberta, Tai Po, Mao',
+    ourViewIntro: sp.ourViewIntro || 'Donna Daily’s own analysis of the month’s biggest arguments, setting out more than one side and drawing on the linked reporting.',
+    strapLabel: sp.strapLabel || String(sp.title).replace(/^(\w+) \d{4} in Review$/,'$1 in Review'),
+  };
+}
 function validateSpecial(sp){
-  const errs=[]; const ids=new Set();
+  const errs=[]; const ids=new Set(); const C=spCfg(sp);
   for(const k of ['id','title','intro','date']) if(!sp[k]) errs.push(`missing ${k}`);
+  for(const k of ['sectionLabels','regionLabels','regionShort']) if(sp[k]!==undefined && !(sp[k]&&typeof sp[k]==='object'&&!Array.isArray(sp[k])&&Object.values(sp[k]).every(v=>typeof v==='string'&&v))) errs.push(`${k} must be an object of labels`);
+  if(sp.regionShort && sp.regionLabels && Object.keys(sp.regionShort).join()!==Object.keys(sp.regionLabels).join()) errs.push('regionShort keys must match regionLabels');
+  if(sp.sectionLabels && Object.keys(sp.sectionLabels).some(k=>!/^[a-z]+$/.test(k))) errs.push('section keys must be lowercase letters');
+  if(sp.updatedAt!==undefined && !isoOk(sp.updatedAt)) errs.push('updatedAt must be ISO time with offset');
   if(!/^[a-z0-9-]+$/.test(sp.id||'')) errs.push('id must be lowercase letters, digits and dashes');
   if(!Array.isArray(sp.stories)||!sp.stories.length) errs.push('no stories');
   for(const s of sp.stories||[]){
     for(const k of ['id','section','region','ts','dateLabel','headline','deck','summary','why','label']) if(!s[k]) errs.push(`${s.id||'?'}: missing ${k}`);
-    if(!SP_SECTIONS[s.section]) errs.push(`${s.id}: bad section ${s.section}`);
-    if(!SP_REGIONS[s.region]) errs.push(`${s.id}: bad region ${s.region}`);
-    for(const r of s.alsoRegions||[]) if(!SP_REGIONS[r]||r===s.region) errs.push(`${s.id}: bad alsoRegions ${r}`);
+    if(!C.sections[s.section]) errs.push(`${s.id}: bad section ${s.section}`);
+    if(!C.regions[s.region]) errs.push(`${s.id}: bad region ${s.region}`);
+    for(const r of s.alsoRegions||[]) if(!C.regions[r]||r===s.region) errs.push(`${s.id}: bad alsoRegions ${r}`);
     if(!/^\d{4}-\d{2}-\d{2}/.test(s.ts||'')) errs.push(`${s.id}: ts must start YYYY-MM-DD`);
     if(s.section==='opinion'){
       if(!['ourview','column'].includes(s.opinionKind)) errs.push(`${s.id}: opinion needs opinionKind ourview|column`);
@@ -637,13 +665,13 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 `;
 
-const SP_JS = `
+const spJs = (NM, unit) => `
 (function(){var d=document;d.documentElement.classList.add('js');
 var tt=d.getElementById('totop');if(tt){var onS=function(){tt.classList.toggle('show',(window.scrollY||d.documentElement.scrollTop)>700);};addEventListener('scroll',onS,{passive:true});onS();}
 var A=function(s){return [].slice.call(d.querySelectorAll(s));};
 var cards=A('[data-story]'),tabs=A('[data-tab]'),regs=A('[data-reg]'),secs=A('[data-sec]'),subs=A('[data-sub]'),gl=A('[data-g]');
 var q=d.getElementById('q'),st=d.getElementById('fsum'),clr=d.getElementById('fclear'),em=d.getElementById('fempty'),emt=d.getElementById('femptytxt'),rst=d.getElementById('freset'),top=d.getElementById('top'),lead=d.getElementById('leadbox'),gS=d.getElementById('glance');
-var S={sec:'all',reg:'all'};var NM={news:'News',life:'Life',opinion:'Opinion',culture:'Culture',us:'the United States',ca:'Canada',hk:'Hong Kong',cn:'China'};
+var S={sec:'all',reg:'all'};var NM=${JSON.stringify(NM).replace(/</g,'\\u003c')};
 function m(c,s,r,qs){return (s==='all'||c.dataset.section===s)&&(r==='all'||(' '+c.dataset.regions+' ').indexOf(' '+r+' ')>-1)&&(!qs||c.textContent.toLowerCase().indexOf(qs)>-1);}
 function cnt(s,r,qs){var n=0;cards.forEach(function(c){if(m(c,s,r,qs))n++;});return n;}
 function apply(){var qs=q.value.trim().toLowerCase(),n=0;
@@ -655,7 +683,7 @@ secs.forEach(function(s){s.classList.toggle('hidden',!s.querySelector('[data-sto
 var lh=!lead||!lead.querySelector('[data-story]:not(.hidden)');if(lead)lead.classList.toggle('hidden',lh);
 var k=0;gl.forEach(function(l){var c=d.getElementById(l.dataset.g);var ok=c&&!c.classList.contains('hidden')&&k<12;if(ok)k++;l.classList.toggle('hidden',!ok);});
 gS.classList.toggle('hidden',k===0);top.classList.toggle('nolead',lh);top.classList.toggle('hidden',lh&&k===0);
-var on=S.sec!=='all'||S.reg!=='all'||!!qs;st.textContent=on?('Showing '+n+' of '+cards.length+' stories'):(cards.length+' stories this month');clr.classList.toggle('hidden',!on);
+var on=S.sec!=='all'||S.reg!=='all'||!!qs;st.textContent=on?('Showing '+n+' of '+cards.length+' stories'):(cards.length+' ${unit}');clr.classList.toggle('hidden',!on);
 if(n===0)emt.textContent='No stories match'+(qs?' \\u201c'+q.value.trim()+'\\u201d':'')+(S.sec!=='all'?' in '+NM[S.sec]:'')+(S.reg!=='all'?' for '+NM[S.reg]:'')+'. Try another word, or show every story.';
 em.classList.toggle('hidden',n>0);
 try{var u=new URL(location.href);['section','region','q'].forEach(function(x){u.searchParams.delete(x)});if(S.sec!=='all')u.searchParams.set('section',S.sec);if(S.reg!=='all')u.searchParams.set('region',S.reg);if(qs)u.searchParams.set('q',q.value.trim());history.replaceState(null,'',u.pathname+u.search+u.hash);}catch(e){}}
@@ -663,13 +691,16 @@ function reset(){q.value='';S.sec='all';S.reg='all';apply();}
 tabs.forEach(function(t){t.addEventListener('click',function(e){e.preventDefault();var v=t.dataset.tab;S.sec=(v==='all'||S.sec===v)?'all':v;apply();});});
 regs.forEach(function(t){t.addEventListener('click',function(e){e.preventDefault();var v=t.dataset.reg;S.reg=(v==='all'||S.reg===v)?'all':v;apply();});});
 q.addEventListener('input',apply);clr.addEventListener('click',reset);rst.addEventListener('click',function(){reset();d.getElementById('snav').scrollIntoView();});
-var p=new URLSearchParams(location.search);if(NM[p.get('section')]&&p.get('section').length>2&&tabs.some(function(t){return t.dataset.tab===p.get('section')}))S.sec=p.get('section');if(regs.some(function(t){return t.dataset.reg===p.get('region')}))S.reg=p.get('region');if(p.get('q'))q.value=p.get('q');apply();})();
+var p=new URLSearchParams(location.search);if(p.get('section')&&p.get('section')!=='all'&&tabs.some(function(t){return t.dataset.tab===p.get('section')}))S.sec=p.get('section');if(regs.some(function(t){return t.dataset.reg===p.get('region')}))S.reg=p.get('region');if(p.get('q'))q.value=p.get('q');apply();})();
 `;
 
 const spDate = ts => new Date(ts.slice(0,10)+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'UTC'});
-function spCard(s, CI, rel, lead=false){
-  const regs = spRegions(s); const regTxt = regs.map(r=>SP_REGIONS[r]).join(' · ');
-  const kick = s.opinionKind==='ourview' ? `Our view · ${regTxt}` : s.opinionKind==='column' ? `Opinion · ${regTxt}` : `${SP_SECTIONS[s.section]} · ${regTxt}`;
+// "2026-11-03T21:05" (written in ET) -> "Tue 9:05p"; date-only ts -> "Nov 3"
+const spWhen = ts => { const m=/^(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2})/.exec(ts||''); if(!m) return spDate(ts);
+  const dow=new Date(m[1]+'T12:00:00Z').toLocaleDateString('en-US',{weekday:'short',timeZone:'UTC'}); let h=+m[2]; const ap=h<12?'a':'p'; h=h%12||12; return `${dow} ${h}${m[3]==='00'?'':':'+m[3]}${ap}`; };
+function spCard(s, CI, rel, lead=false, C=spCfg({})){
+  const regs = spRegions(s); const regTxt = regs.map(r=>C.regions[r]).join(' · ');
+  const kick = s.opinionKind==='ourview' ? `Our view · ${regTxt}` : s.opinionKind==='column' ? `Opinion · ${regTxt}` : `${C.sections[s.section]} · ${regTxt}`;
   const by = s.opinionKind==='column' ? `<p class="by">By <b>${esc(s.author)}</b> · ${esc(s.outlet)}</p>` : s.opinionKind==='ourview' ? `<p class="by"><b>Donna Daily</b> · analysis, drawing on the linked reporting</p>` : '';
   const meta = `<div class="meta">${badges(s.label)}<span>${esc(s.dateLabel)}</span></div>`;
   const n = s.sources.length;
@@ -681,43 +712,45 @@ function spCard(s, CI, rel, lead=false){
   return `<article class="${cls}" ${attrs}>${figure(s.image,rel,false)}<span class="k">${esc(kick)}</span><h3>${esc(s.headline)}</h3>${by}<p class="deck">${esc(s.deck)}</p>${meta}${why}${more}</article>`;
 }
 // interleave regions (us, ca, hk, cn) so each section reads across all four
-function roundRobin(list){ const by={}; for(const s of list) (by[s.region]=by[s.region]||[]).push(s); const out=[]; let i=0, more=true;
-  while(more){ more=false; for(const r of Object.keys(SP_REGIONS)){ const x=by[r]?.[i]; if(x){ out.push(x); more=true; } } i++; } return out; }
+function roundRobin(list, keys=Object.keys(SP_REGIONS)){ if(list.some(s=>s.order!==undefined)) return [...list].sort((a,b)=>(a.order??99)-(b.order??99));
+  const by={}; for(const s of list) (by[s.region]=by[s.region]||[]).push(s); const out=[]; let i=0, more=true;
+  while(more){ more=false; for(const r of keys){ const x=by[r]?.[i]; if(x){ out.push(x); more=true; } } i++; } return out; }
 function renderSpecial(sp, {upd}){
   const rel='../../'; const st=sp.stories; const lead=st.find(s=>s.id===sp.leadId)||st[0];
-  const CI = checksIndex(sp);
+  const CI = checksIndex(sp); const C = spCfg(sp);
   const nS = k => st.filter(s=>k==='all'||s.section===k).length, nR = r => st.filter(s=>r==='all'||spRegions(s).includes(r)).length;
-  const tabs = [['all','All'],...Object.entries(SP_SECTIONS)].map(([k,v])=>`<a class="tab" href="${k==='all'?'#top':'#sec-'+k}" role="button" data-tab="${k}" aria-pressed="${k==='all'}">${esc(v)} <span class="n">${nS(k)}</span></a>`).join('');
-  const regs = `<span class="lbl">Region</span>` + [['all','All'],...Object.entries(SP_SHORT)].map(([k,v])=>`<button type="button" class="reg" data-reg="${k}" aria-pressed="${k==='all'}" aria-label="${esc(k==='all'?'All regions':SP_REGIONS[k])}">${esc(v)} <span class="n">${nR(k)}</span></button>`).join('');
-  const sec = (k, inner) => `<section data-sec="${k}" id="sec-${k}"><h2 class="sh">${esc(SP_SECTIONS[k])}<span class="count">${nS(k)} ${nS(k)===1?'story':'stories'}</span></h2>${inner}</section>`;
-  const grid = (list, cls='') => `<div class="grid g4 ${cls}">${list.map(s=>spCard(s,CI,rel)).join('')}</div>`;
-  const body = Object.keys(SP_SECTIONS).map(k=>{
-    const list = roundRobin(st.filter(s=>s.section===k && s.id!==lead.id));
+  const tabs = [['all','All'],...Object.entries(C.sections)].map(([k,v])=>`<a class="tab" href="${k==='all'?'#top':'#sec-'+k}" role="button" data-tab="${k}" aria-pressed="${k==='all'}">${esc(v)} <span class="n">${nS(k)}</span></a>`).join('');
+  const regs = `<span class="lbl">Region</span>` + [['all','All'],...Object.entries(C.short)].map(([k,v])=>`<button type="button" class="reg" data-reg="${k}" aria-pressed="${k==='all'}" aria-label="${esc(k==='all'?'All regions':C.regions[k])}">${esc(v)} <span class="n">${nR(k)}</span></button>`).join('');
+  const sec = (k, inner) => `<section data-sec="${k}" id="sec-${k}"><h2 class="sh">${esc(C.sections[k])}<span class="count">${nS(k)} ${nS(k)===1?'story':'stories'}</span></h2>${inner}</section>`;
+  const grid = (list, cls='') => `<div class="grid g4 ${cls}">${list.map(s=>spCard(s,CI,rel,false,C)).join('')}</div>`;
+  const body = Object.keys(C.sections).map(k=>{
+    const list = roundRobin(st.filter(s=>s.section===k && s.id!==lead.id), Object.keys(C.regions));
     if(k!=='opinion') return sec(k, grid(list));
     const ov=list.filter(s=>s.opinionKind==='ourview'), cols=list.filter(s=>s.opinionKind==='column');
-    return sec(k, `<div class="sub" data-sub="ourview"><h3 class="subh">Our view</h3><p class="subd">Donna Daily’s own analysis of the month’s biggest arguments, setting out more than one side and drawing on the linked reporting.</p><div class="grid ovg">${ov.map(s=>spCard(s,CI,rel)).join('')}</div></div>` +
+    return sec(k, `<div class="sub" data-sub="ourview"><h3 class="subh">Our view</h3><p class="subd">${esc(C.ourViewIntro)}</p><div class="grid ovg">${ov.map(s=>spCard(s,CI,rel,false,C)).join('')}</div></div>` +
       `<div class="sub" data-sub="columns"><h3 class="subh">What columnists are arguing</h3><p class="subd">Named writers at other outlets, paraphrased in our words, with links to the originals.</p>${grid(cols)}</div>`);
   }).join('');
   const byTs=[...st].sort((a,b)=>a.ts<b.ts?-1:a.ts>b.ts?1:0);
-  const glance = `<section id="glance" aria-label="Month at a glance"><h2>Month at a glance</h2><ol>${byTs.map((s,i)=>`<li data-g="${esc(s.id)}"${i>=12?' class="hidden"':''}><a href="#${esc(s.id)}"><span class="d">${esc(spDate(s.ts))}</span><span class="h">${esc(s.headline)}<span class="m">${esc(SP_SECTIONS[s.section])} · ${esc(spRegions(s).map(r=>SP_SHORT[r]).join(', '))}</span></span></a></li>`).join('')}</ol></section>`;
+  const gList = sp.glanceIds ? sp.glanceIds.map(id=>st.find(s=>s.id===id)).filter(Boolean) : byTs;
+  const glance = `<section id="glance" aria-label="${esc(C.glanceTitle)}"><h2>${esc(C.glanceTitle)}</h2><ol>${gList.map((s,i)=>`<li data-g="${esc(s.id)}"${i>=12?' class="hidden"':''}><a href="#${esc(s.id)}"><span class="d">${esc(spWhen(s.ts))}</span><span class="h">${esc(s.glance||s.headline)}<span class="m">${esc(C.sections[s.section])} · ${esc(spRegions(s).map(r=>C.short[r]).join(', '))}</span></span></a></li>`).join('')}</ol></section>`;
   const all=st.flatMap(s=>(s.sourceChecks||[]).map(c=>({s,c})));
   const res=CI.lc?.results||[]; const nOk=res.filter(x=>x.tag==='OK').length, nWarn=res.filter(x=>x.tag==='WARN').length, nFail=res.filter(x=>x.tag==='FAIL').length;
   const nPh=st.filter(s=>s.image).length;
   const about = `<details class="about" id="about"><summary>About this edition</summary>${(sp.notes||[]).map(n=>`<p class="note">${esc(n)}</p>`).join('')}` +
-    `<p class="note"><b>How this edition is sourced.</b> Summaries and analysis are original and compiled from the linked sources; nothing is quoted at length, and Globe and Mail pieces are cited as “subscriber” links. Labels describe the type of claim (reported, official statement, allegation, opinion, Our view); they are not a verification grade, and not every claim has been independently verified. Major news claims rest on at least two sources where we could find them; single-source items say so.</p>` +
-    `<p class="note">${st.length} stories · ${nPh} with photos · ${Object.entries(SP_SECTIONS).map(([k,v])=>`${v} ${nS(k)}`).join(' · ')}.</p>` +
+    `<p class="note"><b>How this edition is sourced.</b> Summaries and analysis are original and compiled from the linked sources; nothing is quoted at length${st.some(s=>s.sources.some(l=>/Globe and Mail/.test(l.site)))?', and Globe and Mail pieces are cited as “subscriber” links':''}. Labels describe the type of claim (reported, official statement, allegation, opinion, Our view); they are not a verification grade, and not every claim has been independently verified. Major news claims rest on at least two sources where we could find them; single-source items say so.</p>` +
+    `<p class="note">${st.length} stories · ${nPh} with photos · ${Object.entries(C.sections).map(([k,v])=>`${v} ${nS(k)}`).join(' · ')}.</p>` +
     (sp.provenance||[]).map(p=>`<p class="note">${esc(p)}</p>`).join('') +
     (res.length?`<p class="note">Automated link check${CI.lc.ranAt?` (${esc(nyTime(CI.lc.ranAt))})`:''}: ${nOk} of ${res.length} source links opened${nWarn?`; ${nWarn} blocked or failed automated access (an access limit, not evidence of a broken link)`:''}${nFail?`; ${nFail} failed`:''}. This checks that links open, not what they say.</p>`:'') +
     `<h3>Source checks on record</h3>` + (all.length?`<ul>${all.map(({s,c})=>`<li><a href="#${esc(s.id)}">${esc(s.headline)}</a> — <b>${esc(c.checkedBy)}</b>${c.checkedAt?` (${esc(nyTime(c.checkedAt))})`:''} on ${esc(c.publisher||c.url)}${c.claimsSupported?.length?`: ${c.claimsSupported.map(esc).join('; ')}`:''}${c.limits?.length?`. Limit: ${c.limits.map(esc).join('; ')}`:''}</li>`).join('')}</ul>`:'<p class="note">No individual source checks are recorded.</p>') + `</details>`;
   const used = new Set(st.flatMap(s=>labelParts(s.label).map(b=>b.k)));
   const legend = `<details class="guide"><summary>How to read the labels</summary>${Object.entries(LABELS).filter(([k])=>used.has(k)).map(([k,l])=>`<p><span class="lab ${l.cls}">${esc(l.text)}</span> ${esc(l.desc)}</p>`).join('')}<p>Photos are openly licensed (Wikimedia Commons CC0, public domain, CC BY or CC BY-SA, or US-government public domain), cropped to fit and credited under each picture. “File photo” means the picture shows the person or place, not the event in the story.</p></details>`;
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Donna Daily — ${esc(sp.title)}</title><meta name="description" content="${esc(sp.intro)}"><meta name="theme-color" content="#0f4c5c"><meta name="robots" content="noindex"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230f4c5c'/%3E%3Ctext x='32' y='45' font-size='38' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='%23fff'%3ED%3C/text%3E%3C/svg%3E"><style>${SP_CSS}</style></head><body><a class="skip" href="#main">Skip to stories</a>` +
-  `<header class="mast"><div class="wrap"><a class="wm" href="${rel}index.html">Donna Daily<i>Review</i></a><a class="back" href="${rel}index.html">Today’s edition →</a></div></header>` +
-  `<div class="wrap"><div class="ttl"><div><p class="kick">Special edition · ${esc(sp.publishedLabel||fmtDate(sp.date))}</p><h1>${esc(sp.title)}</h1></div><p class="intro">${esc(sp.intro)}</p></div></div>` +
-  `<div class="wrap"><nav class="snav" id="snav" aria-label="Sections and regions"><div class="tabs">${tabs}</div><div class="regs jsonly">${regs}</div><form class="srch jsonly" role="search" onsubmit="return false"><label for="q">Search this edition</label><input id="q" type="search" placeholder="Search this edition, e.g. Alberta, Tai Po, Mao" autocomplete="off"></form><div class="status jsonly"><span id="fsum" aria-live="polite">${st.length} stories this month</span><button type="button" class="btn hidden" id="fclear">Show all stories</button></div></nav></div>` +
+  `<header class="mast"><div class="wrap"><a class="wm" href="${rel}index.html">Donna Daily<i>${esc(C.wordmark)}</i></a><a class="back" href="${rel}index.html">Today’s edition →</a></div></header>` +
+  `<div class="wrap"><div class="ttl"><div><p class="kick">Special edition · ${esc(sp.publishedLabel||fmtDate(sp.date))}${sp.updatedAt?` · <time datetime="${esc(sp.updatedAt)}">Last updated ${esc(nyTime(sp.updatedAt))}</time>`:''}</p><h1>${esc(sp.title)}</h1></div><p class="intro">${esc(sp.intro)}</p></div></div>` +
+  `<div class="wrap"><nav class="snav" id="snav" aria-label="Sections and regions"><div class="tabs">${tabs}</div><div class="regs jsonly">${regs}</div><form class="srch jsonly" role="search" onsubmit="return false"><label for="q">Search this edition</label><input id="q" type="search" placeholder="${esc(C.searchHint)}" autocomplete="off"></form><div class="status jsonly"><span id="fsum" aria-live="polite">${st.length} ${esc(C.unit)}</span><button type="button" class="btn hidden" id="fclear">Show all stories</button></div></nav></div>` +
   `<main id="main"><div class="wrap"><div class="empty hidden" id="fempty" role="status"><span id="femptytxt">No stories match.</span><br><button type="button" class="btn" id="freset" style="margin-top:10px">Show all stories</button></div>` +
-  `<div class="top" id="top"><div id="leadbox">${spCard(lead,CI,rel,true)}</div>${glance}</div>` + body + about + legend +
-  `</div></main><a class="totop" id="totop" href="#snav">↑ Back to top</a><footer><div class="wrap"><p><b>Donna Daily</b> · ${esc(sp.title)} is a special edition compiled by Donna (Grok Bot). Summaries and analysis are original; follow the source links for full reporting. Some sources are paywalled.</p><p><a href="${rel}index.html">Today’s edition</a> · <a href="${rel}editions/index.html">Past editions</a> · Built ${esc(upd)}</p></div></footer><script>${SP_JS}</script></body></html>`;
+  `<div class="top" id="top"><div id="leadbox">${spCard(lead,CI,rel,true,C)}</div>${glance}</div>` + body + about + legend +
+  `</div></main><a class="totop" id="totop" href="#snav">↑ Back to top</a><footer><div class="wrap"><p><b>Donna Daily</b> · ${esc(sp.title)} is a special edition compiled by Donna (Grok Bot). Summaries and analysis are original; follow the source links for full reporting. Some sources are paywalled.</p><p><a href="${rel}index.html">Today’s edition</a> · <a href="${rel}editions/index.html">Past editions</a> · Built ${esc(upd)}</p></div></footer><script>${spJs(Object.assign({},C.sections,Object.fromEntries(Object.entries(C.regions).map(([k,v])=>[k,(sp.regionPhrases||(sp.regionLabels?{}:{us:'the United States'}))[k]||v]))), C.unit)}</script></body></html>`;
 }
 
 // ---------- main ----------
@@ -735,7 +768,7 @@ if(!editions.length){ console.error('BUILD FAILED: no edition'); process.exit(1)
 const current = editions[0];
 const upd = nyNow();
 const allPast = [...editions.slice(1), ...archives].sort((a,b)=>a.date<b.date||(a.date===b.date&&a.id<b.id)?1:-1);
-const specLi = (relE) => specials.map(sp=>`<li class="spec"><a href="${relE}${sp.id}/index.html"><span class="t">${esc(sp.title)}</span><span class="s">Special edition · ${sp.stories.length} stories · News, Life, Opinion, Culture</span></a></li>`).join('');
+const specLi = (relE) => specials.map(sp=>`<li class="spec"><a href="${relE}${sp.id}/index.html"><span class="t">${esc(sp.title)}</span><span class="s">Special edition · ${sp.stories.length} stories · ${esc(Object.values(spCfg(sp).sections).join(', '))}</span></a></li>`).join('');
 const archLi = (relE) => specLi(relE) + (allPast.length? allPast.map(e=>`<li><a href="${relE}${e.id}.html"><span class="t">${esc(e.title)} — ${esc(fmtDate(e.date))}</span><span class="s">${e.kind==='archive'?'Earlier brief (snapshot)':`${e.stories.length} stories`}</span></a></li>`).join('') : (specials.length?'':'<li>No past editions yet.</li>'));
 
 fs.rmSync(TMP,{recursive:true,force:true}); fs.mkdirSync(path.join(TMP,'editions'),{recursive:true});
@@ -744,7 +777,7 @@ for(const sp of specials){ fs.mkdirSync(path.join(TMP,'editions',sp.id),{recursi
 for(const e of editions) fs.writeFileSync(path.join(TMP,'editions',e.id+'.html'), renderEdition(e,{rel:'../',isCurrent:false,upd,archiveList:archLi(''),currentHref:'../index.html'}));
 for(const a of archives) fs.writeFileSync(path.join(TMP,'editions',a.id+'.html'), renderArchive(a,{upd,currentHref:'../index.html'}));
 fs.writeFileSync(path.join(TMP,'editions','index.html'), head('Donna Daily — Past editions','Archive of Donna Daily editions','../') + mast('../', `<b>Past editions</b><span class="upd">Last successful update: ${esc(upd)}</span>`) + `<nav class="chips" aria-label="Sections"><div class="wrap"><a class="chip" href="../index.html">Today's edition</a>${dtNav('../')}</div></nav><main id="main"><div class="wrap read"><h2 class="sec">Today</h2><ul class="arch"><li><a href="../index.html"><span class="t">${esc(current.title)} — ${esc(fmtDate(current.date))}</span><span class="s">${current.stories.length} stories · current</span></a></li></ul><h2 class="sec">Earlier</h2><ul class="arch">${archLi('')}</ul></div></main>` + foot('../',upd) + `</body></html>`);
-fs.writeFileSync(path.join(TMP,'data.json'), JSON.stringify({current: current.id, lastSuccessfulUpdate: upd, editions: editions.map(e=>({id:e.id,date:e.date,title:e.title,stories:e.stories})), archives: archives.map(a=>({id:a.id,date:a.date,title:a.title})), specials: specials.map(sp=>({id:sp.id,title:sp.title,href:`editions/${sp.id}/index.html`,stories:sp.stories.map(s=>({id:s.id,section:s.section,region:s.region,regions:spRegions(s),opinionKind:s.opinionKind||null,headline:s.headline,image:!!s.image}))}))}));
+fs.writeFileSync(path.join(TMP,'data.json'), JSON.stringify({current: current.id, lastSuccessfulUpdate: upd, editions: editions.map(e=>({id:e.id,date:e.date,title:e.title,stories:e.stories})), archives: archives.map(a=>({id:a.id,date:a.date,title:a.title})), specials: specials.map(sp=>({id:sp.id,title:sp.title,href:`editions/${sp.id}/index.html`,sections:spCfg(sp).sections,regions:spCfg(sp).regions,updatedAt:sp.updatedAt||null,test:sp.test||null,stories:sp.stories.map(s=>({id:s.id,section:s.section,region:s.region,regions:spRegions(s),opinionKind:s.opinionKind||null,headline:s.headline,image:!!s.image}))}))}));
 fs.writeFileSync(path.join(TMP,'.nojekyll'),'');
 // copy every edition's photos (data/img/** -> public/img/**) so archived editions keep their images
 let nImg=0; (function cp(src,dst){ if(!fs.existsSync(src)) return; for(const d of fs.readdirSync(src,{withFileTypes:true})){ const a=path.join(src,d.name), b=path.join(dst,d.name);
@@ -755,5 +788,5 @@ if(fs.existsSync(OUT)) fs.renameSync(OUT, OLD);
 fs.renameSync(TMP, OUT); fs.rmSync(OLD,{recursive:true,force:true});
 fs.writeFileSync(path.join(DATA,'state.json'), JSON.stringify({lastSuccessfulBuild: upd, current: current.id, builtAtUTC: new Date().toISOString()},null,1));
 const counts = Object.keys(REGIONS).map(r=>`${r}:${current.stories.filter(s=>s.region===r).length}`).join(' ');
-for(const sp of specials) console.log(`SPECIAL OK ${sp.id} → editions/${sp.id}/index.html (${Object.keys(SP_SECTIONS).map(k=>`${k}:${sp.stories.filter(s=>s.section===k).length}`).join(' ')}; ${sp.stories.filter(s=>s.image).length}/${sp.stories.length} with photos)`);
+for(const sp of specials) console.log(`SPECIAL OK ${sp.id} → editions/${sp.id}/index.html (${Object.keys(spCfg(sp).sections).map(k=>`${k}:${sp.stories.filter(s=>s.section===k).length}`).join(' ')}; ${sp.stories.filter(s=>s.image).length}/${sp.stories.length} with photos)`);
 console.log(`BUILD OK ${current.id} (${counts}; ${current.stories.filter(s=>s.image).length}/${current.stories.length} with photos; ${nImg} image files) — ${upd}`);
