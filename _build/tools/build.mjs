@@ -211,6 +211,7 @@ p{margin:0 0 10px}.why{background:var(--soft);border-left:4px solid var(--red);p
 .arch{list-style:none;padding:0;margin:8px 0}
 .arch a{display:flex;flex-direction:column;justify-content:center;min-height:56px;padding:10px 12px;border:2px solid var(--ink);border-radius:8px;text-decoration:none;margin-bottom:8px}
 .arch .t{font-weight:800}.arch .s{font-size:13px;color:var(--muted)}
+.archgrp{margin:14px 0 6px}.archgrp .sub{font-size:18px;margin:10px 0 4px;padding-bottom:4px;border-bottom:3px solid var(--ink)}.archgrp#special-editions .sub{border-color:var(--red)}.archgrp .cnt{font-weight:400;font-size:14px;color:var(--muted)}.arch .none{color:var(--muted);padding:8px 0}
 .banner{background:#fff2cc;border:1px solid #e6c766;padding:10px 12px;border-radius:8px;margin-top:14px;font-size:15px}
 .banner a{font-weight:800}
 .spb{display:flex;flex-direction:column;gap:2px;min-height:44px;margin:12px 0 0;padding:9px 12px;background:var(--ink);color:#fff;text-decoration:none;border-left:6px solid var(--red);border-radius:6px}
@@ -461,7 +462,7 @@ function renderEdition(ed, {rel, isCurrent, upd, archiveList, currentHref, speci
   `<div class="top"><section data-region-sec id="lead-sec">${storyCard(lead,true,rel,CI.forUrl)}</section>` + rail(stories, lead, rel) +
   `<section id="latest"><h2 class="sec">Latest</h2><ul class="latest">${byTs.map((s,i)=>`<li data-lat="${esc(s.id)}"${i>=6?' class="hidden"':''}><a href="#${esc(s.id)}"><div class="h">${esc(s.headline)}</div><div class="m">${esc(SHORT[s.region])} · ${esc(s.dateLabel)} · ${esc(labelText(s.label))}</div></a></li>`).join('')}</ul></section></div>` +
   regionSecs +
-  `<section id="archive"><h2 class="sec">Past editions</h2><ul class="arch">${archiveList}</ul></section>` +
+  `<section id="archive"><h2 class="sec">Past editions</h2>${archiveList}</section>` +
   aboutEdition(ed, lead, CI) + LEGEND +
   `</div></main><a class="totop" id="totop" href="#regions">↑ Top · Regions</a>` + foot(rel, upd) + `<script>${JS}</script></body></html>`;
 }
@@ -766,17 +767,26 @@ const editions = eds.filter(e=>e.kind==='edition').sort((a,b)=>a.id<b.id?1:-1);
 const archives = eds.filter(e=>e.kind==='archive').sort((a,b)=>a.id<b.id?1:-1);
 if(!editions.length){ console.error('BUILD FAILED: no edition'); process.exit(1); }
 const current = editions[0];
-const upd = nyNow();
-const allPast = [...editions.slice(1), ...archives].sort((a,b)=>a.date<b.date||(a.date===b.date&&a.id<b.id)?1:-1);
+// DD_KEEP_UPD=1 reuses the previous state.json time (for maintenance rebuilds that publish no new edition)
+const prevState = (()=>{ try{ return JSON.parse(fs.readFileSync(path.join(DATA,'state.json'),'utf8')); }catch{ return null; } })();
+const upd = (process.env.DD_KEEP_UPD==='1' && prevState?.lastSuccessfulBuild) ? prevState.lastSuccessfulBuild : nyNow();
+// Past editions are listed in two separate groups: Daily editions (Morning/Evening) and Special editions, each newest first.
+const pastDaily = [...editions.slice(1), ...archives].sort((a,b)=>a.date<b.date||(a.date===b.date&&a.id<b.id)?1:-1);
 const specLi = (relE) => specials.map(sp=>`<li class="spec"><a href="${relE}${sp.id}/index.html"><span class="t">${esc(sp.title)}</span><span class="s">Special edition · ${sp.stories.length} stories · ${esc(Object.values(spCfg(sp).sections).join(', '))}</span></a></li>`).join('');
-const archLi = (relE) => specLi(relE) + (allPast.length? allPast.map(e=>`<li><a href="${relE}${e.id}.html"><span class="t">${esc(e.title)} — ${esc(fmtDate(e.date))}</span><span class="s">${e.kind==='archive'?'Earlier brief (snapshot)':`${e.stories.length} stories`}</span></a></li>`).join('') : (specials.length?'':'<li>No past editions yet.</li>'));
+const dailyLi = (relE) => pastDaily.map(e=>`<li><a href="${relE}${e.id}.html"><span class="t">${esc(e.title)} — ${esc(fmtDate(e.date))}</span><span class="s">${e.kind==='archive'?'Earlier brief (snapshot)':`${e.stories.length} stories`}</span></a></li>`).join('');
+const plural = (n,w) => `${n} ${w}${n===1?'':'s'}`;
+// tag: heading element (h2 on the Past editions page, h3 inside the front page's Past editions section)
+const archGroups = (relE, tag='h3') =>
+  `<div class="archgrp" id="daily-editions"><${tag} class="sub">Daily editions <span class="cnt">(${plural(pastDaily.length,'edition')})</span></${tag}><ul class="arch arch-daily">${dailyLi(relE)||'<li class="none">No past daily editions yet.</li>'}</ul></div>` +
+  `<div class="archgrp" id="special-editions"><${tag} class="sub">Special editions <span class="cnt">(${plural(specials.length,'edition')})</span></${tag}><ul class="arch arch-special">${specLi(relE)||'<li class="none">No special editions yet.</li>'}</ul></div>`;
+const archLi = (relE) => archGroups(relE,'h3');
 
 fs.rmSync(TMP,{recursive:true,force:true}); fs.mkdirSync(path.join(TMP,'editions'),{recursive:true});
 fs.writeFileSync(path.join(TMP,'index.html'), renderEdition(current,{rel:'',isCurrent:true,upd,archiveList:archLi('editions/'),specials}));
 for(const sp of specials){ fs.mkdirSync(path.join(TMP,'editions',sp.id),{recursive:true}); fs.writeFileSync(path.join(TMP,'editions',sp.id,'index.html'), renderSpecial(sp,{upd})); }
 for(const e of editions) fs.writeFileSync(path.join(TMP,'editions',e.id+'.html'), renderEdition(e,{rel:'../',isCurrent:false,upd,archiveList:archLi(''),currentHref:'../index.html'}));
 for(const a of archives) fs.writeFileSync(path.join(TMP,'editions',a.id+'.html'), renderArchive(a,{upd,currentHref:'../index.html'}));
-fs.writeFileSync(path.join(TMP,'editions','index.html'), head('Donna Daily — Past editions','Archive of Donna Daily editions','../') + mast('../', `<b>Past editions</b><span class="upd">Last successful update: ${esc(upd)}</span>`) + `<nav class="chips" aria-label="Sections"><div class="wrap"><a class="chip" href="../index.html">Today's edition</a>${dtNav('../')}</div></nav><main id="main"><div class="wrap read"><h2 class="sec">Today</h2><ul class="arch"><li><a href="../index.html"><span class="t">${esc(current.title)} — ${esc(fmtDate(current.date))}</span><span class="s">${current.stories.length} stories · current</span></a></li></ul><h2 class="sec">Earlier</h2><ul class="arch">${archLi('')}</ul></div></main>` + foot('../',upd) + `</body></html>`);
+fs.writeFileSync(path.join(TMP,'editions','index.html'), head('Donna Daily — Past editions','Archive of Donna Daily editions','../') + mast('../', `<b>Past editions</b><span class="upd">Last successful update: ${esc(upd)}</span>`) + `<nav class="chips" aria-label="Sections"><div class="wrap"><a class="chip" href="../index.html">Today's edition</a>${dtNav('../')}</div></nav><main id="main"><div class="wrap read"><h2 class="sec">Today</h2><ul class="arch"><li><a href="../index.html"><span class="t">${esc(current.title)} — ${esc(fmtDate(current.date))}</span><span class="s">${current.stories.length} stories · current</span></a></li></ul>${archGroups('','h2')}</div></main>` + foot('../',upd) + `</body></html>`);
 fs.writeFileSync(path.join(TMP,'data.json'), JSON.stringify({current: current.id, lastSuccessfulUpdate: upd, editions: editions.map(e=>({id:e.id,date:e.date,title:e.title,stories:e.stories})), archives: archives.map(a=>({id:a.id,date:a.date,title:a.title})), specials: specials.map(sp=>({id:sp.id,title:sp.title,href:`editions/${sp.id}/index.html`,sections:spCfg(sp).sections,regions:spCfg(sp).regions,updatedAt:sp.updatedAt||null,test:sp.test||null,stories:sp.stories.map(s=>({id:s.id,section:s.section,region:s.region,regions:spRegions(s),opinionKind:s.opinionKind||null,headline:s.headline,image:!!s.image}))}))}));
 fs.writeFileSync(path.join(TMP,'.nojekyll'),'');
 // copy every edition's photos (data/img/** -> public/img/**) so archived editions keep their images

@@ -184,7 +184,16 @@ for (const [w,h] of sizes) {
   const prevEd = edEditionPages.filter(p=>!p.endsWith(CUR.id+'.html'))[0];
   if (prevEd) { await page.goto(base+prevEd); if (w===390) await page.screenshot({path:`${shots}/archive-edition-390.png`});
     if (w===1280) await page.screenshot({path:`${shots}/archive-edition-1280.png`}); }
-  await page.goto(base+'editions/2026-10-29-brief.html'); if(w===390) await page.screenshot({path:`${shots}/archive-oct29-390.png`});
+  // Past editions page: separate Daily / Special sections with counts; screenshot
+  await page.goto(base+'editions/index.html');
+  const PE = await page.evaluate(()=>{ const g=id=>{const el=document.getElementById(id); return el?{h:el.querySelector('.sub')?.textContent||'', n:el.querySelectorAll('.arch a').length, hrefs:[...el.querySelectorAll('.arch a')].map(a=>a.getAttribute('href'))}:null};
+    return {d:g('daily-editions'), s:g('special-editions'), order:(()=>{const a=document.getElementById('daily-editions'),b=document.getElementById('special-editions');return !!a&&!!b&&(a.compareDocumentPosition(b)&Node.DOCUMENT_POSITION_FOLLOWING)>0})()}; });
+  const expDaily = DJ.editions.length-1 + (DJ.archives||[]).length;
+  check(PE.d && PE.s && PE.order && PE.d.n===expDaily && PE.s.n===SPECIALS.length && PE.d.h.includes(`(${expDaily} edition`) && PE.s.h.includes(`(${SPECIALS.length} edition`),
+    `${w}px Past editions page: Daily editions (${PE.d&&PE.d.n}) then Special editions (${PE.s&&PE.s.n}) with counts in headings`);
+  check(PE.d && PE.d.hrefs.every(h=>!/\/index\.html$/.test(h)) && PE.s && PE.s.hrefs.every(h=>/\/index\.html$/.test(h)), `${w}px Past editions: no special in the Daily list and no daily edition in the Special list`);
+  const dIds = PE.d? PE.d.hrefs.map(h=>h.replace(/\.html$/,'')) : []; check(dIds.join()===[...dIds].sort().reverse().join(), `${w}px Daily editions newest first: ${dIds.join(', ')}`);
+  if(w===390||w===1280) await page.screenshot({path:`${shots}/past-editions-${w}.png`, fullPage:true});
   if (w>=1024) { const rw = await page.evaluate(()=>document.querySelector('main .wrap').getBoundingClientRect().width); check(rw<=920, `${w}px archive page reading column ${Math.round(rw)}px`); }
   check(errs.length===0, `${w}px no JS errors ${errs.join('|')}`);
   await ctx.close();
@@ -194,9 +203,15 @@ console.log(`INFO special editions in data.json: ${SPECIALS.map(s=>s.id).join(',
 { const home = fs.readFileSync(path.join(PUB,'index.html'),'utf8'), arch = fs.readFileSync(path.join(PUB,'editions/index.html'),'utf8');
   for (const sp of SPECIALS) {
     check(home.includes(`href="${sp.href}"`), `home page links to special ${sp.id}`);
-    const first = arch.match(/<ul class="arch">[\s\S]*?<h2 class="sec">Earlier<\/h2><ul class="arch"><li[^>]*><a href="([^"]+)"/);
-    check(SPECIALS[0]!==sp || (first && first[1]===sp.href.replace(/^editions\//,'')), `Past editions lists special ${sp.id} first (${first&&first[1]})`);
+    const sl = arch.match(/<ul class="arch arch-special">([\s\S]*?)<\/ul>/), dl = arch.match(/<ul class="arch arch-daily">([\s\S]*?)<\/ul>/);
+    const rel = sp.href.replace(/^editions\//,'');
+    check(!!sl && sl[1].includes(`href="${rel}"`) && !!dl && !dl[1].includes(`href="${rel}"`), `Past editions lists special ${sp.id} under Special editions only`);
+    const hs = home.match(/<ul class="arch arch-special">([\s\S]*?)<\/ul>/), hd = home.match(/<ul class="arch arch-daily">([\s\S]*?)<\/ul>/);
+    check(!!hs && hs[1].includes(`href="${sp.href}"`) && !!hd && !hd[1].includes(`href="${sp.href}"`), `front page archive lists special ${sp.id} under Special editions only`);
   }
+  { const spIds = SPECIALS.map(s=>s.href.replace(/^editions\//,'')), sl = arch.match(/<ul class="arch arch-special">([\s\S]*?)<\/ul>/);
+    const got = sl? [...sl[1].matchAll(/href="([^"]+)"/g)].map(m=>m[1]) : []; check(got.join()===spIds.join() && got.join()===[...got].sort().reverse().join(), `Special editions newest first: ${got.join(', ')}`); }
+  for (const gone of ['2026-10-29-brief','2026-11-01-brief','2026-11-01-ed1']) check(!fs.existsSync(path.join(PUB,'editions',gone+'.html')) && !home.includes(gone) && !arch.includes(gone), `removed edition ${gone} is not built or linked`);
   check(DJ.current===CUR.id && !SPECIALS.some(sp=>sp.id===DJ.current), `daily front page stays ${DJ.current}; specials never replace it`);
   const ban = [...home.matchAll(/<a class="spb" href="([^"]+)"/g)].map(m=>m[1]);
   check(ban.length<=1 && ban.every(h=>SPECIALS.some(sp=>sp.href===h)) && home.includes('id="lead-sec"'), `home page featured-special banner: ${ban.join(', ')||'none'} (current edition still shown)`); }
