@@ -1,0 +1,7 @@
+{
+ "_about": "Publication time of each daily edition (when it was first published to the live site). Existing values are the GitHub commit times of the publishing commits (converted to ET). New editions: tools/build.mjs records the first successful build time here automatically unless the edition JSON sets publishedAt. Never change a recorded time.",
+ "2026-11-01-pm": "2026-11-01T18:24:34-05:00",
+ "2026-11-02-am": "2026-11-02T07:56:09-05:00",
+ "2026-11-02-pm": "2026-11-02T18:09:29-05:00",
+ "2026-11-03-am": "2026-11-03T08:06:08-05:00"
+}

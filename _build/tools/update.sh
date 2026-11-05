@@ -7,6 +7,9 @@
 #    The build copies data/img/** to public/img/**, so archived editions keep their photos.
 #    Special editions (data/specials/*.json, e.g. 2026-10-review) are rebuilt on every run and kept;
 #    never edit, move or delete them when writing a daily edition (README: Special editions).
+#    Design: layout/CSS live only in tools/build.mjs (approved Nov 2026 redesign, see DESIGN.md). Edition JSON is
+#    content only; don't add styling. Optional: "topIds" (4-5 supporting stories). Publication time is recorded
+#    automatically in data/published.json on the first build; front-page notices (e.g. a pause) live in data/site.json.
 # 2) Run this script. It link-checks, builds into a temp dir, tests at phone/desktop sizes,
 #    and only then swaps public/ and records the last successful update. On any failure the
 #    previous public/ is left as-is and the script exits non-zero.

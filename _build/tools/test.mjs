@@ -1,31 +1,31 @@
-// Renders the built site at phone and desktop sizes and checks layout, navigation, filters and links.
-// Usage: node tools/test.mjs [baseURL]
-import { chromium } from 'playwright-core'; import path from 'path'; import fs from 'fs';
+// Renders the built site at phone, tablet and desktop sizes and checks the approved Nov 2026 design (DESIGN.md):
+// publication state, first screen, typography, curated front page, regions/topics/search, expansion, sources,
+// accessibility basics (focus, contrast, touch targets, no stray glyphs), archive + specials, and edge cases.
+// Usage: node tools/test.mjs [baseURL]      (edge-case fixture: built automatically into /tmp/dd-fixture)
+import { chromium } from 'playwright-core'; import path from 'path'; import fs from 'fs'; import { execFileSync } from 'child_process';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const PUB = path.join(ROOT,'public');
 const base = process.argv[2] || 'file://' + PUB + '/';
 const exe = ['/usr/bin/google-chrome','/usr/bin/chromium'].find(f=>fs.existsSync(f));
 const browser = await chromium.launch({executablePath: exe, args:['--no-sandbox']});
-const sizes = [[360,844],[390,844],[430,844],[1280,800],[1440,900]];   // phones <760px; desktop layout >=1024px
+const sizes = [[360,844],[390,844],[430,844],[768,1024],[1280,800],[1286,683],[1440,900]];   // phones <760px; tablet 760-1023; desktop >=1024
 const REG = ['us','ca','hk','cn','world'], TOP = ['politics','business','culture','sports','human'];
-// Expected counts come from the current edition in public/data.json.
 const DJ = JSON.parse(fs.readFileSync(path.join(PUB,'data.json'),'utf8')); const CUR = DJ.editions.find(e=>e.id===DJ.current);
-const nReg = r => CUR.stories.filter(s=>s.region===r).length, nTop = t => CUR.stories.filter(s=>s.topic===t).length;
-const N_TOTAL = CUR.stories.length, N_SPORTS = nTop('sports');
+const nReg = r => CUR.stories.filter(s=>s.region===r).length, nTop = t => CUR.stories.filter(s=>s.topic===t).length, nRT=(r,t)=>CUR.stories.filter(s=>(r==='all'||s.region===r)&&(t==='all'||s.topic===t)).length;
+const N_TOTAL = CUR.stories.length;
 const lead = CUR.stories.find(s=>s.id===CUR.leadId) || CUR.stories[0];
 const words = h => h.split(/[^A-Za-z]+/).filter(w=>w.length>=5).sort((a,b)=>b.length-a.length);
-const SEARCH_Q = (words(lead.headline)[0] || CUR.stories.map(s=>words(s.headline)[0]).find(Boolean) || '').toLowerCase();
-const EMPTY_TOPIC = TOP.find(t=>nTop(t)===0);   // e.g. culture with 0 stories (may be undefined)
+const SEARCH_Q = (words(lead.headline)[0] || '').toLowerCase();
+const SITE = (()=>{ try{ return JSON.parse(fs.readFileSync(path.join(ROOT,'data','site.json'),'utf8')); }catch{ return {}; } })();
 let fail = 0; const shots = path.join(ROOT,'screenshots'); fs.mkdirSync(shots,{recursive:true});
 const check = (c,msg)=>{ console.log((c?'PASS ':'FAIL ')+msg); if(!c) fail++; };
-check(N_TOTAL>0 && !!SEARCH_Q, `current edition ${CUR.id} has ${N_TOTAL} stories, search term "${SEARCH_Q}", empty topic: ${EMPTY_TOPIC||'none'}`);
+check(N_TOTAL>0 && !!SEARCH_Q && !!CUR.publishedAt, `current edition ${CUR.id}: ${N_TOTAL} stories, published ${CUR.publishedAt}, search term "${SEARCH_Q}"`);
 const edPages = fs.readdirSync(path.join(PUB,'editions')).filter(f=>f.endsWith('.html')).map(f=>'editions/'+f);
-// special editions live in editions/<id>/index.html (kind:"special"; listed in data.json "specials")
 const SPECIALS = DJ.specials || [];
 const spPages = SPECIALS.map(sp=>sp.href);
 const edEditionPages = edPages.filter(p=>{ const id=path.basename(p,'.html'); return DJ.editions.some(e=>e.id===id); });
 
-// ---------- static link checks over every built page ----------
+// ---------- static checks over every built page ----------
 { const pages = ['index.html', ...edPages, ...spPages]; let bad=[], nExt=0, nInt=0;
   for (const p of pages) { const html = fs.readFileSync(path.join(PUB,p),'utf8'); const ids = new Set([...html.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]));
     for (const m of html.matchAll(/<a\s[^>]*href="([^"]*)"/g)) { const raw = m[1].replace(/&amp;/g,'&');
@@ -36,168 +36,191 @@ const edEditionPages = edPages.filter(p=>{ const id=path.basename(p,'.html'); re
       if (!target.startsWith(PUB) || !fs.existsSync(target)) bad.push(`${p}: unresolved ${raw}`);
       const hash = raw.split('#')[1]; if (hash && fs.existsSync(target)) { const t = fs.readFileSync(target,'utf8'); if (!t.includes(`id="${hash}"`)) bad.push(`${p}: ${raw} anchor missing in target`); } }
     check(!/Every (source|story)[^<]{0,40}(checked|read at the source|read on its source page|re-?checked)/i.test(html), `${p} has no blanket "every source/story was checked" copy`);
-    check(!/class="lab [^"]*">Fact</.test(html), `${p} has no blanket "Fact" badge`);
+    check(!/class="lab [^"]*">(Fact|Verified)</.test(html) && !/>\s*Verified\s*</.test(html), `${p} has no blanket "Fact"/"Verified" badge`);
   }
   check(bad.length===0, `links well-formed (${nExt} external https, ${nInt} internal resolve) ${bad.slice(0,8).join(' | ')}`); }
 
+// ---------- shared in-page probes ----------
+const PROBES = () => { window.__dd = {
+  shown: e=>!!e && e.getClientRects().length>0 && getComputedStyle(e).visibility!=='hidden',
+  lum: c=>{ const m=c.match(/[\d.]+/g).map(Number); const f=v=>{v/=255;return v<=0.03928?v/12.92:Math.pow((v+0.055)/1.055,2.4);}; return 0.2126*f(m[0])+0.7152*f(m[1])+0.0722*f(m[2]); },
+  bg: e=>{ for(let x=e;x;x=x.parentElement){ const c=getComputedStyle(x).backgroundColor; const m=c.match(/[\d.]+/g); if(m&&(m.length<4||+m[3]>0.5)) return c; } return 'rgb(255, 255, 255)'; },
+  ratio: e=>{ const a=window.__dd.lum(getComputedStyle(e).color), b=window.__dd.lum(window.__dd.bg(e)); return (Math.max(a,b)+0.05)/(Math.min(a,b)+0.05); } }; };
 for (const [w,h] of sizes) {
-  const phone = w<760;
+  const phone = w<760, desk = w>=1024, tag = `${w}x${h}`;
   const ctx = await browser.newContext({viewport:{width:w,height:h}, deviceScaleFactor: phone?2:1, isMobile: phone, hasTouch: phone});
+  await ctx.addInitScript(PROBES);
   const page = await ctx.newPage(); const errs=[]; page.on('pageerror',e=>errs.push(e.message));
   const vis = () => page.locator('[data-story]:not(.hidden)').count();
-  const openTools = () => page.evaluate(()=>{ const t=document.getElementById('ftools'); if(t) t.open=true; });
-  // Latest (and the desktop rail) must be hidden or non-empty, never an empty heading
-  const latestOk = () => page.evaluate(()=>{ const shown=e=>!!e&&e.offsetParent!==null&&getComputedStyle(e).display!=='none';
-    const L=document.getElementById('latest'), R=document.querySelector('.rail');
-    const nl=L?[...L.querySelectorAll('li')].filter(shown).length:0, nr=R?[...R.querySelectorAll('li')].filter(shown).length:0;
-    return {ok:(!shown(L)||nl>0)&&(!shown(R)||nr>0), nl, nr, lshown:shown(L)}; });
+  const openPanel = async () => { if (await page.getAttribute('#ftoggle','aria-expanded')!=='true') await page.click('#ftoggle'); };
+  // ---- every daily page: overflow, clipping, photos ----
   for (const p of ['index.html', ...edPages]) {
     await page.goto(base+p); await page.waitForLoadState('load');
-    const ov = await page.evaluate(()=>({sw:document.documentElement.scrollWidth, iw:innerWidth}));
-    check(ov.sw<=ov.iw, `${w}px ${p} no horizontal overflow (${ov.sw}<=${ov.iw})`);
-    const im = await page.evaluate(()=>{ const out={n:0,bad:[],lazyLead:0,missingAttr:0,srcs:[]};
-      document.querySelectorAll('.ph img').forEach(i=>{ out.n++; const r=i.getBoundingClientRect(), pr=i.closest('article').getBoundingClientRect();
-        if(r.left<-0.5||r.right>innerWidth+0.5||r.width>pr.width+33) out.bad.push(i.getAttribute('src')+' '+Math.round(r.left)+'..'+Math.round(r.right));
-        const ratio=r.width/r.height; if(r.width>0&&(ratio<1.3||ratio>1.9)) out.bad.push(i.getAttribute('src')+' ratio '+ratio.toFixed(2));
-        if(!i.getAttribute('width')||!i.getAttribute('height')||!i.getAttribute('alt')) out.missingAttr++;
-        if(i.closest('.ph-lead')&&i.loading==='lazy') out.lazyLead++; out.srcs.push(i.src);
-        const fc=i.closest('figure').querySelector('figcaption a[href^="https://"]'); if(!fc) out.bad.push(i.getAttribute('src')+' no credit link'); });
+    const ov = await page.evaluate(()=>({sw:document.documentElement.scrollWidth, iw:innerWidth,
+      clip:[...document.querySelectorAll('h1,h2,h3,.deck,.chip,.tchip,.btn,.ftoggle,.meta,.logo,.newer,.edline,.arch a,summary')].filter(e=>__dd.shown(e)&&(e.scrollWidth>e.clientWidth+1)&&getComputedStyle(e).overflowX!=='visible').map(e=>e.className+':'+e.textContent.slice(0,30)),
+      out:[...document.querySelectorAll('main *, header *, nav *')].filter(e=>{ if(!__dd.shown(e)) return false; const r=e.getBoundingClientRect(); return r.width>0 && (r.right>innerWidth+0.5||r.left<-0.5) && !e.closest('.skip'); }).slice(0,3).map(e=>e.tagName+'.'+e.className)}));
+    check(ov.sw<=ov.iw && ov.clip.length===0 && ov.out.length===0, `${tag} ${p} no horizontal overflow or clipped text (${ov.sw}<=${ov.iw}) ${ov.clip.slice(0,3).join('|')} ${ov.out.join('|')}`);
+    const im = await page.evaluate(()=>{ const out={n:0,bad:[],lazyLead:0};
+      document.querySelectorAll('.ph img, .thumb img').forEach(i=>{ out.n++; const r=i.getBoundingClientRect(), pr=i.closest('article').getBoundingClientRect();
+        if(r.left<-0.5||r.right>innerWidth+0.5||r.right>pr.right+1) out.bad.push(i.getAttribute('src')+' outside');
+        const ratio=r.width/r.height; if(r.width>0&&(ratio<1.7||ratio>1.85)) out.bad.push(i.getAttribute('src')+' ratio '+ratio.toFixed(2));
+        if(!i.getAttribute('width')||!i.getAttribute('height')||!i.getAttribute('alt')) out.bad.push(i.getAttribute('src')+' attrs');
+        if(i.closest('.ph-lead')&&i.loading==='lazy') out.lazyLead++;
+        const cap=i.closest('figure')?.querySelector('figcaption') || i.closest('article').querySelector(':scope>.phcap');
+        if(!cap||!cap.querySelector('a[href^="https://"]')||!/Photo:/.test(cap.textContent)) out.bad.push(i.getAttribute('src')+' no linked credit');
+        if(i.closest('.thumb') && r.width>200) out.bad.push(i.getAttribute('src')+' thumbnail too large '+Math.round(r.width)); });
       return out; });
-    check(im.bad.length===0, `${w}px ${p} ${im.n} photos inside viewport/column, 16:9, credit linked ${im.bad.join(' | ')}`);
-    if (im.n) { check(im.missingAttr===0 && im.lazyLead===0, `${w}px ${p} photo width/height/alt set, lead eager`);
-      const miss = base.startsWith('file://') ? im.srcs.filter(u=>!fs.existsSync(decodeURIComponent(new URL(u).pathname))) : [];
-      check(miss.length===0, `${w}px ${p} photo files exist ${miss.join(' ')}`); }
+    check(im.bad.length===0 && im.lazyLead===0, `${tag} ${p} ${im.n} photos: inside column, 16:9, alt/size set, credit + licence linked, thumbnails small ${im.bad.slice(0,4).join(' | ')}`);
     const body = await page.evaluate(()=>({len:document.querySelector('main').innerText.length, title:document.title}));
-    check(body.len>200 && /Donna Daily/.test(body.title), `${w}px ${p} renders (${body.len} chars of content)`);
+    check(body.len>200 && /Donna Daily/.test(body.title), `${tag} ${p} renders (${body.len} chars)`);
   }
-  // archive edition pages: the same front-page rules apply (regions, Read more, About this edition)
+  // file photos are labelled as such, with the year when the caption gives one
   for (const p of edEditionPages) { await page.goto(base+p);
-    const a = await page.evaluate(()=>({chips:[...document.querySelectorAll('[data-chip]')].filter(e=>{const r=e.getBoundingClientRect();return e.offsetParent&&r.left>=0&&r.right<=innerWidth;}).length,
-      more:document.querySelectorAll('details.more').length, about:!!document.querySelector('details.about'), banner:!!document.querySelector('.banner a[href="../index.html"]')}));
-    check(a.chips===5 && a.more>0 && a.about && a.banner, `${w}px ${p} archive edition: 5 region controls, Read more, About, link to today`); }
+    const a = await page.evaluate(()=>({chips:[...document.querySelectorAll('[data-chip]')].filter(e=>{const r=e.getBoundingClientRect();return __dd.shown(e)&&r.left>=0&&r.right<=innerWidth;}).length,
+      more:document.querySelectorAll('details.more').length, about:!!document.querySelector('details.about'), banner:!!document.querySelector('.banner a[href="../index.html"]'), pub:/Published/.test(document.querySelector('.banner')?.textContent||''), newer:!!document.querySelector('.newer')}));
+    check(a.chips===6 && a.more>0 && a.about && a.banner && a.pub && !a.newer, `${tag} ${p} archived edition: All + 5 regions, story expansion, About, "kept as published" banner with link to latest`); }
 
   await page.goto(base+'index.html'); await page.waitForLoadState('load');
-  const leadOk = await page.evaluate(()=>{ const i=document.querySelector('.ph-lead img'); return !i || (i.complete && i.naturalWidth>0); });
-  check(leadOk, `${w}px lead photo loaded`);
-  // ---- first screen ----
-  const F = await page.evaluate(()=>{ const r=s=>document.querySelector(s)?.getBoundingClientRect();
-    const h1=r('.lead h1'), dk=r('.lead .deck'), im=r('.lead .ph'); const about=document.querySelector('details.about');
-    const secs=[...document.querySelectorAll('section[data-region-sec]:not(#lead-sec)')]; const lastSec=secs[secs.length-1];
-    return {h1:h1.top, deckBottom:dk.bottom, deckBeforeImg: !im || dk.bottom<=im.top+1, h1BeforeImg: !im || h1.bottom<=im.top+1,
-      aboutClosed: !!about && !about.open, aboutAfterStories: !!about && !!lastSec && (lastSec.compareDocumentPosition(about) & Node.DOCUMENT_POSITION_FOLLOWING)>0,
-      noteBeforeLead: [...document.querySelectorAll('main .note')].some(n=>n.getBoundingClientRect().top < h1.top && !n.closest('details')),
-      sourcing: /not every claim has been independently verified/i.test(about?.textContent||''), toolsTop: r('#ftools')?.top ?? 1e9, height: document.documentElement.scrollHeight }; });
-  check(F.h1BeforeImg && F.deckBeforeImg, `${w}px lead headline and deck come before the lead photo`);
-  check(F.aboutClosed && F.aboutAfterStories && !F.noteBeforeLead && F.sourcing, `${w}px production note is in a collapsed "About this edition" after the stories, with sourcing note`);
-  check(F.toolsTop < F.h1, `${w}px search/filter control sits above the lead (top ${Math.round(F.toolsTop)}px)`);
-  if (phone) { check(F.h1 < 844, `${w}px lead headline top ${Math.round(F.h1)}px within first screen (<844)`);
-    if (w===390) { check(F.deckBottom <= 844, `390px lead headline + deck fully visible on first screen (deck bottom ${Math.round(F.deckBottom)}px)`);
-      console.log(`INFO 390px page height ${F.height}px, lead h1 top ${Math.round(F.h1)}px`); } }
-  if (phone) await page.screenshot({path:`${shots}/first-screen-${w}.png`});
-  if (w===390) await page.screenshot({path:`${shots}/phone-390.png`});
-  // ---- nav: five regions + Past editions visible, no horizontal scroll ----
-  const N = await page.evaluate(()=>{ const nav=document.querySelector('nav.chips .wrap'); const ch=[...document.querySelectorAll('nav.chips .chip')].filter(e=>e.offsetParent);
-    const inView=e=>{const r=e.getBoundingClientRect();return r.left>=0&&r.right<=innerWidth&&r.width>0&&e.scrollWidth<=e.clientWidth+1;};
-    return {regions:[...document.querySelectorAll('[data-chip]')].filter(e=>e.offsetParent&&inView(e)).length, past:ch.some(e=>/Past editions|Archive/.test(e.textContent)&&inView(e)),
-      scroll: nav.scrollWidth>nav.clientWidth+1, cs:getComputedStyle(nav).overflowX}; });
-  check(N.regions===5 && N.past && !N.scroll, `${w}px all 5 region controls + Past editions visible within the viewport, no hidden scroll`);
-  // ---- layout mode ----
-  const L = await page.evaluate(()=>{ const vis=e=>!!e&&getComputedStyle(e).display!=='none'&&e.getBoundingClientRect().width>0;
-    const lead=document.querySelector('#lead-sec'), rail=document.querySelector('.rail'), nav=document.querySelector('nav.chips');
-    const secs=[...document.querySelectorAll('section[data-region-sec]:not(#lead-sec)')];
-    const cols=secs.map(s=>getComputedStyle(s).gridTemplateColumns.split(' ').filter(Boolean).length);
-    const rowMax=Math.max(0,...secs.map(s=>{const t={};[...s.querySelectorAll(':scope>.card')].forEach(c=>{const y=Math.round(c.getBoundingClientRect().top);t[y]=(t[y]||0)+1;});return Math.max(0,...Object.values(t));}));
-    const lr=lead.getBoundingClientRect(), rr=rail?rail.getBoundingClientRect():null;
-    return {railVis:vis(rail), sideBySide: !!rr && rr.left>=lr.right-1 && rr.top<lr.bottom, leadW:lr.width, cols:Math.min(...cols), rowMax,
-      sticky:getComputedStyle(nav).position, navBg:getComputedStyle(nav).backgroundColor, dtVisible:[...document.querySelectorAll('.dt-only')].filter(vis).length,
-      sports:vis(document.querySelector('[data-tchip=sports]')), wrapW:document.querySelector('main .wrap').getBoundingClientRect().width}; });
-  if (phone) check(!L.railVis && L.dtVisible===0 && L.sticky!=='sticky' && L.cols<=1, `${w}px phone layout (no desktop-only elements, single column, no sticky header)`);
-  if (w>=1024) {
-    check(L.railVis && L.sideBySide && L.leadW>=500, `${w}px desktop: lead (${Math.round(L.leadW)}px) with Top stories rail beside it`);
-    check(L.cols>=3 && L.rowMax>=2, `${w}px desktop: region grids ${L.cols}+ columns, up to ${L.rowMax} cards per row`);
-    check(L.sticky==='sticky' && L.navBg==='rgb(17, 17, 17)' && L.sports, `${w}px desktop: black sticky section nav with Sports`);
-    check(L.wrapW<=1264 && L.wrapW>=900, `${w}px desktop: content width ${Math.round(L.wrapW)}px (<=1264)`);
-    await page.click('[data-tchip=sports]'); let vs = await vis(); check(vs===N_SPORTS, `${w}px nav Sports -> ${vs} (expected ${N_SPORTS})`);
-    let lo = await latestOk(); check(lo.ok, `${w}px Sports: Latest/rail hidden or non-empty (${lo.nl}/${lo.nr})`);
-    await page.click('[data-tchip=sports]'); vs = await vis(); check(vs===N_TOTAL, `${w}px nav Sports toggle off -> ${vs}`);
-    await page.evaluate(()=>scrollTo(0,0));
-    if (w===1280) { await page.screenshot({path:`${shots}/desktop-1280.png`});
-      await page.evaluate(async()=>{ document.querySelectorAll('img[loading=lazy]').forEach(i=>i.loading='eager'); await Promise.all([...document.images].map(i=>i.decode().catch(()=>{}))); });
-      await page.screenshot({path:`${shots}/desktop-1280-full.png`, fullPage:true}); }
-  }
-  const fs16 = await page.evaluate(()=>parseFloat(getComputedStyle(document.querySelector('.card p')).fontSize));
-  check(fs16>=16 && fs16<=18, `${w}px body text ${fs16}px`);
-  // ---- touch targets: phones 44px; desktop (mouse) 24px ----
-  const minT = phone ? 44 : 24; await openTools();
-  const small = await page.evaluate(m=>[...document.querySelectorAll('.chip,.latest a,.rail a,.btn:not(.hidden),.tools input,.tools select,.arch a,details>summary')].filter(e=>e.offsetParent).map(e=>[e.textContent.slice(0,20),e.getBoundingClientRect().height]).filter(x=>x[1]<m), minT);
-  check(small.length===0, `${w}px targets >=${minT}px (${small.length} small ${JSON.stringify(small.slice(0,3))})`);
-  // ---- counts on filter controls ----
-  const C = await page.evaluate(()=>({reg:[...document.querySelectorAll('#fr option')].map(o=>[o.value,o.textContent]), top:[...document.querySelectorAll('#ft option')].map(o=>[o.value,o.textContent]),
-    chips:[...document.querySelectorAll('[data-chip]')].map(c=>[c.dataset.chip,c.querySelector('.n')?.textContent])}));
-  check(REG.every(r=>C.reg.find(o=>o[0]===r)?.[1].includes(`(${nReg(r)})`)) && TOP.every(t=>C.top.find(o=>o[0]===t)?.[1].includes(`(${nTop(t)}`)) && REG.every(r=>C.chips.find(c=>c[0]===r)?.[1]===String(nReg(r))),
-    `${w}px region/topic controls show story counts (topics: ${C.top.map(o=>o[1]).join(', ')})`);
-  // ---- region filters via chips: count, aria-pressed + visual state, Latest never empty ----
-  for (const r of REG) { await page.click(`[data-chip=${r}]`); const v = await vis(); const lo = await latestOk();
-    const st = await page.evaluate(r=>{ const c=document.querySelector(`[data-chip=${r}]`), o=document.querySelector('[data-chip]:not([data-chip='+r+'])');
-      return {pressed:c.getAttribute('aria-pressed'), others:[...document.querySelectorAll('[data-chip]')].filter(x=>x!==c&&x.getAttribute('aria-pressed')==='true').length, bg:getComputedStyle(c).backgroundColor, obg:getComputedStyle(o).backgroundColor}; }, r);
-    check(v===nReg(r) && st.pressed==='true' && st.others===0 && st.bg!==st.obg, `${w}px region ${r} -> ${v} (expected ${nReg(r)}), marked active (aria-pressed, ${st.bg})`);
-    check(lo.ok, `${w}px region ${r}: Latest hidden or non-empty (${lo.nl} items${lo.lshown?'':', hidden'})`);
-    if (w===390 && r==='ca') { await page.evaluate(()=>scrollTo(0,0)); await page.screenshot({path:`${shots}/filter-canada-390.png`}); }
+  // ---- 1. publication state ----
+  const P = await page.evaluate(()=>{ const ed=document.querySelector('.edline'); const t=ed?.querySelector('time'); const nw=document.querySelector('.newer'); const lead=document.querySelector('#lead-sec h1');
+    return {ed:ed?.textContent||'', dt:t?.getAttribute('datetime'), foot:document.querySelector('footer').textContent, newer:nw?{txt:nw.textContent, href:nw.getAttribute('href'), before:(nw.compareDocumentPosition(lead)&Node.DOCUMENT_POSITION_FOLLOWING)>0, dt:nw.querySelector('time')?.getAttribute('datetime')}:null,
+      pause:[...document.querySelectorAll('.edline .pause')].map(e=>e.textContent)}; });
+  check(P.dt===CUR.publishedAt && P.ed.includes(CUR.title) && /Published .*ET/.test(P.ed) && /Latest daily edition/.test(P.ed) && !/rebuilt|Last successful update/i.test(P.ed), `${tag} edition line: "${P.ed.replace(/\s+/g,' ').slice(0,120)}" (publication time ${P.dt}, no maintenance time mixed in)`);
+  check(/Site last rebuilt .+E[SD]T/.test(P.foot) && /never re-date/.test(P.foot), `${tag} footer carries the separate site-maintenance time`);
+  const newerSp = SPECIALS.filter(sp=>sp.featured && sp.updatedAt && sp.updatedAt > CUR.publishedAt);
+  check(newerSp.length ? (!!P.newer && P.newer.href===newerSp[0].href && P.newer.before && P.newer.dt===newerSp[0].updatedAt && /Newer coverage/.test(P.newer.txt) && /Updated .*ET/.test(P.newer.txt)) : !P.newer, `${tag} newer coverage: ${P.newer?P.newer.txt.replace(/\s+/g,' '):'none'}`);
+  const expPause = (SITE.notices||[]).filter(n=>!n.showUntil||Date.now()<Date.parse(n.showUntil)).map(n=>n.text);
+  check(JSON.stringify(P.pause)===JSON.stringify(expPause), `${tag} pause notice ${JSON.stringify(P.pause)}`);
+  // ---- 2/3. first screen + typography ----
+  const F = await page.evaluate(()=>{ const r=s=>document.querySelector(s)?.getBoundingClientRect(); const h1=document.querySelector('#lead-sec h1'); const cs=getComputedStyle(h1);
+    const im=r('#lead-sec .ph'), dk=r('#lead-sec .deck'), hr=h1.getBoundingClientRect(); const h3=document.querySelector('#top-sec h3, .card h3'); const deckEl=document.querySelector('.card .deck');
+    return {h1T:hr.top, h1B:hr.bottom, deckT:dk.top, deckB:dk.bottom, h1BeforeImg: !im || (h1.compareDocumentPosition(document.querySelector('#lead-sec .ph'))&Node.DOCUMENT_POSITION_FOLLOWING)>0 && (im.top>=hr.bottom-1),
+      deckBeforeImg: !im || (dk.bottom<=im.top+1) || (im.left>=dk.right-1), h1Size:parseFloat(cs.fontSize), h1Font:cs.fontFamily, h1Upper:cs.textTransform, h3Size:parseFloat(getComputedStyle(h3).fontSize), h3Font:getComputedStyle(h3).fontFamily,
+      body:parseFloat(getComputedStyle(deckEl).fontSize), metaFont:getComputedStyle(document.querySelector('.meta')).fontFamily, bg:getComputedStyle(document.body).backgroundColor, ink:getComputedStyle(document.body).color,
+      fpanelHidden:document.getElementById('fpanel').hidden, toggle:document.getElementById('ftoggle').getAttribute('aria-expanded'),
+      about:(()=>{const a=document.querySelector('details.about'); const last=[...document.querySelectorAll('section[data-region-sec]')].pop(); return !!a&&!a.open&&(last.compareDocumentPosition(a)&Node.DOCUMENT_POSITION_FOLLOWING)>0&&/not every claim has been independently verified/i.test(a.textContent);})() }; });
+  check(F.h1BeforeImg && F.deckBeforeImg, `${tag} lead headline and summary come before (or beside) the lead photo`);
+  if (phone || w===1286) check(F.h1B<=h && F.deckT<h, `${tag} lead headline fully visible on the first screen (top ${Math.round(F.h1T)}, bottom ${Math.round(F.h1B)}px; summary starts ${Math.round(F.deckT)}px)`);
+  if (w===390) check(F.deckB<=844, `390x844 lead headline + summary fully visible on the first screen (summary bottom ${Math.round(F.deckB)}px)`);
+  if (desk) check(F.h1T<=360, `${tag} lead headline starts at y=${Math.round(F.h1T)} (was ~511-533 before the redesign)`);
+  check(/Georgia/.test(F.h1Font) && /Georgia/.test(F.h3Font) && F.h1Upper==='none' && !/Georgia/.test(F.metaFont), `${tag} sentence-case serif headlines, sans metadata`);
+  const [lo,hi] = phone ? [30,34] : w>=1280 ? [42,48] : [30,48];
+  check(F.h1Size>=lo && F.h1Size<=hi, `${tag} lead headline ${F.h1Size}px (target ${lo}-${hi})`);
+  check(F.h3Size>=20 && F.h3Size<=26 && F.body>=16 && F.body<=18, `${tag} secondary headline ${F.h3Size}px, body ${F.body}px`);
+  check(F.bg==='rgb(255, 255, 255)' && /rgb\(1[0-9], 1[0-9], 1[0-9]\)/.test(F.ink), `${tag} white background, near-black text (${F.ink})`);
+  check(F.fpanelHidden && F.toggle==='false', `${tag} search/topics panel closed until opened`);
+  check(F.about, `${tag} "About this edition" collapsed after the stories, with the sourcing note`);
+  if (w===390) await page.screenshot({path:`${shots}/redesign-after-home-390x844.png`});
+  if (w===1280) await page.screenshot({path:`${shots}/redesign-after-home-1280x800.png`});
+  if (w===1286) await page.screenshot({path:`${shots}/redesign-after-home-1286x683.png`});
+  // ---- 4. curated front page: one lead, 4-5 supporting, each story exactly once ----
+  const Lp = await page.evaluate(()=>{ const lead=document.getElementById('lead-sec').getBoundingClientRect(), top=document.getElementById('top-sec'), tr=top.getBoundingClientRect(), fr=document.getElementById('front').getBoundingClientRect();
+    const ids=[...document.querySelectorAll('[data-story]')].map(e=>e.id); const rg=document.querySelector('.regions-grid');
+    return {nTop:top.querySelectorAll('[data-story]').length, nLead:document.querySelectorAll('#lead-sec [data-story]').length, ids, dup:ids.length-new Set(ids).size, side: tr.left>=lead.right-1 && tr.top<lead.bottom, ratio:lead.width/fr.width,
+      cols:getComputedStyle(rg).gridTemplateColumns.split(' ').filter(Boolean).length, latest:!!document.getElementById('latest'), sticky:getComputedStyle(document.getElementById('regions')).position,
+      topImgs:top.querySelectorAll('img').length, stack: tr.top>=lead.bottom-1 }; });
+  check(Lp.nLead===1 && Lp.nTop>=4 && Lp.nTop<=5 && Lp.dup===0 && Lp.ids.length===N_TOTAL && !Lp.latest, `${tag} curated front: 1 lead, ${Lp.nTop} supporting, every one of ${N_TOTAL} stories appears exactly once, no duplicate Latest list`);
+  check(Lp.topImgs===0, `${tag} supporting stories are text-only (no large file photos)`);
+  if (desk) check(Lp.side && Lp.ratio>0.6 && Lp.ratio<0.72 && Lp.cols>=3 && Lp.sticky==='sticky', `${tag} desktop: lead ${Math.round(Lp.ratio*100)}% wide with supporting column beside it, ${Lp.cols}-column regional sections, sticky region bar`);
+  if (phone) check(Lp.stack && Lp.cols===1 && Lp.sticky!=='sticky', `${tag} phone: single column, lead then supporting stories, no sticky header`);
+  // ---- nav: All + 5 regions + Past editions visible, no hidden scroll, ≥44px ----
+  const N = await page.evaluate(()=>{ const inView=e=>{const r=e.getBoundingClientRect();return __dd.shown(e)&&r.left>=0&&r.right<=innerWidth&&r.width>0;};
+    const nav=document.querySelector('nav.regions .wrap');
+    return {chips:[...document.querySelectorAll('[data-chip]')].filter(inView).length, past:[...document.querySelectorAll('a[data-past]')].some(inView), scroll:nav.scrollWidth>nav.clientWidth+1, sports:!!document.querySelector('[data-chip=sports]'),
+      names:[...document.querySelectorAll('[data-chip]')].map(e=>e.getAttribute('aria-label'))}; });
+  check(N.chips===6 && N.past && !N.scroll && !N.sports, `${tag} region bar: All + 5 regions (${N.names.join(', ')}) and Past editions visible, no hidden scroll, Sports is a topic not a region`);
+  // ---- touch targets (≥44px everywhere) ----
+  await openPanel();
+  const small = await page.evaluate(()=>[...document.querySelectorAll('.chip,.tchip,.btn,.ftoggle,#q,.arch a,.allpast,.mlinks a,.logo,footer a,details>summary,.srcs a')].filter(e=>__dd.shown(e)&&!e.closest('details:not([open])>*:not(summary)')).map(e=>[e.textContent.trim().slice(0,20),Math.round(e.getBoundingClientRect().height)]).filter(x=>x[1]<44));
+  check(small.length===0, `${tag} touch targets >=44px (${small.length} small ${JSON.stringify(small.slice(0,3))})`);
+  // ---- contrast (AA 4.5:1 for text) ----
+  const lowC = await page.evaluate(()=>[...document.querySelectorAll('.edline,.edline b,.chip,.ftoggle,.fsum,.tchip,.tchip .n,.newer .k,.newer .h,.newer .t,.kicker,.meta,.lab,.deck,.why,.why .wl,.why .wl span,details.more>summary,details.more>summary .c,.phcap,.ph figcaption,.ptr,h2.sec,h2.sec .count,.arch .s,footer p,.mlinks a,.lead h1,.card h3')].filter(e=>__dd.shown(e)).map(e=>[e.className||e.tagName, +__dd.ratio(e).toFixed(2)]).filter(x=>x[1]<4.5));
+  check(lowC.length===0, `${tag} text contrast >= 4.5:1 (${lowC.length} low ${JSON.stringify(lowC.slice(0,3))})`);
+  // ---- keyboard focus is visible ----
+  await page.goto(base+'index.html'); let focusBad=[], stops=0;
+  for (let i=0;i<14;i++) { await page.keyboard.press('Tab'); const f = await page.evaluate(()=>{ const e=document.activeElement; if(!e||e===document.body) return null; const cs=getComputedStyle(e); return {t:(e.textContent||e.id).trim().slice(0,18), ow:parseFloat(cs.outlineWidth), os:cs.outlineStyle}; });
+    if (f) { stops++; if (!(f.os!=='none' && f.ow>=2)) focusBad.push(f.t); } }
+  check(stops>=10 && focusBad.length===0, `${tag} keyboard: ${stops} tab stops all show a visible focus outline ${focusBad.slice(0,3).join('|')}`);
+  // ---- regions ----
+  for (const r of REG) { await page.click(`[data-chip=${r}]`); const v = await vis();
+    const st = await page.evaluate(r=>{ const c=document.querySelector(`[data-chip=${r}]`), o=document.querySelector('[data-chip=all]');
+      return {pressed:c.getAttribute('aria-pressed'), others:[...document.querySelectorAll('[data-chip]')].filter(x=>x!==c&&x.getAttribute('aria-pressed')==='true').length, a:getComputedStyle(c).borderBottomColor+getComputedStyle(c).color, b:getComputedStyle(o).borderBottomColor+getComputedStyle(o).color,
+        state:!document.getElementById('fstate').classList.contains('hidden') && !!document.querySelector('#fstate #fclear'), secs:[...document.querySelectorAll('section[data-region-sec]:not(.hidden)')].map(s=>s.id)}; }, r);
+    check(v===nReg(r) && st.pressed==='true' && st.others===0 && st.a!==st.b && st.state && st.secs.every(s=>s==='region-'+r), `${tag} region ${r} -> ${v} (expected ${nReg(r)}), active state shown, filter status + Clear visible, only its section shown`);
+    if (w===390 && r==='ca') { await page.evaluate(()=>scrollTo(0,0)); await page.screenshot({path:`${shots}/redesign-after-filter-canada-390.png`}); }
     await page.click(`[data-chip=${r}]`); }
-  check(await vis()===N_TOTAL, `${w}px chip toggle off -> all ${N_TOTAL}`);
-  // ---- topic filters (incl. an empty topic) ----
-  await openTools();
-  for (const t of TOP) { await page.selectOption('#ft', t); const v = await vis(); const lo = await latestOk();
+  check(await vis()===N_TOTAL && await page.getAttribute('[data-chip=all]','aria-pressed')==='true', `${tag} region toggled off -> all ${N_TOTAL}, "All" active`);
+  // ---- topics (incl. empty) and every region+topic combination ----
+  await openPanel();
+  for (const t of TOP) { await page.click(`[data-tchip=${t}]`); const v = await vis();
     const em = await page.evaluate(()=>{ const e=document.getElementById('fempty'); return {shown:!e.classList.contains('hidden'), txt:e.textContent, btn:!!e.querySelector('#freset')}; });
-    check(v===nTop(t) && lo.ok && (v>0 ? !em.shown : (em.shown && em.btn && /No .+ stories in this edition|No stories match/.test(em.txt))), `${w}px topic ${t} -> ${v} (expected ${nTop(t)}), Latest ok (${lo.nl}), ${v?'no empty state':'empty state: "'+em.txt.slice(0,60)+'"'}`); }
-  await page.selectOption('#ft','all');
-  // ---- search ----
-  const total = await page.locator('[data-story]').count();
+    const n = await page.evaluate(t=>document.querySelector(`[data-tchip=${t}] .n`).textContent, t);
+    check(v===nTop(t) && +n===nTop(t) && (v>0 ? !em.shown : (em.shown && em.btn && /No .+ stories in this edition/.test(em.txt))), `${tag} topic ${t} -> ${v} (expected ${nTop(t)}, chip count ${n})${v?'':' empty state: '+em.txt.slice(0,50)}`);
+    await page.click(`[data-tchip=${t}]`); }
+  if (w===390 || w===1280) { let bad=[];
+    for (const r of REG) for (const t of TOP) { await page.click(`[data-chip=${r}]`); await page.click(`[data-tchip=${t}]`); const v=await vis(); const e=nRT(r,t);
+      const em = await page.evaluate(()=>!document.getElementById('fempty').classList.contains('hidden'));
+      const cnt = await page.evaluate(t=>+document.querySelector(`[data-tchip=${t}] .n`).textContent, t);
+      if (v!==e || em!==(e===0) || cnt!==e) bad.push(`${r}+${t}:${v}/${e}`);
+      await page.click('#fclear'); }
+    check(bad.length===0, `${tag} all 25 region+topic combinations filter correctly, topic counts follow the region, empty state when 0 ${bad.slice(0,4).join(' ')}`); }
+  // ---- search, unmatched search, reset; no stray glyphs in the accessibility tree ----
   const nQ = await page.evaluate(q=>[...document.querySelectorAll('[data-story]')].filter(c=>c.textContent.toLowerCase().includes(q)).length, SEARCH_Q);
-  await page.fill('#q',SEARCH_Q); let v = await vis(); check(nQ>=1 && nQ<total && v===nQ, `${w}px search "${SEARCH_Q}" -> ${v} (expected ${nQ} of ${total})`);
-  check((await latestOk()).ok, `${w}px search: Latest hidden or non-empty`);
-  await page.fill('#q','zzzzqqq'); const lo0 = await latestOk();
-  check(await page.locator('#fempty:not(.hidden) #freset').count()===1 && lo0.ok && !lo0.lshown, `${w}px no-results search: message + reset shown, Latest hidden`);
-  if (w===390) { await page.evaluate(()=>scrollTo(0,0)); await page.screenshot({path:`${shots}/search-no-results-390.png`}); }
-  await page.click('#freset'); v = await vis(); check(v===total && await page.inputValue('#q')==='', `${w}px reset -> ${v}/${total}, search cleared`);
-  await page.fill('#q','zzzzqqq'); await page.click('#fclear'); v = await vis(); check(v===total, `${w}px "Show all stories" in the filter panel -> ${v}/${total}`);
-  // ---- Read more ----
+  await page.fill('#q',SEARCH_Q); let v = await vis(); check(nQ>=1 && nQ<N_TOTAL && v===nQ, `${tag} search "${SEARCH_Q}" -> ${v} (expected ${nQ})`);
+  await page.fill('#q','zzzzqqq');
+  const E0 = await page.evaluate(()=>({shown:!document.getElementById('fempty').classList.contains('hidden'), txt:document.getElementById('femptytxt').textContent, cards:document.querySelectorAll('[data-story]:not(.hidden)').length,
+    secs:[...document.querySelectorAll('section[data-region-sec]')].filter(__dd.shown).length, front:__dd.shown(document.getElementById('front'))}));
+  const snap = await page.locator('main').ariaSnapshot();
+  const stray = snap.split('\n').filter(l=>/(^|[\s:"'])[+−▾▴↗](\s|"|$)/.test(l));
+  check(E0.shown && E0.cards===0 && E0.secs===0 && !E0.front && /No stories match/.test(E0.txt), `${tag} unmatched search: empty message + reset, no cards/sections left ("${E0.txt.slice(0,50)}")`);
+  check(stray.length===0 && !/Read more|More \d/.test(snap.split('Past editions')[0]), `${tag} filtered accessibility snapshot has no stray + / − / arrow glyphs and no leaked expansion controls ${stray.slice(0,3).join(' | ')}`);
+  if (w===390) { await page.evaluate(()=>scrollTo(0,0)); await page.screenshot({path:`${shots}/redesign-after-search-none-390.png`}); }
+  await page.click('#freset'); v = await vis(); check(v===N_TOTAL && await page.inputValue('#q')==='', `${tag} reset -> ${v}/${N_TOTAL}, search cleared`);
+  await page.fill('#q','zzzzqqq'); await page.click('#fclear'); v = await vis(); check(v===N_TOTAL, `${tag} "Clear filters" -> ${v}/${N_TOTAL}`);
+  // full accessibility snapshot of the unfiltered page: decorative glyphs hidden
+  { const s2 = await page.locator('body').ariaSnapshot(); const bad2 = s2.split('\n').filter(l=>/(^|[\s:"'])[+−▾▴↗→↑](\s|"|$)/.test(l)); check(bad2.length===0, `${tag} accessibility tree free of decorative glyphs ${bad2.slice(0,2).join(' | ')}`); }
+  // ---- story expansion + sources ----
   await page.goto(base+'index.html');
-  const rm = page.locator('#lead-sec details.more > summary'); await rm.click();
-  const R = await page.evaluate(()=>{ const d=document.querySelector('#lead-sec details.more'); const a=[...d.querySelectorAll('.srcs a')]; return {open:d.open, links:a.filter(x=>x.offsetParent&&x.getBoundingClientRect().height>0).length, n:a.length}; });
-  check(R.open && R.links>0 && R.links===R.n, `${w}px Read more expands (${R.links} source links visible)`);
-  const full = await page.evaluate(()=>[...document.querySelectorAll('[data-story]')].every(c=>c.querySelector('details.more .srcs a')));
-  check(full, `${w}px every story keeps its sources inside Read more`);
-  if (w===390) { await page.locator('#lead-sec details.more').scrollIntoViewIfNeeded(); await page.evaluate(()=>{const d=document.querySelector('#lead-sec details.more');scrollTo(0,d.getBoundingClientRect().top+scrollY-120);}); await page.screenshot({path:`${shots}/read-more-390.png`}); }
-  // ---- back to top / regions (phones) ----
+  await page.locator('#lead-sec details.more > summary').click();
+  const R = await page.evaluate(()=>{ const d=document.querySelector('#lead-sec details.more'); const a=[...d.querySelectorAll('.srcs a')]; return {open:d.open, links:a.filter(x=>x.getBoundingClientRect().height>0).length, n:a.length, basis:/Basis:/.test(d.textContent)}; });
+  check(R.open && R.links>0 && R.links===R.n && R.basis, `${tag} lead expansion opens: ${R.links} source links visible, claim basis stated`);
+  const S = await page.evaluate(()=>[...document.querySelectorAll('[data-story]')].map(c=>({id:c.id, src:!!c.querySelector('details.more .srcs a[href^="https://"]'), why:!!c.querySelector('.why .wl'), whyLbl:/Donna Daily analysis/.test(c.querySelector('.why')?.textContent||''), meta:!!c.querySelector('.meta'), ownsSummary:!!c.querySelector('details.more>summary')})));
+  check(S.every(s=>s.src&&s.why&&s.whyLbl&&s.meta&&s.ownsSummary), `${tag} every story has attribution, an expandable view with sources, and "Why it matters" marked as Donna Daily analysis`);
+  const L2 = await page.evaluate(()=>{ const all=[...document.querySelectorAll('[data-story] .meta .lab')].filter(__dd.shown).map(l=>l.textContent); return {rep:all.filter(t=>t==='Reported').length, n:all.length, alleg:document.querySelectorAll('[data-story] .meta .lab-alleg').length, sm:document.querySelectorAll('[data-story] .meta .lab-sm').length}; });
+  check(L2.rep===0, `${tag} previews show only distinctive labels (${L2.n} shown: ${L2.alleg} allegation, ${L2.sm} state media; plain "Reported" moved to the expanded view)`);
+  const fp = await page.evaluate(()=>[...document.querySelectorAll('.ph figcaption, .phcap')].filter(__dd.shown).map(c=>c.textContent));
+  check(fp.length>0 && fp.every(t=>/^File photo/.test(t)||!/File/.test(t)), `${tag} ${fp.length} photo credit lines; file photos labelled "File photo[, year]"`);
+  const topMore = page.locator('#top-sec details.more > summary').first(); await topMore.click();
+  const TM = await page.evaluate(()=>{ const d=document.querySelector('#top-sec details.more'); return {open:d.open, why:__dd.shown(d.querySelector('.why')), src:d.querySelectorAll('.srcs a').length}; });
+  check(TM.open && TM.why && TM.src>0, `${tag} supporting story expands to Why it matters + ${TM.src} sources`);
+  if (w===390 || w===1280) { await page.evaluate(()=>{document.documentElement.style.scrollBehavior='auto'; document.querySelector('#top-sec details.more').open=false; const d=document.querySelector('#lead-sec details.more'); d.open=true; scrollTo(0,d.getBoundingClientRect().top+scrollY-(innerWidth<760?60:120));});
+    await page.screenshot({path:`${shots}/redesign-after-expanded-${w}x${h}.png`}); }
+  // ---- back to top (phones) ----
   if (phone) { await page.evaluate(()=>{document.documentElement.style.scrollBehavior='auto';scrollTo(0,3000);}); await page.waitForTimeout(150);
-    const T = await page.evaluate(()=>{ const t=document.getElementById('totop'); const r=t.getBoundingClientRect(); return {shown:getComputedStyle(t).display!=='none', h:r.height, w:r.width, fixed:getComputedStyle(t).position}; });
-    check(T.shown && T.h>=44 && T.h<=60 && T.w<=200 && T.fixed==='fixed', `${w}px small Back to top/Regions button after scrolling (${Math.round(T.w)}x${Math.round(T.h)})`);
-    await page.click('#totop'); await page.waitForTimeout(200); const navTop = await page.evaluate(()=>document.getElementById('regions').getBoundingClientRect().top);
-    check(Math.abs(navTop)<5, `${w}px Back to top lands on the Regions nav (${Math.round(navTop)}px)`);
-    await page.evaluate(()=>{scrollTo(0,0);}); const hiddenTop = await page.evaluate(()=>getComputedStyle(document.getElementById('totop')).display==='none'); check(hiddenTop, `${w}px Back to top hidden at the top of the page`); }
-  await page.goto(base+'index.html?region=ca'); v = await vis(); check(v===nReg('ca') && (await latestOk()).ok, `${w}px URL ?region=ca -> ${v} (expected ${nReg('ca')}), Latest ok`);
+    const T = await page.evaluate(()=>{ const t=document.getElementById('totop'); const r=t.getBoundingClientRect(); return {shown:getComputedStyle(t).display!=='none', h:r.height, w:r.width}; });
+    check(T.shown && T.h>=44 && T.w<=200, `${tag} small "Regions" button after scrolling (${Math.round(T.w)}x${Math.round(T.h)})`);
+    await page.click('#totop'); await page.waitForTimeout(250); const navTop = await page.evaluate(()=>document.getElementById('regions').getBoundingClientRect().top);
+    check(Math.abs(navTop)<5, `${tag} it lands on the region bar (${Math.round(navTop)}px)`); }
+  // ---- shareable URLs ----
+  await page.goto(base+'index.html?region=ca&topic=politics'); v = await vis();
+  check(v===nRT('ca','politics') && await page.getAttribute('#ftoggle','aria-expanded')==='true', `${tag} URL ?region=ca&topic=politics -> ${v} (expected ${nRT('ca','politics')}), panel open`);
   // ---- archive navigation ----
-  await page.goto(base+'index.html'); await page.click('nav.chips .chip.red'); check(/editions\/index\.html$/.test(page.url()), `${w}px Past editions link opens the archive list`);
-  const archLinks = await page.evaluate(()=>[...document.querySelectorAll('.arch a')].map(a=>a.getAttribute('href')));
-  check(archLinks.length>=edPages.length-1, `${w}px archive list links to ${archLinks.length} editions`);
-  const prevEd = edEditionPages.filter(p=>!p.endsWith(CUR.id+'.html'))[0];
-  if (prevEd) { await page.goto(base+prevEd); if (w===390) await page.screenshot({path:`${shots}/archive-edition-390.png`});
-    if (w===1280) await page.screenshot({path:`${shots}/archive-edition-1280.png`}); }
-  // Past editions page: separate Daily / Special sections with counts; screenshot
+  await page.goto(base+'index.html'); await page.click('a[data-past]'); check(/editions\/index\.html$/.test(page.url()), `${tag} Past editions link opens the archive list`);
   await page.goto(base+'editions/index.html');
   const PE = await page.evaluate(()=>{ const g=id=>{const el=document.getElementById(id); return el?{h:el.querySelector('.sub')?.textContent||'', n:el.querySelectorAll('.arch a').length, hrefs:[...el.querySelectorAll('.arch a')].map(a=>a.getAttribute('href'))}:null};
-    return {d:g('daily-editions'), s:g('special-editions'), order:(()=>{const a=document.getElementById('daily-editions'),b=document.getElementById('special-editions');return !!a&&!!b&&(a.compareDocumentPosition(b)&Node.DOCUMENT_POSITION_FOLLOWING)>0})()}; });
+    return {d:g('daily-editions'), s:g('special-editions'), chips:document.querySelectorAll('nav.regions .chip').length, order:(()=>{const a=document.getElementById('daily-editions'),b=document.getElementById('special-editions');return !!a&&!!b&&(a.compareDocumentPosition(b)&Node.DOCUMENT_POSITION_FOLLOWING)>0})(),
+      serif:/Georgia/.test(getComputedStyle(document.querySelector('.arch .t')).fontFamily)}; });
   const expDaily = DJ.editions.length-1 + (DJ.archives||[]).length;
-  check(PE.d && PE.s && PE.order && PE.d.n===expDaily && PE.s.n===SPECIALS.length && PE.d.h.includes(`(${expDaily} edition`) && PE.s.h.includes(`(${SPECIALS.length} edition`),
-    `${w}px Past editions page: Daily editions (${PE.d&&PE.d.n}) then Special editions (${PE.s&&PE.s.n}) with counts in headings`);
-  check(PE.d && PE.d.hrefs.every(h=>!/\/index\.html$/.test(h)) && PE.s && PE.s.hrefs.every(h=>/\/index\.html$/.test(h)), `${w}px Past editions: no special in the Daily list and no daily edition in the Special list`);
-  const dIds = PE.d? PE.d.hrefs.map(h=>h.replace(/\.html$/,'')) : []; check(dIds.join()===[...dIds].sort().reverse().join(), `${w}px Daily editions newest first: ${dIds.join(', ')}`);
-  if(w===390||w===1280) await page.screenshot({path:`${shots}/past-editions-${w}.png`, fullPage:true});
-  if (w>=1024) { const rw = await page.evaluate(()=>document.querySelector('main .wrap').getBoundingClientRect().width); check(rw<=920, `${w}px archive page reading column ${Math.round(rw)}px`); }
-  check(errs.length===0, `${w}px no JS errors ${errs.join('|')}`);
+  check(PE.d && PE.s && PE.order && PE.d.n===expDaily && PE.s.n===SPECIALS.length && PE.d.h.includes(`(${expDaily} edition`) && PE.s.h.includes(`(${SPECIALS.length} edition`) && PE.chips===6 && PE.serif,
+    `${tag} Past editions page: Daily editions (${PE.d&&PE.d.n}) then Special editions (${PE.s&&PE.s.n}), counts in headings, region bar, new type`);
+  check(PE.d && PE.d.hrefs.every(h=>!/\/index\.html$/.test(h)) && PE.s && PE.s.hrefs.every(h=>/\/index\.html$/.test(h)), `${tag} Past editions: no special in the Daily list and no daily edition in the Special list`);
+  const dIds = PE.d? PE.d.hrefs.map(h=>h.replace(/\.html$/,'')) : []; check(dIds.join()===[...dIds].sort().reverse().join(), `${tag} Daily editions newest first: ${dIds.join(', ')}`);
+  if (w===390||w===1280) await page.screenshot({path:`${shots}/redesign-after-past-editions-${w}x${h}.png`});
+  if (desk) { const rw = await page.evaluate(()=>document.querySelector('main .wrap').getBoundingClientRect().width); check(rw<=880, `${tag} archive page reading column ${Math.round(rw)}px`); }
+  check(errs.length===0, `${tag} no JS errors ${errs.join('|')}`);
   await ctx.close();
 }
+
 // ---------- special editions (e.g. editions/2026-10-review/index.html) ----------
 console.log(`INFO special editions in data.json: ${SPECIALS.map(s=>s.id).join(', ')||'none'}`);
 { const home = fs.readFileSync(path.join(PUB,'index.html'),'utf8'), arch = fs.readFileSync(path.join(PUB,'editions/index.html'),'utf8');
@@ -213,8 +236,8 @@ console.log(`INFO special editions in data.json: ${SPECIALS.map(s=>s.id).join(',
     const got = sl? [...sl[1].matchAll(/href="([^"]+)"/g)].map(m=>m[1]) : []; check(got.join()===spIds.join() && got.join()===[...got].sort().reverse().join(), `Special editions newest first: ${got.join(', ')}`); }
   for (const gone of ['2026-10-29-brief','2026-11-01-brief','2026-11-01-ed1']) check(!fs.existsSync(path.join(PUB,'editions',gone+'.html')) && !home.includes(gone) && !arch.includes(gone), `removed edition ${gone} is not built or linked`);
   check(DJ.current===CUR.id && !SPECIALS.some(sp=>sp.id===DJ.current), `daily front page stays ${DJ.current}; specials never replace it`);
-  const ban = [...home.matchAll(/<a class="spb" href="([^"]+)"/g)].map(m=>m[1]);
-  check(ban.length<=1 && ban.every(h=>SPECIALS.some(sp=>sp.href===h)) && home.includes('id="lead-sec"'), `home page featured-special banner: ${ban.join(', ')||'none'} (current edition still shown)`); }
+  const ban = [...home.matchAll(/<a class="newer" href="([^"]+)"/g)].map(m=>m[1]);
+  check(ban.length<=1 && ban.every(h=>SPECIALS.some(sp=>sp.href===h)) && home.includes('id="lead-sec"') && !/class="spb"/.test(home), `home page "Newer coverage" link: ${ban.join(', ')||'none'} (compact, no black promo banner; daily edition still the front page)`); }
 for (const SP of SPECIALS) {
   const p = SP.href; const SECS=Object.keys(SP.sections||{news:1,life:1,opinion:1,culture:1}), SREG=Object.keys(SP.regions||{us:1,ca:1,hk:1,cn:1});
   // per-special test settings (data.json specials[].test); defaults are the October 2026 in Review values
@@ -223,7 +246,7 @@ for (const SP of SPECIALS) {
   const nS = k => SP.stories.filter(s=>k==='all'||s.section===k).length, nR = r => SP.stories.filter(s=>r==='all'||s.regions.includes(r)).length;
   const nSR = (k,r) => SP.stories.filter(s=>(k==='all'||s.section===k)&&(r==='all'||s.regions.includes(r))).length;
   const N = SP.stories.length;
-  for (const [w,h] of sizes) {
+  for (const [w,h] of sizes.filter(([w,h])=>w!==1286)) {
     const phone = w<760;
     const ctx = await browser.newContext({viewport:{width:w,height:h}, deviceScaleFactor: phone?2:1, isMobile: phone, hasTouch: phone});
     const page = await ctx.newPage(); const errs=[]; page.on('pageerror',e=>errs.push(e.message));
@@ -307,7 +330,9 @@ for (const SP of SPECIALS) {
       if (w===1280) { await page.screenshot({path:`${shots}/${SHOT}-1280.png`});
         await page.evaluate(async()=>{ document.querySelectorAll('img[loading=lazy]').forEach(i=>i.loading='eager'); await Promise.all([...document.images].map(i=>i.decode().catch(()=>{}))); });
         await page.screenshot({path:`${shots}/${SHOT}-1280-full.png`, fullPage:true}); } }
-    else check(L.cols<=1 && L.sticky!=='sticky', `${w}px ${SP.id}: phone single column, no sticky bar`);
+    else if (phone) check(L.cols<=1 && L.sticky!=='sticky', `${w}px ${SP.id}: phone single column, no sticky bar`);
+    const T2 = await page.evaluate(()=>({h1:getComputedStyle(document.querySelector('.ttl h1')).fontFamily, acc:getComputedStyle(document.querySelector('.kick')).color, brand:getComputedStyle(document.querySelector('.mast')).borderTopColor}));
+    check(/Georgia/.test(T2.h1) && T2.acc==='rgb(176, 16, 42)' && T2.brand==='rgb(200, 16, 46)', `${w}px ${SP.id}: Donna type system (serif headlines, deep-red accent, red brand rule)`);
     // ---- back to top ----
     await page.evaluate(()=>{document.documentElement.style.scrollBehavior='auto';scrollTo(0,3000);}); await page.waitForTimeout(150);
     const T = await page.evaluate(()=>{ const t=document.getElementById('totop'); const r=t.getBoundingClientRect(); return {shown:getComputedStyle(t).display!=='none', h:r.height, fixed:getComputedStyle(t).position}; });
@@ -318,7 +343,7 @@ for (const SP of SPECIALS) {
     check(errs.length===0, `${w}px ${SP.id}: no JS errors ${errs.join('|')}`);
     // ---- home page link + screenshot ----
     if (w===390) { await page.goto(base+'index.html'); if (SP===SPECIALS[0]) await page.screenshot({path:`${shots}/home-390.png`});
-      const hl = page.locator(`a.spl[href="${SP.href}"]:visible`); check(await hl.count()===1, `390px home shows a small "${SP.title.replace(/ \d{4}/,'')}" link`);
+      const hl = page.locator(`a[href="${SP.href}"]:visible`).first(); check(await hl.count()===1, `390px home links to "${SP.title}"`);
       await hl.click(); check(page.url().endsWith(SP.href), `390px home link opens ${SP.href}`); }
     await ctx.close();
   }
@@ -328,10 +353,41 @@ for (const SP of SPECIALS) {
     await page.locator('#leadbox details.more > summary').click(); check(await page.locator('#leadbox details.more .srcs a:visible').count()>0, `no-JS ${SP.id}: Read more expands`); await ctx.close(); }
 }
 
-// no-JS reading
-const ctx = await browser.newContext({viewport:{width:390,height:844}, javaScriptEnabled:false}); const page = await ctx.newPage();
-await page.goto(base+'index.html'); const n = await page.locator('[data-story]:visible').count(); check(n===N_TOTAL, `no-JS: ${n} stories readable (expected ${N_TOTAL})`);
-const nl = await page.locator('#latest li:visible').count(); check(nl>0 && nl<=6, `no-JS: Latest shows ${nl} items`);
-await page.locator('#lead-sec details.more > summary').click(); check(await page.locator('#lead-sec details.more .srcs a:visible').count()>0, 'no-JS: Read more still expands');
-await ctx.close();
+// no-JS reading: every story readable, expansion works, region links jump to sections
+{ const ctx = await browser.newContext({viewport:{width:390,height:844}, javaScriptEnabled:false}); const page = await ctx.newPage();
+  await page.goto(base+'index.html'); const n = await page.locator('[data-story]:visible').count(); check(n===N_TOTAL, `no-JS: ${n} stories readable (expected ${N_TOTAL})`);
+  check(await page.locator('#ftoggle:visible').count()===0 && await page.locator('[data-chip]:visible').count()===6, 'no-JS: filter toggle hidden, region links still shown');
+  await page.locator('#lead-sec details.more > summary').click(); check(await page.locator('#lead-sec details.more .srcs a:visible').count()>0, 'no-JS: story expansion still works');
+  await ctx.close(); }
+
+// ---------- edge cases: long headline, missing images, empty region, empty topic (fixture build) ----------
+{ const FX='/tmp/dd-fixture'; fs.rmSync(FX,{recursive:true,force:true}); fs.mkdirSync(FX+'/data',{recursive:true});
+  fs.cpSync(path.join(ROOT,'data'), FX+'/data', {recursive:true});
+  for (const f of fs.readdirSync(FX+'/data/editions')) if (f!==CUR.id+'.json') fs.rmSync(FX+'/data/editions/'+f);
+  const ed = JSON.parse(fs.readFileSync(`${FX}/data/editions/${CUR.id}.json`,'utf8'));
+  const L = ed.stories.find(s=>s.id===ed.leadId);
+  L.headline = 'Polls open across the United States as voters in all fifty states decide control of the House and Senate in a closely fought midterm election that both parties call decisive';
+  ed.stories = ed.stories.filter(s=>s.region!=='hk');                         // empty region
+  for (const s of ed.stories) if (s.region==='world' || s.id===ed.leadId) delete s.image;   // missing images, incl. the lead
+  ed.stories.forEach(s=>{ if (s.topic==='culture') s.topic='human'; });     // empty topic
+  fs.writeFileSync(`${FX}/data/editions/${CUR.id}.json`, JSON.stringify(ed));
+  let ok=true; try { execFileSync('node',[path.join(ROOT,'tools/build.mjs')],{env:{...process.env, DD_DATA:FX+'/data', DD_OUT:FX+'/public', DD_KEEP_UPD:'1'}, stdio:'pipe'}); } catch(e){ ok=false; console.log(String(e.stdout)+String(e.stderr)); }
+  check(ok, `fixture build (long headline ${L.headline.length} chars, no Hong Kong stories, no culture stories, lead + World without photos)`);
+  for (const [w,h] of [[360,844],[390,844],[768,1024],[1280,800]]) {
+    const ctx = await browser.newContext({viewport:{width:w,height:h}, isMobile:w<760, hasTouch:w<760}); await ctx.addInitScript(PROBES); const page = await ctx.newPage(); const errs=[]; page.on('pageerror',e=>errs.push(e.message));
+    await page.goto('file://'+FX+'/public/index.html');
+    const X = await page.evaluate(()=>{ const h1=document.querySelector('#lead-sec h1'); const r=h1.getBoundingClientRect();
+      return {sw:document.documentElement.scrollWidth, iw:innerWidth, h1B:r.bottom, clip:h1.scrollWidth>h1.clientWidth+1, broken:[...document.images].filter(i=>i.complete&&i.naturalWidth===0&&i.loading!=='lazy').length,
+        leadNoPh:!document.querySelector('#lead-sec img'), hk:document.querySelector('#region-hk [data-empty-region]')?.textContent, worldThumbs:document.querySelectorAll('#region-world img').length}; });
+    check(X.sw<=X.iw && !X.clip && X.broken===0, `fixture ${w}px: long headline wraps without overflow or clipping (${X.sw}<=${X.iw})`);
+    if (w<760) check(X.h1B<=h, `fixture ${w}px: ${L.headline.length}-char lead headline still fully on the first screen (bottom ${Math.round(X.h1B)}px)`);
+    check(X.leadNoPh && X.worldThumbs===0 && /No Hong Kong stories in this edition/.test(X.hk||''), `fixture ${w}px: text-only lead and cards render cleanly; empty region says "${X.hk}"`);
+    await page.click('[data-chip=hk]'); const E = await page.evaluate(()=>({shown:!document.getElementById('fempty').classList.contains('hidden'), t:document.getElementById('femptytxt').textContent}));
+    check(E.shown && /No Hong Kong stories in this edition/.test(E.t), `fixture ${w}px: Hong Kong filter shows an honest empty state ("${E.t}")`);
+    await page.click('#freset'); await page.click('#ftoggle'); await page.click('[data-tchip=culture]');
+    const E2 = await page.evaluate(()=>({shown:!document.getElementById('fempty').classList.contains('hidden'), t:document.getElementById('femptytxt').textContent}));
+    check(E2.shown && /No Culture & entertainment stories in this edition/.test(E2.t), `fixture ${w}px: empty topic message ("${E2.t}")`);
+    if (w===390) await page.screenshot({path:`${shots}/redesign-after-edgecase-390.png`});
+    check(errs.length===0, `fixture ${w}px: no JS errors ${errs.join('|')}`); await ctx.close(); } }
+
 await browser.close(); console.log(fail? `${fail} FAILURES`:'ALL PASS'); process.exit(fail?1:0);
