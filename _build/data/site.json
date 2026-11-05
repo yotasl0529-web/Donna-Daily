@@ -1,6 +1,6 @@
 {
  "_about": "Site-wide notices for the front page (template data, not edition content). A notice shows only while the build time is before showUntil, so it disappears on the first rebuild after that time. Keep notices short, factual and free of personal details.",
  "notices": [
-  {"id": "pause-2026-11", "text": "Daily editions are paused. They resume on Thu, Nov 5.", "showUntil": "2026-11-05T12:30:00-05:00"}
+  {"id": "pause-2026-11", "text": "Published on request. The regular twice-daily schedule resumes Thu, Nov 5.", "showUntil": "2026-11-05T12:30:00-05:00"}
  ]
 }

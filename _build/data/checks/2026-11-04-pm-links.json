@@ -1,0 +1,169 @@
+{
+ "edition": "2026-11-04-pm",
+ "ranAt": "2026-11-04T19:38:02-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/midterm-election-uncalled-races-b20c577aaffced99155af448bd182fa5",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/when-ap-calls-congress-control-9dae62cdd7d776a20a26eab6fbd9b12c",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://slate.com/news-and-politics/2026/11/midterms-election-results-mississippi-alaska-colom-peltola.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.cronista.com/en/today/62-uncalled-races-are-holding-congress-hostage-some-of-the-ballots-that-could-decide-them-are-still-in-the-mail-and-thats-perfectly-legal/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.foxnews.com/politics/trump-couldnt-transfer-love-supporters-other-republicans-amid-historic-midterm-loss",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://panow.com/2026/11/04/in-the-news-today-congress-flips-carney-on-trade-talks-fiscal-hawks-eye-budget/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://financialpost.com/news/news-of-the-day-oil-refinery-boom-trade-surplus-widens-toys-r-us-staples-team-up-toronto-home-sales-decline-questionable-expenses-and-more/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/montreal/pspp-to-launch-diplomatic-offensive-south-of-the-border-9.7409119",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.canada.ca/en/department-finance/news/2026/10/government-of-canada-to-release-budget-2026-on-november-5-2026.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://globalnews.ca/news/12134425/federal-budget-2026-immigration/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/04/P2026110400531.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:04-05:00"
+  },
+  {
+   "url": "https://www.news.gov.hk/eng/2026/11/20261104/20261104_181944_819.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:06-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/04/P2026110400339.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:04-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/news/article/347529/Night-Recap-November-4-2026",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.mplus.org.hk/en/press/mplus-invites-the-community-to-celebrate-its-fifth-anniversary-this-november/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:04-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/news-programmes/this-episode.htm?cmsid=77&episode_id=1137521&livetime=20261104000000",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261104_12053240.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:04-05:00"
+  },
+  {
+   "url": "https://www.channelnewsasia.com/east-asia/china-us-russia-leaders-meeting-apec-6523336",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/04/china-critical-minerals-rare-earths-trump-japan-export-control-.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261103/675daab9069d4063ab6569a54fd89292/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/business/article/3373053/pboc-raise-reserve-requirement-ratio-foreign-exchange-deposits-2-percentage-points",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.pbs.org/newshour/show/news-wrap-officials-in-iran-welcome-midterm-results-as-vote-against-war",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/c6z98z5z91ppo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.thescore.com/seri/news/3645258/como-equal-ucl-record-with-historic-9-1-win-over-lens",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  },
+  {
+   "url": "https://www.cbssports.com/soccer/news/champions-league-scores-live-updates-real-madrid-liverpool-man-city-arsenal/live/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-04T19:38:03-05:00"
+  }
+ ]
+}

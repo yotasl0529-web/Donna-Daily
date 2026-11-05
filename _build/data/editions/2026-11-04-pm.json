@@ -1,0 +1,1024 @@
+{
+ "id": "2026-11-04-pm",
+ "kind": "edition",
+ "title": "Evening Edition",
+ "date": "2026-11-04",
+ "leadId": "us-congress",
+ "topIds": [
+  "us-trump",
+  "ca-trade",
+  "hk-poon",
+  "cn-trilateral",
+  "w-ukraine"
+ ],
+ "notes": [
+  "Evening Edition for Wednesday, Nov 4, 2026, published on request while the regular twice-daily schedule is paused (it resumes Thu, Nov 5). It covers news since Tuesday morning.",
+  "The U.S. section follows the day after the midterms: who still has to be counted, and the president’s reaction. Full results, race by race, are in the Midterms 2026 special edition.",
+  "Hong Kong has five stories, Canada four, and the U.S., China and World three each. There are no U.S. or China culture stories tonight; we did not pad them.",
+  "Some pages refused automated downloads (noted under Sources & checks); that is an access limit, not a broken link. China’s skyline photo was dropped as not relevant enough, so the China section is text-only."
+ ],
+ "provenance": [
+  "Midterm seat totals differ by outlet and time of update (AP: 59 House races uncalled at 4 p.m. ET; El Cronista: 60 House races uncalled Wednesday morning; Slate: Democrats at 237 House seats Wednesday evening). We give each figure with its source and time.",
+  "AP pages loaded only partially in our reader and refused direct downloads; we cite what loaded and leave out check times we did not log."
+ ],
+ "stories": [
+  {
+   "id": "us-congress",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-04T18:03",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "Democrats hold both chambers as the count goes on in Alaska, Mississippi and about 60 House races",
+   "deck": "A day after AP race calls gave Democrats control of the House and the Senate, two Senate races and roughly 60 House seats were still uncalled on Wednesday. The open races will set the size of the new majorities, not which party leads.",
+   "summary": "A day after AP race calls gave Democrats control of the House and the Senate, two Senate races and roughly 60 House seats were still uncalled on Wednesday. The open races will set the size of the new majorities, not which party leads. NPR, using AP race calls, reported that Democrats flipped seven Republican-held Senate seats (North Carolina, South Carolina, Ohio, Texas, Kansas, Iowa and Maine), returning them to full control of Congress for the first time since 2023. AP said that as of 4 p.m. ET Wednesday only a handful of Senate and governor races were uncalled and that 59 House races remained uncalled. El Cronista, citing AP tallies from Wednesday morning, put the Senate at 54 Democrats to 44 Republicans with Alaska and Mississippi still open. Slate reported on Wednesday evening that Democrats had officially won 237 House seats, with several Arizona, Florida, North Carolina and Colorado races among those still counting. California alone had 11 uncalled House seats, and its counties have until Dec. 3 to finish counting, El Cronista reported. Race-by-race results are in our Midterms 2026 special edition, listed under Past editions.",
+   "why": "Every extra seat changes how much room Democratic leaders have to pass bills, launch investigations and override, or fail to override, presidential vetoes when the new Congress meets in January.",
+   "label": "Reported",
+   "note": "Seat totals move as ballots are counted; figures here are as of the times the linked outlets published them on Wednesday. Donna Daily does not call any race.",
+   "sources": [
+    {
+     "title": "Democrats win full control of Congress, ushering in a new era of divided government",
+     "site": "NPR",
+     "date": "Nov 3, 2026, 11:44 PM ET (updated Nov 4, 1:52 AM ET)",
+     "href": "https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power"
+    },
+    {
+     "title": "Which Senate, governors races are still uncalled by The Associated Press",
+     "site": "AP News",
+     "date": "Nov 4, 2026 (updated 4:26 PM ET)",
+     "href": "https://apnews.com/article/midterm-election-uncalled-races-b20c577aaffced99155af448bd182fa5"
+    },
+    {
+     "title": "This time, determining which party will control Congress didn’t take days",
+     "site": "AP News",
+     "date": "Nov 4, 2026 (updated 1:46 AM ET)",
+     "href": "https://apnews.com/article/when-ap-calls-congress-control-9dae62cdd7d776a20a26eab6fbd9b12c"
+    },
+    {
+     "title": "Democrats’ Blue Wave Could Get Even Bigger",
+     "site": "Slate",
+     "date": "Nov 4, 2026, 6:03 PM",
+     "href": "https://slate.com/news-and-politics/2026/11/midterms-election-results-mississippi-alaska-colom-peltola.html"
+    },
+    {
+     "title": "62 uncalled races are holding Congress hostage",
+     "site": "El Cronista",
+     "date": "Nov 4, 2026, 1:46 PM",
+     "href": "https://www.cronista.com/en/today/62-uncalled-races-are-holding-congress-hostage-some-of-the-ballots-that-could-decide-them-are-still-in-the-mail-and-thats-perfectly-legal/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power",
+     "publisher": "NPR",
+     "published": "Nov 3, 2026, 11:44 PM ET; updated Nov 4, 1:52 AM ET",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "Democrats won full control of Congress, per NPR analysis of AP race calls",
+      "seven Senate flips: NC, SC, OH, TX, KS, IA, ME",
+      "first full Democratic control since 2023"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://apnews.com/article/midterm-election-uncalled-races-b20c577aaffced99155af448bd182fa5",
+     "publisher": "AP News",
+     "published": "Nov 4, 2026 (updated 2:26 PM MST = 4:26 PM ET)",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "claimsSupported": [
+      "a handful of Senate and governor races uncalled as of 4 p.m. ET Wednesday",
+      "59 House races uncalled"
+     ],
+     "limits": [
+      "Only the headline and first paragraphs loaded in our reader; direct downloads were refused (HTTP 403), an access limit. Check time was not logged, so none is given."
+     ]
+    },
+    {
+     "url": "https://apnews.com/article/when-ap-calls-congress-control-9dae62cdd7d776a20a26eab6fbd9b12c",
+     "publisher": "AP News",
+     "published": "Nov 4, 2026 (updated 11:46 PM MST Nov 3 = 1:46 AM ET Nov 4)",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "claimsSupported": [
+      "AP calls all 435 House and 35 Senate races",
+      "Democrats' turn to run Capitol Hill"
+     ],
+     "limits": [
+      "Only the opening loaded in our reader; direct downloads were refused (HTTP 403). Check time not logged."
+     ]
+    },
+    {
+     "url": "https://slate.com/news-and-politics/2026/11/midterms-election-results-mississippi-alaska-colom-peltola.html",
+     "publisher": "Slate",
+     "published": "Nov 4, 2026, 6:03 PM",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:34:52-05:00",
+     "claimsSupported": [
+      "Democrats officially won 237 House seats (Slate)",
+      "Alaska and Mississippi Senate races too close to call",
+      "uncalled House races in AZ, FL, NC, CO, ME"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cronista.com/en/today/62-uncalled-races-are-holding-congress-hostage-some-of-the-ballots-that-could-decide-them-are-still-in-the-mail-and-thats-perfectly-legal/",
+     "publisher": "El Cronista",
+     "published": "Nov 4, 2026, 1:46 PM",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:34:52-05:00",
+     "claimsSupported": [
+      "Senate 54-44 with two races open, per AP tallies Wednesday morning",
+      "11 of 60 uncalled House seats in California",
+      "California counties have until Dec. 3 to finish counting"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-04-pm/us-congress.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The west front of the U.S. Capitol in Washington seen from a terrace on Pennsylvania Avenue.",
+    "caption": "The U.S. Capitol's west front in Washington, pictured in 2018.",
+    "credit": "Beethoven",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:2018-03-25_%E2%80%93_United_States_Capitol_West_Front,_viewed_from_the_Newseum_terrace_%E2%80%93_Washington,_D.C.,_United_States.jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "us-trump",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-04T14:30",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "Trump says the Iran war ‘probably’ cost Republicans, but he would do it again",
+   "deck": "Taking questions at a White House ballroom ceremony, President Trump agreed with Vice President JD Vance that the Iran war hurt Republicans by pushing up gas prices, and said he could work with Democrats “unless they want to be destructive.”",
+   "summary": "Taking questions at a White House ballroom ceremony, President Trump agreed with Vice President JD Vance that the Iran war hurt Republicans by pushing up gas prices, and said he could work with Democrats “unless they want to be destructive.” Speaking as the final steel beam went into the new ballroom on Wednesday, Trump said “if I were on the ballot, we would have won” and that Republicans “weren’t able to transfer the love” from his rallies to candidates, Fox News reported. Asked about Vance’s post blaming the war, Trump said “I think it’s largely true because it drove the gasoline up,” but that “if I had it to do again, I’d have to do it again.” He pointed to his veto power and said impeachment would “destroy” the Democratic Party.",
+   "why": "It is the president’s first public account of the defeat, and his veto threat previews the standoff a Democratic Congress now faces.",
+   "label": "Reported + official statement",
+   "note": "Quotes are as reported by Fox News from Trump’s remarks to reporters; Vance’s post is described as Fox News summarized it.",
+   "sources": [
+    {
+     "title": "Trump 'couldn't transfer the love' of his supporters to other Republicans amid historic midterm loss",
+     "site": "Fox News",
+     "date": "Nov 4, 2026, 2:30 PM EST",
+     "href": "https://www.foxnews.com/politics/trump-couldnt-transfer-love-supporters-other-republicans-amid-historic-midterm-loss"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.foxnews.com/politics/trump-couldnt-transfer-love-supporters-other-republicans-amid-historic-midterm-loss",
+     "publisher": "Fox News",
+     "published": "Nov 4, 2026, 2:30 PM EST",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:34:52-05:00",
+     "claimsSupported": [
+      "'transfer the love' and 'if I were on the ballot' quotes",
+      "Iran war 'largely true'... 'I'd have to do it again'",
+      "veto and impeachment remarks",
+      "ballroom beam ceremony setting"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "us-senate",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-04T18:03",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "Mississippi’s Senate race is separated by a few dozen votes, and Alaska may wait until Nov. 18",
+   "deck": "Democrat Scott Colom led Sen. Cindy Hyde-Smith by 65 votes out of nearly a million on Wednesday afternoon, Slate reported. In Alaska, Mary Peltola and Sen. Dan Sullivan were virtually tied with about three-quarters of the vote in.",
+   "summary": "Democrat Scott Colom led Sen. Cindy Hyde-Smith by 65 votes out of nearly a million on Wednesday afternoon, Slate reported. In Alaska, Mary Peltola and Sen. Dan Sullivan were virtually tied with about three-quarters of the vote in. Mississippi counts mail ballots postmarked by Election Day that arrive by Nov. 10, and state law provides no recount, El Cronista reported; a dispute could go to court or to the Senate itself. Alaska counts domestic mail ballots arriving by Nov. 13 and overseas ballots by Nov. 18. If no one passes 50%, the state runs its ranked-choice tabulation that day, with certification targeted for Nov. 25. Neither race can change which party controls the Senate.",
+   "why": "A Colom win would give Democrats a Senate seat in a state Trump carried by more than 20 points in 2024, per Slate; Alaska’s ranked-choice count could stretch the wait for weeks.",
+   "label": "Reported",
+   "note": "Margins change as ballots arrive. AP had not called either race when these pages were checked.",
+   "sources": [
+    {
+     "title": "Democrats’ Blue Wave Could Get Even Bigger",
+     "site": "Slate",
+     "date": "Nov 4, 2026, 6:03 PM",
+     "href": "https://slate.com/news-and-politics/2026/11/midterms-election-results-mississippi-alaska-colom-peltola.html"
+    },
+    {
+     "title": "62 uncalled races are holding Congress hostage",
+     "site": "El Cronista",
+     "date": "Nov 4, 2026, 1:46 PM",
+     "href": "https://www.cronista.com/en/today/62-uncalled-races-are-holding-congress-hostage-some-of-the-ballots-that-could-decide-them-are-still-in-the-mail-and-thats-perfectly-legal/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://slate.com/news-and-politics/2026/11/midterms-election-results-mississippi-alaska-colom-peltola.html",
+     "publisher": "Slate",
+     "published": "Nov 4, 2026, 6:03 PM",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:34:52-05:00",
+     "claimsSupported": [
+      "Colom led Hyde-Smith by 65 votes of nearly 1 million (afternoon)",
+      "Peltola-Sullivan virtually tied with ~3/4 of vote in (AP figures)",
+      "Trump won Mississippi by 20+ points in 2024"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cronista.com/en/today/62-uncalled-races-are-holding-congress-hostage-some-of-the-ballots-that-could-decide-them-are-still-in-the-mail-and-thats-perfectly-legal/",
+     "publisher": "El Cronista",
+     "published": "Nov 4, 2026, 1:46 PM",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:34:52-05:00",
+     "claimsSupported": [
+      "Mississippi mail-ballot cutoff Nov. 10; no recount provision",
+      "Alaska deadlines Nov. 13 (domestic) and Nov. 18 (overseas); RCV tabulation Nov. 18; certification target Nov. 25"
+     ],
+     "limits": [
+      "Margins quoted are from Wednesday morning; Slate’s 65-vote figure is a later snapshot"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-trade",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-04T03:41",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "Carney says ‘more intense’ U.S. trade talks have begun, and some Canadian red lines are off the table",
+   "deck": "Prime Minister Mark Carney said negotiations with Washington intensified after his weekend call with President Trump, and that some red lines, including language, culture and Canada’s ability to sign deals with other markets, are no longer in dispute.",
+   "summary": "Prime Minister Mark Carney said negotiations with Washington intensified after his weekend call with President Trump, and that some red lines, including language, culture and Canada’s ability to sign deals with other markets, are no longer in dispute. The Canadian Press reported that Carney described those items as “taken off the table.” Trump told Fox News on Tuesday that a deal with Canada is imminent and claimed Canada would supply fertilizer tariff-free; The Canadian Press noted that Canada does not charge export tariffs on fertilizer or potash. Separately, Canada’s trade surplus with the U.S. widened to $12.3 billion in September from $12.1 billion, the Financial Post reported.",
+   "why": "A deal would ease tariffs that have hit lumber, aluminum and manufacturing; what Canada keeps out of the talks matters as much as what it gives.",
+   "label": "Reported + claim",
+   "note": "“Imminent” is Trump’s characterization; no deal had been announced when this edition was compiled.",
+   "sources": [
+    {
+     "title": "In the news today: Congress flips, Carney on trade talks, fiscal hawks eye budget (The Canadian Press)",
+     "site": "paNOW / The Canadian Press",
+     "date": "Nov 4, 2026, 3:41 AM",
+     "href": "https://panow.com/2026/11/04/in-the-news-today-congress-flips-carney-on-trade-talks-fiscal-hawks-eye-budget/"
+    },
+    {
+     "title": "News of the day: … trade surplus widens …",
+     "site": "Financial Post",
+     "date": "Nov 4, 2026, 3:42 PM (updated 5:30 PM)",
+     "href": "https://financialpost.com/news/news-of-the-day-oil-refinery-boom-trade-surplus-widens-toys-r-us-staples-team-up-toronto-home-sales-decline-questionable-expenses-and-more/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://panow.com/2026/11/04/in-the-news-today-congress-flips-carney-on-trade-talks-fiscal-hawks-eye-budget/",
+     "publisher": "The Canadian Press (via paNOW)",
+     "published": "Nov 4, 2026, 3:41 AM",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "Carney: 'more intense' negotiations since weekend call",
+      "red lines on language, culture, other trade deals taken off the table",
+      "Trump to Fox: deal imminent; fertilizer claim; Canada has no fertilizer export tariffs"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://financialpost.com/news/news-of-the-day-oil-refinery-boom-trade-surplus-widens-toys-r-us-staples-team-up-toronto-home-sales-decline-questionable-expenses-and-more/",
+     "publisher": "Financial Post",
+     "published": "Nov 4, 2026, 3:42 PM; updated 5:30 PM",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "September surplus with U.S. $12.3B, up from $12.1B"
+     ],
+     "limits": [
+      "Daily roundup page; the full trade story is linked from it"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-quebec",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-04T13:02",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "Quebec premier plans a ‘diplomatic offensive’ in the U.S. after the midterms",
+   "deck": "Premier Paul St-Pierre Plamondon said Quebec will reach out to American contacts to seek relief from tariffs, arguing the midterm results put Canada and Quebec in a better position to find allies.",
+   "summary": "Premier Paul St-Pierre Plamondon said Quebec will reach out to American contacts to seek relief from tariffs, arguing the midterm results put Canada and Quebec in a better position to find allies. “Americans have spoken, the situation has changed,” he told reporters in Quebec City, CBC News reported. He said Quebec does not plan to negotiate trade directly with the Americans, at least for now. Quebec is among the provinces most affected by U.S. tariffs on softwood lumber, aluminum and manufactured goods, and the trade war was an issue in close U.S. races in Maine and Michigan, CBC said.",
+   "why": "Provinces are trying to use the new balance in Washington to push for tariff relief, alongside Ottawa’s own talks.",
+   "label": "Reported + official statement",
+   "sources": [
+    {
+     "title": "After U.S. midterms, Quebec premier sets sight on 'diplomatic offensive' south of the border",
+     "site": "CBC News",
+     "date": "Nov 4, 2026, 1:02 PM EST",
+     "href": "https://www.cbc.ca/news/canada/montreal/pspp-to-launch-diplomatic-offensive-south-of-the-border-9.7409119"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/montreal/pspp-to-launch-diplomatic-offensive-south-of-the-border-9.7409119",
+     "publisher": "CBC News",
+     "published": "Nov 4, 2026, 1:02 PM EST",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "'diplomatic offensive' plan",
+      "no direct Quebec trade negotiations for now",
+      "Quebec among provinces most affected by tariffs"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-04-pm/ca-quebec.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Parliament Building of Quebec, a large stone building with a central clock tower, under a blue sky.",
+    "caption": "The Parliament Building in Quebec City, pictured in 2009.",
+    "credit": "Marc-Lautenbacher",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Parliament_building_of_Quebec_Canada.jpg",
+    "isFilePhoto": true,
+    "year": 2009
+   }
+  },
+  {
+   "id": "ca-budget",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-03T11:36",
+   "dateLabel": "Nov 3–4, 2026",
+   "headline": "Thursday’s federal budget is set to include the immigration levels plan, a source says",
+   "deck": "Finance Minister François-Philippe Champagne is scheduled to table Budget 2026 on Thursday, Nov. 5. A government source told The Canadian Press it will include the annual immigration levels update.",
+   "summary": "Finance Minister François-Philippe Champagne is scheduled to table Budget 2026 on Thursday, Nov. 5. A government source told The Canadian Press it will include the annual immigration levels update. The current plan admits 380,000 permanent residents a year, plus two one-time programs for another 140,000 temporary residents through 2026 and 2027, Global News reported. The update will come after its legally mandated Nov. 1 deadline. Desjardins economist Randall Bartlett told The Canadian Press that higher oil revenues should lower this year’s deficit, but warned those revenues won’t last.",
+   "why": "The budget sets Ottawa’s spending and immigration targets as it tries to absorb tariffs and an oil-price swing.",
+   "label": "Reported + unnamed sources",
+   "note": "The budget had not been tabled when this edition was compiled; details are expectations and sourced reports, not the document.",
+   "sources": [
+    {
+     "title": "Government of Canada to release Budget 2026 on November 5",
+     "site": "Department of Finance Canada",
+     "date": "Oct 20, 2026",
+     "href": "https://www.canada.ca/en/department-finance/news/2026/10/government-of-canada-to-release-budget-2026-on-november-5-2026.html"
+    },
+    {
+     "title": "Budget 2026 to include update on immigration levels, sources say",
+     "site": "Global News / The Canadian Press",
+     "date": "Nov 3, 2026, 11:36 AM",
+     "href": "https://globalnews.ca/news/12134425/federal-budget-2026-immigration/"
+    },
+    {
+     "title": "In the news today: … fiscal hawks eye budget",
+     "site": "paNOW / The Canadian Press",
+     "date": "Nov 4, 2026",
+     "href": "https://panow.com/2026/11/04/in-the-news-today-congress-flips-carney-on-trade-talks-fiscal-hawks-eye-budget/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.canada.ca/en/department-finance/news/2026/10/government-of-canada-to-release-budget-2026-on-november-5-2026.html",
+     "publisher": "Department of Finance Canada",
+     "published": "Oct 20, 2026",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "claimsSupported": [
+      "Budget 2026 to be tabled Nov 5, 2026"
+     ],
+     "limits": [
+      "Opened in our reader; direct download timed out. Check time not logged."
+     ]
+    },
+    {
+     "url": "https://globalnews.ca/news/12134425/federal-budget-2026-immigration/",
+     "publisher": "Global News / The Canadian Press",
+     "published": "Nov 3, 2026, 11:36 AM",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "immigration levels update in budget (government source)",
+      "380,000 PR target plus 140,000 one-time",
+      "published after Nov. 1 deadline"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://panow.com/2026/11/04/in-the-news-today-congress-flips-carney-on-trade-talks-fiscal-hawks-eye-budget/",
+     "publisher": "The Canadian Press (via paNOW)",
+     "published": "Nov 4, 2026",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "Bartlett: oil revenues lower deficit but not sustainable"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "ca-datacentre",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-04T03:41",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "Cape Bretoners pack a hall with questions about Nova Scotia’s first planned AI data centre",
+   "deck": "More than 200 people turned out in D’Escousse, N.S., to question EverWind Fuels about its planned $10-billion AI data centre at Point Tupper, with a second session scheduled for Wednesday evening.",
+   "summary": "More than 200 people turned out in D’Escousse, N.S., to question EverWind Fuels about its planned $10-billion AI data centre at Point Tupper, with a second session scheduled for Wednesday evening. Residents asked about environmental safeguards and jobs at the Tuesday session, which ran late, The Canadian Press reported. The 18,600-square-metre centre is slated to come online by the end of 2027. Company officials said residents’ concerns were valid and promised more consultations.",
+   "why": "AI data centres need large amounts of power and land, and small communities are being asked to weigh jobs against environmental costs.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "In the news today: … (Nova Scotia AI data centre)",
+     "site": "paNOW / The Canadian Press",
+     "date": "Nov 4, 2026, 3:41 AM",
+     "href": "https://panow.com/2026/11/04/in-the-news-today-congress-flips-carney-on-trade-talks-fiscal-hawks-eye-budget/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://panow.com/2026/11/04/in-the-news-today-congress-flips-carney-on-trade-talks-fiscal-hawks-eye-budget/",
+     "publisher": "The Canadian Press (via paNOW)",
+     "published": "Nov 4, 2026, 3:41 AM",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "200+ at D'Escousse session",
+      "$10B, 18,600 m² centre at Point Tupper, online by end of 2027",
+      "second session Wednesday evening"
+     ],
+     "limits": [
+      "Roundup item; second session outcome not reported at check time"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-poon",
+   "region": "hk",
+   "topic": "sports",
+   "ts": "2026-11-04T06:00",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "Wushu athlete Poon Hao-ran wins Hong Kong’s first-ever Youth Olympic gold",
+   "deck": "Poon Hao-ran won the men’s taijiquan and taijishan combined final at the Youth Olympic Games in Dakar, Senegal, the government said, the first gold medal Hong Kong, China has ever won at the Youth Olympics.",
+   "summary": "Poon Hao-ran won the men’s taijiquan and taijishan combined final at the Youth Olympic Games in Dakar, Senegal, the government said, the first gold medal Hong Kong, China has ever won at the Youth Olympics. Secretary for Culture, Sports and Tourism Rosanna Law also congratulated table tennis players Su Tsz-tung and Li Ki-ho on mixed doubles silver and swimmer Man Wui-kiu on bronze in the women’s 100m breaststroke. The Games run from Oct. 31 to Nov. 13; Hong Kong sent 15 athletes in 12 sports.",
+   "why": "It is a first for Hong Kong at the youth Games, from a sport that rarely gets the spotlight.",
+   "label": "Official statement",
+   "sources": [
+    {
+     "title": "SCST congratulates Poon Hao-ran on winning first gold medal in history for Hong Kong, China in Youth Olympic Games",
+     "site": "HKSAR Government",
+     "date": "Nov 4, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/04/P2026110400531.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/04/P2026110400531.htm",
+     "publisher": "HKSAR Government",
+     "published": "Nov 4, 2026",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:51-05:00",
+     "claimsSupported": [
+      "Poon's gold in men's taijiquan combined final (taijishan)",
+      "first-ever YOG gold for Hong Kong, China",
+      "silver (Su/Li) and bronze (Man)",
+      "Games Oct 31–Nov 13; 15 athletes, 12 sports"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "hk-crypto",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-11-04T05:19",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "LegCo passes a law to share crypto-asset tax information with other jurisdictions",
+   "deck": "The Legislative Council passed a bill bringing in the OECD’s Crypto-Asset Reporting Framework and updated Common Reporting Standard. Service providers start collecting data next year, with exchanges from 2028.",
+   "summary": "The Legislative Council passed a bill bringing in the OECD’s Crypto-Asset Reporting Framework and updated Common Reporting Standard. Service providers start collecting data next year, with exchanges from 2028. The government welcomed the passage on Wednesday. Under the framework, crypto service providers will collect specified information so the Inland Revenue Department can exchange it with partner jurisdictions starting in 2028. The amended CRS takes effect in 2028, with financial account information exchanged under the new standard from 2029, on a reciprocal basis, the government said.",
+   "why": "Hong Kong is courting digital-asset firms; aligning with global tax-reporting rules is part of the price of being a mainstream financial hub.",
+   "label": "Official statement",
+   "sources": [
+    {
+     "title": "Crypto reporting tax bill passed",
+     "site": "news.gov.hk",
+     "date": "Nov 4, 2026",
+     "href": "https://www.news.gov.hk/eng/2026/11/20261104/20261104_181944_819.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.news.gov.hk/eng/2026/11/20261104/20261104_181944_819.html",
+     "publisher": "news.gov.hk (HKSAR Government)",
+     "published": "Nov 4, 2026",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "LegCo passed the CARF / amended CRS bill",
+      "CARF implemented next year; exchanges from 2028",
+      "amended CRS effective 2028; exchanges from 2029"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "hk-huanggang",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-04T05:00",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "New Huanggang Port handles more than 86,000 crossings a weekday, double the old Lok Ma Chau checkpoint",
+   "deck": "Security chief Chris Tang told lawmakers that weekday passenger traffic at the new co-located port has passed 86,000 a day, and weekends and holidays are close to 140,000.",
+   "summary": "Security chief Chris Tang told lawmakers that weekday passenger traffic at the new co-located port has passed 86,000 a day, and weekends and holidays are close to 140,000. In a written Legislative Council reply, Tang said the weekday figure is more than double that of the old Lok Ma Chau Control Point, and that travellers using “collaborative inspection” automated channels wait no more than five minutes. The question also raised early face-scan delays, the lack of tour-coach access and pick-up points for ride-hailing cars, and the planned MTR Northern Link spur line.",
+   "why": "Huanggang is now the main gateway for daily cross-border trips to Shenzhen; how smoothly it runs affects shoppers, workers and tourists.",
+   "label": "Official figures",
+   "sources": [
+    {
+     "title": "LCQ14: Operation of new Huanggang Port",
+     "site": "HKSAR Government",
+     "date": "Nov 4, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/04/P2026110400339.htm"
+    },
+    {
+     "title": "Night Recap - November 4, 2026",
+     "site": "The Standard (Hong Kong)",
+     "date": "Nov 4, 2026",
+     "href": "https://www.thestandard.com.hk/news/article/347529/Night-Recap-November-4-2026"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/04/P2026110400339.htm",
+     "publisher": "HKSAR Government",
+     "published": "Nov 4, 2026",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:51-05:00",
+     "claimsSupported": [
+      "weekday average above 86,000; more than double Lok Ma Chau",
+      "weekends/holidays nearly 140,000",
+      "automated-channel waits no more than five minutes"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.thestandard.com.hk/news/article/347529/Night-Recap-November-4-2026",
+     "publisher": "The Standard",
+     "published": "Nov 4, 2026",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:51-05:00",
+     "claimsSupported": [
+      "same 86,000 figure attributed to Chris Tang"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-04-pm/hk-huanggang.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A blue bilingual sign pointing to the Huanggang Shuttle Bus pick-up area.",
+    "caption": "A sign for the Lok Ma Chau–Huanggang cross-boundary shuttle bus at the Huanggang port, pictured in October 2026.",
+    "credit": "LN9267",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Huanggang_Port_Control_Point_Lok_Ma_Chau_%E2%80%93_Huanggang_Cross-boundary_Shuttle_Bus_direction_09-10-2026.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "hk-scams",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-04T08:00",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "Police log more than 30 investment scams in a week, with one victim losing HK$45 million",
+   "deck": "Hong Kong police recorded over 30 online investment scam cases with losses above HK$60 million in the past week, The Standard reported, including a victim lured into a bogus environmental investment platform.",
+   "summary": "Hong Kong police recorded over 30 online investment scam cases with losses above HK$60 million in the past week, The Standard reported, including a victim lured into a bogus environmental investment platform. That single victim lost HK$45 million, according to the report.",
+   "why": "Investment scams remain one of the costliest crimes in the city; the pattern is a reminder to verify any platform before sending money.",
+   "label": "Reported",
+   "note": "Summary item from The Standard’s evening roundup; the police briefing itself was not opened.",
+   "sources": [
+    {
+     "title": "Night Recap - November 4, 2026",
+     "site": "The Standard (Hong Kong)",
+     "date": "Nov 4, 2026",
+     "href": "https://www.thestandard.com.hk/news/article/347529/Night-Recap-November-4-2026"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.thestandard.com.hk/news/article/347529/Night-Recap-November-4-2026",
+     "publisher": "The Standard",
+     "published": "Nov 4, 2026",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:51-05:00",
+     "claimsSupported": [
+      "30+ cases, HK$60M+ losses in a week",
+      "one victim lost HK$45M via a bogus environmental investment platform"
+     ],
+     "limits": [
+      "Roundup summary; full article not opened"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-mplus",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-04T07:00",
+   "dateLabel": "Nov 4, 2026 (events Nov 1–8)",
+   "headline": "M+ marks five years with free gallery entry on Sunday and a RubberBand night on Friday",
+   "deck": "The West Kowloon museum is celebrating its fifth anniversary through Nov. 8 with screenings, performances and free admission to designated exhibitions on Sunday, after more than 12.5 million visits since 2021.",
+   "summary": "The West Kowloon museum is celebrating its fifth anniversary through Nov. 8 with screenings, performances and free admission to designated exhibitions on Sunday, after more than 12.5 million visits since 2021. M+ said Cantopop band RubberBand is scheduled to play an M+ at Night event on Nov. 6 alongside the Recycled Orchestra of Cateura, which plays instruments made from discarded materials. The first M+ Restored Festival is showing all nine restored Hong Kong New Wave films. Free entry on Sunday runs 10 a.m. to 8 p.m. and excludes the special exhibitions Design Ah! and Myths and Monsters. RTHK’s Hong Kong Today featured the celebrations on Wednesday.",
+   "why": "A free day at one of Asia’s biggest contemporary-art museums, plus restored classics of Hong Kong cinema.",
+   "label": "Official statement",
+   "sources": [
+    {
+     "title": "M+ invites the community to celebrate its fifth anniversary this November",
+     "site": "M+",
+     "date": "Nov 2026 (press release)",
+     "href": "https://www.mplus.org.hk/en/press/mplus-invites-the-community-to-celebrate-its-fifth-anniversary-this-november/"
+    },
+    {
+     "title": "Hong Kong Today, Wednesday (2026-11-04)",
+     "site": "RTHK",
+     "date": "Nov 4, 2026",
+     "href": "https://news.rthk.hk/rthk/en/news-programmes/this-episode.htm?cmsid=77&episode_id=1137521&livetime=20261104000000"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.mplus.org.hk/en/press/mplus-invites-the-community-to-celebrate-its-fifth-anniversary-this-november/",
+     "publisher": "M+",
+     "published": "Nov 2026 (exact release date not shown in our reader)",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:33:54-05:00",
+     "claimsSupported": [
+      "celebrations Nov 1–8; 12.5M+ visitors",
+      "RubberBand at M+ at Night (Nov 6)",
+      "free designated exhibitions Sunday Nov 8, 10:00–20:00, with exclusions",
+      "M+ Restored Festival"
+     ],
+     "limits": [
+      "Release date not displayed on the page"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/news-programmes/this-episode.htm?cmsid=77&episode_id=1137521&livetime=20261104000000",
+     "publisher": "RTHK",
+     "published": "Nov 4, 2026",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:51-05:00",
+     "claimsSupported": [
+      "Wednesday segment on M+ fifth-anniversary celebrations and free Sunday admission"
+     ],
+     "limits": [
+      "Audio programme page; segment summary only"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-trilateral",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-04T04:36",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "Beijing confirms talks on a possible Xi–Trump–Putin meeting at APEC in Shenzhen",
+   "deck": "China is “in communication with relevant parties” about a meeting of the three heads of state, foreign ministry spokesperson Mao Ning said, when asked about a possible summit on the sidelines of APEC on Nov. 18–19.",
+   "summary": "China is “in communication with relevant parties” about a meeting of the three heads of state, foreign ministry spokesperson Mao Ning said, when asked about a possible summit on the sidelines of APEC on Nov. 18–19. The Kremlin said on Oct. 21 that such a meeting, which would be the first of its kind, was “being prepared,” CNA reported. Asked about the U.S. midterms, Mao called them a domestic affair and said China would keep working with Washington. The ministry also announced that Vice President Han Zheng will attend the leaders’ summit of the COP31 climate conference in Antalya, Türkiye, as Xi’s special representative between Nov. 6 and 12.",
+   "why": "A first three-way meeting of the U.S., Chinese and Russian leaders could touch on trade, Ukraine and the Middle East; nothing is confirmed yet.",
+   "label": "Official statement + reported",
+   "note": "No meeting has been announced; the ministry confirmed only that discussions are under way.",
+   "sources": [
+    {
+     "title": "Foreign Ministry Spokesperson Mao Ning’s Regular Press Conference on November 4, 2026",
+     "site": "Ministry of Foreign Affairs of the PRC",
+     "date": "Nov 4, 2026",
+     "href": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261104_12053240.html"
+    },
+    {
+     "title": "China in contact with US, Russia on possible leaders' meeting",
+     "site": "CNA",
+     "date": "Nov 4, 2026",
+     "href": "https://www.channelnewsasia.com/east-asia/china-us-russia-leaders-meeting-apec-6523336"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261104_12053240.html",
+     "publisher": "Ministry of Foreign Affairs of the PRC",
+     "published": "Nov 4, 2026 (updated 17:36 Beijing time)",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "'in communication with relevant parties regarding a meeting between the three heads of state'",
+      "midterms a 'domestic affair'",
+      "Han Zheng to COP31 Antalya Leaders' Summit and Georgia, Nov 6–12"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.channelnewsasia.com/east-asia/china-us-russia-leaders-meeting-apec-6523336",
+     "publisher": "CNA",
+     "published": "Nov 4, 2026",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "APEC Shenzhen Nov 18–19",
+      "Kremlin Oct 21: meeting 'being prepared'"
+     ],
+     "limits": [
+      "CNA attributes parts of its report to news agencies"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-minerals",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-04T08:00",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "China’s overseas mineral buying hits its highest level since at least 2018",
+   "deck": "Chinese mineral acquisitions abroad reached $8.8 billion in the first three quarters of 2026, according to a Rhodium Group report cited by CNBC, as Beijing coordinates state-linked firms to take bigger stakes in foreign mines.",
+   "summary": "Chinese mineral acquisitions abroad reached $8.8 billion in the first three quarters of 2026, according to a Rhodium Group report cited by CNBC, as Beijing coordinates state-linked firms to take bigger stakes in foreign mines. CNBC reported that a dedicated overseas bureau for central state-owned enterprises was set up in April and a mining investment vehicle in July. Eurasia Group’s Dan Wang said outbound investment in upstream critical minerals is likely to roughly double from the 2021–2025 period and that Beijing treats 70% import dependence as an implicit red line for metals such as copper, lithium and cobalt.",
+   "why": "More control over mines abroad would add to China’s leverage over the metals used in EVs, chips and jet engines.",
+   "label": "Reported + analysis",
+   "note": "The doubling forecast and the ‘red line’ description are Eurasia Group analysis, not official policy.",
+   "sources": [
+    {
+     "title": "China expands overseas mining stakes, tightening grip on critical minerals",
+     "site": "CNBC",
+     "date": "Nov 4, 2026, 8:00 AM EST",
+     "href": "https://www.cnbc.com/2026/11/04/china-critical-minerals-rare-earths-trump-japan-export-control-.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cnbc.com/2026/11/04/china-critical-minerals-rare-earths-trump-japan-export-control-.html",
+     "publisher": "CNBC",
+     "published": "Nov 4, 2026, 8:00 AM EST",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "$8.8B in Q1–Q3, highest since at least 2018 (Rhodium)",
+      "April overseas bureau; July mining investment vehicle",
+      "Eurasia: outbound investment to roughly double; 70% import-dependence red line"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "cn-fx",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-03T10:47",
+   "dateLabel": "Nov 3, 2026 (Beijing)",
+   "headline": "China’s central bank moves to slow the yuan’s rise with its first FX reserve increase in nearly five years",
+   "deck": "The People’s Bank of China said it will raise the share of foreign-currency deposits banks must hold with it from 4% to 6% from Nov. 15, Xinhua reported, a step meant to ease upward pressure on the yuan.",
+   "summary": "The People’s Bank of China said it will raise the share of foreign-currency deposits banks must hold with it from 4% to 6% from Nov. 15, Xinhua reported, a step meant to ease upward pressure on the yuan. It is the first increase in nearly five years. The yuan gained 4.2% against the dollar in the first nine months of the year, and the onshore rate strengthened for 14 straight trading days from Oct. 14, according to Xinhua. Raising the ratio drains dollar liquidity at banks, which tends to cool the currency. The South China Morning Post also reported the move as aimed at easing appreciation pressure.",
+   "why": "A fast-rising yuan squeezes Chinese exporters; the move signals Beijing wants the currency to stay broadly stable.",
+   "label": "State media + reported",
+   "sources": [
+    {
+     "title": "China's central bank to raise forex reserve requirement ratio to keep yuan stable",
+     "site": "Xinhua (state media)",
+     "date": "Nov 3, 2026, 23:47 Beijing time",
+     "href": "https://english.news.cn/20261103/675daab9069d4063ab6569a54fd89292/c.html"
+    },
+    {
+     "title": "PBOC to raise banks’ forex reserve requirements to ease yuan appreciation pressure",
+     "site": "South China Morning Post",
+     "date": "Nov 3, 2026",
+     "href": "https://www.scmp.com/business/article/3373053/pboc-raise-reserve-requirement-ratio-foreign-exchange-deposits-2-percentage-points"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261103/675daab9069d4063ab6569a54fd89292/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 3, 2026, 23:47 Beijing time",
+     "checkedAt": "2026-11-04T19:37:38-05:00",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "claimsSupported": [
+      "ratio raised from 4% to 6% from Nov 15",
+      "first increase in nearly five years",
+      "yuan +4.2% in nine months; 14 straight days of gains from Oct 14"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.scmp.com/business/article/3373053/pboc-raise-reserve-requirement-ratio-foreign-exchange-deposits-2-percentage-points",
+     "publisher": "South China Morning Post",
+     "published": "Nov 3, 2026, 9:13 AM HKT",
+     "checkedAt": "2026-11-04T19:37:38-05:00",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "claimsSupported": [
+      "headline: raise forex reserve requirements to ease yuan appreciation pressure"
+     ],
+     "limits": [
+      "Article body is rendered by script; only headline and metadata were read"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-ukraine",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-04T11:09",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "Death toll from Russian strike on a Ukrainian school rises to 40, Zelenskyy says",
+   "deck": "Forty people are confirmed dead and more than 30 may still be under the rubble after Monday’s strike on a school in Komyshuvakha, in the Zaporizhzhia region, President Volodymyr Zelenskyy said, ahead of U.S.-Russia-Ukraine talks planned for next week.",
+   "summary": "Forty people are confirmed dead and more than 30 may still be under the rubble after Monday’s strike on a school in Komyshuvakha, in the Zaporizhzhia region, President Volodymyr Zelenskyy said, ahead of U.S.-Russia-Ukraine talks planned for next week. Zelenskyy called the attack “insane” and said it had drawn little reaction from the world, The Guardian reported. Overnight strikes hit power stations in the Kyiv and Zhytomyr regions, and Ukraine’s air force said Russia launched more than 300 drones, PBS NewsHour reported. In Brussels, the European Commission hosted talks with the U.S., France, Germany, Britain, NATO and the World Bank on winter support for Ukraine and the planned peace talks in Abu Dhabi, according to The Guardian.",
+   "why": "The strike and the winter attacks on power plants set a grim backdrop for the first three-way peace talks, scheduled for Abu Dhabi.",
+   "label": "Reported + official statement",
+   "note": "Casualty figures are from Ukrainian officials and may change as rescue work continues.",
+   "sources": [
+    {
+     "title": "Zelenskyy says 40 now confirmed dead after ‘insane’ Russian attack on school – as it happened",
+     "site": "The Guardian",
+     "date": "Nov 4, 2026 (updated 11:09 AM EST)",
+     "href": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news"
+    },
+    {
+     "title": "News Wrap: Officials in Iran welcome midterm results as vote against war",
+     "site": "PBS NewsHour",
+     "date": "Nov 4, 2026, 6:50 PM EST",
+     "href": "https://www.pbs.org/newshour/show/news-wrap-officials-in-iran-welcome-midterm-results-as-vote-against-war"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news",
+     "publisher": "The Guardian",
+     "published": "Nov 4, 2026 (live blog, updated 11:09 AM EST)",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "40 confirmed dead, 30+ feared under rubble (Zelenskyy)",
+      "strike on a school in Komyshuvakha, Zaporizhzhia, on Monday",
+      "Brussels talks with U.S., France, Germany, UK, NATO, World Bank",
+      "strikes on power stations in Kyiv and Zhytomyr regions"
+     ],
+     "limits": [
+      "Live page"
+     ]
+    },
+    {
+     "url": "https://www.pbs.org/newshour/show/news-wrap-officials-in-iran-welcome-midterm-results-as-vote-against-war",
+     "publisher": "PBS NewsHour",
+     "published": "Nov 4, 2026, 6:50 PM EST",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "Ukraine's air force: Russia launched more than 300 drones overnight"
+     ],
+     "limits": [
+      "Video summary page; transcript text not shown"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-israel",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-04T11:30",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "Israel’s president opens coalition talks after an election with no clear winner",
+   "deck": "President Isaac Herzog received the official results of the Oct. 27 election and began consulting party leaders on who should try to form a government, warning that “not every commitment and promise can be fulfilled” if they want to avoid another vote.",
+   "summary": "President Isaac Herzog received the official results of the Oct. 27 election and began consulting party leaders on who should try to form a government, warning that “not every commitment and promise can be fulfilled” if they want to avoid another vote. Benjamin Netanyahu’s bloc won 53 of 120 Knesset seats and Gadi Eisenkot’s bloc 48, the BBC reported, while two Arab-led alliances won an unprecedented 19. Election officials said there was no evidence of irregularities and that unsubstantiated claims by Netanyahu’s camp did not justify delaying certification. The Shin Bet is investigating allegations of foreign interference, but the elections committee head said they would not fundamentally change the outcome.",
+   "why": "With neither bloc at 61, Arab-led parties could hold the balance in who governs Israel, a role most Jewish parties had ruled out.",
+   "label": "Reported + allegation",
+   "sources": [
+    {
+     "title": "Israel's president begins consultations with parties after election deadlock",
+     "site": "BBC News",
+     "date": "Nov 4, 2026",
+     "href": "https://www.bbc.com/news/articles/c6z98z5z91ppo"
+    },
+    {
+     "title": "News Wrap: Officials in Iran welcome midterm results as vote against war",
+     "site": "PBS NewsHour",
+     "date": "Nov 4, 2026, 6:50 PM EST",
+     "href": "https://www.pbs.org/newshour/show/news-wrap-officials-in-iran-welcome-midterm-results-as-vote-against-war"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.com/news/articles/c6z98z5z91ppo",
+     "publisher": "BBC News",
+     "published": "Nov 4, 2026",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:33:28-05:00",
+     "claimsSupported": [
+      "Herzog received official results Wednesday and began consultations",
+      "quote on commitments and promises",
+      "seat counts 53 / 48 / 19",
+      "no evidence of irregularities; Shin Bet probe of interference allegations"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.pbs.org/newshour/show/news-wrap-officials-in-iran-welcome-midterm-results-as-vote-against-war",
+     "publisher": "PBS NewsHour",
+     "published": "Nov 4, 2026, 6:50 PM EST",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "Herzog accepted results and will consult party leaders"
+     ],
+     "limits": [
+      "Video summary page"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-04-pm/w-israel.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Knesset building in Jerusalem behind a fence and greenery.",
+    "caption": "The Knesset, Israel's parliament, in Jerusalem, pictured in 2018.",
+    "credit": "Gary Todd from Xinzheng, China",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Knesset_Israeli_Parliament_Building_(41404889170).jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "w-como",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-04T17:09",
+   "dateLabel": "Nov 4, 2026",
+   "headline": "Como thrash Lens 9-1 to match the biggest win in modern Champions League history",
+   "deck": "Cesc Fàbregas’s Como, in their first Champions League campaign, won 9-1 away at Lens, with Anastasios Douvikas scoring a hat-trick, equalling the record eight-goal margin.",
+   "summary": "Cesc Fàbregas’s Como, in their first Champions League campaign, won 9-1 away at Lens, with Anastasios Douvikas scoring a hat-trick, equalling the record eight-goal margin. Only Liverpool (8-0 against Besiktas in 2007) and Real Madrid (8-0 against Malmö in 2015) had won by eight before, and Como are only the second team to score nine in a Champions League game, after Bayern Munich’s 9-2 win over Dinamo Zagreb, theScore reported. Elsewhere on Wednesday, Erling Haaland scored the winner in Manchester City’s 3-2 win at RB Leipzig, Real Madrid came from behind to win 3-2 at AEK Athens, and Liverpool lost 3-2 at Fenerbahçe, CBS Sports reported.",
+   "why": "A club in its first Champions League campaign has just matched one of the biggest results the competition has seen.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Como equal UCL record with historic 9-1 win over Lens",
+     "site": "theScore",
+     "date": "Nov 4, 2026",
+     "href": "https://www.thescore.com/seri/news/3645258/como-equal-ucl-record-with-historic-9-1-win-over-lens"
+    },
+    {
+     "title": "UCL scores, results: Man City, Real Madrid survive scares, Liverpool upset, Arsenal cruise",
+     "site": "CBS Sports",
+     "date": "Nov 4, 2026, 5:09 PM ET",
+     "href": "https://www.cbssports.com/soccer/news/champions-league-scores-live-updates-real-madrid-liverpool-man-city-arsenal/live/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.thescore.com/seri/news/3645258/como-equal-ucl-record-with-historic-9-1-win-over-lens",
+     "publisher": "theScore",
+     "published": "Nov 4, 2026",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:33:28-05:00",
+     "claimsSupported": [
+      "Como 9-1 at Lens; Douvikas hat-trick",
+      "equals record eight-goal margin (Liverpool 2007, Real Madrid 2015)",
+      "second team to score nine, after Bayern 9-2 Dinamo Zagreb"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbssports.com/soccer/news/champions-league-scores-live-updates-real-madrid-liverpool-man-city-arsenal/live/",
+     "publisher": "CBS Sports",
+     "published": "Nov 4, 2026, 5:09 PM ET",
+     "checkedBy": "Donna Daily evening source check, Nov 4 2026",
+     "checkedAt": "2026-11-04T19:32:03-05:00",
+     "claimsSupported": [
+      "Lens 1, Como 9",
+      "Man City 3-2 at Leipzig (Haaland winner)",
+      "AEK 2-3 Real Madrid; Fenerbahce 3-2 Liverpool"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-04-pm/w-como.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The exterior of the Stadio Giuseppe Sinigaglia in Como with hills behind it.",
+    "caption": "Como's home ground, the Stadio Giuseppe Sinigaglia, pictured in 2024.",
+    "credit": "Smatteo499",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Stadio_Giuseppe_Sinigaglia_esterno,_Como.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  }
+ ]
+}
