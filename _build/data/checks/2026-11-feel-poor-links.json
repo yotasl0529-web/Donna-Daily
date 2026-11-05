@@ -1,0 +1,224 @@
+{
+ "edition": "2026-11-feel-poor",
+ "ranAt": "2026-11-05T11:25:30-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.youtube.com/watch?v=J-ugfH_pg1s",
+   "status": "ERR",
+   "tag": "WARN",
+   "error": "UND_ERR_HEADERS_OVERFLOW",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.jchs.harvard.edu/sites/default/files/reports/files/Harvard_JCHS_The_State_of_the_Nations_Housing_2026_0.pdf",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:30-05:00"
+  },
+  {
+   "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/housingaffordabilityinenglandandwales/2025",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:30-05:00"
+  },
+  {
+   "url": "https://info.childcareaware.org/media/child-care-prices-rival-major-household-expenses?hs_amp=true",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:30-05:00"
+  },
+  {
+   "url": "https://www.sca.isr.umich.edu/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:30-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/business/2026/oct/15/voters-economy-cost-of-living-prices-poll",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:30-05:00"
+  },
+  {
+   "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing/articles/howaffordablearehomesinyourneighbourhood/2026-03-26",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.resolutionfoundation.org/comment/unsung-britain-working-harder-getting-nowhere/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.desjardins.com/content/dam/pdf/en/personal/savings-investment/economic-studies/canada-housing-affordability-global-cities-30-april-2026.pdf",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.rbc.com/en/economics/canadian-analysis/canadian-housing/housing-affordability/housing-affordability-relief-is-tapering-off-across-canada/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://marginalrevolution.com/marginalrevolution/2025/07/the-rising-cost-of-child-and-pet-day-care.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.coramfamilyandchildcare.org.uk/research/childcare-survey-2026/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:32-05:00"
+  },
+  {
+   "url": "https://cdhowe.org/publication/reduced-fees-rising-waitlists-early-lessons-from-canadas-childcare-plan/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://search.open.canada.ca/qpnotes/record/esdc-edsc%2CEF_046_20260105",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.tagesschau.de/inland/innenpolitik/wirtschaftsweiser-sozialabgaben-100.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.lohn-info.de/sozialversicherungsbeitraege2027.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/business/economy/inflation-jumped-september-gas-diesel-prices-squeezed-consumers-ahead-rcna603202",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.cnn.com/2026/10/13/economy/iran-war-oil-gas-prices-inflation",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://yougov.com/en-us/articles/55755-nearly-half-americans-describe-economy-poor-highest-share-since-2022-october-10-12-2026-economist-yougov-poll",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.pewresearch.org/short-reads/2026/10/14/many-americans-are-struggling-to-afford-basic-necessities/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:30-05:00"
+  },
+  {
+   "url": "https://www.nber.org/papers/w32163",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2024/02/28/1234554967/inflation-cost-of-living-economy-mortgages-auto-loans-larry-summers",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.imf.org/en/blogs/articles/2023/06/26/europes-inflation-outlook-depends-on-how-corporate-profits-absorb-wage-gains",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://reason.com/2025/12/02/the-poverty-line-isnt-a-vibe/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://qz.com/real-poverty-line-140k-michael-green-substack",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-05T11:25:30-05:00"
+  },
+  {
+   "url": "https://thedispatch.com/newsletter/capitolism/poverty-level-middle-class-expectations/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.thefp.com/p/the-myth-of-the-140000-poverty-line",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:30-05:00"
+  },
+  {
+   "url": "https://www.iza.org/publications/dp/13923/the-easterlin-paradox",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:32-05:00"
+  },
+  {
+   "url": "https://blogs.lse.ac.uk/inequalities/2025/06/25/the-easterlin-paradox-revisited/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:32-05:00"
+  },
+  {
+   "url": "https://siepr.stanford.edu/news/fading-american-dream",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://opportunityinsights.org/paper/the-fading-american-dream/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:30-05:00"
+  },
+  {
+   "url": "https://www.resolutionfoundation.org/publications/living-standards-outlook-2026/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026003/article/00004-eng.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://thoughtleadership.cibc.com/article/how-bad-is-it-productivity-and-prosperity-in-canada-versus-the-us/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://nachrichten.idw-online.de/2026/09/24/joint-economic-forecast-autumn-2026-recovery-under-structural-stress-fiscal-policy-on-slippery-ground",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:31-05:00"
+  },
+  {
+   "url": "https://www.cnn.com/2026/07/16/business/people-economy-inflation-childcare-housing-jobs",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T11:25:30-05:00"
+  }
+ ]
+}
