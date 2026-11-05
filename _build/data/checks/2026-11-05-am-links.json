@@ -1,0 +1,235 @@
+{
+ "edition": "2026-11-05-am",
+ "ranAt": "2026-11-05T06:23:28-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.nbcnews.com/politics/congress/house-speaker-mike-johnson-republican-leader-gop-losses-rcna607434",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/politics/congress/hakeem-jeffries-make-history-first-black-speaker-house-rcna605769",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://democraticleader.house.gov/media/press-releases/dear-colleague-announcing-candidacy-speaker-house",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/04/midterm-elections-full-results-senate-house-governor-races",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.cnn.com/2026/11/05/politics/live-news/midterm-election-congress",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/05/nx-s1-6028843/some-house-and-senate-races-remain-undecided-where-those-contests-stand",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.canada.ca/en/department-finance/news/2026/10/government-of-canada-to-release-budget-2026-on-november-5-2026.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://toronto.citynews.ca/2026/11/05/heres-what-you-need-to-know-as-the-liberals-prepare-to-table-budget-2026/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://panow.com/2026/11/05/in-the-news-today-liberals-table-budget-blue-wave-reaction-kutryk-spacewalk/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.afp.com/en/canada-unveils-budget-curb-reliance-us",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.nasa.gov/blogs/spacestation/2026/11/04/astronauts-are-go-for-final-power-upgrade-spacewalk/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://toronto.citynews.ca/2026/11/05/canadian-astronaut-joshua-kutryk-set-to-carry-out-second-spacewalk/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.space.com/space-exploration/international-space-station/2-astronauts-will-finish-upgrading-iss-solar-arrays-during-spacewalk-today-watch-it-live",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://toronto.citynews.ca/2026/11/05/u-s-midterm-results-spark-joy-among-canadians-but-trust-in-america-remains-shaky/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://theconversation.com/blue-wave-the-democrats-historic-midterm-election-rout-could-also-offer-canada-a-path-to-peace-295834",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1876638-20261105.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:29-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/05/P2026110500420.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:29-05:00"
+  },
+  {
+   "url": "https://www.news.gov.hk/eng/2026/11/20261105/20261105_135816_382.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:30-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cwp9g3rlp8jlo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1876679-20261105.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:29-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/finance/article/347630/Hang-Seng-Index-surges-nearly-900-points-at-close",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373402/chinese-firm-and-director-admit-fraud-hk529m-hong-kong-bottled-water-scandal",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/05/P2026110400585.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:29-05:00"
+  },
+  {
+   "url": "https://www.news.gov.hk/eng/2026/10/20261014/20261014_180335_502.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:31-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/02/P2026110200561.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:29-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261105/8c8172040ef848edb4e17cd048930646/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:30-05:00"
+  },
+  {
+   "url": "https://www.chinadaily.com.cn/a/202611/05/WS6aec125ce4b03ebf8519a7dc.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.chinadaily.com.cn/a/202611/05/WS6aeb5bd7e4b0aac4cf1ee3a4.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://english.www.gov.cn/news/202611/04/content_WS6aead5dec6d00ca5f9a0e17a.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:30-05:00"
+  },
+  {
+   "url": "https://www.apec.org/press/news-releases/2026/1104_AMM",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/05/P2026110500629.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:29-05:00"
+  },
+  {
+   "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-zelensky-melania-trump-putin-school-attack-b3079507.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.rte.ie/news/ukraine/2026/1105/1598044-ukraine-russia/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.jpost.com/israel-election-2026/article-913890",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/5/russia-says-it-hit-ukrainian-postal-hub-and-ship-as-ukraine-strikes-ryazan",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-05T06:23:28-05:00"
+  }
+ ]
+}
