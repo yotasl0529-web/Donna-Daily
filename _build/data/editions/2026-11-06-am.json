@@ -1,0 +1,1098 @@
+{
+ "id": "2026-11-06-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-06",
+ "leadId": "ca-budget",
+ "topIds": [
+  "w-talks",
+  "us-count",
+  "hk-cctv",
+  "cn-fx",
+  "us-raman"
+ ],
+ "notes": [
+  "Morning Edition for Friday, Nov 6, 2026. It covers developments since Thursday’s Morning Edition, especially events that moved from scheduled to completed.",
+  "The lead is Budget 2026, now tabled. Top stories: the White House Russia–Ukraine gathering, U.S. midterm counting, Hong Kong’s facial-recognition CCTV rollout, China’s forex-reserve hike, and Los Angeles’s mayoral upset.",
+  "Hong Kong has four stories; the U.S., Canada, China and World have three each. Culture appears in Canada and Hong Kong; there is no U.S. culture story this morning.",
+  "Some AP and Politico pages returned bot challenges (HTTP 403) in this run; we cite pages that did load and note access limits under Sources & checks."
+ ],
+ "provenance": [
+  "Budget figures follow Department of Finance key-measures materials and CBC’s reading of the document; the full PDF was confirmed available (HTTP 200) but not fully text-extracted here.",
+  "House and Senate seat totals continue to move. CBS and NBC estimates are given with their sources; Donna Daily does not call races.",
+  "Xinhua items on the PBOC and CIIE are labelled State media. Joshua Wong court facts are separated from governments’ and NGOs’ statements about the sentence."
+ ],
+ "stories": [
+  {
+   "id": "ca-budget",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-05T16:00",
+   "dateLabel": "Nov 5, 2026",
+   "headline": "Carney government tables Budget 2026 as “Masters of Our Destiny”",
+   "deck": "Finance Minister François-Philippe Champagne tabled Budget 2026 in the Commons on Thursday, pitching nearly $142 billion in new multiyear spending and tax measures aimed at investment, affordability and reducing reliance on the United States.",
+   "summary": "Finance Minister François-Philippe Champagne tabled Budget 2026 in the Commons on Thursday, pitching nearly $142 billion in new multiyear spending and tax measures aimed at investment, affordability and reducing reliance on the United States. The official document is titled “Masters of Our Destiny.” Department of Finance key-measures materials highlight a Productivity Mega Deduction that would let businesses immediately deduct most new investments, a $25 billion Canada Strong Fund with retail Canada Strong Notes, more than $50 billion toward a national electricity strategy, and over $22 billion over five years in affordability measures including a one-time 50% top-up to the Canada Groceries and Essentials Benefit for 2026–27. CBC’s live coverage said the budget is the second under Prime Minister Mark Carney and draws criticism from opposition parties even as Liberals frame it as building the economy at home. Champagne’s tabled remarks ask for an order of the day to consider the ways-and-means motions.",
+   "why": "The budget is Ottawa’s main annual statement of spending and economic strategy, and it lands two days after a U.S. midterm that reshapes Canada’s closest trading partner.",
+   "label": "Official statement + reported",
+   "note": "Figures and measure names follow the Department of Finance key-measures backgrounder and Champagne’s tabled remarks; opposition reaction is as reported by CBC.",
+   "sources": [
+    {
+     "title": "Budget 2026: Key Measures",
+     "site": "Department of Finance Canada",
+     "date": "Nov 5, 2026",
+     "href": "https://www.canada.ca/en/department-finance/news/2026/11/budget-2026-key-measures.html"
+    },
+    {
+     "title": "Remarks by the Minister of Finance and National Revenue",
+     "site": "Department of Finance Canada",
+     "date": "Nov 5, 2026",
+     "href": "https://www.canada.ca/en/department-finance/news/2026/11/remarks-by-the-minister-of-finance-and-national-revenue.html"
+    },
+    {
+     "title": "Budget 2026: Liberal government doubles down on plan to build Canadian economy at home",
+     "site": "CBC News",
+     "date": "Nov 5, 2026",
+     "href": "https://www.cbc.ca/news/politics/livestory/canada-budget-2026-finance-minister-francois-philippe-champagne-prime-minister-mark-carney-live-updates-9.7403431"
+    },
+    {
+     "title": "Budget 2026: Masters of our destiny (PDF)",
+     "site": "Department of Finance Canada",
+     "date": "Nov 5, 2026",
+     "href": "https://budget.canada.ca/2026/report-rapport/pdf/budget-2026.pdf"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.canada.ca/en/department-finance/news/2026/11/budget-2026-key-measures.html",
+     "publisher": "Department of Finance Canada",
+     "published": "Nov 5, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:30:00-05:00",
+     "claimsSupported": [
+      "Productivity Mega Deduction and Canada Strong Notes described",
+      "over $22 billion over five years in affordability measures",
+      "Power Canada Strong / National Electricity Strategy over $50 billion",
+      "Canada Groceries and Essentials Benefit one-time 50% supplement for 2026–27"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.canada.ca/en/department-finance/news/2026/11/remarks-by-the-minister-of-finance-and-national-revenue.html",
+     "publisher": "Department of Finance Canada",
+     "published": "Nov 5, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:30:00-05:00",
+     "claimsSupported": [
+      "Champagne tabled budget documents and ways-and-means motions under Standing Order 83",
+      "“Masters of Our Destiny” framing",
+      "Mega Deduction described as adding about $22 billion a year to GDP over 10 years"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/news/politics/livestory/canada-budget-2026-finance-minister-francois-philippe-champagne-prime-minister-mark-carney-live-updates-9.7403431",
+     "publisher": "CBC News",
+     "published": "Nov 5, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:35:00-05:00",
+     "claimsSupported": [
+      "nearly $142 billion in new spending over five years",
+      "second budget under Prime Minister Mark Carney",
+      "opposition leaders criticized aspects of the budget"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://budget.canada.ca/2026/report-rapport/pdf/budget-2026.pdf",
+     "publisher": "Department of Finance Canada",
+     "published": "Nov 5, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:35:00-05:00",
+     "claimsSupported": [
+      "PDF titled Budget 2026: Masters of our destiny available",
+      "HTTP 200 on PDF endpoint"
+     ],
+     "limits": [
+      "Full 10+ MB PDF not fully text-extracted in this run; title and availability confirmed via headers and search snippets."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/ca-budget.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Centre Block of Parliament Hill in Ottawa",
+    "caption": "Parliament Hill’s Centre Block in Ottawa, pictured before recent renovations.",
+    "credit": "Saffron Blaze",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ACentre_Block_-_Parliament_Hill.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "w-talks",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-06T05:56",
+   "dateLabel": "Nov 5–6, 2026",
+   "headline": "Melania Trump hosts Russian and Ukrainian officials; Trump says he met Putin’s envoy",
+   "deck": "The first lady gathered Russian and Ukrainian representatives at the White House on Thursday to mark a six-day Oleshky ceasefire and urged a “more enduring” peace. President Trump later said he met Kremlin envoy Kirill Dmitriev privately and predicted a larger deal, while saying he did not meet the Ukrainian delegation.",
+   "summary": "The first lady gathered Russian and Ukrainian representatives at the White House on Thursday to mark a six-day Oleshky ceasefire and urged a “more enduring” peace. President Trump later said he met Kremlin envoy Kirill Dmitriev privately and predicted a larger deal, while saying he did not meet the Ukrainian delegation. A White House statement said Melania Trump’s role as “Exclusive Intermediary” was written into agreements signed Oct. 23 and that nearly 800 people were evacuated during the pause, which both sides credit her with helping broker. BBC and NBC reported the guests included Dmitriev, Russia’s human-rights commissioner Yana Lantratova, Ukrainian MP Davyd Arakhamia and Ukraine’s human-rights ombudsman Dmytro Lubinets. Trump told reporters a coming agreement “might involve all of Europe.” NBC, citing Reuters, said U.S.-mediated talks in Abu Dhabi are scheduled for Nov. 10–11; Trump envoy Jared Kushner separately described “productive” Brussels talks on security guarantees.",
+   "why": "A rare White House meeting of wartime Russian and Ukrainian officials, plus Trump’s private session with a Putin envoy, will shape expectations for next week’s Abu Dhabi talks.",
+   "label": "Official statement + reported + claim",
+   "note": "Trump’s prediction of a Europe-wide agreement is his claim; no deal text has been published. White House wording on Melania Trump’s intermediary role is the administration’s account.",
+   "sources": [
+    {
+     "title": "First Lady Melania Trump Unites Russia and Ukraine at The White House Following Historic Ceasefire",
+     "site": "The White House",
+     "date": "Nov 5, 2026",
+     "href": "https://www.whitehouse.gov/briefings-statements/2026/11/first-lady-melania-trump-unites-russia-and-ukraine-at-the-white-house-following-historic-ceasefire/"
+    },
+    {
+     "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+     "site": "BBC News",
+     "date": "Nov 5–6, 2026",
+     "href": "https://www.bbc.com/news/articles/c9p8g085mz07o"
+    },
+    {
+     "title": "Trump says he met with Putin envoy, sees Ukraine deal soon",
+     "site": "NBC News / Reuters",
+     "date": "Nov 6, 2026, 5:56 AM EST",
+     "href": "https://www.nbcnews.com/world/russia/trump-says-met-putin-envoy-sees-ukraine-deal-soon-rcna607804"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.whitehouse.gov/briefings-statements/2026/11/first-lady-melania-trump-unites-russia-and-ukraine-at-the-white-house-following-historic-ceasefire/",
+     "publisher": "The White House",
+     "published": "Nov 5, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:35:00-05:00",
+     "claimsSupported": [
+      "White House event on Nov 5 with Russian and Ukrainian representatives",
+      "Exclusive Intermediary role described as memorialized in written agreements dated Oct 23, 2026",
+      "nearly 800 people evacuated cited"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.bbc.com/news/articles/c9p8g085mz07o",
+     "publisher": "BBC News",
+     "published": "Nov 5–6, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:38:00-05:00",
+     "claimsSupported": [
+      "Melania Trump called for a more enduring ceasefire",
+      "Dmitriev, Lantratova, Arakhamia and Lubinets named among guests",
+      "Trump said he met Dmitriev and not the Ukrainian delegation",
+      "Trump claimed a coming agreement might involve all of Europe"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.nbcnews.com/world/russia/trump-says-met-putin-envoy-sees-ukraine-deal-soon-rcna607804",
+     "publisher": "NBC News / Reuters",
+     "published": "Nov 6, 2026, 5:56 AM EST",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:38:00-05:00",
+     "claimsSupported": [
+      "Abu Dhabi talks scheduled Nov 10–11",
+      "Kushner described productive Brussels discussions on security guarantees",
+      "Oleshky six-day ceasefire expired Sunday"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/w-talks.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "North façade of the White House in Washington",
+    "caption": "The White House in Washington, pictured in June 2024.",
+    "credit": "DJTechYT",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AThe_White_House_June_2024.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "us-count",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-06T00:39",
+   "dateLabel": "Nov 5–6, 2026",
+   "headline": "Democrats on pace for about 256 House seats as Mississippi and Alaska Senate races stay open",
+   "deck": "Three days after the midterms, CBS News estimates House Democrats are on track for around 256 seats after flipping more than 40 districts. Alaska and Mississippi remain the unresolved Senate contests, with Scott Colom leading Cindy Hyde-Smith by fewer than 2,000 votes as provisional and mail ballots are processed.",
+   "summary": "Three days after the midterms, CBS News estimates House Democrats are on track for around 256 seats after flipping more than 40 districts. Alaska and Mississippi remain the unresolved Senate contests, with Scott Colom leading Cindy Hyde-Smith by fewer than 2,000 votes as provisional and mail ballots are processed. CBS’s Thursday–Friday live updates said Democrats have flipped 43 House districts so far (two the other way), won at least 54 Senate seats, and that Mississippi still has roughly 3,600 outstanding mail ballots plus an unknown number of affidavit ballots, with county certification due by Nov. 13. NBC’s Decision Desk separately estimated Democrats will control at least 259 House seats and reported Mary Peltola leading Dan Sullivan by about 600 votes in Alaska. Race-by-race detail remains in our Midterms 2026 special.",
+   "why": "The remaining seats set the exact size of Democratic majorities and how much room leaders will have when the new Congress meets in January.",
+   "label": "Reported",
+   "note": "Donna Daily does not call races. Seat figures are as published by the linked outlets and will keep moving as ballots are counted.",
+   "sources": [
+    {
+     "title": "2026 midterm election live updates as Democrats flip over 40 House seats",
+     "site": "CBS News",
+     "date": "Updated Nov 6, 2026, 12:39 AM EST",
+     "href": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/"
+    },
+    {
+     "title": "Vote counts in Alaska, Mississippi and Kansas continue after Democratic sweep",
+     "site": "NBC News",
+     "date": "Nov 5–6, 2026",
+     "href": "https://www.nbcnews.com/politics/2026-election/live-blog/election-results-house-senate-trump-congress-live-updates-rcna607549"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/",
+     "publisher": "CBS News",
+     "published": "Updated Nov 6, 2026, 12:39 AM EST",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:30:00-05:00",
+     "claimsSupported": [
+      "House Democrats on pace for around 256 seats per CBS estimate",
+      "43 districts flipped to Democrats; two to Republicans so far",
+      "at least 54 Democratic Senate seats; Alaska and Mississippi unresolved",
+      "Mississippi: Colom lead under 2,000; ~3,600 outstanding mail ballots; certification window to Nov 13"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.nbcnews.com/politics/2026-election/live-blog/election-results-house-senate-trump-congress-live-updates-rcna607549",
+     "publisher": "NBC News",
+     "published": "Nov 5–6, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:35:00-05:00",
+     "claimsSupported": [
+      "NBC Decision Desk estimates Democrats control at least 259 House seats",
+      "Alaska: Peltola lead about 600 over Sullivan",
+      "Mississippi and Alaska Senate still uncalled"
+     ],
+     "limits": [
+      "Live blog is continuously updated; figures read from the “What to know today” panel and related entries that loaded."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/us-count.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "West side of the U.S. Capitol in Washington",
+    "caption": "The west side of the U.S. Capitol in Washington.",
+    "credit": "Martin Falbisoner",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AUS_Capitol_west_side.JPG",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "hk-cctv",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-06T08:51",
+   "dateLabel": "Nov 6, 2026",
+   "headline": "Hong Kong police to switch on facial recognition across SmartView CCTV this month",
+   "deck": "Officers say AI facial recognition will roll out on the force’s roughly 10,000 SmartView cameras and linked feeds to help criminal searches and find high-risk missing people, with facial data kept for up to 180 days.",
+   "summary": "Officers say AI facial recognition will roll out on the force’s roughly 10,000 SmartView cameras and linked feeds to help criminal searches and find high-risk missing people, with facial data kept for up to 180 days. RTHK reported Superintendent Raymond Cheng saying the feature can be activated on police cameras and integrated third-party feeds but will be triggered only for active criminal searches or high-risk missing-person cases. CCTV footage itself will be kept for a maximum of 31 days. Police said at least four shopping malls have agreed to connect feeds; RTHK named Tuen Mun Town Plaza, Olympian City, Kwai Chung Shopping Centre and Sierra Life in Fanling. The force aims for about 60,000 public cameras by 2028.",
+   "why": "A citywide facial-recognition layer on public and some private cameras raises immediate questions about privacy, notice and how broadly “criminal search” will be defined.",
+   "label": "Official statement + reported",
+   "note": "Operational claims (pilot arrests, case counts) are as stated by police to RTHK and are not independently audited here.",
+   "sources": [
+    {
+     "title": "Police to deploy facial recognition on CCTV networks",
+     "site": "RTHK",
+     "date": "Nov 6, 2026, 08:51 HKT",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1876757-20261106.htm"
+    },
+    {
+     "title": "Hong Kong police to enable AI facial recognition on CCTV network this month",
+     "site": "South China Morning Post",
+     "date": "Nov 6, 2026, 7:00am",
+     "href": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373440/hong-kong-police-enable-ai-facial-recognition-cctv-network-month"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1876757-20261106.htm",
+     "publisher": "RTHK",
+     "published": "Nov 6, 2026, 08:51 HKT",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:38:00-05:00",
+     "claimsSupported": [
+      "facial recognition rolling out this month on SmartView network",
+      "~10,000 police cameras plus ~10,000 linked government/public feeds",
+      "footage retained up to 31 days; facial recognition data/metadata up to 180 days",
+      "at least four malls agreed to connect; four named by RTHK",
+      "target of ~60,000 cameras by 2028"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373440/hong-kong-police-enable-ai-facial-recognition-cctv-network-month",
+     "publisher": "South China Morning Post",
+     "published": "Nov 6, 2026, 7:00am",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:45:00-05:00",
+     "claimsSupported": [
+      "facial recognition enabling this month across smart surveillance network",
+      "data kept up to 180 days",
+      "force says privacy protections and authorization required"
+     ],
+     "limits": [
+      "Page loaded; some SCMP content may be metered for non-subscribers."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/hk-cctv.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A surveillance camera mounted outdoors",
+    "caption": "A surveillance camera, illustrative of CCTV monitoring.",
+    "credit": "Neslihan Turan",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASurveillance_camera.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "cn-fx",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-06T10:20",
+   "dateLabel": "Nov 3–6, 2026",
+   "headline": "PBOC raises foreign-currency reserve ratio to 6% as the yuan’s rally cools",
+   "deck": "China’s central bank will lift the forex deposit reserve requirement from 4% to 6% on Nov. 15 — its first increase in nearly five years — after a strong yuan run. The yuan’s central parity weakened to 6.7168 per dollar on Friday.",
+   "summary": "China’s central bank will lift the forex deposit reserve requirement from 4% to 6% on Nov. 15 — its first increase in nearly five years — after a strong yuan run. The yuan’s central parity weakened to 6.7168 per dollar on Friday. Xinhua reported the People’s Bank of China announced the 2-point increase on Nov. 3 as a macro-prudential tool to tighten dollar liquidity and ease upward pressure on the renminbi after a 4.2% gain against the dollar in the first nine months and a rapid October advance. A follow-up Xinhua note on Friday said the central parity slipped 12 pips to 6.7168.",
+   "why": "The reserve-ratio hike is a clear signal that Beijing wants to slow a one-way yuan rise without setting a hard exchange-rate target.",
+   "label": "State media + official statement",
+   "note": "PBOC policy details and parity figures are from Xinhua (state media). Market-impact commentary in secondary outlets is not treated as official guidance.",
+   "sources": [
+    {
+     "title": "China's central bank to raise forex reserve requirement ratio to keep yuan stable",
+     "site": "Xinhua (state media)",
+     "date": "Nov 3, 2026",
+     "href": "https://english.news.cn/20261103/098d0d81e237406a9bb76d5530315c9f/c.html"
+    },
+    {
+     "title": "Chinese yuan weakens to 6.7168 against USD Friday",
+     "site": "Xinhua (state media)",
+     "date": "Nov 6, 2026",
+     "href": "https://english.news.cn/20261106/ace06c9a400f46afaeae883f67868629/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261103/098d0d81e237406a9bb76d5530315c9f/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 3, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:38:00-05:00",
+     "claimsSupported": [
+      "forex reserve requirement raised from 4% to 6% effective Nov 15",
+      "first increase in nearly five years",
+      "yuan up 4.2% vs USD in first nine months of 2026"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://english.news.cn/20261106/ace06c9a400f46afaeae883f67868629/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 6, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:40:00-05:00",
+     "claimsSupported": [
+      "central parity 6.7168 against USD on Friday",
+      "weakened 12 pips"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/cn-fx.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "People’s Bank of China headquarters building in Beijing",
+    "caption": "The People’s Bank of China headquarters in Beijing.",
+    "credit": "Max12Max",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3APeople%27s_Bank_of_China_Headquarter%2C_Beijing.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "us-raman",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-05T23:11",
+   "dateLabel": "Nov 5, 2026",
+   "headline": "Democratic socialist Nithya Raman ousts Karen Bass as Los Angeles mayor",
+   "deck": "NBC and CBS project that City Council member Nithya Raman has defeated incumbent Mayor Karen Bass. Bass conceded Thursday and said she called Raman to congratulate her.",
+   "summary": "NBC and CBS project that City Council member Nithya Raman has defeated incumbent Mayor Karen Bass. Bass conceded Thursday and said she called Raman to congratulate her. NBC described Raman, 45, as a progressive Democratic Socialists of America member whose win means the country’s two largest cities will have democratic-socialist mayors, alongside New York’s Zohran Mamdani. Bass faced criticism over the January 2025 Pacific Palisades wildfire response; Raman campaigned on homelessness and housing costs. CBS’s midterm live blog also projected Raman’s win.",
+   "why": "Los Angeles’s next mayor will oversee homelessness policy and preparations for the 2028 Summer Olympics in the country’s second-largest city.",
+   "label": "Reported",
+   "note": "Vote shares vary by outlet as counting continues; this edition relies on the projected winner and Bass’s concession, not a final certified margin.",
+   "sources": [
+    {
+     "title": "Democratic socialist Nithya Raman defeats Karen Bass in the Los Angeles mayor’s race",
+     "site": "NBC News",
+     "date": "Nov 5, 2026, updated 11:11 PM EST",
+     "href": "https://www.nbcnews.com/politics/2026-election/nithya-raman-los-angeles-mayor-win-democratic-socialist-karen-bass-rcna603379"
+    },
+    {
+     "title": "2026 midterm election live updates — Bass concedes; Raman projected winner",
+     "site": "CBS News",
+     "date": "Nov 5, 2026",
+     "href": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.nbcnews.com/politics/2026-election/nithya-raman-los-angeles-mayor-win-democratic-socialist-karen-bass-rcna603379",
+     "publisher": "NBC News",
+     "published": "Nov 5, 2026, updated 11:11 PM EST",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:35:00-05:00",
+     "claimsSupported": [
+      "NBC projects Raman defeated Bass",
+      "Bass conceded and congratulated Raman",
+      "Raman described as DSA-aligned progressive; comparison to Mamdani"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/",
+     "publisher": "CBS News",
+     "published": "Nov 5, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:30:00-05:00",
+     "claimsSupported": [
+      "CBS projects Raman won LA mayor race",
+      "Bass concession statement quoted"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/us-raman.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Los Angeles City Hall tower",
+    "caption": "Los Angeles City Hall, pictured in 2022.",
+    "credit": "Another Believer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALos_Angeles_City_Hall%2C_2022.jpg",
+    "isFilePhoto": true,
+    "year": 2022
+   }
+  },
+  {
+   "id": "ca-kutryk",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-05T16:50",
+   "dateLabel": "Nov 5, 2026",
+   "headline": "Canadian astronaut Joshua Kutryk finishes a nearly seven-hour spacewalk to install the ISS’s final new solar array",
+   "deck": "Kutryk and NASA astronaut Anil Menon completed a 6-hour, 59-minute extravehicular activity on Thursday, installing the eighth and final rollout solar array in an upgrade campaign that began in 2021.",
+   "summary": "Kutryk and NASA astronaut Anil Menon completed a 6-hour, 59-minute extravehicular activity on Thursday, installing the eighth and final rollout solar array in an upgrade campaign that began in 2021. The Canadian Space Agency had previewed the Nov. 5 spacewalk as a follow-up to the pair’s Oct. 29 outing. CBC, citing The Canadian Press, said Kutryk was safely back inside the station and that CSA astronaut Jenni Gibbons supported the crew as CAPCOM from Houston while Canadarm2 moved the array.",
+   "why": "The arrays are meant to boost station power by up to about 30%, and Kutryk becomes one of a small group of Canadians to have walked in space.",
+   "label": "Official statement + reported",
+   "note": "Duration and outcome follow CBC/Canadian Press reporting from the NASA livestream; CSA preview language treated as planned until completion was reported.",
+   "sources": [
+    {
+     "title": "Canadian astronaut Joshua Kutryk completes second spacewalk, more than six hours long",
+     "site": "CBC News / Canadian Press",
+     "date": "Nov 5, 2026, 4:50 PM EST",
+     "href": "https://www.cbc.ca/news/science/canadian-astronaut-kutryk-second-spacewalk-9.7411168"
+    },
+    {
+     "title": "Crew-13: Second spacewalk for Joshua Kutryk outside the International Space Station",
+     "site": "Canadian Space Agency",
+     "date": "Nov 5, 2026",
+     "href": "https://www.asc-csa.gc.ca/eng/events/2026/2026-11-05-crew-13-second-spacewalk-joshua-kutryk-outside-international-space-station.asp"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/science/canadian-astronaut-kutryk-second-spacewalk-9.7411168",
+     "publisher": "CBC News / Canadian Press",
+     "published": "Nov 5, 2026, 4:50 PM EST",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:35:00-05:00",
+     "claimsSupported": [
+      "spacewalk lasted 6 hours 59 minutes",
+      "Kutryk and Menon installed eighth and final solar array",
+      "Kutryk safely back inside ISS",
+      "Gibbons as CAPCOM; Canadarm2 used"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.asc-csa.gc.ca/eng/events/2026/2026-11-05-crew-13-second-spacewalk-joshua-kutryk-outside-international-space-station.asp",
+     "publisher": "Canadian Space Agency",
+     "published": "Nov 5, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:35:00-05:00",
+     "claimsSupported": [
+      "CSA previewed Nov 5 spacewalk with Menon to install final rollout solar array",
+      "upgrade campaign began in 2021"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/ca-kutryk.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The International Space Station in orbit",
+    "caption": "The International Space Station in orbit, pictured after undocking of STS-132.",
+    "credit": "NASA",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AInternational_Space_Station_after_undocking_of_STS-132.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AInternational_Space_Station_after_undocking_of_STS-132.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "ca-culture",
+   "region": "ca",
+   "topic": "culture",
+   "ts": "2026-11-05T16:06",
+   "dateLabel": "Nov 5, 2026",
+   "headline": "Budget 2026 earmarks about $5 billion for culture, free national museums for under-25s",
+   "deck": "Alongside the growth agenda, the new budget proposes roughly $5 billion over five years for culture and heritage — including permanent free national-museum admission for people under 25, rink and recreation funding, and more money for CBC/Radio-Canada and local journalism.",
+   "summary": "Alongside the growth agenda, the new budget proposes roughly $5 billion over five years for culture and heritage — including permanent free national-museum admission for people under 25, rink and recreation funding, and more money for CBC/Radio-Canada and local journalism. CBC reported $1.5 billion over nine years for recreational facilities and ice rinks, $300 million over two years for CBC/Radio-Canada, $134 million over four years for the Local Journalism Initiative, and $46.3 million over five years to make national museums free year-round for children and youth under 25. Finance Department materials also list a Canada Creative Credit for artists and a $300 million Canada 160 Fund.",
+   "why": "The culture package is one of the clearest non-infrastructure signals in a budget otherwise dominated by investment incentives and sovereignty themes.",
+   "label": "Official statement + reported",
+   "note": "Dollar totals follow CBC’s reading of the budget tables and the Finance key-measures list; parliamentary approval is still required.",
+   "sources": [
+    {
+     "title": "Canada's new budget proposes $5B for culture. Here's where it would go",
+     "site": "CBC News",
+     "date": "Nov 5, 2026, 4:06 PM EST",
+     "href": "https://www.cbc.ca/news/politics/canada-2026-budget-culture-carney-champagne-money-9.7411107"
+    },
+    {
+     "title": "Budget 2026: Key Measures",
+     "site": "Department of Finance Canada",
+     "date": "Nov 5, 2026",
+     "href": "https://www.canada.ca/en/department-finance/news/2026/11/budget-2026-key-measures.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/canada-2026-budget-culture-carney-champagne-money-9.7411107",
+     "publisher": "CBC News",
+     "published": "Nov 5, 2026, 4:06 PM EST",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:38:00-05:00",
+     "claimsSupported": [
+      "about $5 billion over five years for culture initiatives",
+      "free national museum admission for under 25",
+      "$1.5 billion over nine years for recreation facilities and rinks",
+      "$300 million over two years for CBC/Radio-Canada"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.canada.ca/en/department-finance/news/2026/11/budget-2026-key-measures.html",
+     "publisher": "Department of Finance Canada",
+     "published": "Nov 5, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:30:00-05:00",
+     "claimsSupported": [
+      "Canada Strong Pass renewal and free national museums for under 25",
+      "Canada Creative Credit and CBC/Radio-Canada funding listed",
+      "support for local journalism listed"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/ca-culture.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Portrait of Mark Carney",
+    "caption": "Mark Carney pictured in a file photo.",
+    "credit": "Policy Exchange",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMark_Carney.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "hk-wong",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-06T18:16",
+   "dateLabel": "Nov 5–6, 2026",
+   "headline": "UK, US and EU condemn Joshua Wong’s 10-year sentence as Hong Kong officials hail the ruling",
+   "deck": "A day after Wong was jailed for conspiring to collude with foreign forces, Western governments and rights groups called the term cruel and political, while Chief Executive John Lee and security officials defended it as lawful punishment.",
+   "summary": "A day after Wong was jailed for conspiring to collude with foreign forces, Western governments and rights groups called the term cruel and political, while Chief Executive John Lee and security officials defended it as lawful punishment. BBC reported the High Court sentenced Wong to 10 years on Thursday, with just over two months concurrent with his existing subversion sentence; he had been due for release in January 2027. Hong Kong Free Press rounded up Friday reactions: Lee called Wong a “primary culprit” undermining stability; the UK Foreign Office and US Consulate condemned the prosecution; the EU urged respect for ICCPR and Joint Declaration commitments; Amnesty and Human Rights Watch called the sentence unjust.",
+   "why": "Wong is the most internationally known Hong Kong activist still imprisoned under the national security law, so the sentence and the diplomatic backlash will keep pressure on the city’s political reputation.",
+   "label": "Reported + official statement",
+   "note": "Conviction and sentence are court outcomes as reported; foreign governments’ and NGOs’ characterizations are their statements, not findings by Donna Daily.",
+   "sources": [
+    {
+     "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+     "site": "BBC News",
+     "date": "Nov 5, 2026",
+     "href": "https://www.bbc.com/news/articles/cwp9g3rlp8jlo"
+    },
+    {
+     "title": "Joshua Wong sentencing: Local gov’t, police, officials hail 10-year jail term amid condemnation from foreign gov’ts, NGOs",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 6, 2026, 18:16",
+     "href": "https://hongkongfp.com/2026/11/06/joshua-wong-sentencing-local-govt-police-officials-hail-10-year-jail-term-amid-condemnation-from-foreign-govts-ngos/"
+    },
+    {
+     "title": "UK and US condemn ‘cruel’ second jail term handed to Hong Kong activist Joshua Wong",
+     "site": "The Guardian",
+     "date": "Nov 5, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/05/uk-and-us-condemn-second-jail-term-handed-to-hong-kong-activist-joshua-wong"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.com/news/articles/cwp9g3rlp8jlo",
+     "publisher": "BBC News",
+     "published": "Nov 5, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:40:00-05:00",
+     "claimsSupported": [
+      "10-year sentence for colluding with foreign forces",
+      "about two months concurrent with existing sentence",
+      "Lee statement calling Wong a primary culprit"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://hongkongfp.com/2026/11/06/joshua-wong-sentencing-local-govt-police-officials-hail-10-year-jail-term-amid-condemnation-from-foreign-govts-ngos/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 6, 2026, 18:16",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:42:00-05:00",
+     "claimsSupported": [
+      "roundup of Lee, Tang, police, LegCo statements supporting sentence",
+      "UK, US, EU, HRW, Amnesty condemnations quoted"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/05/uk-and-us-condemn-second-jail-term-handed-to-hong-kong-activist-joshua-wong",
+     "publisher": "The Guardian",
+     "published": "Nov 5, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:40:00-05:00",
+     "claimsSupported": [
+      "UK Foreign Office called sentence an example of NSL used against political expression",
+      "US and UK condemnations reported"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/hk-wong.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Joshua Wong speaking outdoors in 2019",
+    "caption": "Joshua Wong pictured in 2019.",
+    "credit": "Studio Incendo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AJoshua_Wong_%282019%29.jpg",
+    "isFilePhoto": true,
+    "year": 2019
+   }
+  },
+  {
+   "id": "hk-hangseng",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-11-06T17:16",
+   "dateLabel": "Nov 6, 2026",
+   "headline": "Hang Seng slips 1.3% as a Nasdaq-led tech rout hits Asia — but still posts a strong week",
+   "deck": "Hong Kong’s benchmark closed down 315 points at 24,481 on Friday after U.S. tech shares sold off, yet RTHK said the index still gained 5.1% for the week, its best weekly advance since March 2025.",
+   "summary": "Hong Kong’s benchmark closed down 315 points at 24,481 on Friday after U.S. tech shares sold off, yet RTHK said the index still gained 5.1% for the week, its best weekly advance since March 2025. The Hang Seng Tech Index fell 1.8% on the day but rose 8.6% for the week. Tokyo’s Nikkei and Seoul’s Kospi each dropped about 6% on Friday as investors fretted that a Democratic U.S. Congress could tighten scrutiny of AI-related stocks.",
+   "why": "Friday’s slide tests whether this week’s Hong Kong rebound can hold if U.S. tech volatility continues into next week.",
+   "label": "Reported",
+   "note": "Index levels and weekly percentages are as reported by RTHK from market data; causal links to U.S. politics are market commentary, not proven facts.",
+   "sources": [
+    {
+     "title": "HK stocks slip as tech rout spreads to Asian markets",
+     "site": "RTHK",
+     "date": "Nov 6, 2026, 17:16 HKT",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1876843-20261106.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1876843-20261106.htm",
+     "publisher": "RTHK",
+     "published": "Nov 6, 2026, 17:16 HKT",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:42:00-05:00",
+     "claimsSupported": [
+      "Hang Seng closed down 315 points / 1.3% at 24,481",
+      "weekly gain 5.1%, best since March 2025",
+      "Hang Seng Tech −1.8% on day, +8.6% on week",
+      "Nikkei and Kospi each about −6% Friday"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/hk-hangseng.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Hang Seng Bank headquarters building in Hong Kong",
+    "caption": "Hang Seng Bank headquarters in Hong Kong, pictured in 2007.",
+    "credit": "WiNG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHangSengHeadquarter_20071110.jpg",
+    "isFilePhoto": true,
+    "year": 2007
+   }
+  },
+  {
+   "id": "hk-weeknd",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-02T00:00",
+   "dateLabel": "Oct 24 – Nov 2, 2026",
+   "headline": "The Weeknd releases “Hong Kong,” a Faye Wong–sampling love letter after Kai Tak shows",
+   "deck": "The Canadian star’s new single samples Faye Wong’s 1993 Cantonese classic “Seasonal Wind” (“Monsoon”). It debuted live at Kai Tak Stadium on Oct. 24 and reached streaming platforms around Nov. 1 as his Hong Kong run ended.",
+   "summary": "The Canadian star’s new single samples Faye Wong’s 1993 Cantonese classic “Seasonal Wind” (“Monsoon”). It debuted live at Kai Tak Stadium on Oct. 24 and reached streaming platforms around Nov. 1 as his Hong Kong run ended. Bandwagon and Universal Music Japan said the track uses Wong’s original music and Cantonese vocals, with cover art from cinematographer Christopher Doyle’s collection. An Instagram clip of the live debut passed 18 million views, and Chinese media cited in those releases said Wong’s original “Monsoon” hit No. 1 on QQ Music and NetEase Cloud Music rising charts after the performance.",
+   "why": "A global pop star building a city-specific hit around a Cantonese classic is a rare crossover moment for Hong Kong’s music archive.",
+   "label": "Reported",
+   "note": "Chart claims for Wong’s original track are attributed to Chinese media as cited by Bandwagon/Universal; Donna Daily did not independently audit platform dashboards.",
+   "sources": [
+    {
+     "title": "The Weeknd releases his Faye Wong-sampling love letter ‘Hong Kong’ — listen",
+     "site": "Bandwagon",
+     "date": "Nov 2, 2026",
+     "href": "https://www.bandwagon.asia/articles/the-weeknd-releases-his-faye-wong-sampling-love-letter-hong-kong-listen"
+    },
+    {
+     "title": "香港への愛を込めた新曲「HONG KONG (feat. 王菲季候風)」をサプライズリリース",
+     "site": "Universal Music Japan",
+     "date": "Nov 1, 2026",
+     "href": "https://www.universal-music.co.jp/the-weeknd/news/2026-11-01/"
+    },
+    {
+     "title": "The Weeknd samples Faye Wong on “Hong Kong”",
+     "site": "The FADER",
+     "date": "Oct 27, 2026",
+     "href": "https://www.thefader.com/2026/10/27/the-weeknd-hong-kong-faye-wong-sample"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bandwagon.asia/articles/the-weeknd-releases-his-faye-wong-sampling-love-letter-hong-kong-listen",
+     "publisher": "Bandwagon",
+     "published": "Nov 2, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:45:00-05:00",
+     "claimsSupported": [
+      "samples Faye Wong 1993 Monsoon / Seasonal Wind",
+      "live debut Oct 24 at Kai Tak",
+      "Doyle photo on artwork",
+      "Instagram clip 18M+ views"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.universal-music.co.jp/the-weeknd/news/2026-11-01/",
+     "publisher": "Universal Music Japan",
+     "published": "Nov 1, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:45:00-05:00",
+     "claimsSupported": [
+      "studio release Nov 1 (Japan time)",
+      "uses Wong original audio and Cantonese vocals",
+      "Monsoon chart reaction cited from Chinese media"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.thefader.com/2026/10/27/the-weeknd-hong-kong-faye-wong-sample",
+     "publisher": "The FADER",
+     "published": "Oct 27, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:45:00-05:00",
+     "claimsSupported": [
+      "live Kai Tak performance sampled Seasonal Wind / Monsoon",
+      "described as tribute to Hong Kong pop and cinema"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/hk-weeknd.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Singer Faye Wong",
+    "caption": "Faye Wong, whose 1993 track is sampled on The Weeknd’s “Hong Kong,” pictured in a file photo.",
+    "credit": "Brandon Lim",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AFaye_Wong.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "cn-ciie",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-06T00:05",
+   "dateLabel": "Nov 5–6, 2026",
+   "headline": "At CIIE opening, Vice Premier Ding urges balanced trade through more openness",
+   "deck": "Speaking at the ninth China International Import Expo in Shanghai, Ding Xuexiang called for greater market openness, deeper investment cooperation and the removal of trade barriers to achieve more balanced trade.",
+   "summary": "Speaking at the ninth China International Import Expo in Shanghai, Ding Xuexiang called for greater market openness, deeper investment cooperation and the removal of trade barriers to achieve more balanced trade. Xinhua said the Standing Committee Politburo member delivered the keynote at the expo and Hongqiao International Economic Forum opening on Thursday, arguing countries should enlarge the “economic pie” together rather than only redivide it amid global trade tensions.",
+   "why": "CIIE is Beijing’s marquee import-promotion stage in the run-up to the APEC leaders’ meeting in Shenzhen later this month.",
+   "label": "State media",
+   "note": "Account of Ding’s remarks is from Xinhua (state media).",
+   "sources": [
+    {
+     "title": "(CIIE) Chinese vice premier calls for joint efforts to achieve balanced trade",
+     "site": "Xinhua (state media)",
+     "date": "Nov 5–6, 2026",
+     "href": "https://english.news.cn/20261106/22e3542584de4e3a8b37255d2c3ec471/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261106/22e3542584de4e3a8b37255d2c3ec471/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 5–6, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:40:00-05:00",
+     "claimsSupported": [
+      "Ding Xuexiang keynote at ninth CIIE / Hongqiao forum opening in Shanghai",
+      "called for market openness, investment cooperation, removing barriers for balanced trade"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/cn-ciie.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Shanghai skyline seen from the Bund",
+    "caption": "Shanghai’s skyline from the Bund, where the China International Import Expo is held.",
+    "credit": "pxfuel.com (via Wikimedia Commons)",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AShanghai_skyline_from_the_bund.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "us-leadership",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-05T18:00",
+   "dateLabel": "Nov 5, 2026",
+   "headline": "House Democrats line up majority-leader bids as Scalise and Jordan court a shrunken GOP",
+   "deck": "With Mike Johnson stepping aside, Katherine Clark launched a bid to be the first woman House majority leader, while Steve Scalise and Jim Jordan continue their fight for Republican minority leader ahead of a Nov. 10 internal vote.",
+   "summary": "With Mike Johnson stepping aside, Katherine Clark launched a bid to be the first woman House majority leader, while Steve Scalise and Jim Jordan continue their fight for Republican minority leader ahead of a Nov. 10 internal vote. CBS reported Clark’s dear-colleague letter on Thursday pledging an affordability focus; Ted Lieu announced for caucus chair and Joe Neguse for assistant speaker. NPR’s Thursday coverage confirmed Johnson will not stay on as top House Republican when the new Congress convenes. The Speakership vote still comes on the House floor in January.",
+   "why": "Who holds the gavel and the minority microphone will shape investigations, the floor schedule and how each party deals with a Republican president.",
+   "label": "Reported + official statement",
+   "note": "Leadership letters and Johnson’s decision are on the record as reported; caucus elections have not yet been held.",
+   "sources": [
+    {
+     "title": "2026 midterm election live updates — Clark launches majority-leader bid",
+     "site": "CBS News",
+     "date": "Nov 5, 2026",
+     "href": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/"
+    },
+    {
+     "title": "Mike Johnson says he will step aside as top House Republican next Congress",
+     "site": "NPR",
+     "date": "Nov 5, 2026, 6:45 AM ET",
+     "href": "https://www.npr.org/2026/11/05/nx-s1-6029332/mike-johnson-says-he-will-step-aside-as-top-house-republican-next-congress"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/",
+     "publisher": "CBS News",
+     "published": "Nov 5, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:30:00-05:00",
+     "claimsSupported": [
+      "Katherine Clark launched bid for majority leader",
+      "Ted Lieu running for caucus chair; Joe Neguse for assistant speaker",
+      "Johnson will not run for minority leader; Scalise and Jordan in race"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.npr.org/2026/11/05/nx-s1-6029332/mike-johnson-says-he-will-step-aside-as-top-house-republican-next-congress",
+     "publisher": "NPR",
+     "published": "Nov 5, 2026, 6:45 AM ET",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:40:00-05:00",
+     "claimsSupported": [
+      "Johnson will not stay on as GOP leader when new Congress convenes",
+      "decision follows midterm losses"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/us-leadership.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Official portrait of U.S. Rep. Steve Scalise",
+    "caption": "Steve Scalise in his official congressional portrait.",
+    "credit": "US House Office of Photography",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3ASteve_Scalise_116th_Congress_official_photo.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASteve_Scalise_116th_Congress_official_photo.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "w-israel",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-05T19:22",
+   "dateLabel": "Nov 5–6, 2026",
+   "headline": "Eisenkot wins recommendations from 67 MKs; Herzog to decide the mandate on Sunday",
+   "deck": "After coalition consultations, Gadi Eisenkot has endorsements from lawmakers totaling 67 Knesset seats to Benjamin Netanyahu’s 46, but President Isaac Herzog said mutual vetoes leave the path unclear and that he will announce who tries first on Sunday.",
+   "summary": "After coalition consultations, Gadi Eisenkot has endorsements from lawmakers totaling 67 Knesset seats to Benjamin Netanyahu’s 46, but President Isaac Herzog said mutual vetoes leave the path unclear and that he will announce who tries first on Sunday. The Guardian reported Arab-majority parties backing Eisenkot while United Torah Judaism endorsed neither man; Jerusalem Post live updates likewise said Herzog will hand a mandate on Sunday. Netanyahu remains caretaker prime minister until a new coalition is formed or another election is forced.",
+   "why": "Who gets the first mandate will decide whether Israel’s long Netanyahu era ends — or whether deadlock pushes the country toward another election.",
+   "label": "Reported + official statement",
+   "note": "Recommendation tallies are as reported from Herzog’s consultations; they do not guarantee a finished coalition.",
+   "sources": [
+    {
+     "title": "Israel’s Herzog yet to decide on who should form government as Eisenkot secures significant backing",
+     "site": "The Guardian",
+     "date": "Nov 5, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/05/herzog-netanyahu-eisenkot-israel-election-decision"
+    },
+    {
+     "title": "Israel Election 2026 live updates: Eisenkot, Netanyahu race to build government",
+     "site": "The Jerusalem Post",
+     "date": "Nov 6, 2026",
+     "href": "https://www.jpost.com/israel-election-2026/2026-11-06/live-updates-914034"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/05/herzog-netanyahu-eisenkot-israel-election-decision",
+     "publisher": "The Guardian",
+     "published": "Nov 5, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:38:00-05:00",
+     "claimsSupported": [
+      "Eisenkot endorsed by 67 MKs; Netanyahu by 46",
+      "Herzog to decide Sunday citing mutual vetoes",
+      "Arab parties backing Eisenkot; UTJ endorsed neither"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.jpost.com/israel-election-2026/2026-11-06/live-updates-914034",
+     "publisher": "The Jerusalem Post",
+     "published": "Nov 6, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:40:00-05:00",
+     "claimsSupported": [
+      "Herzog to hand mandate on Sunday",
+      "Eisenkot backing from Ra’am and Joint List noted"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/w-israel.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Gadi Eisenkot speaking at a podium",
+    "caption": "Gadi Eisenkot pictured in November 2020.",
+    "credit": "Mark Neyman",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AGadi_Eizenkot%2C_November_2020_%28GPOMN1_9040%29_%28cropped%29.jpg",
+    "isFilePhoto": true,
+    "year": 2020
+   }
+  },
+  {
+   "id": "w-ukraine",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-06T00:00",
+   "dateLabel": "Nov 6, 2026",
+   "headline": "Zelenskyy says Russia has damaged every Ukrainian power plant as Abu Dhabi talks nears",
+   "deck": "In a Guardian war briefing, President Volodymyr Zelenskyy said Russian strikes have damaged every power plant in Ukraine while he seeks wider international support. Working-level U.S.–Russia–Ukraine talks are still scheduled for Abu Dhabi on Nov. 10–11.",
+   "summary": "In a Guardian war briefing, President Volodymyr Zelenskyy said Russian strikes have damaged every power plant in Ukraine while he seeks wider international support. Working-level U.S.–Russia–Ukraine talks are still scheduled for Abu Dhabi on Nov. 10–11. NBC/Reuters coverage of Thursday’s White House diplomacy likewise flagged the Abu Dhabi round. The Oleshky local ceasefire has already expired; nationwide strikes continue even as negotiators prepare to meet.",
+   "why": "Energy-grid damage heading into winter raises the civilian stakes of next week’s talks, regardless of Thursday’s White House optics.",
+   "label": "Reported + claim",
+   "note": "“Every power plant” is Zelenskyy’s claim as reported; independent damage tallies were not verified in this run. Abu Dhabi dates remain scheduled.",
+   "sources": [
+    {
+     "title": "Ukraine war briefing: Zelenskyy says Russia has damaged ‘every power plant’ as he seeks Latin American help",
+     "site": "The Guardian",
+     "date": "Nov 6, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/06/ukraine-war-briefing-zelenskyy-says-russia-has-damaged-every-power-plant-as-he-seeks-latin-american-help"
+    },
+    {
+     "title": "Trump says he met with Putin envoy, sees Ukraine deal soon",
+     "site": "NBC News / Reuters",
+     "date": "Nov 6, 2026",
+     "href": "https://www.nbcnews.com/world/russia/trump-says-met-putin-envoy-sees-ukraine-deal-soon-rcna607804"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/06/ukraine-war-briefing-zelenskyy-says-russia-has-damaged-every-power-plant-as-he-seeks-latin-american-help",
+     "publisher": "The Guardian",
+     "published": "Nov 6, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:40:00-05:00",
+     "claimsSupported": [
+      "Zelenskyy said Russia has damaged every Ukrainian power plant",
+      "briefing covers ongoing war and diplomatic outreach"
+     ],
+     "limits": [
+      "Page loaded; heavy Guardian chrome; claim taken from headline/standfirst and briefing framing that rendered."
+     ]
+    },
+    {
+     "url": "https://www.nbcnews.com/world/russia/trump-says-met-putin-envoy-sees-ukraine-deal-soon-rcna607804",
+     "publisher": "NBC News / Reuters",
+     "published": "Nov 6, 2026",
+     "checkedBy": "Donna Daily morning source check, Nov 6 2026",
+     "checkedAt": "2026-11-06T06:38:00-05:00",
+     "claimsSupported": [
+      "Abu Dhabi talks scheduled Nov 10–11"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-06-am/w-ukraine.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Official portrait of Ukrainian President Volodymyr Zelenskyy",
+    "caption": "Ukrainian President Volodymyr Zelenskyy in an official portrait.",
+    "credit": "Office of the President of Ukraine",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AVolodymyr_Zelensky_Official_portrait.jpg",
+    "isFilePhoto": true
+   }
+  }
+ ]
+}

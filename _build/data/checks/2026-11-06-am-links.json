@@ -1,0 +1,182 @@
+{
+ "edition": "2026-11-06-am",
+ "ranAt": "2026-11-06T06:50:59-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.canada.ca/en/department-finance/news/2026/11/budget-2026-key-measures.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.canada.ca/en/department-finance/news/2026/11/remarks-by-the-minister-of-finance-and-national-revenue.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/livestory/canada-budget-2026-finance-minister-francois-philippe-champagne-prime-minister-mark-carney-live-updates-9.7403431",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://budget.canada.ca/2026/report-rapport/pdf/budget-2026.pdf",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.whitehouse.gov/briefings-statements/2026/11/first-lady-melania-trump-unites-russia-and-ukraine-at-the-white-house-following-historic-ceasefire/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/c9p8g085mz07o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/world/russia/trump-says-met-putin-envoy-sees-ukraine-deal-soon-rcna607804",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/politics/2026-election/live-blog/election-results-house-senate-trump-congress-live-updates-rcna607549",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1876757-20261106.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:51:00-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373440/hong-kong-police-enable-ai-facial-recognition-cctv-network-month",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261103/098d0d81e237406a9bb76d5530315c9f/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:51:01-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261106/ace06c9a400f46afaeae883f67868629/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:51:02-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/politics/2026-election/nithya-raman-los-angeles-mayor-win-democratic-socialist-karen-bass-rcna603379",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/science/canadian-astronaut-kutryk-second-spacewalk-9.7411168",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:51:00-05:00"
+  },
+  {
+   "url": "https://www.asc-csa.gc.ca/eng/events/2026/2026-11-05-crew-13-second-spacewalk-joshua-kutryk-outside-international-space-station.asp",
+   "status": "ERR",
+   "tag": "WARN",
+   "error": "ECONNRESET",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/canada-2026-budget-culture-carney-champagne-money-9.7411107",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cwp9g3rlp8jlo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/06/joshua-wong-sentencing-local-govt-police-officials-hail-10-year-jail-term-amid-condemnation-from-foreign-govts-ngos/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/05/uk-and-us-condemn-second-jail-term-handed-to-hong-kong-activist-joshua-wong",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1876843-20261106.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:51:00-05:00"
+  },
+  {
+   "url": "https://www.bandwagon.asia/articles/the-weeknd-releases-his-faye-wong-sampling-love-letter-hong-kong-listen",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:51:00-05:00"
+  },
+  {
+   "url": "https://www.universal-music.co.jp/the-weeknd/news/2026-11-01/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:51:00-05:00"
+  },
+  {
+   "url": "https://www.thefader.com/2026/10/27/the-weeknd-hong-kong-faye-wong-sample",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261106/22e3542584de4e3a8b37255d2c3ec471/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:51:00-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/05/nx-s1-6029332/mike-johnson-says-he-will-step-aside-as-top-house-republican-next-congress",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/05/herzog-netanyahu-eisenkot-israel-election-decision",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.jpost.com/israel-election-2026/2026-11-06/live-updates-914034",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/06/ukraine-war-briefing-zelenskyy-says-russia-has-damaged-every-power-plant-as-he-seeks-latin-american-help",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-06T06:50:59-05:00"
+  }
+ ]
+}
