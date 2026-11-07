@@ -1,0 +1,241 @@
+{
+ "edition": "2026-11-07-am",
+ "ranAt": "2026-11-07T06:31:36-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.pbs.org/video/news-wrap-1794001630/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.kqed.org/news/12108596/newsom-moves-to-empty-californias-death-row-by-commuting-548-sentences",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://newsroom.courts.ca.gov/news/newsom-moves-commute-all-california-death-sentences-life-prison-without-parole-0",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.wsmv.com/2026/11/06/cleanup-begins-copperhill-mccaysville-after-historic-flooding/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.atlantanewsfirst.com/2026/11/07/mccaysville-flood-cleanup-continues-citys-remaining-water-supply-is-depleted/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://playbill.com/article/buena-vista-social-club-sets-final-bow-on-broadway",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://deadline.com/2026/11/buena-vista-social-club-broadway-closing-date-1237214789/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/carney-poilievre-budget-immigration-9.7412572",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/montreal/quebec-government-pans-federal-budget-9.7411598",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/toronto/ontario-reaction-federal-budget-2026-9.7412205",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/british-columbia/zeballos-landslide-evacuation-order-9.7412402",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.sportsnet.ca/cfl/article/cfl-east-final-preview-alouettes-look-to-continue-dominant-season-with-grey-cup-berth/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.sportsnet.ca/cfl/article/cfl-west-final-preview-lions-elks-chase-elusive-grey-cup-berth/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/07/P2026110700302.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:37-05:00"
+  },
+  {
+   "url": "https://news.tvb.com/en/1205106-ReportsofconcretepillarissuesatTungChungWestMTRstation",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.dimsumdaily.hk/short%e2%80%91poured-columns-at-tung-chung-west-station-leave-gaps-mtr-halts-work/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://news.tvb.com/tc/1205102-DecennialTaiPingChingChiuparadeheldinShekO",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/news/article/347785/Decennial-Shek-O-Tai-Ping-Ching-Chiu-parade-on-Saturday-special-traffic-arrangements-and-extra-bus-service",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/news/article/347811/Yayoi-Kusamas-monumental-Dancing-Pumpkin-finds-permanent-home-at-The-Twins-in-Kai-Tak",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.dimsumdaily.hk/dancing-pumpkin-by-yayoi-kusama-unveiled-in-kai-tak-as-organisers-hail-only-permanent-public-display-in-asia/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:37-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261107/79d3dec1e8e5455781db57bfc7fd320f/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/economy/policy/article/3373632/china-airs-serious-concern-over-us-sanctions-ahead-xi-trump-apec-meeting-shenzhen",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/07/ukraine-war-briefing-beijing-confirms-historic-xi-trump-putin-meeting-under-discussion",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261106/a26ccf679b1d42fb989d26f6f29869f7/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:37-05:00"
+  },
+  {
+   "url": "https://english.cctv.cn/2026/11/07/ARTIGY02lTgPCmtM8914pymO261107.shtml",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/news/china/politics/article/3373546/china-narrow-scope-contentious-designated-location-surveillance-measure",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/atlanta/news/zoo-atlanta-introduces-giant-pandas-ping-ping-and-fu-shuang-to-the-public/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.rferl.org/a/russia-strikes-kyiv-ukraine-trilateral-talks/33892815.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.kyivpost.com/post/89404",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cv8ezz9yn6pyo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-departs-for-apostolic-journey-to-latin-america.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.atptour.com/en/news/alcaraz-fritz-paris-2026-friday",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-07T06:31:36-05:00"
+  }
+ ]
+}

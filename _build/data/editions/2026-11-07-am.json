@@ -1,0 +1,1373 @@
+{
+ "id": "2026-11-07-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-07",
+ "leadId": "us-miller",
+ "topIds": [
+  "ca-immigration",
+  "hk-mtr",
+  "cn-astronaut",
+  "w-kyiv",
+  "w-paraguay"
+ ],
+ "notes": [
+  "Morning Edition for Saturday, Nov 7, 2026. It covers developments since Friday’s Morning Edition, with ongoing stories marked with their earlier dates.",
+  "The lead is Stephen Miller’s appointment as White House chief of staff, with the latest midterm count folded in. Top stories: Canada’s immigration levels plan, a construction scare at Tung Chung West station, the first foreign astronaut headed for China’s space station, the overnight strikes on Kyiv, and Paraguay’s change of president.",
+  "The U.S., Canada and World have five stories each; Hong Kong and China have four. Culture appears in the U.S. (Broadway) and Hong Kong (Shek O festival, Kusama sculpture); sports in Canada (CFL division finals, scheduled) and World (Paris Masters). China has no culture story this morning.",
+  "Two scheduled sports events (CFL division finals, Alcaraz–Ruud semifinal) are described as planned; results were not available when this edition was compiled."
+ ],
+ "provenance": [
+  "Stories are compiled from the linked sources; labels describe the type of claim each story rests on.",
+  "Source pages were opened during this morning’s research; the logged check time (6:25 AM ET) was recorded at the end of that research batch rather than per page.",
+  "Xinhua and CCTV items are labelled State media. SCMP pages were partly paywalled; only their opening text was read. An AP page timed out and was not relied on.",
+  "Hong Kong’s rebuttal describes the ten-country statement in its own words; the joint statement itself was not opened here. Midterm seat totals are CBS News estimates; Donna Daily does not call races."
+ ],
+ "stories": [
+  {
+   "id": "us-miller",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-06T14:03",
+   "dateLabel": "Nov 6, 2026",
+   "headline": "Trump names Stephen Miller White House chief of staff, replacing Susie Wiles",
+   "deck": "President Trump said Friday that deputy chief of staff Stephen Miller will become chief of staff on Monday, Nov. 9, with Susie Wiles moving to his political operation — the biggest shake-up since Republicans’ midterm losses.",
+   "summary": "President Trump said Friday that deputy chief of staff Stephen Miller will become chief of staff on Monday, Nov. 9, with Susie Wiles moving to his political operation — the biggest shake-up since Republicans’ midterm losses. In a Truth Social post quoted by CBS News, Trump called Miller “one of my most trusted advisors” and said Wiles had done “an outstanding job.” Miller said in a statement that the mission was to “fight with all of our soul to support our President.” Rep. Robert Garcia, the top Democrat on the House Oversight Committee and its likely next chair, said Miller “should lawyer up” and promised investigations. The count is still moving: CBS News estimates Democrats will hold at least 54 Senate seats and around 256 House seats in January, with more than two dozen House races and the Alaska and Mississippi Senate contests unresolved; in Mississippi, Democrat Scott Colom led Sen. Cindy Hyde-Smith by about 1,800 votes as ballots were still being counted.",
+   "why": "Miller, the architect of the administration’s immigration crackdown, moves to the centre of the White House just as Democrats prepare to take both chambers and launch oversight — a sign Trump is doubling down rather than changing course.",
+   "label": "Official statement + reported",
+   "note": "Update to Thursday’s midterm-count story (Nov 6 edition). Seat totals are CBS News estimates and projections; Donna Daily does not call races. PBS also reported two more senior Justice Department resignations on Friday (National Security Division head John Eisenberg and South Florida U.S. attorney Jason Reding Quiñones).",
+   "sources": [
+    {
+     "title": "2026 midterm election live updates as Trump announces White House shakeup",
+     "site": "CBS News",
+     "date": "Nov 6, 2026",
+     "href": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/"
+    },
+    {
+     "title": "News Wrap: Judge blocks Trump’s triumphal arch for now",
+     "site": "PBS News Hour",
+     "date": "Nov 6, 2026",
+     "href": "https://www.pbs.org/video/news-wrap-1794001630/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/",
+     "publisher": "CBS News",
+     "published": "Nov 6, 2026 (updated 11:31 PM EST)",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "Truth Social post: Miller becomes chief of staff starting Monday, Nov 9; Wiles moving to the Trump political operation",
+      "Miller statement quote",
+      "Rep. Robert Garcia: Miller “should lawyer up”",
+      "CBS estimate: at least 54 Senate seats, around 256 House seats for Democrats",
+      "Colom leads Hyde-Smith by about 1,800 votes; counties have until Nov 13 to certify"
+     ],
+     "limits": [
+      "Live blog; entries and totals change as races are projected."
+     ]
+    },
+    {
+     "url": "https://www.pbs.org/video/news-wrap-1794001630/",
+     "publisher": "PBS News Hour",
+     "published": "Nov 6, 2026",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "Two more senior DOJ officials resigned (Eisenberg, Reding Quiñones) after Harmeet Dhillon’s departure"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/us-miller.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Stephen Miller speaking at a lectern in front of a U.S. flag",
+    "caption": "Stephen Miller, then White House deputy chief of staff, speaking at ICE headquarters in May 2025.",
+    "credit": "Tia Dufour (U.S. Department of Homeland Security)",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stephen_Miller_2025-05-20.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Stephen_Miller_2025-05-20.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "us-jobs",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-06T08:30",
+   "dateLabel": "Nov 6, 2026",
+   "headline": "U.S. employers added 165,000 jobs in October, far above forecasts",
+   "summary": "Nonfarm payrolls rose by 165,000 in October and the unemployment rate was little changed at 4.1 percent, the Bureau of Labor Statistics reported Friday. Professional and business services (+70,000), health care (+42,000) and transportation and warehousing (+25,000) led the gains, and August and September were revised up by a combined 84,000. Average hourly earnings rose 0.4 percent on the month and 3.1 percent over the year. CNBC said economists had expected about 59,000 jobs, and noted that long-term unemployment and the number of people working part time for economic reasons both rose.",
+   "why": "A stronger-than-expected labour market lands days after an election fought on affordability, and it raises the odds the Federal Reserve keeps pushing rates higher in December, which matters for anyone with a loan or a job hunt.",
+   "label": "Official figures + reported",
+   "note": "The BLS link is the current Employment Situation release page; BLS replaces its content with each monthly release (next: Dec 4, 2026). The forecast figure and Fed-odds context are CNBC’s.",
+   "sources": [
+    {
+     "title": "The Employment Situation — October 2026",
+     "site": "U.S. Bureau of Labor Statistics",
+     "date": "Nov 6, 2026",
+     "href": "https://www.bls.gov/news.release/empsit.nr0.htm"
+    },
+    {
+     "title": "U.S. economy added 165,000 jobs in October, way more than expected",
+     "site": "CNBC",
+     "date": "Nov 6, 2026",
+     "href": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+     "publisher": "U.S. Bureau of Labor Statistics",
+     "published": "Nov 6, 2026, 8:30 AM ET",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "+165,000 payrolls; unemployment 4.1%",
+      "sector gains: professional/business services +70,000, health care +42,000, transportation/warehousing +25,000",
+      "Aug/Sep revised up a combined 84,000",
+      "hourly earnings +0.4% m/m, +3.1% y/y"
+     ],
+     "limits": [
+      "Current-release URL; content will be replaced by the November report on Dec 4, 2026."
+     ]
+    },
+    {
+     "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+     "publisher": "CNBC",
+     "published": "Nov 6, 2026",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "Dow Jones consensus estimate of 59,000",
+      "rise in long-term unemployment",
+      "CME FedWatch odds of a December hike"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "us-newsom",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-05T19:44",
+   "dateLabel": "Nov 5, 2026",
+   "headline": "Newsom moves to commute all 548 California death sentences to life without parole",
+   "summary": "California Gov. Gavin Newsom announced Thursday that he will commute the sentences of all 548 people on the state’s death row to life without the possibility of parole, KQED reported. More than half of the cases — those involving people with more than one felony conviction — need review by the California Supreme Court under the state constitution. The Death Penalty Information Center called it the largest act of mass clemency in U.S. history, according to KQED. In an open letter, Newsom said “we cannot execute people in our imperfect legal system and remain true to our core values.” The Criminal Justice Legal Foundation, which supports crime victims, said it is weighing a legal challenge.",
+   "why": "California holds the country’s largest death row, so the move — made weeks before Newsom leaves office and ahead of a widely expected presidential run — reshapes the national death-penalty debate, though the state Supreme Court still has a say in many cases.",
+   "label": "Official statement + reported",
+   "note": "Not in Friday’s edition. The commutations requiring court review are not final until the California Supreme Court acts.",
+   "sources": [
+    {
+     "title": "Newsom moves to empty California’s death row by commuting 548 sentences",
+     "site": "KQED",
+     "date": "Nov 5, 2026",
+     "href": "https://www.kqed.org/news/12108596/newsom-moves-to-empty-californias-death-row-by-commuting-548-sentences"
+    },
+    {
+     "title": "Newsom moves to commute all California death sentences to life in prison without parole",
+     "site": "California Courts Newsroom",
+     "date": "Nov 5, 2026",
+     "href": "https://newsroom.courts.ca.gov/news/newsom-moves-commute-all-california-death-sentences-life-prison-without-parole-0"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.kqed.org/news/12108596/newsom-moves-to-empty-californias-death-row-by-commuting-548-sentences",
+     "publisher": "KQED",
+     "published": "Nov 5, 2026 (updated 4:44 PM PT)",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "548 sentences to life without parole",
+      "more than half need California Supreme Court review",
+      "DPIC: largest mass clemency in U.S. history",
+      "Newsom open-letter quote",
+      "Criminal Justice Legal Foundation considering a challenge"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://newsroom.courts.ca.gov/news/newsom-moves-commute-all-california-death-sentences-life-prison-without-parole-0",
+     "publisher": "California Courts Newsroom",
+     "published": "Nov 5, 2026",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "Newsom told the California Supreme Court he will commute all 548 death sentences"
+     ],
+     "limits": [
+      "Page shows a short summary only."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/us-newsom.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "San Quentin State Prison buildings on the shore of San Francisco Bay",
+    "caption": "San Quentin State Prison in Marin County, California, pictured in 2017.",
+    "credit": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:San_Quentin_State_Prison.jpg",
+    "isFilePhoto": true,
+    "year": 2017
+   }
+  },
+  {
+   "id": "us-flood",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-07T00:21",
+   "dateLabel": "Flooding Nov 5; updated Nov 7, 2026",
+   "headline": "Volunteers dig out Copperhill and McCaysville after record flooding on the Georgia–Tennessee line",
+   "summary": "Cleanup is under way in Copperhill, Tennessee, and McCaysville, Georgia, after 8 to 10 inches of rain pushed the Ocoee River to a record 18 feet on Thursday morning, WSMV reported. Tennessee Emergency Management said 68 people were rescued in Polk County and no deaths had been reported. Copperhill Mayor Greg Barker called it a “huge loss to our entire downtown,” with water three to five feet deep inside businesses. In McCaysville, city officials said the remaining water supply had been depleted, Atlanta News First reported late Friday; Publix and the Red Cross were handing out water and cleanup kits, and the Salvation Army planned free meals on Saturday.",
+   "why": "Both small towns had only just recovered from an August flood, and many owners told reporters they lack flood insurance — a reminder of how repeated extreme rain is hitting places with thin financial cushions.",
+   "label": "Reported + official statement",
+   "note": "The river is called the Toccoa in Georgia and the Ocoee in Tennessee. Rescue figures are from Tennessee officials as reported by WSMV; other outlets reported different totals for both states.",
+   "sources": [
+    {
+     "title": "Cleanup begins in Copperhill, McCaysville after historic flooding",
+     "site": "WSMV",
+     "date": "Nov 6, 2026",
+     "href": "https://www.wsmv.com/2026/11/06/cleanup-begins-copperhill-mccaysville-after-historic-flooding/"
+    },
+    {
+     "title": "McCaysville flood cleanup continues as city’s remaining water supply is depleted",
+     "site": "Atlanta News First",
+     "date": "Nov 7, 2026",
+     "href": "https://www.atlantanewsfirst.com/2026/11/07/mccaysville-flood-cleanup-continues-citys-remaining-water-supply-is-depleted/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.wsmv.com/2026/11/06/cleanup-begins-copperhill-mccaysville-after-historic-flooding/",
+     "publisher": "WSMV (Nashville)",
+     "published": "Nov 6, 2026, 4:31 PM CST",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "Ocoee River record 18 feet after 8–10 inches of rain",
+      "68 rescued in Polk County, no deaths reported (TEMA)",
+      "Mayor Barker quote; State Route 68 reopened"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.atlantanewsfirst.com/2026/11/07/mccaysville-flood-cleanup-continues-citys-remaining-water-supply-is-depleted/",
+     "publisher": "Atlanta News First",
+     "published": "Nov 7, 2026, 12:21 AM EST",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "McCaysville’s remaining water supply depleted",
+      "Red Cross supplies; Salvation Army meals planned Saturday",
+      "owners without flood insurance"
+     ],
+     "limits": [
+      "Search results showed other rescue totals (e.g. more than 80 across both states); not reconciled here."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/us-flood.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A street of low brick storefronts in downtown Copperhill, Tennessee",
+    "caption": "Downtown Copperhill, Tennessee, pictured in June 2021.",
+    "credit": "Thomson200",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Copperhill,_Tennessee_June_2021.jpg",
+    "isFilePhoto": true,
+    "year": 2021
+   }
+  },
+  {
+   "id": "us-bvsc",
+   "region": "us",
+   "topic": "culture",
+   "ts": "2026-11-06T00:00",
+   "dateLabel": "Nov 6, 2026",
+   "headline": "Buena Vista Social Club will close on Broadway Jan. 17, with a West End run planned for 2027",
+   "summary": "The Tony-winning musical Buena Vista Social Club will play its final Broadway performance at the Gerald Schoenfeld Theatre on Jan. 17, 2027, after 767 performances, its producers announced Friday. Playbill and Deadline reported that a West End production is planned for 2027, alongside a North American tour and engagements in Puerto Rico and Mexico City. Deadline said the show has not yet recouped its reported $17 million capitalization but producers say it is “on schedule” to do so; it grossed about $679,000 in the week ending Nov. 1. The show, with the first Broadway score performed entirely in Spanish, won five Tonys, including a special award for its onstage band, and a Grammy for its cast album. Original cast members Natalie Venetia Belcon and Ashley De La Rosa are set to return in November.",
+   "why": "New Yorkers have about ten weeks left to catch one of the most celebrated recent musicals, and its producers’ shift to tours and a London run shows how hit shows now earn back their money beyond Broadway.",
+   "label": "Reported + company figures",
+   "sources": [
+    {
+     "title": "Buena Vista Social Club sets final bow on Broadway",
+     "site": "Playbill",
+     "date": "Nov 6, 2026",
+     "href": "https://playbill.com/article/buena-vista-social-club-sets-final-bow-on-broadway"
+    },
+    {
+     "title": "‘Buena Vista Social Club’ sets Broadway closing; West End production announced for 2027",
+     "site": "Deadline",
+     "date": "Nov 6, 2026",
+     "href": "https://deadline.com/2026/11/buena-vista-social-club-broadway-closing-date-1237214789/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://playbill.com/article/buena-vista-social-club-sets-final-bow-on-broadway",
+     "publisher": "Playbill",
+     "published": "Nov 6, 2026",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "final performance Jan 17, 2027; 767 performances",
+      "West End in 2027",
+      "producer Orin Wolf statement",
+      "Belcon returns Nov 30, De La Rosa Nov 16"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://deadline.com/2026/11/buena-vista-social-club-broadway-closing-date-1237214789/",
+     "publisher": "Deadline",
+     "published": "Nov 6, 2026",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "not yet recouped reported $17 million; “on schedule” to recoup",
+      "$678,878 gross, week ending Nov 1",
+      "first Broadway score performed solely in Spanish; five Tonys"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/us-bvsc.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Ornate gilded interior of the Gerald Schoenfeld Theatre",
+    "caption": "Inside the Gerald Schoenfeld Theatre in Manhattan in July 2025, during the Buena Vista Social Club run.",
+    "credit": "Epicgenius",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Gerald_Schoenfeld_Theatre_Jul_2025_01.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "ca-immigration",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-06T15:22",
+   "dateLabel": "Nov 6, 2026",
+   "headline": "Budget immigration plan would grant permanent residency to about 657,000 people in 2027",
+   "summary": "Canada’s new immigration levels plan, laid out in Budget 2026, sets 380,000 new permanent residents a year for three years — but one-time measures would push the 2027 total to 657,250, CBC News reported Friday. The extra intake includes 200,000 temporary residents already living in Canada; officials said about half would come through economic streams and half on humanitarian and family grounds, including almost 32,000 people from Hong Kong and about 19,000 from Ukraine. Conservative Leader Pierre Poilievre said Canada cannot absorb those numbers. Prime Minister Mark Carney said the plan is “in line with sustainable immigration,” citing budget figures showing international students down 71 per cent, temporary foreign workers down 57 per cent and asylum seekers down 68 per cent since 2024.",
+   "why": "Most of the extra permanent residents are already in Canada, so the plan changes people’s status more than population — but it puts immigration back at the centre of the budget fight and gives thousands of Hongkongers a path to stay.",
+   "label": "Official statement + reported",
+   "note": "Follows the Nov 6 edition’s Budget 2026 lead. Percent declines are the government’s figures as cited by Carney; Poilievre’s and Carney’s remarks are their positions.",
+   "sources": [
+    {
+     "title": "Carney says new immigration levels plan is ‘sustainable’ as it draws ire of Conservatives",
+     "site": "CBC News",
+     "date": "Nov 6, 2026",
+     "href": "https://www.cbc.ca/news/politics/carney-poilievre-budget-immigration-9.7412572"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/carney-poilievre-budget-immigration-9.7412572",
+     "publisher": "CBC News",
+     "published": "Nov 6, 2026, 3:22 PM EST",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "380,000 PR a year; 657,250 in 2027 with one-time streams",
+      "200,000 temporary residents, incl. ~32,000 from Hong Kong and ~19,000 from Ukraine",
+      "Poilievre and Carney quotes",
+      "students −71%, TFWs −57%, asylum seekers −68% since 2024 (budget figures)"
+     ],
+     "limits": [
+      "Single outlet; budget document itself not re-read for these figures in this run."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-jobs",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-06T00:00",
+   "dateLabel": "Nov 6, 2026",
+   "headline": "Canada’s jobless rate rises to 6.7% as youth unemployment climbs to 13.7%",
+   "summary": "Employment was little changed in October (−4,700) while the unemployment rate rose 0.2 percentage points to 6.7 per cent, Statistics Canada said Friday. Youth unemployment rose 0.7 points to 13.7 per cent. Wholesale and retail trade shed 29,000 jobs, while construction and educational services added jobs. Alberta lost 24,000 jobs and its rate jumped to 7.3 per cent; Ontario’s rate also rose to 7.3 per cent. The agency also found 29.7 per cent of Canadians lived in households that had difficulty meeting their financial needs — the first year-over-year increase since 2022.",
+   "why": "The numbers arrive the day after a budget pitched on jobs and affordability, and the jump in young people looking for work without finding it is the part that most directly affects students and new grads.",
+   "label": "Official figures",
+   "sources": [
+    {
+     "title": "Labour Force Survey, October 2026",
+     "site": "Statistics Canada (The Daily)",
+     "date": "Nov 6, 2026",
+     "href": "https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm",
+     "publisher": "Statistics Canada",
+     "published": "Released Nov 6, 2026",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "employment −4,700; unemployment 6.7% (+0.2)",
+      "youth 13.7% (+0.7)",
+      "wholesale/retail −29,000; construction +16,000; education +15,000",
+      "Alberta −24,000, 7.3%; Ontario 7.3%",
+      "29.7% in households with financial difficulty"
+     ],
+     "limits": [
+      "Release time of day not shown on the page."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-reaction",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-06T11:54",
+   "dateLabel": "Budget tabled Nov 5; reaction Nov 6, 2026",
+   "headline": "Quebec pans the federal budget as Ontario and big-city mayors welcome parts of it",
+   "summary": "Quebec Finance Minister Nicolas Marceau said Budget 2026 “does not meet expectations” and criticized the productivity “megadeduction” for the revenue Quebec would lose if it harmonizes, CBC News reported; Bloc Québécois Leader Yves-François Blanchet said slower growth in health transfers would cost Quebec about $3 billion a year and that his party will vote against the budget. Montreal Mayor Soraya Martinez Ferrada welcomed an $11.2-billion, four-year homelessness package. In Ontario, Finance Minister Peter Bethlenfalvy said the province supports the budget’s investment push, while Canadian Federation of Independent Business president Dan Kelly called it “mega disappointing” for small firms.",
+   "why": "Provincial pushback over health money and small-business complaints will shape the budget debate in Parliament — and the homelessness money is the piece most likely to be felt on city streets.",
+   "label": "Reported + official statement",
+   "note": "Ongoing: Budget 2026 was tabled Nov 5 (Nov 6 edition lead). The $3-billion figure is Blanchet’s estimate.",
+   "sources": [
+    {
+     "title": "Quebec government pans federal budget while mayors praise funding to fight homelessness",
+     "site": "CBC News",
+     "date": "Nov 6, 2026",
+     "href": "https://www.cbc.ca/news/canada/montreal/quebec-government-pans-federal-budget-9.7411598"
+    },
+    {
+     "title": "Ontario welcomes federal budget, but some hoped for more supports for small businesses",
+     "site": "CBC News",
+     "date": "Nov 6, 2026",
+     "href": "https://www.cbc.ca/news/canada/toronto/ontario-reaction-federal-budget-2026-9.7412205"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/montreal/quebec-government-pans-federal-budget-9.7411598",
+     "publisher": "CBC News (Montreal)",
+     "published": "Nov 6, 2026, 7:09 AM EST",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "Marceau: budget “does not meet expectations”; megadeduction revenue concern",
+      "Blanchet: about $3 billion a year; Bloc will vote against",
+      "$11.2-billion homelessness package welcomed by Montreal mayor"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/news/canada/toronto/ontario-reaction-federal-budget-2026-9.7412205",
+     "publisher": "CBC News (Toronto)",
+     "published": "Nov 6, 2026, 11:54 AM EST",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "Bethlenfalvy statement of support",
+      "CFIB’s Dan Kelly: “mega disappointing”",
+      "$62-billion deficit projected for 2026–27"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/ca-reaction.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Stone façade and statues of the Quebec Parliament Building",
+    "caption": "The Hôtel du Parlement, seat of Quebec’s National Assembly, in Quebec City, pictured in 2010.",
+    "credit": "Marc-Lautenbacher",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_du_Parlement_-_Qu%C3%A9bec,_fa%C3%A7ade.jpg",
+    "isFilePhoto": true,
+    "year": 2010
+   }
+  },
+  {
+   "id": "ca-zeballos",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-06T13:13",
+   "dateLabel": "Nov 6, 2026",
+   "headline": "Landslide and flooding force evacuations in Zeballos on Vancouver Island",
+   "summary": "The village of Zeballos, home to about 125 people on Vancouver Island’s northwest coast, declared a state of local emergency on Friday after a landslide and flooding, CBC News reported. An evacuation order covers 22 properties, and the Strathcona Regional District said debris from a landslide had affected the area and it was unclear whether more slides were possible until a geotechnical assessment is complete. Ehattesaht First Nation Chief Simon John said a neighbour woke him around 3 a.m. as water poured into their yards, and linked the slide risk to a 2018 wildfire that damaged the slope above the village. Environment Canada warned this was the first of several wet and windy systems hitting the B.C. coast into next week.",
+   "why": "It is an early example of the fire-then-flood pattern that makes burned hillsides dangerous for years, and more storms are forecast for the B.C. coast.",
+   "label": "Reported + official statement",
+   "sources": [
+    {
+     "title": "Landslide prompts evacuation order for Zeballos on Vancouver Island",
+     "site": "CBC News",
+     "date": "Nov 6, 2026",
+     "href": "https://www.cbc.ca/news/canada/british-columbia/zeballos-landslide-evacuation-order-9.7412402"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/british-columbia/zeballos-landslide-evacuation-order-9.7412402",
+     "publisher": "CBC News (British Columbia)",
+     "published": "Nov 6, 2026, 1:13 PM EST",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "state of local emergency; order covers 22 properties",
+      "regional district statement on landslide debris and assessment",
+      "Chief Simon John account and 2018 wildfire link",
+      "Environment Canada rainfall warning, more systems into next week"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/ca-zeballos.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Calm inlet water reflecting forested mountains at Zeballos",
+    "caption": "Zeballos Inlet on western Vancouver Island, pictured in July 2016.",
+    "credit": "David Stanley",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Zeballos_Inlet.jpg",
+    "isFilePhoto": true,
+    "year": 2016
+   }
+  },
+  {
+   "id": "ca-cfl",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-06T09:36",
+   "dateLabel": "Games scheduled Sat, Nov 7, 2026",
+   "headline": "CFL division finals set for Saturday, with a Grey Cup spot in Calgary at stake",
+   "summary": "The CFL’s division finals are scheduled for Saturday, Nov. 7, Sportsnet reported. In the East final (3 p.m. ET, Percival Molson Memorial Stadium), the Montreal Alouettes (14-4), led by newly named Most Outstanding Player Davis Alexander, host the Winnipeg Blue Bombers, who are trying to become the first crossover team in league history to reach the Grey Cup; Winnipeg quarterback Zach Collaros was listed as questionable with a rib injury. In the West final (6:30 p.m. ET, Commonwealth Stadium), the Edmonton Elks (13-5), seeking their first home playoff win since 2015, host Nathan Rourke’s B.C. Lions. The winners meet in the 113th Grey Cup on Nov. 15 at McMahon Stadium in Calgary.",
+   "why": "Either a historic crossover run or two long droughts could end on Saturday, and the results set up Canada’s biggest single sporting event of the fall.",
+   "label": "Reported",
+   "note": "Scheduled games: results were not available when this edition was compiled. Predictions in the previews are Sportsnet’s and are not repeated here.",
+   "sources": [
+    {
+     "title": "CFL East final preview: Alouettes look to continue dominant season with Grey Cup berth",
+     "site": "Sportsnet",
+     "date": "Nov 5, 2026",
+     "href": "https://www.sportsnet.ca/cfl/article/cfl-east-final-preview-alouettes-look-to-continue-dominant-season-with-grey-cup-berth/"
+    },
+    {
+     "title": "CFL West final preview: Lions, Elks chase elusive Grey Cup berth",
+     "site": "Sportsnet",
+     "date": "Nov 6, 2026",
+     "href": "https://www.sportsnet.ca/cfl/article/cfl-west-final-preview-lions-elks-chase-elusive-grey-cup-berth/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.sportsnet.ca/cfl/article/cfl-east-final-preview-alouettes-look-to-continue-dominant-season-with-grey-cup-berth/",
+     "publisher": "Sportsnet",
+     "published": "Nov 5, 2026",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "East final Saturday 3 p.m. ET in Montreal",
+      "Alouettes 14-4; Alexander named MOP",
+      "Winnipeg would be first crossover team to reach Grey Cup; Collaros questionable"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.sportsnet.ca/cfl/article/cfl-west-final-preview-lions-elks-chase-elusive-grey-cup-berth/",
+     "publisher": "Sportsnet",
+     "published": "Nov 6, 2026",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "West final Saturday 6:30 p.m. ET at Commonwealth Stadium",
+      "Elks 13-5, first home playoff win since 2015 sought",
+      "113th Grey Cup Nov 15 at McMahon Stadium"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/ca-cfl.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Aerial view of Percival Molson Memorial Stadium on the slope of Mount Royal",
+    "caption": "Percival Molson Memorial Stadium in Montreal, pictured in October 2024.",
+    "credit": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Percival_Molson_Memorial_Stadium,_Montreal,_Quebec.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "hk-rebut",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-06T23:25",
+   "dateLabel": "Nov 7, 2026 (HKT); sentencing reported Nov 6",
+   "headline": "Hong Kong government rebuts ten-country statement on Joshua Wong’s sentence",
+   "summary": "The Hong Kong government issued a statement on Saturday expressing “strong dissatisfaction” with a joint statement by ten countries — the United States, United Kingdom, France, Germany, Japan, Italy, Australia, Canada, the Netherlands and New Zealand — about the sentencing of activist Joshua Wong (Wong Chi-fung) in a national security case. A government spokesperson said the statement “deliberately distorted facts,” noted that Wong pleaded guilty to conspiracy to collude with foreign forces, said the court acted independently, and urged the countries to stop interfering in what it called China’s internal affairs. The Legislative Council issued a separate statement condemning what it called external smears.",
+   "why": "The widening diplomatic row — now including Canada and Japan — keeps Hong Kong’s national security cases at the centre of its relations with Western governments.",
+   "label": "Official statement",
+   "note": "Ongoing: Wong’s 10-year sentence and the first Western reactions were in the Nov 6 edition. The ten-country statement itself was not opened in this run; its content is described here only as characterized by the Hong Kong government.",
+   "sources": [
+    {
+     "title": "HKSAR Government solemnly rebuts joint statement by ten countries concerning case of Wong Chi-fung",
+     "site": "HKSAR Government press release",
+     "date": "Nov 7, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/07/P2026110700302.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/07/P2026110700302.htm",
+     "publisher": "HKSAR Government (info.gov.hk)",
+     "published": "Nov 7, 2026, issued 12:25 HKT",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "list of ten countries",
+      "government says statement distorted facts and interferes in judicial independence",
+      "Wong pleaded guilty to conspiracy to collude with foreign forces"
+     ],
+     "limits": [
+      "Ten-country joint statement not opened directly; LegCo statement seen as a headline on the government’s Nov 7 index only."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/hk-rebut.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Central Government Offices and Legislative Council buildings at Tamar lit up at night",
+    "caption": "The Central Government Offices and Legislative Council complex at Tamar, Admiralty, pictured in 2023.",
+    "credit": "LN9267",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Central_Government_Offices_and_Legislative_Council_of_the_Hong_Kong_Special_Administrative_Region_12-02-2023.jpg",
+    "isFilePhoto": true,
+    "year": 2023
+   }
+  },
+  {
+   "id": "hk-mtr",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-07T04:48",
+   "dateLabel": "Nov 7, 2026 (HKT)",
+   "headline": "MTR halts unauthorised pillar repairs at the unfinished Tung Chung West station",
+   "summary": "The MTR Corporation ordered a contractor to stop work after finding that the tops of some platform-level columns at the under-construction Tung Chung West station had been filled in without approval, TVB News and Dimsum Daily reported on Saturday. The reports followed an HK01 investigation saying about half of roughly 60 concourse-level pillars appear to stop 20 to 30 centimetres short of the ceiling. The MTR did not directly address that claim, but said the issue does not affect structural safety, that the Bouygues–Dragages joint venture must submit a full report and an approved fix before resuming, and that remedial costs fall on the contractor. Engineers quoted by TVB disagreed on whether gaps are a normal construction stage or a procedural error.",
+   "why": "The station is part of a roughly HK$19.5-billion line extension due to open in 2029, and it follows an earlier counterfeit-tile report at Tung Chung East on the same project — so residents will want clear answers on quality control.",
+   "label": "Reported + official statement",
+   "note": "The “half the pillars” figure comes from HK01’s report and sources, as relayed by Dimsum Daily; the MTR has not confirmed it. HK01’s original article was not opened in this run.",
+   "sources": [
+    {
+     "title": "Reports of concrete pillar issues at Tung Chung West MTR station",
+     "site": "TVB News",
+     "date": "Nov 7, 2026",
+     "href": "https://news.tvb.com/en/1205106-ReportsofconcretepillarissuesatTungChungWestMTRstation"
+    },
+    {
+     "title": "Short-poured columns at Tung Chung West Station leave gaps, MTR halts work",
+     "site": "Dimsum Daily",
+     "date": "Nov 7, 2026",
+     "href": "https://www.dimsumdaily.hk/short%e2%80%91poured-columns-at-tung-chung-west-station-leave-gaps-mtr-halts-work/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.tvb.com/en/1205106-ReportsofconcretepillarissuesatTungChungWestMTRstation",
+     "publisher": "TVB News",
+     "published": "Nov 7, 2026, 17:48 HKT",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "MTR found unauthorised repair work on tops of some pillars; contractor suspended",
+      "MTR says no structural risk; report and rectification plan required",
+      "station due 2029; engineers’ differing views"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.dimsumdaily.hk/short%e2%80%91poured-columns-at-tung-chung-west-station-leave-gaps-mtr-halts-work/",
+     "publisher": "Dimsum Daily",
+     "published": "Nov 7, 2026, 10:16 HKT",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "HK01 report: ~30 of ~60 concourse columns with 20–30 cm gaps",
+      "Bouygues–Dragages JV named; costs on contractor; government notified",
+      "HK$19.5bn budget; 2029 target"
+     ],
+     "limits": [
+      "Relays HK01’s exclusive; HK01 not opened directly."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/hk-mtr.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Ticket gates and lifts inside the existing Tung Chung MTR station",
+    "caption": "The existing Tung Chung MTR station on Lantau Island, pictured in 2004 — not the new Tung Chung West station under construction.",
+    "credit": "mailer_diablo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:MTR_Hong_Kong_station_Tung_Chung.JPG",
+    "isFilePhoto": true,
+    "year": 2004
+   }
+  },
+  {
+   "id": "hk-shek-o",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-07T04:46",
+   "dateLabel": "Nov 7, 2026 (HKT)",
+   "headline": "Shek O villages stage their once-a-decade Tai Ping Ching Chiu parade",
+   "summary": "Three villages around Shek O — Shek O Village, Big Wave Bay Village and Hok Tsui Tsuen — held their decennial Tai Ping Ching Chiu parade on Saturday, TVB News reported. The procession set off at 10:30 a.m. from a bamboo theatre near Shek O Beach, with children dressed as figures such as the warrior Mu Guiying, the folk deity Nezha and the Tang consort Lady Yang. Cantonese opera and rituals meant to ward off plague followed in the afternoon. Police closed parts of Shek O Road and Big Wave Bay Road from 6 a.m. to 11 p.m., and Citybus ran special X9 services from Central, The Standard reported.",
+   "why": "Festivals held only once every ten years are some of the city’s rarest living traditions; this one won’t come round again for another decade.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Decennial Tai Ping Ching Chiu parade held in Shek O",
+     "site": "TVB News",
+     "date": "Nov 7, 2026",
+     "href": "https://news.tvb.com/tc/1205102-DecennialTaiPingChingChiuparadeheldinShekO"
+    },
+    {
+     "title": "Decennial Shek O Tai Ping Ching Chiu parade on Saturday, special traffic arrangements and extra bus service",
+     "site": "The Standard",
+     "date": "Nov 6, 2026",
+     "href": "https://www.thestandard.com.hk/news/article/347785/Decennial-Shek-O-Tai-Ping-Ching-Chiu-parade-on-Saturday-special-traffic-arrangements-and-extra-bus-service"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.tvb.com/tc/1205102-DecennialTaiPingChingChiuparadeheldinShekO",
+     "publisher": "TVB News",
+     "published": "Nov 7, 2026, 17:46 HKT",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "parade held at three Shek O villages from 10:30 a.m.",
+      "children dressed as Mu Guiying, Nezha, Lady Yang",
+      "Cantonese opera and plague-warding rituals"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.thestandard.com.hk/news/article/347785/Decennial-Shek-O-Tai-Ping-Ching-Chiu-parade-on-Saturday-special-traffic-arrangements-and-extra-bus-service",
+     "publisher": "The Standard (Hong Kong)",
+     "published": "Nov 6, 2026",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "three villages named",
+      "road arrangements 6 a.m.–11 p.m.",
+      "Citybus special X9 departures"
+     ],
+     "limits": [
+      "Preview article published before the event."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/hk-shek-o.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A narrow road lined with colourful low-rise village houses in Shek O",
+    "caption": "Shek O Village Road, pictured in September 2024.",
+    "credit": "Tombus20032000",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Shek_O_Village_Road_2024.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "hk-kusama",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-06T07:29",
+   "dateLabel": "Nov 6, 2026 (HKT)",
+   "headline": "Yayoi Kusama’s five-metre “Dancing Pumpkin” goes on permanent display in Kai Tak",
+   "summary": "Lifestyle International has unveiled Yayoi Kusama’s Dancing Pumpkin (2020), a polka-dotted sculpture about five metres tall and eight metres wide, outside Tower II of The Twins development in Kai Tak, The Standard and Dimsum Daily reported. The owner says it is the only permanent public installation of the work in Asia; The Standard said only five editions exist worldwide and that earlier showings included the New York Botanical Garden. An accompanying exhibition, “Dancing Pumpkin: Hello, Hong Kong!”, with more than 20 Kusama studio prints, runs to March 31, 2027, alongside a pop-up shop.",
+   "why": "It adds a free, outdoor piece by one of the world’s best-known artists to Kai Tak, which is trying to become a cultural district rather than just a new housing and stadium zone.",
+   "label": "Reported + claim",
+   "note": "“Only permanent public display in Asia” and the five-edition figure are the developer’s claims as reported.",
+   "sources": [
+    {
+     "title": "Yayoi Kusama’s monumental Dancing Pumpkin finds permanent home at The Twins in Kai Tak",
+     "site": "The Standard",
+     "date": "Nov 6–7, 2026",
+     "href": "https://www.thestandard.com.hk/news/article/347811/Yayoi-Kusamas-monumental-Dancing-Pumpkin-finds-permanent-home-at-The-Twins-in-Kai-Tak"
+    },
+    {
+     "title": "Dancing Pumpkin by Yayoi Kusama unveiled in Kai Tak",
+     "site": "Dimsum Daily",
+     "date": "Nov 6, 2026",
+     "href": "https://www.dimsumdaily.hk/dancing-pumpkin-by-yayoi-kusama-unveiled-in-kai-tak-as-organisers-hail-only-permanent-public-display-in-asia/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.thestandard.com.hk/news/article/347811/Yayoi-Kusamas-monumental-Dancing-Pumpkin-finds-permanent-home-at-The-Twins-in-Kai-Tak",
+     "publisher": "The Standard (Hong Kong)",
+     "published": "Nov 2026 (page shows relative time only)",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "about 5 m tall, 8 m wide",
+      "Asia’s only permanent installation of the piece (company claim)",
+      "five editions; toured NY Botanical Garden",
+      "exhibition to Mar 31, 2027"
+     ],
+     "limits": [
+      "Exact publication date not shown; page said “3 hours ago” when opened."
+     ]
+    },
+    {
+     "url": "https://www.dimsumdaily.hk/dancing-pumpkin-by-yayoi-kusama-unveiled-in-kai-tak-as-organisers-hail-only-permanent-public-display-in-asia/",
+     "publisher": "Dimsum Daily",
+     "published": "Nov 6, 2026, 8:29 PM HKT",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "five-metre sculpture unveiled at The Twins, Kai Tak",
+      "pop-up shop and exhibition opened"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "cn-astronaut",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-07T01:24",
+   "dateLabel": "Nov 7, 2026 (Beijing time)",
+   "headline": "A Pakistani astronaut will be the first foreigner to visit China’s space station",
+   "summary": "A Pakistani astronaut will fly on China’s Shenzhou-24 crewed mission as a payload specialist, the China Manned Space Agency said on Saturday, according to state news agency Xinhua. The astronaut is to make a short stay in orbit and return to Earth aboard Shenzhou-23, making the mission the first joint flight of Chinese and foreign astronauts in China’s human spaceflight programme. China and Pakistan signed an astronaut-selection agreement in February 2025; Xinhua said two Pakistani reserve astronauts were chosen, one to fly and one as backup. No launch date was given in the report.",
+   "why": "Opening Tiangong to a partner country’s astronaut is a soft-power milestone for Beijing, which is building its own orbital partnerships as the International Space Station nears retirement.",
+   "label": "State media + official statement",
+   "note": "Sourced to Xinhua (state media) relaying the China Manned Space Agency. The astronaut was not named in the report.",
+   "sources": [
+    {
+     "title": "First foreign astronaut to board Chinese space station",
+     "site": "Xinhua (state media)",
+     "date": "Nov 7, 2026",
+     "href": "https://english.news.cn/20261107/79d3dec1e8e5455781db57bfc7fd320f/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261107/79d3dec1e8e5455781db57bfc7fd320f/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 7, 2026, 14:24 BJT",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "Pakistani payload specialist on Shenzhou-24; return on Shenzhou-23",
+      "first joint flight with a foreign astronaut",
+      "Feb 2025 agreement; two reserve astronauts selected"
+     ],
+     "limits": [
+      "State media only; no independent confirmation sought in this run; no launch date given."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-trade",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-06T23:09",
+   "dateLabel": "Call Nov 6; reported Nov 7, 2026",
+   "headline": "Beijing voices “serious concern” over U.S. sanctions in call with Bessent and Greer before APEC",
+   "summary": "Chinese Vice-Premier He Lifeng raised “serious concern” about recent U.S. restrictions on China in a video call on Friday with U.S. Treasury Secretary Scott Bessent and Trade Representative Jamieson Greer, the South China Morning Post reported, citing Xinhua. China’s Commerce Ministry said it “firmly opposes” new U.S. sanctions on two Chinese companies. Both sides described the talks as “frank, in-depth and constructive” and agreed to manage differences, according to Xinhua. A new round of trade talks is expected in Shenzhen later this month, before Xi Jinping and Donald Trump meet on the sidelines of the APEC summit there. Separately, the Guardian reported that a Chinese foreign ministry spokesperson said Beijing is “in communication with relevant parties” about a possible Xi–Trump–Putin meeting.",
+   "why": "The Shenzhen APEC summit is shaping up as the biggest test of U.S.–China relations this year, and a three-way meeting with Putin — if it happens — would also put Ukraine on the table.",
+   "label": "Official statement + state media + claim",
+   "note": "A three-leader meeting is under discussion only; no source confirms it will take place. The SCMP article is partly paywalled; only its opening paragraphs were read.",
+   "sources": [
+    {
+     "title": "China airs ‘serious concern’ over US sanctions ahead of Xi, Trump Apec meeting in Shenzhen",
+     "site": "South China Morning Post",
+     "date": "Nov 7, 2026",
+     "href": "https://www.scmp.com/economy/policy/article/3373632/china-airs-serious-concern-over-us-sanctions-ahead-xi-trump-apec-meeting-shenzhen"
+    },
+    {
+     "title": "Ukraine war briefing: Beijing confirms historic Xi-Trump-Putin meeting under discussion",
+     "site": "The Guardian",
+     "date": "Nov 6–7, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/07/ukraine-war-briefing-beijing-confirms-historic-xi-trump-putin-meeting-under-discussion"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.scmp.com/economy/policy/article/3373632/china-airs-serious-concern-over-us-sanctions-ahead-xi-trump-apec-meeting-shenzhen",
+     "publisher": "South China Morning Post",
+     "published": "Nov 7, 2026, 12:09 HKT",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "He Lifeng–Bessent–Greer video call on Friday; “serious concern”",
+      "Commerce Ministry “firmly opposes” sanctions on two Chinese companies",
+      "Shenzhen trade talks expected later in November before APEC leaders’ meeting"
+     ],
+     "limits": [
+      "Paywall: only opening paragraphs available."
+     ]
+    },
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/07/ukraine-war-briefing-beijing-confirms-historic-xi-trump-putin-meeting-under-discussion",
+     "publisher": "The Guardian",
+     "published": "Nov 6, 2026, 22:12 EST (modified Nov 7)",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "Mao Ning: China “in communication with relevant parties” about a three-heads-of-state meeting, possibly at APEC in Shenzhen"
+     ],
+     "limits": [
+      "Briefing says the remark came “this week” without giving the date."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-law",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-06T23:00",
+   "dateLabel": "Nov 6–7, 2026",
+   "headline": "China passes a cross-border corruption law as lawmakers weigh limits on a secretive detention measure",
+   "summary": "China’s top legislature, the National People’s Congress Standing Committee, adopted a 47-article law against cross-border corruption on Friday, state news agency Xinhua reported, covering case handling, international cooperation and corporate compliance. At the same session lawmakers ratified an agreement establishing a World Artificial Intelligence Cooperation Organization and removed Li Lecheng as minister of industry and information technology. Separately, the South China Morning Post reported that a draft amendment to the Criminal Procedure Law sent to the legislature for initial review would narrow “residential surveillance at a designated location,” a form of detention that critics say has become the harshest tool in state-security cases.",
+   "why": "The corruption law gives Beijing a legal basis to pursue fugitives and assets abroad and adds compliance duties for Chinese firms overseas, while any curbs on secret detention would be a rare move in the other direction — the details will matter.",
+   "label": "State media + reported",
+   "note": "The detention change is a draft at first review, not law. SCMP is partly paywalled; only its summary was read.",
+   "sources": [
+    {
+     "title": "China passes law to prevent, punish cross-border corruption",
+     "site": "Xinhua (state media)",
+     "date": "Nov 6, 2026",
+     "href": "https://english.news.cn/20261106/a26ccf679b1d42fb989d26f6f29869f7/c.html"
+    },
+    {
+     "title": "China passes law against cross-border corruption, ratifies agreement on establishing World AI Cooperation Organization",
+     "site": "CCTV / Xinhua (state media)",
+     "date": "Nov 6–7, 2026",
+     "href": "https://english.cctv.cn/2026/11/07/ARTIGY02lTgPCmtM8914pymO261107.shtml"
+    },
+    {
+     "title": "China to narrow scope of contentious detention and surveillance measure",
+     "site": "South China Morning Post",
+     "date": "Nov 7, 2026",
+     "href": "https://www.scmp.com/news/china/politics/article/3373546/china-narrow-scope-contentious-designated-location-surveillance-measure"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261106/a26ccf679b1d42fb989d26f6f29869f7/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 6, 2026, 10:48 BJT",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "law adopted by NPC Standing Committee; 47 articles in six chapters"
+     ],
+     "limits": [
+      "State media."
+     ]
+    },
+    {
+     "url": "https://english.cctv.cn/2026/11/07/ARTIGY02lTgPCmtM8914pymO261107.shtml",
+     "publisher": "CCTV English (Xinhua copy)",
+     "published": "Nov 7, 2026",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "WAICO agreement ratified",
+      "Li Lecheng removed as MIIT minister",
+      "other laws adopted at the 25th session"
+     ],
+     "limits": [
+      "State media."
+     ]
+    },
+    {
+     "url": "https://www.scmp.com/news/china/politics/article/3373546/china-narrow-scope-contentious-designated-location-surveillance-measure",
+     "publisher": "South China Morning Post",
+     "published": "Nov 7, 2026, 12:00 HKT (updated 17:24)",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "draft Criminal Procedure Law amendment would restrict RSDL; sent for initial review"
+     ],
+     "limits": [
+      "Paywall: headline, standfirst and opening paragraphs only."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/cn-law.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The colonnaded front of the Great Hall of the People in Beijing",
+    "caption": "The Great Hall of the People in Beijing, where the NPC Standing Committee meets, pictured in 2006.",
+    "credit": "Philip Nalangan",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_Hall_of_the_People_Beijing_China.jpg",
+    "isFilePhoto": true,
+    "year": 2006
+   }
+  },
+  {
+   "id": "cn-panda",
+   "region": "cn",
+   "topic": "human",
+   "ts": "2026-11-06T18:51",
+   "dateLabel": "Nov 6, 2026",
+   "headline": "Giant pandas from China make their public debut at Zoo Atlanta",
+   "summary": "Six-year-old giant pandas Ping Ping and Fu Shuang went on public view at Zoo Atlanta on Friday, CBS Atlanta reported, nearly two years after the zoo’s previous pandas returned to China. The pair arrived in late September and spent time in quarantine before the debut, which drew crowds to an upgraded habitat with larger indoor areas, pools and climbing structures. Under an agreement with the China Wildlife Conservation Association, they are expected to stay for 10 years. Chinese Foreign Ministry spokesperson Guo Jiakun said the partnership would strengthen ties between the Chinese and American people. Zoo Atlanta joins the National Zoo and San Diego Zoo as the three U.S. zoos with giant pandas.",
+   "why": "Panda loans are one of Beijing’s oldest diplomatic tools, and their return to a third U.S. zoo is a small but visible sign of warmer people-to-people ties ahead of the Xi–Trump meeting.",
+   "label": "Reported + official statement",
+   "sources": [
+    {
+     "title": "Zoo Atlanta introduces giant pandas Ping Ping and Fu Shuang to the public",
+     "site": "CBS Atlanta",
+     "date": "Nov 6, 2026",
+     "href": "https://www.cbsnews.com/atlanta/news/zoo-atlanta-introduces-giant-pandas-ping-ping-and-fu-shuang-to-the-public/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbsnews.com/atlanta/news/zoo-atlanta-introduces-giant-pandas-ping-ping-and-fu-shuang-to-the-public/",
+     "publisher": "CBS Atlanta",
+     "published": "Nov 6, 2026 (updated 6:51 PM EST)",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "public debut Friday; pandas aged six, arrived late September",
+      "10-year agreement with China Wildlife Conservation Association (photo caption)",
+      "Guo Jiakun remark; three U.S. zoos with pandas"
+     ],
+     "limits": [
+      "An AP article on the debut timed out when fetched; not relied on."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/cn-panda.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A giant panda sitting among bamboo at Zoo Atlanta",
+    "caption": "Lun Lun, one of Zoo Atlanta’s previous giant pandas, pictured in January 2022 — not the newly arrived pair.",
+    "credit": "O01326",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Lun_Lun_at_Zoo_Atlanta.jpg",
+    "isFilePhoto": true,
+    "year": 2022
+   }
+  },
+  {
+   "id": "w-kyiv",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-07T05:10",
+   "dateLabel": "Overnight Nov 6–7, 2026",
+   "headline": "Russian missiles hit Kyiv’s power grid and a Dnipro bridge days before Abu Dhabi talks",
+   "summary": "Russia launched 172 drones and 36 ballistic missiles at Kyiv and other regions overnight into Saturday, President Volodymyr Zelenskyy said, damaging energy facilities, homes, a kindergarten building and the Northern (Pivnichnyi) Bridge over the Dnipro, which was temporarily closed, RFE/RL reported. Five people were injured in Kyiv, including a 14-year-old, and Mayor Vitali Klitschko called the capital’s energy supply “extremely difficult,” with parts of the city losing power, heat and water. Russia’s Defence Ministry confirmed the bridge strike, claiming it was used to move weapons. The attack comes before planned U.S.–Ukraine–Russia talks in Abu Dhabi on Nov. 10–11.",
+   "why": "Strikes on bridges and power just before winter and before the first three-way peace talks since February show how both sides are trying to shape the negotiations on the battlefield.",
+   "label": "Reported + official statement + claim",
+   "note": "Ongoing: the Nov 6 edition reported Zelenskyy’s warning about attacks on power plants. Drone and missile totals are Ukrainian figures; Russia’s justification for the bridge strike is its claim.",
+   "sources": [
+    {
+     "title": "Russia strikes Kyiv’s energy infrastructure, Northern Bridge ahead of Abu Dhabi talks",
+     "site": "RFE/RL",
+     "date": "Nov 7, 2026",
+     "href": "https://www.rferl.org/a/russia-strikes-kyiv-ukraine-trilateral-talks/33892815.html"
+    },
+    {
+     "title": "Russian ballistic missiles strike Kyiv, destroy kindergarten building, injure child, 4 others",
+     "site": "Kyiv Post",
+     "date": "Nov 7, 2026",
+     "href": "https://www.kyivpost.com/post/89404"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.rferl.org/a/russia-strikes-kyiv-ukraine-trilateral-talks/33892815.html",
+     "publisher": "Radio Free Europe/Radio Liberty",
+     "published": "Nov 7, 2026, 11:10 CET",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "172 drones and 36 ballistic missiles (Zelenskyy)",
+      "Northern Bridge hit and closed; Klitschko quote",
+      "five injured incl. a 14-year-old",
+      "Russian MoD claim about the bridge",
+      "Abu Dhabi talks Nov 10–11"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.kyivpost.com/post/89404",
+     "publisher": "Kyiv Post",
+     "published": "Nov 7, 2026 (updated 6:45 a.m. Kyiv time)",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "two-storey kindergarten building destroyed in Solomianskyi district",
+      "five injured including a child (DSNS)"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/w-kyiv.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Aerial view of the Pivnichnyi (Northern) Bridge across the Dnipro in Kyiv",
+    "caption": "The Pivnichnyi (Northern) Bridge in Kyiv, photographed from a helicopter in April 2021.",
+    "credit": "Фазель Налгієв",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Pivnichnyi_Bridge_-_Kyiv_-_2021.jpg",
+    "isFilePhoto": true,
+    "year": 2021
+   }
+  },
+  {
+   "id": "w-paraguay",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-06T20:55",
+   "dateLabel": "Nov 6, 2026",
+   "headline": "Paraguay’s Senate removes President Santiago Peña over a bank collapse; Pedro Alliana sworn in",
+   "summary": "Paraguay’s Senate voted 44–0, with one abstention, to remove President Santiago Peña on Friday, and Vice-President Pedro Alliana was sworn in as the country’s 53rd president, Al Jazeera and the Guardian reported. Prosecutors then placed Peña under house arrest. The crisis began when the central bank seized Ueno Bank, which it said had fallen below solvency rules, freezing the accounts of about 2.9 million customers — roughly 60 per cent of adults, according to the Guardian — and setting off protests. Prosecutors are investigating Peña for suspected illicit enrichment, money laundering and influence peddling over his ties to the bank; he has said he will cooperate, and his lawyers argued he was given too little time to mount a defence.",
+   "why": "A banking failure that cut most of a country off from its own money brought down a sitting president within days — a stark example of how financial regulation failures become political ones.",
+   "label": "Reported + allegation",
+   "note": "The accusations against Peña are under investigation and unproven. Outlets give slightly different customer totals (about 2.9 million vs roughly three million).",
+   "sources": [
+    {
+     "title": "Ousted Paraguay president under house arrest after banking crisis",
+     "site": "The Guardian",
+     "date": "Nov 6, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
+    },
+    {
+     "title": "Paraguay’s Santiago Pena under arrest, new president Pedro Alliana sworn in",
+     "site": "Al Jazeera",
+     "date": "Nov 7, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
+     "publisher": "The Guardian",
+     "published": "Nov 6, 2026, 20:55 EST",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "house arrest after impeachment",
+      "2.9 million accounts (~60% of adults) frozen",
+      "investigation for illicit enrichment, money laundering, influence peddling",
+      "Congress rejected his resignation"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in",
+     "publisher": "Al Jazeera (with AP)",
+     "published": "Nov 7, 2026",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "Senate vote 44 with one abstention",
+      "Alliana sworn in as 53rd president",
+      "central bank seized Ueno over solvency; ~3 million members"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-07-am/w-paraguay.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The pink-and-white Palacio de los López government palace in Asunción",
+    "caption": "The Palacio de los López, Paraguay’s seat of government, in Asunción, pictured in September 2026.",
+    "credit": "MosheA",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_L%C3%B3pez_Asunci%C3%B3n_1.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "w-bomb",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-06T12:14",
+   "dateLabel": "Nov 3–6, 2026",
+   "headline": "Hoax bomb threats disrupt at least 18 more flights across Europe",
+   "summary": "A fresh wave of bomb threats on Friday affected at least 18 flights to or from Bulgaria, Cyprus, Czechia, France, Hungary, Italy, Portugal, Romania and the U.K., the Guardian reported; all landed safely and no explosives were found. Earlier threats on Tuesday and Thursday had forced at least 35 flights to divert or be searched, and Hungary scrambled fighter jets to escort civilian planes. Media organizations in Ireland, including RTÉ, also received threats that disrupted broadcasts. Investigators said there was no evidence so far that a terror group or state was behind the hoaxes; Spain’s foreign minister called it a likely “attempt at hybrid aggression.” The BBC counted 32 threats affecting a dozen airlines in four days.",
+   "why": "Even hoaxes can ground planes, scramble jets and empty newsrooms, and European officials are treating the pattern as possible hybrid warfare — a growing risk for anyone flying in Europe this season.",
+   "label": "Reported + official statement",
+   "note": "Counts differ between outlets (Guardian: at least 18 on Friday and 35 earlier; BBC: 32 threats over four days). Who is responsible is unknown.",
+   "sources": [
+    {
+     "title": "Further bomb threats disrupt at least another 18 flights across Europe",
+     "site": "The Guardian",
+     "date": "Nov 6, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe"
+    },
+    {
+     "title": "Spate of bomb threats poses serious challenge to airline industry",
+     "site": "BBC News",
+     "date": "Nov 6, 2026",
+     "href": "https://www.bbc.com/news/articles/cv8ezz9yn6pyo"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe",
+     "publisher": "The Guardian",
+     "published": "Nov 6, 2026, 12:14 EST",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "at least 18 flights Friday; at least 35 earlier",
+      "no explosives found",
+      "Irish media threats; Hungary jets",
+      "no evidence of state/terror group so far; Albares quote"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.bbc.com/news/articles/cv8ezz9yn6pyo",
+     "publisher": "BBC News",
+     "published": "Nov 6, 2026 (page showed “19 hours ago”)",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "32 threats affecting a dozen airlines in four days",
+      "experts on hybrid-warfare hallmarks"
+     ],
+     "limits": [
+      "Figures conflict with the Guardian’s; both shown."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-pope",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-06T14:25",
+   "dateLabel": "Nov 6, 2026",
+   "headline": "Pope Leo begins a 12-day Latin America tour in Uruguay, weeks after surgery",
+   "summary": "Pope Leo XIV landed in Montevideo on Friday to begin a 12-day trip to Uruguay, Argentina and Peru, Vatican News reported, his sixth international journey. The programme includes stops in Buenos Aires, Córdoba and Luján before Lima, Chiclayo, Cusco and Pucallpa in Peru, about a dozen flights and nearly 40 addresses in Spanish, running through Nov. 17. PBS NewsHour noted that the trip comes three weeks after the 71-year-old pope had lung cancer surgery, and that Peru is a homecoming: he served there for more than two decades and became a naturalized citizen.",
+   "why": "The pope’s return to the region where he spent much of his career is a test of his health after surgery and a big moment for Latin America’s Catholics.",
+   "label": "Reported + official statement",
+   "sources": [
+    {
+     "title": "Pope Leo begins Apostolic Journey to Uruguay",
+     "site": "Vatican News",
+     "date": "Nov 6, 2026",
+     "href": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-departs-for-apostolic-journey-to-latin-america.html"
+    },
+    {
+     "title": "News Wrap: Judge blocks Trump’s triumphal arch for now",
+     "site": "PBS News Hour",
+     "date": "Nov 6, 2026",
+     "href": "https://www.pbs.org/video/news-wrap-1794001630/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-departs-for-apostolic-journey-to-latin-america.html",
+     "publisher": "Vatican News",
+     "published": "Nov 6, 2026, 20:25 (Rome)",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "landed in Montevideo; sixth international journey",
+      "itinerary Uruguay–Argentina–Peru, Nov 6–17",
+      "~12 flights, ~40 addresses in Spanish"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.pbs.org/video/news-wrap-1794001630/",
+     "publisher": "PBS News Hour",
+     "published": "Nov 6, 2026",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "trip three weeks after lung cancer surgery",
+      "Peru ties: missionary/bishop for two decades, naturalized citizen"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "w-alcaraz",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-06T00:00",
+   "dateLabel": "Nov 6, 2026; semifinal scheduled Nov 7",
+   "headline": "Alcaraz saves two match points to beat Fritz and reach the Paris Masters semifinals",
+   "summary": "Carlos Alcaraz came back to beat Taylor Fritz 6-7(10), 7-5, 6-3 on Friday night at the Rolex Paris Masters, saving two match points in the second set to reach the tournament’s semifinals for the first time, the ATP Tour reported. The result ended Fritz’s hopes of qualifying for the ATP Finals and secured the eighth and final place in Turin for Spain’s Rafael Jodar. Alcaraz is scheduled to face Casper Ruud, who beat Nuno Borges 7-6(5), 6-4, in Saturday’s semifinal.",
+   "why": "It was one of the comebacks of the season and it settled the field for the ATP Finals in Turin on Nov. 15–22.",
+   "label": "Reported",
+   "note": "The Alcaraz–Ruud semifinal had not been played when this edition was compiled.",
+   "sources": [
+    {
+     "title": "Alcaraz saves 2 MPs, sinks Fritz in Paris late-night thriller",
+     "site": "ATP Tour",
+     "date": "Nov 6, 2026",
+     "href": "https://www.atptour.com/en/news/alcaraz-fritz-paris-2026-friday"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.atptour.com/en/news/alcaraz-fritz-paris-2026-friday",
+     "publisher": "ATP Tour",
+     "published": "Nov 6, 2026",
+     "checkedAt": "2026-11-07T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 7 2026",
+     "claimsSupported": [
+      "score 6-7(10), 7-5, 6-3; two match points saved",
+      "first Paris semifinal for Alcaraz",
+      "Jodar takes final ATP Finals spot",
+      "next opponent Ruud (beat Borges 7-6(5), 6-4)"
+     ],
+     "limits": [
+      "Official tour site; no second outlet opened."
+     ]
+    }
+   ]
+  }
+ ]
+}
