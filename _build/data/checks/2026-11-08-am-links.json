@@ -1,0 +1,235 @@
+{
+ "edition": "2026-11-08-am",
+ "ranAt": "2026-11-08T06:29:29-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.bbc.com/news/articles/c6n9r01d2709o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/deadly-shooting-at-krakows-main-square-was-act-of-terrorism-says-polish-prime-minister-donald-tusk/a-79886489",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261108/5e72b6c3d9be42faa86443b3792082b5/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:31-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/08/nz-election-who-won-results-explained-overhang-special-votes-new-zealand",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.rnz.co.nz/news/politics_election-2026/2426521/election-uncertainty-what-happens-now",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:30-05:00"
+  },
+  {
+   "url": "https://www.gmanetwork.com/news/topstories/world/1008705/judge-orders-paraguay-s-ex-president-pe-a-held-before-trial/story/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.atptour.com/en/news/alcaraz-ruud-paris-2026-sf",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.atptour.com/en/scores/current/paris/352/results",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.fox2detroit.com/news/trump-calls-doj-investigate-sen-slotkin-truth-social-post",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:30-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/politics/2026-election/live-blog/rump-taps-stephen-miller-chief-staff-wiles-cabinet-midterm-elections-rcna607914",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/politics/2026-election/doj-drops-bid-force-california-set-aside-ballots-alleged-noncitizens-rcna607958",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-trump-administration-throws-towel-drops-baseless-lawsuit",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:30-05:00"
+  },
+  {
+   "url": "https://variety.com/2026/tv/news/james-talarico-saturday-night-live-snl-cold-open-election-1236942257/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://latenighter.com/news/james-talarico-makes-surprise-snl-appearance-in-post-election-cold-open/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.firehouse.com/community-risk/community-risk-reduction/news/55417406/new-york-city-officials-to-meet-after-two-lithium-ion-battery-fires-leave-10-dead",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/football/cfl/cfl-playoffs-winnipeg-blue-bombers-montreal-alouettes-9.7413788",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.sportsnet.ca/cfl/article/cfl-division-final-takeaways-alouettes-elks-rise-to-occasion-to-reach-grey-cup/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/sports/football/article-edmonton-elks-vs-bc-lions-cfl-west-division-final/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/poilievre-capital-gains-exemption-budget-2026-9.7413640",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/nova-scotia/data-centre-protests-nova-scotia-9.7413638",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/health/overdoses-er-medetomidine-9.7405697",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1876986-20261108.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877003-20261108.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/news/hong-kong/article/3373683/demerit-system-contractors-not-ruled-out-hong-kong-development-chief-says",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/news/hong-kong/article/3373666/hong-kong-firefighters-get-hk84-million-tracking-upgrade-after-tai-po-fire",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.mplus.org.hk/en/press/mplus-invites-the-community-to-celebrate-its-fifth-anniversary-this-november/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877013-20261108.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/news/hong-kong/society/article/3373685/3-hikers-injured-after-being-hit-landing-paraglider-hong-kong-country-park",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261107/abfed05253394a1e9728fb6cd8aba19a/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261108/de1f73f0fdc64ed3b90372d78c059324/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261107/fb957a798c1348369d226c0281b5688e/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261107/afde614eb2604f4e98f520d711616406/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://news.cgtn.com/news/2026-11-08/China-retains-women-s-trampoline-team-world-title-in-Nanjing-1RTHJuAjm48/p.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261108/0d055239ee414b42a449dac911c7bf9d/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:29-05:00"
+  },
+  {
+   "url": "https://www.news.cn/20261107/c1614dae1e844fa1a338147fd14c10bb/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-08T06:29:30-05:00"
+  }
+ ]
+}

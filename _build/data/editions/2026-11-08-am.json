@@ -1,0 +1,1251 @@
+{
+ "id": "2026-11-08-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-08",
+ "leadId": "w-krakow",
+ "topIds": [
+  "us-doj",
+  "ca-cfl",
+  "hk-mtr",
+  "cn-congress",
+  "w-israel"
+ ],
+ "notes": [
+  "Morning Edition for Sunday, Nov 8, 2026. It covers developments since Saturday’s Morning Edition, with ongoing stories marked with their earlier dates.",
+  "The lead is Saturday’s mass shooting in Kraków’s Main Market Square. Top stories: Trump’s call for a Justice Department probe of Democrats, the CFL division finals that set up the Grey Cup, defective columns at the unfinished Tung Chung West MTR station, the Communist Party’s delegate selection for its 2027 congress, and Gadi Eisenkot’s chance to form Israel’s next government.",
+  "China and World have five stories each; the U.S., Canada and Hong Kong have four, because this weekend’s fresh news there was thinner and we did not pad. Culture appears in the U.S. (SNL), Hong Kong (M+ anniversary) and China (Bingling grottoes exhibition); sports in Canada (CFL), China (trampoline worlds) and World (Paris Masters). Canada has no culture story this morning.",
+  "The Paris Masters final and Eisenkot’s formal appointment were scheduled for Sunday and are described as planned."
+ ],
+ "provenance": [
+  "Stories are compiled from the linked sources; labels describe the type of claim each story rests on.",
+  "Source pages were opened during this morning’s research; the logged check time (6:25 AM ET) was recorded for the whole research batch rather than per page.",
+  "Xinhua and CGTN items are labelled State media. SCMP pages were partly paywalled; only their opening text was read. Two pages (an SCMP item and a Globe and Mail report) were read only from search excerpts, and one Xinhua explainer was not opened in full; this is noted on each. AP pages timed out in our fetch and were not relied on directly.",
+  "Several U.S. and Canadian items rest on a single outlet and are marked so in their source notes. New Zealand seat totals are preliminary."
+ ],
+ "stories": [
+  {
+   "id": "w-krakow",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-07T15:00",
+   "dateLabel": "Nov 7, 2026",
+   "headline": "Gunman kills six in Kraków’s Main Market Square in what Poland’s prime minister calls terrorism",
+   "deck": "A gunman driving through Kraków’s historic Main Market Square on Saturday afternoon fired at random people, killing six and injuring 16, police said. Prime Minister Donald Tusk called it a terrorist attack.",
+   "summary": "A gunman driving through Kraków’s historic Main Market Square on Saturday afternoon fired at random people, killing six and injuring 16, police said. Prime Minister Donald Tusk called it a terrorist attack. Police say the attack began shortly before 3 p.m. local time and lasted about three minutes; officers chased the car until it crashed, then shot and arrested the suspect, a 25-year-old Polish man who is in hospital after surgery. Four women and two men were killed — three Polish, one British and two not yet identified, according to the police chief — and five of the injured are foreign nationals. Two police officers were wounded, one critically. Tusk said three more bodies, two women and a man, were found at the suspect’s home in Ostrowiec Świętokrzyski, with “strong indications” they were his immediate family. Interior Minister Marcin Kierwiński said the suspect appeared “fascinated by far-right ideologies” and held “ultra-nationalist” views. Kraków declared mourning until Nov. 11.",
+   "why": "Mass shootings are rare in Poland, and an attack on one of Europe’s busiest tourist squares by a suspect officials link to far-right ideas will put extremism and gun access at the centre of Polish and EU security debates.",
+   "label": "Reported + official statement",
+   "note": "Details such as the suspect’s motive come from Polish officials and are not yet established in court. The suspect has not been officially named. BBC reports mourning in Kraków until Nov. 11; DW reports Tusk announced two days of national mourning.",
+   "sources": [
+    {
+     "title": "Six killed in Krakow ‘far-right’ shooting, as three more bodies found in suspect’s home",
+     "site": "BBC News",
+     "date": "Nov 7–8, 2026",
+     "href": "https://www.bbc.com/news/articles/c6n9r01d2709o"
+    },
+    {
+     "title": "Poland: Gunman kills 6 in Krakow main square",
+     "site": "DW",
+     "date": "Nov 7, 2026",
+     "href": "https://www.dw.com/en/deadly-shooting-at-krakows-main-square-was-act-of-terrorism-says-polish-prime-minister-donald-tusk/a-79886489"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.com/news/articles/c6n9r01d2709o",
+     "publisher": "BBC News",
+     "published": "Nov 7–8, 2026 (page showed “10 hours ago”)",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Six killed (four women, two men), 16 injured incl. five foreign nationals",
+      "Attack lasted about three minutes; suspect shot and arrested, in hospital after surgery",
+      "Three bodies found at suspect’s home; Tusk: strong indications they are family",
+      "Interior minister: suspect fascinated by far-right ideologies, ultra-nationalist",
+      "Mourning in Kraków until Nov 11; two officers injured, one critically"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.dw.com/en/deadly-shooting-at-krakows-main-square-was-act-of-terrorism-says-polish-prime-minister-donald-tusk/a-79886489",
+     "publisher": "DW (with AP, Reuters)",
+     "published": "Nov 7, 2026",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Tusk called the attack terrorism",
+      "Police chief: three Polish women, one British national, two unidentified",
+      "Suspect is a 25-year-old Polish man; shooting began around 3 p.m.",
+      "Two days of national mourning announced"
+     ],
+     "limits": [
+      "Live-developing story; casualty details may change."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-08-am/w-krakow.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Aerial view of Kraków’s Main Market Square with the Cloth Hall and Town Hall Tower",
+    "caption": "Kraków’s Main Market Square, with the Cloth Hall and Town Hall Tower, seen from St. Mary’s Basilica in 2019.",
+    "credit": "Ingo Mehling",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Krakow_-_Cloth_Hall_from_Basilica_-_1.jpg",
+    "isFilePhoto": true,
+    "year": 2019
+   }
+  },
+  {
+   "id": "w-israel",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-07T14:49",
+   "dateLabel": "Nov 7, 2026 (update to Nov 4–6 coverage)",
+   "headline": "Herzog picks Gadi Eisenkot over Netanyahu to try to form Israel’s next government",
+   "deck": "Israel’s president said Saturday he will task opposition leader Gadi Eisenkot with forming a government, with the formal appointment set for a ceremony on Sunday in Jerusalem.",
+   "summary": "Israel’s president said Saturday he will task opposition leader Gadi Eisenkot with forming a government, with the formal appointment set for a ceremony on Sunday in Jerusalem. Eisenkot, leader of the Yashar party and a former military chief of staff, will have 28 days to assemble 61 votes, with a possible 14-day extension; if no one succeeds, Israel faces fresh elections. His bloc won 48 seats in the Oct. 27 election to 53 for Benjamin Netanyahu’s camp, leaving neither with a majority. The Guardian reports both Arab-majority lists endorsed Eisenkot in consultations, but it is unclear whether his bloc would accept their support. “Now is the time to form a national emergency government,” Eisenkot wrote on X.",
+   "why": "If Eisenkot succeeds, Netanyahu — Israel’s longest-serving prime minister — would be out of office, a shift with consequences for Gaza, the West Bank and U.S.–Israel relations.",
+   "label": "Reported + official statement",
+   "note": "Ongoing story: earlier Donna Daily editions (Nov 4, 5 and 6) covered Herzog’s consultations. The formal ceremony was scheduled for Sunday afternoon in Jerusalem and had not taken place when this edition was compiled.",
+   "sources": [
+    {
+     "title": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
+     "site": "The Guardian",
+     "date": "Nov 7, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government"
+    },
+    {
+     "title": "Xinhua world news summary at 0030 GMT, Nov. 8",
+     "site": "Xinhua (state media)",
+     "date": "Nov 8, 2026",
+     "href": "https://english.news.cn/20261108/5e72b6c3d9be42faa86443b3792082b5/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
+     "publisher": "The Guardian (with agencies)",
+     "published": "Nov 7, 2026, 2:49 PM EST (modified 6:42 PM EST)",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Herzog informed Eisenkot of intention to task him; formal appointment Sunday",
+      "28 days plus possible 14-day extension; 61 votes needed",
+      "Seat totals 48 vs 53; Arab-majority lists endorsed Eisenkot",
+      "Eisenkot quote on X"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://english.news.cn/20261108/5e72b6c3d9be42faa86443b3792082b5/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 8, 2026",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Herzog invited Eisenkot to receive the mandate Sunday at 5 p.m. local time"
+     ],
+     "limits": [
+      "State media; used only to corroborate the ceremony time."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-08-am/w-israel.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Studio portrait of Gadi Eisenkot in a dark jacket against a blue background",
+    "caption": "Gadi Eisenkot, leader of the Yashar party, in a 2026 portrait.",
+    "credit": "Yahav Trudler (Yahav Studio)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Gadi_Eisenkot_2.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "w-nz",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-07T22:27",
+   "dateLabel": "Election held Nov 7, 2026 (NZ time)",
+   "headline": "New Zealand’s photo-finish election leaves the next government unclear until special votes are counted",
+   "deck": "Preliminary results from New Zealand’s general election give National 42 seats to Labour’s 36, though Labour narrowly leads the party vote; neither leader claimed victory.",
+   "summary": "Preliminary results from New Zealand’s general election give National 42 seats to Labour’s 36, though Labour narrowly leads the party vote (29.3% to 29.2%, per the Guardian); neither leader claimed victory. On current numbers the right-leaning bloc of National, ACT and NZ First could form a majority, but about 400,000 special votes — overseas voters and those who voted outside their electorate — are still to be counted, with official results due Nov. 27. A large overhang could expand parliament to around 131 seats, RNZ says, and the new Opportunity party crossed the 5% threshold. RNZ notes six electorates are separated by fewer than 1,000 votes.",
+   "why": "Special votes have historically shifted a few seats toward the left, so a handful of close races could decide whether Christopher Luxon keeps power or a Labour-led bloc takes over.",
+   "label": "Reported + analysis",
+   "note": "Preliminary figures only; seat totals can change when special votes are counted. RNZ’s special-vote scenarios are modelling, not predictions.",
+   "sources": [
+    {
+     "title": "Who won New Zealand’s photo-finish election and why special votes could change everything",
+     "site": "The Guardian",
+     "date": "Nov 7, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/08/nz-election-who-won-results-explained-overhang-special-votes-new-zealand"
+    },
+    {
+     "title": "Election uncertainty: What happens now?",
+     "site": "RNZ",
+     "date": "Nov 8, 2026 (NZ time)",
+     "href": "https://www.rnz.co.nz/news/politics_election-2026/2426521/election-uncertainty-what-happens-now"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/08/nz-election-who-won-results-explained-overhang-special-votes-new-zealand",
+     "publisher": "The Guardian",
+     "published": "Nov 7, 2026, 10:27 PM EST",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Labour 29.3% vs National 29.2% party vote; National 42 seats, Labour 36",
+      "Official results Nov 27; just under 400,000 special votes",
+      "Opportunity crossed 5% threshold"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.rnz.co.nz/news/politics_election-2026/2426521/election-uncertainty-what-happens-now",
+     "publisher": "RNZ",
+     "published": "Nov 8, 2026, 7:47 AM NZDT",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Estimated 399,365 special votes; counting completed Nov 27",
+      "Six electorates with margins under 1,000",
+      "Possible 131-seat parliament with 66 needed for majority"
+     ],
+     "limits": [
+      "Contains labelled modelling (analysis)."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-08-am/w-nz.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Beehive and Parliament House in Wellington under a blue sky",
+    "caption": "The Beehive and Parliament House in Wellington, New Zealand, in 2024.",
+    "credit": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Beehive_and_Parliament_House_-_Wellington_-_New_Zealand_-_DSC00165.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "w-paraguay",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-07T18:00",
+   "dateLabel": "Nov 7, 2026 (update to Nov 6 story)",
+   "headline": "Paraguay’s ousted president Santiago Peña charged and ordered held before trial over the Ueno bank collapse",
+   "deck": "A day after his removal from office, a judge ordered former president Santiago Peña held in pretrial detention at a military facility after prosecutors charged him with breach of trust and administration for personal gain, Reuters reported.",
+   "summary": "A day after his removal from office, a judge ordered former president Santiago Peña held in pretrial detention at a military facility after prosecutors charged him with breach of trust and administration for personal gain, Reuters reported. Prosecutors allege Peña used his office to keep large amounts of public money at the digital lender Ueno while he had financial ties to it; he was a shareholder in its holding company until 2025. His lawyer said Peña pleads not guilty. Former central bank chief Carlos Carvallo, who previously ran Ueno, was also charged and ordered detained. The Guardian reports the bank’s suspension froze the accounts of about 2.9 million people. The central bank said about $160 million had been paid to nearly 1.2 million savers under the deposit guarantee.",
+   "why": "The charges move Paraguay’s banking crisis from a political ouster to a criminal case against a man who was president until Friday, while millions of savers still wait for access to their money.",
+   "label": "Reported + allegation",
+   "note": "Ongoing story: the Nov 7 edition covered Peña’s removal and Pedro Alliana’s swearing-in. The allegations have not been tested in court; Peña denies wrongdoing. Reports differ on the exact share-sale date (Reuters: until March 2025; Guardian: April 2025).",
+   "sources": [
+    {
+     "title": "Judge orders Paraguay’s ex-president Peña held before trial (Reuters)",
+     "site": "GMA News Online",
+     "date": "Nov 8, 2026",
+     "href": "https://www.gmanetwork.com/news/topstories/world/1008705/judge-orders-paraguay-s-ex-president-pe-a-held-before-trial/story/"
+    },
+    {
+     "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
+     "site": "The Guardian",
+     "date": "Nov 6, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.gmanetwork.com/news/topstories/world/1008705/judge-orders-paraguay-s-ex-president-pe-a-held-before-trial/story/",
+     "publisher": "GMA News Online (Reuters copy)",
+     "published": "Nov 8, 2026, 12:46 PM PHT",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Judge Otazú ordered pretrial detention at a military facility",
+      "Charges: breach of trust, administration for personal gain; lawyer says not guilty",
+      "Carvallo charged and detained",
+      "$160 million paid to nearly 1.2 million savers"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
+     "publisher": "The Guardian",
+     "published": "Nov 6, 2026, 8:55 PM EST",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "2.9 million accounts frozen (about 60% of adults)",
+      "Background on Peña’s Ueno shareholding"
+     ],
+     "limits": [
+      "Predates the Saturday charges; used for background."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-alcaraz",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-07T17:30",
+   "dateLabel": "Semifinal Nov 7, 2026; final scheduled Nov 8",
+   "headline": "Alcaraz beats Ruud to set up a Paris Masters final against Ben Shelton",
+   "deck": "Carlos Alcaraz beat Casper Ruud 6-4, 6-4 on Saturday to reach his first Paris Masters final, where he is scheduled to face American Ben Shelton on Sunday.",
+   "summary": "Carlos Alcaraz beat Casper Ruud 6-4, 6-4 on Saturday to reach his first Paris Masters final, where he is scheduled to face American Ben Shelton on Sunday. Alcaraz did not face a break point in the 86-minute match, a day after saving two match points against Taylor Fritz. Shelton came from a set down to beat France’s Luca Van Assche 5-7, 6-3, 6-4. Alcaraz leads their head-to-head 3-1, but Shelton beat him in five sets at this year’s U.S. Open. “I really want to take revenge against Ben,” Alcaraz said.",
+   "why": "A U.S. Open rematch indoors gives Shelton a shot at a first title of this size against the tour’s form player, who arrives on an eight-match winning streak.",
+   "label": "Reported",
+   "note": "Update to the Nov 7 edition’s quarterfinal story. The final had not been played when this edition was compiled.",
+   "sources": [
+    {
+     "title": "Alcaraz marches past Ruud in Paris, sets Shelton title clash",
+     "site": "ATP Tour",
+     "date": "Nov 7, 2026",
+     "href": "https://www.atptour.com/en/news/alcaraz-ruud-paris-2026-sf"
+    },
+    {
+     "title": "Rolex Paris Masters results",
+     "site": "ATP Tour",
+     "date": "Nov 7, 2026",
+     "href": "https://www.atptour.com/en/scores/current/paris/352/results"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.atptour.com/en/news/alcaraz-ruud-paris-2026-sf",
+     "publisher": "ATP Tour",
+     "published": "Nov 7, 2026",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "6-4, 6-4 in 86 minutes, no break points faced",
+      "Shelton beat Van Assche 5-7, 6-3, 6-4",
+      "Head-to-head 3-1; Shelton won at U.S. Open",
+      "Alcaraz “revenge” quote; eight-match streak"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.atptour.com/en/scores/current/paris/352/results",
+     "publisher": "ATP Tour",
+     "published": "Results page, Nov 7, 2026",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Both semifinal scores"
+     ],
+     "limits": [
+      "Live results page; content changes as the final is played."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "us-doj",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-07T14:14",
+   "dateLabel": "Nov 7, 2026",
+   "headline": "Trump says he is ordering a Justice Department probe of Democrats he accuses of “extortion”",
+   "deck": "President Trump said Saturday he was ordering the Justice Department to investigate Democratic leaders he accused of threatening officials and donors, without identifying the alleged letters or offering evidence, CNBC reported.",
+   "summary": "President Trump said Saturday he was ordering the Justice Department to investigate Democratic leaders he accused of threatening officials and donors, without identifying the alleged letters or offering evidence, CNBC reported. In a Truth Social post he called Democrats’ talk of impeachment and investigations “extortion at the highest level” and singled out Sen. Elissa Slotkin of Michigan. Slotkin replied that anyone who breaks the law or uses taxpayer money to enrich themselves should be held accountable — “If you didn’t break the law, then it’s all good.” CNBC notes a federal grand jury previously declined to indict Slotkin and other Democrats over a 2025 video. The same day, Trump posted that he had offered the White House press secretary job to UFC chief Dana White, NBC News reported, and CBS released a clip from a “60 Minutes” interview with Trump scheduled to air Sunday.",
+   "why": "Days after losing both chambers, Trump is answering Democrats’ promised oversight with threats of prosecution — a preview of the confrontation likely when the new Congress opens in January.",
+   "label": "Claim + official statement + reported",
+   "note": "Trump’s accusations are claims; no investigation, letters or evidence had been made public. Whether the Justice Department acts on the post is unknown.",
+   "sources": [
+    {
+     "title": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
+     "site": "CNBC",
+     "date": "Nov 7, 2026",
+     "href": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html"
+    },
+    {
+     "title": "Trump calls for DOJ to investigate Democrats, Sen. Slotkin in Truth Social post",
+     "site": "FOX 2 Detroit",
+     "date": "Nov 7, 2026",
+     "href": "https://www.fox2detroit.com/news/trump-calls-doj-investigate-sen-slotkin-truth-social-post"
+    },
+    {
+     "title": "Trump says he offered press secretary job to UFC CEO Dana White (live blog)",
+     "site": "NBC News",
+     "date": "Nov 7–8, 2026",
+     "href": "https://www.nbcnews.com/politics/2026-election/live-blog/rump-taps-stephen-miller-chief-staff-wiles-cabinet-midterm-elections-rcna607914"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html",
+     "publisher": "CNBC",
+     "published": "Nov 7, 2026, 3:28 PM EST (updated 4:59 PM)",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Trump ordered DOJ probe without specifying letters or providing evidence",
+      "“extortion at the highest level” quote; Slotkin named",
+      "Grand jury previously declined to indict video participants"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.fox2detroit.com/news/trump-calls-doj-investigate-sen-slotkin-truth-social-post",
+     "publisher": "FOX 2 Detroit",
+     "published": "Nov 7, 2026, 9:33 PM EST",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Full Truth Social text",
+      "Slotkin response quotes"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.nbcnews.com/politics/2026-election/live-blog/rump-taps-stephen-miller-chief-staff-wiles-cabinet-midterm-elections-rcna607914",
+     "publisher": "NBC News",
+     "published": "Live blog, updated Nov 8, 2026, 1:20 AM EST",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Dana White press-secretary offer post",
+      "“60 Minutes” interview set to air Sunday"
+     ],
+     "limits": [
+      "Live blog; entries change."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "us-ballots",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-06T21:09",
+   "dateLabel": "Nov 6, 2026",
+   "headline": "Justice Department drops its bid to make California set aside about 20,000 ballots",
+   "deck": "The Justice Department moved Friday to dismiss its own lawsuit seeking to stop California from counting roughly 20,000 ballots it alleged went to noncitizens, a week before a court hearing on its list.",
+   "summary": "The Justice Department moved Friday to dismiss its own lawsuit seeking to stop California from counting roughly 20,000 ballots it alleged went to noncitizens, a week before a court hearing on its list. The motion said the relief it wanted was “no longer available” because the ballots would be mixed with lawful ones by then. California officials had said the list was out of date and included legitimate voters, and the case had already lost at the Ninth Circuit, in district court and at the Supreme Court. Attorney General Rob Bonta said the administration “chose to drop its case” rather than face scrutiny at the Nov. 13 evidentiary hearing. About 5 million California ballots were still uncounted as of Friday, AP reported.",
+   "why": "The retreat removes the most prominent federal challenge to a state’s midterm count, though the Justice Department is still litigating over its noncitizen lists and an Alaska case.",
+   "label": "Reported + official statement",
+   "sources": [
+    {
+     "title": "Justice Department drops bid to force California to set aside ballots from alleged noncitizens (AP)",
+     "site": "NBC News",
+     "date": "Nov 6, 2026",
+     "href": "https://www.nbcnews.com/politics/2026-election/doj-drops-bid-force-california-set-aside-ballots-alleged-noncitizens-rcna607958"
+    },
+    {
+     "title": "Attorney General Bonta: Trump Administration Throws in the Towel, Drops Baseless Lawsuit",
+     "site": "California Department of Justice",
+     "date": "Nov 6, 2026",
+     "href": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-trump-administration-throws-towel-drops-baseless-lawsuit"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.nbcnews.com/politics/2026-election/doj-drops-bid-force-california-set-aside-ballots-alleged-noncitizens-rcna607958",
+     "publisher": "NBC News (AP copy)",
+     "published": "Nov 6, 2026, 9:09 PM EST",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "DOJ moved to dismiss; motion quote on relief no longer available",
+      "Roughly 9 million processed, nearly 5 million left to count",
+      "Alaska suit dismissed, under appeal"
+     ],
+     "limits": [
+      "The AP original timed out in our fetch (access limit); the AP text was read via NBC News."
+     ]
+    },
+    {
+     "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-trump-administration-throws-towel-drops-baseless-lawsuit",
+     "publisher": "California Department of Justice",
+     "published": "Nov 6, 2026",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Voluntary dismissal ahead of Nov 13 hearing",
+      "Four court losses incl. Supreme Court on Nov 2",
+      "Bonta quotes"
+     ],
+     "limits": [
+      "Partisan official statement."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "us-snl",
+   "region": "us",
+   "topic": "culture",
+   "ts": "2026-11-07T23:30",
+   "dateLabel": "Nov 7, 2026",
+   "headline": "Texas Senator-elect James Talarico crashes SNL’s post-midterm cold open as Druski makes history as host",
+   "deck": "Days after winning Texas’s U.S. Senate race, Democrat James Talarico made a surprise appearance in “Saturday Night Live’s” cold open and delivered the “Live from New York” line.",
+   "summary": "Days after winning Texas’s U.S. Senate race, Democrat James Talarico made a surprise appearance in “Saturday Night Live’s” cold open and delivered the “Live from New York” line. Trading jokes with James Austin Johnson’s Trump, he introduced himself as “the guy who’s been texting you every day asking for $5” and asked how many more Trump “freeze” cold opens the show would do (“Infinity!”). LateNighter notes Talarico’s earlier late-night interviews with Stephen Colbert and Jimmy Kimmel went to YouTube amid networks’ equal-time worries. The episode was hosted by comedian Druski, the first online content creator to host, with the Strokes as musical guest; John Mulaney is set to host Nov. 14, Variety reports.",
+   "why": "SNL’s cold open is a barometer of the political mood, and a newly elected senator’s cameo — after his campaign interviews were kept off broadcast TV — says as much about media rules as about comedy.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "James Talarico Crashes ‘SNL’ Cold Open",
+     "site": "Variety",
+     "date": "Nov 7, 2026",
+     "href": "https://variety.com/2026/tv/news/james-talarico-saturday-night-live-snl-cold-open-election-1236942257/"
+    },
+    {
+     "title": "James Talarico Makes Surprise SNL Appearance in Post-Election Cold Open",
+     "site": "LateNighter",
+     "date": "Nov 8, 2026",
+     "href": "https://latenighter.com/news/james-talarico-makes-surprise-snl-appearance-in-post-election-cold-open/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://variety.com/2026/tv/news/james-talarico-saturday-night-live-snl-cold-open-election-1236942257/",
+     "publisher": "Variety",
+     "published": "Nov 7, 2026, 8:53 PM PT",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Talarico cameo and quotes",
+      "Druski first online content creator to host; the Strokes musical guest",
+      "Mulaney to host Nov 14"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://latenighter.com/news/james-talarico-makes-surprise-snl-appearance-in-post-election-cold-open/",
+     "publisher": "LateNighter",
+     "published": "Nov 8, 2026 (page showed “6 hours ago”)",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Talarico delivered “Live from New York”",
+      "Earlier Colbert and Kimmel interviews released on YouTube amid FCC equal-time concerns"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-08-am/us-snl.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "30 Rockefeller Plaza tower rising above buildings with flags on Fifth Avenue",
+    "caption": "30 Rockefeller Plaza in Manhattan, home of NBC’s Studio 8H where “SNL” is made, seen from Fifth Avenue in 2024.",
+    "credit": "D. Benjamin Miller",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:30_Rockefeller_Plaza_viewed_from_5th_Avenue,_August_29,_2024.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "us-fires",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-08T00:00",
+   "dateLabel": "Reported Nov 8, 2026; hearing set for Nov 20",
+   "headline": "NYC Council calls an emergency hearing on lithium-ion battery fires after two blazes kill 10",
+   "deck": "The New York City Council will hold an emergency oversight hearing on Nov. 20 on lithium-ion battery fire safety after fires in the Bronx and Brooklyn’s Sunset Park killed 10 people within a week, the New York Daily News reported.",
+   "summary": "The New York City Council will hold an emergency oversight hearing on Nov. 20 on lithium-ion battery fire safety after fires in the Bronx and Brooklyn’s Sunset Park killed 10 people within a week, the New York Daily News reported. Four members of a Bronx family died after an e-bike battery exploded in their Mott Haven apartment on Oct. 28; six people died in a Sunset Park house fire on Thursday, where two lithium-ion batteries were found but the cause is still under investigation. Speaker Julie Menin called the rise in residential fires “an issue we must address.” FDNY figures cited in the report show 401 battery-linked fires so far this year, up from 292 in all of 2025, and 86 fire deaths citywide to date.",
+   "why": "E-bikes are how many New Yorkers get around and earn a living, so the Council’s next steps on charging, storage and enforcement will reach far beyond the families affected.",
+   "label": "Reported + official figures",
+   "note": "The cause of the Sunset Park fire had not been determined in the report. Some figures in the article appear inconsistent (for example on injuries), so only the clearly stated totals are used here.",
+   "sources": [
+    {
+     "title": "New York City Officials to Meet after Two Lithium-Ion Battery Fires Leave 10 Dead (New York Daily News)",
+     "site": "Firehouse",
+     "date": "Nov 8, 2026",
+     "href": "https://www.firehouse.com/community-risk/community-risk-reduction/news/55417406/new-york-city-officials-to-meet-after-two-lithium-ion-battery-fires-leave-10-dead"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.firehouse.com/community-risk/community-risk-reduction/news/55417406/new-york-city-officials-to-meet-after-two-lithium-ion-battery-fires-leave-10-dead",
+     "publisher": "Firehouse (New York Daily News via TNS)",
+     "published": "Nov 8, 2026",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Nov 20 emergency oversight hearing; Menin quote",
+      "Bronx fire Oct 28, four dead; Sunset Park fire Thursday, six dead, cause under investigation",
+      "401 battery fires this year vs 292 in 2025; 86 fire deaths to date"
+     ],
+     "limits": [
+      "Single source (syndicated Daily News report); the Council’s own post on X was not opened."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-cfl",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-07T18:45",
+   "dateLabel": "Nov 7, 2026; Grey Cup Nov 15",
+   "headline": "Alouettes and Elks win division finals and will meet in the Grey Cup in Calgary",
+   "deck": "Montreal beat Winnipeg 33-23 in the East final and Edmonton beat B.C. 28-16 in the West on Saturday, setting up a Grey Cup on Nov. 15 at McMahon Stadium.",
+   "summary": "Montreal beat Winnipeg 33-23 in the East final and Edmonton beat B.C. 28-16 in the West on Saturday, setting up a Grey Cup on Nov. 15 at McMahon Stadium. Alouettes quarterback Davis Alexander, the CFL’s Most Outstanding Player, threw for 373 yards and two touchdowns; a late strip-sack by Tyrice Beverette sealed it. Afterwards Alexander said a Blue Bombers lineman taunted him repeatedly about his late father — the Bombers and the league had not responded when CBC/CP published. In Edmonton, Cody Fajardo ran for one touchdown and threw for another before 40,183 fans at Commonwealth Stadium, the league’s biggest crowd of the year.",
+   "why": "Montreal returns seeking redemption after last year’s Grey Cup loss, while Edmonton’s run gives the West a home-province final in Alberta.",
+   "label": "Reported + allegation",
+   "note": "Update to the Nov 7 edition’s preview. Alexander’s account of the taunts is his allegation; the player named had not publicly responded in the linked reports.",
+   "sources": [
+    {
+     "title": "Davis Alexander says Bombers player taunted him about late father in Alouettes’ East final win",
+     "site": "CBC Sports (The Canadian Press)",
+     "date": "Nov 7, 2026",
+     "href": "https://www.cbc.ca/sports/football/cfl/cfl-playoffs-winnipeg-blue-bombers-montreal-alouettes-9.7413788"
+    },
+    {
+     "title": "CFL division final takeaways: Alouettes, Elks rise to occasion, reach Grey Cup",
+     "site": "Sportsnet",
+     "date": "Nov 7, 2026",
+     "href": "https://www.sportsnet.ca/cfl/article/cfl-division-final-takeaways-alouettes-elks-rise-to-occasion-to-reach-grey-cup/"
+    },
+    {
+     "title": "Elks beat Lions 28-16 to advance to Grey Cup",
+     "site": "The Globe and Mail (subscriber)",
+     "date": "Nov 7, 2026",
+     "href": "https://www.theglobeandmail.com/sports/football/article-edmonton-elks-vs-bc-lions-cfl-west-division-final/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/sports/football/cfl/cfl-playoffs-winnipeg-blue-bombers-montreal-alouettes-9.7413788",
+     "publisher": "CBC Sports (CP)",
+     "published": "Nov 7, 2026, 6:45 PM EST",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Montreal 33, Winnipeg 23; Alexander 373 yards, 2 TD",
+      "Taunting allegation and quotes; no response from Bombers/CFL",
+      "Grey Cup Nov 15 at McMahon Stadium vs Edmonton (28-16 over B.C.)"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.sportsnet.ca/cfl/article/cfl-division-final-takeaways-alouettes-elks-rise-to-occasion-to-reach-grey-cup/",
+     "publisher": "Sportsnet",
+     "published": "Nov 7, 2026, 11:43 PM",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Both scores; Fajardo rushing TD and TD pass to Austin Mack"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.theglobeandmail.com/sports/football/article-edmonton-elks-vs-bc-lions-cfl-west-division-final/",
+     "publisher": "The Globe and Mail",
+     "published": "Nov 7, 2026",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Crowd of 40,183, CFL’s largest of the year"
+     ],
+     "limits": [
+      "Read from the search-result excerpt only; page not opened in full (subscriber site)."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-08-am/ca-cfl.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Interior of Commonwealth Stadium in Edmonton with green and gold seats around the field",
+    "caption": "Commonwealth Stadium in Edmonton, home of the Elks, in 2024.",
+    "credit": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Commonwealth_Stadium,_Edmonton,_AB.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "ca-budget",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-08T04:00",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "Poilievre pans the budget’s $15-million capital gains exemption as too narrow",
+   "deck": "Conservative Leader Pierre Poilievre said the federal budget’s proposed $15-million capital gains exemption for founders excludes so many sectors that he can’t figure out “who actually qualifies,” in an interview airing Sunday.",
+   "summary": "Conservative Leader Pierre Poilievre said the federal budget’s proposed $15-million capital gains exemption for founders excludes so many sectors that he can’t figure out “who actually qualifies,” in an interview airing Sunday on CBC’s Rosemary Barton Live. The Canada Growth Incentive excludes sectors including agriculture, fishing, finance, real estate, food and accommodation, and arts and entertainment; the budget puts its cost at $715 million over four years. Poilievre backed the budget’s productivity “mega-deduction” but pitched letting people defer tax on capital gains reinvested in Canada. NDP Leader Avi Lewis said the budget favours CEOs and investors; Finance Minister François-Philippe Champagne said a third of new revenue goes to support people.",
+   "why": "How the opposition parties line up on the budget’s tax measures matters for whether Prime Minister Mark Carney’s minority government can pass it.",
+   "label": "Official statement + reported",
+   "note": "Follow-up to the Nov 6 edition’s budget coverage. Positions are the politicians’ own; cost figures are the budget’s estimates.",
+   "sources": [
+    {
+     "title": "Poilievre pans Liberal budget’s $15M capital gains exemption, calls for ‘simpler’ plan",
+     "site": "CBC News",
+     "date": "Nov 8, 2026",
+     "href": "https://www.cbc.ca/news/politics/poilievre-capital-gains-exemption-budget-2026-9.7413640"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/poilievre-capital-gains-exemption-budget-2026-9.7413640",
+     "publisher": "CBC News",
+     "published": "Nov 8, 2026, 4:00 AM EST",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Poilievre quotes from Rosemary Barton Live airing Sunday",
+      "Excluded sectors; $715 million over four years",
+      "Support for productivity mega-deduction; reinvestment deferral proposal",
+      "Lewis and Champagne responses"
+     ],
+     "limits": [
+      "Single source; budget document itself not re-opened this run."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-datacentres",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-07T13:02",
+   "dateLabel": "Nov 7, 2026",
+   "headline": "Hundreds rally across Nova Scotia against a planned AI data centre in Cape Breton",
+   "deck": "Protesters gathered in the rain in Halifax, Kentville, Port Hawkesbury and Truro on Saturday to oppose EverWind Fuels’ planned data centre at Point Tupper, CBC News reported.",
+   "summary": "Protesters gathered in the rain in Halifax, Kentville, Port Hawkesbury and Truro on Saturday to oppose EverWind Fuels’ planned data centre at Point Tupper, CBC News reported. The first phase, planned for next year, would support the AI company Anthropic’s chatbot Claude. Hundreds turned out at Province House in Halifax, with placards about water and electricity use; others raised Mi’kmaw consent. EverWind says it will draw power from the grid until its approved wind farms are built. The province said a data centre can only proceed if it meets federal and provincial guidelines on water, the environment and power rates, and that a potential $10-billion investment is worth being “open minded about.”",
+   "why": "Data centres for AI are arriving in smaller communities across North America, and Nova Scotia’s debate over water, power bills and Indigenous consent is a test case for who gets a say.",
+   "label": "Reported + official statement",
+   "note": "Crowd sizes are CBC estimates.",
+   "sources": [
+    {
+     "title": "Protests across Nova Scotia oppose AI data centres",
+     "site": "CBC News",
+     "date": "Nov 7, 2026",
+     "href": "https://www.cbc.ca/news/canada/nova-scotia/data-centre-protests-nova-scotia-9.7413638"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/nova-scotia/data-centre-protests-nova-scotia-9.7413638",
+     "publisher": "CBC News",
+     "published": "Nov 7, 2026, 1:02 PM EST",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Protests in Halifax (hundreds), Kentville (~200), Port Hawkesbury (~150), Truro (dozens)",
+      "EverWind Point Tupper data centre for Anthropic’s Claude; grid power until wind farms built",
+      "Province statement on guidelines and $10-billion investment"
+     ],
+     "limits": [
+      "Single source."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-08-am/ca-datacentres.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Province House, a sandstone Georgian building in Halifax, with flags and trees in front",
+    "caption": "Province House, Nova Scotia’s legislature in Halifax, pictured in 2008.",
+    "credit": "Louperivois",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Province_House_(Nova_Scotia).jpg",
+    "isFilePhoto": true,
+    "year": 2008
+   }
+  },
+  {
+   "id": "ca-sedative",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-07T04:00",
+   "dateLabel": "Nov 7, 2026",
+   "headline": "ER doctors say a veterinary sedative mixed into street fentanyl is complicating overdose care",
+   "deck": "Emergency physicians across Canada say medetomidine, a veterinary sedative not approved for humans, is turning up in street fentanyl and making overdoses and withdrawal harder to treat, CBC News reported.",
+   "summary": "Emergency physicians across Canada say medetomidine, a veterinary sedative not approved for humans, is turning up in street fentanyl and making overdoses and withdrawal harder to treat, CBC News reported. First detected in Canada in 2023, it has increased substantially in B.C. and Ontario and risen sharply this year in Saskatchewan and Yukon, according to the Canadian Centre on Substance Use and Addiction. Naloxone reverses opioids but not medetomidine, so responders are told to focus on breathing. Doctors describe severe withdrawal — racing heart, high blood pressure, vomiting, delirium — that can require hospital or intensive care. Some physicians called for more supervised consumption sites; Ontario’s health ministry pointed to its new treatment hubs instead.",
+   "why": "A new adulterant that naloxone can’t reverse changes the basic first-aid advice for overdoses and adds strain to already crowded emergency rooms.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "A powerful veterinary sedative is being added to street fentanyl — and ERs are struggling to cope",
+     "site": "CBC News",
+     "date": "Nov 7, 2026",
+     "href": "https://www.cbc.ca/news/health/overdoses-er-medetomidine-9.7405697"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/health/overdoses-er-medetomidine-9.7405697",
+     "publisher": "CBC News (Second Opinion)",
+     "published": "Nov 7, 2026, 4:00 AM EST",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Medetomidine detected since 2023; increases in B.C., Ontario, Saskatchewan, Yukon (CCSA)",
+      "Naloxone does not reverse it; focus on breathing",
+      "Withdrawal symptoms; ICU-level care",
+      "Ontario ministry response"
+     ],
+     "limits": [
+      "Single source; CCSA report not opened this run."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-mtr",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-08T08:35",
+   "dateLabel": "Nov 8, 2026 (HKT); update to Nov 7 story",
+   "headline": "About 30 substandard columns found at the unfinished Tung Chung West MTR station",
+   "deck": "Hong Kong’s Buildings Department said around 30 substandard concrete columns have been found at the Tung Chung West station under construction, but that the defects pose no risk to the structure because temporary supports remain in place.",
+   "summary": "Hong Kong’s Buildings Department said around 30 substandard concrete columns have been found at the Tung Chung West station under construction, but that the defects pose no risk to the structure because temporary supports remain in place. The department said it first confirmed two defective columns during a routine audit on Oct. 27; more were found as concrete was removed and reported to it last week. It has asked the registered structural engineers to submit an investigation report and remedial plan by mid-November. The MTR Corporation has suspended the relevant works. A preliminary review found no evidence of intentional deviation from approved plans, the department said.",
+   "why": "Coming a year after the deadly Tai Po fire put building-works oversight under scrutiny, defects at a new rail station will test whether Hong Kong’s inspection system catches problems early.",
+   "label": "Official statement + reported",
+   "note": "Ongoing story: the Nov 7 edition reported the MTR halting unauthorised pillar repairs. The defect count comes from the department via RTHK.",
+   "sources": [
+    {
+     "title": "Substandard columns found at MTR site in Tung Chung",
+     "site": "RTHK",
+     "date": "Nov 8, 2026 (HKT)",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1876986-20261108.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1876986-20261108.htm",
+     "publisher": "RTHK",
+     "published": "Nov 8, 2026, 8:35 AM HKT",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "About 30 substandard columns; first found in Oct 27 audit",
+      "Report and remedial proposal due mid-month; MTR suspended works",
+      "No risk to structural integrity with temporary supports; no evidence of intentional deviation"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s public broadcaster; a second independent report was not found this morning."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-taipo",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-08T15:18",
+   "dateLabel": "Nov 8, 2026 (HKT)",
+   "headline": "A year after the Tai Po fire, firefighters get new trackers and a demerit system for contractors is “not ruled out”",
+   "deck": "Development chief Bernadette Linn said Sunday a demerit points system for contractors is not ruled out after the Tai Po fire inquiry, as SCMP reported 2,000 firefighters have been issued upgraded tracking devices.",
+   "summary": "Development chief Bernadette Linn said Sunday a demerit points system for contractors is not ruled out after the Tai Po fire inquiry, as SCMP reported 2,000 firefighters have been issued upgraded tracking devices. Speaking on a TV programme, Linn said a new Building Maintenance Support and Services Council will recruit about 90 staff and be set up by year-end to help owners with tendering, and penalties and spot checks will be strengthened. SCMP reported the Fire Services Department spent HK$8.4 million on new devices, rolled out Nov. 1, after the independent inquiry exposed limits of the old system; firefighter Ho Wai-ho was among the 168 people killed in the Wang Fuk Court blaze.",
+   "why": "The inquiry blamed consultants and building professionals; these steps show how far the government will go to tighten a renovation industry that touches nearly every older housing estate.",
+   "label": "Official statement + reported",
+   "sources": [
+    {
+     "title": "New buildings body to recruit about 90 staff: Linn",
+     "site": "RTHK",
+     "date": "Nov 8, 2026 (HKT)",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877003-20261108.htm"
+    },
+    {
+     "title": "Demerit system for contractors ‘not ruled out’, Hong Kong development chief says",
+     "site": "South China Morning Post",
+     "date": "Nov 8, 2026",
+     "href": "https://www.scmp.com/news/hong-kong/article/3373683/demerit-system-contractors-not-ruled-out-hong-kong-development-chief-says"
+    },
+    {
+     "title": "Hong Kong firefighters get HK$8.4 million tracking upgrade after Tai Po fire",
+     "site": "South China Morning Post",
+     "date": "Nov 8, 2026",
+     "href": "https://www.scmp.com/news/hong-kong/article/3373666/hong-kong-firefighters-get-hk84-million-tracking-upgrade-after-tai-po-fire"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877003-20261108.htm",
+     "publisher": "RTHK",
+     "published": "Nov 8, 2026, 4:05 PM HKT",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "New council to recruit ~90 staff, set up by year-end",
+      "Penalties/spot checks strengthened; demerit system not ruled out"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.scmp.com/news/hong-kong/article/3373683/demerit-system-contractors-not-ruled-out-hong-kong-development-chief-says",
+     "publisher": "South China Morning Post",
+     "published": "Nov 8, 2026, 3:18 PM HKT (updated 5:16 PM)",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Linn quote on demerit points",
+      "Inquiry identified consultants and building professionals as main culprits"
+     ],
+     "limits": [
+      "Paywalled; only the opening text was read."
+     ]
+    },
+    {
+     "url": "https://www.scmp.com/news/hong-kong/article/3373666/hong-kong-firefighters-get-hk84-million-tracking-upgrade-after-tai-po-fire",
+     "publisher": "South China Morning Post",
+     "published": "Nov 8, 2026, 9:00 AM HKT",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "About 2,000 firefighters issued new devices; HK$8.4 million; Nov 1 roll-out",
+      "Ho Wai-ho among 168 killed"
+     ],
+     "limits": [
+      "Paywalled; only the opening text was read. SCMP exclusive, not independently corroborated."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-mplus",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-08T10:00",
+   "dateLabel": "Anniversary programme Nov 1–8, 2026",
+   "headline": "M+ marks five years with free entry to designated galleries on Sunday and a Hong Kong New Wave film festival",
+   "deck": "West Kowloon’s M+ museum scheduled free admission to designated exhibitions on Sunday, Nov. 8, closing an eight-day fifth-anniversary programme; it says it has drawn more than 12.5 million visits since opening in 2021.",
+   "summary": "West Kowloon’s M+ museum scheduled free admission to designated exhibitions on Sunday, Nov. 8 (10:00–20:00), closing an eight-day fifth-anniversary programme; it says it has drawn more than 12.5 million visits since opening in 2021. The two ticketed special exhibitions — “Design Ah!” and “Myths and Monsters: The Art of Fantasy in Asia” — are excluded. The anniversary also launched the first M+ Restored Festival, screening all nine restored Hong Kong New Wave films, with screenings and filmmaker talks continuing on selected weekends into December. The museum says about half its visitors are from Hong Kong and that it will launch an M+ Academy for cultural leaders this month.",
+   "why": "For film and theatre lovers, the restored New Wave series is a rare chance to see the movies that defined modern Hong Kong cinema on a big screen.",
+   "label": "Official statement",
+   "note": "Based on the museum’s own announcement (Oct 21); visitor numbers are M+ figures.",
+   "sources": [
+    {
+     "title": "M+ invites the community to celebrate its fifth anniversary this November",
+     "site": "M+ Museum",
+     "date": "Oct 21, 2026",
+     "href": "https://www.mplus.org.hk/en/press/mplus-invites-the-community-to-celebrate-its-fifth-anniversary-this-november/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.mplus.org.hk/en/press/mplus-invites-the-community-to-celebrate-its-fifth-anniversary-this-november/",
+     "publisher": "M+ Museum",
+     "published": "Oct 21, 2026",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Anniversary programme Nov 1–8; free admission to designated exhibitions Nov 8, 10:00–20:00, excluding two special exhibitions",
+      "More than 12.5 million visitors in five years",
+      "M+ Restored Festival with nine restored New Wave films; M+ Academy launching Nov 2026"
+     ],
+     "limits": [
+      "Museum press release; not independent reporting."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-paraglider",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-08T12:36",
+   "dateLabel": "Nov 8, 2026 (HKT)",
+   "headline": "Three hikers, two of them teenagers, hurt after being hit by a landing paraglider in Ma On Shan Country Park",
+   "deck": "A woman and two boys were airlifted to hospital after a paraglider struck them while landing at the Ngong Ping campsite in Ma On Shan Country Park on Sunday, police said.",
+   "summary": "A woman and two boys were airlifted to hospital after a paraglider struck them while landing at the Ngong Ping campsite in Ma On Shan Country Park on Sunday, police said. Police received the report at about 12:36 p.m. from the 42-year-old woman; her 14-year-old son and a 15-year-old boy were also hit. The three suffered head and back injuries and were flown by the Government Flying Service to Ruttonjee Hospital in Wan Chai.",
+   "why": "Ma On Shan’s Ngong Ping plateau is a popular spot for both hikers and paragliders on autumn weekends, and the accident raises questions about how the shared space is managed.",
+   "label": "Reported + official statement",
+   "sources": [
+    {
+     "title": "Three hurt after hit by landing paraglider",
+     "site": "RTHK",
+     "date": "Nov 8, 2026 (HKT)",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877013-20261108.htm"
+    },
+    {
+     "title": "3 hikers injured after being hit by landing paraglider in Hong Kong country park",
+     "site": "South China Morning Post",
+     "date": "Nov 8, 2026",
+     "href": "https://www.scmp.com/news/hong-kong/society/article/3373685/3-hikers-injured-after-being-hit-landing-paraglider-hong-kong-country-park"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877013-20261108.htm",
+     "publisher": "RTHK",
+     "published": "Nov 8, 2026, 3:29 PM HKT",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Report shortly after 12:30 p.m.; woman 42, boys 14 and 15",
+      "Head and back injuries; airlifted by GFS"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.scmp.com/news/hong-kong/society/article/3373685/3-hikers-injured-after-being-hit-landing-paraglider-hong-kong-country-park",
+     "publisher": "South China Morning Post",
+     "published": "Nov 8, 2026, 4:18 PM HKT (updated 6:58 PM)",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Report at 12:36 p.m.; taken to Ruttonjee Hospital"
+     ],
+     "limits": [
+      "Read from the search-result excerpt; full page not opened."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-congress",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-07T10:05",
+   "dateLabel": "Nov 7, 2026",
+   "headline": "China’s Communist Party starts choosing 2,360 delegates for its 21st congress in 2027",
+   "deck": "The Communist Party’s Central Committee issued a circular launching the election of 2,360 delegates to its 21st national congress, to be held in Beijing in the second half of 2027, Xinhua reported.",
+   "summary": "The Communist Party’s Central Committee issued a circular launching the election of 2,360 delegates to its 21st national congress, to be held in Beijing in the second half of 2027, Xinhua reported. Delegates will be chosen by 38 electoral units nationwide. The statement said Xi Jinping convened Politburo and Standing Committee meetings on the plan, and stressed “putting political standards first” and strict eligibility checks. A Xinhua explainer says the process runs through June 2027 and candidate lists must exceed seats by more than 15%.",
+   "why": "The congress, held every five years, sets the party’s top leadership; the delegate process is the first formal step toward a meeting that will show whether and how Xi signals a successor.",
+   "label": "State media + official statement",
+   "note": "The ‘more than 15%’ and June 2027 details come from a Xinhua explainer summarised in search results; that page was not opened in full.",
+   "sources": [
+    {
+     "title": "CPC initiates election process for delegates to 21st national congress",
+     "site": "Xinhua (state media)",
+     "date": "Nov 7, 2026",
+     "href": "https://english.news.cn/20261107/abfed05253394a1e9728fb6cd8aba19a/c.html"
+    },
+    {
+     "title": "Explainer: What to know about election of delegates to 21st CPC National Congress",
+     "site": "Xinhua (state media)",
+     "date": "Nov 8, 2026",
+     "href": "https://english.news.cn/20261108/de1f73f0fdc64ed3b90372d78c059324/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261107/abfed05253394a1e9728fb6cd8aba19a/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 7, 2026, 10:05 Beijing time",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Circular on delegate election; congress in second half of 2027 in Beijing",
+      "2,360 delegates by 38 electoral units",
+      "Xi convened Politburo meetings; “political standards first”"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://english.news.cn/20261108/de1f73f0fdc64ed3b90372d78c059324/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 8, 2026",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Process through June 2027; candidates exceed seats by more than 15%"
+     ],
+     "limits": [
+      "Not opened in full; claims taken from search-result summary and should be read with that limit."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-antarctic",
+   "region": "cn",
+   "topic": "human",
+   "ts": "2026-11-07T20:05",
+   "dateLabel": "Nov 7, 2026",
+   "headline": "China’s 43rd Antarctic expedition sets sail to finish its fifth research station",
+   "deck": "More than 600 expedition members departed Sanya on Saturday aboard the icebreakers Xuelong and Xuelong 2 and a third vessel, Xinhua reported, with a return planned for April 2027.",
+   "summary": "More than 600 expedition members departed Sanya on Saturday aboard the icebreakers Xuelong and Xuelong 2 and a third vessel, Xinhua reported, with a return planned for April 2027. The team plans to complete construction and acceptance of the Qinling Station, survey a site for a prospective new station, continue hot-water drilling toward a subglacial lake after reaching 3,413 metres last season, and test Chinese-made polar drones and vehicles. Xinhua said researchers from Norway, Chile and Bulgaria will cooperate, with scientists from Thailand, France, Belgium, Portugal, Hong Kong and Macao invited.",
+   "why": "China is steadily expanding its Antarctic footprint; a sixth station would give it more reach in a region where science and strategic interests overlap.",
+   "label": "State media",
+   "sources": [
+    {
+     "title": "China kicks off 43rd Antarctic scientific expedition",
+     "site": "Xinhua (state media)",
+     "date": "Nov 7, 2026",
+     "href": "https://english.news.cn/20261107/fb957a798c1348369d226c0281b5688e/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261107/fb957a798c1348369d226c0281b5688e/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 7, 2026, 20:05 Beijing time",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Departure ceremony in Sanya; 600+ members; return April 2027",
+      "Qinling Station completion; survey for prospective new station",
+      "3,413-metre drilling; subglacial lake sampling",
+      "International partners"
+     ],
+     "limits": [
+      "State media only."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-08-am/cn-antarctic.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Red-hulled icebreaker Xuelong 2 docked in Victoria Harbour with Hong Kong skyscrapers behind",
+    "caption": "China’s icebreaker Xuelong 2 docked at Ocean Terminal, Hong Kong, in April 2024.",
+    "credit": "SCJiang",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:202404_Xuelong-2_in_Hong_Kong.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "cn-bingling",
+   "region": "cn",
+   "topic": "culture",
+   "ts": "2026-11-07T22:12",
+   "dateLabel": "Opened Nov 7, 2026; runs to Feb 7, 2027",
+   "headline": "Bingling Temple Grottoes treasures go on show in Lanzhou, most for the first time",
+   "deck": "An exhibition of 165 relics and sets of relics from the 1,600-year-old Bingling Temple Grottoes opened Saturday at the Gansu Jiandu Museum in Lanzhou, Xinhua reported.",
+   "summary": "An exhibition of 165 relics and sets of relics from the 1,600-year-old Bingling Temple Grottoes opened Saturday at the Gansu Jiandu Museum in Lanzhou, Xinhua reported. About two-thirds of the pieces are on public display for the first time, and the show runs until Feb. 7, 2027. The grottoes in Yongjing County, part of the UNESCO-listed Silk Roads network, contain 216 caves and niches, 815 statues and more than 900 square metres of murals.",
+   "why": "Cave art along the Silk Road is rarely moved; bringing it to a city museum lets far more people see Buddhist sculpture and murals that usually require a trip to a remote gorge.",
+   "label": "State media",
+   "sources": [
+    {
+     "title": "Exhibition featuring Bingling Temple Grottoes held in Lanzhou, China’s Gansu",
+     "site": "Xinhua (state media)",
+     "date": "Nov 7, 2026",
+     "href": "https://english.news.cn/20261107/afde614eb2604f4e98f520d711616406/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261107/afde614eb2604f4e98f520d711616406/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 7, 2026, 22:12 Beijing time",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "165 relics and sets; about two-thirds shown for the first time; runs to Feb 7, 2027",
+      "216 caves and niches, 815 statues, 900+ sq m murals; UNESCO Silk Roads property"
+     ],
+     "limits": [
+      "State media photo story."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-08-am/cn-bingling.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Carved Buddhist statues in a weathered niche at the Bingling Temple Grottoes",
+    "caption": "Statues in a niche at the Bingling Temple Grottoes in Gansu, photographed in 2024.",
+    "credit": "Thebrainchamber1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Bingling_Temple_Grottoes_22.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "cn-trampoline",
+   "region": "cn",
+   "topic": "sports",
+   "ts": "2026-11-07T20:00",
+   "dateLabel": "Nov 7, 2026",
+   "headline": "China keeps its women’s trampoline team world title at home in Nanjing; Belarus wins the men’s",
+   "deck": "China’s Zhang Yu, Zhu Xueying and Zhang Xinxin retained the women’s team title at the Trampoline World Championships in Nanjing on Saturday, while Belarus beat the hosts to the men’s crown, CGTN reported.",
+   "summary": "China’s Zhang Yu, Zhu Xueying and Zhang Xinxin retained the women’s team title at the Trampoline World Championships in Nanjing on Saturday, while Belarus beat the hosts to the men’s crown, CGTN reported. Zhang Xinxin sealed it by edging Belarus’s Viyaleta Bardzilouskaya by 0.020 points in the final group; Russia took silver and Belarus bronze. In the men’s final, a landing error by two-time world champion Yan Langyu proved costly as Belarus won with 25 points to China’s 23.",
+   "why": "Trampoline is one of China’s strongest Olympic disciplines, and home results in Nanjing are an early read on its form for the 2028 Los Angeles Games.",
+   "label": "State media",
+   "sources": [
+    {
+     "title": "China retains women’s trampoline team world title in Nanjing",
+     "site": "CGTN (state media)",
+     "date": "Nov 8, 2026",
+     "href": "https://news.cgtn.com/news/2026-11-08/China-retains-women-s-trampoline-team-world-title-in-Nanjing-1RTHJuAjm48/p.html"
+    },
+    {
+     "title": "Xinhua Photo Daily | Nov. 8, 2026",
+     "site": "Xinhua (state media)",
+     "date": "Nov 8, 2026",
+     "href": "https://english.news.cn/20261108/0d055239ee414b42a449dac911c7bf9d/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.cgtn.com/news/2026-11-08/China-retains-women-s-trampoline-team-world-title-in-Nanjing-1RTHJuAjm48/p.html",
+     "publisher": "CGTN (state media)",
+     "published": "Nov 8, 2026, 13:46 Beijing time",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "China won women’s team with 26 points; Russia silver, Belarus bronze",
+      "Zhang Xinxin edged Bardzilouskaya by 0.020",
+      "Belarus men 25 points vs China 23"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://english.news.cn/20261108/0d055239ee414b42a449dac911c7bf9d/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 8, 2026",
+     "checkedAt": "2026-11-08T06:25:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 8 2026",
+     "claimsSupported": [
+      "Women’s team final held Nov 7 at the 39th championships in Nanjing"
+     ],
+     "limits": [
+      "Both sources are state media; official results site not opened."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-forex",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-07T00:00",
+   "dateLabel": "Nov 7, 2026",
+   "headline": "China’s foreign exchange reserves edge up to $3.405 trillion at the end of October",
+   "deck": "China’s foreign exchange reserves rose by $4.9 billion in October to $3.4052 trillion, the State Administration of Foreign Exchange said.",
+   "summary": "China’s foreign exchange reserves rose by $4.9 billion in October to $3.4052 trillion, the State Administration of Foreign Exchange said, according to Xinhua — a 0.14% gain. The regulator attributed the rise to currency conversion and asset-price changes in a month when the U.S. dollar index rose and major asset prices were mixed.",
+   "why": "The world’s largest reserve pile gives Beijing room to steady the yuan ahead of trade talks with Washington and the APEC summit it hosts this month.",
+   "label": "Official figures + state media",
+   "sources": [
+    {
+     "title": "10月末我国外汇储备规模为34052亿美元 (China’s forex reserves at $3.4052 trillion at end-October)",
+     "site": "Xinhua (state media)",
+     "date": "Nov 7, 2026",
+     "href": "https://www.news.cn/20261107/c1614dae1e844fa1a338147fd14c10bb/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.news.cn/20261107/c1614dae1e844fa1a338147fd14c10bb/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 7, 2026, 11:23 Beijing time",
+     "checkedAt": "2026-11-08T06:29:20-05:00",
+     "checkedBy": "Donna Daily replacement-link check, Nov 8 2026",
+     "claimsSupported": [
+      "SAFE data: $3.4052 trillion at end-October, up $4.9 billion (0.14%)",
+      "SAFE official attributes rise to exchange-rate conversion and asset prices as the dollar index rose"
+     ],
+     "limits": [
+      "State media carrying official figures; the SAFE release itself was read during research but failed the automated link check (HTTP 500), an access limit."
+     ]
+    }
+   ],
+   "note": "Figures are the State Administration of Foreign Exchange’s, as carried by Xinhua. SAFE’s own release page (safe.gov.cn) opened during research but returned a server error to the automated link check, so it is not linked."
+  }
+ ]
+}
