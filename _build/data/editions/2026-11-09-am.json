@@ -1,0 +1,1191 @@
+{
+ "id": "2026-11-09-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-09",
+ "leadId": "us-hegseth",
+ "topIds": [
+  "us-nvidia",
+  "ca-screen",
+  "hk-apa",
+  "cn-prices",
+  "w-israel"
+ ],
+ "notes": [
+  "Morning Edition for Monday, Nov 9, 2026. It covers developments since Sunday’s Morning Edition, with ongoing stories marked with their earlier dates.",
+  "The lead is House Democratic leader Hakeem Jeffries backing an impeachment vote on Defense Secretary Pete Hegseth, expected this week. Top stories: Nvidia’s board probe after reports that Jensen Huang was targeted by Chinese intelligence, Ottawa’s split of $600 million for film, TV and music, a second performing-arts campus planned in Ta Kwu Ling, China’s October price data, and Gadi Eisenkot formally receiving Israel’s mandate.",
+  "The U.S. has five stories; Canada, Hong Kong and World have four; China has three, because fresh, well-sourced China news this weekend was thinner and we did not pad. Culture appears in the U.S. (“Wanted” on Broadway), Canada (screen and music funding), Hong Kong (HKAPA campus) and China (micro-drama rules); sports in the U.S. (Giants), Canada (women’s hockey worlds), Hong Kong (Hong Kong Tennis Open) and World (Paris Masters).",
+  "The Hegseth impeachment vote, Eisenkot’s coalition talks and Canada’s next hockey game are described as planned or under way; none had concluded when this edition was compiled."
+ ],
+ "provenance": [
+  "Stories are compiled from the linked sources; labels describe the type of claim each story rests on.",
+  "Source pages were opened during this morning’s research between about 6:24 and 6:27 AM ET; the logged check time (6:26 AM ET) was recorded for the whole research batch rather than per page.",
+  "Xinhua and Global Times items are labelled State media. The SCMP article was partly paywalled and only its opening was read; the Globe and Mail article is subscriber content. Two Chinese-government statistics pages timed out in our web fetch but opened by direct download. Politico and Times of Israel pages did not load in our fetch and were not relied on.",
+  "Several items rest on a single outlet and are marked so in their source notes. Conflicting figures (Egypt injuries, Gascon’s saves, China egg prices, Miller’s appointment day) are flagged on each story."
+ ],
+ "stories": [
+  {
+   "id": "us-hegseth",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-08T14:17",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "Jeffries says he is a “hard yes” on impeaching Defense Secretary Pete Hegseth, with a House vote expected this week",
+   "deck": "House Democratic leader Hakeem Jeffries said on ABC’s “This Week” on Sunday that he backs Republican Rep. Thomas Massie’s push to impeach Defense Secretary Pete Hegseth over the Iran war.",
+   "summary": "House Democratic leader Hakeem Jeffries said on ABC’s “This Week” on Sunday that he backs Republican Rep. Thomas Massie’s push to impeach Defense Secretary Pete Hegseth over the Iran war. “I’m a hard yes on the Hegseth resolution,” Jeffries said, accusing Hegseth of abusing his power and engineering a “reckless and costly war of choice in Iran.” NBC News reports the resolution is expected to be filed early this week with a vote to follow; the BBC says Massie plans to introduce it as early as Monday. According to the BBC, Massie’s resolution has eight articles alleging Hegseth made war on Iran without the congressional authorisation the 1973 War Powers Resolution requires. Hegseth has called the effort “the politics of personal destruction,” the Pentagon told the BBC he followed the law, and President Trump called the impeachment push “very unfair” in a CBS “60 Minutes” interview. Jeffries said House Democrats would discuss the resolution on Tuesday morning.",
+   "why": "Even if the House impeaches Hegseth, removal needs a two-thirds Senate vote, so the real test is how many Republicans break ranks — an early measure of how much the Iran war and the midterm losses have loosened the party’s loyalty to Trump’s cabinet.",
+   "label": "Reported + allegation",
+   "note": "The impeachment articles are allegations, not findings. The vote had not been held at the time of writing; timing comes from NBC News and the BBC and could change. The current House is still the outgoing one: Democrats take control in January.",
+   "sources": [
+    {
+     "title": "House Minority Leader Hakeem Jeffries says he’s a ‘hard yes’ on impeaching Defense Secretary Pete Hegseth",
+     "site": "NBC News",
+     "date": "Nov 8, 2026",
+     "href": "https://www.nbcnews.com/politics/congress/house-minority-leader-hakeem-jeffries-hard-yes-impeaching-hegseth-rcna608137"
+    },
+    {
+     "title": "Top House Democrat ‘a hard yes’ on impeaching Hegseth",
+     "site": "BBC News",
+     "date": "Nov 8, 2026",
+     "href": "https://www.bbc.com/news/articles/cj4g1nwx39wno"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.nbcnews.com/politics/congress/house-minority-leader-hakeem-jeffries-hard-yes-impeaching-hegseth-rcna608137",
+     "publisher": "NBC News",
+     "published": "Nov 8, 2026, 2:17 PM EST",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Jeffries “hard yes” quote on ABC’s This Week",
+      "Resolution expected to be filed early this week, vote to follow",
+      "Democrats to discuss on Tuesday morning",
+      "Hegseth video calling it “politics of personal destruction”"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.bbc.com/news/articles/cj4g1nwx39wno",
+     "publisher": "BBC News",
+     "published": "Nov 8, 2026 (page showed “9 hours ago”)",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Massie plans to introduce resolution as early as Monday",
+      "Eight articles alleging war on Iran without War Powers authorisation",
+      "Pentagon: followed the law",
+      "Trump on 60 Minutes: “very unfair”",
+      "Senate removal needs two-thirds"
+     ],
+     "limits": [
+      "BBC gives Democrats’ incoming House majority as 254 seats with races still uncalled; not used here."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-09-am/us-hegseth.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Official portrait of Pete Hegseth in a dark suit in front of U.S. and Defense Department flags",
+    "caption": "Pete Hegseth’s official Defense Department portrait, taken in January 2025.",
+    "credit": "U.S. Department of Defense",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pete_Hegseth_Official_Portrait.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Pete_Hegseth_Official_Portrait.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "us-nvidia",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-08T15:12",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "Nvidia’s board opens an independent probe after reports that CEO Jensen Huang was targeted by Chinese intelligence",
+   "deck": "Nvidia’s board said on Sunday it is opening an independent investigation after reports that founder and CEO Jensen Huang was the target of a foreign intelligence effort.",
+   "summary": "Nvidia’s board said on Sunday it is opening an independent investigation after reports that founder and CEO Jensen Huang was the target of a foreign intelligence effort. A committee of independent directors, with outside counsel, will oversee it; the board said it has “no reason to believe” national security or Nvidia secrets were compromised and that Huang supports the review. The move follows reporting by The New York Times and the Financial Times, cited by CNBC, that U.S. intelligence agencies are concerned that Alice Huang — a businesswoman linked to the Nvidia customer Megaspeed, and no relation to the CEO — has been passing information to Beijing. In an email to staff, Huang said he had an affair with her and apologised to his family. CNBC notes Nvidia reports quarterly earnings on Nov. 17, and three House Republican committee chairs have asked Huang to brief them on Nov. 18.",
+   "why": "Nvidia makes the chips at the heart of the U.S.–China AI race, so any question about its CEO’s exposure to Chinese intelligence lands on export-control policy and investor confidence at once.",
+   "label": "Official statement + allegation + unnamed sources",
+   "note": "The spying concerns are reported allegations attributed to U.S. intelligence agencies via The New York Times and Financial Times; Donna Daily did not open those original reports (both are paywalled). Nothing has been proven, and no one has been charged.",
+   "sources": [
+    {
+     "title": "Statement From NVIDIA Board of Directors",
+     "site": "NVIDIA Newsroom",
+     "date": "Nov 8, 2026",
+     "href": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+    },
+    {
+     "title": "Nvidia investigates CEO Jensen Huang’s relationship with alleged Chinese spy",
+     "site": "CNBC",
+     "date": "Nov 8, 2026",
+     "href": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+     "publisher": "NVIDIA",
+     "published": "Nov 8, 2026",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Independent investigation by a committee of independent directors with outside counsel",
+      "No reason to believe national security or company secrets compromised",
+      "Huang supports the review"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+     "publisher": "CNBC",
+     "published": "Nov 8, 2026, 3:12 PM EST (updated 5:53 PM)",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "NYT/FT reports of U.S. intelligence concerns about Alice Huang",
+      "Her link to Megaspeed",
+      "Huang’s staff email admitting an affair",
+      "Earnings Nov 17; House chairs’ Nov 18 briefing request"
+     ],
+     "limits": [
+      "CNBC relays NYT/FT reporting; the original articles were not opened."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-09-am/us-nvidia.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Jensen Huang, in a dark jacket, surrounded by students taking selfies",
+    "caption": "Nvidia CEO Jensen Huang with students after a talk at Stanford University in April 2026.",
+    "credit": "Anderseidesvik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_024.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "us-immigration",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-08T19:00",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "Trump says his deportation push was “too tough” and that he would “love to do something” on immigration with Democrats",
+   "deck": "In a “60 Minutes” interview aired on Sunday, President Trump said his deportation drive may have been “too tough” on long-settled immigrants with jobs and that it hurt him at the polls.",
+   "summary": "In a “60 Minutes” interview aired on Sunday, President Trump said his deportation drive may have been “too tough” on long-settled immigrants with jobs and that it hurt him at the polls. He said he got “an A+ for closing up the border” but was hurt by removing people who “had good jobs,” and that he would “love to do something on immigration” with Democrats, who control both chambers from January. ABC News reports he floated working out “a deal” for people who have been in the country for 10 to 15 years, without giving terms. CBS notes it is unclear whether enforcement will change: Trump has just named Stephen Miller, an architect of the crackdown, as White House chief of staff. CBS exit polling cited in its report found 58% of voters think the administration’s immigration actions have gone too far.",
+   "why": "A president conceding his signature policy cost votes opens a door to bargaining with the new Democratic Congress — but with Miller now running the White House, whether enforcement actually softens is the thing to watch.",
+   "label": "Reported",
+   "note": "Trump gave no specifics of any deal. The two sources differ on timing of Miller’s appointment: CBS says Trump replaced Susie Wiles on Friday; ABC says Monday. Donna Daily reported the appointment on Nov. 7.",
+   "sources": [
+    {
+     "title": "Trump says his deportation policy might have been “too tough” in 60 Minutes interview",
+     "site": "CBS News",
+     "date": "Nov 8, 2026",
+     "href": "https://www.cbsnews.com/news/trump-says-some-of-his-immigration-policies-may-have-been-too-tough-60-minutes/"
+    },
+    {
+     "title": "Trump says ‘too tough’ deportation policies hurt him in the midterms",
+     "site": "ABC News",
+     "date": "Nov 9, 2026",
+     "href": "https://abcnews.com/US/trump-tough-deportation-policies-hurt-midterms/story?id=137963657"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbsnews.com/news/trump-says-some-of-his-immigration-policies-may-have-been-too-tough-60-minutes/",
+     "publisher": "CBS News",
+     "published": "Nov 8, 2026, 7:00 PM EST",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "“I think it was too tough” quote",
+      "“A+ for closing up the border”",
+      "Would “love to do something on immigration” with Democrats",
+      "Miller replaced Wiles on Friday",
+      "Exit poll: 58% say actions gone too far"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://abcnews.com/US/trump-tough-deportation-policies-hurt-midterms/story?id=137963657",
+     "publisher": "ABC News",
+     "published": "Nov 9, 2026, 12:08 AM",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "“I think ultimately, that hurt me”",
+      "Openness to a deal for people here 10–15 years",
+      "No specifics given"
+     ],
+     "limits": [
+      "ABC says Miller replaced Wiles “on Monday”, conflicting with CBS (“Friday”)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "us-wanted",
+   "region": "us",
+   "topic": "culture",
+   "ts": "2026-11-08T22:02",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "New Broadway musical “Wanted” opens to mixed reviews that single out its powerhouse singers",
+   "deck": "“Wanted,” an original musical about two outlaw sisters in 1890s Texas, opened at the James Earl Jones Theatre on Sunday; critics broadly praised the voices but faulted the plotting.",
+   "summary": "“Wanted,” an original musical about two outlaw sisters in 1890s Texas, opened at the James Earl Jones Theatre on Sunday; critics broadly praised the voices but faulted the plotting. Angelica Chéri wrote the book and lyrics, inspired by a family legend about her great-great-aunts Mary and Martha Clarke, with music by Ross Baum and direction by Stevie Walker-Webb. Solea Pfeiffer and Liisi LaFontaine play the sisters, with R&B singer Ledisi as their mother and Luke James. In BroadwayWorld’s roundup of 14 reviews (average 62.9%), The New York Times called it messy but said “a great musical could yet be somewhere inside,” Variety called the vocal talent “beyond exceptional,” and Deadline said nearly every song builds to the same “roof-raising” belt.",
+   "why": "Original musicals by Black women writers are still rare on Broadway; whether “Wanted” can survive mixed notices on the strength of its cast will say a lot about how much room the season leaves for new, non-franchise work.",
+   "label": "Reported + opinion",
+   "note": "Review quotes are critics’ opinions, collected by BroadwayWorld; Donna Daily did not open each review separately.",
+   "sources": [
+    {
+     "title": "Review Roundup: WANTED Opens on Broadway",
+     "site": "BroadwayWorld",
+     "date": "Nov 8, 2026",
+     "href": "https://www.broadwayworld.com/article/Review-Roundup-WANTED-Opens-on-Broadway-20261108"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.broadwayworld.com/article/Review-Roundup-WANTED-Opens-on-Broadway-20261108",
+     "publisher": "BroadwayWorld",
+     "published": "Nov 8, 2026, 10:02 PM EST",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Opened on Broadway at the James Earl Jones Theatre",
+      "Creative team and cast",
+      "Review excerpts from NYT, Variety, Deadline and others",
+      "Average rating 62.9% across 14 reviews"
+     ],
+     "limits": [
+      "Single aggregator source; individual reviews not opened."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-09-am/us-wanted.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Beige classical facade of the James Earl Jones Theatre on a Manhattan street, with taller buildings around it",
+    "caption": "The James Earl Jones Theatre on West 48th Street in Manhattan, pictured in 2022.",
+    "credit": "Philip Romano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:JamesEarlJonesTheatre.jpg",
+    "isFilePhoto": true,
+    "year": 2022
+   }
+  },
+  {
+   "id": "us-giants",
+   "region": "us",
+   "topic": "sports",
+   "ts": "2026-11-08T13:00",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "Giants win in Philadelphia for the first time since 2013, handing the Eagles a seventh straight loss",
+   "deck": "Jameis Winston came off the bench for the injured JJ McCarthy and threw the go-ahead touchdown as the New York Giants beat the Eagles 19-11 on Sunday.",
+   "summary": "Jameis Winston came off the bench for the injured JJ McCarthy and threw the go-ahead touchdown as the New York Giants beat the Eagles 19-11 on Sunday. The 5-2-1 Giants are the only NFC East team with a winning record, and it was their first win in Philadelphia since October 2013 after 13 straight home losses there. The 2-7 Eagles, with Jalen Hurts likely out for the season with blood clots, are on their longest losing run since 2012. Elsewhere in Week 9, the Jets fell 35-12 at Kansas City for their fourth straight loss, and the Bengals beat the Falcons 34-17 at Madrid’s Bernabéu.",
+   "why": "A first-place Giants team in November changes the mood in New York, while the Eagles’ slide could make them sellers before Tuesday’s trade deadline.",
+   "label": "Reported",
+   "note": "Single source: an agency-compiled roundup published by The Guardian. McCarthy’s injury status was not detailed.",
+   "sources": [
+    {
+     "title": "NFL roundup: Cowboys stun Colts with late comeback as Bengals roll in Madrid",
+     "site": "The Guardian (agencies)",
+     "date": "Nov 8, 2026",
+     "href": "https://www.theguardian.com/sport/2026/nov/08/nfl-roundup-sunday-football-scores-week-9"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/sport/2026/nov/08/nfl-roundup-sunday-football-scores-week-9",
+     "publisher": "The Guardian (agencies)",
+     "published": "Nov 8, 2026 (updated Nov 9, 1:32 AM EST)",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Giants 19-11 Eagles; Winston replaced injured McCarthy",
+      "First Giants win in Philadelphia since Oct 27, 2013",
+      "Eagles 2-7, seventh straight loss; Hurts likely out with blood clots",
+      "Chiefs 35-12 Jets; Bengals 34-17 Falcons in Madrid",
+      "Trade deadline Tuesday"
+     ],
+     "limits": [
+      "Single source."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-screen",
+   "region": "ca",
+   "topic": "culture",
+   "ts": "2026-11-08T12:00",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "Ottawa sets out how its $600 million for film, TV and music will be split, with the Canada Media Fund getting the most",
+   "deck": "Culture Minister Marc Miller announced on Sunday how $600 million promised to Canada’s screen and music sectors this fiscal year will flow through six existing funds and agencies.",
+   "summary": "Culture Minister Marc Miller announced on Sunday how $600 million promised to Canada’s screen and music sectors this fiscal year will flow through six existing funds and agencies. The Globe and Mail reports the Canada Media Fund gets the largest share, $213.4 million, with $68.5 million for Telefilm Canada, $67 million for music through the Canada Music Fund, $51 million for the Indigenous Screen Office, $10 million for Northern Aboriginal Broadcasting and up to $5 million for the Canada History Fund; independent production and local-news funds share $185.1 million. Ottawa says the money is meant to stabilise the sectors while longer-term streaming policy is worked out. The Globe notes the package was first promised in June, after the government asked the CRTC to pause a rule requiring foreign streamers to contribute 15% of Canadian revenue, and that industry groups have warned it is no substitute for enforceable obligations on streamers.",
+   "why": "For Canadian actors, crews and musicians, this is bridge money: it keeps productions financed this year, but the bigger fight — whether Netflix and other streamers must pay into Canadian content — is still unresolved.",
+   "label": "Official figures + reported",
+   "note": "Per-fund amounts are as reported by The Globe and Mail from Canadian Heritage’s backgrounder; the government news release itself lists the six recipients but not the amounts, and the backgrounder was not opened. The Globe article is subscriber content.",
+   "sources": [
+    {
+     "title": "Minister Miller announces the rollout of $600 million targeted support to Canada’s audio and audiovisual sectors",
+     "site": "Canadian Heritage (news release)",
+     "date": "Nov 8, 2026",
+     "href": "https://www.canada.ca/en/canadian-heritage/news/2026/11/budget-2026-masters-of-our-destiny---minister-miller-announces-the-rollout-of-600-million-targeted-support-to-canadas-audio-and-audiovisual-sectors.html"
+    },
+    {
+     "title": "Ottawa reveals details on long-promised $600-million for screen and music sectors",
+     "site": "The Globe and Mail (subscriber)",
+     "date": "Nov 8, 2026",
+     "href": "https://www.theglobeandmail.com/canada/article-ottawa-reveals-details-on-long-promised-600-million-for-screen-and/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.canada.ca/en/canadian-heritage/news/2026/11/budget-2026-masters-of-our-destiny---minister-miller-announces-the-rollout-of-600-million-targeted-support-to-canadas-audio-and-audiovisual-sectors.html",
+     "publisher": "Canadian Heritage",
+     "published": "Nov 8, 2026",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "$600M confirmed in Budget 2026 for this fiscal year",
+      "Delivered through six programs: CMF, Indigenous Screen Office, Canada Music Fund, Northern Aboriginal Broadcasting, Canada History Fund, Telefilm",
+      "Aim: stability while longer-term policy evolves"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.theglobeandmail.com/canada/article-ottawa-reveals-details-on-long-promised-600-million-for-screen-and/",
+     "publisher": "The Globe and Mail",
+     "published": "Nov 8, 2026",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Per-fund amounts",
+      "Funding first promised in June after CRTC streaming-rule pause",
+      "August industry open letter warning it is not a substitute for streamer obligations"
+     ],
+     "limits": [
+      "Subscriber content; full text was readable at check time."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-bombers",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-08T15:54",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "B.C. wildfire crews welcome budget money for water bombers but say the people on the ground need help too",
+   "deck": "Front-line wildland firefighters in British Columbia welcomed the federal budget’s up to $2.5 billion in financing to double water-bomber production, but told CBC News that crews need better support.",
+   "summary": "Front-line wildland firefighters in British Columbia welcomed the federal budget’s up to $2.5 billion in financing to double water-bomber production, but told CBC News that crews need better support. The Finance Ministry says the money will help De Havilland Canada open a second assembly line in Alberta, raising output of Canadair water bombers to 20 aircraft a year. Firefighters said aircraft can be grounded by wind and smoke, and that weaker benefits than structural firefighters drive high turnover. One Indigenous fire-services director called for funding for prescribed and cultural burns and a national accreditation system for contract crews. B.C. saw 1,474 wildfires burn more than 4,700 square kilometres in 2026, destroying or damaging over 500 structures.",
+   "why": "Planes are a visible, buildable answer to worsening fire seasons; the crews’ point is that the harder, cheaper fixes — keeping experienced people and burning fuel before summer — are what decide whether towns are saved.",
+   "label": "Reported + official statement",
+   "note": "Single outlet. Budget 2026 was tabled on Nov. 5 (first covered in Donna Daily on Nov. 6).",
+   "sources": [
+    {
+     "title": "Wildfire fighters hail federal water bomber funding but call for more support on the ground",
+     "site": "CBC News",
+     "date": "Nov 8, 2026",
+     "href": "https://www.cbc.ca/news/canada/british-columbia/water-bomber-funding-firefighter-reaction-9.7371769"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/british-columbia/water-bomber-funding-firefighter-reaction-9.7371769",
+     "publisher": "CBC News",
+     "published": "Nov 8, 2026, 3:54 PM EST",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Up to $2.5B financing for De Havilland Canada",
+      "Second assembly line in Alberta, 20 aircraft a year",
+      "Firefighter quotes on ground support, turnover and accreditation",
+      "B.C. 2026 season figures"
+     ],
+     "limits": [
+      "Single source."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-09-am/ca-bombers.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A twin-engine water bomber banking against a cloudy sky",
+    "caption": "A water bomber flying over Thunder Bay, Ontario, in 2010.",
+    "credit": "Per from Thunder Bay, Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Water_bomber_in_Thunder_Bay_Ontario_-a.jpg",
+    "isFilePhoto": true,
+    "year": 2010
+   }
+  },
+  {
+   "id": "ca-york",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-08T12:50",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "York University says personal data was stolen from departmental web forms used as far back as 2007",
+   "deck": "Toronto’s York University says an “unauthorized actor” stole personal information submitted through some departmental online forms between 2007 and October 2026.",
+   "summary": "Toronto’s York University says an “unauthorized actor” stole personal information submitted through some departmental online forms between 2007 and October 2026. The forms were used for things like residence applications, meeting registrations and surveys across 14 university websites, from the Centre for Refugee Studies to the Schulich School of Business. York says most of the stolen data was basic contact details and student ID numbers, but its notice lists categories such as health information, disability status and, for some, sexual orientation. A small number of people whose government ID or financial account details were exposed are being offered two years of credit monitoring. York found the incident on Oct. 25, says its investigation found no sign the intruder reached other systems, and has reported it to police and Ontario’s privacy commissioner.",
+   "why": "Years-old forms that nobody thinks about are a common weak point; the breach is a reminder for students anywhere that sensitive information handed over for a one-off survey can sit online for decades.",
+   "label": "Reported + official statement",
+   "note": "York has not said how the intrusion happened or how many people were affected.",
+   "sources": [
+    {
+     "title": "York University warns of personal data theft in cybersecurity incident",
+     "site": "CBC News",
+     "date": "Nov 8, 2026",
+     "href": "https://www.cbc.ca/news/canada/toronto/york-university-department-forms-cybersecurity-incident-9.7414235"
+    },
+    {
+     "title": "Cybersecurity Incident (notice and FAQ)",
+     "site": "York University",
+     "date": "Nov 2026",
+     "href": "https://www.yorku.ca/uit/infosec/incident-faq/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/toronto/york-university-department-forms-cybersecurity-incident-9.7414235",
+     "publisher": "CBC News",
+     "published": "Nov 8, 2026, 12:50 PM EST",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Theft of personal data from departmental forms, 2007–Oct 2026",
+      "Discovered Oct 25",
+      "Credit monitoring for those with ID/financial data exposed",
+      "Reported to police and the IPC"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.yorku.ca/uit/infosec/incident-faq/",
+     "publisher": "York University",
+     "published": "Undated notice (Nov 2026)",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "List of 14 affected websites and data categories",
+      "Most data basic contact info and York IDs",
+      "No evidence of access beyond affected systems"
+     ],
+     "limits": [
+      "Notice page carries no publication date."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-hockey",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-08T14:00",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "Canada routs Japan 9-0 at the women’s hockey world championship in Denmark",
+   "deck": "Nine different Canadians scored as Canada beat Japan 9-0 in Herning, Denmark, on Sunday to go 2-0 at the women’s world championship.",
+   "summary": "Nine different Canadians scored as Canada beat Japan 9-0 in Herning, Denmark, on Sunday to go 2-0 at the women’s world championship. Nineteen-year-old defender Chloe Primerano opened the scoring, Canada led 4-0 after two periods and added five goals in the third, and goaltender Eve Gascon earned the shutout. Japan’s Riko Kawaguchi made 45 saves, according to the IIHF. Canada, the reigning silver medallists, top Group B and are scheduled to play host Denmark on Monday.",
+   "why": "With several players scoring their first national-team goals, lopsided group wins let Canada’s coaches test depth before the knockout rounds that decide the medals.",
+   "label": "Reported",
+   "note": "Sources differ slightly on Gascon’s workload: CBC/The Canadian Press says she stopped all 11 shots; the IIHF says 12 saves.",
+   "sources": [
+    {
+     "title": "Canada moves to 2-0 at women’s hockey worlds with 9-0 win over Japan",
+     "site": "CBC Sports (The Canadian Press)",
+     "date": "Nov 8, 2026",
+     "href": "https://www.cbc.ca/sports/hockey/canada-japan-womens-hockey-worlds-november-8-9.7414103"
+    },
+    {
+     "title": "Canada stays perfect",
+     "site": "IIHF",
+     "date": "Nov 8, 2026",
+     "href": "https://www.iihf.com/en/events/2026/ww/news/76836/canjpn"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/sports/hockey/canada-japan-womens-hockey-worlds-november-8-9.7414103",
+     "publisher": "CBC Sports (The Canadian Press)",
+     "published": "Nov 8, 2026, 4:44 PM EST",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "9-0 win in Herning; Primerano opened scoring",
+      "4-0 after two, five in the third",
+      "Canada 2-0, plays Denmark Monday"
+     ],
+     "limits": [
+      "Says Gascon stopped 11 shots."
+     ]
+    },
+    {
+     "url": "https://www.iihf.com/en/events/2026/ww/news/76836/canjpn",
+     "publisher": "IIHF",
+     "published": "Nov 8, 2026",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Gascon shutout; Kawaguchi 45 saves",
+      "Scoring sequence"
+     ],
+     "limits": [
+      "Says Gascon made 12 saves, conflicting with CBC’s 11."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-apa",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-08T03:53",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "Government proposes nearly doubling Ta Kwu Ling’s university town, with land set aside for a second HKAPA campus",
+   "deck": "A Development Bureau paper proposes expanding the campus zone of the planned Ta Kwu Ling university town from 40 to 75 hectares, reserving about seven hectares for a second campus of the Hong Kong Academy for Performing Arts.",
+   "summary": "A Development Bureau paper proposes expanding the campus zone of the planned Ta Kwu Ling university town from 40 to 75 hectares, reserving about seven hectares for a second campus of the Hong Kong Academy for Performing Arts. According to the paper, submitted to the North District Council and reported by The Standard and the SCMP, the campus zone would span 10 sites along the Ping Yuen and Shenzhen rivers, with shared libraries, sports grounds, labs and dormitories. The wider priority development area near Heung Yuen Wai would grow 20% to 250 hectares, with about 13,000 homes and 27,000 jobs. Land resumption is expected from the second quarter of 2028, with the first plots ready by 2030 at the earliest.",
+   "why": "HKAPA is the city’s only public performing-arts school, and a second campus in the Northern Metropolis would be a long-term bet that drama, dance and film training can grow alongside the border tech hub — though the timetable runs into the 2030s.",
+   "label": "Reported + official proposal",
+   "note": "This is a proposal in a government paper, not an approved plan. The SCMP article is partly paywalled; only its opening was read.",
+   "sources": [
+    {
+     "title": "Ta Kwu Ling University Town to expand to 75 hectares with site reserved for new HKAPA campus",
+     "site": "The Standard",
+     "date": "Nov 8, 2026",
+     "href": "https://www.thestandard.com.hk/news/article/347876/Ta-Kwu-Ling-University-Town-to-expand-to-75-hectares-with-site-reserved-for-new-HKAPA-campus"
+    },
+    {
+     "title": "Hong Kong’s top drama school to stage entrance as university town expands campus",
+     "site": "South China Morning Post",
+     "date": "Nov 8, 2026",
+     "href": "https://www.scmp.com/news/hong-kong/education/article/3373709/hong-kongs-top-drama-school-stage-entrance-university-town-expands-campus"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.thestandard.com.hk/news/article/347876/Ta-Kwu-Ling-University-Town-to-expand-to-75-hectares-with-site-reserved-for-new-HKAPA-campus",
+     "publisher": "The Standard",
+     "published": "Nov 8, 2026, 16:53 HKT",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "40 to 75 hectares; about 7 ha for a second HKAPA campus",
+      "Paper to North District Council",
+      "250-ha priority area, 13,000 homes, 27,000 jobs",
+      "Land resumption from Q2 2028; first plots 2030 at earliest"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.scmp.com/news/hong-kong/education/article/3373709/hong-kongs-top-drama-school-stage-entrance-university-town-expands-campus",
+     "publisher": "South China Morning Post",
+     "published": "Nov 8, 2026, 10:01 PM HKT",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Campus area 40 to 75 ha",
+      "10 parcels along Ping Yuen and Shenzhen rivers",
+      "Second campus for HKAPA"
+     ],
+     "limits": [
+      "Partly paywalled; only the opening paragraphs were read."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-oceanpark",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-09T02:30",
+   "dateLabel": "Nov 9, 2026 (Hong Kong afternoon)",
+   "headline": "About 40 visitors stranded when Ocean Park’s observation tower stalls near the top",
+   "deck": "Around 40 people were stuck on Ocean Park Tower’s rotating cabin on Monday afternoon Hong Kong time after the ride malfunctioned and stopped near the top.",
+   "summary": "Around 40 people were stuck on Ocean Park Tower’s rotating cabin on Monday afternoon Hong Kong time after the ride malfunctioned and stopped near the top. Police and fire services were alerted at about 3:30 p.m.; park staff led most passengers down a backup stairwell, and a firefighter brought down one visitor who felt unwell by rope. The Electrical and Mechanical Services Department says it will investigate and has required the park to submit an incident report. The same ride stalled in May 2025, stranding riders for nearly two hours after its safety system was triggered.",
+   "why": "A second breakdown in about 18 months at one of the city’s best-known attractions puts pressure on Ocean Park and regulators to explain what went wrong before tourists lose confidence in the ride.",
+   "label": "Reported + official statement",
+   "note": "Monday afternoon in Hong Kong was early Monday morning in New York. The cause had not been given.",
+   "sources": [
+    {
+     "title": "Ocean Park Tower stalls near top, stranding about 40 visitors",
+     "site": "The Standard",
+     "date": "Nov 9, 2026",
+     "href": "https://www.thestandard.com.hk/news/article/347964/Ocean-Park-Tower-stalls-near-top-stranding-about-40-visitors"
+    },
+    {
+     "title": "40 stranded in mid-air as Ocean Park Tower ride stalls",
+     "site": "RTHK",
+     "date": "Nov 9, 2026",
+     "href": "https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/en/component/k2/1877141-20261109.htm?spTabChangeable=0"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.thestandard.com.hk/news/article/347964/Ocean-Park-Tower-stalls-near-top-stranding-about-40-visitors",
+     "publisher": "The Standard",
+     "published": "Nov 9, 2026 (page showed “57 mins ago”)",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "About 40 stranded; report around 3:30 p.m.",
+      "One visitor brought down by firefighter",
+      "EMSD director: incident report required, cause to be investigated",
+      "Previous stall in May 2025"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/en/component/k2/1877141-20261109.htm?spTabChangeable=0",
+     "publisher": "RTHK",
+     "published": "Nov 9, 2026, 18:13 HKT",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Staff used backup stairwell to evacuate about 40",
+      "Second incident in just over a year"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "hk-tennis",
+   "region": "hk",
+   "topic": "sports",
+   "ts": "2026-11-08T03:00",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "American Claire Liu wins her first WTA title at the Hong Kong Open, beating Alex Eala 6-3, 6-0",
+   "deck": "World No. 102 Claire Liu won nine straight games to beat second seed Alexandra Eala of the Philippines 6-3, 6-0 in Sunday’s Hong Kong Tennis Open final.",
+   "summary": "World No. 102 Claire Liu won nine straight games to beat second seed Alexandra Eala of the Philippines 6-3, 6-0 in Sunday’s Hong Kong Tennis Open final. It was Liu’s first singles title on the WTA Tour, and she did not drop a set all week. The WTA says the win will take the American back into the world’s top 70 after starting the year ranked 221st. Eala, playing her third tour final, said the season had “changed my life for the better.”",
+   "why": "A first tour title for a player ranked outside the top 100 shows how smaller events like Hong Kong’s give players a route back up the rankings.",
+   "label": "Reported",
+   "note": "Single source (the WTA’s own site).",
+   "sources": [
+    {
+     "title": "Liu reels off nine straight games to beat Eala for Hong Kong title",
+     "site": "WTA",
+     "date": "Nov 8, 2026",
+     "href": "https://www.wtatennis.com/news/4606250/liu-reels-off-nine-straight-games-to-beat-eala-for-hong-kong-title"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.wtatennis.com/news/4606250/liu-reels-off-nine-straight-games-to-beat-eala-for-hong-kong-title",
+     "publisher": "WTA",
+     "published": "Nov 8, 2026",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Liu beat Eala 6-3, 6-0 for first WTA singles title",
+      "No sets dropped; ranked No. 102",
+      "Return to top 70 after starting year at No. 221",
+      "Eala quotes"
+     ],
+     "limits": [
+      "Single source; the venue is not named in the article."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-cold",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-08T21:45",
+   "dateLabel": "Nov 9, 2026",
+   "headline": "Cold front brings Hong Kong’s coolest morning of the autumn, with 16°C forecast for Tuesday",
+   "deck": "The Observatory recorded 23.2°C on Monday morning, the lowest so far this autumn, and forecasts about 16°C in urban areas on Tuesday morning.",
+   "summary": "The Observatory recorded 23.2°C on Monday morning, the lowest so far this autumn, and forecasts about 16°C in urban areas on Tuesday morning. An intense northeast monsoon linked to a cold front is affecting the Guangdong coast, bringing fine, dry weather with fresh northerly winds, strong offshore. The New Territories are expected to be a couple of degrees cooler and still “rather cool” on Wednesday morning, with a large day-night temperature range before temperatures rise later in the week.",
+   "why": "A drop of about seven degrees in two days catches people out, especially older residents in poorly heated flats and outdoor workers.",
+   "label": "Official forecast",
+   "sources": [
+    {
+     "title": "Press weather no. 100 — local weather forecast",
+     "site": "Hong Kong Observatory",
+     "date": "Nov 9, 2026",
+     "href": "https://www.info.gov.hk/gia/wr/202611/09/P2026110900286.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/wr/202611/09/P2026110900286.htm",
+     "publisher": "Hong Kong Observatory (via info.gov.hk)",
+     "published": "Nov 9, 2026, 10:45 HKT",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "23.2°C minimum, lowest so far this autumn",
+      "About 16°C urban minimum Tuesday morning",
+      "New Territories a couple of degrees lower",
+      "Temperatures rising later in the week"
+     ],
+     "limits": [
+      "Forecast; actual temperatures may differ."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-prices",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-08T20:30",
+   "dateLabel": "Nov 9, 2026",
+   "headline": "China’s factory-gate prices rise 5.7% on energy costs while consumer inflation stays at 0.7%",
+   "deck": "China’s producer price index rose 5.7% from a year earlier in October, up from 5% in September, while consumer prices rose 0.7%, official data released on Monday show.",
+   "summary": "China’s producer price index rose 5.7% from a year earlier in October, up from 5% in September, while consumer prices rose 0.7%, official data released on Monday show. The National Bureau of Statistics says mining prices jumped 27.9% and input prices paid by manufacturers rose 7.9%. Consumer prices were flat from September: food fell 2.9% year on year, led by a 16.9% drop in fresh vegetables and an 8.6% fall in pork, while non-food prices rose 1.5%. State news agency Xinhua quotes an NBS statistician attributing the moves to imported inflation and domestic demand, with gasoline up 22.4% and AI-driven demand lifting prices of data-storage equipment, tablets, computers and phones.",
+   "why": "Rising factory-gate prices end years of deflation pressure for Chinese industry, but if energy costs keep feeding through while consumer demand stays weak, manufacturers’ margins — and the prices of Chinese goods abroad — will be squeezed.",
+   "label": "Official figures + state media",
+   "note": "Figures are official NBS data. Xinhua (state media) reports egg prices up 12.3% year on year; the NBS release says 10.1%. Explanations for the price moves come from officials.",
+   "sources": [
+    {
+     "title": "2026年10月份居民消费价格同比上涨0.7% (October CPI)",
+     "site": "National Bureau of Statistics of China",
+     "date": "Nov 9, 2026",
+     "href": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html"
+    },
+    {
+     "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7% (October PPI)",
+     "site": "National Bureau of Statistics of China",
+     "date": "Nov 9, 2026",
+     "href": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261109_1965794.html"
+    },
+    {
+     "title": "Update: China’s consumer prices maintain mild recovery in October",
+     "site": "Xinhua (state media)",
+     "date": "Nov 9, 2026",
+     "href": "https://english.news.cn/20261109/02a4309cb884474686bfa25d07e8f05b/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
+     "publisher": "National Bureau of Statistics",
+     "published": "Nov 9, 2026, 09:30 Beijing time",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "CPI +0.7% y/y, flat m/m",
+      "Food −2.9%, non-food +1.5%",
+      "Fresh vegetables −16.9%, pork −8.6%, eggs +10.1%"
+     ],
+     "limits": [
+      "Chinese-language page; the automated web fetch timed out, but the page opened via direct download."
+     ]
+    },
+    {
+     "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261109_1965794.html",
+     "publisher": "National Bureau of Statistics",
+     "published": "Nov 9, 2026, 09:30 Beijing time",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "PPI +5.7% y/y, +0.7% m/m",
+      "Purchase prices +7.9% y/y",
+      "Mining +27.9%"
+     ],
+     "limits": [
+      "Chinese-language page; the automated web fetch timed out, but the page opened via direct download."
+     ]
+    },
+    {
+     "url": "https://english.news.cn/20261109/02a4309cb884474686bfa25d07e8f05b/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 9, 2026, 18:01 Beijing time",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "PPI up from 5% in September",
+      "Gasoline +22.4%; electronics price rises tied to AI demand",
+      "Official explanations"
+     ],
+     "limits": [
+      "State media. Gives eggs +12.3%, conflicting with NBS’s 10.1%."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-taiyuan",
+   "region": "cn",
+   "topic": "human",
+   "ts": "2026-11-08T03:59",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "Fire in a Taiyuan high-rise kills five as trapped people break windows to call for help",
+   "deck": "A fire in a high-rise building in Taiyuan, capital of Shanxi province, killed five people on Sunday afternoon; 38 people were taken to hospital in total, according to local authorities.",
+   "summary": "A fire in a high-rise building in Taiyuan, capital of Shanxi province, killed five people on Sunday afternoon; 38 people were taken to hospital in total, according to local authorities. The district government said the fire broke out at 4:59 p.m. local time on Liuxiang South Road in Yingze District and was put out by 7 p.m. Local emergency officials said the first to third floors mostly housed training businesses, the fifth to seventh were vacant and the eighth and ninth held a hotel. Videos showed several floors ablaze with people at the windows calling for help. The cause is under investigation.",
+   "why": "Fires in mixed-use buildings packed with tutoring centres and small hotels have been a recurring killer in Chinese cities, and investigators will look at whether exits and fire-safety rules were followed.",
+   "label": "Reported + official statement + state media",
+   "note": "Figures differ by framing: 38 people were hospitalised, five of whom died, so The Standard’s headline “38 injured” and Global Times’ “33 injured” describe the same count. Global Times is state-run media.",
+   "sources": [
+    {
+     "title": "Taiyuan high-rise fire kills 5, 38 injured",
+     "site": "The Standard",
+     "date": "Nov 8–9, 2026",
+     "href": "https://www.thestandard.com.hk/china/article/347909/Taiyuan-high-rise-fire-kills-5-38-injured"
+    },
+    {
+     "title": "Five dead, 33 injured in building fire in Taiyuan, North China’s Shanxi",
+     "site": "Global Times (state media)",
+     "date": "Nov 8, 2026",
+     "href": "https://www.globaltimes.cn/page/202611/1373913.shtml"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.thestandard.com.hk/china/article/347909/Taiyuan-high-rise-fire-kills-5-38-injured",
+     "publisher": "The Standard",
+     "published": "Nov 8–9, 2026 (page showed “18 hours ago”)",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Fire on Liuxiang South Road, Yingze District",
+      "Out around 7 p.m.; rescue ended 8:30 p.m.",
+      "Floor uses per district emergency bureau",
+      "Videos of people at windows"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.globaltimes.cn/page/202611/1373913.shtml",
+     "publisher": "Global Times (state media)",
+     "published": "Nov 8, 2026, 11:35 PM Beijing time",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "District government: fire began 4:59 p.m.",
+      "38 hospitalised, five died",
+      "Cause under investigation"
+     ],
+     "limits": [
+      "State media."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-microdrama",
+   "region": "cn",
+   "topic": "culture",
+   "ts": "2026-11-06T06:47",
+   "dateLabel": "Nov 6, 2026 (reported Nov 8)",
+   "headline": "China’s broadcast regulator launches a two-month crackdown on vulgar and copycat AI micro-dramas",
+   "deck": "The National Radio and Television Administration has begun a two-month campaign, running from Nov. 1 to the end of December, against low-quality and look-alike micro-dramas, focusing on AI-made content.",
+   "summary": "The National Radio and Television Administration has begun a two-month campaign, running from Nov. 1 to the end of December, against low-quality and look-alike micro-dramas, focusing on AI-made content. Its notice targets content harmful to children, borderline sexual material, extreme conflict, money worship and plots that flout family ethics, as well as AI “face-stealing” and “voice-stealing.” Platforms are also told to stop re-airing the same series under new titles or character names and to diversify homepage and chart recommendations. The regulator says 75,000 micro-dramas have been taken down and more than 1,500 accounts dealt with so far this year.",
+   "why": "Micro-dramas — minute-long vertical episodes — are one of China’s fastest-growing entertainment businesses, and the rules written for AI-generated actors and voices there are likely to shape how the format develops elsewhere.",
+   "label": "Official statement",
+   "note": "Based on the regulator’s own Chinese-language notice; Aju Press’s English report cites Xinhua and Yonhap. Enforcement results will come from the regulator itself.",
+   "sources": [
+    {
+     "title": "国家广播电视总局部署开展新一轮微短剧专项治理工作 (NRTA launches new micro-drama campaign)",
+     "site": "National Radio and Television Administration",
+     "date": "Nov 6, 2026",
+     "href": "https://www.nrta.gov.cn/art/2026/11/6/art_114_74410.html"
+    },
+    {
+     "title": "China Launches Special Crackdown on AI-Generated Short-Form Dramas",
+     "site": "Aju Press",
+     "date": "Nov 8, 2026",
+     "href": "https://www.ajupress.com/view/20261108202070057"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.nrta.gov.cn/art/2026/11/6/art_114_74410.html",
+     "publisher": "National Radio and Television Administration",
+     "published": "Nov 6, 2026, 19:47 Beijing time",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Two-month campaign, Nov 1 to end of December",
+      "Targets listed (children, soft porn, extreme conflict, money worship, family ethics, face/voice theft)",
+      "Re-titling and homogeneous recommendations",
+      "75,000 dramas removed, 1,500+ accounts this year"
+     ],
+     "limits": [
+      "Chinese-language government page."
+     ]
+    },
+    {
+     "url": "https://www.ajupress.com/view/20261108202070057",
+     "publisher": "Aju Press",
+     "published": "Nov 8, 2026, 20:20 KST",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Crackdown until Dec 31 on AI-generated short dramas",
+      "75,000 removed; 1,500+ accounts"
+     ],
+     "limits": [
+      "Relays Xinhua and Yonhap."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-israel",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-08T09:59",
+   "dateLabel": "Nov 8, 2026 (ongoing since Nov 6)",
+   "headline": "Eisenkot formally receives the mandate to form Israel’s government and calls for a “national emergency government”",
+   "deck": "Israel’s President Isaac Herzog formally handed Yashar party leader Gadi Eisenkot the mandate to form a government on Sunday, giving him 28 days, with a possible 14-day extension.",
+   "summary": "Israel’s President Isaac Herzog formally handed Yashar party leader Gadi Eisenkot the mandate to form a government on Sunday, giving him 28 days, with a possible 14-day extension. At the ceremony Eisenkot said Israel was “approaching a point of no return” and that “creative and unconventional” steps would be needed to form a “national emergency government”; he invited Prime Minister Benjamin Netanyahu’s Likud and the Religious Zionist Party to join on his terms. Eisenkot received 67 recommendations in consultations to Netanyahu’s 46, including backing from both Arab-led parties, though that does not commit them to join. No bloc won a 61-seat majority in the Oct. 27 election, and the Jerusalem Post notes that failure could lead to a unity government, a minority government or another election.",
+   "why": "Eisenkot has the first shot but no ready majority; whether he can bridge ultra-Orthodox and Arab parties — or lure parts of Netanyahu’s camp — will decide if Israel gets a new government or heads back to the polls.",
+   "label": "Reported + official statement",
+   "note": "Ongoing story: Donna Daily reported Eisenkot’s 67 recommendations on Nov. 6 and Herzog’s choice on Nov. 8; the formal ceremony, then scheduled, took place on Sunday.",
+   "sources": [
+    {
+     "title": "‘Unconventional steps required’: Eisenkot vows to form emergency gov’t as Herzog bestows mandate",
+     "site": "The Jerusalem Post",
+     "date": "Nov 8, 2026",
+     "href": "https://www.jpost.com/israel-election-2026/article-914236"
+    },
+    {
+     "title": "Hakeem Jeffries supports impeaching Pete Hegseth, and a deadly mass shooting in Poland: Weekend Rundown",
+     "site": "NBC News",
+     "date": "Nov 8, 2026",
+     "href": "https://www.nbcnews.com/news/us-news/weekend-rundown-november-8-rcna607990"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.jpost.com/israel-election-2026/article-914236",
+     "publisher": "The Jerusalem Post",
+     "published": "Nov 8, 2026, 16:59 (updated 21:35) Israel time",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Mandate handed over Sunday at the President’s Residence",
+      "28 days plus up to 14",
+      "Eisenkot quotes; invitation to Likud and RZP",
+      "67 vs 46 recommendations; Arab parties’ backing not binding",
+      "Possible outcomes"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.nbcnews.com/news/us-news/weekend-rundown-november-8-rcna607990",
+     "publisher": "NBC News",
+     "published": "Nov 8, 2026, 6:00 PM EST",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Herzog gave Eisenkot the first opportunity; neither side won a clear majority"
+     ],
+     "limits": [
+      "Roundup item; supports the background only."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-09-am/w-israel.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Studio portrait of Gadi Eisenkot in a dark jacket against a blue background",
+    "caption": "Gadi Eisenkot, leader of the Yashar party, in a 2026 portrait.",
+    "credit": "Yahav Trudler (Yahav Studio)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Gadi_Eisenkot_2.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "w-gaza",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-07T08:00",
+   "dateLabel": "Nov 6–8, 2026",
+   "headline": "Winter storm floods Gaza’s tent camps as the UN says stocks of tents and tarpaulins inside are nearly gone",
+   "deck": "Heavy rain and strong winds from Nov. 6 flooded displacement sites across Gaza, and the UN says emergency stocks of tents, tarpaulins and blankets inside the territory are virtually exhausted.",
+   "summary": "Heavy rain and strong winds from Nov. 6 flooded displacement sites across Gaza, and the UN says emergency stocks of tents, tarpaulins and blankets inside the territory are virtually exhausted. The UN humanitarian office (OCHA) says more than 26,000 households had appealed for help by Nov. 8 and that an infant reportedly drowned; Gaza’s Civil Defense said a sand hill collapsed onto tents near Deir al-Balah, killing five people, including three children. The Hamas-run government media office put the number of flooded tents at about 70,000. OCHA says more than 150,000 tents are waiting outside Gaza and that more Israeli approvals and funding are urgently needed; Israel says it restricts items that could be used for military purposes.",
+   "why": "About 1.4 million people in Gaza live in tents or makeshift shelters, so the first storm of winter is a preview of months of cold and flooding unless supplies get in faster.",
+   "label": "Reported + official figures",
+   "note": "Figures measure different things and are preliminary: 70,000 flooded tents is the Hamas-run government’s count; OCHA counts 26,000+ household appeals. The deaths were reported by Gaza’s Civil Defense and relayed by OCHA.",
+   "sources": [
+    {
+     "title": "Humanitarian Situation Report: Heavy Rains in the Gaza Strip | 8 November 2026",
+     "site": "UN OCHA",
+     "date": "Nov 9, 2026",
+     "href": "https://www.ochaopt.org/content/humanitarian-situation-report-heavy-rains-gaza-strip-8-november-2026"
+    },
+    {
+     "title": "Tens of thousands of tents flooded after heavy rains in Gaza",
+     "site": "BBC News",
+     "date": "Nov 7, 2026",
+     "href": "https://www.bbc.com/news/articles/cx240e5py64jo"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-report-heavy-rains-gaza-strip-8-november-2026",
+     "publisher": "UN OCHA (occupied Palestinian territory)",
+     "published": "Nov 9, 2026 (report dated Nov 8)",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Rain from evening of Nov 6",
+      "Stocks of tents/tarpaulins/blankets virtually exhausted",
+      "26,000+ household appeals",
+      "Infant reportedly drowned; five killed by sand-hill collapse per Civil Defense",
+      "150,000+ tents outside Gaza; Israeli approvals and funding needed"
+     ],
+     "limits": [
+      "Figures preliminary, per OCHA."
+     ]
+    },
+    {
+     "url": "https://www.bbc.com/news/articles/cx240e5py64jo",
+     "publisher": "BBC News",
+     "published": "Nov 7, 2026 (page showed “2 days ago”)",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "About 70,000 tents flooded per Hamas-run government",
+      "Unicef’s Veitch on desperate conditions and Israeli restrictions",
+      "Israel says it restricts dual-use items"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "w-egypt",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-08T08:00",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "Two passenger trains collide south of Cairo, killing at least seven people",
+   "deck": "A train heading from Giza to Fayoum rear-ended another bound for Aswan about 76 km south of Cairo on Sunday, killing at least seven people and injuring more than 100, Egyptian authorities said.",
+   "summary": "A train heading from Giza to Fayoum rear-ended another bound for Aswan about 76 km south of Cairo on Sunday, killing at least seven people and injuring more than 100, Egyptian authorities said. Several carriages derailed or overturned. The dead include the driver of the Fayoum-bound train, according to a government statement reported by The National, which says the Aswan train had made an unscheduled stop. President Abdel Fattah el-Sisi ordered a swift investigation and said anyone found negligent would be held accountable; prosecutors are investigating the technical cause.",
+   "why": "Egypt has borrowed heavily to modernise one of the region’s oldest rail networks, and another deadly collision will raise questions about signalling and safety on the busy line to Upper Egypt.",
+   "label": "Reported + official statement",
+   "note": "Injury figures differ: Reuters (via USA Today) cites the health ministry’s 112; The National reports 114.",
+   "sources": [
+    {
+     "title": "Egypt train crash kills seven and injures 114 south of Cairo",
+     "site": "The National",
+     "date": "Nov 8, 2026",
+     "href": "https://www.thenationalnews.com/news/mena/2026/11/08/egypt-train-crash-kills-seven/"
+    },
+    {
+     "title": "Train collision in Egypt kills at least 7, injures dozens, health ministry says",
+     "site": "USA Today (Reuters)",
+     "date": "Nov 8, 2026",
+     "href": "https://www.usatoday.com/story/news/world/2026/11/08/egypt-train-collision-cairo/92680486007/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.thenationalnews.com/news/mena/2026/11/08/egypt-train-crash-kills-seven/",
+     "publisher": "The National",
+     "published": "Nov 8, 2026 (updated 7:50 PM)",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Seven killed, 114 injured",
+      "Giza–Fayoum train rear-ended Cairo–Aswan train after unscheduled stop",
+      "Dead include the Fayoum train’s driver",
+      "Sisi ordered investigation"
+     ],
+     "limits": [
+      "Injury count differs from Reuters."
+     ]
+    },
+    {
+     "url": "https://www.usatoday.com/story/news/world/2026/11/08/egypt-train-collision-cairo/92680486007/",
+     "publisher": "USA Today (Reuters)",
+     "published": "Nov 8, 2026, 4:32 PM ET",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "Collision about 76 km south of Cairo",
+      "Seven killed, 112 injured per health ministry",
+      "Prosecutors investigating"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "w-alcaraz",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-08T10:00",
+   "dateLabel": "Nov 8, 2026 (ongoing since Nov 7)",
+   "headline": "Alcaraz beats Ben Shelton to win the Paris Masters for the first time",
+   "deck": "Carlos Alcaraz beat American Ben Shelton 7-6 (7-5), 7-5 in Sunday’s Paris Masters final, his first title at the event in six attempts and his ninth Masters 1000 crown.",
+   "summary": "Carlos Alcaraz beat American Ben Shelton 7-6 (7-5), 7-5 in Sunday’s Paris Masters final, his first title at the event in six attempts and his ninth Masters 1000 crown. The win avenged his US Open quarter-final loss to Shelton in September, which came on his return from a four-month wrist injury; the BBC says he has since won three titles and lost once in 17 matches. Alcaraz saved all six break points he faced in the first set and came back from a break down in the second. He is the first Spaniard to win the event since David Ferrer in 2012, according to Reuters via The Guardian, and heads to the ATP Finals in Turin on a nine-match winning streak.",
+   "why": "Back-to-back titles in Vienna and Paris confirm Alcaraz is fully fit again and set up a rivalry with Shelton that could define the men’s game in 2027.",
+   "label": "Reported",
+   "note": "Ongoing story: Donna Daily reported the final as scheduled on Nov. 8; this reports the result.",
+   "sources": [
+    {
+     "title": "Alcaraz takes revenge on Shelton to win first Paris Masters title",
+     "site": "BBC Sport",
+     "date": "Nov 8, 2026",
+     "href": "https://www.bbc.com/sport/tennis/articles/ck9qz8d2znl5o"
+    },
+    {
+     "title": "Carlos Alcaraz beats error-prone Ben Shelton to win Paris Masters",
+     "site": "The Guardian (Reuters)",
+     "date": "Nov 8, 2026",
+     "href": "https://www.theguardian.com/sport/2026/nov/08/carlos-alcaraz-ben-shelton-win-paris-masters-final"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.com/sport/tennis/articles/ck9qz8d2znl5o",
+     "publisher": "BBC Sport",
+     "published": "Nov 8, 2026",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "7-6 (7-5) 7-5 win; first Paris title; ninth Masters 1000",
+      "Revenge for US Open loss after wrist-injury return",
+      "Saved six break points in first set",
+      "Three titles, one loss in 17 matches; nine-match streak into Turin"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.theguardian.com/sport/2026/nov/08/carlos-alcaraz-ben-shelton-win-paris-masters-final",
+     "publisher": "The Guardian (Reuters)",
+     "published": "Nov 8, 2026, 12:31 PM EST",
+     "checkedAt": "2026-11-09T06:26:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 9 2026",
+     "claimsSupported": [
+      "First Spaniard to win since Ferrer in 2012",
+      "Sixth attempt",
+      "ATP Finals start next Sunday"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-09-am/w-alcaraz.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Carlos Alcaraz in white tossing the ball to serve on a grass court",
+    "caption": "Carlos Alcaraz serving at Wimbledon in 2025.",
+    "credit": "12121343A",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Carlos_Alcaraz_serving_while_playing_Jan-Lennard_Struff_(Wimbledon_2025).jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  }
+ ]
+}

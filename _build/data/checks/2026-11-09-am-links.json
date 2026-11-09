@@ -1,0 +1,223 @@
+{
+ "edition": "2026-11-09-am",
+ "ranAt": "2026-11-09T06:31:50-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.nbcnews.com/politics/congress/house-minority-leader-hakeem-jeffries-hard-yes-impeaching-hegseth-rcna608137",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cj4g1nwx39wno",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:50-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/trump-says-some-of-his-immigration-policies-may-have-been-too-tough-60-minutes/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://abcnews.com/US/trump-tough-deportation-policies-hurt-midterms/story?id=137963657",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.broadwayworld.com/article/Review-Roundup-WANTED-Opens-on-Broadway-20261108",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:50-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/sport/2026/nov/08/nfl-roundup-sunday-football-scores-week-9",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:50-05:00"
+  },
+  {
+   "url": "https://www.canada.ca/en/canadian-heritage/news/2026/11/budget-2026-masters-of-our-destiny---minister-miller-announces-the-rollout-of-600-million-targeted-support-to-canadas-audio-and-audiovisual-sectors.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/canada/article-ottawa-reveals-details-on-long-promised-600-million-for-screen-and/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/british-columbia/water-bomber-funding-firefighter-reaction-9.7371769",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/toronto/york-university-department-forms-cybersecurity-incident-9.7414235",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.yorku.ca/uit/infosec/incident-faq/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/hockey/canada-japan-womens-hockey-worlds-november-8-9.7414103",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.iihf.com/en/events/2026/ww/news/76836/canjpn",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-09T06:31:50-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/news/article/347876/Ta-Kwu-Ling-University-Town-to-expand-to-75-hectares-with-site-reserved-for-new-HKAPA-campus",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/news/hong-kong/education/article/3373709/hong-kongs-top-drama-school-stage-entrance-university-town-expands-campus",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-09T06:31:50-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/news/article/347964/Ocean-Park-Tower-stalls-near-top-stranding-about-40-visitors",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/en/component/k2/1877141-20261109.htm?spTabChangeable=0",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:52-05:00"
+  },
+  {
+   "url": "https://www.wtatennis.com/news/4606250/liu-reels-off-nine-straight-games-to-beat-eala-for-hong-kong-title",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/wr/202611/09/P2026110900286.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:52-05:00"
+  },
+  {
+   "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261109_1965794.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:52-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261109/02a4309cb884474686bfa25d07e8f05b/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:52-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/china/article/347909/Taiyuan-high-rise-fire-kills-5-38-injured",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.globaltimes.cn/page/202611/1373913.shtml",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:52-05:00"
+  },
+  {
+   "url": "https://www.nrta.gov.cn/art/2026/11/6/art_114_74410.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:52-05:00"
+  },
+  {
+   "url": "https://www.ajupress.com/view/20261108202070057",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:52-05:00"
+  },
+  {
+   "url": "https://www.jpost.com/israel-election-2026/article-914236",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/news/us-news/weekend-rundown-november-8-rcna607990",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.ochaopt.org/content/humanitarian-situation-report-heavy-rains-gaza-strip-8-november-2026",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cx240e5py64jo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.thenationalnews.com/news/mena/2026/11/08/egypt-train-crash-kills-seven/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:50-05:00"
+  },
+  {
+   "url": "https://www.usatoday.com/story/news/world/2026/11/08/egypt-train-collision-cairo/92680486007/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/sport/tennis/articles/ck9qz8d2znl5o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/sport/2026/nov/08/carlos-alcaraz-ben-shelton-win-paris-masters-final",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-09T06:31:51-05:00"
+  }
+ ]
+}
