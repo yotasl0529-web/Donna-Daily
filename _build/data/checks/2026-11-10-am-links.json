@@ -1,0 +1,229 @@
+{
+ "edition": "2026-11-10-am",
+ "ranAt": "2026-11-10T06:22:59-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:22:59-05:00"
+  },
+  {
+   "url": "https://rollcall.com/2026/11/09/massie-moves-to-force-hegseth-impeachment-vote/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/ck79p9350zp9o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/politics/donald-trump/trump-midterm-elections-voting-machines-doubt-rcna607893",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:22:59-05:00"
+  },
+  {
+   "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:22:59-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:22:59-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.kcur.org/2026-11-09/boeing-cutting-5-of-workforce-in-its-commercial-airplane-division",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-wear-down-vikings-23-6",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:22:59-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/temporary-foreign-worker-program-9.7415498",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/saskatchewan/maid-regulations-2026-9.7415096",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:01-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/montreal/student-strike-quebec-9.7415018",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/hockey/canada-denmark-recap-womens-hockey-worlds-roundup-9.7415562",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.iihf.com/en/events/2026/ww/news/76852/dencan",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-10T06:22:59-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877144-20261109.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:02-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/ch/component/k2/1877126-20261109.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877202-20261110.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:02-05:00"
+  },
+  {
+   "url": "https://www.olympics.com/en/dakar-2026/olympic-information-service/it-is-not-how-you-start-but-how-you-finish-ho-hkg-surges-to-dakar-2026-fencing-foil-gold",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/ch/component/k2/1877162-20261109.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:02-05:00"
+  },
+  {
+   "url": "https://newsdesk.hk/articles/citybus-reports-suspected-unauthorised-login-to-tourist-bus-ticket-redemption-system/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:01-05:00"
+  },
+  {
+   "url": "https://english.www.gov.cn/news/202611/09/content_WS6af18d6bc6d00ca5f9a0e308.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.investing.com/news/commodities-news/china-extends-suspension-of-new-rare-earth-controls-until-january-5010878",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-10T06:22:59-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261109/20aa1587dc5c415a9c966cea0af6aa9c/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:01-05:00"
+  },
+  {
+   "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261110_12056810.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.zaobao.com.sg/en/news/china/china-dismisses-spy-claims-amid-jensen-huang-affair-controversy-groundless",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.gov.mo/en/news/412905/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:01-05:00"
+  },
+  {
+   "url": "https://www.chinadaily.com.cn/a/202611/09/WS6af192d4e4b03ebf8519b55a.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:02-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cq2d6d5z9y5jo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.france24.com/en/live-news/20261109-turkey-steel-factory-blast-kills-16-probe-launched",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:01-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cmg474vk6dyqo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://news.un.org/en/story/2026/11/1168763",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://thebookerprizes.com/media-centre/press-releases/the-end-of-everything-by-m-john-harrison-wins-the-booker-prize-2026",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-10T06:22:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cw0737kv52lko",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.fifpro.org/en/articles/2026/11/who-is-in-the-2026-fifpro-mens-world-11",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.fifpro.org/en/articles/2026/11/fifpro-world-11-who-received-the-most-votes-and-who-narrowly-missed-out",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/news/article/348005/Morning-Recap-November-10-2026",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-10T06:23:00-05:00"
+  }
+ ]
+}

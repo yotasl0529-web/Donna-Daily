@@ -1,0 +1,1098 @@
+{
+ "id": "2026-11-10-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-10",
+ "leadId": "us-hegseth",
+ "topIds": [
+  "us-election",
+  "ca-tfw",
+  "hk-lifts",
+  "cn-trade",
+  "w-turkey"
+ ],
+ "notes": [
+  "Morning Edition for Tuesday, Nov 10, 2026. It covers developments since Monday’s Morning Edition, with ongoing stories marked with their earlier dates.",
+  "The lead is Rep. Thomas Massie filing articles of impeachment against Defense Secretary Pete Hegseth, with a House vote possible by Wednesday. Top stories: Trump questioning whether the midterms were “honest,” Ottawa’s longer low-wage temporary foreign worker permits, Hong Kong’s 720 non-compliant Taizoom lifts, China’s two-month extension of its trade truce, and the deadly steel-plant explosion near Izmir.",
+  "The U.S. and World have five stories, Canada four, and Hong Kong and China three each, because we did not find more fresh, well-sourced items and did not pad. Culture appears in World (the Booker Prize); we found no strong new U.S., Canadian, Hong Kong or China culture story this morning. Sports: U.S. (Bills–Vikings), Canada (women’s hockey worlds), Hong Kong (Harris Ho’s Youth Olympics gold) and World (FIFPRO World 11).",
+  "The Hegseth impeachment vote, Quebec’s student strike, Canada’s next hockey game and COP31 are described as planned or under way; none had concluded when this edition was compiled."
+ ],
+ "provenance": [
+  "Stories are compiled from the linked sources; labels describe the type of claim each story rests on.",
+  "Source pages were opened during this morning’s research between about 6:16 and 6:19 AM ET; check times are the logged end of each research batch, not per page.",
+  "Xinhua, China Daily and english.gov.cn items are labelled State media. Two Hong Kong items were read in Chinese on RTHK. AP and ESPN pages did not load in our fetch and were not relied on; the Reuters trade story was read via a syndication site.",
+  "Several items rest on a single outlet and are marked so in their source notes. Conflicting figures (Turkey injuries) and differing details (scope of French sanctions) are flagged on each story."
+ ],
+ "stories": [
+  {
+   "id": "us-hegseth",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-09T15:52",
+   "dateLabel": "Nov 9, 2026 (update to Nov 8 story)",
+   "headline": "Massie files eight articles of impeachment against Hegseth, setting up a House vote that could come by Wednesday",
+   "deck": "Republican Rep. Thomas Massie reintroduced his resolution to impeach Defense Secretary Pete Hegseth on Monday, using a procedure that forces the House to act within two legislative days.",
+   "summary": "Republican Rep. Thomas Massie reintroduced his resolution to impeach Defense Secretary Pete Hegseth on Monday, using a procedure that forces the House to act within two legislative days. Roll Call reports a vote could come by Wednesday, though the House could also vote to table the measure or send it to committee. The eight articles allege that Hegseth waged the Iran war in breach of the 1973 War Powers Resolution (three counts), ignored laws meant to limit civilian casualties, oversaw “extrajudicial killings” in strikes on suspected drug boats, retaliated against Sen. Mark Kelly for protected speech, directed the January seizure of Nicolás Maduro without authorisation, and waged an unauthorised campaign in Yemen. President Trump told reporters “I’ll stand by him,” and Hegseth has called the effort “sham articles of impeachment.” Massie, who lost his primary, said he had not sought or received assurances of Republican support. NPR says the House may have the votes with all Democrats, Massie and a handful of Republicans, but Senate removal needs a two-thirds vote.",
+   "why": "The House has impeached a cabinet member only twice, and Roll Call notes recent forced “privileged” impeachment votes have never passed — so the tally will show how many lame-duck Republicans are willing to break with Trump before Democrats take over Congress in January.",
+   "label": "Reported + allegation + official statement",
+   "note": "Ongoing story: Donna Daily reported Hakeem Jeffries’ support on Nov. 9. The articles are allegations, not findings. No vote had been held when this edition was compiled; timing could change if the House tables or refers the measure.",
+   "sources": [
+    {
+     "title": "Thomas Massie files articles of impeachment against Defense Secretary Pete Hegseth",
+     "site": "NPR",
+     "date": "Nov 9, 2026",
+     "href": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth"
+    },
+    {
+     "title": "Massie moves to force Hegseth impeachment vote",
+     "site": "Roll Call",
+     "date": "Nov 9, 2026",
+     "href": "https://rollcall.com/2026/11/09/massie-moves-to-force-hegseth-impeachment-vote/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth",
+     "publisher": "NPR",
+     "published": "Nov 9, 2026, 3:52 PM ET (updated 5:34 PM ET)",
+     "checkedAt": "2026-11-10T06:16:37-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Resolution reintroduced Monday with eight charges, vote within two days",
+      "Breakdown of the eight charges",
+      "Trump: “I’ll stand by him”; Hegseth: “sham articles”",
+      "Votes may exist in House; Senate needs two-thirds"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://rollcall.com/2026/11/09/massie-moves-to-force-hegseth-impeachment-vote/",
+     "publisher": "Roll Call",
+     "published": "Nov 9, 2026, 6:36 PM",
+     "checkedAt": "2026-11-10T06:16:37-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Vote could occur by Wednesday",
+      "Speaker must rule on privilege; House could table or refer",
+      "Massie has no GOP assurances",
+      "Mayorkas 2024 and Belknap 1876 precedents"
+     ],
+     "limits": [
+      "Roll Call’s Yemen casualty figure (more than 700 killed) is attributed to the resolution; not used here."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-10-am/us-hegseth.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Official portrait of Pete Hegseth in front of U.S. and Defense Department flags",
+    "caption": "Pete Hegseth’s official Defense Department portrait, taken in January 2025.",
+    "credit": "U.S. Department of Defense",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pete_Hegseth_Official_Portrait.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Pete_Hegseth_Official_Portrait.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "us-election",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-09T16:07",
+   "dateLabel": "Nov 9, 2026",
+   "headline": "Trump questions whether the midterms were “honest,” days after saying he would accept the results",
+   "summary": "President Trump wrote on Truth Social on Monday, “Does anybody really believe that this ‘Election’ was honest,” pointing to early-voting “dumps” and “machines” without offering evidence. On election night he had told The New York Times he was “absolutely willing” to accept the results. State and local election officials have reported a largely routine, mostly problem-free vote, and an MIT political scientist told the BBC that results were reported in the usual patterns. A White House official noted Trump had said he would respect results “if they’re honest elections.” Nevada’s Democratic secretary of state, Cisco Aguilar, called the claims “completely false.” The BBC counts Democrats at 54 Senate and 254 House seats, with races in Alaska and Mississippi still uncalled.",
+   "why": "The claim matters less for this result, which is not in doubt, than as a signal: how far Trump pushes it will shape whether Republicans spend the lame-duck session cooperating with Democrats or contesting their mandate.",
+   "label": "Reported + claim",
+   "note": "Trump’s fraud claim is unsupported by the evidence cited in both reports. Seat counts are the BBC’s and may change as counting ends.",
+   "sources": [
+    {
+     "title": "Trump questions midterm elections integrity after previously accepting results",
+     "site": "BBC News",
+     "date": "Nov 9, 2026",
+     "href": "https://www.bbc.com/news/articles/ck79p9350zp9o"
+    },
+    {
+     "title": "Trump casts doubt on election results after saying he was ‘absolutely willing’ to accept them",
+     "site": "NBC News",
+     "date": "Nov 9, 2026",
+     "href": "https://www.nbcnews.com/politics/donald-trump/trump-midterm-elections-voting-machines-doubt-rcna607893"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.com/news/articles/ck79p9350zp9o",
+     "publisher": "BBC News",
+     "published": "Nov 9, 2026 (page showed “17 hours ago”)",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Truth Social quote",
+      "Earlier “absolutely willing” remark",
+      "Officials report mostly problem-free voting",
+      "54 Senate / 254 House seats; Alaska, Mississippi uncalled"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.nbcnews.com/politics/donald-trump/trump-midterm-elections-voting-machines-doubt-rcna607893",
+     "publisher": "NBC News",
+     "published": "Nov 9, 2026, 4:07 PM EST",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Full Truth Social wording including “machines”",
+      "White House official’s response",
+      "Aguilar: “completely false”"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "us-glp1",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-10T02:52",
+   "dateLabel": "Nov 9, 2026 (FDA announcement)",
+   "headline": "FDA orders a warning about a rare risk of vision loss on all GLP-1 drugs, including Ozempic, Wegovy and Zepbound",
+   "summary": "The Food and Drug Administration said on Monday it is requiring makers of all GLP-1 medicines to add a warning about a potential increased risk of non-arteritic anterior ischemic optic neuropathy (NAION), a rare condition that can cause sudden, painless vision loss in one eye, sometimes permanently. The FDA’s analysis of 126 clinical trials found 6.4 cases per 100,000 patient-years among GLP-1 users versus 3.8 among patients on placebo or other diabetes drugs; observational studies also pointed to higher risk. The agency tells patients to contact a health professional right away about sudden vision changes. Novo Nordisk told CNBC the data “do not establish a cause-and-effect relationship.”",
+   "why": "Millions of Americans use these drugs for diabetes and weight loss; the absolute risk is small, but the label change means doctors are now expected to warn patients and act quickly on eye symptoms.",
+   "label": "Official statement + reported",
+   "note": "The FDA describes a “potential increased risk”; CNBC notes a causal link has not been established. An AP report on the same decision did not load in our fetch and was not relied on.",
+   "sources": [
+    {
+     "title": "FDA requires safety labeling changes for GLP-1 RAs due to potential increased risk of rare but serious eye condition",
+     "site": "U.S. Food and Drug Administration",
+     "date": "Nov 9, 2026",
+     "href": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential"
+    },
+    {
+     "title": "FDA warns of vision loss risk linked to popular GLP-1 drugs like Wegovy, Zepbound",
+     "site": "CNBC",
+     "date": "Nov 10, 2026",
+     "href": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential",
+     "publisher": "U.S. Food and Drug Administration",
+     "published": "Drug Safety Communication, Nov 9, 2026",
+     "checkedAt": "2026-11-10T06:16:37-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Class-wide Warnings and Precautions label change",
+      "6.4 vs 3.8 NAION cases per 100,000 patient-years in 126 trials",
+      "Patient symptom advice"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html",
+     "publisher": "CNBC",
+     "published": "Nov 10, 2026, 2:52 AM EST",
+     "checkedAt": "2026-11-10T06:16:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Novo Nordisk statement",
+      "Causal relationship not established",
+      "Citi analysts expect limited impact on uptake"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "us-boeing",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-09T12:47",
+   "dateLabel": "Nov 9, 2026",
+   "headline": "Boeing plans to cut about 5% of its commercial-airplane workforce as the 737 Max ramp-up runs slower than expected",
+   "summary": "Boeing Commercial Airplanes chief Stephanie Pope told employees on Monday that slower production plans leave the division “in an overstaffed position” and that it will cut about 5% of staff through attrition and involuntary layoffs, with notifications beginning in December. CNBC reports Boeing is still trying to stabilise 737 Max output at about 47 a month and has pushed its next rate increase to the second half of 2027. KMUW/KCUR reports the division employs about 50,000 people and that Boeing told staff in Wichita, Kansas, and Tulsa, Oklahoma, they are not being considered for the cuts.",
+   "why": "Boeing’s slow recovery ripples through suppliers and airlines waiting for jets; job cuts at the planemaker are a sign that the delivery delays will last well into next year.",
+   "label": "Company figures + reported",
+   "note": "The ~50,000 headcount figure is from KMUW/KCUR; CNBC did not give a number of jobs affected.",
+   "sources": [
+    {
+     "title": "Boeing to cut 5% of commercial airplane workers as production increase takes longer than expected",
+     "site": "CNBC",
+     "date": "Nov 9, 2026",
+     "href": "https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html"
+    },
+    {
+     "title": "Boeing, one of largest Kansas employers, cutting 5% of commercial airplane workforce",
+     "site": "KMUW / KCUR",
+     "date": "Nov 9, 2026",
+     "href": "https://www.kcur.org/2026-11-09/boeing-cutting-5-of-workforce-in-its-commercial-airplane-division"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html",
+     "publisher": "CNBC",
+     "published": "Nov 9, 2026, 12:47 PM EST (updated 2:35 PM)",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "5% cut via attrition and layoffs; notices from December",
+      "Pope memo quote",
+      "737 Max output ~47/month; next increase 2H 2027"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.kcur.org/2026-11-09/boeing-cutting-5-of-workforce-in-its-commercial-airplane-division",
+     "publisher": "KMUW / KCUR",
+     "published": "Nov 9, 2026, 2:05 PM CST",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Division employs about 50,000",
+      "Wichita and Tulsa staff not being considered for layoffs"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-10-am/us-boeing.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Boeing's Renton factory hangar with a green-primed 737 fuselage outside",
+    "caption": "Boeing’s 737 factory in Renton, Washington, pictured in April 2019.",
+    "credit": "SounderBruce",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Boeing_Renton_Factory_from_the_south,_2019.jpg",
+    "isFilePhoto": true,
+    "year": 2019
+   }
+  },
+  {
+   "id": "us-bills",
+   "region": "us",
+   "topic": "sports",
+   "ts": "2026-11-09T23:32",
+   "dateLabel": "Nov 9, 2026",
+   "headline": "Bills grind down the Vikings 23-6 on Monday Night Football to improve to 7-1",
+   "summary": "Buffalo beat Minnesota 23-6 on Monday night, holding the ball for 42 minutes 32 seconds as James Cook ran for 107 yards and a touchdown and Josh Allen threw for 234 yards. The Vikings managed 178 yards, went 0-for-8 on third down and turned the ball over three times; Carson Wentz finished 8-of-25 for 81 yards with two interceptions. Minnesota fell to 6-2 after a second straight loss.",
+   "why": "It was a meeting of two of the NFL’s best records, and Buffalo’s ball-control win strengthens its claim as an AFC favourite while raising fresh questions about Minnesota’s quarterback play.",
+   "label": "Reported",
+   "note": "Single-outlet game report; an ESPN recap did not load in our fetch and was not relied on.",
+   "sources": [
+    {
+     "title": "Monday Night Football: Bills wear down Vikings, 23-6",
+     "site": "NBC Sports (ProFootballTalk)",
+     "date": "Nov 9, 2026",
+     "href": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-wear-down-vikings-23-6"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-wear-down-vikings-23-6",
+     "publisher": "NBC Sports (ProFootballTalk)",
+     "published": "Nov 9, 2026, 11:32 PM",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Final score 23-6; records 7-1 and 6-2",
+      "Time of possession 42:32",
+      "Cook, Allen, Wentz stat lines"
+     ],
+     "limits": [
+      "Single source for game statistics."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-tfw",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-09T16:42",
+   "dateLabel": "Nov 9, 2026",
+   "headline": "Ottawa doubles the maximum length of low-wage temporary foreign worker permits to two years",
+   "summary": "The federal government is extending the maximum duration of a low-wage Labour Market Impact Assessment — the document employers need to hire a temporary foreign worker — from one year to two. The ban on low-wage hiring in cities with unemployment above 6% stays, but early childhood educators join health care, construction and food processing on the exemption list. Ottawa is also proposing, for March 1, 2027 and only where provinces opt in, to let provinces change the exempt occupations and raise the cap on low-wage temporary workers from 10% to 15% of a workforce. Immigration Minister Lena Diab said jobs should still go to Canadians first. She also announced that the Rural Community Immigration Pilot will become a permanent program.",
+   "why": "Two years after Ottawa sharply cut the program, this is a partial reopening aimed at labour shortages in some regions — at a time when national unemployment is 6.7%, so expect a fight over who benefits.",
+   "label": "Official proposal + reported",
+   "note": "The March 2027 measures are proposals that depend on provinces opting in.",
+   "sources": [
+    {
+     "title": "Ottawa doubles maximum time employer can hire low-wage temporary foreign workers",
+     "site": "CBC News (The Canadian Press)",
+     "date": "Nov 9, 2026",
+     "href": "https://www.cbc.ca/news/politics/temporary-foreign-worker-program-9.7415498"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/temporary-foreign-worker-program-9.7415498",
+     "publisher": "CBC News (The Canadian Press)",
+     "published": "Nov 9, 2026, 4:42 PM EST",
+     "checkedAt": "2026-11-10T06:16:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "LMIA duration doubled to two years",
+      "6% unemployment rule stays; ECEs exempted",
+      "Proposed opt-in changes from March 1, 2027 incl. 15% cap",
+      "Rural Community Immigration Pilot made permanent"
+     ],
+     "limits": [
+      "Single outlet; the government’s own notice was not located this run."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-maid",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-09T17:53",
+   "dateLabel": "Nov 9, 2026",
+   "headline": "Saskatchewan tables a bill to bar medically assisted dying when mental illness is the only condition",
+   "summary": "Saskatchewan’s government tabled legislation on Monday that it says would add “provincial safeguards” to Medical Assistance in Dying. The bill would prohibit MAID in the province for anyone under 18, anyone whose sole underlying condition is a mental illness and anyone who lacks capacity to make health-care decisions — largely mirroring federal amendments introduced last month. Health Minister Jeremy Cockrill said it would also strengthen “conscientious objection” protections for health-care workers who do not want to take part, though the process is not spelled out in the bill. The NDP Opposition said it is studying the bill.",
+   "why": "MAID is federal criminal law but delivered by provinces, so this tests how far a province can layer its own limits — especially on conscientious objection, where Saskatchewan goes beyond Ottawa.",
+   "label": "Official proposal + reported",
+   "note": "The bill had been tabled, not passed. CBC said the bill text was not provided to media in advance.",
+   "sources": [
+    {
+     "title": "Sask. introduces ‘provincial safeguards’ on MAID, mostly replicating new federal amendments",
+     "site": "CBC News",
+     "date": "Nov 9, 2026",
+     "href": "https://www.cbc.ca/news/canada/saskatchewan/maid-regulations-2026-9.7415096"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/saskatchewan/maid-regulations-2026-9.7415096",
+     "publisher": "CBC News",
+     "published": "Nov 9, 2026, 5:53 PM EST",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Three proposed prohibitions",
+      "Mirrors federal amendments",
+      "Conscientious objection protections; process not in bill",
+      "NDP response"
+     ],
+     "limits": [
+      "Single outlet."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-strike",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-09T12:31",
+   "dateLabel": "Nov 9–13, 2026 (strike under way)",
+   "headline": "Quebec post-secondary students begin a week-long strike against austerity and student poverty",
+   "summary": "Students at several Quebec universities and CEGEPs began a week-long strike on Monday. The student-union coalition CRUES says 60,000 to 74,000 people are expected to strike between Nov. 9 and 13, including at UQAM, Université du Québec à Rimouski, parts of Sherbrooke and Laval, and Cégep de Drummondville and Cégep de Maisonneuve. Organisers want student financial aid reformed and more money for crumbling buildings, support staff and student housing; some CEGEPs voted not to strike. Students will vote at the end of the month on whether to call an unlimited general strike in the winter term.",
+   "why": "Students say many are choosing “between studying and surviving”; a possible open-ended strike this winter would put cost-of-living pressure on campuses squarely on Quebec’s political agenda.",
+   "label": "Reported + claim",
+   "note": "Participation figures are the organisers’ estimates. The strike was scheduled to run through Nov. 13.",
+   "sources": [
+    {
+     "title": "Thousands of Quebec students expected to strike against austerity, precarity this week",
+     "site": "CBC News",
+     "date": "Nov 9, 2026",
+     "href": "https://www.cbc.ca/news/canada/montreal/student-strike-quebec-9.7415018"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/montreal/student-strike-quebec-9.7415018",
+     "publisher": "CBC News",
+     "published": "Nov 9, 2026, 12:31 PM EST",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Strike began Monday, runs Nov 9–13",
+      "CRUES estimate of 60,000–74,000",
+      "Demands and institutions affected",
+      "End-of-month vote on unlimited strike"
+     ],
+     "limits": [
+      "Single outlet; strike figures are organisers’ estimates."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-hockey",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-09T16:51",
+   "dateLabel": "Nov 9, 2026 (update to Nov 8 story)",
+   "headline": "Canada routs host Denmark 10-0 to stay perfect at the women’s hockey world championship",
+   "summary": "Emma Maltais scored twice and Laura Stacey had a goal and two assists as Canada beat host Denmark 10-0 in Herning on Monday, outshooting the Danes 74-6. Eighteen of Canada’s 20 skaters recorded at least a point, Sara Manness scored her first world-championship goal, and Kayle Osborne made six saves in her first start of the tournament. Canada leads Group A with three regulation wins and ends group play against Finland on Wednesday.",
+   "why": "After a 9-0 win over Japan on Sunday, Canada is spreading ice time across a young roster; the Finland game is its first real test before the knockout rounds.",
+   "label": "Reported",
+   "note": "Ongoing story: Donna Daily reported the 9-0 win over Japan on Nov. 9. The Finland game was scheduled, not yet played.",
+   "sources": [
+    {
+     "title": "18 Canadians collect at least 1 point in 10-0 rout of host Denmark at women’s hockey worlds",
+     "site": "CBC Sports (The Canadian Press)",
+     "date": "Nov 9, 2026",
+     "href": "https://www.cbc.ca/sports/hockey/canada-denmark-recap-womens-hockey-worlds-roundup-9.7415562"
+    },
+    {
+     "title": "Canada shows no mercy to hosts",
+     "site": "IIHF",
+     "date": "Nov 9, 2026",
+     "href": "https://www.iihf.com/en/events/2026/ww/news/76852/dencan"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/sports/hockey/canada-denmark-recap-womens-hockey-worlds-roundup-9.7415562",
+     "publisher": "CBC Sports (The Canadian Press)",
+     "published": "Nov 9, 2026, 4:51 PM EST",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "10-0 score, 74-6 shots",
+      "Scorers; 18 of 20 skaters with a point",
+      "Finland next on Wednesday"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.iihf.com/en/events/2026/ww/news/76852/dencan",
+     "publisher": "IIHF",
+     "published": "Nov 9, 2026",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Maltais two goals, Stacey 1+2",
+      "Manness’s first worlds goal",
+      "Osborne’s first start"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "hk-lifts",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-09T04:39",
+   "dateLabel": "Nov 9, 2026 (HKT)",
+   "headline": "EMSD says 720 lifts fitted by Taizoom lack legally required door-frame parts and orders repairs within months",
+   "summary": "Hong Kong’s Electrical and Mechanical Services Department said on Monday that 720 lifts installed by Taizoom Elevator — about 90% of the firm’s total — were not fitted with door-frame components required by law, in 11 blocks across two Tenants Purchase Scheme estates and 338 private buildings. Director Poon Kwok-ying ordered repairs at the two estates by mid-November and the rest within two to three months, at Taizoom’s cost. Spot checks of about 900 lifts by other contractors found no such problems. Poon said preliminary evidence pointed to suspected serious negligence and misconduct and that police are investigating suspected fraud and false statements after a report on Oct. 16. Citing a fire consultant, he said the new door panels’ fire rating means safety is no lower than before, but the omission is still unlawful.",
+   "why": "After the deadly Tai Po fire, building-safety shortcuts are politically explosive in Hong Kong; the case is pushing the government to review how lift works are approved and inspected.",
+   "label": "Official statement + reported",
+   "note": "Ongoing since October. The fraud allegations are under police investigation and unproven. The fire-safety assessment is the department’s, citing its consultant.",
+   "sources": [
+    {
+     "title": "EMSD orders Taizoom to fix 720 non-compliant lifts",
+     "site": "RTHK",
+     "date": "Nov 9, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877144-20261109.htm"
+    },
+    {
+     "title": "臺日電梯負責升降機九成無裝門框組件 涉720部升降機",
+     "site": "RTHK (Chinese)",
+     "date": "Nov 9, 2026",
+     "href": "https://news.rthk.hk/rthk/ch/component/k2/1877126-20261109.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877144-20261109.htm",
+     "publisher": "RTHK",
+     "published": "Nov 9, 2026, 5:39 PM HKT",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "720 lifts, ~90% of Taizoom’s",
+      "Repair deadlines; Taizoom pays",
+      "~900 other lifts checked, compliant",
+      "Police probe of suspected fraud; report Oct 16",
+      "Fire-resistance assessment"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/ch/component/k2/1877126-20261109.htm",
+     "publisher": "RTHK (Chinese)",
+     "published": "Nov 9, 2026, 3:53 PM HKT",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "720 lifts; 11 blocks in two TPS estates and 338 private buildings",
+      "EMSD seeking Justice Department advice on prosecution"
+     ],
+     "limits": [
+      "Read in Chinese; Taizoom’s Chinese name is 臺日電梯."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-fencing",
+   "region": "hk",
+   "topic": "sports",
+   "ts": "2026-11-09T19:05",
+   "dateLabel": "Nov 9, 2026 (Dakar); Nov 10 HKT",
+   "headline": "Harris Ho wins Hong Kong’s first individual fencing gold at the Youth Olympic Games",
+   "summary": "Hong Kong fencer Harris Ho Shing Him won the men’s foil title at the Dakar 2026 Youth Olympic Games in Senegal, beating Japan’s Masashi Maeda 15-8 in the final. The 17-year-old top seed lost his opening pool bout to Cyprus’s Aris Kiayias but then won eight in a row, including a 15-10 semifinal rematch with Kiayias. RTHK says it is Hong Kong’s second gold of these Games and its first individual fencing gold in Youth Olympics history, after silvers in 2014 and 2018. Culture, Sports and Tourism Secretary Rosanna Law congratulated him.",
+   "why": "Hong Kong’s fencing programme has become one of its strongest Olympic pipelines; a teenage champion with senior-team medals already gives the city a realistic contender for Los Angeles 2028.",
+   "label": "Reported + official statement",
+   "note": "The final was on Monday in Dakar, which was early Tuesday in Hong Kong.",
+   "sources": [
+    {
+     "title": "Harris Ho wins HK’s second gold at Youth Olympics",
+     "site": "RTHK",
+     "date": "Nov 10, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877202-20261110.htm"
+    },
+    {
+     "title": "HO (HKG) surges to Dakar 2026 fencing foil gold",
+     "site": "Olympic Information Service (Olympics.com)",
+     "date": "Nov 9, 2026",
+     "href": "https://www.olympics.com/en/dakar-2026/olympic-information-service/it-is-not-how-you-start-but-how-you-finish-ho-hkg-surges-to-dakar-2026-fencing-foil-gold"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877202-20261110.htm",
+     "publisher": "RTHK",
+     "published": "Nov 10, 2026, 8:05 AM HKT",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "15-8 win over Maeda",
+      "Hong Kong’s second gold of the Games; first individual fencing gold",
+      "Rosanna Law statement"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.olympics.com/en/dakar-2026/olympic-information-service/it-is-not-how-you-start-but-how-you-finish-ho-hkg-surges-to-dakar-2026-fencing-foil-gold",
+     "publisher": "Olympic Information Service",
+     "published": "Nov 9, 2026",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Opening pool loss, eight straight wins",
+      "15-10 semifinal over Kiayias"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "hk-citybus",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-11-09T07:47",
+   "dateLabel": "Nov 9, 2026 (HKT)",
+   "headline": "Citybus reports a suspected unauthorised login to its sightseeing-bus ticket system holding about 53,000 users’ details",
+   "summary": "Citybus said a third-party provider had alerted it to a suspected unauthorised login to a system used to redeem and authenticate tickets for its sightseeing tour buses. The system held names and email addresses of about 53,000 users; Citybus said its initial investigation found no record of data leaking, and the system does not handle purchases, payments, Octopus or other fare systems. The company reported the incident to the Privacy Commissioner, asked the provider for a detailed report and apologised. Newsdesk.hk reports Citybus is emailing possibly affected users and reminding them it never asks for passwords or card numbers by email.",
+   "why": "If you have booked a Hong Kong sightseeing bus, watch for phishing emails using your name — the usual follow-on risk when contact details are exposed, even without a confirmed leak.",
+   "label": "Company figures + reported",
+   "note": "“No data leak found” is Citybus’s preliminary finding. Newsdesk.hk is an aggregator citing HK01 and Commercial Radio.",
+   "sources": [
+    {
+     "title": "觀光城巴票務兌換系統疑遭未獲授權登入 無發現資料外洩",
+     "site": "RTHK (Chinese)",
+     "date": "Nov 9, 2026",
+     "href": "https://news.rthk.hk/rthk/ch/component/k2/1877162-20261109.htm"
+    },
+    {
+     "title": "Citybus reports suspected unauthorised login to tourist-bus ticket-redemption system",
+     "site": "newsdesk.hk",
+     "date": "Nov 9, 2026",
+     "href": "https://newsdesk.hk/articles/citybus-reports-suspected-unauthorised-login-to-tourist-bus-ticket-redemption-system/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/ch/component/k2/1877162-20261109.htm",
+     "publisher": "RTHK (Chinese)",
+     "published": "Nov 9, 2026, 8:47 PM HKT",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "About 53,000 users’ names and emails",
+      "No leak found; no payment data",
+      "Privacy Commissioner notified; apology"
+     ],
+     "limits": [
+      "Read in Chinese."
+     ]
+    },
+    {
+     "url": "https://newsdesk.hk/articles/citybus-reports-suspected-unauthorised-login-to-tourist-bus-ticket-redemption-system/",
+     "publisher": "newsdesk.hk",
+     "published": "Nov 9, 2026, 9:23 PM HKT",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Users being emailed; phishing advice"
+     ],
+     "limits": [
+      "Aggregator citing HK01 and Commercial Radio; its illustration is AI-generated and was not used."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-trade",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-09T04:07",
+   "dateLabel": "Nov 9, 2026 (Beijing time)",
+   "headline": "China extends its trade truce with the U.S. to Jan. 10, keeping the 24% extra tariff and rare-earth controls on hold",
+   "summary": "China said on Monday it will keep suspending its additional 24% tariff on U.S. goods for two more months from 1:01 p.m. on Nov. 10 (Beijing time), while the 10% extra tariff stays in place. The Commerce Ministry also extended to Jan. 10 its pause on the expanded export controls on rare earths and other materials announced in October 2025, Reuters reports. The State Council’s tariff commission said it had noted U.S. plans to replace the court-invalidated IEEPA tariffs with Section 301 duties and would adjust its countermeasures depending on Washington’s next moves. Trump is expected in Shenzhen for the APEC summit later this month.",
+   "why": "A two-month extension, rather than a longer one, keeps Beijing’s leverage — especially over rare earths — on the table going into the Trump–Xi meeting at APEC.",
+   "label": "Official statement + state media + reported",
+   "sources": [
+    {
+     "title": "China extends suspension of 24 pct additional tariff on U.S. goods for two months",
+     "site": "english.gov.cn (Xinhua, state media)",
+     "date": "Nov 9, 2026",
+     "href": "https://english.www.gov.cn/news/202611/09/content_WS6af18d6bc6d00ca5f9a0e308.html"
+    },
+    {
+     "title": "China extends suspension of new rare earth controls until January",
+     "site": "Reuters (via Investing.com)",
+     "date": "Nov 9, 2026",
+     "href": "https://www.investing.com/news/commodities-news/china-extends-suspension-of-new-rare-earth-controls-until-january-5010878"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.www.gov.cn/news/202611/09/content_WS6af18d6bc6d00ca5f9a0e308.html",
+     "publisher": "english.gov.cn / Xinhua (state media)",
+     "published": "Nov 9, 2026, 5:07 PM Beijing",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "24% suspension extended two months from 1:01 p.m. Nov 10; 10% stays",
+      "Commission’s note on Section 301"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.investing.com/news/commodities-news/china-extends-suspension-of-new-rare-earth-controls-until-january-5010878",
+     "publisher": "Reuters via Investing.com",
+     "published": "Nov 9, 2026",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Export-control pause extended to Jan 10",
+      "Part of broader suspension; Trump due in Shenzhen for APEC"
+     ],
+     "limits": [
+      "Reuters text read via a syndication site."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-spy",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-09T04:07",
+   "dateLabel": "Nov 9–10, 2026 (update to Nov 9 story)",
+   "headline": "Beijing calls the allegation that a woman linked to Nvidia’s Jensen Huang spied for China “groundless”",
+   "summary": "China’s Foreign Ministry spokesperson Guo Jiakun said on Monday that “the so-called Chinese spy allegation is groundless” and “nothing but a smear against China,” after reports that Nvidia’s board opened a probe into whether CEO Jensen Huang was targeted by Chinese intelligence through a woman with whom he acknowledged an affair. Asked on Tuesday whether Xi Jinping would raise the issue with President Trump, and about the woman’s citizenship and whereabouts, Guo said China had already stated its position. Lianhe Zaobao notes the intelligence allegations have not been substantiated by an independent investigation and that Nvidia’s board has not found that company secrets were leaked.",
+   "why": "The denial keeps the scandal from derailing the planned Trump–Xi meeting at APEC, but Washington’s response will matter more for Nvidia’s China business than Beijing’s words.",
+   "label": "Official statement + state media + allegation",
+   "note": "Ongoing story: Donna Daily reported Nvidia’s board probe on Nov. 9. The spying allegation, attributed in reports to U.S. officials, is unproven.",
+   "sources": [
+    {
+     "title": "China rejects spy allegation linked to Nvidia CEO",
+     "site": "Xinhua (state media)",
+     "date": "Nov 9, 2026",
+     "href": "https://english.news.cn/20261109/20aa1587dc5c415a9c966cea0af6aa9c/c.html"
+    },
+    {
+     "title": "Foreign Ministry Spokesperson Guo Jiakun’s Regular Press Conference on November 10, 2026",
+     "site": "Ministry of Foreign Affairs of China",
+     "date": "Nov 10, 2026",
+     "href": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261110_12056810.html"
+    },
+    {
+     "title": "China dismisses spy claims amid Jensen Huang affair controversy as groundless",
+     "site": "Lianhe Zaobao",
+     "date": "Nov 9, 2026",
+     "href": "https://www.zaobao.com.sg/en/news/china/china-dismisses-spy-claims-amid-jensen-huang-affair-controversy-groundless"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261109/20aa1587dc5c415a9c966cea0af6aa9c/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 9, 2026, 5:07 PM Beijing",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Guo quote: “groundless… a smear against China”"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261110_12056810.html",
+     "publisher": "Ministry of Foreign Affairs of China",
+     "published": "Nov 10, 2026, 5:42 PM Beijing",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Guo declines to say whether Xi will raise it; repeats position",
+      "Trilateral with Putin: “in communication”"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.zaobao.com.sg/en/news/china/china-dismisses-spy-claims-amid-jensen-huang-affair-controversy-groundless",
+     "publisher": "Lianhe Zaobao",
+     "published": "Nov 9, 2026, 4:55 PM",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Allegations not independently substantiated; board has not found leaks"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "cn-panda",
+   "region": "cn",
+   "topic": "human",
+   "ts": "2026-11-08T01:06",
+   "dateLabel": "Nov 8, 2026",
+   "headline": "Macao’s twin pandas Jian Jian and Kang Kang move to Chengdu after a decade as local favourites",
+   "summary": "Jian Jian and Kang Kang, the first giant-panda twins born in Macao, flew on a chartered flight to Chengdu on Sunday after a send-off ceremony with officials and schoolchildren. The ten-year-old males, born on June 26, 2016 to Kai Kai and Xin Xin, a gift to Macao from the central government, were taken to the Chengdu Research Base of Giant Panda Breeding, which says they are in good health. They will spend at least a month in quarantine before moving into a renovated pavilion that the base says includes Macao cultural touches.",
+   "why": "Pandas are a cherished part of city life in Macao and a deliberate symbol of mainland ties; the move fits Beijing’s practice of rotating pandas to Chengdu for breeding and “wild-adaptation” programmes.",
+   "label": "Official statement + state media",
+   "sources": [
+    {
+     "title": "After a decade of companionship in Macao, giant pandas departing for a new journey",
+     "site": "Macao SAR Government Portal",
+     "date": "Nov 8, 2026",
+     "href": "https://www.gov.mo/en/news/412905/"
+    },
+    {
+     "title": "Twin giant pandas Jian Jian and Kang Kang arrive in Chengdu from Macao",
+     "site": "China Daily (state media)",
+     "date": "Nov 9, 2026",
+     "href": "https://www.chinadaily.com.cn/a/202611/09/WS6af192d4e4b03ebf8519b55a.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.gov.mo/en/news/412905/",
+     "publisher": "Macao SAR Government (IAM)",
+     "published": "Nov 8, 2026, 2:06 PM",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Chartered flight Nov 8; ceremony",
+      "Born June 26, 2016; first twins born in Macao",
+      "At least one month’s quarantine"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.chinadaily.com.cn/a/202611/09/WS6af192d4e4b03ebf8519b55a.html",
+     "publisher": "China Daily (state media)",
+     "published": "Nov 9, 2026, 5:31 PM",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Arrived at Chengdu base; in good health",
+      "Renovated Xingyun Pavilion"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "w-turkey",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-09T12:15",
+   "dateLabel": "Nov 9, 2026",
+   "headline": "Explosion at a steel plant near Izmir kills 17 workers, and Erdogan promises to find who is responsible",
+   "summary": "At least 17 workers were killed and a dozen or more injured on Monday in an explosion at the Habas iron and steel plant in Aliaga, north of Izmir in western Turkey. The Izmir governor said an overhead crane collapsed during a boiler-replacement operation, dropping material into a furnace below; a worker told AFP that molten steel hit water-cooled panels and caused an explosion. President Erdogan said investigations would establish whether there was negligence; BBC Turkish, citing local media, reports at least five arrests. Workers’ groups and the pro-Kurdish DEM party accused the company of a poor safety record, and a protest was called for Tuesday evening.",
+   "why": "Turkey has one of Europe’s worst workplace-death records; a disaster at a major private steelmaker will test whether the promised investigation reaches the company and its regulators.",
+   "label": "Reported + official statement",
+   "note": "Injury figures differ: the BBC says 12 injured, AFP quotes Erdogan as saying 13. The worker’s account of the cause is his own; the official cause is under investigation.",
+   "sources": [
+    {
+     "title": "Turkey steel factory blast kills at least 17 people",
+     "site": "BBC News",
+     "date": "Nov 9, 2026",
+     "href": "https://www.bbc.com/news/articles/cq2d6d5z9y5jo"
+    },
+    {
+     "title": "Anger as 17 killed in Turkey steel factory blast",
+     "site": "France 24 (AFP)",
+     "date": "Nov 9, 2026",
+     "href": "https://www.france24.com/en/live-news/20261109-turkey-steel-factory-blast-kills-16-probe-launched"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.com/news/articles/cq2d6d5z9y5jo",
+     "publisher": "BBC News",
+     "published": "Nov 9, 2026 (page showed “15 hours ago”)",
+     "checkedAt": "2026-11-10T06:16:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "17 dead after health minister update",
+      "Crane collapse during maintenance per governor",
+      "At least five arrested, citing local media"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.france24.com/en/live-news/20261109-turkey-steel-factory-blast-kills-16-probe-launched",
+     "publisher": "France 24 / AFP",
+     "published": "Nov 9, 2026, 18:15 Paris (modified 21:06)",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Erdogan quote and 13 injured",
+      "Worker’s account of molten steel",
+      "DEM party and workers’ protest call"
+     ],
+     "limits": [
+      "Conflicting injury counts (12 vs 13)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-fridges",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-09T11:53",
+   "dateLabel": "Nov 9, 2026 (update to Nov 3 story)",
+   "headline": "France blames Iran’s Revolutionary Guards for last month’s supermarket fridge hacks and promises sanctions",
+   "summary": "French Foreign Minister Jean-Noël Barrot said on Monday that Iran’s Revolutionary Guards were responsible for the Oct. 11–12 cyberattacks that pushed fridge and freezer temperatures above 50°C in hundreds of French supermarkets, calling it “unprecedented” in scale and aggression. France summoned Iran’s ambassador, and Barrot said those responsible would face sanctions; the Guardian quotes him as promising Europe-wide measures. The Paris prosecutor opened an investigation into the head of an IRGC-linked hacking unit called Shahid Kaveh and his deputies, citing Farsi traces and Iranian IP addresses. Iran had not responded officially; the BBC says some Iranian media called the accusation baseless.",
+   "why": "It is one of the first times a European government has pinned a sabotage attack on everyday infrastructure on a state, and it could drag the EU into a new round of Iran sanctions at an already tense moment over the Iran war.",
+   "label": "Official statement + allegation + reported",
+   "note": "Ongoing story: Donna Daily reported the wider European fridge attacks on Nov. 3. Attribution is France’s; it has not published all of its evidence, and the BBC notes cyber attribution is hard.",
+   "sources": [
+    {
+     "title": "France accuses Iran of supermarket fridge hacking",
+     "site": "BBC News",
+     "date": "Nov 9, 2026",
+     "href": "https://www.bbc.com/news/articles/cmg474vk6dyqo"
+    },
+    {
+     "title": "Iran was behind cyber-attack on French supermarket freezers, Paris says",
+     "site": "The Guardian",
+     "date": "Nov 9, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.com/news/articles/cmg474vk6dyqo",
+     "publisher": "BBC News",
+     "published": "Nov 9, 2026 (page showed “15 hours ago”)",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Barrot attribution to IRGC; ambassador summoned; sanctions",
+      "Prosecutor’s probe of Shahid Kaveh",
+      "Iranian media dismissal; attribution caveat"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges",
+     "publisher": "The Guardian",
+     "published": "Nov 9, 2026, 11:53 AM EST (updated 12:54 PM)",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "“Europe-wide sanctions”",
+      "Farsi and Iranian IP addresses cited",
+      "Up to 700 shops hit"
+     ],
+     "limits": [
+      "Guardian and BBC differ on sanctions scope (Europe-wide vs unspecified)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-cop31",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-09",
+   "dateLabel": "Nov 9, 2026; runs to Nov 20",
+   "headline": "COP31 climate talks open in Antalya with a push for a deal from the first day rather than the last",
+   "summary": "The UN’s COP31 climate summit opened in Antalya, Türkiye, on Monday, with nearly 200 countries and more than 90,000 people expected before it closes on Nov. 20. Turkey’s environment minister Murat Kurum is COP31 president, while Australia’s Chris Bowen leads negotiations under a co-presidency arrangement; Bowen said he wants to build a presidency-led decision throughout the talks rather than waiting for the final days. UN climate chief Simon Stiell told delegates that progress is “nowhere near far enough or fair enough.” Finance for developing countries is expected to be the hardest issue, with a strengthening El Niño adding urgency.",
+   "why": "With the Iran war disrupting energy markets and few new targets expected, COP31 is a test of whether climate talks can deliver practical results — money, adaptation and clean-energy measures — instead of pledges.",
+   "label": "Official statement",
+   "note": "The UN News article is the UN’s own account of the opening. Outcomes are not expected until the summit ends on Nov. 20.",
+   "sources": [
+    {
+     "title": "COP31 opens in Antalya: Can climate promises finally deliver results?",
+     "site": "UN News",
+     "date": "Nov 9, 2026",
+     "href": "https://news.un.org/en/story/2026/11/1168763"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.un.org/en/story/2026/11/1168763",
+     "publisher": "UN News",
+     "published": "Nov 9, 2026",
+     "checkedAt": "2026-11-10T06:16:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Opened Monday; runs to Nov 20; 90,000+ expected",
+      "Kurum president; Bowen co-presidency and early-decision plan",
+      "Stiell quote",
+      "Finance as sticking point"
+     ],
+     "limits": [
+      "Single source (UN’s own news service); AP and AFP reports were found in search but not opened this run."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-booker",
+   "region": "world",
+   "topic": "culture",
+   "ts": "2026-11-09",
+   "dateLabel": "Nov 9, 2026",
+   "headline": "M. John Harrison, 81, becomes the Booker Prize’s oldest winner with the post-apocalyptic satire “The End of Everything”",
+   "summary": "British writer M. John Harrison won the 2026 Booker Prize on Monday in London for “The End of Everything,” a 198-page dystopian satire about a beachcomber and his elderly aunt muddling through on a near-future Kent coast after a mysterious collapse and the arrival of shape-shifting beings called the iGhetti. At 81 he is the oldest winner in the prize’s history, overtaking Margaret Atwood, and the Booker Foundation calls him the first winner to come from the science-fiction world. Judging chair Mary Beard said the panel was unanimous after a day of debate and called the book “the politics of now seen through the lens of the future.” The BBC notes the novel has divided readers; Harrison receives £50,000.",
+   "why": "A genre writer with a 60-year cult following taking literature’s best-known prize is a statement about where the line between “literary” and science fiction now sits — and the Booker usually brings a big jump in sales.",
+   "label": "Official statement + reported",
+   "note": "The Booker press-release page shows a “published 2 November” date, apparently from before the ceremony; its text announces the Nov. 9 win.",
+   "sources": [
+    {
+     "title": "The End of Everything by M. John Harrison wins the Booker Prize 2026",
+     "site": "The Booker Prizes",
+     "date": "Nov 9, 2026",
+     "href": "https://thebookerprizes.com/media-centre/press-releases/the-end-of-everything-by-m-john-harrison-wins-the-booker-prize-2026"
+    },
+    {
+     "title": "‘Baffling but brilliant’ post-apocalyptic novel The End of Everything wins Booker Prize",
+     "site": "BBC News",
+     "date": "Nov 9–10, 2026",
+     "href": "https://www.bbc.com/news/articles/cw0737kv52lko"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://thebookerprizes.com/media-centre/press-releases/the-end-of-everything-by-m-john-harrison-wins-the-booker-prize-2026",
+     "publisher": "The Booker Prize Foundation",
+     "published": "Page dated Nov 2, 2026; announces Nov 9 win",
+     "checkedAt": "2026-11-10T06:16:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Oldest winner at 81; 198 pages",
+      "Unanimous decision; Beard quote",
+      "First win for Serpent’s Tail"
+     ],
+     "limits": [
+      "Page publication date (Nov 2) predates the ceremony; treated as an embargoed release."
+     ]
+    },
+    {
+     "url": "https://www.bbc.com/news/articles/cw0737kv52lko",
+     "publisher": "BBC News",
+     "published": "Nov 10, 2026 (page showed “2 hours ago”)",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Win at London ceremony Monday",
+      "Mixed critical reaction",
+      "Other shortlisted books"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "w-fifpro",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-09",
+   "dateLabel": "Nov 9, 2026",
+   "headline": "Messi returns to the players’ World 11 for a record 18th time as Ballon d’Or winner Harry Kane narrowly misses out",
+   "summary": "Professional footballers’ union FIFPRO named its 2026 Men’s World 11 on Monday from votes by 19,806 players in 73 countries. Lionel Messi returned for the first time since 2023, extending his record to 18 selections, and Lamine Yamal became the first player picked twice before turning 20. Harry Kane missed out with 27.6% of the vote, just behind Erling Haaland (28.4%) and Messi (29.5%) in the forward line, which also includes Kylian Mbappé and Yamal. Arsenal goalkeeper David Raya drew the most votes, and Spain now has 53 Men’s World 11 selections.",
+   "why": "The World 11 is the only global award voted on purely by players, so leaving out the Ballon d’Or winner shows how differently peers and journalists can judge a season.",
+   "label": "Official figures",
+   "note": "Vote shares are FIFPRO’s own figures; Kane’s Ballon d’Or win is as reported in The Standard’s news recap.",
+   "sources": [
+    {
+     "title": "Who is in the 2026 FIFPRO Men’s World 11?",
+     "site": "FIFPRO",
+     "date": "Nov 9, 2026",
+     "href": "https://www.fifpro.org/en/articles/2026/11/who-is-in-the-2026-fifpro-mens-world-11"
+    },
+    {
+     "title": "FIFPRO World 11: Who received the most votes and who narrowly missed out?",
+     "site": "FIFPRO",
+     "date": "Nov 9, 2026",
+     "href": "https://www.fifpro.org/en/articles/2026/11/fifpro-world-11-who-received-the-most-votes-and-who-narrowly-missed-out"
+    },
+    {
+     "title": "Morning Recap - November 10, 2026",
+     "site": "The Standard (Hong Kong)",
+     "date": "Nov 10, 2026",
+     "href": "https://www.thestandard.com.hk/news/article/348005/Morning-Recap-November-10-2026"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.fifpro.org/en/articles/2026/11/who-is-in-the-2026-fifpro-mens-world-11",
+     "publisher": "FIFPRO",
+     "published": "Nov 9, 2026",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Full XI; 19,806 voters in 73 countries",
+      "Messi’s 18th selection; Yamal record"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.fifpro.org/en/articles/2026/11/fifpro-world-11-who-received-the-most-votes-and-who-narrowly-missed-out",
+     "publisher": "FIFPRO",
+     "published": "Nov 9, 2026",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Kane 27.6%; forward vote shares",
+      "Raya most votes"
+     ],
+     "limits": [
+      "FIFPRO’s own page; an ESPN report did not load in our fetch."
+     ]
+    },
+    {
+     "url": "https://www.thestandard.com.hk/news/article/348005/Morning-Recap-November-10-2026",
+     "publisher": "The Standard (Hong Kong)",
+     "published": "Nov 10, 2026",
+     "checkedAt": "2026-11-10T06:18:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 10 2026",
+     "claimsSupported": [
+      "Describes Kane as Ballon d’Or winner omitted from the World 11"
+     ],
+     "limits": [
+      "News recap page summarising wire copy; not a full article."
+     ]
+    }
+   ]
+  }
+ ]
+}
