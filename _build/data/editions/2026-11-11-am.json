@@ -1,0 +1,1185 @@
+{
+ "id": "2026-11-11-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-11",
+ "leadId": "us-hegseth",
+ "topIds": [
+  "us-cpi",
+  "w-ukraine",
+  "ca-remembrance",
+  "hk-northlink",
+  "cn-trade"
+ ],
+ "notes": [
+  "Morning Edition for Wednesday, Nov 11, 2026. It covers developments since Tuesday’s Morning Edition, with ongoing stories marked with their earlier dates.",
+  "The lead is the House vote that sent the Hegseth impeachment articles to committee, effectively ending the effort. Top stories: hotter-than-expected U.S. inflation for October, the end of the Russia–Ukraine talks in Abu Dhabi, a cap on paid Remembrance Day duty for Ontario reservists, Hong Kong’s go-ahead for the full Northern Link and China’s $1 trillion trade surplus.",
+  "The U.S. and Canada have five stories each, and Hong Kong, China and World four each, because we did not find more fresh, well-sourced items and did not pad. Culture: U.S. (Broadway’s “Awake and Sing!” revival), Hong Kong (the end of “A Symphony of Lights”) and China (Golden Rooster Awards); we found no strong new Canadian or World culture story this morning. Sports: U.S. (Knicks), Canada (Stephanie Case) and World (Tatjana Smith).",
+  "Remembrance Day ceremonies, the final Symphony of Lights show, WinterFest, the Broadway previews and any Russia–Ukraine prisoner exchange are described as scheduled or discussed; none had happened when this edition was compiled."
+ ],
+ "provenance": [
+  "Stories are compiled from the linked sources; labels describe the type of claim each story rests on.",
+  "Source pages were opened during this morning’s research between about 6:24 and 6:30 AM ET; check times are the logged end of each research batch, not per page.",
+  "Xinhua items are labelled State media. Some South China Morning Post pages showed only their opening paragraphs, and the AP’s own pages and an NPR story on the Republican leadership vote did not load in our fetch, so they were not relied on; the AP game recap was read on NBA.com.",
+  "Several items rest on a single outlet and are marked so in their source notes. Differing counts (Ocean Park) and unconfirmed figures (prisoner exchange) are flagged on each story."
+ ],
+ "stories": [
+  {
+   "id": "us-hegseth",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-10T18:02",
+   "dateLabel": "Nov 10, 2026 (update to Nov 9 and Nov 10 stories)",
+   "headline": "House votes 211-204 to send the Hegseth impeachment articles to committee, effectively ending Massie’s push",
+   "deck": "The House voted on Tuesday evening to refer Rep. Thomas Massie’s eight articles of impeachment against Defense Secretary Pete Hegseth to committee, sidestepping a direct vote on impeachment.",
+   "summary": "The House voted on Tuesday evening to refer Rep. Thomas Massie’s eight articles of impeachment against Defense Secretary Pete Hegseth to committee, sidestepping a direct vote on impeachment. The House Clerk’s roll call shows the motion passed 211-204: Republicans voted 210-1 in favour (Massie was the lone Republican no), all 203 Democrats who voted opposed it, one independent voted yes and 18 members did not vote. NPR says the vote effectively kills the effort and virtually guarantees it will not be taken up before this Congress ends. Earlier on Tuesday, Hegseth called Massie a “disgruntled and defeated congressman” at a Pentagon news conference and said, “I stand behind every one of these operations.” The articles accused him of waging the Iran war without authorisation, ordering strikes on suspected drug boats, the seizure of Venezuela’s Nicolás Maduro, retaliating against Sen. Mark Kelly and an unlawful campaign in Yemen.",
+   "why": "The vote shows House Republicans still close ranks around Trump’s cabinet in their final weeks in the majority — but it only delays the fight, since Democrats take control in January and have promised investigations of Hegseth’s Pentagon.",
+   "label": "Official figures + reported + allegation",
+   "note": "Ongoing story: Donna Daily reported the filing of the articles on Nov. 10 and Hakeem Jeffries’ support on Nov. 9. The articles were allegations; no finding was made on them. NPR notes it remains unclear whether Democrats will try impeachment again next year.",
+   "sources": [
+    {
+     "title": "Roll Call 317, H. Res. 1655 — On Motion to Refer",
+     "site": "Office of the Clerk, U.S. House of Representatives",
+     "date": "Nov 10, 2026",
+     "href": "https://clerk.house.gov/Votes/2026317"
+    },
+    {
+     "title": "House votes to effectively end the impeachment effort against Pete Hegseth",
+     "site": "NPR",
+     "date": "Nov 10, 2026",
+     "href": "https://www.npr.org/2026/11/10/nx-s1-6036813/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://clerk.house.gov/Votes/2026317",
+     "publisher": "Office of the Clerk, U.S. House",
+     "published": "Nov 10, 2026, 6:02 PM (vote time)",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Motion to refer H. Res. 1655 passed 211-204, 18 not voting",
+      "Party breakdown: R 210-1, D 0-203, I 1-0",
+      "Massie voted nay"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.npr.org/2026/11/10/nx-s1-6036813/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth",
+     "publisher": "NPR",
+     "published": "Nov 10, 2026, 6:43 PM ET (updated 7:11 PM ET)",
+     "checkedAt": "2026-11-11T06:25:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Vote effectively kills impeachment effort",
+      "Hegseth quotes from Pentagon news conference",
+      "Summary of the articles’ subjects",
+      "Democrats promise investigations after January"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-11-am/us-hegseth.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Official portrait of Pete Hegseth in front of U.S. and Defense Department flags",
+    "caption": "Pete Hegseth’s official Defense Department portrait, taken in January 2025.",
+    "credit": "U.S. Department of Defense",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pete_Hegseth_Official_Portrait.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Pete_Hegseth_Official_Portrait.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "us-cpi",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-10T08:30",
+   "dateLabel": "Nov 10, 2026",
+   "headline": "U.S. consumer prices rose 0.4% in October, more than expected, as food and shelter costs climbed",
+   "summary": "The Consumer Price Index rose a seasonally adjusted 0.4% in October after 0.6% in September, the Bureau of Labor Statistics reported on Tuesday. Prices excluding food and energy rose 0.3% for a third straight month. Food rose 0.5% (beef 0.9%, snacks 1.0%), energy 0.7% and electricity 0.9%; shelter rose 0.3% and accounted for more than 30% of the monthly increase, while used cars fell 1.2%. BLS did not publish a 12-month inflation rate because it could not collect October 2025 data during last year’s government shutdown. CNBC reports economists had expected 0.3% overall and 0.2% for core, and that traders now fully price in a quarter-point Federal Reserve rate increase at the Dec. 8–9 meeting.",
+   "why": "Rent, groceries and eating out are where a tighter budget feels this first — and a hotter-than-expected print makes a Fed rate increase next month more likely, which would push up the cost of credit cards and loans.",
+   "label": "Official figures + reported",
+   "note": "Market expectations for the Fed are CNBC’s reporting of CME FedWatch pricing, not a Fed decision; the Fed meets Dec. 8–9.",
+   "sources": [
+    {
+     "title": "Consumer Price Index — October 2026",
+     "site": "U.S. Bureau of Labor Statistics",
+     "date": "Nov 10, 2026",
+     "href": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+     "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed’s inflation fight",
+     "site": "CNBC",
+     "date": "Nov 10, 2026",
+     "href": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+     "publisher": "U.S. Bureau of Labor Statistics",
+     "published": "Nov 10, 2026, 8:30 AM ET (USDL-26-1685)",
+     "checkedAt": "2026-11-11T06:25:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "CPI-U +0.4% SA in October after +0.6% in September",
+      "Core +0.3% for third month",
+      "Food +0.5%, energy +0.7%, electricity +0.9%, shelter +0.3% (over 30% of increase), used cars −1.2%",
+      "No 12-month change published because October 2025 data were not collected"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+     "publisher": "CNBC",
+     "published": "Nov 10, 2026, 8:31 AM ET (updated 6:53 PM ET)",
+     "checkedAt": "2026-11-11T06:29:54-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Forecasts were 0.3% headline and 0.2% core",
+      "Traders fully price a quarter-point hike at Dec. 8–9 meeting"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "us-jordan",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-10",
+   "dateLabel": "Nov 10, 2026",
+   "headline": "House Republicans pick Jim Jordan to lead them in the minority; Senate Republicans keep John Thune",
+   "summary": "House Republicans elected Judiciary Committee Chairman Jim Jordan of Ohio as their leader for the next Congress on Tuesday, defeating Majority Leader Steve Scalise 106-73 in a closed-door secret ballot, according to lawmakers in the room cited by NBC News and sources cited by CNBC. Jordan, a founder of the House Freedom Caucus and a close Trump ally, pitched himself as the best-placed Republican to counter the investigations Democrats plan once they take the majority in January. Speaker Mike Johnson had said he would not run. In the Senate, Republicans re-elected John Thune, John Barrasso and Tom Cotton to their leadership posts by acclamation after a 31-15 vote to proceed rather than delay, NBC reports.",
+   "why": "Republicans chose a combative oversight veteran over a unifier, which signals they plan to fight Democratic investigations of the Trump administration head-on rather than look for compromise.",
+   "label": "Reported + unnamed sources",
+   "note": "The 106-73 tally comes from lawmakers and sources who were not named; the vote was a secret ballot.",
+   "sources": [
+    {
+     "title": "House Republicans elect Rep. Jim Jordan as their next leader following election losses",
+     "site": "NBC News",
+     "date": "Nov 10, 2026",
+     "href": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+    },
+    {
+     "title": "Rep. Jim Jordan, Sen. John Thune elected GOP leaders in Congress",
+     "site": "CNBC",
+     "date": "Nov 10, 2026",
+     "href": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300",
+     "publisher": "NBC News",
+     "published": "Nov 10, 2026 (updated 4:34 PM ET)",
+     "checkedAt": "2026-11-11T06:29:54-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Jordan beat Scalise 106-73, per two lawmakers in the room",
+      "Jordan’s oversight pitch and quote",
+      "Thune, Barrasso, Cotton re-elected by acclamation; 31-15 vote to proceed"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html",
+     "publisher": "CNBC",
+     "published": "Nov 10, 2026, 2:55 PM ET (updated 5:00 PM ET)",
+     "checkedAt": "2026-11-11T06:25:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Jordan elected 106-73 per sources cited by MS NOW",
+      "Thune statement",
+      "Johnson not running for minority leader"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-11-am/us-jordan.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Official portrait of Jim Jordan in front of a U.S. flag",
+    "caption": "Rep. Jim Jordan’s official congressional portrait, taken in 2015.",
+    "credit": "United States Congress",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jim_Jordan_official_photo,_114th_Congress.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Jim_Jordan_official_photo,_114th_Congress.jpg",
+    "isFilePhoto": true,
+    "year": 2015
+   }
+  },
+  {
+   "id": "us-awake",
+   "region": "us",
+   "topic": "culture",
+   "ts": "2026-11-10T07:23",
+   "dateLabel": "Nov 10, 2026",
+   "headline": "Richard Schiff and Michael Aronov join Manhattan Theatre Club’s Broadway revival of Clifford Odets’ “Awake and Sing!”",
+   "summary": "Manhattan Theatre Club has added Michael Aronov (as Moe Axelrod), Benjamin Pelteson (Sam Feinschreiber), “The West Wing” actor Richard Schiff and Stephen Schnetzer to its Broadway revival of Clifford Odets’ 1935 drama “Awake and Sing!”, Deadline reports. They join Micaela Diamond and Will Pullen, announced in July as Hennie and Ralph Berger. Directed by Tyne Rafaeli, the production is scheduled to begin previews on Dec. 15 at the Samuel J. Friedman Theatre, with opening night set for Jan. 7, 2027. The play, about three generations of a Bronx family during the Great Depression, was first produced by the Group Theatre; its last Broadway revival was in 2006.",
+   "why": "Odets and the Group Theatre shaped how American actors are trained to this day, so a major Broadway revival of their landmark play is a rare chance for New York audiences and drama students to see that tradition on a big stage.",
+   "label": "Reported",
+   "note": "Previews and opening are scheduled dates; Deadline does not list the roles for Schiff or Schnetzer.",
+   "sources": [
+    {
+     "title": "Richard Schiff Among Cast Added To Broadway’s ‘Awake And Sing!’ Revival",
+     "site": "Deadline",
+     "date": "Nov 10, 2026",
+     "href": "https://deadline.com/2026/11/broadway-awake-and-sing-micaela-diamond-will-pullen-1237012662/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://deadline.com/2026/11/broadway-awake-and-sing-micaela-diamond-will-pullen-1237012662/",
+     "publisher": "Deadline",
+     "published": "Nov 10, 2026, 7:23 AM (update to Jul 30 story)",
+     "checkedAt": "2026-11-11T06:25:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Nov 10 cast additions and roles for Aronov and Pelteson",
+      "Previews Dec 15, opening Jan 7, 2027 at Samuel J. Friedman Theatre",
+      "Group Theatre origin; 2006 last revival"
+     ],
+     "limits": [
+      "Single outlet; no MTC release opened."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-11-am/us-awake.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Ornate ceiling and auditorium of the Samuel J. Friedman Theatre with audience members in their seats",
+    "caption": "The auditorium of the Samuel J. Friedman Theatre in Manhattan, pictured in October 2025.",
+    "credit": "Epicgenius",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Samuel_J._Friedman_Theatre_Oct_2025_30.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "us-knicks",
+   "region": "us",
+   "topic": "sports",
+   "ts": "2026-11-10T22:06",
+   "dateLabel": "Nov 10, 2026",
+   "headline": "Knicks rout the Bucks 117-85 at the Garden for a fourth straight win",
+   "summary": "Jalen Brunson scored 23 points and Karl-Anthony Towns had 21 points and 16 rebounds as the New York Knicks beat the Milwaukee Bucks 117-85 at Madison Square Garden on Tuesday night, the AP recap on NBA.com reports. OG Anunoby added 19 points with five 3-pointers, and New York led 58-34 at halftime. The New York Post reports the Knicks out-rebounded Milwaukee 70-34, that Towns has opened the season with 10 straight double-doubles (one short of Willis Reed’s 1970 franchise record) and that the team is now 6-4 after an 0-3 start. Milwaukee, without leading scorer Tyler Herro, fell to 1-10. The Knicks are scheduled to host Cleveland on Wednesday.",
+   "why": "After an 0-3 start, the Knicks are winning with defence — five straight opponents held under 100 points, the Post notes — which is the kind of form that tends to last longer than a hot shooting streak.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Brunson, Towns and the bench help the Knicks beat the Bucks 117-85 (AP recap)",
+     "site": "NBA.com",
+     "date": "Nov 10, 2026",
+     "href": "https://www.nba.com/game/mil-vs-nyk-0022600211"
+    },
+    {
+     "title": "Knicks thrash woeful Bucks en route to fourth consecutive win",
+     "site": "New York Post",
+     "date": "Nov 10, 2026",
+     "href": "https://nypost.com/2026/11/10/sports/knicks-thrash-woeful-bucks-en-route-to-fourth-consecutive-win/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.nba.com/game/mil-vs-nyk-0022600211",
+     "publisher": "NBA.com (AP recap by Brian Mahoney)",
+     "published": "Nov 10, 2026, 10:06 PM",
+     "checkedAt": "2026-11-11T06:29:54-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Final 117-85; Brunson 23, Towns 21 and 16, Anunoby 19 with five 3s",
+      "58-34 halftime; Bucks 1-10 without Herro",
+      "Knicks host Cleveland Wednesday"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://nypost.com/2026/11/10/sports/knicks-thrash-woeful-bucks-en-route-to-fourth-consecutive-win/",
+     "publisher": "New York Post",
+     "published": "Nov 10, 2026 (updated Nov 11, 12:02 AM ET)",
+     "checkedAt": "2026-11-11T06:29:54-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Knicks 6-4; 70 rebounds",
+      "Towns’ 10 straight double-doubles, one off Willis Reed’s 1970 record",
+      "Five straight opponents under 100 points"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "ca-remembrance",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-10T04:00",
+   "dateLabel": "Nov 10, 2026 (Remembrance Day is Nov 11)",
+   "headline": "Budget squeeze caps paid Remembrance Day duty at 50 reservists per unit in a southwestern Ontario brigade",
+   "summary": "Leaked internal emails show 31 Canadian Brigade, headquartered in London, Ont., has capped paid attendance at Remembrance Day ceremonies at 50 soldiers per unit, CBC News reports — about 650 of its 2,400 reservists across 13 units. Reservists normally receive a half-day’s pay for ceremonial duty. The brigade commander wrote that money and time could not be taken from weekly training, and warned Thursday-night training might also be cut if budget pressures continue. The Defence Department says no division-wide restriction exists and that troops may still attend in uniform, unpaid. Conservative Leader Pierre Poilievre and defence critic James Bezan criticised the cap. Ceremonies are scheduled across Canada on Nov. 11.",
+   "why": "It is a small, visible sign of a bigger tension: Ottawa is pouring billions into new military equipment while older cost-cutting orders still squeeze the day-to-day budgets of the units that people actually see.",
+   "label": "Reported + official statement",
+   "note": "Based on internal emails obtained by CBC News; the cap applies to one brigade, not the whole Canadian Armed Forces.",
+   "sources": [
+    {
+     "title": "Military budget squeeze limits paid Remembrance Day participation in Ontario",
+     "site": "CBC News",
+     "date": "Nov 10, 2026",
+     "href": "https://www.cbc.ca/news/politics/military-canada-defence-budget-cuts-9.7415731"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/military-canada-defence-budget-cuts-9.7415731",
+     "publisher": "CBC News",
+     "published": "Nov 10, 2026, 4:00 AM EST",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Cap of 50 paid soldiers per unit; 650 of 2,400",
+      "Commander’s emails on training trade-offs",
+      "DND statement: no division-wide restriction; unpaid attendance allowed",
+      "Poilievre and Bezan criticism"
+     ],
+     "limits": [
+      "Single outlet; emails were leaked to CBC and not published in full."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-11-am/ca-remembrance.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Bronze figures of soldiers atop the granite National War Memorial in Ottawa, with the dates 1914–1918 and 1939–1945",
+    "caption": "The National War Memorial in Ottawa, pictured in 2012.",
+    "credit": "Andrijko Z.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:National_War_Memorial_(Ottawa).JPG",
+    "isFilePhoto": true,
+    "year": 2012
+   }
+  },
+  {
+   "id": "ca-quebec",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-10T17:53",
+   "dateLabel": "Nov 10, 2026",
+   "headline": "Carney and Quebec Premier St-Pierre Plamondon clash over Quebec’s letters to 59 newly elected U.S. officials",
+   "summary": "Quebec Premier Paul St-Pierre Plamondon has sent letters to 59 newly elected U.S. officials, including Michigan senator-elect Abdul El-Sayed and New Hampshire Gov. Kelly Ayotte, inviting them to work directly with a Quebec delegate, CBC News reports. Asked about it in Montreal on Tuesday, Prime Minister Mark Carney said “in a negotiation, it’s always a good idea to have a single negotiator,” and that the federal government holds that role. St-Pierre Plamondon replied that “Mr. Carney is not my boss” and that Quebec has always had an international presence. It is the latest public spat since the Parti Québécois premier was sworn in on Oct. 21; the two leaders are expected to meet at the Francophonie summit in Cambodia later this month.",
+   "why": "With a sovereigntist government in Quebec City, how Ottawa and Quebec handle U.S. trade talks is an early test of whether Canada keeps a single front with Washington.",
+   "label": "Reported + official statement",
+   "sources": [
+    {
+     "title": "Tensions between PM, Quebec premier continue to flare in new tiff over U.S. relations",
+     "site": "CBC News",
+     "date": "Nov 10, 2026",
+     "href": "https://www.cbc.ca/news/canada/montreal/st-pierre-plamondon-carney-canada-us-trade-9.7417092"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/montreal/st-pierre-plamondon-carney-canada-us-trade-9.7417092",
+     "publisher": "CBC News",
+     "published": "Nov 10, 2026, 5:53 PM EST",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "59 letters to newly elected U.S. officials",
+      "Carney’s “single negotiator” remark",
+      "St-Pierre Plamondon: “Mr. Carney is not my boss”",
+      "Sworn in Oct. 21; meeting expected at Francophonie summit"
+     ],
+     "limits": [
+      "Single outlet."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-guns",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-10T14:13",
+   "dateLabel": "Nov 10, 2026",
+   "headline": "Supreme Court of Canada reserves its decision on Ottawa’s ban on about 2,500 firearm varieties",
+   "summary": "The Supreme Court of Canada has reserved its decision after two days of hearings on whether the federal cabinet had the authority to ban hundreds of firearm makes and models by regulation, CBC News reports. The 2020 order, issued after the Nova Scotia mass killing, initially covered about 1,500 firearms, including the AR-15 and Ruger Mini-14; the list has since grown to about 2,500 varieties. Gun owners and the Canadian Coalition for Firearm Rights argue the weapons are reasonable for hunting and sport shooting; the Federal Court and Federal Court of Appeal both sided with the government. A ruling is not expected for a few months, and the amnesty period now runs until 90 days after the decision.",
+   "why": "The ruling will decide whether cabinet can keep banning firearms by regulation — and what happens to the guns still held by owners under the amnesty.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Supreme Court reserves decision on whether federal firearms ban should stand",
+     "site": "CBC News",
+     "date": "Nov 10, 2026",
+     "href": "https://www.cbc.ca/news/politics/supreme-court-reserves-decision-on-firearms-ban-9.7416672"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/supreme-court-reserves-decision-on-firearms-ban-9.7416672",
+     "publisher": "CBC News",
+     "published": "Nov 10, 2026, 2:13 PM EST",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Court reserved decision after two days of arguments",
+      "1,500 models in 2020, about 2,500 now",
+      "Lower courts sided with government",
+      "Amnesty extended to 90 days after ruling; government says 67,000 weapons bought back"
+     ],
+     "limits": [
+      "Single outlet."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-wainwright",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-10T06:00",
+   "dateLabel": "Nov 10, 2026 (fire was Oct 17)",
+   "headline": "Doctors use spray-on skin for soldiers burned in the CFB Wainwright fire; nine remain critical in Alberta",
+   "summary": "Twenty-one soldiers injured in the Oct. 17 grass fire at CFB Wainwright remain in Alberta hospitals, nine in critical condition and 15 on ventilators, Acute Care Alberta told CBC News. The fire killed four soldiers. Health Canada used its special-access program to bring in RECELL, an unlicensed-in-Canada device that turns a small skin graft into a spray that can cover larger burns, and Manitoba supplied donor tissue. As of Monday, the Defence Department said 25 injured soldiers were still in hospital nationwide; its Nov. 4 update said four had been moved to hospitals in British Columbia and Ontario to be closer to family. A Toronto burn surgeon told CBC recovery will take months to years.",
+   "why": "Behind Remembrance Day’s ceremonies, this is what military sacrifice looks like now: dozens of soldiers facing a long, painful recovery from a peacetime training-base disaster.",
+   "label": "Reported + official figures",
+   "note": "Ongoing story; hospital figures change. The Nov. 4 Defence Department statement is the most recent official update opened for this edition.",
+   "sources": [
+    {
+     "title": "Specialized burn treatments deployed for soldiers injured in Alberta military base fire",
+     "site": "CBC News",
+     "date": "Nov 10, 2026",
+     "href": "https://www.cbc.ca/news/canada/edmonton/specialized-burn-treatments-soldiers-wainwright-military-base-fire-9.7415813"
+    },
+    {
+     "title": "Update on personnel injured in Canadian Forces Base Wainwright incident",
+     "site": "National Defence (Canada.ca)",
+     "date": "Nov 4, 2026",
+     "href": "https://www.canada.ca/en/department-national-defence/news/2026/11/update-on-personnel-injured-in-canadian-forces-base-wainwright-incident.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/edmonton/specialized-burn-treatments-soldiers-wainwright-military-base-fire-9.7415813",
+     "publisher": "CBC News",
+     "published": "Nov 10, 2026, 6:00 AM EST",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "21 in Alberta hospitals, 9 critical, 15 on ventilators",
+      "RECELL brought in via special access; Manitoba allografts",
+      "25 hospitalized nationwide as of Monday per DND",
+      "Four soldiers killed Oct. 17"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.canada.ca/en/department-national-defence/news/2026/11/update-on-personnel-injured-in-canadian-forces-base-wainwright-incident.html",
+     "publisher": "National Defence",
+     "published": "Nov 4, 2026",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "25 hospitalized, 14 released as of Nov 4",
+      "Four transferred to B.C. and Ontario"
+     ],
+     "limits": [
+      "Statement predates CBC’s Nov 10 figures."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-case",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-09T17:19",
+   "dateLabel": "Nov 9, 2026 (race was Nov 8)",
+   "headline": "Canadian ultrarunner Stephanie Case becomes the first woman to run 100 miles in Antarctica",
+   "summary": "Stephanie Case, a 44-year-old former UN human rights lawyer born in Kingston, Ont., finished the 100-mile Antarctic Ice Ultra in Queen Maud Land on Sunday in 17 hours, 31 minutes and 39 seconds, becoming the first woman to run that distance on the continent, CBC News reports. For safety, the course was a 4.2-kilometre loop around a base camp, run 38 times; racers started at 1 a.m. because of incoming storms. Case placed second of 28 runners behind China’s Yusheng Ni. She told CBC she hopes the run shows “motherhood isn’t the finish line”; she next plans a 472-kilometre Arctic race in Sweden in February.",
+   "why": "It is a genuine first in one of the planet’s harshest places, and Case is using it to push back on the idea that elite endurance sport and motherhood don’t mix.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Canadian ultramarathoner Stephanie Case is the 1st woman to run 100 miles in Antarctica",
+     "site": "CBC News",
+     "date": "Nov 9, 2026",
+     "href": "https://www.cbc.ca/news/canada/canadian-ultramarathon-antarctica-woman-stephanie-case-9.7415361"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/canadian-ultramarathon-antarctica-woman-stephanie-case-9.7415361",
+     "publisher": "CBC News",
+     "published": "Nov 9, 2026, 5:19 PM EST (updated Nov 10)",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Finish time 17:31:39; first woman to run 100 miles in Antarctica",
+      "38 laps of a 4.2-km loop; 1 a.m. start",
+      "Second of 28 behind Yusheng Ni",
+      "Quotes and next race"
+     ],
+     "limits": [
+      "Single outlet opened; organisers’ results page not opened."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-northlink",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-11-10T04:38",
+   "dateLabel": "Nov 10, 2026 (HK time)",
+   "headline": "Hong Kong approves funding for the second part of the Northern Link, putting the full HK$86.2 billion rail line into construction",
+   "summary": "The Executive Council approved the financial arrangement for Part 2 of the Northern Link on Tuesday, and the government and MTR Corporation signed the project agreement for the full line, the government said. The main line (10.7 km, five stations, linking the Tuen Ma and East Rail lines) and a 6-km spur line to Shenzhen’s Huanggang Port are now both in the construction stage and are targeted to open together by 2034 or earlier. Part 2 is estimated at about HK$54.8 billion and the whole project at about HK$86.2 billion (July 2025 prices), which the government says is 28% below the original estimate. The MTR will receive eight development sites, with a fixed sum deducted from their land premiums to help fund the work. Peak travel between Kam Sheung Road and Kwu Tung is expected to fall from 60 to 12 minutes.",
+   "why": "The line is the transport spine of the Northern Metropolis and a new rail link into Shenzhen — but the 2034 date means a decade of construction, and the MTR told RTHK it is its most expensive project.",
+   "label": "Official statement + reported",
+   "sources": [
+    {
+     "title": "Government and MTRCL execute project agreement for full Northern Link Project",
+     "site": "HKSAR Government press release",
+     "date": "Nov 10, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/10/P2026111000476.htm"
+    },
+    {
+     "title": "Exco green lights part two of the Northern Link",
+     "site": "RTHK",
+     "date": "Nov 10, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877299-20261110.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/10/P2026111000476.htm",
+     "publisher": "HKSAR Government (info.gov.hk)",
+     "published": "Nov 10, 2026, 17:38 HKT",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "ExCo approval of Part 2; project agreement signed",
+      "Costs HK$54.8bn and HK$86.2bn, 28% below original estimate",
+      "Lengths, stations and journey times; target 2034 or earlier",
+      "Eight sites granted under Rail-plus-Property"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877299-20261110.htm",
+     "publisher": "RTHK",
+     "published": "Nov 10, 2026, 22:08 HKT",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Same cost figures",
+      "MTR says it is its most expensive project; may raise capital beyond bonds"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "hk-oceanpark",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-09T05:13",
+   "dateLabel": "Nov 9, 2026 (HK time)",
+   "headline": "Ocean Park’s 72-metre observation tower stalls again, stranding about 40 visitors for up to two hours",
+   "summary": "Ocean Park’s revolving observation tower stopped at about 2 p.m. on Monday after a safety mechanism was triggered by a signal failure, the park told RTHK. Staff spent about two hours leading 40 people down through a safety passage in the centre of the tower, while firefighters used a rope to bring down one person with impaired mobility who felt unwell. The Electrical and Mechanical Services Department says it will investigate, and the park says it will carry out a full inspection. Hong Kong Free Press reports the tower remained closed on Tuesday, alongside the Wild Twister ride, which has been shut since 20 people were trapped on it in January. The tower also stalled in May 2025.",
+   "why": "A second tower breakdown in 18 months, on top of other ride closures, adds to questions about upkeep at one of Hong Kong’s best-known attractions, just as the city pushes tourism.",
+   "label": "Reported + official statement",
+   "note": "RTHK says 41 were stranded (40 led down by staff plus one rescued by firefighters); HKFP says around 40.",
+   "sources": [
+    {
+     "title": "41 stranded in mid-air as Ocean Park Tower ride stalls",
+     "site": "RTHK",
+     "date": "Nov 9, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877141-20261109.htm"
+    },
+    {
+     "title": "Dozens rescued after Ocean Park observation tower breaks down again",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 10, 2026",
+     "href": "https://hongkongfp.com/2026/11/10/around-40-people-were-trapped-near-the-top-of-ocean-parks-72-metre-revolving-observation-tower-on-monday-with-one-woman-reporting-feeling-unwell/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877141-20261109.htm",
+     "publisher": "RTHK",
+     "published": "Nov 9, 2026, 18:13 HKT (updated 20:15)",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Stopped about 2 p.m. after signal failure triggered safety mechanism",
+      "40 evacuated by staff over two hours; one brought down by firefighters",
+      "EMSD investigation; second incident since May 2025"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://hongkongfp.com/2026/11/10/around-40-people-were-trapped-near-the-top-of-ocean-parks-72-metre-revolving-observation-tower-on-monday-with-one-woman-reporting-feeling-unwell/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 10, 2026",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Tower and Wild Twister closed Tuesday",
+      "January Wild Twister incident"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "hk-lights",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-10T06:06",
+   "dateLabel": "Nov 10, 2026 (HK time)",
+   "headline": "“A Symphony of Lights” is set to end after 22 years as Hong Kong’s biggest WinterFest opens on Nov. 18",
+   "summary": "Victoria Harbour’s nightly light-and-laser show, “A Symphony of Lights,” is scheduled to give its final performance at 8 p.m. on Nov. 18 with added fireworks, the Hong Kong Tourism Board said on Tuesday, as reported by the South China Morning Post and DotDotNews. It will be replaced by seasonal light shows. The same day, the board’s WinterFest opens and runs until Jan. 5; the board calls it its biggest yet, with Winter Wonderlands for the first time in Tsim Sha Tsui and Causeway Bay as well as Central, a 22-metre Christmas tree in Statue Square Garden, building-facade light shows and about 100,000 spending offers.",
+   "why": "The show has been part of the harbour’s identity for two decades, and replacing it with rotating seasonal displays shows how the city is rethinking what draws visitors after dark.",
+   "label": "Official statement + reported",
+   "note": "The final show and WinterFest are scheduled events. The board’s own release (via GlobeNewswire) details WinterFest but does not mention the Symphony of Lights; that detail rests on SCMP and DotDotNews reports of the board’s briefing.",
+   "sources": [
+    {
+     "title": "WinterFest to spread across Hong Kong as ‘Symphony of Lights’ takes final bow",
+     "site": "South China Morning Post",
+     "date": "Nov 10, 2026",
+     "href": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3373964/winterfest-spread-across-hong-kong-symphony-lights-takes-final-bow"
+    },
+    {
+     "title": "‘HK WinterFest’ kicks off next Wednesday, ‘A Symphony of Lights’ to stage final show",
+     "site": "DotDotNews",
+     "date": "Nov 10, 2026",
+     "href": "https://english.dotdotnews.com/a/202611/10/AP6af2ad75e4b091a65a2f3beb.html"
+    },
+    {
+     "title": "HKTB Spreads Seasonal Joy with Biggest-Ever Hong Kong WinterFest",
+     "site": "Hong Kong Tourism Board (GlobeNewswire)",
+     "date": "Nov 11, 2026",
+     "href": "https://www.globenewswire.com/news-release/2026/11/11/3400455/0/en/hktb-spreads-seasonal-joy-with-biggest-ever-hong-kong-winterfest.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3373964/winterfest-spread-across-hong-kong-symphony-lights-takes-final-bow",
+     "publisher": "South China Morning Post",
+     "published": "Nov 10, 2026, 7:06 PM HKT",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Final Symphony of Lights at 8 p.m. on WinterFest opening day with pyrotechnics; ran 22 years",
+      "Replaced by seasonal light shows"
+     ],
+     "limits": [
+      "Only the opening of the article was readable (possible paywall)."
+     ]
+    },
+    {
+     "url": "https://english.dotdotnews.com/a/202611/10/AP6af2ad75e4b091a65a2f3beb.html",
+     "publisher": "DotDotNews",
+     "published": "Nov 10, 2026, 20:00",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "WinterFest Nov 18–Jan 5, largest ever",
+      "Final Symphony of Lights show on Nov 18 with fireworks"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.globenewswire.com/news-release/2026/11/11/3400455/0/en/hktb-spreads-seasonal-joy-with-biggest-ever-hong-kong-winterfest.html",
+     "publisher": "Hong Kong Tourism Board via GlobeNewswire",
+     "published": "Nov 11, 2026, 01:53 ET",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Dates, three Wonderland locations, 22-metre tree, 100,000 offers"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-11-am/hk-lights.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Hong Kong Island skyline lit up at night across Victoria Harbour",
+    "caption": "Hong Kong Island’s skyline during “A Symphony of Lights,” seen from across Victoria Harbour in 2018.",
+    "credit": "Krimuk2.0",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Hong_Kong,_A_Symphony_of_Lights_(1).jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "hk-drill",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-09T23:20",
+   "dateLabel": "Nov 10, 2026 (HK time)",
+   "headline": "Housing Society apologises for scheduling a fire drill for Wang Fuk Court survivors on the anniversary of the blaze",
+   "summary": "The Hong Kong Housing Society has apologised and said it will reschedule a fire drill and safety talk at Eminence Tower 1 in Hung Shui Kiu, where many relocated Wang Fuk Court residents now live, Hong Kong Free Press reports. The notice had set the drill for 2:30 p.m. on Nov. 26 — the first anniversary of the Tai Po fire, which killed 168 people. A former Wang Fuk Court resident posted the notice on Threads, asking “Why pour salt on our wounds?” The Housing Society replied that it was sorry for the “discomfort” caused and would issue an updated notice.",
+   "why": "A year on, survivors are still living with the fire’s aftermath, and the episode shows how easily official routines can reopen trauma when agencies don’t consult the people they house.",
+   "label": "Reported + official statement",
+   "sources": [
+    {
+     "title": "Housing provider apologises after scheduling fire drill for Wang Fuk Court survivors on anniversary of deadly blaze",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 10, 2026",
+     "href": "https://hongkongfp.com/2026/11/10/housing-provider-apologises-after-scheduling-fire-drill-for-wang-fuk-court-survivors-on-anniversary-of-deadly-blaze/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/10/housing-provider-apologises-after-scheduling-fire-drill-for-wang-fuk-court-survivors-on-anniversary-of-deadly-blaze/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 10, 2026, 12:20 HKT",
+     "checkedAt": "2026-11-11T06:29:54-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Drill set for 2:30 p.m. Nov 26 at Eminence Tower 1",
+      "Housing Society apology and rescheduling",
+      "Fire killed 168"
+     ],
+     "limits": [
+      "Single outlet; the Housing Society’s reply was posted on Threads and not opened directly."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-trade",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-09T21:42",
+   "dateLabel": "Nov 10, 2026 (Beijing time)",
+   "headline": "China’s trade surplus passes $1 trillion for a second straight year as AI-driven exports jump 35% in October",
+   "summary": "China’s exports rose 35.2% in October from a year earlier in U.S. dollar terms and imports rose 41.6%, lifting the trade surplus for the first 10 months to $1.04 trillion, Reuters reports from customs data released on Tuesday. That passes $1 trillion for a second year in a row and a month earlier than in 2025. Chip exports were up 111.1% in January–October and high-tech shipments 47.9%, driven by the global AI build-out. The surplus with the U.S. narrowed slightly to $32.71 billion in October. State news agency Xinhua, citing the customs administration, reports total goods trade grew 20% to 44.81 trillion yuan over the 10 months, with imports up 23.6%.",
+   "why": "A record surplus a week before Xi and Trump are expected to meet at the APEC summit in Shenzhen gives both sides ammunition — and analysts told Reuters it raises the risk of new trade barriers in 2027.",
+   "label": "Official figures + reported + state media",
+   "note": "Reuters reports in U.S. dollars and Xinhua in yuan, so growth rates differ. The Xi–Trump meeting is expected, not confirmed as held.",
+   "sources": [
+    {
+     "title": "China’s trade surplus soars past $1 trillion as AI boom powers exports",
+     "site": "Reuters",
+     "date": "Nov 10, 2026",
+     "href": "https://www.reuters.com/3fec1b0a85a0/world/asia-pacific/chinas-trade-surplus-soars-past-1-trillion-october-exports-jump-352-yy-2026-11-10/"
+    },
+    {
+     "title": "China’s foreign trade growth picks up pace in first 10 months",
+     "site": "Xinhua (state media)",
+     "date": "Nov 10, 2026",
+     "href": "https://english.news.cn/20261110/0437c9dd64c3475fa81eba32df36d307/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.reuters.com/3fec1b0a85a0/world/asia-pacific/chinas-trade-surplus-soars-past-1-trillion-october-exports-jump-352-yy-2026-11-10/",
+     "publisher": "Reuters",
+     "published": "Nov 10, 2026, 2:42 AM UTC",
+     "checkedAt": "2026-11-11T06:25:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Exports +35.2%, imports +41.6% in October (USD)",
+      "10-month surplus $1.04 trillion, second year over $1 trillion",
+      "Chips +111.1%, high-tech +47.9% Jan–Oct",
+      "U.S. surplus $32.71bn in October; APEC meeting expected"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://english.news.cn/20261110/0437c9dd64c3475fa81eba32df36d307/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 10, 2026, 14:30 Beijing",
+     "checkedAt": "2026-11-11T06:29:54-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Trade +20% to 44.81 trillion yuan; imports +23.6%, exports +17.6% (yuan)"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "cn-ev",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-10T03:00",
+   "dateLabel": "Nov 10, 2026",
+   "headline": "Chinese brands’ electric and plug-in hybrid car sales abroad hit a record 582,000 in October, up 145%",
+   "summary": "Chinese carmakers sold a record 582,000 battery-electric and plug-in hybrid passenger vehicles outside mainland China in October, up 144.7% from a year earlier and a second straight monthly record, according to China Passenger Car Association figures reported by the South China Morning Post and Anadolu Agency. The total includes cars shipped from China and kits assembled at overseas plants. Such vehicles made up 62.8% of all passenger-car exports. BYD led with 165,194, followed by Chery and Geely; Tesla’s China plants exported 59,012. The association said higher oil prices linked to the Middle East war are speeding the shift away from petrol cars.",
+   "why": "The Iran war’s fuel-price shock is turning into a sales boom for Chinese EV makers abroad, which is likely to sharpen worries about Chinese competition in other car-making countries.",
+   "label": "Industry figures + reported",
+   "sources": [
+    {
+     "title": "China’s EV exports surge 145% as Iran war drives up overseas demand",
+     "site": "South China Morning Post",
+     "date": "Nov 10, 2026",
+     "href": "https://www.scmp.com/business/china-evs/article/3373912/chinas-ev-exports-surge-145-iran-war-drives-overseas-demand"
+    },
+    {
+     "title": "China’s electric vehicle exports hit record in October",
+     "site": "Anadolu Agency",
+     "date": "Nov 10, 2026",
+     "href": "https://www.aa.com.tr/en/economy/china-s-electric-vehicle-exports-hit-record-in-october/4119324"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.scmp.com/business/china-evs/article/3373912/chinas-ev-exports-surge-145-iran-war-drives-overseas-demand",
+     "publisher": "South China Morning Post",
+     "published": "Nov 10, 2026, 4:00 PM HKT",
+     "checkedAt": "2026-11-11T06:29:54-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "582,000 units, +144.7%, second monthly record (CPCA)",
+      "Includes overseas-assembled vehicles"
+     ],
+     "limits": [
+      "Only the opening of the article was readable (possible paywall)."
+     ]
+    },
+    {
+     "url": "https://www.aa.com.tr/en/economy/china-s-electric-vehicle-exports-hit-record-in-october/4119324",
+     "publisher": "Anadolu Agency",
+     "published": "Nov 10, 2026",
+     "checkedAt": "2026-11-11T06:29:54-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "62.8% share of passenger-car exports",
+      "BYD, Chery, Geely and Tesla China figures",
+      "CPCA links demand to higher oil prices"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "cn-hump",
+   "region": "cn",
+   "topic": "human",
+   "ts": "2026-11-09T22:24",
+   "dateLabel": "Nov 10, 2026 (Beijing time)",
+   "headline": "China hands over remains of U.S. airmen lost on the WWII “Hump” airlift route over the Himalayas",
+   "summary": "The Chinese and U.S. militaries held a ceremony in Chengdu on Tuesday at which China handed over remains of American airmen recovered along “the Hump,” the 1942–45 air route over the Himalayas that carried Allied supplies from India to China, according to China’s Defence Ministry as reported by Xinhua and the South China Morning Post. The SCMP says the ministry did not disclose how many sets of remains were transferred or whether any of the airmen had been identified.",
+   "why": "Recovering wartime dead is one of the few areas where the U.S. and Chinese militaries still cooperate openly, and the gesture comes days before Xi and Trump are expected to meet.",
+   "label": "Official statement + state media + reported",
+   "note": "Identities and numbers were not disclosed in the reports opened for this edition.",
+   "sources": [
+    {
+     "title": "China hands over remains of U.S. airmen found along WWII Hump Route",
+     "site": "Xinhua (state media)",
+     "date": "Nov 10, 2026",
+     "href": "https://english.news.cn/20261110/95543c9f8807429ebf8dd1e01ecbf03d/c.html"
+    },
+    {
+     "title": "China hands over remains of US airmen killed during World War II supply missions",
+     "site": "South China Morning Post",
+     "date": "Nov 10, 2026",
+     "href": "https://www.scmp.com/news/china/diplomacy/article/3373945/china-hands-over-remains-us-airmen-killed-during-world-war-ii-supply-missions"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261110/95543c9f8807429ebf8dd1e01ecbf03d/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 10, 2026, 11:24 Beijing",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Ceremony in Chengdu on Tuesday, per Defence Ministry",
+      "Remains recovered along the Hump route, 1942–45"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3373945/china-hands-over-remains-us-airmen-killed-during-world-war-ii-supply-missions",
+     "publisher": "South China Morning Post",
+     "published": "Nov 10, 2026, 8:00 PM HKT",
+     "checkedAt": "2026-11-11T06:25:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Ministry did not disclose number of remains or identities"
+     ],
+     "limits": [
+      "Only the opening of the article was readable (possible paywall)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-rooster",
+   "region": "cn",
+   "topic": "culture",
+   "ts": "2026-11-10",
+   "dateLabel": "Nov 10, 2026 (Xiamen)",
+   "headline": "Hong Kong veteran Tony Leung Ka-fai wins his first Golden Rooster best actor award",
+   "summary": "Tony Leung Ka-fai won best actor at China’s 39th Golden Rooster Awards in Xiamen on Tuesday evening for “The Shadow’s Edge,” in which he stars opposite Jackie Chan, according to Xinhua and Hong Kong’s The Standard. The Standard says it was his first Golden Rooster nomination in a career of more than 40 years; he called the win “magical” and “dreamlike” and said it reminded him to keep honing his craft. Gao Ye won best actress, and best feature film went to “Dead to Rights,” about civilians preserving photographic evidence of the Nanjing Massacre. Zheng Dasheng was named best director for “Hideaway: The Dossiers.”",
+   "why": "The Golden Rooster is mainland China’s top film prize, and a first win four decades into a career is a reminder that great screen acting keeps developing long after early fame.",
+   "label": "State media + reported",
+   "sources": [
+    {
+     "title": "Top honors unveiled at China’s Golden Rooster Awards",
+     "site": "Xinhua (state media)",
+     "date": "Nov 11, 2026",
+     "href": "https://english.news.cn/20261111/d6e4dea2dc364a4db002b1640c4ed39d/c.html"
+    },
+    {
+     "title": "Tony Leung wins first Golden Rooster Best Actor award",
+     "site": "The Standard (Hong Kong)",
+     "href": "https://www.thestandard.com.hk/screen-and-music/article/348166/Tony-Leung-wins-first-Golden-Rooster-Best-Actor-award"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261111/d6e4dea2dc364a4db002b1640c4ed39d/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 11, 2026, 00:32 Beijing",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Winners list: Leung best actor, Gao Ye best actress, Dead to Rights best film, Zheng Dasheng best director"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.thestandard.com.hk/screen-and-music/article/348166/Tony-Leung-wins-first-Golden-Rooster-Best-Actor-award",
+     "publisher": "The Standard",
+     "published": "Shown only as “4 hours ago” when opened on Nov 11, 2026",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Role in The Shadow’s Edge with Jackie Chan",
+      "First nomination and win; acceptance quotes"
+     ],
+     "limits": [
+      "Page shows a relative time only (“4 hours ago”)."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-11-am/cn-rooster.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Tony Leung Ka-fai, wearing glasses and a dark jacket, smiling in front of a red backdrop",
+    "caption": "Tony Leung Ka-fai at the Busan International Film Festival in September 2025.",
+    "credit": "Outhere505",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Tony_Leung_Ka-fai_2025.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "w-ukraine",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-11T05:52",
+   "dateLabel": "Nov 11, 2026 (talks Nov 10–11)",
+   "headline": "U.S.-brokered Russia–Ukraine talks in Abu Dhabi end after two days, with a large prisoner exchange discussed",
+   "summary": "Two days of U.S.-mediated talks between Russian and Ukrainian delegations in Abu Dhabi ended after a short session on Wednesday, Radio Free Europe/Radio Liberty reports, with no immediate comment on progress. They were the first face-to-face talks between the two sides since February, with Trump envoys Steve Witkoff and Jared Kushner mediating. Ukrainian President Volodymyr Zelenskyy said on Tuesday that the teams discussed a large exchange of prisoners of war — “1,000 for 1,000, maybe 1,500 for 1,500” — and that Russia raised territorial questions, which he said are for leaders to decide, Interfax-Ukraine reports. Both sides traded large drone attacks overnight; Russia hit power facilities in four Ukrainian regions, RFE/RL reports.",
+   "why": "A big prisoner swap would be the most concrete result in months, but territory remains the sticking point, and the overnight strikes show the war is not pausing for diplomacy.",
+   "label": "Reported + official statement",
+   "note": "The size and timing of any exchange had not been confirmed when this edition was compiled. Drone and damage figures come from each side’s officials and were not independently confirmed.",
+   "sources": [
+    {
+     "title": "Ukraine-Russia talks end in Abu Dhabi after night of air attacks",
+     "site": "RFE/RL",
+     "date": "Nov 11, 2026",
+     "href": "https://www.rferl.org/a/ukraine-russia-talks-resume-in-abu-dhabi-amid-drone-attacks/33895197.html"
+    },
+    {
+     "title": "Zelenskyy: Abu Dhabi talks discussed 1,000-for-1,000 or 1,500-for-1,500 exchange",
+     "site": "Interfax-Ukraine",
+     "date": "Nov 11, 2026",
+     "href": "https://en.interfax.com.ua/news/general/1234514.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.rferl.org/a/ukraine-russia-talks-resume-in-abu-dhabi-amid-drone-attacks/33895197.html",
+     "publisher": "RFE/RL",
+     "published": "Nov 11, 2026, 11:52 CET",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Talks ended after a brief meeting Nov 11; no immediate comment on progress",
+      "First face-to-face talks since February",
+      "Overnight attacks on energy facilities and Russian Baltic port"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://en.interfax.com.ua/news/general/1234514.html",
+     "publisher": "Interfax-Ukraine",
+     "published": "Nov 11, 2026, 09:41 Kyiv",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Zelenskyy quotes on exchange size and territory",
+      "Delegation members; Witkoff and Kushner for U.S."
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "w-spy",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-10T13:45",
+   "dateLabel": "Nov 10, 2026",
+   "headline": "A senior U.S. Army soldier is arrested in England on suspicion of helping Russian intelligence",
+   "summary": "British counter-terrorism police arrested a 41-year-old member of the U.S. Army near Gloucester on Tuesday on suspicion of offences under the National Security Act relating to obtaining or disclosing protected information and assisting a foreign intelligence service, the Metropolitan Police said. Police said the country involved is Russia and that two locations in Gloucestershire were being searched. The BBC understands the soldier was based at Imjin Barracks, headquarters of NATO’s Allied Rapid Reaction Corps. He has not been named or charged and can be held for up to 14 days. FBI Director Kash Patel called the allegations “of the utmost concern.”",
+   "why": "An alleged insider at a NATO headquarters would be a serious breach at a time when Russia and the West are testing each other daily — and it lands as U.S.-brokered peace talks are under way.",
+   "label": "Official statement + allegation + reported",
+   "note": "An arrest on suspicion is not a charge; the soldier has not been named.",
+   "sources": [
+    {
+     "title": "Member of US army arrested as part of Counter Terrorism Policing investigation",
+     "site": "Metropolitan Police",
+     "date": "Nov 10, 2026",
+     "href": "https://news.met.police.uk/news/member-of-us-army-arrested-as-part-of-counter-terrorism-policing-investigation-514875"
+    },
+    {
+     "title": "US Army soldier suspected of spying for Russia arrested in UK",
+     "site": "BBC News",
+     "date": "Nov 10, 2026",
+     "href": "https://www.bbc.com/news/articles/c6d7q77xgw0vo"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.met.police.uk/news/member-of-us-army-arrested-as-part-of-counter-terrorism-policing-investigation-514875",
+     "publisher": "Metropolitan Police",
+     "published": "Nov 10, 2026, 18:45 GMT",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Arrest near Gloucester; Sections 1 and 3, NSA 2023; country is Russia",
+      "Two searches in Gloucestershire",
+      "Patel and Stinchon statements"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.bbc.com/news/articles/c6d7q77xgw0vo",
+     "publisher": "BBC News",
+     "published": "Nov 10, 2026",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "BBC understands soldier based at Imjin Barracks (ARRC HQ)",
+      "Can be held up to 14 days without charge"
+     ],
+     "limits": [
+      "Imjin Barracks detail rests on the BBC’s own sourcing."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-trinidad",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-10T12:55",
+   "dateLabel": "Nov 10, 2026",
+   "headline": "Privy Council strikes down Trinidad and Tobago’s laws criminalising gay sex, ending activist Jason Jones’s 10-year fight",
+   "summary": "The Judicial Committee of the Privy Council in London, Trinidad and Tobago’s final court of appeal, unanimously overturned a 2025 appeal-court ruling that had restored the country’s laws against consensual anal sex and same-sex intimacy, the Guardian reports. The five judges found the 1986 Sexual Offences Act was new legislation, not a continuation of colonial-era law, and so not shielded from constitutional challenge. The ruling restores a 2018 High Court judgment won by activist Jason Jones, who brought the case in 2016. “It will change many millions of people’s lives,” Jones said; local group Pride TT said discrimination and stigma remain.",
+   "why": "Because the Privy Council is also the top court for several other Caribbean countries, campaigners expect the ruling to be cited against similar laws across the region.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Activist wins 10-year fight against homophobic Trinidad and Tobago laws",
+     "site": "The Guardian",
+     "date": "Nov 10, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/10/activist-jason-jones-wins-10-year-fight-against-homophobic-trinidad-tobago-laws"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/10/activist-jason-jones-wins-10-year-fight-against-homophobic-trinidad-tobago-laws",
+     "publisher": "The Guardian",
+     "published": "Nov 10, 2026, 12:55 EST (modified Nov 11, 00:12 EST)",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Unanimous Privy Council ruling overturning 2025 appeal decision",
+      "Savings-clause reasoning on the 1986 Act",
+      "Jones and Pride TT quotes"
+     ],
+     "limits": [
+      "Single outlet opened; the judgment PDF on jcpc.uk was not opened."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-smith",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-11T03:19",
+   "dateLabel": "Nov 10–11, 2026",
+   "headline": "South Africa’s most decorated Olympian, swimmer Tatjana Smith, switches to the Netherlands",
+   "summary": "Tatjana Smith, the breaststroke swimmer who won four Olympic medals including two golds for South Africa, announced in a tearful video on Tuesday that she will compete for the Netherlands, BBC Sport and Al Jazeera report. Smith, 29, who holds Dutch citizenship through her father, came out of retirement in September and is targeting the new Olympic 50m breaststroke at Los Angeles 2028. She cited “financial and practical challenges” and said the move offers “greater high-performance support.” She plans to keep living and training in South Africa and is set to swim for the Netherlands first at the short-course world championships on Dec. 1–6. South Africa’s sports ministry said the choice “belongs to her.”",
+   "why": "Her move shows how funding gaps can push even a country’s biggest Olympic star to compete under another flag.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Tearful Smith switches allegiance to Netherlands",
+     "site": "BBC Sport",
+     "date": "Nov 11, 2026",
+     "href": "https://www.bbc.com/sport/swimming/articles/cmx27n60n3wno"
+    },
+    {
+     "title": "South African swimmer Tatjana Smith switches allegiance to Netherlands",
+     "site": "Al Jazeera (Reuters/AP)",
+     "date": "Nov 11, 2026",
+     "href": "https://www.aljazeera.com/sports/2026/11/11/south-african-swimmer-tatjana-smith-switches-allegiance-to-netherlands"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.com/sport/swimming/articles/cmx27n60n3wno",
+     "publisher": "BBC Sport",
+     "published": "Nov 11, 2026, 08:19 GMT",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Switch to Netherlands; dual citizenship via Dutch father",
+      "Comeback in September; LA 2028 50m breaststroke target",
+      "Short-course worlds Dec 1–6; ministry statement"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.aljazeera.com/sports/2026/11/11/south-african-swimmer-tatjana-smith-switches-allegiance-to-netherlands",
+     "publisher": "Al Jazeera (Reuters/AP)",
+     "published": "Nov 11, 2026",
+     "checkedAt": "2026-11-11T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 11 2026",
+     "claimsSupported": [
+      "Announced in Instagram video on Tuesday",
+      "Quotes on financial challenges and high-performance support"
+     ],
+     "limits": []
+    }
+   ]
+  }
+ ]
+}

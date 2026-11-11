@@ -1,0 +1,235 @@
+{
+ "edition": "2026-11-11-am",
+ "ranAt": "2026-11-11T06:34:05-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://clerk.house.gov/Votes/2026317",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/10/nx-s1-6036813/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://deadline.com/2026/11/broadway-awake-and-sing-micaela-diamond-will-pullen-1237012662/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.nba.com/game/mil-vs-nyk-0022600211",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:07-05:00"
+  },
+  {
+   "url": "https://nypost.com/2026/11/10/sports/knicks-thrash-woeful-bucks-en-route-to-fourth-consecutive-win/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/military-canada-defence-budget-cuts-9.7415731",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/montreal/st-pierre-plamondon-carney-canada-us-trade-9.7417092",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/supreme-court-reserves-decision-on-firearms-ban-9.7416672",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/edmonton/specialized-burn-treatments-soldiers-wainwright-military-base-fire-9.7415813",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.canada.ca/en/department-national-defence/news/2026/11/update-on-personnel-injured-in-canadian-forces-base-wainwright-incident.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/canadian-ultramarathon-antarctica-woman-stephanie-case-9.7415361",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/10/P2026111000476.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:07-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877299-20261110.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:07-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877141-20261109.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:07-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/10/around-40-people-were-trapped-near-the-top-of-ocean-parks-72-metre-revolving-observation-tower-on-monday-with-one-woman-reporting-feeling-unwell/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3373964/winterfest-spread-across-hong-kong-symphony-lights-takes-final-bow",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://english.dotdotnews.com/a/202611/10/AP6af2ad75e4b091a65a2f3beb.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:08-05:00"
+  },
+  {
+   "url": "https://www.globenewswire.com/news-release/2026/11/11/3400455/0/en/hktb-spreads-seasonal-joy-with-biggest-ever-hong-kong-winterfest.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/10/housing-provider-apologises-after-scheduling-fire-drill-for-wang-fuk-court-survivors-on-anniversary-of-deadly-blaze/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.reuters.com/3fec1b0a85a0/world/asia-pacific/chinas-trade-surplus-soars-past-1-trillion-october-exports-jump-352-yy-2026-11-10/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261110/0437c9dd64c3475fa81eba32df36d307/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:07-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/business/china-evs/article/3373912/chinas-ev-exports-surge-145-iran-war-drives-overseas-demand",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.aa.com.tr/en/economy/china-s-electric-vehicle-exports-hit-record-in-october/4119324",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:07-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261110/95543c9f8807429ebf8dd1e01ecbf03d/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:07-05:00"
+  },
+  {
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3373945/china-hands-over-remains-us-airmen-killed-during-world-war-ii-supply-missions",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261111/d6e4dea2dc364a4db002b1640c4ed39d/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:07-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/screen-and-music/article/348166/Tony-Leung-wins-first-Golden-Rooster-Best-Actor-award",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.rferl.org/a/ukraine-russia-talks-resume-in-abu-dhabi-amid-drone-attacks/33895197.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://en.interfax.com.ua/news/general/1234514.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://news.met.police.uk/news/member-of-us-army-arrested-as-part-of-counter-terrorism-policing-investigation-514875",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/c6d7q77xgw0vo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/10/activist-jason-jones-wins-10-year-fight-against-homophobic-trinidad-tobago-laws",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/sport/swimming/articles/cmx27n60n3wno",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/sports/2026/11/11/south-african-swimmer-tatjana-smith-switches-allegiance-to-netherlands",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-11T06:34:06-05:00"
+  }
+ ]
+}
