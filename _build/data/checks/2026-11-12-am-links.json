@@ -1,0 +1,313 @@
+{
+ "edition": "2026-11-12-am",
+ "ranAt": "2026-11-12T06:33:16-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-boards-crisis-meeting.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/12/nvidia-preparing-to-oust-ceo-jensen-huang-us-media/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cqgm37dv20e8o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877562-20261112.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:19-05:00"
+  },
+  {
+   "url": "https://www.goodmorningamerica.com/news/story/rescue-operations-underway-after-building-collapses-brooklyn-new-138059620",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://abc7ny.com/live-updates/brooklyn-building-collapse-live-updates-1-dead-flatbush/20034152/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://gothamist.com/news/1-dead-10-injured-after-building-collapse-in-flatbush-brookln-fdny-says",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cw7vppyr80eeo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/12/nx-s1-6031461/kennedy-center-ticketmaster-conflict-of-interest",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/baseball/mlb/mlb-cy-young-award-2026-cam-schlittler-9.7418666",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.mlb.com/news/2026-mlb-cy-young-award-winners",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://toronto.citynews.ca/2026/11/12/joly-set-to-hold-meeting-in-toronto-with-stellantis-union-and-ontario-minister/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/federal-government-knew-about-stellantis-deal-9.7418567",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.cp24.com/local/toronto/2026/11/10/a-betrayal-carney-says-canada-will-fully-enforce-its-rights-following-sale-of-stellantis-plant/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/remembrance-day-ottawa-ceremony-9.7417795",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/montreal/pq-quebec-language-bills-2027-berube-9.7418373",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://montrealgazette.com/news/provincial-news/provincial-politics/pq-appeals-to-opposition-parties-notwithstanding-clause-bill-96/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/hockey/secretary-of-sport-says-canada-will-not-allow-russians-world-juniors-9.7418528",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.tsn.ca/hockey-canada/article/canadian-government-tells-hockey-canada-iihf-it-will-not-issue-visas-for-russians-to-play-in-wjc/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/nova-scotia/brian-ahern-halifax-obituary-music-producer-9.7418309",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://americana-uk.com/the-song-remains-brian-ahern-1945-2026",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877527-20261112.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/news/article/348305/LegCo-passes-Northern-Metropolis-Development-Bill-to-streamline-procedures",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/12/P2026111200202.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/12/hong-kong-to-gazette-bill-barring-those-with-national-security-convictions-from-teaching/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877518-20261112.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:19-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/11/P2026111100231.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877489-20261112.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/12/hong-kong-govt-workers-granted-up-to-12-hours-of-annual-family-care-leave-from-january/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877510-20261112.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/12/hong-kong-police-reportedly-question-two-catholic-churches-over-tai-po-fire-memorial-masses/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261112/129b7afbf8984142aee79915f55d5cea/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877521-20261112.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/secretary-rubios-call-with-chinas-director-of-the-office-of-the-ccp-central-foreign-affairs-commissionand-foreign-minister-wang/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877472-20261112.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:19-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261112/612a0a4f09b348c6ab069e0d7a205d0f/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261112/f3b5842723f541d9804e255061f68378/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://www.sixthtone.com/news/1019236/more-chinese-regions-to-require-autumn-and-spring-school-breaks",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cwrkgmymk55zo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/ukraine-peace-talks-us-envoys-arrive-in-russia-to-meet-with-putin/live-79925580",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cmvgxgz87qqro",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/indonesia-vice-president-resigns-9.7418723",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/spain-strike-protest-march-housing-costs-9.7418346",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261112/3a77738890324c3d8c6a3b86e96bf64c/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877569-20261112.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:18-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/sport/football/articles/cm0rl4kwn8vqo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/ckvg25zmppglo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/missing-teen-found-australia-9.7418731",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T06:33:17-05:00"
+  }
+ ]
+}

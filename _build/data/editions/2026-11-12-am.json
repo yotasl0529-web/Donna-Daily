@@ -1,0 +1,1541 @@
+{
+ "id": "2026-11-12-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-12",
+ "leadId": "us-nvidia",
+ "topIds": [
+  "us-collapse",
+  "w-ukraine",
+  "ca-stellantis",
+  "hk-nm",
+  "cn-wang"
+ ],
+ "notes": [
+  "Morning Edition for Thursday, Nov 12, 2026. It covers developments since Wednesday’s Morning Edition, with ongoing stories marked with their earlier dates.",
+  "The lead is Nvidia’s board meeting on whether to remove CEO Jensen Huang; no decision had been announced when we compiled the edition. Top stories: the deadly building collapse in Brooklyn, U.S. envoys’ trip to Moscow after the Abu Dhabi talks, Ottawa’s meeting on the Stellantis plant sale, Hong Kong’s new Northern Metropolis law and the Wang–Rubio call ahead of APEC in Shenzhen.",
+  "Each region has five stories. Culture: U.S. (Kennedy Center ticketing), Canada (Brian Ahern) and Hong Kong (arts funding reform); we found no strong new China or World culture story this morning. Sports: U.S. (Cy Young Awards), Canada (world juniors) and World (Manchester United).",
+  "The Putin meeting, the Dublin summit, Joly’s Toronto meeting, the gazettal of Hong Kong’s education bill, the Russia–Ukraine prisoner exchange and Spain’s Nov. 29 election are described as scheduled or under way; none had concluded when this edition was compiled. Brooklyn casualty figures were still changing."
+ ],
+ "provenance": [
+  "Stories are compiled from the linked sources; labels describe the type of claim each story rests on.",
+  "Source pages were opened during this morning’s research between about 6:23 and 6:30 AM ET; each check time is the logged time that page was fetched.",
+  "Xinhua items are labelled State media; Sixth Tone is owned by a state-backed media group. The South China Morning Post blocked our fetches this morning and was not relied on; Wall Street Journal and New York Times reports are cited only as relayed by other outlets, and the Montreal Gazette piece was paywalled beyond its opening line.",
+  "Several items rest on a single outlet and are marked so in their source notes. Changing casualty figures (Brooklyn) and differing crowd counts (Spain) are flagged on each story."
+ ],
+ "stories": [
+  {
+   "id": "us-nvidia",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-12T06:06",
+   "dateLabel": "Nov 11–12, 2026 (update to Nov 9 and Nov 10 stories)",
+   "headline": "Nvidia’s board meets on Jensen Huang’s future after a report of a second affair; no decision announced",
+   "deck": "Nvidia’s board met late on Wednesday to decide whether to remove co-founder and CEO Jensen Huang, CNBC confirmed, after The Wall Street Journal reported the board was preparing to force him out. By early Thursday no outcome had been announced.",
+   "summary": "Nvidia’s board met late on Wednesday to decide whether to remove co-founder and CEO Jensen Huang, CNBC confirmed, after The Wall Street Journal reported the board was preparing to force him out. By early Thursday no outcome had been announced, and CNBC said the shares were down about 5% in premarket trading after falling more than 9% after hours on Wednesday. The meeting followed a New York Times report, cited by CNBC and AFP, that Huang had a romantic relationship with Kimberly Powell, Nvidia’s vice president of health care; neither Nvidia nor Powell responded to CNBC. On Sunday Huang told staff he had been unfaithful to his wife after reports that U.S. intelligence believes Alice Huang, a Megaspeed executive with whom he had a relationship, is a Chinese intelligence asset. The board has opened an independent investigation, and shareholders have filed a class action. BBC analysts name chief financial officer Colette Kress as a possible interim leader. In Beijing on Thursday, Foreign Ministry spokeswoman Mao Ning said the U.S. “should stop fabricating such ‘spy’ narratives as a pretext for imposing a technological blockade.”",
+   "why": "Nvidia makes the chips that power most of the AI boom, so a sudden leadership change at the world’s second most valuable company would ripple through markets — and the spying allegation has turned a corporate scandal into a U.S.–China issue a week before Trump and Xi are due to meet.",
+   "label": "Reported + unnamed sources + allegation + official statement",
+   "note": "Ongoing story: Donna Daily reported the board’s investigation on Nov. 9 and Beijing’s denial on Nov. 10. The spying allegation comes from U.S. intelligence assessments reported by news outlets; it has not been proven, and China denies it. The board-meeting reports rest on people familiar with the matter. Any decision may have been announced after this edition was compiled.",
+   "sources": [
+    {
+     "title": "Nvidia board meets to decide CEO Jensen Huang’s fate",
+     "site": "CNBC",
+     "date": "Nov 11, 2026 (updated Nov 12)",
+     "href": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html"
+    },
+    {
+     "title": "Nerves around Nvidia as investors await the outcome of Board’s crisis CEO meeting",
+     "site": "CNBC",
+     "date": "Nov 12, 2026",
+     "href": "https://www.cnbc.com/2026/11/12/nvidia-boards-crisis-meeting.html"
+    },
+    {
+     "title": "Nvidia preparing to oust CEO Jensen Huang: US media",
+     "site": "Hong Kong Free Press (AFP)",
+     "date": "Nov 12, 2026",
+     "href": "https://hongkongfp.com/2026/11/12/nvidia-preparing-to-oust-ceo-jensen-huang-us-media/"
+    },
+    {
+     "title": "Who could replace Jensen Huang as Nvidia’s chief executive?",
+     "site": "BBC News",
+     "date": "Nov 12, 2026",
+     "href": "https://www.bbc.com/news/articles/cqgm37dv20e8o"
+    },
+    {
+     "title": "‘US uses spying claims as pretext for tech blockade’",
+     "site": "RTHK (AFP)",
+     "date": "Nov 12, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877562-20261112.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+     "publisher": "CNBC",
+     "published": "Nov 11, 2026, 5:06 PM ET (updated Nov 12, 1:11 AM ET)",
+     "checkedAt": "2026-11-12T06:23:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "CNBC confirmed the board was meeting to decide whether to oust Huang",
+      "WSJ first reported the board was preparing to force him out; shares fell more than 9% after hours",
+      "NYT reported a relationship with VP of health care Kimberly Powell; Nvidia and Powell did not respond",
+      "Board hired Wachtell, Lipton, Rosen & Katz; Huang’s “I was unfaithful to my wife” staff message"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cnbc.com/2026/11/12/nvidia-boards-crisis-meeting.html",
+     "publisher": "CNBC (Morning Squawk newsletter)",
+     "published": "Nov 12, 2026, 6:06 AM ET",
+     "checkedAt": "2026-11-12T06:23:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Board met overnight; no outcome announced",
+      "Shares down around 5% in premarket trading"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://hongkongfp.com/2026/11/12/nvidia-preparing-to-oust-ceo-jensen-huang-us-media/",
+     "publisher": "Hong Kong Free Press, AFP copy",
+     "published": "Nov 12, 2026, 10:44 AM HKT (Nov 11, 9:44 PM ET)",
+     "checkedAt": "2026-11-12T06:23:03-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "WSJ report that the board was preparing to meet as soon as Wednesday",
+      "NYT report of a second affair, with Kimberly Powell",
+      "Shareholder class action filed",
+      "Reported U.S. intelligence memo alleging Alice Huang is an asset of China’s Ministry of State Security"
+     ],
+     "limits": [
+      "Wire copy; WSJ and NYT originals not opened (paywalled)"
+     ]
+    },
+    {
+     "url": "https://www.bbc.com/news/articles/cqgm37dv20e8o",
+     "publisher": "BBC News",
+     "published": "Nov 12, 2026, 5:37 AM ET (updated 6:21 AM ET)",
+     "checkedAt": "2026-11-12T06:23:04-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Board reportedly meeting to discuss replacing Huang",
+      "Analysts name CFO Colette Kress as possible interim leader; other names floated"
+     ],
+     "limits": [
+      "Succession names are analysts’ views, not company statements"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877562-20261112.htm",
+     "publisher": "RTHK, AFP copy",
+     "published": "Nov 12, 2026, 6:14 PM HKT (5:14 AM ET)",
+     "checkedAt": "2026-11-12T06:25:17-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Foreign Ministry spokeswoman Mao Ning quote on “spy” narratives and a technological blockade"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-12-am/us-nvidia.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Jensen Huang holding a microphone and speaking at an event",
+    "caption": "Nvidia CEO Jensen Huang at Computex in Taipei, pictured in 2016.",
+    "credit": "NVIDIA Taiwan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531a.jpg",
+    "isFilePhoto": true,
+    "year": 2016
+   }
+  },
+  {
+   "id": "us-collapse",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-12T06:16",
+   "dateLabel": "Nov 11–12, 2026",
+   "headline": "At least four killed as a three-storey building collapses into a construction pit in Flatbush, Brooklyn",
+   "deck": "A three-storey building with a shop and apartments collapsed into an excavation site next door in Flatbush, Brooklyn, on Wednesday afternoon. By early Thursday at least four people were dead and 17 injured, four critically, officials told ABC News.",
+   "summary": "A three-storey building with a shop and apartments collapsed into an excavation site next door in Flatbush, Brooklyn, just after 4 p.m. on Wednesday, trapping people from both the building and the construction site. By early Thursday at least four people were dead and 17 injured, four of them critically, according to officials cited by ABC News; seven children were among those treated. ABC7 New York reported that a fifth victim was recovered just after 6 a.m. Thursday and that the injury count had risen to 19 — a figure Donna Daily could not yet match to a second source. Fire Commissioner Lillian Bonsignore called it a “prolonged operation” and said officials did not know how many people were still in the collapse zone. City officials told Gothamist that excavation had been under way for a new building next door; plans for a nine-storey building there had not been approved. The city’s Buildings Department and law enforcement are investigating the cause.",
+   "why": "New York has been pushing to build more housing fast, and a collapse caused by work on a neighbouring lot will sharpen questions about how closely the city polices excavation next to old buildings.",
+   "label": "Reported + official statement",
+   "note": "Casualty figures were changing as this edition was compiled; the toll may have risen since.",
+   "sources": [
+    {
+     "title": "At least 4 dead, multiple injured after building collapses in Brooklyn, New York",
+     "site": "Good Morning America (ABC News)",
+     "date": "Nov 12, 2026",
+     "href": "https://www.goodmorningamerica.com/news/story/rescue-operations-underway-after-building-collapses-brooklyn-new-138059620"
+    },
+    {
+     "title": "Brooklyn building collapse: live updates",
+     "site": "ABC7 New York",
+     "date": "Nov 12, 2026",
+     "href": "https://abc7ny.com/live-updates/brooklyn-building-collapse-live-updates-1-dead-flatbush/20034152/"
+    },
+    {
+     "title": "Brooklyn building collapse: 2 dead, 7 children among at least 19 injured",
+     "site": "Gothamist",
+     "date": "Nov 11, 2026 (updated)",
+     "href": "https://gothamist.com/news/1-dead-10-injured-after-building-collapse-in-flatbush-brookln-fdny-says"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.goodmorningamerica.com/news/story/rescue-operations-underway-after-building-collapses-brooklyn-new-138059620",
+     "publisher": "ABC News / Good Morning America",
+     "published": "Nov 12, 2026, 6:06 AM ET",
+     "checkedAt": "2026-11-12T06:23:32-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "At least four dead",
+      "Four critical, four serious, nine minor injuries; seven children among victims",
+      "Bonsignore: “prolonged operation”, more victims expected"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://abc7ny.com/live-updates/brooklyn-building-collapse-live-updates-1-dead-flatbush/20034152/",
+     "publisher": "ABC7 New York (WABC)",
+     "published": "Live page, updated Nov 12, 2026, 6:16 AM ET",
+     "checkedAt": "2026-11-12T06:23:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Collapse at Flatbush and Bedford avenues just after 4 p.m. Wednesday",
+      "Fifth victim recovered just after 6 a.m. Thursday; injured updated to 19"
+     ],
+     "limits": [
+      "Live page; figures change between updates"
+     ]
+    },
+    {
+     "url": "https://gothamist.com/news/1-dead-10-injured-after-building-collapse-in-flatbush-brookln-fdny-says",
+     "publisher": "Gothamist",
+     "published": "Nov 11, 2026, 6:10 PM ET (updated 8:56 PM ET)",
+     "checkedAt": "2026-11-12T06:23:32-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Excavation under way next door; nine-storey plans not yet approved",
+      "Mayor Mamdani: DOB and law enforcement investigating"
+     ],
+     "limits": [
+      "Earlier figures (two dead) superseded by later reports"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "us-colom",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-11T18:04",
+   "dateLabel": "Nov 11, 2026 (update to Nov 6 and Nov 7 stories)",
+   "headline": "Democrat Scott Colom wins Mississippi’s Senate race, unseating Cindy Hyde-Smith by fewer than 5,000 votes",
+   "deck": "Democrat Scott Colom won the U.S. Senate race in Mississippi after more than a week of counting, defeating Republican Sen. Cindy Hyde-Smith, who conceded on Wednesday.",
+   "summary": "Democrat Scott Colom won the U.S. Senate race in Mississippi after more than a week of counting absentee and affidavit ballots, defeating Republican Sen. Cindy Hyde-Smith in the closest Senate race in the country, according to an Associated Press race call reported by NPR. The BBC reports Colom took 49.2% to Hyde-Smith’s 48.7%, with fewer than 5,000 votes separating them out of nearly a million. Hyde-Smith conceded in a video on Wednesday: “I respect the decision of Mississippi voters.” Colom, a 43-year-old district attorney who campaigned on the cost of living, becomes the first Black senator from Mississippi since Reconstruction. Democrats will hold 55 Senate seats in the new Congress, with Alaska’s race still undecided.",
+   "why": "A Democratic win in a state Trump carried by 23 points shows how far the midterm swing reached into the Deep South — and widens the Senate majority Democrats will use from January.",
+   "label": "Reported",
+   "note": "Ongoing story: Donna Daily reported the tight count on Nov. 6 and Nov. 7. The result is a media race call plus the candidate’s concession; official certification is a separate step.",
+   "sources": [
+    {
+     "title": "Democrat Scott Colom wins Mississippi Senate race",
+     "site": "NPR",
+     "date": "Nov 11, 2026",
+     "href": "https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom"
+    },
+    {
+     "title": "Democrat Scott Colom makes history as Mississippi’s first black senator since 19th Century",
+     "site": "BBC News",
+     "date": "Nov 11, 2026 (updated Nov 12)",
+     "href": "https://www.bbc.com/news/articles/cw7vppyr80eeo"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom",
+     "publisher": "NPR",
+     "published": "Nov 11, 2026, 6:04 PM ET (updated 7:18 PM ET)",
+     "checkedAt": "2026-11-12T06:23:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "AP race call for Colom",
+      "Hyde-Smith conceded by video",
+      "Democrats to hold 55 seats; Alaska undecided",
+      "Mississippi has not sent a Black senator since Reconstruction"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.bbc.com/news/articles/cw7vppyr80eeo",
+     "publisher": "BBC News",
+     "published": "Nov 11, 2026, 6:05 PM ET (updated Nov 12, 5:02 AM ET)",
+     "checkedAt": "2026-11-12T06:23:14-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Colom 49.2%, Hyde-Smith 48.7%; fewer than 5,000 votes apart",
+      "Colom is 43; first Black senator from Mississippi since Blanche Bruce (1875–81)"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "us-kennedy",
+   "region": "us",
+   "topic": "culture",
+   "ts": "2026-11-12T05:00",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Kennedy Center plans a switch to Ticketmaster, raising conflict-of-interest questions, NPR reports",
+   "deck": "The Kennedy Center plans to move its ticketing from the non-profit Tessitura system to Ticketmaster, current and former staff told NPR — a deal negotiated while its then-president, Richard Grenell, sat on the board of Ticketmaster’s parent, Live Nation.",
+   "summary": "The Kennedy Center plans to move its ticketing from the non-profit Tessitura system to Ticketmaster, current and former staff told NPR on condition of anonymity, and they blame the switch for the fact that tickets for the Dec. 7 Kennedy Center Honors were still not on sale as of Nov. 11. NPR reports that Richard Grenell, the centre’s president until March, was paid $260,205 in 2025 as a board member of Ticketmaster’s parent company, Live Nation, while the deal was being negotiated, according to Live Nation’s SEC filings. A Columbia Law School ethics expert told NPR that holding both roles would typically raise conflict-of-interest concerns. A Kennedy Center spokesperson said the centre began evaluating Ticketmaster in spring 2024 and that “the agreement followed standard procurement review”; Grenell, Ticketmaster and the centre’s artistic director Rick Canny did not respond to NPR.",
+   "why": "The Kennedy Center is the national stage for the performing arts, and how it sells tickets — and who profits — goes to the heart of the fight over Trump’s takeover of the institution.",
+   "label": "Reported + unnamed sources",
+   "note": "Single-outlet report: rests on NPR’s reporting, including unnamed current and former staff, SEC filings and emails NPR obtained. No wrongdoing has been found.",
+   "sources": [
+    {
+     "title": "Kennedy Center plans to use Ticketmaster, raising conflict of interest concerns",
+     "site": "NPR",
+     "date": "Nov 12, 2026",
+     "href": "https://www.npr.org/2026/11/12/nx-s1-6031461/kennedy-center-ticketmaster-conflict-of-interest"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.npr.org/2026/11/12/nx-s1-6031461/kennedy-center-ticketmaster-conflict-of-interest",
+     "publisher": "NPR",
+     "published": "Nov 12, 2026, 5:00 AM ET",
+     "checkedAt": "2026-11-12T06:23:39-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Planned move from Tessitura to Ticketmaster per current/former staff",
+      "Honors on Dec. 7; no ticket sale as of Nov. 11",
+      "Grenell paid $260,205 by Live Nation in 2025 (SEC filings)",
+      "Spokesperson statement on 2024 evaluation and procurement review"
+     ],
+     "limits": [
+      "Single outlet; key claims from unnamed staff"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-12-am/us-kennedy.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The white marble Kennedy Center building beside the Potomac River",
+    "caption": "The John F. Kennedy Center for the Performing Arts in Washington, in an undated Carol M. Highsmith photograph.",
+    "credit": "Carol M. Highsmith",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kennedy_Center_for_the_Performing_Arts,_Washington,_D.C.,_LCCN2011632175.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kennedy_Center_for_the_Performing_Arts,_Washington,_D.C.,_LCCN2011632175.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "us-cy",
+   "region": "us",
+   "topic": "sports",
+   "ts": "2026-11-11T20:05",
+   "dateLabel": "Nov 11, 2026",
+   "headline": "Jacob Misiorowski and Cam Schlittler win baseball’s Cy Young Awards, both unanimously, in their first full seasons",
+   "deck": "Milwaukee’s Jacob Misiorowski won the National League Cy Young Award and the Yankees’ Cam Schlittler took the American League award on Wednesday night, both in their first full major league seasons.",
+   "summary": "Milwaukee’s Jacob Misiorowski won the National League Cy Young Award and the New York Yankees’ Cam Schlittler took the American League award on Wednesday night, both in their first full major league seasons after debuting in 2025. MLB.com reports both were unanimous choices of the Baseball Writers’ Association of America — only the third time that has happened. Misiorowski, 24, helped the Brewers win their first World Series and led the majors in ERA (1.80), strikeouts (252) and opponents’ batting average (.157), CBC Sports reports. Toronto’s Louis Varland won the first AL reliever of the year award voted by the writers.",
+   "why": "Two flame-throwing sophomores sweeping the top pitching awards marks a generational handover — and for Milwaukee, a small-market title team, a rare chance to keep a star at the centre of the sport.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Brewers’ Jacob Misiorowski, Yankees’ Cam Schlittler win Cy Young Awards",
+     "site": "CBC Sports (AP)",
+     "date": "Nov 11, 2026",
+     "href": "https://www.cbc.ca/sports/baseball/mlb/mlb-cy-young-award-2026-cam-schlittler-9.7418666"
+    },
+    {
+     "title": "Pair of flamethrowers are unanimous Cy Young winners for just 3rd time in history",
+     "site": "MLB.com",
+     "date": "Nov 11, 2026",
+     "href": "https://www.mlb.com/news/2026-mlb-cy-young-award-winners"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/sports/baseball/mlb/mlb-cy-young-award-2026-cam-schlittler-9.7418666",
+     "publisher": "CBC Sports, AP copy",
+     "published": "Nov 11, 2026, 8:05 PM ET",
+     "checkedAt": "2026-11-12T06:23:38-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Misiorowski NL, Schlittler AL winners",
+      "Misiorowski stats: 1.80 ERA, 252 K, .157 opponents’ average",
+      "Schlittler got all 30 first-place votes",
+      "Varland AL reliever of the year"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.mlb.com/news/2026-mlb-cy-young-award-winners",
+     "publisher": "MLB.com",
+     "published": "Nov 11, 2026, 8:15 PM ET",
+     "checkedAt": "2026-11-12T06:27:02-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Both winners unanimous; third time in history",
+      "First full seasons for both"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-12-am/us-cy.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "American Family Field baseball stadium in Milwaukee under a cloudy sky",
+    "caption": "American Family Field, home of the Milwaukee Brewers, pictured in 2023.",
+    "credit": "DiscoA340",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:American_Family_Field_(October_2023)_01.jpg",
+    "isFilePhoto": true,
+    "year": 2023
+   }
+  },
+  {
+   "id": "ca-stellantis",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-12T04:00",
+   "dateLabel": "Nov 9–12, 2026",
+   "headline": "Joly is set to meet Stellantis, Unifor and Ontario after the automaker’s sale of its Brampton plant to Roshel",
+   "deck": "Industry Minister Mélanie Joly is scheduled to hold a four-way meeting in Toronto on Thursday with Stellantis, the Unifor union and Ontario, days after the automaker said it would sell its idled Brampton, Ont., assembly plant to armoured-vehicle maker Roshel.",
+   "summary": "Industry Minister Mélanie Joly is scheduled to hold a four-way meeting in Toronto on Thursday with Stellantis, the Unifor union and Ontario government representatives, The Canadian Press reports, days after the automaker announced on Monday that it would sell its idled Brampton, Ont., assembly plant to Canadian armoured-vehicle maker Roshel for an undisclosed amount. More than 2,000 workers have been laid off since the plant was idled in 2023. Prime Minister Mark Carney called the sale “a betrayal” of the workers and of Stellantis’ obligations to Canada, and Unifor’s Lana Payne called it the “worst-case scenario.” A source told CBC News that Ottawa had been briefed on the possible sale since August; Joly’s office called reports she was involved in the deal “false” and said she never met Roshel.",
+   "why": "The fight tests whether Ottawa can hold automakers to the commitments attached to billions in public support — and whether a defence-industry buyer can replace auto jobs in Ontario’s manufacturing heartland.",
+   "label": "Reported + official statement + unnamed sources",
+   "note": "The claim that Ottawa knew of the talks for months rests on one unnamed source cited by CBC; the minister’s office denies involvement. The Thursday meeting had not taken place when this edition was compiled.",
+   "sources": [
+    {
+     "title": "Joly set to hold meeting in Toronto with Stellantis, union and Ontario minister",
+     "site": "CityNews Toronto (The Canadian Press)",
+     "date": "Nov 12, 2026",
+     "href": "https://toronto.citynews.ca/2026/11/12/joly-set-to-hold-meeting-in-toronto-with-stellantis-union-and-ontario-minister/"
+    },
+    {
+     "title": "Ottawa had been aware of Stellantis-Roshel talks for months, source says",
+     "site": "CBC News",
+     "date": "Nov 11, 2026",
+     "href": "https://www.cbc.ca/news/politics/federal-government-knew-about-stellantis-deal-9.7418567"
+    },
+    {
+     "title": "Stellantis: Mark Carney calls sale of plant ‘a betrayal’",
+     "site": "CP24",
+     "date": "Nov 10, 2026",
+     "href": "https://www.cp24.com/local/toronto/2026/11/10/a-betrayal-carney-says-canada-will-fully-enforce-its-rights-following-sale-of-stellantis-plant/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://toronto.citynews.ca/2026/11/12/joly-set-to-hold-meeting-in-toronto-with-stellantis-union-and-ontario-minister/",
+     "publisher": "CityNews / The Canadian Press",
+     "published": "Nov 12, 2026, 4:00 AM ET (updated 5:18 AM ET)",
+     "checkedAt": "2026-11-12T06:26:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Four-way meeting scheduled Thursday",
+      "More than 2,000 laid off since 2023",
+      "Payne “worst-case scenario”",
+      "Joly’s office denies involvement"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/news/politics/federal-government-knew-about-stellantis-deal-9.7418567",
+     "publisher": "CBC News",
+     "published": "Nov 11, 2026, 6:37 PM ET (updated 10:10 PM ET)",
+     "checkedAt": "2026-11-12T06:23:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Source: government engaged since August",
+      "Joly spokesperson: reports of involvement “false”"
+     ],
+     "limits": [
+      "Rests on one unnamed source"
+     ]
+    },
+    {
+     "url": "https://www.cp24.com/local/toronto/2026/11/10/a-betrayal-carney-says-canada-will-fully-enforce-its-rights-following-sale-of-stellantis-plant/",
+     "publisher": "CP24",
+     "published": "Nov 10, 2026, 9:33 AM ET (updated 2:01 PM ET)",
+     "checkedAt": "2026-11-12T06:26:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Carney called the sale a “betrayal” of workers"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "ca-remembrance",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-11T09:56",
+   "dateLabel": "Nov 11, 2026 (update to Nov 11 story)",
+   "headline": "Canadians mark Remembrance Day in the shadow of the deadly CFB Wainwright fire",
+   "deck": "Thousands gathered at the National War Memorial in Ottawa on Wednesday for Remembrance Day, with the recent fire at CFB Wainwright that killed four soldiers weighing on the ceremonies.",
+   "summary": "Thousands of Canadians, dignitaries and veterans gathered under grey skies at the National War Memorial in Ottawa on Wednesday for Remembrance Day, CBC News reports, with the fire at Canadian Forces Base Wainwright in Alberta just over three weeks ago hanging over the ceremony. The fire killed Sgt. Morgan Wong, Pte. Shaun Farrell, Pte. Aidan Goulding and Pte. Hayden Lykkemark during a training exercise and injured dozens. Prime Minister Mark Carney and Gov. Gen. Louise Arbour laid wreaths; Carney said in a statement that the soldiers “chose to safeguard” Canadians’ futures. Chief of the Defence Staff Gen. Jennie Carignan said the tragedy was a reminder of the “immense sacrifice” of service members and their families. A separate ceremony was held at CFB Wainwright.",
+   "why": "This year’s ceremonies were not only about distant wars: the Wainwright deaths brought home that peacetime training carries real risk, just as Ottawa is asking more of a stretched military.",
+   "label": "Reported + official statement",
+   "note": "Follows our Nov. 11 report on limits to paid Remembrance Day duty for reservists. Single-outlet report (CBC News).",
+   "sources": [
+    {
+     "title": "Remembrance Day 2026: Canadians remember veterans, fallen soldiers in shadow of Wainwright tragedy",
+     "site": "CBC News",
+     "date": "Nov 11, 2026",
+     "href": "https://www.cbc.ca/news/politics/remembrance-day-ottawa-ceremony-9.7417795"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/remembrance-day-ottawa-ceremony-9.7417795",
+     "publisher": "CBC News",
+     "published": "Nov 11, 2026, 9:56 AM ET (updated 2:27 PM ET)",
+     "checkedAt": "2026-11-12T06:24:00-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Ottawa ceremony at National War Memorial",
+      "Names of four soldiers killed at CFB Wainwright",
+      "Carney statement; Carignan quote",
+      "Separate ceremony at CFB Wainwright"
+     ],
+     "limits": [
+      "Single outlet"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-12-am/ca-remembrance.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Bronze soldiers on the National War Memorial in Ottawa",
+    "caption": "The National War Memorial in Ottawa, pictured in 2013.",
+    "credit": "Robert Linsdell from St. Andrews, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:National_War_Memorial,_Elgin_St,_Ottawa_(491760)_(9447500759).jpg",
+    "isFilePhoto": true,
+    "year": 2013
+   }
+  },
+  {
+   "id": "ca-cegep",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-11T16:35",
+   "dateLabel": "Nov 11, 2026",
+   "headline": "Quebec’s PQ government says it will table a bill in 2027 to limit access to English-language CEGEPs",
+   "deck": "French Language Minister Pascal Bérubé said the Parti Québécois government will table a bill in 2027 that would restrict English-language CEGEPs to students legally eligible to study in English.",
+   "summary": "French Language Minister Pascal Bérubé said on Wednesday that the Parti Québécois government will table a bill in 2027 — the 50th anniversary of Quebec’s Charter of the French Language — with “strong” measures to protect French, including restricting English-language CEGEPs (junior colleges) to students legally eligible to study in English, CBC News reports. As a minority government, the PQ needs at least one opposition party to pass legislation; the Conservatives and Liberals told CBC they oppose the CEGEP restriction. Bérubé also said the government will seek to renew the notwithstanding clause shielding Bill 96, Quebec’s language law, which expires next June.",
+   "why": "Extending French-only rules to post-secondary education would be the biggest change to Quebec’s language regime in years — but the PQ’s minority status means the plan is, for now, a statement of intent.",
+   "label": "Official statement + reported",
+   "note": "This is a planned bill; nothing has been tabled. The Montreal Gazette’s companion article on the notwithstanding clause was paywalled beyond its opening line.",
+   "sources": [
+    {
+     "title": "PQ government to table bill restricting access to English-language CEGEPs — but will it pass?",
+     "site": "CBC News",
+     "date": "Nov 11, 2026",
+     "href": "https://www.cbc.ca/news/canada/montreal/pq-quebec-language-bills-2027-berube-9.7418373"
+    },
+    {
+     "title": "Language law: PQ asks opposition parties to help renew notwithstanding clause",
+     "site": "Montreal Gazette",
+     "date": "Nov 11, 2026",
+     "href": "https://montrealgazette.com/news/provincial-news/provincial-politics/pq-appeals-to-opposition-parties-notwithstanding-clause-bill-96/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/montreal/pq-quebec-language-bills-2027-berube-9.7418373",
+     "publisher": "CBC News",
+     "published": "Nov 11, 2026, 4:35 PM ET (updated 6:55 PM ET)",
+     "checkedAt": "2026-11-12T06:23:54-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Bérubé: bill in 2027 restricting English CEGEPs to eligible students",
+      "PQ minority needs opposition support",
+      "Conservative and Liberal opposition quotes",
+      "Bill 96 notwithstanding clause expires next June"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://montrealgazette.com/news/provincial-news/provincial-politics/pq-appeals-to-opposition-parties-notwithstanding-clause-bill-96/",
+     "publisher": "Montreal Gazette",
+     "published": "Nov 11, 2026, 2:13 PM ET (updated 5:07 PM ET)",
+     "checkedAt": "2026-11-12T06:27:18-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Minister appeals to opposition to renew notwithstanding clause on Bill 96 (headline and opening line)"
+     ],
+     "limits": [
+      "Paywall: only the opening line was readable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-wjc",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-11T18:09",
+   "dateLabel": "Nov 11, 2026",
+   "headline": "Ottawa says Russian players will be barred from the world juniors in Alberta, even with valid Canadian visas",
+   "deck": "Secretary of State for Sport Adam van Koeverden said Russian and Belarusian athletes and officials will be individually assessed and prevented from entering Canada for next month’s world junior hockey championship, even if they already hold valid visas.",
+   "summary": "Secretary of State for Sport Adam van Koeverden said on Wednesday that Immigration, Refugees and Citizenship Canada will “individually assess and prevent” Russian and Belarusian athletes and officials from entering Canada to compete at next month’s world junior hockey championship in Alberta, “regardless of whether they already hold valid visas.” The statement covers Russians who play in the Canadian Hockey League on valid visas. It follows a Court of Arbitration for Sport ruling last month that the International Ice Hockey Federation must reinstate Russia; CBC reports Norway was told Russia would be added at its expense, though the IIHF had not formally changed the tournament field.",
+   "why": "Canada is using border control to settle a question the sports courts reopened, setting up a clash with the IIHF weeks before one of hockey’s most-watched youth events.",
+   "label": "Official statement + reported",
+   "sources": [
+    {
+     "title": "Canadian government says Russian players with visas will still be barred from WJC",
+     "site": "CBC Sports",
+     "date": "Nov 11, 2026",
+     "href": "https://www.cbc.ca/sports/hockey/secretary-of-sport-says-canada-will-not-allow-russians-world-juniors-9.7418528"
+    },
+    {
+     "title": "Canadian government tells Hockey Canada it will not issue visas for Russians to play in WJC",
+     "site": "TSN",
+     "date": "Nov 11, 2026",
+     "href": "https://www.tsn.ca/hockey-canada/article/canadian-government-tells-hockey-canada-iihf-it-will-not-issue-visas-for-russians-to-play-in-wjc/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/sports/hockey/secretary-of-sport-says-canada-will-not-allow-russians-world-juniors-9.7418528",
+     "publisher": "CBC Sports",
+     "published": "Nov 11, 2026, 6:09 PM ET",
+     "checkedAt": "2026-11-12T06:24:01-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Van Koeverden statement; visa holders included",
+      "CAS ruling; Norway told Russia would be added; IIHF field unchanged"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.tsn.ca/hockey-canada/article/canadian-government-tells-hockey-canada-iihf-it-will-not-issue-visas-for-russians-to-play-in-wjc/",
+     "publisher": "TSN",
+     "published": "Nov 11, 2026, 10:51 AM ET",
+     "checkedAt": "2026-11-12T06:26:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Government informed Hockey Canada; quote of the IRCC measures"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "ca-ahern",
+   "region": "ca",
+   "topic": "culture",
+   "ts": "2026-11-11T17:13",
+   "dateLabel": "Nov 11, 2026",
+   "headline": "Halifax-born producer Brian Ahern, who launched Anne Murray’s career and produced Emmylou Harris, dies at 81",
+   "deck": "Brian Ahern, the Halifax-born record producer who made Anne Murray’s breakthrough “Snowbird” album and later produced Emmylou Harris and Johnny Cash, died on Monday in Minnesota at 81.",
+   "summary": "Brian Ahern, the Halifax-born record producer who helped persuade Anne Murray to leave teaching for music, died on Monday in Minnesota at 81, CBC News reports. Ahern was musical producer of CBC TV’s Singalong Jubilee, where Murray got her start, and Americana UK notes he produced her 1969 breakthrough album, This Way Is My Way, including the hit “Snowbird.” He went on to produce 11 albums for Emmylou Harris, whom he married in 1974, as well as records by Johnny Cash, George Jones, Ricky Skaggs and Rodney Crowell. “He was at me, writing letters, begging me to come to Toronto to do an album,” Murray told CBC.",
+   "why": "Ahern helped carry Canadian country and folk talent onto the international charts, and his production shaped the sound of 1970s country-rock.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Halifax’s Brian Ahern, who produced albums by Anne Murray and Johnny Cash, dead at 81",
+     "site": "CBC News",
+     "date": "Nov 11, 2026",
+     "href": "https://www.cbc.ca/news/canada/nova-scotia/brian-ahern-halifax-obituary-music-producer-9.7418309"
+    },
+    {
+     "title": "The Song Remains: Brian Ahern (1945 – 2026)",
+     "site": "Americana UK",
+     "date": "Nov 11, 2026",
+     "href": "https://americana-uk.com/the-song-remains-brian-ahern-1945-2026"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/nova-scotia/brian-ahern-halifax-obituary-music-producer-9.7418309",
+     "publisher": "CBC News",
+     "published": "Nov 11, 2026, 5:13 PM ET",
+     "checkedAt": "2026-11-12T06:24:03-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Died Monday in Minnesota, aged 81",
+      "Singalong Jubilee and Murray quotes",
+      "Produced 11 Emmylou Harris albums; married 1974; Cash, Jones, Skaggs, Crowell"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://americana-uk.com/the-song-remains-brian-ahern-1945-2026",
+     "publisher": "Americana UK",
+     "published": "Nov 11, 2026 (updated Nov 12)",
+     "checkedAt": "2026-11-12T06:27:19-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Born Halifax 1945",
+      "Produced Murray’s This Way Is My Way with “Snowbird”"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "hk-nm",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-12T01:58",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Hong Kong passes a dedicated law to fast-track the Northern Metropolis megaproject",
+   "deck": "The Legislative Council passed the Northern Metropolis Development Bill on Thursday, the city’s first law dedicated to a single area, letting the government streamline planning, land compensation and other procedures through subsidiary legislation.",
+   "summary": "The Legislative Council passed the Northern Metropolis Development Bill with government amendments at its third reading on Thursday, the city’s first law dedicated to a single area, RTHK and The Standard report. It lets the Chief Executive in Council make subsidiary legislation in six areas, including simplifying town-planning procedures, speeding up compensation for land resumption and streamlining construction noise permits. Secretary for Development Bernadette Linn said the bill passed a month and a half ahead of the government’s schedule, and that subsidiary legislation would go to LegCo in January so measures can take effect in the first quarter of next year. She said the Town Planning Board keeps its role, conservation areas are excluded and noise standards are unchanged.",
+   "why": "The Northern Metropolis is Hong Kong’s main bet for new homes, tech jobs and integration with Shenzhen; fast-tracking it trades some of the city’s slow, consultative planning process for speed.",
+   "label": "Reported + official statement",
+   "note": "Follows our Nov. 11 report on funding for the Northern Link rail line. The law still needs the Chief Executive’s signature and gazettal to take effect.",
+   "sources": [
+    {
+     "title": "N Metropolis on fast track as dedicated bill passes",
+     "site": "RTHK",
+     "date": "Nov 12, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877527-20261112.htm"
+    },
+    {
+     "title": "LegCo passes Northern Metropolis Development Bill to streamline procedures",
+     "site": "The Standard (Hong Kong)",
+     "date": "Nov 12, 2026",
+     "href": "https://www.thestandard.com.hk/news/article/348305/LegCo-passes-Northern-Metropolis-Development-Bill-to-streamline-procedures"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877527-20261112.htm",
+     "publisher": "RTHK",
+     "published": "Nov 12, 2026, 2:58 PM HKT (1:58 AM ET)",
+     "checkedAt": "2026-11-12T06:24:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "LegCo passed the bill Thursday",
+      "First law dedicated to a single area",
+      "Linn: 1.5 months early; subsidiary legislation in January, measures in Q1"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.thestandard.com.hk/news/article/348305/LegCo-passes-Northern-Metropolis-Development-Bill-to-streamline-procedures",
+     "publisher": "The Standard",
+     "published": "Nov 12, 2026, 3:52 PM HKT (2:52 AM ET)",
+     "checkedAt": "2026-11-12T06:25:04-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Passed with government amendments at third reading",
+      "Six policy areas incl. town planning, land-resumption compensation, noise permits",
+      "Town Planning Board keeps role; conservation areas excluded"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-12-am/hk-nm.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Aerial view of fish ponds and the Shenzhen River with Shenzhen towers behind",
+    "caption": "The Lok Ma Chau Loop area on the Shenzhen border, part of the Northern Metropolis plan, pictured in 2017.",
+    "credit": "Wpcpey",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Lok_Ma_Chau_Loop_201701.jpg",
+    "isFilePhoto": true,
+    "year": 2017
+   }
+  },
+  {
+   "id": "hk-teachers",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-12T00:27",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Hong Kong to gazette a bill requiring teacher practising certificates and barring national security offenders from teaching",
+   "deck": "The government will gazette the Education (Amendment) Bill 2026 on Friday, requiring all teachers, including principals, to hold practising certificates valid for up to three school years and creating a mechanism to keep people convicted of national security offences out of schools.",
+   "summary": "The government will gazette the Education (Amendment) Bill 2026 on Friday, Nov. 13, the Education Bureau said on Thursday. All teachers and principals in publicly funded, private and international schools and kindergartens would need to be registered and hold a practising certificate valid for no more than three school years, with mandatory continuing professional development. The bill also introduces a mechanism to handle teacher registration for people convicted of offences endangering national security, which HKFP and RTHK describe as barring them from teaching. The bureau said the changes would ensure teachers are “fit and proper persons” and raise the profession’s standing. The bill is scheduled for first and second readings in LegCo on Nov. 25.",
+   "why": "Time-limited licences give the authorities a regular checkpoint over every teacher in the city, extending the post-2020 national-security framework deeper into schools.",
+   "label": "Official statement + reported",
+   "note": "The bill had not been gazetted when this edition was compiled.",
+   "sources": [
+    {
+     "title": "Education (Amendment) Bill 2026 to be gazetted tomorrow",
+     "site": "Hong Kong government press release",
+     "date": "Nov 12, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/12/P2026111200202.htm"
+    },
+    {
+     "title": "Hong Kong to gazette bill barring those with national security convictions from teaching",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 12, 2026",
+     "href": "https://hongkongfp.com/2026/11/12/hong-kong-to-gazette-bill-barring-those-with-national-security-convictions-from-teaching/"
+    },
+    {
+     "title": "Teachers face cert, security rules in new schools bill",
+     "site": "RTHK",
+     "date": "Nov 12, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877518-20261112.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/12/P2026111200202.htm",
+     "publisher": "HKSAR Government (Education Bureau)",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-12T06:24:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Gazettal on Nov. 13",
+      "Practising certificates for all teachers incl. principals, valid up to three school years",
+      "Mechanism for persons convicted of offences endangering national security",
+      "Continuing professional development requirement"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://hongkongfp.com/2026/11/12/hong-kong-to-gazette-bill-barring-those-with-national-security-convictions-from-teaching/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 12, 2026, 6:26 PM HKT (5:26 AM ET)",
+     "checkedAt": "2026-11-12T06:24:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Bill bars people with national security convictions from teaching",
+      "LegCo introduction on Nov. 25"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877518-20261112.htm",
+     "publisher": "RTHK",
+     "published": "Nov 12, 2026, 1:27 PM HKT (12:27 AM ET)",
+     "checkedAt": "2026-11-12T06:24:14-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Scope covers kindergartens and international schools",
+      "First and second readings on Nov. 25"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "hk-arts",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-11T22:44",
+   "dateLabel": "Nov 11–12, 2026",
+   "headline": "Hong Kong will tie half of major arts groups’ funding to box office, audiences and other targets from 2027",
+   "deck": "Hong Kong will move its nine major performing arts groups to a funding system in which half the money depends on performance, with weaker groups able to lose their status, the government told lawmakers.",
+   "summary": "Hong Kong will move its nine major performing arts groups to a funding system in which half the annual allocation is a “performance-based subvention” tied to non-government income and key performance indicators, Secretary for Culture, Sports and Tourism Rosanna Law said in a written LegCo reply on Wednesday. Quantitative indicators include paid audiences, box office income, attendance rates and performances on the mainland and overseas; qualitative ones include artistic excellence and governance. Groups that consistently miss standards would lose their major-group status, while strong medium-sized groups could be promoted. A five-year transition starts in 2027-28, with full implementation from 2032-33; the government says overall funding will be maintained. Arts Development Council vice-chairman Chris Ip told RTHK on Thursday the reform gives groups “a goal to do better.”",
+   "why": "Linking subsidies to ticket sales and mainland touring could reshape what Hong Kong’s orchestras, theatre and dance companies put on stage.",
+   "label": "Official statement + reported",
+   "sources": [
+    {
+     "title": "LCQ10: Reforming funding mechanism for arts groups",
+     "site": "Hong Kong government press release (LegCo reply)",
+     "date": "Nov 11, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/11/P2026111100231.htm"
+    },
+    {
+     "title": "Higher standards set for arts groups’ funding overhaul",
+     "site": "RTHK",
+     "date": "Nov 12, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877489-20261112.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/11/P2026111100231.htm",
+     "publisher": "HKSAR Government",
+     "published": "Nov 11, 2026",
+     "checkedAt": "2026-11-12T06:24:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Baseline cut from about 77% to 50%; 50% performance-based",
+      "KPIs listed",
+      "Five-year transition from 2027-28; full from 2032-33",
+      "Groups can lose MPAG status; medium groups can be promoted"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877489-20261112.htm",
+     "publisher": "RTHK",
+     "published": "Nov 12, 2026, 11:44 AM HKT (Nov 11, 10:44 PM ET)",
+     "checkedAt": "2026-11-12T06:24:30-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Arts Development Council’s Chris Ip comments"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-12-am/hk-arts.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Hong Kong Cultural Centre on the Tsim Sha Tsui waterfront",
+    "caption": "The Hong Kong Cultural Centre in Tsim Sha Tsui, pictured in 2014.",
+    "credit": "Wing1990hk",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Cultural_Centre_201408.jpg",
+    "isFilePhoto": true,
+    "year": 2014
+   }
+  },
+  {
+   "id": "hk-leave",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-12T00:17",
+   "dateLabel": "Nov 11–12, 2026",
+   "headline": "Hong Kong government staff to get up to 12 hours of paid family care leave a year from January",
+   "deck": "All Hong Kong government employees will be able to take up to 12 hours a year of paid family care leave from January 2027, in blocks of one to four hours, the Civil Service Bureau told lawmakers.",
+   "summary": "All Hong Kong government employees, including those on non-civil-service terms, will be able to take up to 12 hours a year of paid family care leave from January 2027, the Civil Service Bureau said in a LegCo paper on Wednesday, HKFP reports. The leave can be taken in blocks of one to four hours — for example to accompany relatives to medical appointments, attend parent-teacher meetings or deal with household emergencies — and cannot be carried over. No documents are needed up front, though supervisors can ask for proof if they suspect abuse. Civil Servants General Union chairman Fung Chuen-chung told RTHK it was a “very desirable step forward” and hoped private employers would follow.",
+   "why": "It is a small allowance, but the government is Hong Kong’s biggest employer, and the move puts pressure on private firms in a city with long hours and fast-ageing families.",
+   "label": "Official statement + reported",
+   "sources": [
+    {
+     "title": "Hong Kong gov’t workers granted up to 12 hours of annual family care leave from January",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 12, 2026",
+     "href": "https://hongkongfp.com/2026/11/12/hong-kong-govt-workers-granted-up-to-12-hours-of-annual-family-care-leave-from-january/"
+    },
+    {
+     "title": "Union says 12-hour family care leave is ‘good start’",
+     "site": "RTHK",
+     "date": "Nov 12, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877510-20261112.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/12/hong-kong-govt-workers-granted-up-to-12-hours-of-annual-family-care-leave-from-january/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 12, 2026, 7:45 AM HKT (Nov 11, 6:45 PM ET)",
+     "checkedAt": "2026-11-12T06:24:32-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Civil Service Bureau LegCo paper",
+      "12 hours a year, 1–4 hour blocks, no carry-over, from January",
+      "Examples of permitted uses; proof only on reasonable doubt"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877510-20261112.htm",
+     "publisher": "RTHK",
+     "published": "Nov 12, 2026, 1:17 PM HKT (12:17 AM ET)",
+     "checkedAt": "2026-11-12T06:24:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Fung Chuen-chung comments"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "hk-church",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-12T03:50",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Police reportedly questioned two Catholic churches over memorial masses for Tai Po fire victims",
+   "deck": "Two Catholic churches were reportedly questioned by police over plans for masses marking one year since the Wang Fuk Court fire in Tai Po, which killed 168 people; one has replaced its anniversary mass with a general service.",
+   "summary": "Two Catholic churches were reportedly questioned by police over plans to hold masses marking one year since the Wang Fuk Court fire in Tai Po, which killed 168 people, HKFP reports. Former radio host and parishioner Antony Yiu said Immaculate Heart of Mary Church in Tai Po was questioned twice after announcing a special service for Sunday; the church has since replaced it with a ceremony for “the brothers and sisters who died in the past year.” Local media also reported that Our Lady of Mount Carmel in Wan Chai planned a memorial mass; its parish priest told Commercial Radio the church holds remembrance masses every November.",
+   "why": "If confirmed, police scrutiny of prayers for fire victims would show how sensitive the anniversary of the city’s deadliest blaze in decades has become.",
+   "label": "Reported + claim",
+   "note": "Single-outlet report resting on a parishioner’s account and local media; HKFP’s report does not include a police response. Donna Daily has not confirmed the questioning.",
+   "sources": [
+    {
+     "title": "Hong Kong police reportedly question two Catholic churches over Tai Po fire memorial masses",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 12, 2026",
+     "href": "https://hongkongfp.com/2026/11/12/hong-kong-police-reportedly-question-two-catholic-churches-over-tai-po-fire-memorial-masses/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/12/hong-kong-police-reportedly-question-two-catholic-churches-over-tai-po-fire-memorial-masses/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 12, 2026, 4:50 PM HKT (3:50 AM ET)",
+     "checkedAt": "2026-11-12T06:24:38-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Parishioner Antony Yiu’s account of police questioning",
+      "Tai Po church replaced the anniversary mass",
+      "Wan Chai church plans; parish priest comments"
+     ],
+     "limits": [
+      "Single outlet; police response not included"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-sun",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-12T01:56",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Xi marks Sun Yat-sen’s 160th birthday by calling for Taiwan “reunification”",
+   "deck": "President Xi Jinping hailed Sun Yat-sen as a “great national hero” at a gathering in Beijing marking 160 years since his birth, and called on people on both sides of the Taiwan Strait to work toward reunification.",
+   "summary": "President Xi Jinping hailed Sun Yat-sen, who led the 1911 revolution that ended imperial rule, as a “great national hero” and “a great pioneer of China’s democratic revolution” at a gathering of about 3,000 people in Beijing’s Great Hall of the People on Thursday to mark 160 years since Sun’s birth, according to Xinhua. Xi said Chinese communists were the “most steadfast supporters” and “faithful successors” of Sun’s cause, and called on people on both sides of the Taiwan Strait and Chinese around the world to contribute to the peaceful development of cross-strait relations and “complete the country’s reunification,” which he called an “unswerving historical mission” of the Communist Party.",
+   "why": "Sun is honoured by both the Communist Party and Taiwan’s Kuomintang, so Beijing uses his anniversaries to send messages across the strait — this one a week before Xi hosts world leaders, including Trump, in Shenzhen.",
+   "label": "Official statement + state media",
+   "note": "The account of the speech comes from Xinhua (state media), also carried by RTHK.",
+   "sources": [
+    {
+     "title": "Xi calls for carrying forward Sun Yat-sen’s legacy in national rejuvenation drive",
+     "site": "Xinhua (state media)",
+     "date": "Nov 12, 2026",
+     "href": "https://english.news.cn/20261112/129b7afbf8984142aee79915f55d5cea/c.html"
+    },
+    {
+     "title": "Xi urges nation to carry on Sun’s revolutionary legacy",
+     "site": "RTHK",
+     "date": "Nov 12, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877521-20261112.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261112/129b7afbf8984142aee79915f55d5cea/c.html",
+     "publisher": "Xinhua News Agency (Chinese state media)",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-12T06:25:28-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Gathering of about 3,000 at the Great Hall of the People",
+      "Xi quotes on Sun and the Communist Party"
+     ],
+     "limits": [
+      "State media"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877521-20261112.htm",
+     "publisher": "RTHK",
+     "published": "Nov 12, 2026, 2:56 PM HKT (1:56 AM ET)",
+     "checkedAt": "2026-11-12T06:25:14-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Taiwan reunification remarks",
+      "Sun born 1866, died 1925"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-12-am/cn-sun.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Black-and-white photo of Sun Yat-sen seated by a window",
+    "caption": "Sun Yat-sen in Guangzhou, pictured in 1924.",
+    "credit": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sun_Yat-sen_1924_Guangzhou_(cropped).jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Sun_Yat-sen_1924_Guangzhou_(cropped).jpg",
+    "isFilePhoto": true,
+    "year": 1924
+   }
+  },
+  {
+   "id": "cn-wang",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-11T19:11",
+   "dateLabel": "Nov 11, 2026",
+   "headline": "Wang Yi and Rubio prepare for Trump’s APEC trip to Shenzhen as a Trump–Xi–Putin meeting is discussed",
+   "deck": "Foreign Minister Wang Yi and U.S. Secretary of State Marco Rubio spoke by phone on Wednesday about President Trump’s trip to the APEC summit in Shenzhen next week, and the U.S. readout mentions “any potential trilateral leaders meeting with Russia.”",
+   "summary": "Foreign Minister Wang Yi and U.S. Secretary of State Marco Rubio spoke by phone on Wednesday about President Trump’s upcoming trip to the APEC summit in Shenzhen and Xi Jinping’s planned visit to Florida for the G20 summit, the State Department said. Its readout says the call was at China’s request and that both sides agreed on the importance of leader-level talks on peace and denuclearisation, “including at any potential trilateral leaders meeting with Russia.” Xinhua, as quoted by RTHK, called the call “positive and constructive” and quoted Wang saying stable ties were “a rational choice.” RTHK notes Rubio said on Tuesday work was under way to arrange a Xi–Trump–Putin meeting on the APEC sidelines.",
+   "why": "A three-way meeting of the U.S., Chinese and Russian leaders would be the first of its kind and could reshape talks on Ukraine, Iran and nuclear arms — but Beijing has so far resisted being drawn into arms-control talks.",
+   "label": "Official statement + state media + reported",
+   "note": "Any trilateral meeting is under discussion only; none had been announced.",
+   "sources": [
+    {
+     "title": "Secretary Rubio’s Call with China’s Director of the Office of the CCP Central Foreign Affairs Commission and Foreign Minister Wang",
+     "site": "U.S. Department of State",
+     "date": "Nov 11, 2026",
+     "href": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/secretary-rubios-call-with-chinas-director-of-the-office-of-the-ccp-central-foreign-affairs-commissionand-foreign-minister-wang/"
+    },
+    {
+     "title": "Wang Yi holds ‘positive, constructive’ call with Rubio",
+     "site": "RTHK (citing Xinhua)",
+     "date": "Nov 12, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877472-20261112.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/secretary-rubios-call-with-chinas-director-of-the-office-of-the-ccp-central-foreign-affairs-commissionand-foreign-minister-wang/",
+     "publisher": "U.S. Department of State",
+     "published": "Nov 11, 2026, 7:11 PM ET",
+     "checkedAt": "2026-11-12T06:27:03-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Call at China’s request",
+      "Discussed APEC trip and Xi’s G20 visit to Florida",
+      "Reference to a potential trilateral leaders meeting with Russia"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877472-20261112.htm",
+     "publisher": "RTHK, citing Xinhua",
+     "published": "Nov 12, 2026, 6:46 AM HKT (Nov 11, 5:46 PM ET)",
+     "checkedAt": "2026-11-12T06:25:15-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Xinhua description and Wang quotes",
+      "Rubio on trilateral arrangements; Trump’s comments"
+     ],
+     "limits": [
+      "Chinese side’s account relayed from state media"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-tariff",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-12",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "China says it is in close talks with the U.S. on putting into effect reciprocal tariff cuts on about $30 billion of goods each",
+   "deck": "China’s Commerce Ministry said on Thursday that Beijing and Washington are in close communication on implementing an agreed arrangement under which each side lowers tariffs on about $30 billion of the other’s goods.",
+   "summary": "China’s Commerce Ministry said on Thursday that Beijing and Washington are in close communication on implementing an agreed arrangement under which each side lowers tariffs on about $30 billion of the other’s imports, Xinhua reports. Spokesperson He Yadong said China hoped the U.S. would put it into effect “at an early date,” particularly to help agricultural trade, and that progress on other trade and investment issues would be announced “in due course.” Under the arrangement, more than 90% of covered products would be exempt from all additional tariffs once each side completes its domestic legal procedures.",
+   "why": "Signs of movement on trade ahead of the Shenzhen summit suggest both sides want deliverables — but the cuts are not yet in force.",
+   "label": "Official statement + state media",
+   "note": "Single source (Xinhua, state media). The tariff cuts have not taken effect.",
+   "sources": [
+    {
+     "title": "China, U.S. maintain close communication on tariff cuts, trade, investment: spokesperson",
+     "site": "Xinhua (state media)",
+     "date": "Nov 12, 2026",
+     "href": "https://english.news.cn/20261112/612a0a4f09b348c6ab069e0d7a205d0f/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261112/612a0a4f09b348c6ab069e0d7a205d0f/c.html",
+     "publisher": "Xinhua News Agency (Chinese state media)",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-12T06:25:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "He Yadong remarks",
+      "$30 billion each side; more than 90% of products exempt from additional tariffs after domestic procedures"
+     ],
+     "limits": [
+      "State media; single source"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-nev",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-12",
+   "dateLabel": "Nov 11–12, 2026",
+   "headline": "New-energy vehicles make up 64% of China’s new car sales in October, industry data show",
+   "deck": "Electric, plug-in hybrid and fuel-cell vehicles accounted for 64.3% of new car sales in China in October, up from 61.6% in September, according to the China Association of Automobile Manufacturers.",
+   "summary": "Electric, plug-in hybrid and fuel-cell vehicles accounted for 64.3% of new car sales in China in October, up from 61.6% in September, according to China Association of Automobile Manufacturers (CAAM) data reported by Xinhua; the share for the first 10 months was 54.8%. Output and sales of such vehicles were about 2.02 million and 1.94 million in October, both up more than 13% year on year. NEV exports rose about 140% to 606,000, more than half of China’s auto exports for a fifth straight month, and total vehicle exports rose 60.2% to nearly 1.07 million.",
+   "why": "Nearly two in three new cars sold in the world’s biggest car market now plug in or run on alternative power, and the export surge is what worries carmakers and governments abroad.",
+   "label": "Industry figures + state media",
+   "note": "CAAM counts differ from the brand-level overseas sales figures in our Nov. 11 story. Single source (Xinhua, state media) for the data.",
+   "sources": [
+    {
+     "title": "NEVs gain further ground in China’s auto market, nearing two-thirds of new vehicle sales",
+     "site": "Xinhua (state media)",
+     "date": "Nov 12, 2026",
+     "href": "https://english.news.cn/20261112/f3b5842723f541d9804e255061f68378/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261112/f3b5842723f541d9804e255061f68378/c.html",
+     "publisher": "Xinhua News Agency (Chinese state media)",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-12T06:25:32-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "CAAM: 64.3% share in October, 61.6% in September, 54.8% Jan–Oct",
+      "Output 2.02m, sales 1.94m",
+      "NEV exports 606,000 (+140%); total exports nearly 1.07m (+60.2%)"
+     ],
+     "limits": [
+      "State media; CAAM original release not opened"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-breaks",
+   "region": "cn",
+   "topic": "human",
+   "ts": "2026-11-09T04:07",
+   "dateLabel": "Nov 9, 2026",
+   "headline": "More Chinese provinces and cities give schoolchildren spring and autumn breaks",
+   "deck": "At least 15 Chinese provinces have rolled out four- to five-day spring and autumn school breaks province-wide, with some regions adding measures so parents can take leave at the same time.",
+   "summary": "At least 15 Chinese provinces, plus cities such as Shenzhen, have rolled out spring and autumn holidays across all compulsory-education schools, Sixth Tone reports, citing domestic media. The breaks last four to five days each, in November and April. Some places have waived fees for students during the break and introduced measures to help parents take leave at the same time. The idea dates to a 2004 pilot in Hangzhou; the State Council encouraged it nationally in 2013 and central authorities pushed again in 2025.",
+   "why": "The breaks are part of Beijing’s effort to boost domestic spending and ease exam pressure, but they only work for families if employers let parents take time off too.",
+   "label": "Reported",
+   "note": "Single source: Sixth Tone, an English-language outlet owned by the state-backed Shanghai United Media Group, citing domestic media. Published Nov. 9; included because it has not appeared in an earlier edition.",
+   "sources": [
+    {
+     "title": "More Chinese Regions to Require Autumn and Spring School Breaks",
+     "site": "Sixth Tone",
+     "date": "Nov 9, 2026",
+     "href": "https://www.sixthtone.com/news/1019236/more-chinese-regions-to-require-autumn-and-spring-school-breaks"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.sixthtone.com/news/1019236/more-chinese-regions-to-require-autumn-and-spring-school-breaks",
+     "publisher": "Sixth Tone (Shanghai United Media Group)",
+     "published": "Nov 9, 2026, 4:07 AM ET",
+     "checkedAt": "2026-11-12T06:25:45-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "At least 15 provinces province-wide; cities incl. Shenzhen",
+      "Breaks of 4–5 days in November and April",
+      "Fee waivers and parental leave measures",
+      "History: 2004 Hangzhou pilot, 2013 State Council, 2025 push"
+     ],
+     "limits": [
+      "Single outlet, citing domestic media"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-ukraine",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-12T05:08",
+   "dateLabel": "Nov 11–12, 2026 (update to Nov 11 story)",
+   "headline": "U.S. envoys go to the Kremlin to meet Putin after Abu Dhabi talks end with a prisoner-swap deal but no breakthrough",
+   "deck": "Jared Kushner and Steve Witkoff arrived in Moscow on Thursday to meet Vladimir Putin, a day after two days of U.S.-mediated Russia–Ukraine talks in Abu Dhabi ended with agreement on a large prisoner exchange but no major breakthrough.",
+   "summary": "U.S. envoys Jared Kushner and Steve Witkoff arrived in Moscow on Thursday for talks with President Vladimir Putin, BBC News reports, a day after the first direct Russia–Ukraine talks in nine months ended in Abu Dhabi. Both sides said on Wednesday they had agreed on a large exchange of prisoners of war, NPR reports, with Kushner saying numbers would be finalised the next day; there was no breakthrough on territory or security guarantees. Kushner said he would ask Putin to “give his blessing” to involving European representatives in future talks. The envoys are then expected in Dublin to meet President Volodymyr Zelensky, who is attending a European Political Community summit of more than 40 countries that DW says Canada’s Mark Carney is also attending.",
+   "why": "Washington is trying to turn a modest humanitarian deal into momentum, but bringing Europe to the table — which Moscow has resisted — may decide whether these talks go further than earlier rounds.",
+   "label": "Reported + official statement",
+   "note": "Ongoing story: Donna Daily reported the talks on Nov. 11. The Putin meeting and the Dublin talks had not concluded when this edition was compiled; the prisoner exchange had not taken place.",
+   "sources": [
+    {
+     "title": "US envoys arrive in Moscow for Ukraine talks with Vladimir Putin",
+     "site": "BBC News",
+     "date": "Nov 12, 2026",
+     "href": "https://www.bbc.com/news/articles/cwrkgmymk55zo"
+    },
+    {
+     "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+     "site": "NPR (AP)",
+     "date": "Nov 11, 2026",
+     "href": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+    },
+    {
+     "title": "Ukraine news: US envoys arrive in Moscow to meet with Putin",
+     "site": "DW",
+     "date": "Nov 12, 2026",
+     "href": "https://www.dw.com/en/ukraine-peace-talks-us-envoys-arrive-in-russia-to-meet-with-putin/live-79925580"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.com/news/articles/cwrkgmymk55zo",
+     "publisher": "BBC News",
+     "published": "Nov 12, 2026, 5:08 AM ET",
+     "checkedAt": "2026-11-12T06:26:03-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Kushner and Witkoff arrived in Moscow; meeting due at 12:00 Moscow time",
+      "Then to Dublin to see Zelensky",
+      "Kushner to ask Putin’s “blessing” for European involvement"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+     "publisher": "NPR, AP copy",
+     "published": "Nov 11, 2026, 8:30 AM ET (updated 12:23 PM ET)",
+     "checkedAt": "2026-11-12T06:26:02-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Prisoner exchange agreed; no major breakthrough",
+      "Kushner quote on finalising numbers",
+      "First meeting in nine months"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.dw.com/en/ukraine-peace-talks-us-envoys-arrive-in-russia-to-meet-with-putin/live-79925580",
+     "publisher": "Deutsche Welle (live page)",
+     "published": "Nov 12, 2026, 1:35 AM ET (live page)",
+     "checkedAt": "2026-11-12T06:26:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "EPC summit in Dublin with Zelensky, Carney and Rutte"
+     ],
+     "limits": [
+      "Live page; content changes"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-12-am/w-ukraine.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Kremlin wall and Senate Palace in Moscow behind a row of blue spruces",
+    "caption": "The Kremlin wall and Senate Palace in Moscow, pictured in 2025.",
+    "credit": "Юрий Д.К.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Moscow_-_August_2025_-_Kremlin_Wall,_Senate_Palace.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "w-indonesia",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-12T03:46",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Indonesia’s vice-president Gibran resigns after a court ruling questioned his school credentials",
+   "deck": "Vice-President Gibran Rakabuming Raka, son of former president Joko Widodo, submitted his resignation to Indonesia’s parliament on Thursday after the Supreme Court found no evidence he had completed a qualification equivalent to senior high school.",
+   "summary": "Vice-President Gibran Rakabuming Raka, the 39-year-old son of former president Joko Widodo, submitted his resignation to the People’s Consultative Assembly on Thursday, BBC News and the AP (via CBC) report. He had faced impeachment calls after a Supreme Court ruling that it found no evidence he held a foreign diploma that could count as the senior high school qualification the law requires of vice-presidents. President Prabowo Subianto said he accepted the resignation “with a heavy heart” and praised Gibran’s “sense of responsibility.” Lawmakers have 60 days to choose a replacement from two candidates the president nominates. The BBC says the departure comes amid a fraying alliance between Prabowo and Widodo.",
+   "why": "Gibran’s 2024 rise was seen as Widodo’s bid to keep a dynasty in power; his exit reshapes the succession picture in the world’s third-largest democracy.",
+   "label": "Reported + official statement",
+   "sources": [
+    {
+     "title": "Indonesia’s vice president resigns amid signs ruling alliance is fraying",
+     "site": "BBC News",
+     "date": "Nov 12, 2026",
+     "href": "https://www.bbc.com/news/articles/cmvgxgz87qqro"
+    },
+    {
+     "title": "Indonesia’s vice-president resigns after academic credentials questioned",
+     "site": "CBC News (AP)",
+     "date": "Nov 12, 2026",
+     "href": "https://www.cbc.ca/news/world/indonesia-vice-president-resigns-9.7418723"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.com/news/articles/cmvgxgz87qqro",
+     "publisher": "BBC News",
+     "published": "Nov 11, 2026, 10:21 AM ET (updated Nov 12, 3:46 AM ET)",
+     "checkedAt": "2026-11-12T06:26:14-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Resignation tendered Thursday",
+      "Supreme Court finding on credentials",
+      "Prabowo quotes; 60-day replacement process",
+      "Fraying Prabowo–Widodo alliance"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/news/world/indonesia-vice-president-resigns-9.7418723",
+     "publisher": "CBC News, AP copy",
+     "published": "Nov 12, 2026, 4:57 AM ET",
+     "checkedAt": "2026-11-12T06:26:26-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Resignation submitted to the People’s Consultative Assembly",
+      "Gibran is 39, son of Joko Widodo"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "w-spain",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-11T16:20",
+   "dateLabel": "Nov 11, 2026",
+   "headline": "Spain’s first general strike in 14 years brings millions out over soaring housing costs",
+   "deck": "Millions of workers walked out across Spain on Wednesday in a general strike under the slogan “Salaries. Housing. Prices.”, with big marches in Madrid and Barcelona ahead of a snap election on Nov. 29.",
+   "summary": "Millions of workers walked out across Spain on Wednesday in the country’s first general strike in 14 years, called by the two biggest union confederations, UGT and CCOO, under the slogan “Salaries. Housing. Prices.”, according to the AP (via CBC) and Xinhua. Marches filled Barcelona and Madrid: activists claimed 400,000 in Barcelona, where the city government counted 55,000, and officials estimated 120,000 in Madrid. Some protesters in Barcelona later smashed shop windows and clashed with riot police. Prime Minister Pedro Sánchez has called a snap election for Nov. 29, with polls against his left-wing coalition.",
+   "why": "Housing has become Europe’s defining cost-of-living fight, and Spain’s strike turns it into the central issue of a national election less than three weeks away.",
+   "label": "Reported + official figures",
+   "note": "Crowd figures differ widely between organisers and officials; both are given.",
+   "sources": [
+    {
+     "title": "Millions of workers strike across Spain as citizens protest soaring housing costs",
+     "site": "CBC News (AP)",
+     "date": "Nov 11, 2026",
+     "href": "https://www.cbc.ca/news/world/spain-strike-protest-march-housing-costs-9.7418346"
+    },
+    {
+     "title": "General strike held across Spain under slogan “Salaries, Housing, Prices”",
+     "site": "Xinhua (state media)",
+     "date": "Nov 11, 2026",
+     "href": "https://english.news.cn/20261112/3a77738890324c3d8c6a3b86e96bf64c/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/world/spain-strike-protest-march-housing-costs-9.7418346",
+     "publisher": "CBC News, AP copy",
+     "published": "Nov 11, 2026, 4:20 PM ET",
+     "checkedAt": "2026-11-12T06:26:28-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "First general strike in 14 years; slogan",
+      "Crowd estimates: 400,000 vs 55,000 Barcelona; 120,000 Madrid",
+      "Barcelona clashes",
+      "Snap election Nov. 29"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://english.news.cn/20261112/3a77738890324c3d8c6a3b86e96bf64c/c.html",
+     "publisher": "Xinhua News Agency (Chinese state media)",
+     "published": "Nov 11, 2026",
+     "checkedAt": "2026-11-12T06:29:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Called by UGT and CCOO; first joint general strike since 2012",
+      "Road blockades in Madrid and Catalonia"
+     ],
+     "limits": [
+      "State media"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-manutd",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-12T06:05",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Manchester United sack Michael Carrick with the club in the Premier League relegation zone",
+   "deck": "Manchester United dismissed manager Michael Carrick on Thursday after a run of three wins in 15 games left them 18th in the Premier League, one point off the bottom.",
+   "summary": "Manchester United dismissed manager Michael Carrick on Thursday after a winless league run that ended with a 4-4 home draw against Aston Villa, RTHK (Reuters) reports. United have won three of 15 games in all competitions this season, including one league win, and sit 18th on eight points after 10 matches. “The club has come to the extremely difficult conclusion that a change is necessary,” United said. BBC Sport says Mauricio Pochettino, the U.S. men’s national team coach, looks likely to replace him, and RTHK cites British reports that he has agreed to take over.",
+   "why": "One of the world’s richest clubs fighting relegation is a measure of how far United have fallen — and poaching the U.S. coach months before a home World Cup would ripple well beyond Manchester.",
+   "label": "Reported + official statement",
+   "note": "Pochettino’s appointment rests on media reports; United had not announced a successor when this edition was compiled.",
+   "sources": [
+    {
+     "title": "Michael Carrick sacked as Man U manager",
+     "site": "RTHK (Reuters)",
+     "date": "Nov 12, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877569-20261112.htm"
+    },
+    {
+     "title": "Michael Carrick sacked: Man Utd boss goes from signing two-year deal to being sacked 15 games later",
+     "site": "BBC Sport",
+     "date": "Nov 12, 2026",
+     "href": "https://www.bbc.com/sport/football/articles/cm0rl4kwn8vqo"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877569-20261112.htm",
+     "publisher": "RTHK, Reuters copy",
+     "published": "Nov 12, 2026, 7:05 PM HKT (6:05 AM ET)",
+     "checkedAt": "2026-11-12T06:26:30-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Dismissal confirmed by club statement (quoted)",
+      "3 wins in 15; 18th on 8 points after 10 games",
+      "Pochettino reported to have agreed"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.bbc.com/sport/football/articles/cm0rl4kwn8vqo",
+     "publisher": "BBC Sport",
+     "published": "Nov 12, 2026, 5:21 AM ET",
+     "checkedAt": "2026-11-12T06:26:29-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Carrick sacked after 15 games",
+      "Pochettino likely replacement"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-12-am/w-manutd.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Exterior of Old Trafford stadium with Manchester United signage",
+    "caption": "Old Trafford, Manchester United’s stadium, pictured in 2010.",
+    "credit": "Parrot of Doom",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Old_trafford_february_2010.jpg",
+    "isFilePhoto": true,
+    "year": 2010
+   }
+  },
+  {
+   "id": "w-teen",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-12T04:54",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Australian teenager found alive after six days lost in the bush east of Melbourne",
+   "deck": "A 17-year-old boy missing for six days in bushland about 180 km east of Melbourne was found alive on Thursday, asleep on a rock beside a creek, police said.",
+   "summary": "A 17-year-old boy who went missing on a camping trip in dense bushland near Walhalla, about 180 km east of Melbourne, was found alive on Thursday after six days, Victoria Police said. A police helicopter crew found him asleep on a flat rock beside a creek, the AP (via CBC) reports; he was winched out, given a doughnut and water, and taken to hospital for a check. His mother told reporters he had “only a few scratches” and had “stayed in one spot and waited to be rescued,” adding that he was “grounded for life.” Police said officers were emotional: “It doesn’t happen all the time.”",
+   "why": "Freezing nights had left searchers fearing the worst; staying put — the advice rescuers always give — appears to be what kept him alive.",
+   "label": "Reported + official statement",
+   "sources": [
+    {
+     "title": "Australian teen missing in bush for six days rescued alive",
+     "site": "BBC News",
+     "date": "Nov 11, 2026",
+     "href": "https://www.bbc.com/news/articles/ckvg25zmppglo"
+    },
+    {
+     "title": "Missing teen found alive after 6 days in the Australian woodlands",
+     "site": "CBC News (AP)",
+     "date": "Nov 12, 2026",
+     "href": "https://www.cbc.ca/news/world/missing-teen-found-australia-9.7418731"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.com/news/articles/ckvg25zmppglo",
+     "publisher": "BBC News",
+     "published": "Nov 11, 2026, 9:40 PM ET",
+     "checkedAt": "2026-11-12T06:26:15-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Found Thursday after six days, about 180 km east of Melbourne",
+      "Mother’s and police quotes"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/news/world/missing-teen-found-australia-9.7418731",
+     "publisher": "CBC News, AP copy",
+     "published": "Nov 12, 2026, 4:54 AM ET",
+     "checkedAt": "2026-11-12T06:26:27-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 12 2026",
+     "claimsSupported": [
+      "Found near Walhalla asleep on a rock beside a creek by helicopter crew"
+     ],
+     "limits": []
+    }
+   ]
+  }
+ ]
+}
