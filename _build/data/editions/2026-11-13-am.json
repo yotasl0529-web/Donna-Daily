@@ -1,0 +1,1609 @@
+{
+ "id": "2026-11-13-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-13",
+ "leadId": "us-msft",
+ "topIds": [
+  "us-iran",
+  "w-ukraine",
+  "ca-deepfake",
+  "hk-sogo",
+  "cn-apec"
+ ],
+ "notes": [
+  "Morning Edition for Friday, Nov 13, 2026.",
+  "It prioritizes developments since Thursday’s morning and evening editions: Microsoft’s outage running into a second day, the Kremlin saying it has not yet agreed to European mediators, China ruling out hosting COP33, Chris Van Hollen’s challenge to Chuck Schumer, and Manchester United’s reported deal for USA coach Mauricio Pochettino.",
+  "Ongoing stories, including the Brooklyn building collapse and the Ukraine talks, carry their original and updated dates.",
+  "Items described as scheduled, planned or reported — including Pochettino’s appointment, exhibitions and events that have not yet opened, and China’s COP33 decision, which rests on unnamed sources — are not presented as completed or officially confirmed.",
+  "This edition has photos on the lead and on 18 of 23 other stories, using only Wikimedia Commons or U.S. government public-domain files, each credited and labelled as a file photo. None shows the events described.",
+  "Stories by region: U.S. 5, Canada 5, Hong Kong 5, China 4, World 5. China has four stories this morning rather than padding to five."
+ ],
+ "provenance": [
+  "Stories are compiled from the linked sources; labels describe the type of claim each story rests on.",
+  "Source pages were opened during this morning’s research between about 6:20 and 6:40 AM ET; each check time is the logged time that page was fetched.",
+  "China Daily and Xinhua items are labelled State media; RTHK is Hong Kong’s public broadcaster and Anadolu Agency is Turkish state-run. Syntun’s Singles’ Day figures are a third-party industry estimate.",
+  "Some pages (including AP, Politico, the South China Morning Post and StreetInsider) returned access errors to automated fetches; those are access limits, not evidence that the reporting is wrong. Reuters’ Singles’ Day report was read in a StreetInsider republication through a web reader.",
+  "Where outlets gave different figures — the Nasser Hospital injury count (27 per the UN, about 30 per the BBC) and the size of the Chiapas migrant caravan — the edition states both."
+ ],
+ "stories": [
+  {
+   "id": "us-msft",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-13T06:23",
+   "dateLabel": "Nov 12–13, 2026 (ongoing)",
+   "headline": "Microsoft’s global outage runs into a second day, with Outlook still unreliable for many users",
+   "deck": "A Microsoft outage that began shortly before 1 p.m. ET on Thursday was still disrupting Outlook and other Microsoft 365 services early Friday. Microsoft said it saw no sign of malicious activity and reported gradual, uneven recovery.",
+   "summary": "A Microsoft outage that began shortly before 1 p.m. ET on Thursday was still disrupting Outlook and other Microsoft 365 services early Friday. Microsoft said it saw no sign of malicious activity and reported gradual, uneven recovery. CNBC said Outlook, Teams and Microsoft 365 services such as SharePoint and Copilot were hit, along with outside services that connect to Outlook Calendar. In an update at about 5 a.m. ET Friday, Microsoft said users might still be unable to connect to several Microsoft 365 products, including Outlook on the web and desktop, and gave no timeline for full service; most access to Teams had returned. The company initially linked the problem to elevated load after a number of servers became unexpectedly unavailable, and said the failed automated health checks may originate from a specific component that processes server health. It said it was bringing affected systems back in stages and extending the retry window for delayed emails to up to 48 hours. The Guardian’s live coverage said Microsoft later reported “positive results for server stability” after a software patch but still listed service degradation, and that government agencies in Australia, Japan and the United States were among those affected. The Canadian Press said thousands in Canada were affected. Microsoft shares were 2.6% lower in premarket trading, CNBC said.",
+   "why": "Outlook and Teams sit under the email, calendars and classes of millions of schools, offices and governments, so a two-day outage shows how much daily life now depends on a single company’s cloud — and how slowly that kind of failure can be fixed.",
+   "label": "Reported + company statement",
+   "note": "Microsoft’s explanation of the cause is its own preliminary account. Recovery was still in progress when this edition was compiled; service may differ by region and account.",
+   "sources": [
+    {
+     "title": "Microsoft outage continues, Outlook and other 365 services down",
+     "site": "CNBC",
+     "date": "Nov 12, 2026 (updated Nov 13, 6:23 AM ET)",
+     "href": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
+    },
+    {
+     "title": "Why is Microsoft Outlook down? Details on the investigation",
+     "site": "NBC Chicago",
+     "date": "Nov 12, 2026",
+     "href": "https://www.nbcchicago.com/news/local/why-is-microsoft-outlook-down-what-the-companys-investigation-found/4015939/"
+    },
+    {
+     "title": "Microsoft outage live: UK police, NHS services and schools affected",
+     "site": "The Guardian",
+     "date": "Nov 13, 2026 (live)",
+     "href": "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news"
+    },
+    {
+     "title": "In the news today: Microsoft outage, plane loses wheel, Carney heads to Manila",
+     "site": "The Canadian Press via 980 CJME",
+     "date": "Nov 13, 2026",
+     "href": "https://www.cjme.com/2026/11/13/in-the-news-today-microsoft-outage-plane-loses-wheel-carney-heads-to-manila/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+     "publisher": "CNBC",
+     "published": "Published Nov 12, 2026, 3:54 PM ET; updated Nov 13, 2026, 6:23 AM ET",
+     "checkedAt": "2026-11-13T06:25:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Connectivity issues began shortly before 1 p.m. ET Thursday and continued into Friday; Outlook, Teams, SharePoint and Copilot affected",
+      "Microsoft not aware of malicious activity; initially blamed a traffic surge and a component that processes server health",
+      "About 5 a.m. ET update: users may still be unable to connect to Outlook and other 365 products; no timeline; most Teams access available",
+      "Delayed-email retry window extended up to 48 hours; shares 2.6% lower premarket"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.nbcchicago.com/news/local/why-is-microsoft-outlook-down-what-the-companys-investigation-found/4015939/",
+     "publisher": "NBC Chicago",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-13T06:21:15-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Servers became unavailable after failing automated health checks",
+      "Microsoft said it had not identified a recent change that triggered the problem; failed health checks may originate from a specific component",
+      "Outlook user reports peaked at just over 130,000 on Thursday"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
+     "publisher": "The Guardian",
+     "published": "Live page, Nov 13, 2026 (last update seen 11:21 UTC / 6:21 AM ET)",
+     "checkedAt": "2026-11-13T06:25:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Microsoft reported “positive results for server stability” after applying a software patch but still listed service degradation",
+      "Outage hit government agencies in Australia, Japan and the United States"
+     ],
+     "limits": [
+      "Live page; entries change over time"
+     ]
+    },
+    {
+     "url": "https://www.cjme.com/2026/11/13/in-the-news-today-microsoft-outage-plane-loses-wheel-carney-heads-to-manila/",
+     "publisher": "980 CJME (The Canadian Press)",
+     "published": "Nov 13, 2026, 3:30 AM",
+     "checkedAt": "2026-11-13T06:23:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Thousands in Canada affected; Microsoft said nothing suggests malicious activity"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/us-msft.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A modern Microsoft office building with a glass facade and a Microsoft sign on its lawn",
+    "caption": "Building 92 at Microsoft’s headquarters campus in Redmond, Washington, pictured in 2016.",
+    "credit": "Coolcaesar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ABuilding92microsoft.jpg",
+    "isFilePhoto": true,
+    "year": 2016
+   }
+  },
+  {
+   "id": "us-iran",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-12T15:36",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Trump says the U.S. doesn’t need a deal with Iran and pulls Vance off the negotiations",
+   "summary": "President Donald Trump said Thursday that the United States no longer needs a deal with Iran and that he had asked Vice President JD Vance to turn his “complete and total attention” to alleged crime and corruption in Democratic-run cities and states instead of the Iran talks. “We don’t need a deal with Iran. Those days have long since passed. We’ve got their money, Hundreds of Billions of Dollars, and we’ve got their Strait!” he wrote on Truth Social, referring to the Strait of Hormuz. NBC News noted that before the Nov. 3 midterms Trump had repeatedly said a deal could come soon. The Wall Street Journal had reported that Vance reached out to Mohsen Rezaei, secretary of Iran’s Supreme National Security Council, and was weighing direct talks, NBC and USA Today said. Vance said after the elections that voter anger over the war was the “real reason” Republicans lost. USA Today said the conflict began in February with U.S. airstrikes and has killed 23 U.S. service members, and that Trump said on Nov. 9 that escalation “won’t be necessary” and that the naval blockade and sanctions would stay in place.",
+   "why": "Shutting down the main diplomatic track points to an open-ended standoff in the Gulf, with consequences for oil and gas prices, and it sidelines the vice president who had blamed the war for the midterm defeat.",
+   "label": "Reported + official statement + claim",
+   "note": "Trump’s statements about seized Iranian money and control of the Strait are his claims. The Wall Street Journal reporting on Vance’s outreach is relayed by NBC News and USA Today.",
+   "sources": [
+    {
+     "title": "Trump says the U.S. doesn’t ‘need’ a deal with Iran",
+     "site": "NBC News",
+     "date": "Nov 12, 2026",
+     "href": "https://www.nbcnews.com/politics/donald-trump/us-doesnt-need-peace-deal-iran-vance-corruption-trump-rcna609027"
+    },
+    {
+     "title": "Trump says deal with Iran not needed, pulls Vance off negotiations",
+     "site": "USA Today",
+     "date": "Nov 12, 2026 (updated 5:42 PM ET)",
+     "href": "https://www.usatoday.com/story/news/politics/2026/11/12/trump-iran-war-peace-deal-vance-negotiations/92747890007/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.nbcnews.com/politics/donald-trump/us-doesnt-need-peace-deal-iran-vance-corruption-trump-rcna609027",
+     "publisher": "NBC News",
+     "published": "Nov 12, 2026, 3:36 PM ET",
+     "checkedAt": "2026-11-13T06:28:51-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Truth Social quote that the U.S. doesn’t need a deal with Iran",
+      "Trump asked Vance to focus on alleged crime and corruption in “Democrat run Cities and States”",
+      "WSJ reported Vance reached out to Mohsen Rezaei before the election",
+      "Vance said voter anger over the Iran war was the “real reason” for GOP losses"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.usatoday.com/story/news/politics/2026/11/12/trump-iran-war-peace-deal-vance-negotiations/92747890007/",
+     "publisher": "USA Today",
+     "published": "Nov 12, 2026, updated 5:42 PM ET",
+     "checkedAt": "2026-11-13T06:28:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Trump pulled Vance off diplomatic efforts; quote of the post",
+      "Conflict started in February with U.S. airstrikes; 23 U.S. service members killed",
+      "Trump said Nov. 9 escalation “won’t be necessary”; blockade and sanctions to stay"
+     ],
+     "limits": [
+      "An earlier automated fetch of this page at 6:22 AM ET returned HTTP 402; it opened at 6:28 AM ET"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/us-iran.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Official portrait of Vice President JD Vance in a dark suit and red tie",
+    "caption": "Vice President JD Vance in his official portrait, March 2026.",
+    "credit": "Emily J. Higgins",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AMarch_2026_Official_Vice_Presidential_Portrait_of_JD_Vance.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMarch_2026_Official_Vice_Presidential_Portrait_of_JD_Vance.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "us-vanhollen",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-12T21:06",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Chris Van Hollen launches a challenge to Chuck Schumer for Senate Democratic leader",
+   "summary": "Sen. Chris Van Hollen of Maryland announced Thursday that he will run for Senate majority leader, becoming the first Democrat to challenge Sen. Chuck Schumer of New York, who has led the caucus since 2017, NBC News reported. “In this election, the American people called for change… It’s now on us to meet this moment, and to do that we need new leadership,” Van Hollen said in a statement. Democrats won control of the Senate in the Nov. 3 midterms. NBC said Schumer remains favored, and that Democratic senators will choose their leaders for the next Congress in a closed-door vote in December that requires a simple majority. Van Hollen told MS NOW on Thursday night that more than 10 senators had pledged to support him and called himself “the underdog.”",
+   "why": "Whoever leads the new Democratic majority will set the Senate’s agenda against President Trump for the next two years, so the contest is an early test of whether the party’s midterm win brings new leadership or continuity.",
+   "label": "Reported + official statement + claim",
+   "note": "The count of senators backing Van Hollen is his own claim and has not been confirmed.",
+   "sources": [
+    {
+     "title": "Van Hollen Statement on Running for Majority Leader",
+     "site": "Office of Sen. Chris Van Hollen",
+     "date": "Nov 12, 2026",
+     "href": "https://www.vanhollen.senate.gov/news/press-releases/van-hollen-statement-on-running-for-majority-leader"
+    },
+    {
+     "title": "Chris Van Hollen to challenge Chuck Schumer for majority leader",
+     "site": "NBC News",
+     "date": "Nov 12, 2026",
+     "href": "https://www.nbcnews.com/politics/congress/sen-chris-van-hollen-says-will-challenge-sen-chuck-schumer-majority-le-rcna609100"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.vanhollen.senate.gov/news/press-releases/van-hollen-statement-on-running-for-majority-leader",
+     "publisher": "Office of Sen. Chris Van Hollen",
+     "published": "Published 11.12.2026",
+     "checkedAt": "2026-11-13T06:21:16-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Full text of the statement announcing he is running for Senate Majority Leader"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.nbcnews.com/politics/congress/sen-chris-van-hollen-says-will-challenge-sen-chuck-schumer-majority-le-rcna609100",
+     "publisher": "NBC News",
+     "published": "Nov 12, 2026 (page metadata 9:06 PM ET)",
+     "checkedAt": "2026-11-13T06:25:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "First to challenge Schumer, who has led the caucus since 2017 and remains favored",
+      "Closed-door leadership vote in December; simple majority",
+      "Van Hollen told MS NOW more than 10 senators pledged support"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/us-vanhollen.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Official portrait of Senator Chris Van Hollen smiling, with the Capitol dome behind him",
+    "caption": "Sen. Chris Van Hollen in his official Senate portrait, 2017.",
+    "credit": "U.S. Senate Photographic Studio",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AChris_Van_Hollen_official_portrait_115th_Congress.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AChris_Van_Hollen_official_portrait_115th_Congress.jpg",
+    "isFilePhoto": true,
+    "year": 2017
+   }
+  },
+  {
+   "id": "us-collapse",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-13T06:01",
+   "dateLabel": "Nov 11, 2026; updated Nov 12–13",
+   "headline": "Brooklyn collapse inquiry turns to the construction site next door, where city records show orders were ignored",
+   "summary": "With rescue work over, the investigation into Wednesday’s collapse of a three-storey apartment building at 1321 Flatbush Avenue, which killed eight people, has turned to the excavation next door at 2625 Bedford Avenue. Gothamist reported that Department of Buildings records show the project had ignored the agency’s orders earlier this year: a stop-work order was issued in March during demolition of a one-storey building after contractors failed to install required safety measures such as netting and sheds, and a month later an inspector found demolition had continued in violation of the order and issued another penalty. Structural plans filed for the new building called for shoring, vibration monitors and crack gauges on neighbouring buildings; Gothamist said it was unclear whether those precautions were taken, and the department says the cause is still under investigation. Mayor Zohran Mamdani said five main entities involved in the site are associated with about 100 other sites across the city and that inspectors had begun sweeps of them. The FDNY said its operations ended at 3:37 p.m. Thursday and the site was handed to the Department of Buildings and the NYPD, News 12 reported. Brooklyn District Attorney Eric Gonzalez has said prosecutors are examining whether any criminal conduct contributed.",
+   "why": "Brooklyn is full of excavations beside older buildings, so what investigators find about the safeguards at this site — and at the roughly 100 related sites — matters to neighbours across the borough.",
+   "label": "Reported + official statement",
+   "note": "Ongoing story, first reported in the Nov 12 editions. No cause has been officially determined, and no one has been charged. The developer did not respond to Gothamist’s calls.",
+   "sources": [
+    {
+     "title": "Developer at Brooklyn collapse site had record of flouting orders from city agency",
+     "site": "Gothamist",
+     "date": "Nov 12, 2026",
+     "href": "https://gothamist.com/news/developer-at-brooklyn-collapse-site-had-record-of-flouting-orders-from-city-agency"
+    },
+    {
+     "title": "Rescue operations end, investigation begins on cause of deadly building collapse",
+     "site": "News 12 Brooklyn",
+     "date": "Nov 13, 2026",
+     "href": "https://brooklyn.news12.com/2026/11/13/rescue-operations-end-investigation-begins-on-cause-of-deadly-building-collapse/7xQsLS0bOge7pH2b2QPmKQ"
+    },
+    {
+     "title": "What we know about Brooklyn building collapse that killed eight people",
+     "site": "BBC News",
+     "date": "Nov 12, 2026",
+     "href": "https://www.bbc.com/news/articles/cm20v66jq611o"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://gothamist.com/news/developer-at-brooklyn-collapse-site-had-record-of-flouting-orders-from-city-agency",
+     "publisher": "Gothamist",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-13T06:21:15-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "DOB issued a stop-work order in March after contractors failed to install required safety precautions; a month later demolition continued in violation and another penalty was issued",
+      "Structural plans required shoring, seismic monitors and crack gauges; unclear whether taken",
+      "Mamdani: five entities linked to about 100 other sites; DOB sweeps under way"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://brooklyn.news12.com/2026/11/13/rescue-operations-end-investigation-begins-on-cause-of-deadly-building-collapse/7xQsLS0bOge7pH2b2QPmKQ",
+     "publisher": "News 12 Brooklyn",
+     "published": "Nov 13, 2026, 6:01 AM",
+     "checkedAt": "2026-11-13T06:21:16-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "FDNY operations completed at 3:37 p.m. Thursday; site turned over to DOB and NYPD",
+      "Eight killed, including two children and two construction workers"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.bbc.com/news/articles/cm20v66jq611o",
+     "publisher": "BBC News",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-13T06:22:23-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Brooklyn DA statement on examining possible criminal conduct",
+      "Too early to say what caused the collapse"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/us-collapse.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A street corner on Flatbush Avenue in Brooklyn with a subway entrance and shops",
+    "caption": "Flatbush Avenue at Nostrand Avenue in the Flatbush area of Brooklyn, pictured in 2008. Not the collapse site.",
+    "credit": "Jim.henderson",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AFlatbush_Nostrand_jeh.JPG",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AFlatbush_Nostrand_jeh.JPG",
+    "isFilePhoto": true,
+    "year": 2008
+   }
+  },
+  {
+   "id": "us-giants",
+   "region": "us",
+   "topic": "sports",
+   "ts": "2026-11-13T02:49",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Commanders beat the Giants 24-21 on a late Diggs touchdown at MetLife Stadium",
+   "summary": "The Washington Commanders beat the New York Giants 24-21 on Thursday Night Football at MetLife Stadium when Stefon Diggs caught a 32-yard touchdown pass from Jayden Daniels with 57 seconds left. The Giants had gone ahead by four midway through the fourth quarter on J.J. McCarthy’s 66-yard touchdown pass to tight end Isaiah Likely, and safeties Jevón Holland and Ar’Darius Washington then intercepted Daniels on back-to-back drives, but New York went three-and-out after each turnover, the team’s website said. McCarthy threw for a career-high 293 yards and Cam Skattebo ran for 78 yards and two touchdowns. The Giants (5-3-1) still lead the NFC East but lost their first division game; Washington improved to 3-5-1. “It’s a missed opportunity,” coach John Harbaugh said. The Giants host Jacksonville next, in a game the NFL moved to a 4:25 p.m. kickoff.",
+   "why": "Two squandered turnovers let a struggling division rival back in, and the loss tightens the NFC East race for a Giants team that had looked in control.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Instant Analysis: Giants fall to Commanders, 24-21",
+     "site": "Giants.com",
+     "date": "Nov 13, 2026",
+     "href": "https://www.giants.com/news/instant-analysis-giants-fall-to-commanders-24-21"
+    },
+    {
+     "title": "Commanders-Giants on ‘Thursday Night Football’: What we learned from Washington’s 24-21 win",
+     "site": "NFL.com",
+     "date": "Nov 13, 2026",
+     "href": "https://www.nfl.com/news/commanders-giants-on-thursday-night-football-what-we-learned-from-washington-s-24-21-win"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.giants.com/news/instant-analysis-giants-fall-to-commanders-24-21",
+     "publisher": "New York Giants (team site)",
+     "published": "Nov 13, 2026",
+     "checkedAt": "2026-11-13T06:25:53-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Final 24-21; Likely 66-yard TD; two interceptions of Daniels followed by three-and-outs; Diggs 32-yard TD with 57 seconds left",
+      "McCarthy career-high 293 yards; records 5-3-1 and 3-5-1; Harbaugh quote; Jaguars game moved to 4:25 p.m.",
+      "Skattebo 18 carries, 78 yards, two touchdowns"
+     ],
+     "limits": [
+      "Team-produced coverage"
+     ]
+    },
+    {
+     "url": "https://www.nfl.com/news/commanders-giants-on-thursday-night-football-what-we-learned-from-washington-s-24-21-win",
+     "publisher": "NFL.com",
+     "published": "Nov 13, 2026",
+     "checkedAt": "2026-11-13T06:25:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Washington’s 24-21 win; Diggs’ 32-yard game-winning TD with 57 seconds left"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/us-giants.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The exterior of MetLife Stadium with its name in large letters above the entrance",
+    "caption": "MetLife Stadium in East Rutherford, New Jersey, home of the Giants, pictured in 2023.",
+    "credit": "Kenneth C. Zirkel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMetLife_Stadium%2C_East_Rutherford_New_Jersey.jpg",
+    "isFilePhoto": true,
+    "year": 2023
+   }
+  },
+  {
+   "id": "ca-deepfake",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-12T14:28",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "McGill researchers find a deepfake network using stolen influencers’ faces to spread trade-war falsehoods to Canadians",
+   "summary": "Researchers at McGill University’s Centre for Media, Technology and Democracy said Thursday they had found a network of at least 293 TikTok and Instagram accounts that take real creators’ videos and use AI to redraw their lips and add synthetic voices, making them appear to talk about Canadian politics. Between Aug. 7 and Nov. 4 the accounts posted 3,201 videos with 22.1 million plays, much of it about the U.S.–Canada trade war and Alberta’s referendum. One false story — a non-existent 48-hour ultimatum from President Donald Trump, to which Prime Minister Mark Carney supposedly responded by cancelling $8 billion in U.S. defence contracts — was shared in 161 videos and played 5.1 million times, the report said. TikTok labelled only 4% of the videos as AI, and only 6.3% of commenters flagged them as fake. The researchers said the network is “almost certainly” run from outside North America; some accounts carry Chinese-language settings or a registration in China, which they called “the only lead we have on a country.” They said it does not push any government’s line and has not been monetized, and its purpose is unclear.",
+   "why": "Fakes built from real people’s faces are harder for platforms and viewers to spot, and this network targeted exactly the issues — trade, tariffs, Alberta — on which Canadians are making political decisions.",
+   "label": "Reported + analysis",
+   "note": "The origin and purpose assessments are the researchers’ own analysis; they say who runs the network is not known.",
+   "sources": [
+    {
+     "title": "Stolen Faces: An Inauthentic TikTok and Instagram Network Inflaming the U.S.–Canada Trade War",
+     "site": "Centre for Media, Technology and Democracy (McGill)",
+     "date": "Nov 12, 2026",
+     "href": "https://mediatechdemocracy.com/en/publications/stolen-faces_2026/"
+    },
+    {
+     "title": "Deepfake network shares falsities on U.S. trade war: report",
+     "site": "The Canadian Press via CP24",
+     "date": "Nov 12, 2026",
+     "href": "https://www.cp24.com/news/canada/2026/11/12/a-deepfake-video-network-is-spreading-false-information-about-the-us-trade-war-report/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://mediatechdemocracy.com/en/publications/stolen-faces_2026/",
+     "publisher": "Centre for Media, Technology and Democracy",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-13T06:23:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "At least 293 accounts (36 Instagram, 257 TikTok); 3,201 videos and 22.1 million plays between Aug 7 and Nov 4, 2026",
+      "Technique: real creators’ clips with AI-altered lips and voiceovers"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cp24.com/news/canada/2026/11/12/a-deepfake-video-network-is-spreading-false-information-about-the-us-trade-war-report/",
+     "publisher": "CP24 (The Canadian Press)",
+     "published": "Nov 12, 2026, 2:28 PM ET (updated 5:42 PM)",
+     "checkedAt": "2026-11-13T06:23:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "False 48-hour ultimatum story: 161 videos, 129 accounts, 5.1 million plays",
+      "TikTok labelled 4% as AI; 6.3% of commenters said fake",
+      "“Almost certainly” run outside North America; Chinese-language settings or China registration on some accounts; not monetized"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/ca-deepfake.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The stone Roddick Gates at the entrance to McGill University, with pedestrians on the sidewalk",
+    "caption": "The Roddick Gates at McGill University in Montreal, pictured in July 2024.",
+    "credit": "D. Benjamin Miller",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ARoddick_Gates_closed%2C_McGill_University%2C_July_17%2C_2024.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "ca-greer",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-13T03:45",
+   "dateLabel": "Nov 12, 2026 (interview); published Nov 13",
+   "headline": "U.S. trade chief Greer says Canada and the U.S. have discussed a deal in recent days, but sets no deadline",
+   "summary": "U.S. Trade Representative Jamieson Greer said Thursday that Canadian and American officials have discussed a trade deal within the past few days, but would not commit to a timeline, The Hub reported from his interview on CNBC’s Squawk Pod. “The substance of the deal is more important than a timeline,” he said, adding that President Donald Trump and Prime Minister Mark Carney speak regularly. Ottawa wants a return to unfettered cross-border trade, Greer said, while Washington’s priority is protecting American supply chains. The Hub noted that talks collapsed in August; on Aug. 22 Washington imposed 50% tariffs on roughly US$20 billion in Canadian goods, Ottawa answered with counter-tariffs from Sept. 8, and Trump has threatened 50% tariffs on Canadian vehicles, auto parts and steel from Jan. 1, 2027. Greer said the administration is “going to keep taking trade actions as necessary.”",
+   "why": "With Democrats taking over Congress in January and tariffs blamed for higher prices, any sign that talks have restarted matters for Canadian jobs in autos, dairy and steel — but Greer’s words commit Washington to nothing.",
+   "label": "Reported + official statement",
+   "note": "Greer’s remarks are relayed by The Hub from a CNBC interview; this edition did not hear the interview directly.",
+   "sources": [
+    {
+     "title": "U.S. trade chief confirms recent talks with Canada but sets no deadline for a deal",
+     "site": "The Hub",
+     "date": "Nov 13, 2026",
+     "href": "https://thehub.ca/2026/11/13/u-s-trade-chief-confirms-recent-talks-with-canada-but-sets-no-deadline-for-a-deal/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://thehub.ca/2026/11/13/u-s-trade-chief-confirms-recent-talks-with-canada-but-sets-no-deadline-for-a-deal/",
+     "publisher": "The Hub",
+     "published": "Nov 13, 2026, 3:45 AM ET",
+     "checkedAt": "2026-11-13T06:23:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Greer said officials discussed a deal in the past few days; no timeline; quote on substance vs timeline",
+      "Aug 22 tariffs of 50% on about US$20 billion of goods; Canadian counter-tariffs Sept 8; threatened 50% auto/steel tariffs Jan 1, 2027",
+      "“Going to keep taking trade actions as necessary”"
+     ],
+     "limits": [
+      "Single source; the underlying CNBC interview was not reviewed"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/ca-greer.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Prime Minister Mark Carney in a dark suit, speaking",
+    "caption": "Prime Minister Mark Carney at the White House in May 2025.",
+    "credit": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AMark_Carney_in_2025.png",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMark_Carney_in_2025.png",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "ca-carney",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-13T03:30",
+   "dateLabel": "Nov 12–13, 2026",
+   "headline": "Carney leaves Dublin talks on Ukraine and Europe for the ASEAN summit in Manila, with a Xi meeting planned later",
+   "summary": "Prime Minister Mark Carney wrapped up the European Political Community summit in Dublin on Thursday, where Canada was again the only non-European country at the table, and is heading to the ASEAN summit in Manila. In Dublin, Carney heard from Ukrainian President Volodymyr Zelenskyy on the talks with Russia and said security guarantees for Ukraine are “a European responsibility, with Canada, with the United States,” in tiers, CBC News reported. His office said he met the leaders of Cyprus, Denmark, France, Greece, Ireland, Latvia and Sweden; CBC said he pressed Greece and Cyprus, which have not ratified Canada’s trade deal with the EU. The Canadian Press said the Rohingya refugee crisis is expected to be a major topic in Manila. CBC said the trip ends at the APEC leaders’ meeting in Shenzhen, where a meeting with Chinese President Xi Jinping is planned.",
+   "why": "Carney is trying to build trade and security ties beyond the United States, and the stops in Europe, Southeast Asia and China show how widely Ottawa is now hedging.",
+   "label": "Reported + official statement",
+   "sources": [
+    {
+     "title": "Carney wraps meetings on security, trade with European leaders in Ireland",
+     "site": "CBC News",
+     "date": "Nov 12, 2026",
+     "href": "https://www.cbc.ca/news/politics/carney-europe-ireland-meetings-9.7419715"
+    },
+    {
+     "title": "Prime Minister Carney strengthens Canada’s alliance with Europe at the Summit of the European Political Community",
+     "site": "Prime Minister of Canada",
+     "date": "Nov 12, 2026",
+     "href": "https://www.pm.gc.ca/en/news/news-releases/2026/11/12/prime-minister-carney-strengthens-canadas-alliance-europe-summit"
+    },
+    {
+     "title": "In the news today: Microsoft outage, plane loses wheel, Carney heads to Manila",
+     "site": "The Canadian Press via 980 CJME",
+     "date": "Nov 13, 2026",
+     "href": "https://www.cjme.com/2026/11/13/in-the-news-today-microsoft-outage-plane-loses-wheel-carney-heads-to-manila/"
+    },
+    {
+     "title": "Carney embarks on a worldwide summit tour to build bridges with Europe and Asia",
+     "site": "CBC News",
+     "date": "Nov 11, 2026",
+     "href": "https://www.cbc.ca/news/politics/carney-apec-asean-francophonie-trip-9.7416895"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/carney-europe-ireland-meetings-9.7419715",
+     "publisher": "CBC News",
+     "published": "Nov 12, 2026, 4:22 PM ET",
+     "checkedAt": "2026-11-13T06:25:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Carney heard from Zelenskyy; quote on tiers of security guarantees",
+      "Canada the only non-European country; talks with Greece and Cyprus on CETA ratification"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/12/prime-minister-carney-strengthens-canadas-alliance-europe-summit",
+     "publisher": "Prime Minister of Canada",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-13T06:25:53-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Bilateral meetings with leaders of Cyprus, Denmark, France, Greece, Ireland, Latvia and Sweden"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cjme.com/2026/11/13/in-the-news-today-microsoft-outage-plane-loses-wheel-carney-heads-to-manila/",
+     "publisher": "980 CJME (The Canadian Press)",
+     "published": "Nov 13, 2026, 3:30 AM",
+     "checkedAt": "2026-11-13T06:23:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Carney heading to ASEAN summit in Manila; Rohingya crisis expected to be a major topic"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/news/politics/carney-apec-asean-francophonie-trip-9.7416895",
+     "publisher": "CBC News",
+     "published": "Nov 11, 2026",
+     "checkedAt": "2026-11-13T06:23:45-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Trip ends at APEC in Shenzhen; meeting with Xi Jinping on the agenda"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "ca-shad",
+   "region": "ca",
+   "topic": "culture",
+   "ts": "2026-11-12T05:00",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Rapper Shad returns to London, Ont., as Museum London’s first musician-in-residence",
+   "summary": "Juno-winning rapper Shad (Shadrach Kabango) has become Museum London’s first musician-in-residence, a year-long program in the Ontario city where he grew up and first fell in love with music, CBC News reported. The residency was set to launch Thursday evening with a conversation with broadcaster Garvia Bailey. Shad told CBC that memory will be a big theme — his own memories of London’s record stores and early freestyling, and the museum’s work preserving the community’s past. His projects include curating playlists inspired by the museum’s programming and moments in the city’s history, starting with one marking London’s bicentennial.",
+   "why": "Museums bringing in working musicians is a small but growing way to draw younger audiences, and it gives one of Canada’s most respected rappers a platform at home.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Shad returns to hometown as Museum London’s first musician-in-residence",
+     "site": "CBC News",
+     "date": "Nov 12, 2026",
+     "href": "https://www.cbc.ca/news/canada/london/shad-returns-to-hometown-as-museum-london-s-first-musician-in-residence-9.7418408"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/london/shad-returns-to-hometown-as-museum-london-s-first-musician-in-residence-9.7418408",
+     "publisher": "CBC News",
+     "published": "Nov 12, 2026, 5:00 AM ET",
+     "checkedAt": "2026-11-13T06:23:45-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Shad is Museum London’s inaugural musician-in-residence; year-long program launching Thursday with Garvia Bailey",
+      "Playlists project; first playlist marks London’s bicentennial"
+     ],
+     "limits": [
+      "Single source; the launch event itself was scheduled, not reported as held"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/ca-shad.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The low modern building of Museum London beside a lawn",
+    "caption": "Museum London in London, Ontario, pictured in 2015.",
+    "credit": "Ken Lund",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMuseum_London%2C_London%2C_Ontario_%2821834711421%29.jpg",
+    "isFilePhoto": true,
+    "year": 2015
+   }
+  },
+  {
+   "id": "ca-ahs",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-13T06:00",
+   "dateLabel": "Nov 13, 2026",
+   "headline": "Alberta doctors and nurses question a push to discharge hospital patients by 11 a.m.",
+   "summary": "Alberta Health Services is encouraging hospitals to discharge patients by 11 a.m., and some doctors and nurses say the target could backfire, CBC News reported. Dr. Greg Hrynchyshyn of the Alberta Medical Association said an internal memo set a goal of discharging 40% of patients by that time, and asked whether patients who can’t be discharged before 11 might be held to the next day to meet “an artificial metric.” Danielle Larivee of United Nurses of Alberta said “it’s not like a hotel.” AHS says the initiative gives families more time to arrange medications and transport and improves patient flow, and that “patients will never be rushed to leave.”",
+   "why": "Hospital crowding is one of Alberta’s biggest public-service problems, and the dispute shows how a simple efficiency target can collide with clinical judgment.",
+   "label": "Reported + official statement",
+   "sources": [
+    {
+     "title": "Doctors, nurses raise concerns as Alberta hospitals encouraged to discharge patients by 11 a.m.",
+     "site": "CBC News",
+     "date": "Nov 13, 2026",
+     "href": "https://www.cbc.ca/news/canada/calgary/alberta-health-services-discharge-by-11-am-hospitals-9.7419239"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/calgary/alberta-health-services-discharge-by-11-am-hospitals-9.7419239",
+     "publisher": "CBC News",
+     "published": "Nov 13, 2026, 6:00 AM ET",
+     "checkedAt": "2026-11-13T06:23:45-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "AHS discharge-by-11 initiative; internal memo goal of 40% cited by Dr. Hrynchyshyn",
+      "UNA’s Larivee quote; AHS statement that patients will never be rushed"
+     ],
+     "limits": [
+      "Single source; the memo itself was not seen"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/ca-ahs.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A large hospital complex on a hillside in Calgary, seen from a distance",
+    "caption": "Foothills Medical Centre in Calgary, pictured in 2009.",
+    "credit": "Qyd",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AFoothills_Hospital.JPG",
+    "isFilePhoto": true,
+    "year": 2009
+   }
+  },
+  {
+   "id": "hk-sogo",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-11-12T08:48",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Sogo says a breach may have exposed data of about 820,000 members; Chow Sang Sang also reports unauthorised access",
+   "summary": "Department store Sogo Hong Kong said unauthorised parties had obtained some data from its membership system, and the Privacy Commissioner for Personal Data said the incident may affect about 820,000 members. The privacy office said it received Sogo’s notification on Thursday, that Sogo found abnormal data-reading records on Nov. 5, and that the data may include names, email addresses, phone numbers and points balances; it has opened an investigation. Separately, jeweller Chow Sang Sang said it found unauthorised access to parts of its systems on Wednesday that may involve customers’ names, contact details, some order details and the last four digits of credit card numbers, as well as employee data, The Standard reported. Both companies urged customers to beware of calls or messages impersonating them.",
+   "why": "Two big retailers reporting breaches in one day means hundreds of thousands of Hong Kong shoppers face a higher risk of convincing phishing scams that use their real names and purchase details.",
+   "label": "Reported + official statement + company statement",
+   "sources": [
+    {
+     "title": "SOGO and Chow Sang Sang report data breaches affecting up to 820,000 members",
+     "site": "The Standard (Hong Kong)",
+     "date": "Nov 12, 2026",
+     "href": "https://www.thestandard.com.hk/news/article/348370/SOGO-and-Chow-Sang-Sang-report-data-breaches-affecting-up-to-820000-members"
+    },
+    {
+     "title": "崇光百貨會員系統遭未經授權取得部分資料　或影響82萬會員資料",
+     "site": "RTHK (Chinese)",
+     "date": "Nov 12, 2026",
+     "href": "https://news.rthk.hk/rthk/ch/component/k2/1877591-20261112.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.thestandard.com.hk/news/article/348370/SOGO-and-Chow-Sang-Sang-report-data-breaches-affecting-up-to-820000-members",
+     "publisher": "The Standard",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-13T06:22:23-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Sogo statement on unauthorised access; data types",
+      "PCPD: notification received Thursday; abnormal records found Nov 5; about 820,000 members; investigation opened",
+      "Chow Sang Sang breach first identified Wednesday; data types incl. last four card digits; police and PCPD notified"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/ch/component/k2/1877591-20261112.htm",
+     "publisher": "RTHK",
+     "published": "Nov 12, 2026, 9:48 PM HKT",
+     "checkedAt": "2026-11-13T06:26:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Sogo statement and PCPD figure of about 820,000 members"
+     ],
+     "limits": [
+      "Chinese-language report"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/hk-sogo.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Sogo department store in Causeway Bay with crowds on the pavement outside",
+    "caption": "Sogo department store in Causeway Bay, Hong Kong, pictured in 2012.",
+    "credit": "Mk2010",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASogo%2C_Causeway_Bay_%28Hong_Kong%29.jpg",
+    "isFilePhoto": true,
+    "year": 2012
+   }
+  },
+  {
+   "id": "hk-qmh",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-12T23:04",
+   "dateLabel": "Nov 13, 2026 (HK time)",
+   "headline": "Queen Mary Hospital lift faults: government report blames contractors and lax supervision, including by its own staff",
+   "summary": "Secretary for Development Bernadette Linn told a special Legislative Council panel meeting on Friday (Hong Kong time) that the main contractor and the lift subcontractor bear the main responsibility for faults in the lifts at Queen Mary Hospital’s new clinical block, RTHK reported. She said their work was inaccurate and poorly done, that an inspection and testing plan had omissions no one followed up, and that Architectural Services Department staff were negligent in issuing a completion certificate, with shortcomings too in how the Electrical and Mechanical Services Department issues lift permits. She said the supervision system itself is sound and the problem lay in execution. Faults among the block’s 28 lifts have delayed its full opening. DAB lawmaker Chan Hok-fung called it a “perfect storm”; Liberal Party lawmaker Lee Chun-keung said it “looks very much like a deliberate, chain-by-chain cover-up.”",
+   "why": "The new block is meant to expand one of Hong Kong’s main public hospitals, and the findings raise questions about how government checks public works.",
+   "label": "Official statement + reported + allegation",
+   "note": "Lee’s cover-up remark is a lawmaker’s allegation, not a finding of the report.",
+   "sources": [
+    {
+     "title": "Lawmakers concerned over QMH lift faults",
+     "site": "RTHK",
+     "date": "Nov 13, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877667-20261113.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877667-20261113.htm",
+     "publisher": "RTHK",
+     "published": "Nov 13, 2026, 12:04 PM HKT",
+     "checkedAt": "2026-11-13T06:22:48-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Linn: main contractor and lift subcontractor bear main responsibility; supervision failings incl. government staff; not systemic",
+      "ArchSD staff negligent issuing completion certificate; EMSD permit shortcomings; 28 lifts; full opening delayed",
+      "Quotes from Chan Hok-fung and Lee Chun-keung"
+     ],
+     "limits": [
+      "Single source; the investigation report itself was not reviewed"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/hk-qmh.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "White multi-storey hospital buildings of Queen Mary Hospital set against a green hillside",
+    "caption": "Queen Mary Hospital in Pok Fu Lam, Hong Kong, pictured in 2010, before the new clinical block.",
+    "credit": "Plus903",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AQueen_Mary_Hospital%2C_Hong_Kong.jpg",
+    "isFilePhoto": true,
+    "year": 2010
+   }
+  },
+  {
+   "id": "hk-tickets",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-12T03:53",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Hong Kong police arrest 10 over fake concert tickets sold at half price and handed over at MTR stations",
+   "summary": "Hong Kong police said Thursday they had arrested 10 people, aged 18 to 46, in a two-day operation against fake concert tickets and money laundering, after finding mule accounts linked to the cases had handled more than HK$81 million in suspected crime proceeds. They were arrested on suspicion of conspiracy to defraud, obtaining property by deception and money laundering. Police said sellers advertised tickets on social media at half price a day or two before shows, then met buyers at MTR stations and even “demonstrated” how to check a ticket before disappearing; victims found out only at the venue gate. The Standard said the accounts were also linked to at least 12 fraud cases with losses of more than HK$360,000. Police said genuine tickets have smooth paper, a reflective laser sticker and invisible fluorescent ink, and urged people to buy only through official channels.",
+   "why": "With a busy run of big concerts in Hong Kong, last-minute resale is where fans are most exposed — and police say the fakes are hard to spot by eye.",
+   "label": "Official statement + allegation",
+   "note": "Those arrested have not been convicted; the case details are police allegations.",
+   "sources": [
+    {
+     "title": "10 arrested in fake concert ticket crackdown",
+     "site": "RTHK",
+     "date": "Nov 12, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877545-20261112.htm"
+    },
+    {
+     "title": "Police smash fake concert ticket syndicate, arrest 10",
+     "site": "The Standard (Hong Kong)",
+     "date": "Nov 12, 2026",
+     "href": "https://www.thestandard.com.hk/news/article/348341/Police-smash-fake-concert-ticket-syndicate-arrest-10"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877545-20261112.htm",
+     "publisher": "RTHK",
+     "published": "Nov 12, 2026, 4:53 PM HKT",
+     "checkedAt": "2026-11-13T06:25:53-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "10 arrested aged 18–46; mule accounts handled over HK$81 million; offences",
+      "Half-price social-media ads; MTR handovers; tips for spotting fakes"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.thestandard.com.hk/news/article/348341/Police-smash-fake-concert-ticket-syndicate-arrest-10",
+     "publisher": "The Standard",
+     "published": "Nov 12, 2026, 7:33 PM HKT",
+     "checkedAt": "2026-11-13T06:25:53-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "At least 12 linked fraud cases with losses over HK$360,000"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/hk-tickets.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Fare gates and a passenger concourse inside an MTR station in Central, Hong Kong",
+    "caption": "Fare gates at Hong Kong MTR station in Central, pictured in April 2026.",
+    "credit": "EWOJN alane Bosuu 038",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHK_Central_Hong_Kong_MTR_Station_concourse_n_pay_gates_April_2026_N13P_01.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "hk-hos",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-13T02:04",
+   "dateLabel": "Nov 13, 2026 (HK time)",
+   "headline": "Housing Authority lets families with young children borrow up to 95% for subsidised flats and shortens a resale ban",
+   "summary": "Hong Kong’s Housing Authority on Friday approved two changes to help people buy subsidised sale flats, RTHK reported. From the next Home Ownership Scheme sale, the maximum mortgage loan-to-value ratio for White Form family applicants with newborns will rise from 90% to 95%, and all families with children aged three or under by the application deadline will qualify. The authority also cut the resale restriction period for subsidised flats first offered between 2022 and 2025 from 15 years to 10. A spokesman said the measures would help more families move up the housing ladder and increase turnover of subsidised flats.",
+   "why": "A smaller down payment can decide whether a young family can afford a first flat in one of the world’s most expensive housing markets.",
+   "label": "Official statement",
+   "sources": [
+    {
+     "title": "Housing Authority eases way for families, resales",
+     "site": "RTHK",
+     "date": "Nov 13, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877687-20261113.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877687-20261113.htm",
+     "publisher": "RTHK",
+     "published": "Nov 13, 2026, 3:04 PM HKT",
+     "checkedAt": "2026-11-13T06:22:48-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "LTV for White Form families with newborns from 90% to 95% from next HOS sale; children aged three or below qualify",
+      "Resale restriction for flats first sold 2022–2025 cut from 15 to 10 years"
+     ],
+     "limits": [
+      "The Housing Authority’s own press release was not located in this run"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-cmpr",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-13",
+   "dateLabel": "Nov 13, 2026 (HK time)",
+   "headline": "Hong Kong gazettes a bill to set up its own statutory medicines and medical-devices regulator",
+   "summary": "The Hong Kong government gazetted the Centre for Medical Products Regulation Bill on Friday, which would give the Centre for Medical Products Regulation statutory status and bring the regulation of Chinese and Western medicines and medical devices under one framework, according to a government press release. The bill would set the centre up as a body corporate to represent “Hong Kong, China” in international regulatory affairs. Secretary for Health Lo Chung-mau said the aim is to approve advanced medical products more quickly and, in the long run, to make the centre an internationally recognised regulator. The bill is to be introduced into the Legislative Council.",
+   "why": "A faster, internationally recognised approval system could speed new drugs and devices to Hong Kong patients and support the city’s push to become a medical-innovation hub.",
+   "label": "Official statement",
+   "sources": [
+    {
+     "title": "Government to introduce Centre for Medical Products Regulation Bill into LegCo",
+     "site": "Hong Kong government (info.gov.hk)",
+     "date": "Nov 13, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/13/P2026111300224.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300224.htm",
+     "publisher": "Hong Kong government press release",
+     "published": "Nov 13, 2026",
+     "checkedAt": "2026-11-13T06:22:24-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Bill gazetted Nov 13 to give CMPR statutory status and rationalise regulation of Chinese and Western medicines and medical devices",
+      "CMPR as body corporate representing Hong Kong, China internationally",
+      "Lo Chung-mau quotes on faster approvals and international recognition"
+     ],
+     "limits": [
+      "Government press release; the LegCo first-reading date was not confirmed in this run"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-apec",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-12T22:49",
+   "dateLabel": "Nov 13, 2026 (Beijing time)",
+   "headline": "Xi will chair the APEC leaders’ meeting in Shenzhen on Nov. 18–19, Beijing confirms, as U.S. and Chinese delegates meet in Beijing",
+   "summary": "China’s Foreign Ministry announced on Friday (Beijing time) that President Xi Jinping will chair the 33rd APEC Economic Leaders’ Meeting in Shenzhen on Nov. 18–19 and deliver remarks, Xinhua reported via RTHK. Xi is also scheduled to give a keynote speech at the opening of the APEC CEO summit, which runs Nov. 17–18, host a welcome banquet and hold bilateral meetings with foreign leaders. On Thursday, a U.S.–China Political Dialogue in Beijing exchanged “candid, in-depth and constructive” views, according to Chinese state media cited by Anadolu Agency; Liu Haixing, head of the Communist Party’s International Department, called for a “stable, sound and sustainable” relationship. Anadolu said President Donald Trump is expected to hold talks with Xi at the summit, his second trip to China this year. CBC News has reported that Prime Minister Mark Carney also plans to meet Xi in Shenzhen.",
+   "why": "The Shenzhen summit is where Trump and Xi are expected to meet, with tariffs, technology controls and Taiwan in the background, so the run-up shows how both sides are setting the tone.",
+   "label": "Official statement + state media + reported",
+   "note": "The account of the Beijing dialogue comes from Chinese state media (Xinhua, China Daily) as relayed by Anadolu.",
+   "sources": [
+    {
+     "title": "Xi Jinping to chair Apec summit in Shenzhen",
+     "site": "RTHK (from Xinhua, state media)",
+     "date": "Nov 13, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877663-20261113.htm"
+    },
+    {
+     "title": "China, US hold political dialogue as Xi set to host Trump next week",
+     "site": "Anadolu Agency (Turkish state-run)",
+     "date": "Nov 12, 2026",
+     "href": "https://www.aa.com.tr/en/asia-pacific/china-us-hold-political-dialogue-as-xi-set-to-host-trump-next-week/4123257"
+    },
+    {
+     "title": "China, US hold political dialogue in Beijing",
+     "site": "China Daily (state media)",
+     "date": "Nov 12, 2026",
+     "href": "https://www.chinadaily.com.cn/a/202611/12/WS6af5c1a8e4b03ebf8519c164.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877663-20261113.htm",
+     "publisher": "RTHK (Xinhua)",
+     "published": "Nov 13, 2026, 11:49 AM HKT",
+     "checkedAt": "2026-11-13T06:22:48-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Xi to chair 33rd APEC Economic Leaders’ Meeting in Shenzhen Nov 18–19; theme",
+      "CEO summit Nov 17–18 with Xi keynote; welcome banquet; bilateral meetings"
+     ],
+     "limits": [
+      "Relays Xinhua (state media)"
+     ]
+    },
+    {
+     "url": "https://www.aa.com.tr/en/asia-pacific/china-us-hold-political-dialogue-as-xi-set-to-host-trump-next-week/4123257",
+     "publisher": "Anadolu Agency",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-13T06:24:48-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "US-China Political Dialogue 2026 in Beijing Thursday; Liu Haixing remarks",
+      "Trump and Xi expected to hold talks at APEC; Trump’s second China trip of 2026"
+     ],
+     "limits": [
+      "Anadolu is Turkey’s state-run agency; dialogue details come from Xinhua"
+     ]
+    },
+    {
+     "url": "https://www.chinadaily.com.cn/a/202611/12/WS6af5c1a8e4b03ebf8519c164.html",
+     "publisher": "China Daily",
+     "published": "Nov 12, 2026, 9:39 PM Beijing time",
+     "checkedAt": "2026-11-13T06:24:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Candid, in-depth and constructive views exchanged; attendees from US parties, strategic and business community"
+     ],
+     "limits": [
+      "State media"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/cn-apec.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Shenzhen’s skyline of high-rise towers seen across trees under a hazy sky",
+    "caption": "The Shenzhen skyline seen from Meilin Reservoir, pictured in 2024.",
+    "credit": "Dinkun Chen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AIN_MEILIN_RESERVOIR_SEE_SHENZHEN_SKYLINE_%2823%29.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "cn-cop33",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-12T17:00",
+   "dateLabel": "Nov 12–13, 2026",
+   "headline": "China rules out hosting the 2028 COP33 climate summit, the Guardian reports",
+   "summary": "China has decided not to host the COP33 UN climate summit in 2028 after months of deliberation, the Guardian reported Thursday, leaving the Asia-Pacific slot open to other countries. Bloomberg later reported the same, citing people familiar with the matter, Lianhe Zaobao said. The reasons were not given; experts who spoke to the Guardian suggested the U.S. election cycle was likely a factor, noting that the next U.S. presidential election, on Nov. 7, 2028, falls close to the start of that year’s summit, as Climate Home News also observed. The Chinese delegation at COP31 in Antalya, Türkiye, did not immediately respond to requests for comment, Zaobao said. Climate Home News said Uzbekistan, South Korea, Indonesia and Thailand have been mentioned as possible hosts; Zaobao said no country has made a formal bid since India withdrew in April. The 2028 summit is due to conclude the next global review of progress under the Paris Agreement.",
+   "why": "Many had hoped the world’s biggest emitter — and now the leading clean-energy manufacturer — would take the lead on climate diplomacy while Washington steps back, so Beijing’s choice leaves a key year without an obvious champion.",
+   "label": "Reported + unnamed sources",
+   "note": "China has not announced the decision publicly; the reports rest on unnamed sources.",
+   "sources": [
+    {
+     "title": "China rules out hosting Cop33 climate summit in 2028",
+     "site": "The Guardian",
+     "date": "Nov 12, 2026",
+     "href": "https://www.theguardian.com/environment/2026/nov/12/china-rules-out-hosting-cop33-climate-summit-in-2028"
+    },
+    {
+     "title": "China reportedly decides against bid to host 2028 UN climate conference",
+     "site": "Lianhe Zaobao",
+     "date": "Nov 13, 2026",
+     "href": "https://www.zaobao.com.sg/en/news/china/china-reportedly-decides-against-bid-host-2028-un-climate-conference"
+    },
+    {
+     "title": "COP31 Bulletin Day 5: Cover decision wishlist issued as China bows out of COP33",
+     "site": "Climate Home News",
+     "date": "Nov 13, 2026",
+     "href": "https://www.climatechangenews.com/2026/11/13/cop31-bulletin-day-5-cover-decision-wishlist-issued-as-china-bows-out-of-cop33/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/environment/2026/nov/12/china-rules-out-hosting-cop33-climate-summit-in-2028",
+     "publisher": "The Guardian",
+     "published": "Nov 12, 2026, 5:00 PM ET",
+     "checkedAt": "2026-11-13T06:30:07-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "China has ruled out hosting COP33 in 2028, the Guardian understands",
+      "Reason unclear; several experts suggested the US electoral cycle was likely a factor; next US presidential election Nov 7, 2028"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.zaobao.com.sg/en/news/china/china-reportedly-decides-against-bid-host-2028-un-climate-conference",
+     "publisher": "Lianhe Zaobao",
+     "published": "Nov 13, 2026",
+     "checkedAt": "2026-11-13T06:25:53-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Bloomberg, citing people familiar, reported China decided not to bid",
+      "Chinese delegation did not immediately respond; no formal bid since India withdrew in April; 2027 COP in Addis Ababa"
+     ],
+     "limits": [
+      "AI-translated article per the site"
+     ]
+    },
+    {
+     "url": "https://www.climatechangenews.com/2026/11/13/cop31-bulletin-day-5-cover-decision-wishlist-issued-as-china-bows-out-of-cop33/",
+     "publisher": "Climate Home News",
+     "published": "Nov 13, 2026",
+     "checkedAt": "2026-11-13T06:21:16-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Other candidates said to include Uzbekistan, South Korea, Indonesia and Thailand"
+     ],
+     "limits": [
+      "Partly subscriber-only"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-singles",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-12T05:01",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "China’s Singles’ Day sales grow 4.8% to 1.78 trillion yuan, a third-party tally shows, far slower than last year",
+   "summary": "Sales during China’s weeks-long Singles’ Day shopping festival, from Oct. 7 to Nov. 11, reached 1,776.4 billion yuan (about US$264 billion by Syntun’s conversion; Reuters put it at $267 billion) across online platforms, data provider Syntun said Thursday. E-commerce platforms accounted for 1,679.0 billion yuan, with Tmall ranked first; instant retail and community group-buying added 89.1 billion and 8.3 billion yuan. Reuters, citing Syntun, said that was up 4.8% from a year earlier, compared with 14.2% growth in last year’s festival, against a backdrop of weak consumer confidence. Alibaba and JD.com no longer publish headline sales totals; JD said it sold more than 50 million AI-related products, and platforms leaned on AI shopping assistants, Reuters said.",
+   "why": "Singles’ Day is one of the few broad readings of Chinese consumer spending, and slower growth fits the picture of cautious households that Beijing is trying to coax into spending more.",
+   "label": "Industry figures + reported",
+   "note": "Syntun’s figures are a third-party estimate; the platforms do not publish comparable totals. Dollar conversions differ slightly by source.",
+   "sources": [
+    {
+     "title": "Syntun 2026 “Double 11” Promotion Report",
+     "site": "Syntun via PR Newswire",
+     "date": "Nov 12, 2026",
+     "href": "https://www.prnewswire.com/news-releases/syntun--2026-double-11-promotion-report-gmv-during-chinas-double-11-shopping-festival-reached-rmb-1-776-4-billion-approx-us264-4-billion-302937680.html"
+    },
+    {
+     "title": "China’s Singles Day sales rise 4.8% to $1.78 trillion; AI takes larger role",
+     "site": "Reuters via StreetInsider",
+     "date": "Nov 12, 2026",
+     "href": "https://www.streetinsider.com/Reuters/Chinas+Singles+Day+sales+rise+4.8%25+to+%241.78+trillion%3B+AI+takes+larger+role/27328707.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.prnewswire.com/news-releases/syntun--2026-double-11-promotion-report-gmv-during-chinas-double-11-shopping-festival-reached-rmb-1-776-4-billion-approx-us264-4-billion-302937680.html",
+     "publisher": "Syntun (PR Newswire)",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-13T06:24:46-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "GMV Oct 7–Nov 11 of RMB 1,776.4 billion; e-commerce RMB 1,679.0 billion with Tmall first; instant retail 89.1 billion; community group-buying 8.3 billion"
+     ],
+     "limits": [
+      "Company press release; the growth rate is not stated on this page"
+     ]
+    },
+    {
+     "url": "https://www.streetinsider.com/Reuters/Chinas+Singles+Day+sales+rise+4.8%25+to+%241.78+trillion%3B+AI+takes+larger+role/27328707.html",
+     "publisher": "Reuters (StreetInsider republication)",
+     "published": "Nov 12, 2026, 4:35 AM ET",
+     "checkedAt": "2026-11-13T06:38:10-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Sales up 4.8% to 1.78 trillion yuan per Syntun; 14.2% growth last year",
+      "Alibaba and JD no longer release GMV; JD sold over 50 million AI-related products"
+     ],
+     "limits": [
+      "Direct automated fetch returned HTTP 403 (access limit) at 6:24 and 6:28 AM ET; the article text was read through a web reader at the logged time",
+      "Reuters converts at $267 billion; Syntun’s release says about US$264.4 billion"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/cn-singles.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Modern low-rise office buildings and a wide plaza at Alibaba’s campus in Hangzhou",
+    "caption": "Alibaba’s Xixi campus in Hangzhou, pictured in 2014.",
+    "credit": "Danielinblue",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ATaobaoCity_Alibaba_Xixi_Park.jpg",
+    "isFilePhoto": true,
+    "year": 2014
+   }
+  },
+  {
+   "id": "cn-pingyao",
+   "region": "cn",
+   "topic": "culture",
+   "ts": "2026-11-13T03:30",
+   "dateLabel": "Nov 12–16, 2026",
+   "headline": "Shanxi’s intangible heritage and crafts expo opens in Pingyao’s ancient walled city, with teenage apprentices among the performers",
+   "summary": "The seventh Shanxi Intangible Cultural Heritage and Arts and Crafts Expo opened Thursday in Pingyao Ancient City, a UNESCO World Heritage site, bringing together more than 100 heritage bearers and over 80 traditional crafts and performing arts, China Daily reported. Performances include Jiangzhou drum music, bamboo-horse dancing and lion dances, alongside dough modelling, paper-cutting, raised silk tapestry, brick carving, woodblock prints and lanterns. Gao Huimin, a 17-year-old apprentice in the bamboo-horse dance, said she was proud to carry the tradition forward. The expo runs through Nov. 16.",
+   "why": "China is pushing heritage tourism hard, and events like this test whether young people will keep folk arts alive as working traditions rather than museum pieces.",
+   "label": "State media",
+   "sources": [
+    {
+     "title": "Shanxi ICH and Arts and Crafts Expo opens in Pingyao Ancient City",
+     "site": "China Daily (state media)",
+     "date": "Nov 13, 2026",
+     "href": "https://www.chinadaily.com.cn/a/202611/13/WS6af6cabde4b03ebf8519c46c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.chinadaily.com.cn/a/202611/13/WS6af6cabde4b03ebf8519c46c.html",
+     "publisher": "China Daily",
+     "published": "Nov 13, 2026, 4:30 PM Beijing time",
+     "checkedAt": "2026-11-13T06:24:48-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Seventh expo opened Thursday in Pingyao; more than 100 inheritors and over 80 ICH items; performances and crafts listed",
+      "Apprentice quotes; runs through Nov 16"
+     ],
+     "limits": [
+      "State media; single source"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/cn-pingyao.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A busy pedestrian street lined with traditional grey-tiled buildings, with a tower in the distance",
+    "caption": "A street in Pingyao Ancient City, Shanxi, pictured in 2012.",
+    "credit": "Nicor",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3APingyao_40.JPG",
+    "isFilePhoto": true,
+    "year": 2012
+   }
+  },
+  {
+   "id": "w-ukraine",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-13T06:04",
+   "dateLabel": "Nov 13, 2026 (update to the Nov 12 stories)",
+   "headline": "Kremlin says it has not yet agreed to Europeans at the Ukraine talks, as both sides report heavy overnight strikes",
+   "summary": "A day after U.S. envoy Jared Kushner said Russia and Ukraine had agreed to bring European countries into the next round of peace talks, the Kremlin said Friday it had not yet agreed to include European mediators. “Once we understand their real intentions and their willingness to contribute to the peace process, then we can make a decision on holding talks in an expanded format,” spokesman Dmitry Peskov said, Al Jazeera reported. Kushner wrote on X that the expanded talks would address “broader postwar European security arrangements” alongside territorial issues, and that the sides were working toward “the largest prisoner exchange of the war,” the Guardian reported; Putin, meeting the envoys Thursday, refused to soften his territorial demands and warned against European peacekeepers. Fighting continued overnight: Russia’s defence ministry said it intercepted 1,198 Ukrainian drones over more than 15 regions, and the Volgograd governor said four people were killed, while in Ukraine a hospital in Kyiv caught fire after a Russian drone strike and Odesa’s military administration said at least two people were killed in attacks on the port city. EU leaders meeting in Dublin on Friday — at a summit originally meant to focus on artificial intelligence — were trying to settle who should speak for Europe, Euronews reported.",
+   "why": "Whether Europe gets a seat — and who fills it — will shape any settlement’s security terms, and the overnight strikes show the fighting is not pausing for diplomacy.",
+   "label": "Reported + official statement + claim",
+   "note": "Ongoing story: the Nov 12 Evening Edition covered the envoys’ meetings with Putin and Zelenskyy. Casualty and drone figures are each side’s own claims and could not be independently confirmed.",
+   "sources": [
+    {
+     "title": "Russia and Ukraine report overnight attacks amid US diplomatic push",
+     "site": "Al Jazeera",
+     "date": "Nov 13, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/13/russia-and-ukraine-report-overnight-attacks-amid-us-diplomatic-push"
+    },
+    {
+     "title": "Ukraine war briefing: Europe to join negotiations, says Kushner, as Putin warns against peace keepers",
+     "site": "The Guardian",
+     "date": "Nov 13, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/13/ukraine-war-briefing-europe-to-join-negotiations-says-kushner-as-putin-warns-against-peace-keepers"
+    },
+    {
+     "title": "EU leaders in Dublin grapple with who speaks for Europe in peace talks",
+     "site": "Euronews",
+     "date": "Nov 13, 2026",
+     "href": "https://www.euronews.com/2026/11/13/eu-leaders-gather-in-dublin-to-decide-who-will-speak-for-europe-in-peace-talks"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/13/russia-and-ukraine-report-overnight-attacks-amid-us-diplomatic-push",
+     "publisher": "Al Jazeera",
+     "published": "Nov 13, 2026 (updated 11:04 UTC / 6:04 AM ET)",
+     "checkedAt": "2026-11-13T06:25:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Peskov: Moscow has not yet agreed to include European mediators; quote",
+      "Russia’s MoD said it intercepted 1,198 Ukrainian drones over 15+ regions; four killed in Volgograd per governor",
+      "Kyiv hospital struck and caught fire; at least two killed in Odesa per its military administration"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/13/ukraine-war-briefing-europe-to-join-negotiations-says-kushner-as-putin-warns-against-peace-keepers",
+     "publisher": "The Guardian",
+     "published": "Nov 13, 2026",
+     "checkedAt": "2026-11-13T06:25:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Kushner on X: next round to include Europeans; “largest prisoner exchange of the war”",
+      "Putin warned against peacekeepers and refused to soften territorial demands"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.euronews.com/2026/11/13/eu-leaders-gather-in-dublin-to-decide-who-will-speak-for-europe-in-peace-talks",
+     "publisher": "Euronews",
+     "published": "Nov 13, 2026",
+     "checkedAt": "2026-11-13T06:25:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Informal European Council in Dublin meant to focus on AI is dominated by Ukraine and who speaks for Europe"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/w-ukraine.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Volodymyr Zelenskyy and Ursula von der Leyen at lecterns in front of EU and Ukrainian flags",
+    "caption": "Ukrainian President Volodymyr Zelenskyy and European Commission President Ursula von der Leyen at a news conference in Brussels, August 2025.",
+    "credit": "Dati Bendo / European Union, 2025",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3APress_conference_of_Volodymyr_Zelensky_and_Ursula_von_der_Leyen_at_the_EC_-_2025_%281%29.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "w-gaza",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-12T16:44",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Israeli strike on Gaza’s Nasser Hospital kills six, including a surgeon, health officials say",
+   "summary": "An Israeli air strike on the surgical building of Nasser Hospital in Khan Younis, the largest hospital in southern Gaza, killed six people overnight into Thursday, including surgeon Dr. Rizq Abu Shaira, according to Gaza’s Hamas-run health ministry, the BBC reported. The UN put the injured at 27; the BBC said about 30. The Israeli military said it targeted a commander of Hamas’s armed wing and other fighters who had used the hospital as a “headquarters”; Hamas called that a false narrative. Ramiz Alakbarov, the UN’s acting Middle East peace coordinator, said he was deeply alarmed and that the violence jeopardises the “increasingly fragile ceasefire.” WHO chief Tedros Adhanom Ghebreyesus said health facilities must never be militarised or attacked; WHO has documented more than 1,000 attacks on health care in Gaza since October 2023. The UN said about 1.4 million people are living in tents or makeshift shelters as winter sets in.",
+   "why": "Strikes on Gaza’s few working hospitals test a ceasefire that is already fraying, and Israel’s ban on foreign reporters makes it hard to establish what happened.",
+   "label": "Reported + official statement + claim",
+   "note": "Casualty figures differ between sources. Israel’s and Hamas’s accounts of the target are their own claims; Israel does not allow international news organisations into Gaza, the BBC noted.",
+   "sources": [
+    {
+     "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+     "site": "BBC News",
+     "date": "Nov 12, 2026",
+     "href": "https://www.bbc.com/news/articles/ckzd9p7e4eqeo"
+    },
+    {
+     "title": "Six killed in Israeli airstrike on Gaza’s Nasser Hospital",
+     "site": "UN News",
+     "date": "Nov 12, 2026",
+     "href": "https://news.un.org/en/story/2026/11/1168796"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.com/news/articles/ckzd9p7e4eqeo",
+     "publisher": "BBC News",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-13T06:24:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Six killed and about 30 injured per health ministry; surgeon Dr Rizq Abu Shaira among dead",
+      "Israeli military said it targeted a Hamas commander using the hospital as headquarters; Hamas denial",
+      "Israel bars international news organisations from Gaza"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.un.org/en/story/2026/11/1168796",
+     "publisher": "UN News",
+     "published": "Nov 12, 2026, 4:44 PM ET",
+     "checkedAt": "2026-11-13T06:24:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Strike Wednesday night killed six, injured 27",
+      "Alakbarov and Tedros statements; WHO has documented more than 1,000 attacks on health care since Oct 2023",
+      "About 1.4 million in tents or makeshift shelters"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "w-mexico",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-12T17:42",
+   "dateLabel": "Nov 12, 2026",
+   "headline": "Trump threatens to double tariffs on Mexico over migrant caravans; Sheinbaum says none has reached the U.S. border",
+   "summary": "President Trump wrote on Truth Social on Thursday morning that “huge caravans” were forming and moving through Mexico and that if Mexico did not stop them, “the Tariffs on Mexico will be IMMEDIATELY DOUBLED,” Fox News reported. At her morning news conference, Mexican President Claudia Sheinbaum said no migrant caravan had reached the northern border since Trump returned to office. She said there were currently two caravans: one that formed in Arriaga, Chiapas, with 500 to 600 people, of whom fewer than 100 remain, and a second, mostly Honduran group, which Courthouse News put at about 1,500 people. She said migrants receive humanitarian assistance and most return home once they learn they cannot cross into the U.S. Homeland Security Secretary Markwayne Mullin wrote that the caravan “will NOT be allowed to enter our country.” Trump’s post linked the caravans to Republicans’ midterm losses.",
+   "why": "A doubling of tariffs would hit one of America’s largest trading relationships, and the threat shows Trump is still using trade penalties as leverage on migration after his party’s midterm defeat.",
+   "label": "Official statement + claim",
+   "note": "Trump’s description of “huge caravans” is his own claim; caravan sizes come from Sheinbaum and Courthouse News and could not be independently confirmed. No tariff change had been announced when this edition was compiled.",
+   "sources": [
+    {
+     "title": "Trump threatens to double Mexico tariffs over migrant caravan surge",
+     "site": "Fox News",
+     "date": "Nov 12, 2026",
+     "href": "https://www.foxnews.com/politics/trump-threatens-double-tariffs-mexico-migrant-caravans-not-stopped"
+    },
+    {
+     "title": "Mexico’s Sheinbaum says no migrant caravan has reached US border under Trump",
+     "site": "Anadolu Agency (Turkish state-run)",
+     "date": "Nov 12, 2026",
+     "href": "https://www.aa.com.tr/en/americas/mexico-s-sheinbaum-says-no-migrant-caravan-has-reached-us-border-under-trump/4123422"
+    },
+    {
+     "title": "Sheinbaum downplays migrant caravans as Trump threatens more tariffs",
+     "site": "Courthouse News Service",
+     "date": "Nov 12, 2026",
+     "href": "https://courthousenews.com/sheinbaum-downplays-migrant-caravans-as-trump-threatens-more-tariffs/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.foxnews.com/politics/trump-threatens-double-tariffs-mexico-migrant-caravans-not-stopped",
+     "publisher": "Fox News",
+     "published": "Nov 12, 2026, 7:27 AM ET (updated 8:21 AM ET)",
+     "checkedAt": "2026-11-13T06:24:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Text of Trump’s Thursday morning Truth Social post threatening to double tariffs",
+      "Post linked caravans to Republicans’ midterm losses"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.aa.com.tr/en/americas/mexico-s-sheinbaum-says-no-migrant-caravan-has-reached-us-border-under-trump/4123422",
+     "publisher": "Anadolu Agency",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-13T06:25:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Sheinbaum: no caravan has reached the northern border since Trump took office",
+      "Two caravans; Arriaga group formed with 500–600, fewer than 100 remain; second from Honduras"
+     ],
+     "limits": [
+      "Turkish state-run agency"
+     ]
+    },
+    {
+     "url": "https://courthousenews.com/sheinbaum-downplays-migrant-caravans-as-trump-threatens-more-tariffs/",
+     "publisher": "Courthouse News Service",
+     "published": "Nov 12, 2026",
+     "checkedAt": "2026-11-13T06:25:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Second, mostly Honduran caravan of around 1,500 people",
+      "Mullin statement"
+     ],
+     "limits": [
+      "Sources give slightly different figures for the Chiapas caravan (about 600 vs 500–600)"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/w-mexico.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Mexican President Claudia Sheinbaum smiling at a lectern",
+    "caption": "Mexican President Claudia Sheinbaum at a morning news conference in August 2025.",
+    "credit": "Eneas",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AClaudia_Sheinbaum_in_2025_%28cropped%29.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "w-poch",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-13T05:45",
+   "dateLabel": "Nov 12–13, 2026",
+   "headline": "Manchester United agree deal to make USA coach Mauricio Pochettino their new manager, reports say",
+   "summary": "Manchester United have agreed a deal for Mauricio Pochettino, the U.S. men’s national team head coach, to replace Michael Carrick, who was sacked on Thursday with the club in the Premier League relegation zone, Sky Sports reported. Sky and Ireland’s RTÉ said he is expected to sign a two-and-a-half-year contract, until 2029, and that a formal announcement could come as early as Friday. Both said Pochettino would first take charge of the USA’s Nations League quarter-final matches against Haiti on Saturday and Tuesday before heading to Manchester; United’s next match is against Liverpool on Nov. 22. RTÉ, citing reports, said U.S. Soccer would receive $10 million in compensation plus $2 million for his coaching staff. Pochettino signed an extension with U.S. Soccer through 2030 only three months ago, RTÉ noted.",
+   "why": "The move would cost the U.S. its head coach early in the build-up to the 2030 World Cup, while United bet on a proven Premier League manager to escape a relegation fight.",
+   "label": "Reported + unnamed sources",
+   "note": "Not yet officially announced by Manchester United or U.S. Soccer when this edition was compiled (checked about 6:30 AM ET). Carrick’s dismissal was announced by the club on Thursday. Compensation figures are unconfirmed reports.",
+   "sources": [
+    {
+     "title": "Mauricio Pochettino: Manchester United agree two-and-a-half-year deal with USA manager to replace Michael Carrick",
+     "site": "Sky Sports",
+     "date": "Nov 12, 2026 (updated Nov 13)",
+     "href": "https://www.skysports.com/football/news/13611745/mauricio-pochettino-manchester-united-agree-two-and-a-half-year-deal-with-usa-manager-to-replace-michael-carrick"
+    },
+    {
+     "title": "Pochettino set to join United on two-and-a-half-year deal",
+     "site": "RTÉ Sport",
+     "date": "Nov 13, 2026",
+     "href": "https://www.rte.ie/sport/soccer/2026/1113/1599098-pochettino-set-to-join-united-on-two-and-a-half-year-deal/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.skysports.com/football/news/13611745/mauricio-pochettino-manchester-united-agree-two-and-a-half-year-deal-with-usa-manager-to-replace-michael-carrick",
+     "publisher": "Sky Sports",
+     "published": "Nov 12, 2026, 6:00 PM ET (updated Nov 13, 3:42 AM ET)",
+     "checkedAt": "2026-11-13T06:24:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "United and Pochettino agreed a deal; expected two-and-a-half-year contract",
+      "Carrick sacked Thursday with United in the drop zone; formal announcement expected Friday",
+      "Pochettino to coach both Haiti matches first"
+     ],
+     "limits": [
+      "Based on Sky’s own reporting; not an official announcement"
+     ]
+    },
+    {
+     "url": "https://www.rte.ie/sport/soccer/2026/1113/1599098-pochettino-set-to-join-united-on-two-and-a-half-year-deal/",
+     "publisher": "RTÉ Sport",
+     "published": "Nov 13, 2026, 5:45 AM ET",
+     "checkedAt": "2026-11-13T06:24:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Deal until 2029 first reported by The Athletic",
+      "Nations League quarter-finals vs Haiti Saturday and Tuesday; United play Liverpool Nov 22",
+      "US Soccer understood to receive $10m plus $2m for coaching team; Pochettino extended through 2030 three months ago"
+     ],
+     "limits": [
+      "“Understood” reporting; unnamed sources"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/w-poch.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Mauricio Pochettino in a dark jacket on the sideline at a stadium",
+    "caption": "Mauricio Pochettino coaching the U.S. men’s national team against Belgium in Atlanta, March 2026.",
+    "credit": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-2.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "w-rome",
+   "region": "world",
+   "topic": "culture",
+   "ts": "2026-11-12T04:40",
+   "dateLabel": "Nov 12, 2026 · opens Sat, Nov 14",
+   "headline": "A bronze leg found in a Scottish bog anchors Edinburgh’s biggest-ever exhibition on Roman Scotland",
+   "summary": "A gilded bronze leg dug out of a bog in the Scottish Borders in 1820 — long thought to have been looted from England and carried north by raiding tribes — is now believed to have come from a huge statue of Emperor Antoninus Pius on horseback erected near Hawick around AD 140, the Guardian reported. It is the centrepiece of “Roman Scotland: Life on the Edge of Empire,” which the Guardian describes as the largest exhibition ever staged on the Romans in Scotland; it opens Saturday at the National Museum of Scotland in Edinburgh. Principal curator Fraser Hunter argues the Romans were a far bigger force north of Hadrian’s Wall than once thought. The show also includes a reconstructed decorated bowl and two altars from the Mithras temple at the Roman fort at Inveresk, east of Edinburgh, according to the museum.",
+   "why": "It recasts a familiar story — that Rome stopped at Hadrian’s Wall — and shows how new research on old finds can change national history.",
+   "label": "Reported + analysis",
+   "note": "The statue identification is the curators’ interpretation.",
+   "sources": [
+    {
+     "title": "Bronze leg found in Scottish bog sheds new light on Roman occupation",
+     "site": "The Guardian",
+     "date": "Nov 12, 2026",
+     "href": "https://www.theguardian.com/uk-news/2026/nov/12/bronze-leg-scottish-bog-roman-occupation-exhibit"
+    },
+    {
+     "title": "Roman Scotland: Life on the Edge of Empire",
+     "site": "National Museums Scotland",
+     "date": "Exhibition page",
+     "href": "https://www.nms.ac.uk/exhibitions/roman-scotland-life-on-the-edge-of-empire"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/uk-news/2026/nov/12/bronze-leg-scottish-bog-roman-occupation-exhibit",
+     "publisher": "The Guardian",
+     "published": "Nov 12, 2026 (updated 4:40 AM ET)",
+     "checkedAt": "2026-11-13T06:24:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Milsington leg dug up in 1820; now thought part of an equestrian statue of Antoninus Pius near Hawick c. AD 140",
+      "Largest exhibition on Romans in Scotland opens Saturday at National Museum of Scotland",
+      "Curator Fraser Hunter quotes; Inveresk bowl reconstruction"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.nms.ac.uk/exhibitions/roman-scotland-life-on-the-edge-of-empire",
+     "publisher": "National Museums Scotland",
+     "published": "Exhibition page (modified Nov 13, 2026)",
+     "checkedAt": "2026-11-13T06:25:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 13 2026",
+     "claimsSupported": [
+      "Exhibition title; finds from the 2nd-century fort at Inveresk including two altars from its Mithraeum"
+     ],
+     "limits": [
+      "Museum’s own promotional page"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-13-am/w-rome.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The stone facade of the National Museum of Scotland on a city street",
+    "caption": "The National Museum of Scotland on Chambers Street, Edinburgh, pictured in 2026.",
+    "credit": "Iain Lees",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AThe_National_Museum_of_Scotland_in_Chambers_Street_-_geograph.org.uk_-_8247795.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  }
+ ]
+}

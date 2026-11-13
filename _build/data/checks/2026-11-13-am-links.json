@@ -1,0 +1,301 @@
+{
+ "edition": "2026-11-13-am",
+ "ranAt": "2026-11-13T06:39:24-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:24-05:00"
+  },
+  {
+   "url": "https://www.nbcchicago.com/news/local/why-is-microsoft-outlook-down-what-the-companys-investigation-found/4015939/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.cjme.com/2026/11/13/in-the-news-today-microsoft-outage-plane-loses-wheel-carney-heads-to-manila/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/politics/donald-trump/us-doesnt-need-peace-deal-iran-vance-corruption-trump-rcna609027",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.usatoday.com/story/news/politics/2026/11/12/trump-iran-war-peace-deal-vance-negotiations/92747890007/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.vanhollen.senate.gov/news/press-releases/van-hollen-statement-on-running-for-majority-leader",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:27-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/politics/congress/sen-chris-van-hollen-says-will-challenge-sen-chuck-schumer-majority-le-rcna609100",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:24-05:00"
+  },
+  {
+   "url": "https://gothamist.com/news/developer-at-brooklyn-collapse-site-had-record-of-flouting-orders-from-city-agency",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:24-05:00"
+  },
+  {
+   "url": "https://brooklyn.news12.com/2026/11/13/rescue-operations-end-investigation-begins-on-cause-of-deadly-building-collapse/7xQsLS0bOge7pH2b2QPmKQ",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cm20v66jq611o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.giants.com/news/instant-analysis-giants-fall-to-commanders-24-21",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.nfl.com/news/commanders-giants-on-thursday-night-football-what-we-learned-from-washington-s-24-21-win",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://mediatechdemocracy.com/en/publications/stolen-faces_2026/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.cp24.com/news/canada/2026/11/12/a-deepfake-video-network-is-spreading-false-information-about-the-us-trade-war-report/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://thehub.ca/2026/11/13/u-s-trade-chief-confirms-recent-talks-with-canada-but-sets-no-deadline-for-a-deal/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:24-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/carney-europe-ireland-meetings-9.7419715",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/12/prime-minister-carney-strengthens-canadas-alliance-europe-summit",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:24-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/carney-apec-asean-francophonie-trip-9.7416895",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/london/shad-returns-to-hometown-as-museum-london-s-first-musician-in-residence-9.7418408",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/calgary/alberta-health-services-discharge-by-11-am-hospitals-9.7419239",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/news/article/348370/SOGO-and-Chow-Sang-Sang-report-data-breaches-affecting-up-to-820000-members",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/ch/component/k2/1877591-20261112.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:26-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877667-20261113.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877545-20261112.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/news/article/348341/Police-smash-fake-concert-ticket-syndicate-arrest-10",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:26-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877687-20261113.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300224.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:26-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877663-20261113.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.aa.com.tr/en/asia-pacific/china-us-hold-political-dialogue-as-xi-set-to-host-trump-next-week/4123257",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:26-05:00"
+  },
+  {
+   "url": "https://www.chinadaily.com.cn/a/202611/12/WS6af5c1a8e4b03ebf8519c164.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/environment/2026/nov/12/china-rules-out-hosting-cop33-climate-summit-in-2028",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.zaobao.com.sg/en/news/china/china-reportedly-decides-against-bid-host-2028-un-climate-conference",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.climatechangenews.com/2026/11/13/cop31-bulletin-day-5-cover-decision-wishlist-issued-as-china-bows-out-of-cop33/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:42-05:00"
+  },
+  {
+   "url": "https://www.prnewswire.com/news-releases/syntun--2026-double-11-promotion-report-gmv-during-chinas-double-11-shopping-festival-reached-rmb-1-776-4-billion-approx-us264-4-billion-302937680.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:24-05:00"
+  },
+  {
+   "url": "https://www.streetinsider.com/Reuters/Chinas+Singles+Day+sales+rise+4.8%25+to+%241.78+trillion%3B+AI+takes+larger+role/27328707.html",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-13T06:39:24-05:00"
+  },
+  {
+   "url": "https://www.chinadaily.com.cn/a/202611/13/WS6af6cabde4b03ebf8519c46c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/13/russia-and-ukraine-report-overnight-attacks-amid-us-diplomatic-push",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:24-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/13/ukraine-war-briefing-europe-to-join-negotiations-says-kushner-as-putin-warns-against-peace-keepers",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.euronews.com/2026/11/13/eu-leaders-gather-in-dublin-to-decide-who-will-speak-for-europe-in-peace-talks",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/ckzd9p7e4eqeo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://news.un.org/en/story/2026/11/1168796",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.foxnews.com/politics/trump-threatens-double-tariffs-mexico-migrant-caravans-not-stopped",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:26-05:00"
+  },
+  {
+   "url": "https://www.aa.com.tr/en/americas/mexico-s-sheinbaum-says-no-migrant-caravan-has-reached-us-border-under-trump/4123422",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:26-05:00"
+  },
+  {
+   "url": "https://courthousenews.com/sheinbaum-downplays-migrant-caravans-as-trump-threatens-more-tariffs/",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-13T06:39:24-05:00"
+  },
+  {
+   "url": "https://www.skysports.com/football/news/13611745/mauricio-pochettino-manchester-united-agree-two-and-a-half-year-deal-with-usa-manager-to-replace-michael-carrick",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.rte.ie/sport/soccer/2026/1113/1599098-pochettino-set-to-join-united-on-two-and-a-half-year-deal/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:24-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/uk-news/2026/nov/12/bronze-leg-scottish-bog-roman-occupation-exhibit",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  },
+  {
+   "url": "https://www.nms.ac.uk/exhibitions/roman-scotland-life-on-the-edge-of-empire",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-13T06:39:25-05:00"
+  }
+ ]
+}
