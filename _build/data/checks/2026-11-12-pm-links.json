@@ -1,0 +1,193 @@
+{
+ "edition": "2026-11-12-pm",
+ "ranAt": "2026-11-12T21:19:55-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://www.channelnewsasia.com/world/nvidia-markets-jensen-huang-resigns-6547596",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://abc7ny.com/live-updates/brooklyn-building-collapse-live-updates-1-dead-flatbush/20034152/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cm20v66jq611o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/crgqx2qqnwpjo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://apnews.com/article/dc-shooting-logan-circle-3cee6a4ada875fcc18e932e536c63dcd",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://www.espn.com/nba/story/_/id/50462899/warriors-stephen-curry-least-2-weeks-oblique-tear",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/resolution-process-terminated-government-stellantis-brampton-plant-9.7419553",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://www.cp24.com/politics/queens-park/2026/11/12/ottawa-serves-stellantis-notice-of-default-on-funding-agreement-after-roshel-deal/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:56-05:00"
+  },
+  {
+   "url": "https://www.cp24.com/news/sports/2026/11/12/blue-jays-apologize-to-muslim-community-and-fans-in-wake-of-santanders-posts/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/ottawa/rideau-canal-skateway-ottawa-artificial-freezing-refrigeration-9.7419107",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:56-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/hockey/world-juniors-russia-valdislav-tretiak-9.7419768",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:56-05:00"
+  },
+  {
+   "url": "https://www.brecorder.com/news/40448669/china-hk-stocks-fall-as-investors-assess-nvidia-scandal",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/12/P2026111200266.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/12/P2026111100521.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:56-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/12/P2026111200195.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:56-05:00"
+  },
+  {
+   "url": "https://www.icac.org.hk/en/p/press/index_id_5053.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:56-05:00"
+  },
+  {
+   "url": "https://www.news.cn/20261112/0ba66dea692d48d9a1870f7a1b07904d/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:56-05:00"
+  },
+  {
+   "url": "https://www.chinadaily.com.cn/a/202611/12/WS6af5949fe4b03ebf8519c11d.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261110/3b62fbc74389424e8fcb3e878263f0a6/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:56-05:00"
+  },
+  {
+   "url": "https://www.chinanews.com.cn/tp/2026/11-12/10731094.shtml",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://tass.com/politics/2217341",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:56-05:00"
+  },
+  {
+   "url": "https://www.thejournal.ie/zelenskyy-kushner-baldonnel-meeting-7224099-Nov2026/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:56-05:00"
+  },
+  {
+   "url": "https://www.euronews.com/2026/11/12/russia-plays-down-peace-talks-with-europe-after-witkoff-raises-hopes-of-breakthrough",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/mercedes-benz-germany-investment/a-79934509",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://www.euronews.com/2026/11/12/fifa-president-says-qatar-safe-for-u-17-world-cup-despite-us-withdrawal",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  },
+  {
+   "url": "https://inside.fifa.com/tournament-organisation/news/u-17-world-cup-qatar-statement-us-soccer-withdrawal",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:56-05:00"
+  },
+  {
+   "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-lima-apostolic-journey-challenges-hopes-society.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-12T21:19:55-05:00"
+  }
+ ]
+}
