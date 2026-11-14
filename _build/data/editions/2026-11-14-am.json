@@ -1,0 +1,1665 @@
+{
+ "id": "2026-11-14-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-14",
+ "leadId": "us-groundstop",
+ "topIds": [
+  "cn-trilateral",
+  "us-measles",
+  "w-ukraine",
+  "ca-philippines",
+  "hk-gdp"
+ ],
+ "notes": [
+  "Morning Edition for Saturday, Nov 14, 2026.",
+  "It prioritizes developments since Friday’s morning edition: the FAA’s nationwide ground stop and the travel disruption that followed, reports that the U.S. has lost its measles-elimination status, the planned Trump–Xi–Putin meeting in Shenzhen, Zelensky’s account of a U.S. idea linking NATO membership to the Donbas, and the New Orleans river collision.",
+  "Ongoing stories — the Stellantis Brampton dispute, the Nvidia spy scandal, the Ukraine talks and Pope Leo’s Latin America tour — carry their original and updated dates.",
+  "Items described as planned, scheduled or reported — including the Trump–Xi–Putin meeting, the Rock & Roll Hall of Fame ceremony, Saturday’s WTA Finals semifinals, Clockenflap and the measles decision, which rests on unnamed sources — are not presented as completed or officially confirmed.",
+  "This edition has photos on the lead and on 21 of 24 other stories, using only Wikimedia Commons or U.S. government public-domain files, each credited and labelled as a file photo. None shows the events described.",
+  "Stories by region: U.S. 5, Canada 5, Hong Kong 5, China 5, World 5. Because it is a Saturday, several items are Friday news that broke after the previous edition."
+ ],
+ "provenance": [
+  "Stories are compiled from the linked sources; labels describe the type of claim each story rests on.",
+  "Source pages were opened during this morning’s research between about 6:19 and 6:32 AM ET; each check time is the logged time that page was fetched.",
+  "China Daily is labelled State media; Sixth Tone is published by a state-owned Shanghai media group; RTHK is Hong Kong’s public broadcaster, and news.gov.hk and info.gov.hk are Hong Kong government sites.",
+  "Some pages (including Axios, the Washington Post, the South China Morning Post and a Reuters republication on Investing.com) returned access errors to automated fetches; those are access limits, not evidence that the reporting is wrong. Axios was read through a web reader; the others are not cited.",
+  "Where outlets gave different figures — the length of the ground stop and the number of people aboard the American Heritage — the edition states both."
+ ],
+ "stories": [
+  {
+   "id": "us-groundstop",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-14T06:19",
+   "dateLabel": "Nov 13–14, 2026",
+   "headline": "FAA lifts a rare nationwide ground stop after more than four hours, but flight delays and cancellations roll into the weekend",
+   "deck": "The Federal Aviation Administration halted departures across the U.S. on Friday afternoon after what officials called a telecommunications failure, then reopened the airspace at 8:15 p.m. ET. Airlines were still working through thousands of delays and cancellations on Saturday.",
+   "summary": "The Federal Aviation Administration halted departures across the U.S. on Friday afternoon after what officials called a telecommunications failure, then reopened the airspace at 8:15 p.m. ET. Airlines were still working through thousands of delays and cancellations on Saturday. The FAA announced the stop at 3:54 p.m. ET “due to extraordinary circumstances,” and the BBC called it the longest nationwide ground stop since the Sept. 11, 2001, attacks; FlightAware counted more than 8,500 delayed and nearly 8,000 cancelled flights on Friday. Transportation Secretary Sean Duffy blamed an “incredibly old air traffic control system,” saying routers “got overloaded with data” and gave inconsistent readings, and warned the knock-on effects would last days. Homeland Security Secretary Markwayne Mullin said there was no indication of a cyberattack — though, NPR noted, he could not rule one out entirely — and that the outage was not related to Thursday’s Microsoft outage. CBS News, citing multiple sources, said an update to the private network connecting the air traffic control system caused it to reboot. As of early Saturday FlightAware showed more than 6,200 delays and 3,400 cancellations, CNBC said; the SEC moved some college football games to Sunday, and NBA and NHL teams scrambled to travel. Air Canada also cancelled U.S.–Canada flights, and Hong Kong’s Airport Authority said four flights between the city and the U.S. were cancelled and 13 delayed, with delays expected until Sunday.",
+   "why": "Air travel across the country depends on decades-old equipment that can stop everything in an afternoon; the fight over who pays to modernize it will now be sharper — and anyone flying this weekend should check with their airline before heading out.",
+   "label": "Reported + official statement + unnamed sources",
+   "note": "The cause is the administration’s preliminary account; investigators were still working out exactly what failed. The report about a network update rests on unnamed sources cited by CBS News. Flight counts are FlightAware tallies at different times; outlets described the stop as lasting “more than four hours” (BBC) or “about five hours” (CBS).",
+   "sources": [
+    {
+     "title": "What we know about the US ground stop and what to do if your flight is affected",
+     "site": "BBC News",
+     "date": "Nov 14, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo"
+    },
+    {
+     "title": "FAA lifts nationwide ground stop that disrupted thousands of flights",
+     "site": "CBS News",
+     "date": "Nov 13, 2026 (updated 11:03 PM ET)",
+     "href": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+    },
+    {
+     "title": "What we know about the FAA nationwide ground stop",
+     "site": "NPR",
+     "date": "Nov 13, 2026",
+     "href": "https://www.npr.org/2026/11/13/nx-s1-6040388/what-we-know-about-the-faa-nationwide-ground-stop"
+    },
+    {
+     "title": "FAA ground stop lifted but U.S. flight disruptions continue",
+     "site": "CNBC",
+     "date": "Nov 14, 2026",
+     "href": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html"
+    },
+    {
+     "title": "Over a dozen HK flights affected by US groundstop",
+     "site": "RTHK",
+     "date": "Nov 14, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877828-20261114.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo",
+     "publisher": "BBC News",
+     "published": "Nov 14, 2026, 3:10 AM GMT; updated 7:42 AM GMT",
+     "checkedAt": "2026-11-14T06:19:57-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Longest nationwide ground stop since 9/11; lasted more than four hours; FAA cited a communication issue affecting all air traffic control centres",
+      "FAA announcement at 15:54 EST; more than 3,500 planes in the air at the time",
+      "FlightAware: more than 8,500 delays and nearly 8,000 cancellations on Friday",
+      "Mullin: no indication of a cyber-attack; Air Canada cancelled US–Canada flights"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+     "publisher": "CBS News",
+     "published": "Nov 13, 2026, 4:29 PM ET; updated 11:03 PM ET",
+     "checkedAt": "2026-11-14T06:20:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Airspace reopened at 8:15 p.m. ET per Duffy; ground stop lasted about five hours",
+      "Duffy: “incredibly old air traffic control system”; routers overloaded with data",
+      "Multiple sources told CBS an update to the private communications network caused a reboot and outage"
+     ],
+     "limits": [
+      "Network-update account rests on unnamed sources"
+     ]
+    },
+    {
+     "url": "https://www.npr.org/2026/11/13/nx-s1-6040388/what-we-know-about-the-faa-nationwide-ground-stop",
+     "publisher": "NPR",
+     "published": "Nov 13, 2026, 5:27 PM ET (broadcast transcript)",
+     "checkedAt": "2026-11-14T06:19:56-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Mullin said no indication of a cyberattack but could not rule it out entirely",
+      "Mullin said the outage was not related to the Microsoft outage",
+      "Duffy gave few specifics and pushed for funding to rebuild air traffic control"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+     "publisher": "CNBC",
+     "published": "Nov 14, 2026, 4:26 AM ET; updated 6:19 AM ET",
+     "checkedAt": "2026-11-14T06:20:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "More than 6,200 delays and 3,400 cancellations as of early Saturday (FlightAware)",
+      "SEC moved some games to Sunday; NBA, NHL and college teams disrupted",
+      "FAA said it tested systems before clearing flights to resume"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877828-20261114.htm",
+     "publisher": "RTHK",
+     "published": "Nov 14, 2026, 6:57 PM HKT",
+     "checkedAt": "2026-11-14T06:20:51-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Airport Authority: two US–HK flights cancelled and seven delayed; two HK–US flights cancelled and six delayed",
+      "Delays expected until Sunday"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/us-groundstop.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A modern air traffic control tower with a glass cab against a cloudy sky",
+    "caption": "The FAA air traffic control tower at Philadelphia International Airport, pictured in 2025.",
+    "credit": "Harrison Keely",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AThe_FAA_air_traffic_control_tower_at_Philadelphia_International_Airport.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "us-measles",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-14T04:24",
+   "dateLabel": "Nov 13–14, 2026",
+   "headline": "U.S. has lost its measles-elimination status after 26 years, reports say, as two more deaths are reported",
+   "deck": "A Pan American Health Organization expert panel has concluded that measles has spread continuously in the United States for more than 12 months, ending the elimination status the country won in 2000, according to reports first published by The Wall Street Journal.",
+   "summary": "A Pan American Health Organization expert panel has concluded that measles has spread continuously in the United States for more than 12 months, ending the elimination status the country won in 2000, according to reports first published by The Wall Street Journal. Axios said the panel made the widely expected decision after a three-day meeting in Washington, and that the status hinges on whether the same strain keeps circulating for a year or more without a break. The CDC’s latest tally shows 5,412 confirmed cases so far in 2026, compared with 2,289 in all of 2025 — the most since 1991, Axios said. Al Jazeera reported that Pennsylvania and Wisconsin each announced another measles-associated death on Friday, including an infant in Wisconsin, bringing state-reported deaths this year to 10; the CDC’s own count is lower amid a dispute over how deaths are classified. Canada and the U.K. lost their elimination status in the past year. To regain it, the U.S. would need to go 12 months without continuous spread.",
+   "why": "The label is largely symbolic, but it confirms measles is again spreading on its own in pockets of low vaccination — including in New York — and keeping MMR shots up to date matters most for protecting babies too young to be vaccinated.",
+   "label": "Reported + unnamed sources",
+   "note": "The decision was reported citing people familiar with the matter; neither report Donna Daily read linked a published PAHO statement. Death counts differ between states and the CDC.",
+   "sources": [
+    {
+     "title": "US loses measles-free status as two more deaths reported",
+     "site": "Al Jazeera",
+     "date": "Nov 14, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/14/measles-associated-deaths-reach-10-in-us-after-two-more-deaths-reported"
+    },
+    {
+     "title": "U.S. loses measles elimination status",
+     "site": "Axios",
+     "date": "Nov 14, 2026",
+     "href": "https://www.axios.com/2026/11/14/us-loses-measles-elimination-status"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/14/measles-associated-deaths-reach-10-in-us-after-two-more-deaths-reported",
+     "publisher": "Al Jazeera",
+     "published": "Nov 14, 2026, 2:34 AM GMT; updated 9:24 AM GMT",
+     "checkedAt": "2026-11-14T06:20:41-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "US lost measles-free status per US media reports, first reported by WSJ",
+      "Pennsylvania and Wisconsin each announced another death Friday, incl. an infant in Wisconsin; 10 state-reported deaths this year",
+      "More than 5,400 confirmed cases; CDC count of deaths is lower"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.axios.com/2026/11/14/us-loses-measles-elimination-status",
+     "publisher": "Axios",
+     "published": "Nov 14, 2026",
+     "checkedAt": "2026-11-14T06:20:41-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "PAHO expert panel decision after a three-day meeting in Washington, “according to multiple news reports”",
+      "5,412 confirmed cases this year vs 2,289 in 2025; highest since 1991",
+      "Canada and the UK lost status in the past year"
+     ],
+     "limits": [
+      "Direct automated fetch returned HTTP 403 (access limit); page read through a web reader"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/us-measles.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A grainy black-and-white electron microscope image of a round virus particle",
+    "caption": "An electron micrograph of a single measles virus particle, from the CDC’s public image library.",
+    "credit": "Photo Credit: Cynthia S. Goldsmith",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AMeasles_virus.JPG",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMeasles_virus.JPG",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "us-neworleans",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-13T23:03",
+   "dateLabel": "Nov 13, 2026",
+   "headline": "Tanker slams into a docked river cruise boat in New Orleans; everyone aboard survives and 32 are taken to hospital",
+   "deck": "A tanker that apparently lost its steering struck the paddlewheel cruise boat American Heritage at a New Orleans dock on Friday, flipping it into the Mississippi River. Officials said everyone was accounted for and no one was critically hurt.",
+   "summary": "A tanker that apparently lost its steering struck the paddlewheel cruise boat American Heritage at a New Orleans dock on Friday, flipping it into the Mississippi River. Officials said everyone was accounted for and no one was critically hurt. The much larger tanker Atlantic Asphalt hit the boat at about 12:30 p.m. local time, roughly two hours after it had docked for passengers to disembark at the end of an eight-day river cruise, CBS News and CBC News reported. Mayor Helena Moreno called it “a miracle on the Mississippi”: 32 people were taken to hospitals, none with critical injuries, and two harbor police officers were also hospitalized in good condition. Tugboat crews, port workers and police pulled dozens of people from the water as the boat listed and toppled. The U.S. Coast Guard said investigators were working to determine why the tanker lost control and that it was working to reopen the river, which it had closed after the collision.",
+   "why": "Nobody died, thanks largely to people nearby who rushed to help, but a ship losing control on one of America’s busiest rivers will raise hard questions about steering failures and safety near docked passenger boats.",
+   "label": "Reported + official statement",
+   "note": "The cause had not been determined; “loss of steering” was the Coast Guard’s early assessment. Counts differ by source: the mayor said 180 people were aboard; Port NOLA, via CBS, said about 129 passengers plus crew.",
+   "sources": [
+    {
+     "title": "River cruise ship, tanker crash in New Orleans on Mississippi River; passengers rescued",
+     "site": "CBS News",
+     "date": "Nov 13, 2026",
+     "href": "https://www.cbsnews.com/news/tanker-cruise-collision-mississippi-river-new-orleans/"
+    },
+    {
+     "title": "‘Miracle on the Mississippi’: All aboard river cruise boat survive crash with tanker in New Orleans",
+     "site": "CBC News (The Associated Press)",
+     "date": "Nov 13, 2026",
+     "href": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbsnews.com/news/tanker-cruise-collision-mississippi-river-new-orleans/",
+     "publisher": "CBS News",
+     "published": "Nov 13, 2026, 3:33 PM ET; updated 11:03 PM ET",
+     "checkedAt": "2026-11-14T06:20:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Atlantic Asphalt hit the docked American Heritage at about 12:30 p.m.; everyone accounted for, no fatalities",
+      "32 passengers hospitalized, none critical; two harbor police officers hospitalized in good condition",
+      "Coast Guard investigating why the tanker lost control; river closed after the collision"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309",
+     "publisher": "CBC News",
+     "published": "Nov 13, 2026, 4:06 PM ET; updated 8:34 PM ET",
+     "checkedAt": "2026-11-14T06:20:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "180 people aboard per the mayor; “a miracle on the Mississippi”",
+      "Tanker apparently lost steering per Coast Guard; boat finishing an eight-day cruise"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/us-neworleans.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A paddlewheel steamboat moored along a riverside park in New Orleans under grey skies",
+    "caption": "A paddlewheel steamboat moored at Woldenberg Park on the New Orleans riverfront, pictured in 2007. It is not the American Heritage.",
+    "credit": "Infrogmation of New Orleans",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AWoldenbergParkRiverfrontSteamboat30July07.jpg",
+    "isFilePhoto": true,
+    "year": 2007
+   }
+  },
+  {
+   "id": "us-alaska",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-14T00:12",
+   "dateLabel": "Nov 13–14, 2026",
+   "headline": "Democrat Jonathan Kreiss-Tomkins wins Alaska’s governor race, the state’s first Democrat elected governor since 1998",
+   "deck": "Former state lawmaker Jonathan Kreiss-Tomkins, 37, won the race for Alaska governor after more than a week of counting, according to an Associated Press race call, beating three Republicans including one backed by President Trump.",
+   "summary": "Former state lawmaker Jonathan Kreiss-Tomkins, 37, won the race for Alaska governor after more than a week of counting, according to an Associated Press race call, beating three Republicans including one backed by President Trump. He will be the youngest governor in state history and replaces term-limited Republican Mike Dunleavy, NPR reported. Kreiss-Tomkins, from Sitka and known as JKT, campaigned as a “man of the middle,” promised a cabinet of Democrats, Republicans and independents, and was endorsed by Republican Sen. Lisa Murkowski and three former governors. CBS News said he focused on affordability, full school funding and making oil and gas producers pay corporate income tax, and sought a moratorium on new data centers until lawmakers regulate them; his win means Democrats will hold 30 governorships. Voters also rejected a ballot measure to repeal Alaska’s open primaries and ranked-choice voting, keeping the system in place, according to another AP call.",
+   "why": "A Democrat winning statewide in Alaska — under a ranked-choice system voters just chose to keep — shows how broad this month’s midterm swing was, and makes the state a test of whether a bipartisan pitch can govern.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Democrat Jonathan Kreiss-Tomkins wins Alaska governor race",
+     "site": "NPR",
+     "date": "Nov 14, 2026",
+     "href": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins"
+    },
+    {
+     "title": "Alaska elects Jonathan Kreiss-Tomkins, the first Democrat governor since 1998",
+     "site": "CBS News",
+     "date": "Nov 14, 2026",
+     "href": "https://www.cbsnews.com/news/alaska-governor-jkt-jonathan-kreiss-tomkins-election/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins",
+     "publisher": "NPR",
+     "published": "Nov 14, 2026, 12:12 AM ET",
+     "checkedAt": "2026-11-14T06:20:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "AP race call; youngest governor in state history at 37; replaces term-limited Dunleavy",
+      "Endorsed by Murkowski and three former governors; “man of the middle”",
+      "Ballot measure to scrap ranked-choice voting failed per another AP call"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbsnews.com/news/alaska-governor-jkt-jonathan-kreiss-tomkins-election/",
+     "publisher": "CBS News",
+     "published": "Nov 14, 2026, 2:11 AM ET",
+     "checkedAt": "2026-11-14T06:20:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "First Democrat elected governor since 1998; beat three Republicans incl. one endorsed by Trump",
+      "Democrats will control 30 governorships",
+      "Platform: affordability, school funding, oil and gas corporate tax, data-center moratorium"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/us-alaska.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A smiling man in a crowd hugs a spectator along a parade route, with campaign signs and balloons behind",
+    "caption": "Jonathan Kreiss-Tomkins, then a state representative, at the Alaska Day parade in Sitka, pictured in 2014.",
+    "credit": "James Brooks",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AJonathan_Kreiss-Tomkins_at_Alaska_Day_Parade_crop.jpg",
+    "isFilePhoto": true,
+    "year": 2014
+   }
+  },
+  {
+   "id": "us-rockhall",
+   "region": "us",
+   "topic": "culture",
+   "ts": "2026-11-14T00:15",
+   "dateLabel": "Nov 14, 2026 (ceremony scheduled)",
+   "headline": "Rock & Roll Hall of Fame set to induct Wu-Tang Clan, Billy Idol and others in Los Angeles on Saturday, with Oasis, Sade and Iron Maiden staying away",
+   "deck": "The Rock & Roll Hall of Fame is set to induct its 2026 class at the Peacock Theater in Los Angeles on Saturday night, but several big-name inductees are skipping the ceremony, the Associated Press reported.",
+   "summary": "The Rock & Roll Hall of Fame is set to induct its 2026 class at the Peacock Theater in Los Angeles on Saturday night, but several big-name inductees are skipping the ceremony, the Associated Press reported. The class includes Billy Idol, Phil Collins, Sade, Queen Latifah, New Order with Joy Division, Luther Vandross, Iron Maiden, Oasis and Wu-Tang Clan. Oasis will not attend — Liam Gallagher posted that it was “too far to be going for the night” — Iron Maiden is touring Australia and Sade is sitting it out; Collins is expected but will not play for health reasons. Wu-Tang Clan, Queen Latifah and MC Lyte are expected to appear and probably perform, and Idol will take the stage with guitarist Steve Stevens. Fela Kuti will become the first African-born artist in the hall and Celia Cruz the first member who sang primarily in Spanish. Unlike recent years, the show will not stream live; an edited version airs on ABC and Disney+ on Dec. 9.",
+   "why": "Hip-hop could steal the night: Wu-Tang Clan, plus Queen Latifah and MC Lyte, headline a class that also marks firsts for African and Spanish-language music — even with several rock stars staying home.",
+   "label": "Reported",
+   "note": "The ceremony had not taken place when this edition was compiled; performers and appearances can change.",
+   "sources": [
+    {
+     "title": "Rock & Roll Hall of Fame induction set for Los Angeles, with many big names skipping the stage",
+     "site": "The Associated Press via ABC News",
+     "date": "Nov 14, 2026",
+     "href": "https://abcnews.com/Entertainment/wireStory/rock-roll-hall-fame-induction-set-los-angeles-138135701"
+    },
+    {
+     "title": "Rock & Roll Hall of Fame induction set for Los Angeles, with many big names skipping the stage",
+     "site": "The Associated Press via WTOP",
+     "date": "Nov 14, 2026",
+     "href": "https://wtop.com/national/2026/11/rock-roll-hall-of-fame-induction-set-for-los-angeles-with-many-big-names-skipping-the-stage/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://abcnews.com/Entertainment/wireStory/rock-roll-hall-fame-induction-set-los-angeles-138135701",
+     "publisher": "ABC News (AP)",
+     "published": "Nov 14, 2026, 12:15 AM ET",
+     "checkedAt": "2026-11-14T06:23:09-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Ceremony Saturday at the Peacock Theater; inductee list",
+      "Oasis, Iron Maiden, Sade not attending; Collins will not perform for health reasons",
+      "Wu-Tang Clan, Latifah, MC Lyte expected; Kuti and Cruz firsts; edited version airs Dec. 9 on ABC and Disney+"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://wtop.com/national/2026/11/rock-roll-hall-of-fame-induction-set-for-los-angeles-with-many-big-names-skipping-the-stage/",
+     "publisher": "WTOP (AP)",
+     "published": "Nov 14, 2026, 12:27 AM ET",
+     "checkedAt": "2026-11-14T06:23:10-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Same AP report; Liam Gallagher quote; Idol with Steve Stevens"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/us-rockhall.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Rappers performing on a festival stage lit in purple in front of a giant Wu-Tang banner",
+    "caption": "Wu-Tang Clan performing at the Glastonbury Festival in England, pictured in 2019.",
+    "credit": "Simoncromptonreid",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AWu_Tang_Clan_West_Holts_Stage_Glastonbury_2019_010.jpg",
+    "isFilePhoto": true,
+    "year": 2019
+   }
+  },
+  {
+   "id": "ca-philippines",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-13T22:27",
+   "dateLabel": "Nov 13–14, 2026",
+   "headline": "Canada and the Philippines conclude free-trade talks in Manila, with signing expected in 2027",
+   "deck": "Prime Minister Mark Carney and Philippine President Ferdinand Marcos Jr. oversaw the signing of a document formally ending negotiations for a Philippines-Canada free-trade agreement, which is expected to be signed next year.",
+   "summary": "Prime Minister Mark Carney and Philippine President Ferdinand Marcos Jr. oversaw the signing of a document formally ending negotiations for a Philippines-Canada free-trade agreement, which is expected to be signed next year. The talks began just over a year ago after Carney rebooted an idea Ottawa first explored in 2015, CBC News reported. During consultations, businesses broadly supported the deal while civil-society groups raised concerns about the Philippines’ record on the environment, labour and human rights. Carney is in Manila for the Association of Southeast Asian Nations summit, and Canada is also pursuing a broader trade deal with the ASEAN bloc. “A ship that stays in the harbour is safe, but that’s not what a ship is for,” Carney told Marcos, according to Global News.",
+   "why": "With U.S. trade talks still unresolved, each new deal in Asia is part of Ottawa’s push to sell more beyond its biggest customer.",
+   "label": "Reported + official statement",
+   "note": "Concluding negotiations is not the same as signing or ratifying; the deal’s text had not been published.",
+   "sources": [
+    {
+     "title": "Canada, Philippines wrap talks for free-trade agreement, expected to be signed in 2027",
+     "site": "CBC News (The Canadian Press)",
+     "date": "Nov 13, 2026",
+     "href": "https://www.cbc.ca/news/politics/canada-philippines-free-trade-agreement-talks-9.7422009"
+    },
+    {
+     "title": "Canada, Philippines conclude negotiations for free-trade agreement, aiming for 2027",
+     "site": "Global News (The Canadian Press)",
+     "date": "Nov 13, 2026",
+     "href": "https://globalnews.ca/news/12150796/canada-philippines-trade-deal/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/canada-philippines-free-trade-agreement-talks-9.7422009",
+     "publisher": "CBC News",
+     "published": "Nov 13, 2026, 10:27 PM ET",
+     "checkedAt": "2026-11-14T06:21:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Talks concluded; signing expected next year",
+      "Talks started just over a year ago; first explored in 2015",
+      "Business support; civil-society concerns on environment, labour, human rights; broader ASEAN deal pursued"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://globalnews.ca/news/12150796/canada-philippines-trade-deal/",
+     "publisher": "Global News",
+     "published": "Nov 13, 2026, 10:39 PM ET",
+     "checkedAt": "2026-11-14T06:21:43-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Carney and Marcos concluded talks in Manila",
+      "Carney “ship that stays in the harbour” quote"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/ca-philippines.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Portrait of a man with glasses in a dark suit",
+    "caption": "Philippine President Ferdinand Marcos Jr. during a visit to Washington, pictured in 2025.",
+    "credit": "U.S. Secretary of Defense",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AFerdinand_%22Bongbong%22_Romualdez_Marcos%2C_Jr._in_2025_%28cropped%29.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AFerdinand_%22Bongbong%22_Romualdez_Marcos%2C_Jr._in_2025_%28cropped%29.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "ca-autos",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-14T03:11",
+   "dateLabel": "Nov 12–14, 2026 (ongoing)",
+   "headline": "Carney says Canada won’t sign a U.S. trade deal without a viable auto sector, as Ottawa and Ontario pitch Stellantis to keep Brampton open",
+   "deck": "Prime Minister Mark Carney said in Manila on Saturday that Canada will not settle for a U.S. trade deal that is not consistent with a viable Canadian auto sector, a day after Ottawa and Ontario said they had put an “aggressive package” to Stellantis to stop the sale of its Brampton plant.",
+   "summary": "Prime Minister Mark Carney said in Manila on Saturday that Canada will not settle for a U.S. trade deal that is not consistent with a viable Canadian auto sector, a day after Ottawa and Ontario said they had put an “aggressive package” to Stellantis to stop the sale of its Brampton plant. Carney called autos “one of the most challenging issues” in the talks but said progress was being made, and revealed a “long, substantive conversation” with President Trump this week with U.S. Trade Representative Jamieson Greer and chief of staff Stephen Miller on the line, The Canadian Press reported. He also said Ottawa was “not satisfied in any way” with Stellantis’s partial approach and expects it to respect its commitments to workers. On Friday, Industry Minister Mélanie Joly said the governments were “still in solution mode to prevent the sale” of the Brampton assembly plant to defence contractor Roshel, and that she, Unifor and Ontario’s Vic Fedeli would meet Stellantis global CEO Antonio Filosa to pitch scenarios to keep the plant “warm” until new products return, CBC News reported.",
+   "why": "Autos are where Canada’s U.S. trade fight hits workers hardest, and Brampton is the test of whether Ottawa can make a company that took public money keep its promises.",
+   "label": "Reported + official statement",
+   "note": "The details of the governments’ package were not made public. Continues coverage from the Nov 12 editions.",
+   "sources": [
+    {
+     "title": "Carney says Canada will only sign a U.S. trade deal that includes viable auto sector",
+     "site": "The Canadian Press via 980 CJME",
+     "date": "Nov 14, 2026",
+     "href": "https://www.cjme.com/2026/11/14/carney-says-canada-will-only-sign-a-u-s-trade-deal-that-includes-viable-auto-sector/"
+    },
+    {
+     "title": "Feds, Ontario offering Stellantis ‘aggressive package’ to keep Brampton auto plant open",
+     "site": "CBC News",
+     "date": "Nov 13, 2026",
+     "href": "https://www.cbc.ca/news/politics/joly-fedeli-stellantis-brampton-plant-package-9.7420849"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cjme.com/2026/11/14/carney-says-canada-will-only-sign-a-u-s-trade-deal-that-includes-viable-auto-sector/",
+     "publisher": "980 CJME (The Canadian Press)",
+     "published": "Nov 14, 2026, 3:11 AM ET; updated 5:26 AM ET",
+     "checkedAt": "2026-11-14T06:21:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Carney: will not settle for a deal not consistent with a viable auto sector; progress being made",
+      "Call with Trump with Greer and Miller on the line",
+      "Carney not satisfied with Stellantis’s partial approach"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/news/politics/joly-fedeli-stellantis-brampton-plant-package-9.7420849",
+     "publisher": "CBC News",
+     "published": "Nov 13, 2026, 1:04 PM ET; updated 3:15 PM ET",
+     "checkedAt": "2026-11-14T06:21:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Joly: “aggressive package” to Stellantis to prevent the sale; still in solution mode",
+      "Joly, Unifor and Fedeli to meet CEO Antonio Filosa; plant to be “kept warm”"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "ca-amazon",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-13T19:39",
+   "dateLabel": "Nov 13, 2026",
+   "headline": "B.C. arbitrator imposes what the union calls the first contract for Amazon workers in North America; Amazon calls it unfair",
+   "deck": "About 800 Amazon workers in Delta, B.C., are now covered by what their union, Unifor, says is the first binding collective agreement for the company’s workers in North America, after an independent arbitrator imposed a three-year deal on Friday.",
+   "summary": "About 800 Amazon workers in Delta, B.C., are now covered by what their union, Unifor, says is the first binding collective agreement for the company’s workers in North America, after an independent arbitrator imposed a three-year deal on Friday. Unifor says the contract raises hourly pay to $29 by its end, improves severance protection and adds a week of vacation for workers with 10 years of service. B.C.’s Labour Relations Board ruled in August that the dispute should be settled by binding arbitration, over Amazon’s objections. Amazon vice-president J. Ofori Agboka said the process was “improper, unfair and defies common sense,” that workers were not allowed to vote on the deal and that union dues could leave some taking home less, adding that the company would go to court if necessary, CBC News reported.",
+   "why": "Amazon has fought unions across North America, so a contract imposed in B.C. is a precedent labour groups elsewhere will cite — and one the company says it may challenge in court.",
+   "label": "Reported + official statement + claim",
+   "note": "Contract terms are as described by Unifor; Amazon disputes the process.",
+   "sources": [
+    {
+     "title": "B.C. arbitrator imposes 1st union contract for Amazon workers in North America",
+     "site": "CBC News (The Canadian Press)",
+     "date": "Nov 13, 2026",
+     "href": "https://www.cbc.ca/news/canada/british-columbia/amazon-union-contract-b-c-first-north-america-9.7421834"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/british-columbia/amazon-union-contract-b-c-first-north-america-9.7421834",
+     "publisher": "CBC News",
+     "published": "Nov 13, 2026, 7:39 PM ET",
+     "checkedAt": "2026-11-14T06:21:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "About 800 workers in Delta, B.C.; arbitrator imposed three-year deal Friday; Unifor and Amazon both confirmed",
+      "Unifor: $29/hour by the end, severance protections, extra vacation week",
+      "Amazon VP Agboka: process “improper, unfair”; may go to court; workers not allowed to vote"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "ca-davies",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-13T22:15",
+   "dateLabel": "Nov 13, 2026",
+   "headline": "Canada beats Guatemala 3-2 in the Nations League quarterfinal opener but loses captain Alphonso Davies to injury",
+   "deck": "Canada took a 3-0 halftime lead in Guatemala City and held on for a 3-2 first-leg win in the CONCACAF Nations League quarterfinal on Friday, but captain Alphonso Davies went off early with a lower-body injury.",
+   "summary": "Canada took a 3-0 halftime lead in Guatemala City and held on for a 3-2 first-leg win in the CONCACAF Nations League quarterfinal on Friday, but captain Alphonso Davies went off early with a lower-body injury. Tani Oluwaseyi, Liam Millar and Jonathan David scored in the first half; Guatemala pulled one back through Oscar Santis and a stoppage-time own goal made it 3-2, CBC Sports reported. Davies went down in the fifth minute after slipping in Canada’s penalty area, and assistant coach Mauro Biello said he would be assessed over the next couple of days. The Bayern Munich star missed most of this year’s World Cup with a hamstring injury. The second leg is at Toronto’s BMO Field on Monday night.",
+   "why": "Davies is Canada’s best player and has struggled with injuries this year, so the scan results matter as much as the scoreline before Monday’s second leg in Toronto.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Canada beats Guatemala in Nations League quarterfinal opener but loses captain Davies to injury",
+     "site": "CBC Sports",
+     "date": "Nov 13, 2026",
+     "href": "https://www.cbc.ca/sports/soccer/alphonso-davies-injury-nov-13-9.7422005"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/sports/soccer/alphonso-davies-injury-nov-13-9.7422005",
+     "publisher": "CBC Sports",
+     "published": "Nov 13, 2026, 10:15 PM ET; updated Nov 14, 12:53 AM ET",
+     "checkedAt": "2026-11-14T06:21:51-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Canada won 3-2 in Guatemala City; scorers Oluwaseyi, Millar, David",
+      "Davies went down in the fifth minute; lower-body injury to be assessed",
+      "Second leg Monday at BMO Field"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/ca-davies.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A soccer player in a red Canada kit looks to his side during a match",
+    "caption": "Alphonso Davies playing for Canada against Qatar at the FIFA World Cup, pictured in 2026.",
+    "credit": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AAlphonso_Davies_Canada_v_Qatar_18_June_2026-016.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "ca-bobmoses",
+   "region": "ca",
+   "topic": "culture",
+   "ts": "2026-11-13T11:11",
+   "dateLabel": "Nov 13, 2026",
+   "headline": "Vancouver duo Bob Moses’s song “Inner Light” goes viral after a Grand Theft Auto VI trailer",
+   "deck": "Canadian electronic duo Bob Moses say their 2021 collaboration with British musician Elderbrook, “Inner Light,” has picked up more than 50 million extra streams since it featured in an extended Grand Theft Auto VI trailer in late August.",
+   "summary": "Canadian electronic duo Bob Moses say their 2021 collaboration with British musician Elderbrook, “Inner Light,” has picked up more than 50 million extra streams since it featured in an extended Grand Theft Auto VI trailer in late August. Vancouver’s Tom Howie and Jimmy Vallance told The Canadian Press their manager got a request from Rockstar Games earlier this year with few details, and they “sort of forgot about it” until their phones lit up. The track plays under the trailer’s climactic speech about “glory days.” Spotify says streams surged 500% after the trailer dropped, with daily playlist additions up more than 3,000%. The duo said the licensing fee was modest — “not enough to remember,” Howie said. The game is set to arrive on Thursday.",
+   "why": "In the streaming era a single placement in a game or show can do more for a song than years of promotion — and the artists don’t always share much of the windfall.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "‘Grand Theft Auto VI’ turns Canadian duo Bob Moses’s song into a viral hit",
+     "site": "CTV News (The Canadian Press)",
+     "date": "Nov 13, 2026",
+     "href": "https://www.ctvnews.ca/world/article/grand-theft-auto-vi-turns-canadian-duo-bob-mosess-song-into-a-viral-hit/"
+    },
+    {
+     "title": "‘Grand Theft Auto VI’ turns Canadian duo Bob Moses’s song into a viral hit",
+     "site": "CityNews Toronto (The Canadian Press)",
+     "date": "Nov 13, 2026",
+     "href": "https://toronto.citynews.ca/2026/11/13/grand-theft-auto-vi-turns-canadian-duo-bob-mosess-song-into-a-viral-hit/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.ctvnews.ca/world/article/grand-theft-auto-vi-turns-canadian-duo-bob-mosess-song-into-a-viral-hit/",
+     "publisher": "CTV News",
+     "published": "Nov 13, 2026, 11:11 AM ET; updated 12:34 PM ET",
+     "checkedAt": "2026-11-14T06:22:04-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Page opened; headline and publication/update times confirmed"
+     ],
+     "limits": [
+      "Article body did not render in the automated fetch; claims checked against the identical Canadian Press copy on CityNews"
+     ]
+    },
+    {
+     "url": "https://toronto.citynews.ca/2026/11/13/grand-theft-auto-vi-turns-canadian-duo-bob-mosess-song-into-a-viral-hit/",
+     "publisher": "CityNews Toronto",
+     "published": "Nov 13, 2026, 10:29 AM ET; updated 12:07 PM ET",
+     "checkedAt": "2026-11-14T06:22:05-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "More than 50 million additional streams since the late-August trailer",
+      "Spotify: 500% surge, playlist additions up 3,000%+",
+      "Modest licensing fee; game arrives Thursday"
+     ],
+     "limits": []
+    }
+   ]
+  },
+  {
+   "id": "hk-gdp",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-11-13T05:23",
+   "dateLabel": "Nov 13, 2026",
+   "headline": "Hong Kong raises its 2026 growth forecast to 4.8% after the economy grows 5.2% in the third quarter",
+   "deck": "Hong Kong’s economy grew 5.2% year on year in the third quarter, the government said on Friday, as it raised its full-year growth forecast to 4.8% from a range of 3.5% to 4.5%.",
+   "summary": "Hong Kong’s economy grew 5.2% year on year in the third quarter, the government said on Friday, as it raised its full-year growth forecast to 4.8% from a range of 3.5% to 4.5%. Government Economist Irina Fan said growth over the first nine months reached 5.1%, the fastest pace for the period in five years, driven by a 30.3% jump in goods exports on strong global demand for AI-related electronics; private consumption rose 2.9%, its sixth straight quarter of growth. The forecast for underlying inflation was cut to 1.9%. Fan said the economy was “poised for a strong full-year performance” but that geopolitical tensions, U.S. monetary policy and trade protectionism warranted close monitoring.",
+   "why": "Hong Kong is riding the global AI hardware boom through its port and re-exports, which lifts the headline numbers — but it also ties the city’s fortunes to a single, volatile trade.",
+   "label": "Official figures",
+   "sources": [
+    {
+     "title": "Economy rises 5.2% in Q3",
+     "site": "news.gov.hk (Hong Kong government)",
+     "date": "Nov 13, 2026",
+     "href": "https://www.news.gov.hk/eng/2026/11/20261113/20261113_174802_390.html"
+    },
+    {
+     "title": "Govt raises full-year GDP growth forecast to 4.8pc",
+     "site": "RTHK",
+     "date": "Nov 13, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877720-20261113.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.news.gov.hk/eng/2026/11/20261113/20261113_174802_390.html",
+     "publisher": "news.gov.hk",
+     "published": "Nov 13, 2026",
+     "checkedAt": "2026-11-14T06:21:28-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Q3 real GDP +5.2% y/y; first three quarters +5.1%, fastest in five years",
+      "Goods exports +30.3% on AI-related electronics demand; private consumption +2.9%",
+      "Full-year forecast revised up to 4.8%; underlying inflation forecast revised down to 1.9%"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877720-20261113.htm",
+     "publisher": "RTHK",
+     "published": "Nov 13, 2026, 6:23 PM HKT",
+     "checkedAt": "2026-11-14T06:20:51-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Forecast raised to 4.8% from 3.5–4.5%",
+      "Fan quotes on outlook and external risks"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/hk-gdp.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A container terminal lit up at night with cranes along the waterfront",
+    "caption": "Terminal 9 of the Kwai Tsing Container Terminals in Hong Kong, pictured in 2011.",
+    "credit": "Mk2010",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AKwai_Tsing_Container_Terminals%2C_Terminal_9_%28Hong_Kong%29.jpg",
+    "isFilePhoto": true,
+    "year": 2011
+   }
+  },
+  {
+   "id": "hk-proxy",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-13T22:32",
+   "dateLabel": "Nov 14, 2026",
+   "headline": "Hong Kong plans stricter checks on proxy votes at flat owners’ meetings instead of a cap, home affairs chief says",
+   "deck": "Hong Kong will require both flat owners and their proxies to sign declarations and leave contact details, rather than capping how many proxy votes one person can hold, Secretary for Home and Youth Affairs Alice Mak said on Saturday.",
+   "summary": "Hong Kong will require both flat owners and their proxies to sign declarations and leave contact details, rather than capping how many proxy votes one person can hold, Secretary for Home and Youth Affairs Alice Mak said on Saturday. Speaking on an RTHK radio programme, Mak said a month-long consultation on changes to the Building Management Ordinance drew 550 written submissions, which broadly backed clearer thresholds for major maintenance works and stronger proxy rules. About half opposed a numerical cap on proxies as hard to enforce once forms are sealed and opened together. Under the plan, owners would declare they know about the meeting and agenda, and representatives would declare that the person authorising them is the genuine owner. “Verification is more effective than a prescribed cap,” Mak said.",
+   "why": "Owners’ corporation votes decide costly repair contracts, so how proxy votes are checked affects what many families end up paying for building works.",
+   "label": "Official statement",
+   "note": "These are proposals following consultation; they still need to go through legislation.",
+   "sources": [
+    {
+     "title": "Stiffer proxy checks set for flat owners’ votes",
+     "site": "RTHK",
+     "date": "Nov 14, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877791-20261114.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877791-20261114.htm",
+     "publisher": "RTHK",
+     "published": "Nov 14, 2026, 11:32 AM HKT",
+     "checkedAt": "2026-11-14T06:20:51-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Mak: verification regime for proxy votes; both parties sign and declare",
+      "550 written submissions; half opposed a proxy cap",
+      "“Verification is more effective than a prescribed cap”"
+     ],
+     "limits": [
+      "A South China Morning Post report on an electronic proxy-voting trial returned HTTP 403 to automated fetch (access limit) and is not cited"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/hk-proxy.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Tall residential towers lining a tree-shaded street in a Hong Kong estate",
+    "caption": "Residential towers along Taikoo Shing Road in Quarry Bay, Hong Kong, pictured in 2019.",
+    "credit": "Underwaterbuffalo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ATaikoo_Shing_Road_02.jpg",
+    "isFilePhoto": true,
+    "year": 2019
+   }
+  },
+  {
+   "id": "hk-flu",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-13T08:05",
+   "dateLabel": "Nov 13, 2026",
+   "headline": "A 14-month-old girl dies of influenza in Hong Kong, the city’s third child flu death this year",
+   "deck": "A previously healthy 14-month-old girl with severe influenza A died on Friday, Hong Kong’s Centre for Health Protection said, the third paediatric flu death in the city this year.",
+   "summary": "A previously healthy 14-month-old girl with severe influenza A died on Friday, Hong Kong’s Centre for Health Protection said, the third paediatric flu death in the city this year. RTHK said the toddler developed a fever and cough in late October and was taken to Tseung Kwan O Hospital after a convulsion, then moved to intensive care at United Christian Hospital. The CHP said 29 severe child flu cases have been recorded in the season that began in late June: 22 children have recovered, two are stable, two are critical and three have died. Flu activity has been declining but remains above baseline, and the centre said that last year unvaccinated children had about five times the rate of severe complications or death of vaccinated children. It urged everyone aged six months or older to get a seasonal flu shot.",
+   "why": "Hong Kong’s flu season has now run for more than four months, and the health authority’s own figures show vaccination sharply cuts the risk of severe illness in young children.",
+   "label": "Official statement",
+   "sources": [
+    {
+     "title": "Child previously reported as severe case of paediatric influenza infection passes away",
+     "site": "Hong Kong government press release (Centre for Health Protection)",
+     "date": "Nov 13, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/13/P2026111300663.htm"
+    },
+    {
+     "title": "14-month-old baby girl dies from flu",
+     "site": "RTHK",
+     "date": "Nov 13, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877739-20261113.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300663.htm",
+     "publisher": "Hong Kong government (CHP)",
+     "published": "Nov 13, 2026",
+     "checkedAt": "2026-11-14T06:21:08-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "14-month-old girl with influenza A died Nov 13; third paediatric flu death this year",
+      "29 severe cases this season: 22 recovered, 2 stable, 2 critical, 3 deaths",
+      "Unvaccinated children ~5x rate of severe complications or death last year; vaccination urged"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877739-20261113.htm",
+     "publisher": "RTHK",
+     "published": "Nov 13, 2026, 9:05 PM HKT",
+     "checkedAt": "2026-11-14T06:20:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Fever and cough in late October; Tseung Kwan O Hospital, then paediatric ICU at United Christian Hospital"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/hk-flu.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The ground-floor waiting area of a hospital with queue barriers and signs",
+    "caption": "Inside Tseung Kwan O Hospital in Hong Kong, pictured in 2024.",
+    "credit": "BIGA 200 KMW 688 ONA LLSBA",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHK_SKD_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%9D%91%E5%8F%A3_Hang_Hau_%E5%AF%B6%E5%AF%A7%E9%87%8C_Po_Ning_Lane_%E5%B0%87%E8%BB%8D%E6%BE%B3%E9%86%AB%E9%99%A2_Tseung_Kwan_O_Hospital_November_2024_R12S_11.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "hk-clockenflap",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-13T03:08",
+   "dateLabel": "Nov 13, 2026 (festival Dec 4–6)",
+   "headline": "Clockenflap adds Turnstile, Cheer Chen and Sofi Tukker to its December line-up on Hong Kong’s harbourfront",
+   "deck": "Hardcore punk band Turnstile, Mandarin music star Cheer Chen and dance-pop duo Sofi Tukker are among the final acts announced for Clockenflap, which runs at the Central Harbourfront from Dec. 4 to 6.",
+   "summary": "Hardcore punk band Turnstile, Mandarin music star Cheer Chen and dance-pop duo Sofi Tukker are among the final acts announced for Clockenflap, which runs at the Central Harbourfront from Dec. 4 to 6. The final line-up also adds folk-rock duo Wu Tiao Ren, Mandopop singer-songwriter Hush, local post-punk band N.Y.P.D., Jane Remover and rapper Luci Gang, plus Goodnight Lillie, throat-singing ensemble Huun-Huur-Tu, Cath Wong and Kowloon K, Hong Kong Free Press reported. They join previously announced acts including Hayley Williams, Queens of the Stone Age, keshi, Slowdive, HYUKOH, The Jesus and Mary Chain and Digable Planets.",
+   "why": "Clockenflap, which bills itself as Asia’s premier music and arts event, mixes global rock names with Mandopop and local bands — a draw for young audiences across the region.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Clockenflap 2026 final line-up: Turnstile, Cheer Chen, Sofi Tukker, Jane Remover, N.Y.P.D.",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 13, 2026",
+     "href": "https://hongkongfp.com/2026/11/13/clockenflap-2026-final-line-up-turnstile-cheer-chen-sofi-tukker-jane-remover-n-y-p-d/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/13/clockenflap-2026-final-line-up-turnstile-cheer-chen-sofi-tukker-jane-remover-n-y-p-d/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 13, 2026, 8:08 AM GMT",
+     "checkedAt": "2026-11-14T06:21:00-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Final line-up acts; festival Dec 4–6 at the Central Harbourfront",
+      "Earlier announced acts"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/hk-clockenflap.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "An open waterfront lawn by Victoria Harbour with a Ferris wheel and skyscrapers behind",
+    "caption": "The Central Harbourfront Event Space in Hong Kong, pictured in 2018.",
+    "credit": "Msiuurjcos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ACentral_Harbourfront_Event_Space%2C_Hong_Kong.jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "hk-para",
+   "region": "hk",
+   "topic": "sports",
+   "ts": "2026-11-12T23:44",
+   "dateLabel": "Nov 13, 2026",
+   "headline": "Hong Kong’s team returns from the Asian Para Games with 41 medals, led by boccia’s best-ever result",
+   "deck": "Hong Kong athletes won three golds, 14 silvers and 24 bronzes at the fifth Asian Para Games, Chief Executive John Lee said at a homecoming commendation ceremony on Friday.",
+   "summary": "Hong Kong athletes won three golds, 14 silvers and 24 bronzes at the fifth Asian Para Games, Chief Executive John Lee said at a homecoming commendation ceremony on Friday. The boccia team recorded its best-ever result with two golds, three silvers and three bronzes, swimmers took one gold, three silvers and five bronzes, and the table tennis team collected 15 medals, RTHK reported. More than 150 people, including 80 athletes, competed in 10 sports. Lee said the government is giving the Hong Kong Sports Institute about HK$71 million in 2026–27 to train elite athletes with disabilities, more than 50% higher than five years ago. The ceremony was held at the Ma On Shan Sports Centre.",
+   "why": "Para sport rarely gets the spotlight in Hong Kong, but a 41-medal haul and rising funding show how far the programme has come.",
+   "label": "Official statement",
+   "sources": [
+    {
+     "title": "CE hails the SAR’s 41 medals at Asian Para Games",
+     "site": "RTHK",
+     "date": "Nov 13, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877678-20261113.htm"
+    },
+    {
+     "title": "Commendation Ceremony for Hong Kong, China Delegation to 5th Asian Para Games held today",
+     "site": "Hong Kong government press release",
+     "date": "Nov 13, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/13/P2026111300361.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877678-20261113.htm",
+     "publisher": "RTHK",
+     "published": "Nov 13, 2026, 12:44 PM HKT",
+     "checkedAt": "2026-11-14T06:20:51-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "41 medals: 3 gold, 14 silver, 24 bronze",
+      "Boccia best-ever 2-3-3; swimming 1-3-5; table tennis 15 medals",
+      "About HK$71m for HKSI para training in 2026–27"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300361.htm",
+     "publisher": "Hong Kong government",
+     "published": "Nov 13, 2026",
+     "checkedAt": "2026-11-14T06:21:16-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Commendation ceremony at Ma On Shan Sports Centre on Nov 13 officiated by John Lee"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/hk-para.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The modern grey exterior of a sports centre with large windows",
+    "caption": "The Ma On Shan Sports Centre in Hong Kong, pictured in 2025.",
+    "credit": "Tombus20032000",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMa_On_Shan_Sports_Centre_2025.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "cn-trilateral",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-14T06:18",
+   "dateLabel": "Nov 13–14, 2026 (meeting planned for Nov 19)",
+   "headline": "Trump, Xi and Putin plan their first three-way meeting in Shenzhen on Thursday, with nuclear arms on the agenda, White House says",
+   "deck": "President Trump, Chinese President Xi Jinping and Russian President Vladimir Putin plan to meet together on the sidelines of the APEC summit in Shenzhen next week, the White House said — the first such three-way meeting of the three leaders.",
+   "summary": "President Trump, Chinese President Xi Jinping and Russian President Vladimir Putin plan to meet together on the sidelines of the APEC summit in Shenzhen next week, the White House said — the first such three-way meeting of the three leaders. Spokeswoman Olivia Wales said Trump would discuss “the reduction of nuclear weapons in the world,” whose proliferation he considers very dangerous. A senior U.S. official told reporters Trump intends to raise the Iran war, but Russia’s war in Ukraine is not expected to be discussed, CBS News reported; the BBC said no agreement was expected from the talks, citing an unnamed senior official. Trump is due to arrive in Shenzhen late on Wednesday and also hold bilateral talks with Xi on Thursday, their fourth meeting since he returned to office. Moscow and Beijing had not commented, the BBC said.",
+   "why": "A meeting of the three biggest nuclear powers is rare and symbolic; even without a deal, what they say about arms control, Iran and each other will set the mood for the APEC summit and for U.S.–China relations.",
+   "label": "Official statement + unnamed sources",
+   "note": "The meeting is planned, not yet held. China and Russia had not publicly confirmed it in the reports read.",
+   "sources": [
+    {
+     "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+     "site": "BBC News",
+     "date": "Nov 14, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do"
+    },
+    {
+     "title": "Trump, Putin and Xi Jinping expected to meet in first-ever trilateral of its kind, officials say",
+     "site": "CBS News",
+     "date": "Nov 14, 2026",
+     "href": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/"
+    },
+    {
+     "title": "White House says trilateral meeting on for Shenzhen",
+     "site": "RTHK",
+     "date": "Nov 14, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877806-20261114.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do",
+     "publisher": "BBC News",
+     "published": "Nov 14, 2026, 2:05 AM GMT; updated 5:52 AM GMT",
+     "checkedAt": "2026-11-14T06:20:41-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "White House spokeswoman Olivia Wales announced the meeting on APEC sidelines in Shenzhen",
+      "No agreement expected per unnamed senior US official; Moscow and Beijing yet to comment",
+      "Trump arrives late Wednesday; bilateral with Xi Thursday, their fourth meeting"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/",
+     "publisher": "CBS News",
+     "published": "Nov 14, 2026, 5:59 AM ET; updated 6:18 AM ET",
+     "checkedAt": "2026-11-14T06:20:42-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "First three-way meeting; trilateral talks Thursday",
+      "Senior official: Trump intends to discuss Iran; Ukraine not expected"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877806-20261114.htm",
+     "publisher": "RTHK (AFP)",
+     "published": "Nov 14, 2026, 2:54 PM HKT",
+     "checkedAt": "2026-11-14T06:20:43-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "White House: three-way meeting on APEC sidelines in Shenzhen; nuclear arms reduction"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/cn-trilateral.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A city skyline of high-rise towers behind a civic centre and gardens under hazy skies",
+    "caption": "Shenzhen’s Civic Centre and Futian business district seen from Lianhuashan Park, pictured in 2025.",
+    "credit": "Pathfinbird",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ACivic_Centre_and_Futian_CBD%2C_Shenzhen_-_20251227%2C_views_from_Lianhuashan_Park.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "cn-trade",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-14T03:34",
+   "dateLabel": "Nov 13–14, 2026",
+   "headline": "China and the U.S. hold their first trade council meeting by video, discussing tariff cuts and farm trade ahead of the Xi–Trump summit",
+   "deck": "China and the United States discussed tariffs, a reciprocal “$30 billion-for-$30 billion” tariff-cut arrangement and agricultural trade at the first meeting of a new trade council on Friday, China’s Commerce Ministry said on Saturday.",
+   "summary": "China and the United States discussed tariffs, a reciprocal “$30 billion-for-$30 billion” tariff-cut arrangement and agricultural trade at the first meeting of a new trade council on Friday, China’s Commerce Ministry said on Saturday. The ministry described “candid, in-depth and constructive” exchanges held by video link but did not say whether any agreements were reached, Reuters reported via CNA. After the September Xi–Trump summit in Washington, the two sides proposed a $60 billion package of reciprocal tariff cuts, including about $17 billion of U.S. farm goods, but it has not been finalised; a Reuters analysis of customs data found Chinese purchases of U.S. farm goods other than soybeans heading for a seven-year low. China Daily, a state-run paper, quoted the ministry as saying the work would help build “a constructive China-US relationship of strategic stability.”",
+   "why": "Tariff cuts and farm purchases are the concrete business behind next week’s summit headlines; if the $60 billion package stays stuck, the leaders’ meeting has less to show.",
+   "label": "Official statement + reported + state media",
+   "note": "The readout is China’s; no U.S. statement on the meeting was cited in the reports read.",
+   "sources": [
+    {
+     "title": "China, US discuss tariffs, farm trade at first trade council meeting",
+     "site": "CNA (Reuters)",
+     "date": "Nov 14, 2026",
+     "href": "https://www.channelnewsasia.com/east-asia/china-us-tariffs-trade-council-meeting-6551456"
+    },
+    {
+     "title": "China, US discuss tariffs, farm trade at first trade council meeting",
+     "site": "China Daily (state media)",
+     "date": "Nov 14, 2026",
+     "href": "https://www.chinadaily.com.cn/a/202611/14/WS6af816b7e4b03ebf8519c610.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.channelnewsasia.com/east-asia/china-us-tariffs-trade-council-meeting-6551456",
+     "publisher": "CNA (Reuters)",
+     "published": "Nov 14, 2026, 4:34 PM SGT",
+     "checkedAt": "2026-11-14T06:23:23-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "First trade council meeting Friday; ministry statement Saturday",
+      "Topics: tariffs, $30bn-for-$30bn arrangement, farm trade; no word on agreements",
+      "$60bn package not finalised; non-soybean farm purchases on track for seven-year low"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.chinadaily.com.cn/a/202611/14/WS6af816b7e4b03ebf8519c610.html",
+     "publisher": "China Daily (state media)",
+     "published": "Nov 14, 2026, 4:07 PM BJT",
+     "checkedAt": "2026-11-14T06:23:23-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Held via video link; “candid, in-depth and constructive”",
+      "“Strategic stability” language from ministry statement"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/cn-trade.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "An aerial view of a huge container port with stacks of shipping containers and cranes by the sea",
+    "caption": "Yantian port in Shenzhen seen from above, pictured in 2015.",
+    "credit": "Gigel.atat",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AYantian-port_from_above.jpg",
+    "isFilePhoto": true,
+    "year": 2015
+   }
+  },
+  {
+   "id": "cn-lilly",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-13T01:48",
+   "dateLabel": "Nov 12–13, 2026",
+   "headline": "China approves Eli Lilly’s orforglipron, the country’s first GLP-1 weight-loss pill, ahead of Novo Nordisk",
+   "deck": "China’s National Medical Products Administration has approved Eli Lilly’s once-daily pill orforglipron for adults with obesity, or overweight with at least one weight-related condition, making it the first oral GLP-1 weight-loss drug cleared in the country.",
+   "summary": "China’s National Medical Products Administration has approved Eli Lilly’s once-daily pill orforglipron for adults with obesity, or overweight with at least one weight-related condition, making it the first oral GLP-1 weight-loss drug cleared in the country. Lilly China announced the approval on Nov. 12, Yicai reported; the drug will be sold there as “Muyouda,” according to AFP via RTHK. GLP-1 injections from Lilly, Novo Nordisk and China’s Innovent are already widely available in China, and Lilly says a pill helps patients who avoid needles or struggle with refrigerated storage. Orforglipron was approved in the U.S. in April. A 2025 Lancet study projected that 630 million Chinese adults could be overweight or obese by 2050.",
+   "why": "China has the world’s largest population of overweight adults, so being first there with a weight-loss pill is a major commercial win — and a sign of how quickly these drugs are moving beyond injections.",
+   "label": "Reported + company statement",
+   "sources": [
+    {
+     "title": "Bitter pill for rivals as Eli Lilly scores China first",
+     "site": "RTHK (AFP)",
+     "date": "Nov 13, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877688-20261113.htm"
+    },
+    {
+     "title": "Lilly wins China’s first approval for weight-loss pill",
+     "site": "Yicai Global",
+     "date": "Nov 13, 2026",
+     "href": "https://www.yicaiglobal.com/news/lilly-wins-approval-for-chinas-first-oral-glp-1-weight-loss-drug"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877688-20261113.htm",
+     "publisher": "RTHK (AFP)",
+     "published": "Nov 13, 2026, 2:48 PM HKT",
+     "checkedAt": "2026-11-14T06:20:51-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "NMPA approved orforglipron (“Muyouda”) for obese/overweight adults with a weight-related condition",
+      "First oral GLP-1 weight-loss drug in China, ahead of Novo Nordisk",
+      "Lancet 2025 projection: 630m overweight/obese adults by 2050"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.yicaiglobal.com/news/lilly-wins-approval-for-chinas-first-oral-glp-1-weight-loss-drug",
+     "publisher": "Yicai Global",
+     "published": "Nov 13, 2026",
+     "checkedAt": "2026-11-14T06:23:23-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Lilly China announced the approval Nov 12; Class 1 new drug",
+      "US FDA approval in April; once-daily pill"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/cn-lilly.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The stone entrance of an older corporate building with the Lilly name above the doors",
+    "caption": "An entrance at Eli Lilly’s corporate headquarters in Indianapolis, pictured in 2011.",
+    "credit": "Paul Sableman",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALilly_-_Building_44.jpg",
+    "isFilePhoto": true,
+    "year": 2011
+   }
+  },
+  {
+   "id": "cn-drama",
+   "region": "cn",
+   "topic": "culture",
+   "ts": "2026-11-13T03:25",
+   "dateLabel": "Nov 13, 2026",
+   "headline": "An AI-made Song dynasty time-travel micro-drama by six amateurs passes 12 billion views in China",
+   "deck": "“Armed Into the Song Dynasty,” an AI-generated short drama made by a six-person team of amateurs including a former rideshare driver and a stay-at-home mother, has drawn more than 12 billion views across Chinese platforms, Sixth Tone reported.",
+   "summary": "“Armed Into the Song Dynasty,” an AI-generated short drama made by a six-person team of amateurs including a former rideshare driver and a stay-at-home mother, has drawn more than 12 billion views across Chinese platforms, Sixth Tone reported. First released in August, the series already runs to 10 seasons and about 1,000 three-minute episodes, following five modern soldiers who travel back to the late Northern Song dynasty with their weapons. Fans have praised its script, fight scenes and historical detail. The team, who met in an online course on making AI dramas, told domestic media it cost about 1 million yuan ($150,000) to produce. China released 490,000 micro-dramas in the first nine months of this year, and AI-generated productions now make up more than 90% of such content, according to an October report by the broadcasting regulator.",
+   "why": "China’s micro-drama boom is now largely AI-made, and a hit from a team of amateurs shows how cheap tools are changing who gets to make screen entertainment — a shift actors and writers everywhere are watching.",
+   "label": "Reported + official figures",
+   "note": "View counts are platform totals cited by local media. Related: the regulator’s crackdown on vulgar AI micro-dramas (Nov 9 edition).",
+   "sources": [
+    {
+     "title": "China’s short dramas see quality shift with AI-made historical hit",
+     "site": "Sixth Tone",
+     "date": "Nov 13, 2026",
+     "href": "https://www.sixthtone.com/news/1019262"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.sixthtone.com/news/1019262",
+     "publisher": "Sixth Tone",
+     "published": "Nov 13, 2026, 12:25 AM PST",
+     "checkedAt": "2026-11-14T06:22:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "12 billion+ views; 10 seasons, ~1,000 three-minute episodes since August",
+      "Six-person amateur team; ~1 million yuan cost",
+      "490,000 micro-dramas in nine months; AI-made >90% per NRTA October report"
+     ],
+     "limits": [
+      "Sixth Tone is published by a state-owned Shanghai media group"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/cn-drama.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Detail of a classical Chinese painting showing a crowded arched wooden bridge over a river with boats",
+    "caption": "Detail of “Along the River During the Qingming Festival,” a 12th-century scroll attributed to the Song dynasty painter Zhang Zeduan.",
+    "credit": "Zhang Zeduan",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AQingming_shanghe_tu_bridge.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AQingming_shanghe_tu_bridge.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "cn-nvidia",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-13T21:02",
+   "dateLabel": "Nov 13, 2026 (ongoing)",
+   "headline": "Nvidia spy scandal reaches Trump’s cabinet: Bessent blames Lutnick’s department over chip sales to China-linked Megaspeed",
+   "deck": "Treasury Secretary Scott Bessent said other agencies had wanted Singapore-based Megaspeed put on the U.S. export blacklist “for months” but that “Commerce has the pen,” as Commerce Secretary Howard Lutnick agreed to testify to the Senate on Dec. 10.",
+   "summary": "Treasury Secretary Scott Bessent said other agencies had wanted Singapore-based Megaspeed put on the U.S. export blacklist “for months” but that “Commerce has the pen,” as Commerce Secretary Howard Lutnick agreed to testify to the Senate on Dec. 10, according to a U.S. official cited by CBS News. Megaspeed was previously led by Alice Huang, the suspected Chinese spy who had an affair with Jensen Huang, who was ousted as Nvidia’s CEO; U.S. authorities suspect the firm of routing advanced Nvidia chips to China around an export ban, CBS reported. A growing number of Republicans want Lutnick to explain the apparent delay in adding Megaspeed to the Entity List; Sen. Jim Banks said Commerce “used loopholes” to let some sales happen. Bessent declined to comment on reported tensions with Lutnick, and Commerce did not immediately respond to CBS. China’s foreign ministry has called the spy narrative “entirely baseless,” and U.S. officials told CNBC that Trump does not plan to raise the issue on his China trip.",
+   "why": "The fight is now about who in Washington let advanced AI chips slip toward China — and it lands days before Trump meets Xi, even though officials say it won’t be on the table.",
+   "label": "Reported + official statement + allegation",
+   "note": "The spying allegations against Alice Huang have not been proven in court, and China denies them.",
+   "sources": [
+    {
+     "title": "Lutnick agrees to testify as Bessent blames him for not banning Nvidia chip exports to China-linked firm",
+     "site": "CBS News",
+     "date": "Nov 13, 2026",
+     "href": "https://www.cbsnews.com/news/howard-lutnick-scott-bessent-nvidia-megaspeed-testimony/"
+    },
+    {
+     "title": "Bessent blames Lutnick’s department for Nvidia chip sales to Megaspeed",
+     "site": "BBC News",
+     "date": "Nov 13, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro"
+    },
+    {
+     "title": "Trump won’t raise Nvidia, Huang spy issue during China trip",
+     "site": "CNBC",
+     "date": "Nov 13, 2026",
+     "href": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html"
+    },
+    {
+     "title": "China slams ‘baseless’ claims it spied on Nvidia boss",
+     "site": "RTHK (AFP)",
+     "date": "Nov 9, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1877131-20261109.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbsnews.com/news/howard-lutnick-scott-bessent-nvidia-megaspeed-testimony/",
+     "publisher": "CBS News",
+     "published": "Nov 13, 2026, 10:13 AM ET; updated 9:02 PM ET",
+     "checkedAt": "2026-11-14T06:20:42-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Lutnick agreed to testify to Senate Banking on Dec. 10 (per a US official)",
+      "Megaspeed previously led by Alice Huang; suspected of routing Nvidia chips to China",
+      "Bessent: “Commerce has the pen”; Banks “loopholes” quote; Commerce did not respond"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro",
+     "publisher": "BBC News",
+     "published": "Nov 13, 2026, 3:04 PM GMT; updated 7:53 PM GMT",
+     "checkedAt": "2026-11-14T06:20:41-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Bessent blamed Commerce for export oversight; Huang ousted as Nvidia CEO",
+      "Megaspeed was not on the Entity List"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+     "publisher": "CNBC",
+     "published": "Nov 14, 2026, 12:11 AM GMT; updated 1:34 AM GMT",
+     "checkedAt": "2026-11-14T06:31:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Senior US officials: Trump not expected to raise the Nvidia spy allegations with Xi"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877131-20261109.htm",
+     "publisher": "RTHK (AFP)",
+     "published": "Nov 9, 2026, 4:21 PM HKT",
+     "checkedAt": "2026-11-14T06:31:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Foreign ministry spokesman Guo Jiakun: “so-called Chinese spy” narrative “entirely baseless”"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/cn-nvidia.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A smiling man with grey hair and a beard in a suit",
+    "caption": "Commerce Secretary Howard Lutnick at his swearing-in at the White House, pictured in 2025.",
+    "credit": "The White House",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AHoward_Lutnick_%28cropped%29.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHoward_Lutnick_%28cropped%29.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "w-ukraine",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-14T05:30",
+   "dateLabel": "Nov 13–14, 2026 (ongoing)",
+   "headline": "Zelensky says U.S. negotiators floated NATO membership for Ukraine in exchange for withdrawing from the Donbas",
+   "deck": "Ukrainian President Volodymyr Zelensky said U.S. negotiators had raised, for the first time, the idea of Ukraine pulling its forces out of the parts of the eastern Donbas region it still holds in return for NATO membership.",
+   "summary": "Ukrainian President Volodymyr Zelensky said U.S. negotiators had raised, for the first time, the idea of Ukraine pulling its forces out of the parts of the eastern Donbas region it still holds in return for NATO membership. “The Americans raised a question: ‘What if Ukraine joins Nato? Would Ukraine withdraw from Donbas?’” Zelensky told reporters, according to the BBC. He said that if a proposal came with security guarantees from NATO and the EU, no limits on Ukraine’s military and funding for reconstruction, he would put it to Ukrainians in a referendum, the BBC and the Kyiv Independent reported. The comments follow U.S. envoys Jared Kushner and Steve Witkoff’s talks with Vladimir Putin in Moscow and with Zelensky in Dublin this week. U.S. officials had previously said NATO membership for Ukraine was off the table, and Russia has said another NATO member on its border is unacceptable; Zelensky cautioned that “this is an extremely difficult conversation.”",
+   "why": "Trading land for NATO membership would be a major shift for both Kyiv and Washington, but it only matters if Moscow, which rejects Ukraine in NATO, can be brought to accept it — and if Ukrainians vote for it.",
+   "label": "Reported + claim",
+   "note": "This is Zelensky’s account; no U.S. confirmation of the idea was cited in the reports read. The BBC dates the remarks to Saturday; the Kyiv Independent to Nov 13.",
+   "sources": [
+    {
+     "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+     "site": "BBC News",
+     "date": "Nov 14, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo"
+    },
+    {
+     "title": "US floats NATO membership for Ukraine in exchange for Donbas withdrawal, Zelensky says",
+     "site": "The Kyiv Independent",
+     "date": "Nov 14, 2026",
+     "href": "https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo",
+     "publisher": "BBC News",
+     "published": "Nov 14, 2026, 10:30 AM GMT",
+     "checkedAt": "2026-11-14T06:22:04-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Zelensky: US raised Donbas withdrawal for NATO membership for the first time",
+      "Referendum if proposal includes guarantees, no army limits, rebuilding funds",
+      "Kushner and Witkoff met Putin in Moscow and Zelensky in Dublin; US had said NATO was off the table"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/",
+     "publisher": "The Kyiv Independent",
+     "published": "Nov 14, 2026, 11:11 AM GMT",
+     "checkedAt": "2026-11-14T06:22:23-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Same Zelensky quote; security package with NATO and EU guarantees; referendum"
+     ],
+     "limits": [
+      "Dates the remarks to Nov 13; the BBC says Saturday"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/w-ukraine.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Volodymyr Zelensky and Ursula von der Leyen speaking at lecterns in front of Ukrainian and EU flags",
+    "caption": "Volodymyr Zelensky with European Commission President Ursula von der Leyen in Brussels, pictured in 2025.",
+    "credit": "Dati Bendo / European Union, 2025",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3APress_conference_of_Volodymyr_Zelensky_and_Ursula_von_der_Leyen_at_the_EC_-_2025_%282%29.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "w-hungary",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-14T05:42",
+   "dateLabel": "Nov 12–14, 2026",
+   "headline": "Hungarian investigators find nearly $20 million in cash buried in forests and hidden in buildings in a probe of an Orbán-era minister",
+   "deck": "Hungary’s new anti-graft agency said it found $19.5 million in cash — some dug up in woodland — during two days of searches tied to bribery allegations against former development minister Miklós Seszták, who denies wrongdoing.",
+   "summary": "Hungary’s new anti-graft agency said it found $19.5 million in cash — some dug up in woodland — during two days of searches tied to bribery allegations against former development minister Miklós Seszták, who denies wrongdoing. The National Asset Recovery and Protection Office said investigators found banknotes buried in forests, hidden in farm, warehouse and residential buildings and stored in safes in secluded locations, and deposited the money in the state treasury, the BBC and the Guardian reported. Seszták, minister from 2014 to 2018, is accused of taking bribes in a scheme involving the state transport company’s purchase of second-hand buses at inflated prices. Prime Minister Péter Magyar, who ousted Viktor Orbán in an April landslide on an anti-corruption platform, called it the end of the “mafia.” Seszták, another former minister and former central bank chief György Matolcsy have been under arrest since September in separate graft cases, which they deny, and Orbán’s brother was detained this week in a people-smuggling case; Orbán called that detention political revenge.",
+   "why": "Hungary’s new government promised to dismantle Orbán-era cronyism, and buried cash makes a vivid case — but courts, not raids, will decide whether the accusations hold up.",
+   "label": "Reported + official statement + allegation",
+   "note": "Seszták has not been convicted and denies wrongdoing.",
+   "sources": [
+    {
+     "title": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
+     "site": "BBC News",
+     "date": "Nov 14, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo"
+    },
+    {
+     "title": "Hungary seizes $19.5m in cash found buried in forests amid graft inquiry",
+     "site": "The Guardian",
+     "date": "Nov 13, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo",
+     "publisher": "BBC News",
+     "published": "Nov 14, 2026, 10:42 AM GMT",
+     "checkedAt": "2026-11-14T06:22:04-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Nearly $20m found; Seszták accused of bribes involving state transport company; denies wrongdoing",
+      "NVVH statement; money deposited in state treasury; Magyar “mafia” remark",
+      "Two ex-ministers and Matolcsy under arrest since September, deny wrongdoing; Orbán’s brother detained Monday; Orbán: political revenge"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry",
+     "publisher": "The Guardian",
+     "published": "Nov 13, 2026, 10:12 PM GMT",
+     "checkedAt": "2026-11-14T06:22:23-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "$19.5m seized; searches Thursday and Friday",
+      "Second-hand buses at inflated prices; Seszták minister 2014–2018"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/w-hungary.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A large crowd gathered in front of Hungary’s ornate Gothic Revival parliament building",
+    "caption": "Crowds outside Hungary’s Parliament in Budapest during a speech by Péter Magyar at the opening of the new parliament, pictured in 2026.",
+    "credit": "Elekes Andor",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMagyar_P%C3%A9ter_besz%C3%A9de_az_Orsz%C3%A1ggy%C5%B1l%C3%A9s_megalakul%C3%A1sa_alkalm%C3%A1b%C3%B3l_%281%29.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "w-hormuz",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-14T02:46",
+   "dateLabel": "Nov 13–14, 2026",
+   "headline": "At least 25 seafarers have been killed in and around the Strait of Hormuz since the Iran war began, UN official tells Security Council",
+   "deck": "A senior UN official told the Security Council on Friday that at least 25 seafarers have been killed in and around the Strait of Hormuz since the U.S.-Israeli war on Iran began in February, with attacks on shipping rising.",
+   "summary": "A senior UN official told the Security Council on Friday that at least 25 seafarers have been killed in and around the Strait of Hormuz since the U.S.-Israeli war on Iran began in February, with attacks on shipping rising. Assistant Secretary-General Khaled Khiari said the figures run to Nov. 11 and that “this situation cannot be allowed to become the new normal,” Al Jazeera reported. The UN’s International Maritime Organization has tracked 136 security incidents involving ships in Hormuz and the wider Middle East since March 1, including 35 in October — the most of any month — and 10 so far in November. Iranian authorities said on Saturday that three oil tankers hit mines in “restricted” areas and caught fire; the U.S. military says it has cleared the main routes. Shipping through the strait is about 65% below pre-war levels, according to the UK Maritime Trade Operations.",
+   "why": "Merchant crews are paying with their lives for a war they are not part of, and every disruption in Hormuz feeds into fuel, food and shipping prices worldwide.",
+   "label": "Official statement + reported + claim",
+   "note": "Iran’s account of the tanker mine strikes and the U.S. account of cleared routes are each side’s claims.",
+   "sources": [
+    {
+     "title": "UN says 25 seafarers killed in, around Hormuz since US-Israel war on Iran",
+     "site": "Al Jazeera",
+     "date": "Nov 14, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february"
+    },
+    {
+     "title": "Security Council LIVE: Fragile Gulf calm tested as threats to Hormuz shipping mount",
+     "site": "UN News",
+     "date": "Nov 13, 2026",
+     "href": "https://news.un.org/en/story/2026/11/1168804"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february",
+     "publisher": "Al Jazeera",
+     "published": "Nov 14, 2026, 7:46 AM GMT",
+     "checkedAt": "2026-11-14T06:22:04-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Khiari: at least 25 seafarers killed through Nov 11",
+      "IMO: 136 incidents since March 1; 35 in October, 10 in November",
+      "Iran: three tankers hit mines Saturday; US says main routes cleared; traffic ~65% below pre-war (UKMTO)"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://news.un.org/en/story/2026/11/1168804",
+     "publisher": "UN News",
+     "published": "Nov 13, 2026, 2:33 PM ET (live page)",
+     "checkedAt": "2026-11-14T06:22:23-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Security Council met at Bahrain’s request on regional and maritime security; attacks on shipping rising"
+     ],
+     "limits": [
+      "Live page; the 25-deaths figure was confirmed in the Al Jazeera report, not in the excerpt of the live page read"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/w-hormuz.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A satellite view of a narrow strait between desert coastlines and blue water",
+    "caption": "The Strait of Hormuz between Iran and the Musandam Peninsula, in a NASA satellite image from 2020.",
+    "credit": "MODIS Land Rapid Response Team, NASA GSFC",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AStrait_of_Hormuz_%28MODIS_2020-12-04%29.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AStrait_of_Hormuz_%28MODIS_2020-12-04%29.jpg",
+    "isFilePhoto": true,
+    "year": 2020
+   }
+  },
+  {
+   "id": "w-pope",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-13T13:34",
+   "dateLabel": "Nov 7–13, 2026 (ongoing tour)",
+   "headline": "Pope Leo XIV celebrates Mass near Chiclayo, the Peruvian city where he served as bishop, before a crowd the Vatican puts at 1.5 million",
+   "deck": "Pope Leo XIV celebrated Mass on Friday in Pimentel, about 10 km from Chiclayo in northern Peru, where he was bishop from 2015 to 2023, as part of his first tour of Latin America.",
+   "summary": "Pope Leo XIV celebrated Mass on Friday in Pimentel, about 10 km from Chiclayo in northern Peru, where he was bishop from 2015 to 2023, as part of his first tour of Latin America. The Vatican estimated more than 1.5 million people gathered, some arriving 12 hours early to keep vigil, the BBC reported. The Pope, who holds Peruvian citizenship, thanked the crowd for their prayers “for my health during this time of trial,” which the BBC said referred to the surgery he had for lung cancer weeks ago. Peru is the longest stop on a tour that has also taken in Argentina and Uruguay. Locals recalled him helping launch soup kitchens during the Covid-19 pandemic and riding horseback through floodwaters.",
+   "why": "The first pope from the Americas returning to the poor, flood-prone region that shaped him is a deeply emotional moment for Peru — and a sign he is keeping up a demanding schedule after surgery.",
+   "label": "Reported + official statement",
+   "note": "The crowd figure is the Vatican’s estimate. Continues coverage from the Nov 7 and Nov 12 editions.",
+   "sources": [
+    {
+     "title": "Pope Leo visits the Peruvian city that has embraced him as one of its own",
+     "site": "BBC News",
+     "date": "Nov 13, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo",
+     "publisher": "BBC News",
+     "published": "Nov 13, 2026, 6:34 PM GMT",
+     "checkedAt": "2026-11-14T06:22:05-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Mass Friday in Pimentel, ~10km from Chiclayo; Vatican estimate 1.5m+",
+      "Health remark referencing lung-cancer surgery weeks ago",
+      "Bishop of Chiclayo 2015–2023; Peruvian citizen; tour also Argentina, Uruguay"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/w-pope.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The yellow-and-white neoclassical facade of a cathedral with twin bell towers under a blue sky",
+    "caption": "The Cathedral of Chiclayo in northern Peru, pictured in 2018.",
+    "credit": "Marco Chuica Rodríguez",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ACatedral_de_Chiclayo_%28Santa_Mar%C3%ADa_Catedral%29.jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "w-svitolina",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-14T05:03",
+   "dateLabel": "Nov 13–14, 2026 (semifinals scheduled Nov 14)",
+   "headline": "Svitolina knocks Sabalenka out of the WTA Finals; Canada’s Dabrowski and partner Stefani reach the doubles semifinals",
+   "deck": "Ukraine’s Elina Svitolina beat second seed Aryna Sabalenka 6-3, 3-6, 6-1 at the WTA Finals in Indian Wells on Friday to reach the semifinals, where she is scheduled to face Wimbledon champion Linda Noskova on Saturday.",
+   "summary": "Ukraine’s Elina Svitolina beat second seed Aryna Sabalenka 6-3, 3-6, 6-1 at the WTA Finals in Indian Wells on Friday to reach the semifinals, where she is scheduled to face Wimbledon champion Linda Noskova on Saturday. Svitolina broke Sabalenka six times and won on her fourth match point, her first win over the Belarusian in more than six years; she again did not shake hands, keeping her policy toward Russian and Belarusian players since Russia’s invasion of Ukraine, Al Jazeera reported. Sabalenka made 35 errors and did not speak to the media afterward, CBC Sports said. In doubles, top seeds Gabriela Dabrowski of Ottawa and Brazil’s Luisa Stefani finished the round robin 3-0 with a 2-6, 7-6 (2), 10-3 win over Jelena Ostapenko and Su-Wei Hsieh and are set to meet Taylor Townsend and Kateřina Siniaková in Saturday’s semifinals.",
+   "why": "Svitolina, the 2018 champion, is back in contention for the season’s last big title — and a Canadian is two wins from a doubles crown.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Sabalenka crashes out of season-ending WTA Finals after losing to Svitolina",
+     "site": "Al Jazeera",
+     "date": "Nov 14, 2026",
+     "href": "https://www.aljazeera.com/sports/2026/11/14/aryna-sabalenka-elina-svitolina-wta-finals-indian-wells-semifinals-tennis"
+    },
+    {
+     "title": "Canada’s Dabrowski, Brazil’s Stefani advance to semifinals at WTA Finals after perfect group stage",
+     "site": "CBC Sports",
+     "date": "Nov 14, 2026",
+     "href": "https://www.cbc.ca/sports/tennis/wta-finals-nov-13-9.7422028"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.aljazeera.com/sports/2026/11/14/aryna-sabalenka-elina-svitolina-wta-finals-indian-wells-semifinals-tennis",
+     "publisher": "Al Jazeera",
+     "published": "Nov 14, 2026, 10:03 AM GMT",
+     "checkedAt": "2026-11-14T06:21:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Svitolina beat Sabalenka 6-3, 3-6, 6-1; six breaks; fourth match point",
+      "No-handshake policy; semifinal vs Noskova Saturday"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/sports/tennis/wta-finals-nov-13-9.7422028",
+     "publisher": "CBC Sports",
+     "published": "Nov 14, 2026, 1:07 AM ET",
+     "checkedAt": "2026-11-14T06:21:51-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 14 2026",
+     "claimsSupported": [
+      "Dabrowski/Stefani 3-0; beat Ostapenko/Hsieh 2-6, 7-6 (2), 10-3; face Townsend/Siniaková Saturday",
+      "Sabalenka 35 errors; did not speak to media"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-14-am/w-svitolina.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A tennis player in white raises her arms in celebration on a grass court",
+    "caption": "Elina Svitolina at Wimbledon, pictured in 2019.",
+    "credit": "Peter Menzel",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AElina_Svitolina_%2849745028971%29.jpg",
+    "isFilePhoto": true,
+    "year": 2019
+   }
+  }
+ ]
+}

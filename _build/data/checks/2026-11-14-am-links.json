@@ -1,0 +1,307 @@
+{
+ "edition": "2026-11-14-am",
+ "ranAt": "2026-11-14T06:36:11-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/13/nx-s1-6040388/what-we-know-about-the-faa-nationwide-ground-stop",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877828-20261114.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/14/measles-associated-deaths-reach-10-in-us-after-two-more-deaths-reported",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.axios.com/2026/11/14/us-loses-measles-elimination-status",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/tanker-cruise-collision-mississippi-river-new-orleans/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/alaska-governor-jkt-jonathan-kreiss-tomkins-election/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://abcnews.com/Entertainment/wireStory/rock-roll-hall-fame-induction-set-los-angeles-138135701",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://wtop.com/national/2026/11/rock-roll-hall-of-fame-induction-set-for-los-angeles-with-many-big-names-skipping-the-stage/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/canada-philippines-free-trade-agreement-talks-9.7422009",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  },
+  {
+   "url": "https://globalnews.ca/news/12150796/canada-philippines-trade-deal/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cjme.com/2026/11/14/carney-says-canada-will-only-sign-a-u-s-trade-deal-that-includes-viable-auto-sector/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/joly-fedeli-stellantis-brampton-plant-package-9.7420849",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/british-columbia/amazon-union-contract-b-c-first-north-america-9.7421834",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/soccer/alphonso-davies-injury-nov-13-9.7422005",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.ctvnews.ca/world/article/grand-theft-auto-vi-turns-canadian-duo-bob-mosess-song-into-a-viral-hit/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://toronto.citynews.ca/2026/11/13/grand-theft-auto-vi-turns-canadian-duo-bob-mosess-song-into-a-viral-hit/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  },
+  {
+   "url": "https://www.news.gov.hk/eng/2026/11/20261113/20261113_174802_390.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:14-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877720-20261113.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877791-20261114.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300663.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877739-20261113.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/13/clockenflap-2026-final-line-up-turnstile-cheer-chen-sofi-tukker-jane-remover-n-y-p-d/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877678-20261113.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/13/P2026111300361.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/trump-putin-xi-jinping-meeting-china-us-russia-talks/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877806-20261114.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:14-05:00"
+  },
+  {
+   "url": "https://www.channelnewsasia.com/east-asia/china-us-tariffs-trade-council-meeting-6551456",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  },
+  {
+   "url": "https://www.chinadaily.com.cn/a/202611/14/WS6af816b7e4b03ebf8519c610.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877688-20261113.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  },
+  {
+   "url": "https://www.yicaiglobal.com/news/lilly-wins-approval-for-chinas-first-oral-glp-1-weight-loss-drug",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  },
+  {
+   "url": "https://www.sixthtone.com/news/1019262",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/howard-lutnick-scott-bessent-nvidia-megaspeed-testimony/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877131-20261109.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://news.un.org/en/story/2026/11/1168804",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/sports/2026/11/14/aryna-sabalenka-elina-svitolina-wta-finals-indian-wells-semifinals-tennis",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:12-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/tennis/wta-finals-nov-13-9.7422028",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-14T06:36:13-05:00"
+  }
+ ]
+}
