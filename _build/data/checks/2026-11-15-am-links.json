@@ -1,0 +1,241 @@
+{
+ "edition": "2026-11-15-am",
+ "ranAt": "2026-11-15T06:27:28-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/14/nx-s1-6040942/maintenance-gone-awry-caused-nation-wide-ground-stop-says-transportation-secretary",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/new-orleans-tanker-cruise-ship-chinese-ownership-sue-9.7422329",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/14/nx-s1-6041093/st-patricks-day-parade-canceled-florida-dei",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://globalnews.ca/news/12151691/alouettes-elks-clash-today-in-113th-grey-cup/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/calgary/calgary-snowbirds-final-flight-caf-rcaf-9.7421352",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/edmonton/fifth-soldier-dies-cfb-wainwright-fire-9.7422365",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/carney-apec-boycott-photo-putin-9.7422267",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/green-party-leader-mike-morrice-9.7422321",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/soccer/nsl-final-montreal-roses-afc-toronto-9.7421039",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877887-20261115.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:29-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877883-20261115.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:29-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877876-20261115.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:29-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877880-20261115.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:29-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877865-20261115.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:29-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877878-20261115.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:29-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877892-20261115.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:30-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/15/asia-diplomatic-summits-trump-xi-putin-apec-asean",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://news.cgtn.com/news/2026-11-14/China-s-electric-passenger-plane-aces-first-manned-flight--1S47OD6o0SI/p.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.wired.com/story/new-species-of-giant-fungus-discovered-in-china-grows-up-to-20-inches-tall/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/economy/2026/11/15/pact-on-south-china-sea-code-of-conduct-unlikely-as-asean-leaders-gather",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/sports/2026/11/15/japan-stun-brazil-3-2-in-stoppage-time-as-ancelotti-raphinha-sent-off",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/italy-slaps-meta-with-%E2%82%AC805mn-fine-over-access-to-android-photos/a-79949032",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-15T06:27:28-05:00"
+  }
+ ]
+}
