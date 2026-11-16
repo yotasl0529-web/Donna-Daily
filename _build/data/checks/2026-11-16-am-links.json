@@ -1,0 +1,331 @@
+{
+ "edition": "2026-11-16-am",
+ "ranAt": "2026-11-16T06:31:36-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/15/nx-s1-6041683/flight-disruptions-expected-to-last-into-monday",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites/",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877925-20261116.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c65y131w1534o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://abcnews.com/US/officials-investigating-steering-tanker-new-orleans-riverboat-collision/story?id=138167031",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.ntsb.gov/investigations/Pages/DCA27MM003.aspx",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/15/nx-s1-6041716/a-long-long-ways-from-home-voyager-1-is-now-farther-than-anything-man-has-sent-into-space",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/entertainment/grammy-nominations-2027-9.7421284",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.grammy.com/news/grammy-nominees-to-be-unveiled-monday-nov-16/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.grammy.com/news/2027-grammys-new-categories-rule-updates/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/football/cfl/cfl-montreal-alouettes-edmonton-elks-grey-cup-nov-15-9.7422907",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://globalnews.ca/news/12152194/2026-grey-cup-winner/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/calgary/calgary-snowbirds-jets-flight-caf-rcaf-9.7422962",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://globalnews.ca/news/12152141/snowbirds-grey-cup-tutor-final-flight/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/hockey/iihf-world-juniors-russia-not-competing-9.7422880",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/sport/ice-hockey/articles/cqkgm0jgv4mdo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://globalnews.ca/news/12152341/canada-auto-sector-europe-asia/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/british-columbia/cross-canada-canoe-journey-ends-in-vancouver-9.7423116",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/basketball/wnba-draft-lottery-recap-9.7422985",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877953-20261116.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877902-20261116.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877961-20261116.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/16/P2026111600237.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877996-20261116.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/16/P2026111600521.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877997-20261116.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/16/P2026111600244.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/16/in-picture-hundreds-pray-for-tai-po-fire-victims-at-catholic-mass-after-police-inquiry/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877948-20261116.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/16/china-confirms-first-xi-trump-putin-summit-in-shenzhen-on-thursday/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/16/trump-asia-foreign-domestic-policy",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877955-20261116.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:37-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877991-20261116.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:38-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1877940-20261116.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:38-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.thephuketnews.com/patong-fire-death-toll-remains-at-11-injured-rises-to-18-102227.php",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.nationthailand.com/news/general/40073548",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.sanews.gov.za/south-africa/kzn-police-launch-investigation-murder-eight-people",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:38-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/yemen-anti-houthi-forces-pull-back-as-rebels-advance/a-79953692",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cmwy83432q1jo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/16/widow-of-haitis-slain-leader-moise-to-contest-presidential-vote",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/sport/tennis/articles/c61740145y7wo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/sports/2026/11/16/russias-andreeva-defeats-ukraines-svitolina-7-5-6-3-to-win-wta-finals",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-16T06:31:36-05:00"
+  }
+ ]
+}
