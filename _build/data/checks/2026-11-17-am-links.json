@@ -1,0 +1,259 @@
+{
+ "edition": "2026-11-17-am",
+ "ranAt": "2026-11-17T06:44:30-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.bbc.com/news/articles/cw772jk4rvmxo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-strikes-critical-damage-russia-kerch-bridge-crimea",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/17/nx-s1-6043702/trump-arrives-philippines",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/music/2026/nov/16/grammy-nominations-2027-female-artists",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/grammy-awards-raye-and-rosalia-lead-nominations/a-79961198",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.pbs.org/newshour/nation/freeman-johnson-the-oldest-of-the-dwindling-number-of-pearl-harbor-survivors-dies-at-106",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://globalnews.ca/news/12153994/carney-xi-meeting-apec-summit/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/canada-china-agree-to-ease-tariffs-amid-trade-rows-with-us/a-79964912",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:32-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878117-20261117.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/business/quebecor-telus-acquisition-offer-9.7423299",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://thecircuit.ca/posts/2026-11-16-quebecor-telus-takeover-proposal/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://gillerprize.ca/nicholas-herring-is-the-winner-of-the-2026-giller-prize/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/books/p-e-i-author-nicholas-herring-wins-2026-giller-prize-for-your-breath-in-charcoal-9.7424611",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/books/livestory/giller-prize-2026-9.7423662",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/meta-encryption-services-lawful-access-9.7424473",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://globalnews.ca/news/12153922/winnipeg-jets-mark-scheifele-named-1st-star-of-the-week-after-record-breaking-performance/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/17/P2026111700273.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:32-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878135-20261117.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:32-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878110-20261117.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:32-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/17/hong-kong-privacy-watchdog-launches-compliance-check-over-facial-recognition-system-at-lam-tin-estate/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:32-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878027-20261116.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:32-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/17/china-says-xi-trump-putin-to-discuss-world-peace-at-shenzhen-summit/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:32-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878097-20261117.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.fmprc.gov.cn/eng/xw/zyxw/202611/t20261117_12061097.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://e.vnexpress.net/news/news/politics/vietnam-s-top-leader-to-lam-holds-talks-with-xi-jinping-in-shenzhen-5145738.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:32-05:00"
+  },
+  {
+   "url": "https://www.chinadaily.com.cn/a/202611/17/WS6afbf500e4b03ebf8519ce01.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:32-05:00"
+  },
+  {
+   "url": "https://www.news.cn/legal/20261117/c642dfe2678846b8aff7d974b633ab93/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:32-05:00"
+  },
+  {
+   "url": "https://www.sixthtone.com/news/1019274",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.sixthtone.com/news/1019275",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/rwanda-deportation-hub-european-countries-9.7423753",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/17/why-are-five-eu-countries-reviving-plans-to-deport-migrants-to-rwanda",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/mongolian-president-khurelsukh-to-resign-amid-corruption-allegations/a-79964717",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.channelnewsasia.com/asia/mongolian-president-announces-resignation-over-alleged-corruption-6558716",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/cop31-draft-deal-calls-for-immediate-shift-away-from-fossil-fuels/a-79960705",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:32-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cwx2ev0pxmvjo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/film/2026/nov/16/new-james-bond-announced-and-the-names-pattinson-robert-pattinson",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-17T06:44:31-05:00"
+  }
+ ]
+}
