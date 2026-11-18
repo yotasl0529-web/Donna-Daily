@@ -1,0 +1,259 @@
+{
+ "edition": "2026-11-18-am",
+ "ranAt": "2026-11-18T06:27:37-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/apec-summit-xi-greets-trump-on-arrival-in-shenzhen/live-79964719",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878315-20261118.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:39-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/democrat-peltola-wins-alaska-senate-seat-9.7426095",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/us-democrats-flip-alaska-senate-seat-as-mary-peltola-wins-race/a-79976628",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/nvidia-beats-q3-expectations-in-first-report-post-jensen-huang/a-79975683",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/us-and-mexico-lose-measles-free-status/a-79973966",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/18/nx-s1-6040326/grand-theft-auto-6-review-vice-city-masterpiece",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cm4gn9xnn1ppo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/sport/boxing/articles/cknv4q197dymo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/sports/2026/11/18/venezuelan-boxer-linares-detained-in-us-and-faces-deportation-ice-confirms",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/trump-carney-tariffs-trade-latest-9.7425828",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/cra-cerb-covid-benefit-writeoffs-debt-9.7425445",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/emergency-alert-test-canada-9.7425360",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/edmonton/grey-cup-edmonton-elks-2026-parade-9.7425862",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/books/oprah-book-club-pick-mary-lawson-9.7420605",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/18/hong-kong-govt-seeks-hk19-8-billion-from-legislature-to-fund-early-ngau-tam-mei-development/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878303-20261118.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:39-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/18/hong-kong-environmental-authorities-vow-smoking-crackdown-at-shek-kwu-chau-waste-plant-following-fire-probe/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878138-20261117.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:39-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878306-20261118.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:39-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/18/P2026111800155.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/18/P2026111800464.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/18/xis-pitch-for-free-trade-amid-trumps-global-trade-disruptions",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/18/president-xi-says-russia-and-china-should-lead-push-to-multipolar-world",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878255-20261118.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878287-20261118.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:39-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878277-20261118.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/18/beijing-bolsters-south-china-sea-push-with-new-island-runway-analysts/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://www.sixthtone.com/news/1019288",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.sixthtone.com/news/1019284",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://en.interfax.com.ua/news/general/1238445.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/ukraine-kyiv-targets-krasnodar-refineries-after-felling-kerch-bridge/live-79976877",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/gallery/2026/11/18/photos-thousands-march-in-haiti-in-support-of-salvadoran-troops",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/18/arsenic-pollution-linked-to-myanmar-mining-prompts-water-alert-in-thailand",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:37-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cqlykve012d1o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-18T06:27:38-05:00"
+  }
+ ]
+}
