@@ -1,0 +1,1598 @@
+{
+ "id": "2026-11-19-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-19",
+ "leadId": "cn-trilateral",
+ "topIds": [
+  "us-anthropic",
+  "w-icj",
+  "ca-carney",
+  "hk-lights",
+  "cn-xitrump"
+ ],
+ "notes": [
+  "Morning Edition for Thursday, Nov 19, 2026.",
+  "Leading this morning: the first three-way meeting of the U.S., Chinese and Russian leaders in Shenzhen, Anthropic’s record share sale, the UN top court’s Rohingya ruling, Mark Carney’s talks with Donald Trump and the end of Hong Kong’s “A Symphony of Lights.” Culture, sport and everyday-life stories include Grand Theft Auto VI’s release, a record Van Gogh sale, Fiona the hippo, a doping ban for Peres Jepchirchir, New Brunswick’s student phone walkout and VIA Rail’s return toward Gaspé.",
+  "Updates on earlier stories: the Trump–Xi–Putin meeting and APEC leaders’ talks (planned in the Nov 18 edition, now held), Grand Theft Auto VI (due in the Nov 18 edition, now released) and Canada–U.S. trade talks (first reported Nov 18).",
+  "Still planned, not yet happened when this edition was prepared: Anthropic’s first day of Nasdaq trading, Hong Kong’s Election Committee subsector vote on Sunday, Nov 22, the House Speaker election on Jan 3, China’s CAR T insurance coverage from Jan 1 and VIA Rail’s New Carlisle service by spring 2028.",
+  "Photos appear on the lead and on 16 of 24 other stories; all are file photos credited and licensed as shown. Text-only: Grand Theft Auto VI, the New Brunswick walkout, Hong Kong’s APEC, scam, drone and election stories, and China’s skills-certificate rules and CAR T coverage, where no suitable openly licensed photo was found or downloaded.",
+  "Stories by region: U.S. 5, Canada 5, Hong Kong 5, China 5, World 5. Several stories rest on a single outlet; this is noted under each story’s sources."
+ ],
+ "provenance": [
+  "Compiled from the linked reporting, official releases and state-media reports listed under each story; labels show whether a point is reported, an official statement, a claim, an allegation or analysis.",
+  "Source pages were opened during this morning’s research between about 6:26 AM and 6:37 AM ET; each check time is the logged time that page was fetched.",
+  "RTHK is Hong Kong’s government-funded broadcaster; info.gov.hk and tourism.gov.hk are Hong Kong government sites; Xinhua and TASS are state media; Sixth Tone is owned by a state-owned Shanghai media group. Wire copy carried by another outlet is marked with the agency’s name.",
+  "Figures differ between outlets on the length of the Shenzhen meeting and on how much Anthropic raised; both ranges are given in the stories. ESPN did not return article text to an automated fetch this morning (a bot check), and a BBC link to the Myanmar ruling returned HTTP 404; those are access limits, not evidence of errors, and they are not cited."
+ ],
+ "stories": [
+  {
+   "id": "cn-trilateral",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-19T05:42",
+   "dateLabel": "Nov 19, 2026 (previewed in the Nov 18 edition)",
+   "headline": "Trump, Xi and Putin hold the first three-way meeting of their countries’ leaders in Shenzhen",
+   "summary": "Donald Trump, Xi Jinping and Vladimir Putin met behind closed doors at Kylin Villa in Shenzhen on Thursday, Nov. 19, on the sidelines of the APEC summit, the first such meeting of the three countries’ leaders. Trump said they were “really making history” and called for talks on cutting nuclear arsenals; Putin said the three shared an interest in settling the war in Ukraine; Xi, who hosted, said peace among great powers keeps the world stable. Reports differ on how long the closed-door talks lasted: about 55 minutes (Al Jazeera), more than an hour (CBC) or an hour and 20 minutes (AFP via Hong Kong Free Press). No joint agreement had been reported when this edition was prepared, and NPR wrote that the leaders “offered few solutions toward peace.” Earlier in the day Trump met Putin, their first meeting since August 2025, and then Xi. Al Jazeera, citing Xinhua, reported Xi said nuclear weapons “should be comprehensively banned and thoroughly destroyed.” Japan’s Prime Minister Sanae Takaichi, on her first trip to China since her Taiwan remarks strained ties a year ago, said she wants a “constructive and stable relationship” with Beijing; Japanese media cited by AFP said she did not get a one-to-one meeting with Xi.",
+   "why": "The image of the three nuclear superpowers at one table was the main result so far, and that matters in itself: it signals that Washington is willing to deal with Beijing and Moscow together, which worries Kyiv, European capitals and smaller Asian countries that fear decisions being made over their heads. Watch for any follow-up on nuclear arms talks, which China has long refused to join, and for what each side later says was agreed on Ukraine and Iran.",
+   "label": "Reported + Official statement + State media",
+   "sources": [
+    {
+     "title": "Trump, Xi, Putin conclude trilateral meeting at APEC summit",
+     "site": "CBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cbc.ca/news/world/trump-xi-putin-historic-meeting-9.7427718"
+    },
+    {
+     "title": "Trump meets Putin and Xi for trilateral US, Russia, China talks at APEC",
+     "site": "Al Jazeera",
+     "date": "Nov 19, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks"
+    },
+    {
+     "title": "Trump says summit with Xi, Putin ‘making history’",
+     "site": "Hong Kong Free Press (AFP)",
+     "date": "Nov 19, 2026",
+     "href": "https://hongkongfp.com/2026/11/19/trump-says-summit-with-xi-putin-making-history/"
+    },
+    {
+     "title": "The World Order in Focus as Trump Meets Xi and Putin",
+     "site": "NPR",
+     "date": "Nov 19, 2026",
+     "href": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa"
+    },
+    {
+     "title": "Xi, Putin, Trump kick off landmark trilateral talks",
+     "site": "RTHK",
+     "date": "Nov 19, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878445-20261119.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/world/trump-xi-putin-historic-meeting-9.7427718",
+     "publisher": "CBC News",
+     "published": "Nov 19, 2026, 4:49 AM ET; updated 5:42 AM ET",
+     "checkedAt": "2026-11-19T06:26:16-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Three-way meeting held Thursday in a villa in Shenzhen; concluded after more than an hour",
+      "Trump: “We are really making history”; Putin on shared interests in settling the Ukraine conflict; Xi on great-power harmony",
+      "Analysts expect no major agreements",
+      "Xi told Trump the U.S. must “do the right thing” on Taiwan; Takaichi said Japan’s Taiwan position unchanged since 1972"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks",
+     "publisher": "Al Jazeera",
+     "published": "Nov 19, 2026, 3:32 AM ET; updated 5:41 AM ET",
+     "checkedAt": "2026-11-19T06:26:17-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Closed-door talks lasted about 55 minutes",
+      "Xi quoted (via Xinhua) saying nuclear weapons should be comprehensively banned",
+      "Trump held separate meetings with Putin and Xi earlier Thursday; Kremlin aide said the Trump–Putin meeting “went well”"
+     ],
+     "limits": [
+      "Xi’s nuclear quote is attributed to Xinhua, Chinese state media; Kremlin remarks via TASS, Russian state media."
+     ]
+    },
+    {
+     "url": "https://hongkongfp.com/2026/11/19/trump-says-summit-with-xi-putin-making-history/",
+     "publisher": "Hong Kong Free Press (AFP)",
+     "published": "Nov 19, 2026, 5:54 AM ET",
+     "checkedAt": "2026-11-19T06:26:17-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Meeting at Kylin Villa ended after an hour and 20 minutes",
+      "Trump–Putin meeting was their first since August 2025",
+      "Takaichi wants a “constructive and stable relationship”; Japanese media said she did not get a one-to-one with Xi"
+     ],
+     "limits": [
+      "AFP copy carried by HKFP. Its meeting length differs from CBC and Al Jazeera."
+     ]
+    },
+    {
+     "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
+     "publisher": "NPR",
+     "published": "Nov 19, 2026, 4:44 AM ET; updated 6:08 AM ET",
+     "checkedAt": "2026-11-19T06:26:19-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Trilateral held Thursday at Kylin Villa, capping two days of talks",
+      "Leaders “offered few solutions toward peace”; sit-down talks relatively brief"
+     ],
+     "limits": [
+      "The URL carries a Nov 18 date; the page is dated Nov 19."
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878445-20261119.htm",
+     "publisher": "RTHK",
+     "published": "Nov 19, 2026, 4:28 PM HKT (3:28 AM ET)",
+     "checkedAt": "2026-11-19T06:26:19-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Xi’s opening remarks: “groundbreaking significance”, four points on how major countries should get along"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded broadcaster; this report cites Xinhua and agencies."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/cn-trilateral.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Donald Trump and Vladimir Putin walk on a red carpet beside a military jet at an Alaska air base",
+    "caption": "Trump welcomes Putin to Joint Base Elmendorf-Richardson in Anchorage, Alaska, for their summit in August 2025.",
+    "credit": "Benjamin D Applebaum (U.S. government)",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3ATrump%2C_Putin_Alaska_Arrival_%289260679%29.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ATrump%2C_Putin_Alaska_Arrival_%289260679%29.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "us-anthropic",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-19T05:00",
+   "dateLabel": "Nov 18–19, 2026",
+   "headline": "Anthropic prices the biggest IPO on record, with Nasdaq trading due to start Thursday",
+   "summary": "AI company Anthropic, maker of the Claude chatbot, said on Wednesday, Nov. 18, that it sold more than 956 million shares at $83 each, above its planned $70–$78 range, in the largest initial public offering on record. NPR reported the company raised about $79.4 billion, or more than $81.3 billion including shares sold by existing stockholders; counting a further $26 billion in private share sales to companies including Google, Microsoft and Nvidia, NPR put the total haul at more than $107 billion. The price values the five-year-old company at about $1.5 trillion (CBC: $1.51 trillion, including unvested employee options). Its shares were scheduled to begin trading on the Nasdaq on Thursday, Nov. 19, under the ticker ANT; trading had not started when this edition was prepared. Previous record: SpaceX’s $75 billion IPO in June.",
+   "why": "The listing is the first big public test of how much investors will pay for a pure AI company after weeks of worry about an AI bubble; the Nasdaq is down more than 11% since early October, NPR said. How the shares trade will shape OpenAI’s own plans to list and the cost of money for the wider AI build-out.",
+   "label": "Company figures + Reported",
+   "sources": [
+    {
+     "title": "Anthropic IPO raises record $81.3 billion on strong AI demand",
+     "site": "NPR",
+     "date": "Nov 18, 2026",
+     "href": "https://www.npr.org/2026/11/18/nx-s1-6046212/anthropic-record-ipo-price"
+    },
+    {
+     "title": "AI giant Anthropic raises more than $100 billion in record-setting IPO",
+     "site": "NPR",
+     "date": "Nov 19, 2026",
+     "href": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion"
+    },
+    {
+     "title": "Anthropic raises $81bn in record-breaking stock market debut",
+     "site": "BBC News",
+     "date": "Nov 18–19, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo"
+    },
+    {
+     "title": "Anthropic prices IPO at $83 US per share, valuing AI giant at $1.51 trillion US",
+     "site": "CBC News",
+     "date": "Nov 18, 2026",
+     "href": "https://www.cbc.ca/news/business/anthropic-ipo-share-price-nasdaq-9.7426856"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.npr.org/2026/11/18/nx-s1-6046212/anthropic-record-ipo-price",
+     "publisher": "NPR",
+     "published": "Nov 18, 2026, 6:54 PM ET",
+     "checkedAt": "2026-11-19T06:26:25-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "956 million+ shares at $83; about $79.4 billion, more than $81.3 billion with stockholder sales",
+      "Trading to start Thursday on Nasdaq as ANT",
+      "Prospectus had targeted 825 million shares at $70–$78"
+     ],
+     "limits": [
+      "NPR discloses that Anthropic is a financial supporter of NPR."
+     ]
+    },
+    {
+     "url": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion",
+     "publisher": "NPR",
+     "published": "Nov 19, 2026, 5:00 AM ET",
+     "checkedAt": "2026-11-19T06:26:25-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Total haul more than $107 billion including $26 billion in private placements",
+      "Valued at around $1.5 trillion; Nasdaq down more than 11% since early October"
+     ],
+     "limits": [
+      "Headline figure (“more than $100 billion”) counts private placements; NPR’s Nov 18 report and BBC give about $81 billion for the IPO itself."
+     ]
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
+     "publisher": "BBC News",
+     "published": "Nov 18, 2026, 6:36 PM ET; updated Nov 19, 5:48 AM ET",
+     "checkedAt": "2026-11-19T06:26:26-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "$81bn raised at $83 a share; valuation about $1.5tn",
+      "SpaceX raised $75bn in its IPO earlier this year"
+     ],
+     "limits": [
+      "BBC’s headline calls it a “debut”, but the page says trading begins later on Thursday."
+     ]
+    },
+    {
+     "url": "https://www.cbc.ca/news/business/anthropic-ipo-share-price-nasdaq-9.7426856",
+     "publisher": "CBC News",
+     "published": "Nov 18, 2026, 6:58 PM ET",
+     "checkedAt": "2026-11-19T06:26:27-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "$1.51 trillion valuation including unvested options; offering upsized by 155 million shares"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/us-anthropic.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The round Nasdaq MarketSite tower with a large video screen in Times Square, New York",
+    "caption": "The Nasdaq MarketSite in Times Square, New York, pictured in 2021.",
+    "credit": "ajay_suresh",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ANasdaq_MarketSite_%2851494550508%29.jpg",
+    "isFilePhoto": true,
+    "year": 2021
+   }
+  },
+  {
+   "id": "us-jeffries",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-18T16:13",
+   "dateLabel": "Nov 18, 2026",
+   "headline": "House Democrats nominate Hakeem Jeffries to be Speaker, putting him in line to be the first Black lawmaker to lead the House",
+   "summary": "House Democrats voted 251–11 behind closed doors on Wednesday, Nov. 18, to nominate Hakeem Jeffries of New York as their candidate for Speaker, BBC reported. The full House is due to elect its Speaker on Jan. 3, when the new Congress, with a Democratic majority, begins; if elected, Jeffries would be the first Black lawmaker to lead the chamber. BBC said Democrats will hold at least 257 seats, with seven races still uncalled, and that a handful of new left-wing members held out. NPR reported Democrats are also preparing investigations into the Trump administration once they take control in January.",
+   "why": "The Speaker controls what bills reach the House floor, so Jeffries would become the main check on the White House for the last two years of Trump’s term. Combined with Democratic control of the Senate, expect a sharp increase in oversight hearings and subpoenas from January.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Hakeem Jeffries nominated to be US Speaker of the House",
+     "site": "BBC News",
+     "date": "Nov 18, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cmy49873dn95o"
+    },
+    {
+     "title": "Democrats nominate Jeffries for speaker, prep investigations into Trump’s orbit",
+     "site": "NPR",
+     "date": "Nov 18, 2026",
+     "href": "https://www.npr.org/2026/11/18/nx-s1-6043185/democrats-nominate-jeffries-for-speaker-prep-investigations-into-trumps-orbit"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o",
+     "publisher": "BBC News",
+     "published": "Nov 18, 2026, 10:38 AM ET; updated 4:13 PM ET",
+     "checkedAt": "2026-11-19T06:26:28-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "251–11 closed-door vote",
+      "Speaker election Jan 3; first Black lawmaker to lead the House if elected",
+      "At least 257 Democratic seats, seven races uncalled"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.npr.org/2026/11/18/nx-s1-6043185/democrats-nominate-jeffries-for-speaker-prep-investigations-into-trumps-orbit",
+     "publisher": "NPR",
+     "published": "Nov 18, 2026, 5:01 PM ET",
+     "checkedAt": "2026-11-19T06:26:27-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Jeffries given the official nod after a closed-door vote",
+      "Democrats previewing investigations for when they take over in January"
+     ],
+     "limits": [
+      "Broadcast transcript; vote count taken from BBC."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/us-jeffries.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Portrait of Hakeem Jeffries in a dark suit in front of a U.S. flag",
+    "caption": "Hakeem Jeffries’ official congressional portrait, 2013.",
+    "credit": "United States Congress",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AHakeem_Jeffries_official_portrait_%28cropped%29.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHakeem_Jeffries_official_portrait_%28cropped%29.jpg",
+    "isFilePhoto": true,
+    "year": 2013
+   }
+  },
+  {
+   "id": "us-vangogh",
+   "region": "us",
+   "topic": "culture",
+   "ts": "2026-11-18T21:37",
+   "dateLabel": "Nov 18, 2026",
+   "headline": "Van Gogh’s “Chestnut Trees in Blossom” sells for a record $190.4 million in New York after a Nazi-era dispute is settled",
+   "summary": "Vincent van Gogh’s Châtaigniers en fleurs (Chestnut Trees in Blossom), painted in Auvers-sur-Oise in 1890 in the last months of his life, sold at Sotheby’s in New York on Wednesday, Nov. 18, for $190.4 million, a record for the artist at auction; the previous high was $117.2 million in 2022. Hours before the sale, Sotheby’s said it had resolved a dispute between the sellers, the Blaquier-Arrieta family, and heirs of German publisher Samuel Fischer, whose family sold the painting in 1936 and who argued it was given up because of losses suffered under the Nazis. The Guardian, citing The New York Times, reported the buyer was dealer William Acquavella; the BBC said the buyer was not immediately clear.",
+   "why": "The sale shows the top of the art market is still strong despite wider economic worries, and that restitution claims over Nazi-era sales now shape how and when major works can be sold. The terms of the settlement were not disclosed.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Van Gogh painting sells for $190.4m after row over Nazi history",
+     "site": "BBC News",
+     "date": "Nov 18, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo"
+    },
+    {
+     "title": "Vincent van Gogh painting auctioned for record $190.4m after dispute over Nazi era sale",
+     "site": "The Guardian",
+     "date": "Nov 18, 2026",
+     "href": "https://www.theguardian.com/artanddesign/2026/nov/19/vincent-van-gogh-painting-sells-for-record-190million"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo",
+     "publisher": "BBC News",
+     "published": "Nov 18, 2026, 7:49 PM ET",
+     "checkedAt": "2026-11-19T06:26:29-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Sold at Sotheby’s New York on Wednesday for $190.4m, beating the $117.2m record from 2022",
+      "Dispute between the Blaquier-Arrieta family and Fischer heirs resolved before the sale",
+      "Buyer not immediately clear"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.theguardian.com/artanddesign/2026/nov/19/vincent-van-gogh-painting-sells-for-record-190million",
+     "publisher": "The Guardian",
+     "published": "Nov 18, 2026, 9:37 PM ET",
+     "checkedAt": "2026-11-19T06:28:54-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Painted 1890 in Auvers-sur-Oise; Fischer family sold it in 1936",
+      "NYT reported William Acquavella bought it",
+      "NYT also reported another Van Gogh sold privately for “around $190m” less than a year ago"
+     ],
+     "limits": [
+      "Buyer’s identity rests on The New York Times as cited by the Guardian; not opened here."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/us-vangogh.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Painting of blossoming chestnut trees with swirling green foliage and a blue sky",
+    "caption": "Van Gogh’s Châtaigniers en fleurs, painted in Auvers in May 1890 (reproduction of the painting).",
+    "credit": "Vincent van Gogh (reproduction via Sotheby’s)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AVincent_van_Gogh_-_Ch%C3%A2taigniers_en_fleurs.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AVincent_van_Gogh_-_Ch%C3%A2taigniers_en_fleurs.jpg",
+    "isFilePhoto": true,
+    "year": 1890
+   }
+  },
+  {
+   "id": "us-gta",
+   "region": "us",
+   "topic": "culture",
+   "ts": "2026-11-19T03:19",
+   "dateLabel": "Nov 19, 2026 (release previewed in the Nov 18 edition)",
+   "headline": "Grand Theft Auto VI is out after a 13-year wait, with an aggregate review score of 99",
+   "summary": "Grand Theft Auto VI, made by New York-based Rockstar Games, went on sale on PlayStation 5 and Xbox Series X on Thursday, Nov. 19, unlocking at midnight local time around the world, so players in Asia and New Zealand got it first, DW reported. Al Jazeera said the game had an aggregate score of 99 out of 100 on Metacritic from more than 150 reviews, with critics calling it a “masterpiece.” Set in Vice City, a fictional Miami, it follows Lucia Caminos and Jason Duval; the download is 212 gigabytes. South African producer DJ Lag told the BBC that having his music on the game’s African radio station, alongside Nigerian stars Burna Boy and Asake, was “a dream come true.” In Canada, CBC reported some people were taking the day off to play.",
+   "why": "GTA VI is expected to be one of the biggest entertainment launches ever, larger than most film openings, and its sales will be watched as a test of whether gamers will pay top prices in a tight economy. Its soundtrack choices also give artists, including African musicians, a huge new global audience.",
+   "label": "Reported + Opinion",
+   "sources": [
+    {
+     "title": "Grand Theft Auto VI launches to rave reviews after 13-year wait",
+     "site": "Al Jazeera",
+     "date": "Nov 19, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/19/grand-theft-auto-vi-launches-to-rave-reviews-after-13-year-wait"
+    },
+    {
+     "title": "Grand Theft Auto VI launches to global fanfare",
+     "site": "DW",
+     "date": "Nov 18–19, 2026",
+     "href": "https://www.dw.com/en/grand-theft-auto-vi-launches-to-global-fanfare/a-79986461"
+    },
+    {
+     "title": "Grand Theft Auto VI: South Africa’s DJ Lag features along Burna Boy, Asake in GTA 6",
+     "site": "BBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo"
+    },
+    {
+     "title": "Skipping work to play Grand Theft Auto VI? You’re not alone",
+     "site": "CBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cbc.ca/news/entertainment/grand-theft-auto-time-off-work-9.7426919"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/19/grand-theft-auto-vi-launches-to-rave-reviews-after-13-year-wait",
+     "publisher": "Al Jazeera",
+     "published": "Nov 19, 2026, 1:08 AM ET; updated 3:19 AM ET",
+     "checkedAt": "2026-11-19T06:26:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Launched Thursday; Metacritic aggregate 99/100 from 150+ reviews",
+      "Critics’ quotes from IGN and PCMag",
+      "Developed by New York-based Rockstar Games"
+     ],
+     "limits": [
+      "Review quotes are critics’ opinions."
+     ]
+    },
+    {
+     "url": "https://www.dw.com/en/grand-theft-auto-vi-launches-to-global-fanfare/a-79986461",
+     "publisher": "DW",
+     "published": "Nov 18, 2026, 6:58 PM ET; updated Nov 19, 12:06 AM ET",
+     "checkedAt": "2026-11-19T06:26:32-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Playable from midnight local time on PS5 and Xbox Series X; Asia first",
+      "212 GB download"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo",
+     "publisher": "BBC News",
+     "published": "Nov 19, 2026, 5:32 AM ET",
+     "checkedAt": "2026-11-19T06:28:14-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "DJ Lag: “dream come true”; African music station with Burna Boy and Asake"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/news/entertainment/grand-theft-auto-time-off-work-9.7426919",
+     "publisher": "CBC News",
+     "published": "Nov 19, 2026, 4:00 AM ET",
+     "checkedAt": "2026-11-19T06:27:32-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Canadians taking time off for the release"
+     ],
+     "limits": [
+      "Opened for headline and lead only."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "us-fiona",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-18T20:41",
+   "dateLabel": "Nov 18, 2026",
+   "headline": "Fiona, the Cincinnati Zoo hippo who survived a premature birth, is under round-the-clock care after swallowing a hat",
+   "summary": "The Cincinnati Zoo says Fiona, the hippo who became famous after surviving a premature birth in 2017, is receiving emergency medical care after swallowing a knit hat that ended up in her enclosure about nine days earlier, BBC reported on Wednesday, Nov. 18. A zoo spokesperson said a visitor tossed the hat in the air, it caught on a ceiling fan and was flung through a small opening. Fiona showed no symptoms at first but then lost her appetite; staff are giving fluids and ultrasounds, and the latest scan showed the hat moving through her small intestine, though she remains a bit dehydrated. CBC said she is on 24-hour medical watch.",
+   "why": "Fiona’s fight to survive as a tiny premature calf made her one of the best-known zoo animals in the world, so her health draws wide attention. The case is also a reminder of why zoos ask visitors not to throw anything near animals.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "Fiona the hippo undergoing care after swallowing a hat at Cincinnati Zoo",
+     "site": "BBC News",
+     "date": "Nov 18, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cm2d93z0e9gjo"
+    },
+    {
+     "title": "Fiona, the hippo famous for surviving, is on 24-hour medical watch after eating a hat",
+     "site": "CBC News",
+     "date": "Nov 18, 2026",
+     "href": "https://www.cbc.ca/news/world/fiona-hippo-zoo-hat-9.7426251"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cm2d93z0e9gjo",
+     "publisher": "BBC News",
+     "published": "Nov 18, 2026, 11:05 AM ET",
+     "checkedAt": "2026-11-19T06:26:30-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Swallowed a knit hat about nine days ago; appetite then decreased",
+      "Hat reached the enclosure via a ceiling fan, spokesperson says",
+      "Latest ultrasound shows the hat passing through her small intestine"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/news/world/fiona-hippo-zoo-hat-9.7426251",
+     "publisher": "CBC News",
+     "published": "Nov 18, 2026, 12:24 PM ET; updated 8:41 PM ET",
+     "checkedAt": "2026-11-19T06:26:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "24-hour medical watch"
+     ],
+     "limits": [
+      "Opened for headline and lead only."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/us-fiona.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A young hippo swimming underwater next to a larger adult hippo",
+    "caption": "Fiona with her mother, Bibi, at the Cincinnati Zoo, pictured in 2018.",
+    "credit": "DarthBotto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AFiona_the_Hippopotamus.jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "ca-carney",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-18T15:48",
+   "dateLabel": "Nov 18, 2026 (talks first reported in the Nov 18 edition)",
+   "headline": "Carney meets Trump at APEC and says Canada is “busy” diversifying if Washington won’t make a fair trade deal",
+   "summary": "Prime Minister Mark Carney met Donald Trump for about 20 minutes on the sidelines of the APEC summit in Shenzhen, and they discussed work toward a Canada–U.S. trade agreement, BBC reported. Speaking to the DealBook summit by video from China on Wednesday, Nov. 18, Carney said there had been some progress but “we’re not there yet,” and that if the U.S. does not want a mutually beneficial deal, “we’re busy,” CBC reported. Ottawa wants the U.S. to lift or reduce Section 232 tariffs on autos, steel, aluminum and lumber, and the 50% tariffs on other Canadian goods. BBC said Carney has signalled he is looking to China as part of the answer for Canada’s car industry, which has drawn criticism from people close to Trump; Carney said China is “not the top issue at all” for Trump.",
+   "why": "Canada’s auto and steel towns are paying for the tariff fight in lost jobs and closed plants. Carney’s message is that Canada will keep building other markets, including China, if talks stall, a strategy that adds leverage but also risks angering Washington further.",
+   "label": "Reported + Official statement",
+   "sources": [
+    {
+     "title": "‘If the U.S. doesn’t want to do a deal, we’re busy,’ Carney says of ongoing trade talks",
+     "site": "CBC News",
+     "date": "Nov 18, 2026",
+     "href": "https://www.cbc.ca/news/politics/carney-trump-trade-canada-busy-9.7426568"
+    },
+    {
+     "title": "Why Carney is looking to China as Canada’s car industry comes under US pressure",
+     "site": "BBC News",
+     "date": "Nov 17–18, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/carney-trump-trade-canada-busy-9.7426568",
+     "publisher": "CBC News",
+     "published": "Nov 18, 2026, 11:27 AM ET; updated 3:48 PM ET",
+     "checkedAt": "2026-11-19T06:27:17-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Carney spoke virtually to DealBook from China near the end of a nine-day trade mission",
+      "“We’re not there yet”; Canada seeks relief from Section 232 and 50% tariffs"
+     ],
+     "limits": [
+      "The CBC feed listed this story with an incorrect 2025 date; the page itself is dated Nov 18, 2026."
+     ]
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o",
+     "publisher": "BBC News",
+     "published": "Nov 17, 2026, 10:17 AM ET; updated Nov 18, 3:02 PM ET",
+     "checkedAt": "2026-11-19T06:27:16-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Carney and Trump discussed trade in a roughly 20-minute meeting at APEC",
+      "Carney: China is “not the top issue at all” for Trump"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/ca-carney.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Mark Carney speaking, seen in close-up",
+    "caption": "Mark Carney during a meeting with Donald Trump at the White House, May 2025.",
+    "credit": "The White House",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AMark_Carney_in_2025.png",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMark_Carney_in_2025.png",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "ca-gas",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-19T04:00",
+   "dateLabel": "Nov 19, 2026",
+   "headline": "Gas prices are falling across Canada as more oil moves through the Strait of Hormuz",
+   "summary": "The national average price of gas was $1.514 a litre on Wednesday, Nov. 18, about eight cents lower than a week earlier and 29.4 cents below the average 30 days ago, according to price tracker affordableenergy.ca, CBC reported. GasBuddy analyst Patrick De Haan said prices in Manitoba and Saskatchewan were down by more than 30 cents from last month and some Calgary stations were below $1 a litre, and could fall another five to 10 cents in coming weeks if there are no new shocks in the U.S. war with Iran. Analysts credited more tanker traffic through the Strait of Hormuz, helped by U.S. military escorts, and seasonal factors; Brent crude is just under US$92 a barrel, down from about US$116 in mid-October. Prices remain higher than a year ago.",
+   "why": "Fuel is one of the fastest ways the Iran war reaches household budgets, so falling pump prices give some relief heading into winter. The relief depends on shipping through Hormuz staying open, which is outside Canada’s control.",
+   "label": "Industry figures + Reported",
+   "sources": [
+    {
+     "title": "It’s costing you less to fill up your gas tank. What’s behind falling pump prices?",
+     "site": "CBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cbc.ca/news/business/gas-prices-falling-canada-9.7426928"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/business/gas-prices-falling-canada-9.7426928",
+     "publisher": "CBC News",
+     "published": "Nov 19, 2026, 4:00 AM ET",
+     "checkedAt": "2026-11-19T06:27:28-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "National average $1.514/L Wednesday; down ~8 cents in a week, 29.4 cents in 30 days",
+      "De Haan: some Calgary stations below $1; further 5–10 cent drop possible",
+      "Brent just under US$92 vs about US$116 in mid-October"
+     ],
+     "limits": [
+      "Single outlet; figures are from private price trackers cited by CBC."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/ca-gas.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "An Esso gas station price sign beside a Tim Hortons sign on a sunny street",
+    "caption": "A gas station price sign in Vancouver, pictured in May 2026.",
+    "credit": "Sikander",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AGasoline_prices_in_Vancouver_at_ESSO_-_20260503_-_01.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "ca-phones",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-18T17:32",
+   "dateLabel": "Nov 18, 2026",
+   "headline": "High school students across New Brunswick walk out over a coming full cellphone ban",
+   "summary": "Hundreds of high school students in New Brunswick walked out of class on Wednesday afternoon, Nov. 18, to protest a broader ban on personal phones in schools, CBC reported. Walkouts were planned at 73 schools; CBC confirmed large turnouts in Saint John, Moncton (more than 200 students at Moncton High) and Fredericton’s Leo Hayes High, but had not verified participation elsewhere. Phones have been banned in all classrooms since September; high school students can still use them at lunch and between classes, but will fall under a total ban when the second semester starts early in 2027. Students said they were not consulted. Education Minister Claire Johnson was not made available for an interview.",
+   "why": "School phone bans are spreading across Canada and the U.S., usually with strong support from parents and teachers. Organised student pushback like this is rarer, and how the province responds may shape whether students get a say in similar rules elsewhere.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "High school students across N.B. walk out over cellphone ban",
+     "site": "CBC News",
+     "date": "Nov 18, 2026",
+     "href": "https://www.cbc.ca/news/canada/new-brunswick/student-protests-cell-phone-ban-9.7426743"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/new-brunswick/student-protests-cell-phone-ban-9.7426743",
+     "publisher": "CBC News",
+     "published": "Nov 18, 2026, 4:33 PM ET; updated 5:32 PM ET",
+     "checkedAt": "2026-11-19T06:27:29-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Walkouts planned at 73 schools; hundreds took part in the three largest cities",
+      "Total ban for high schools from the second semester in early 2027",
+      "Minister not made available for interview"
+     ],
+     "limits": [
+      "Single outlet; CBC itself had not verified turnout outside the three largest cities."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-via",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-19T04:00",
+   "dateLabel": "Nov 19, 2026",
+   "headline": "VIA Rail will bring passenger trains partway back to Quebec’s Gaspé region by 2028, after 15 years without service",
+   "summary": "VIA Rail has confirmed it will resume passenger service along the Baie des Chaleurs as far as New Carlisle, Que., by spring 2028, CBC reported, ending part of a 15-year absence after the line was deemed unsafe in 2011 and the last stop moved back to Matapédia in 2013, leaving 325 kilometres without trains. Local leaders hope the commitment, together with a $1.2 billion investment in VIA over three years, will lead to full service to the city of Gaspé, but say the Quebec government needs to help. New Richmond mayor Éric Dubé noted the line once carried up to 28,000 passengers a year in the 1990s.",
+   "why": "For remote communities, a train is more than nostalgia: it is a cheaper, safer link for students, older residents and tourists than long winter drives. The 2028 target is still more than a year away, so watch whether Quebec commits to the rest of the line.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "VIA Rail heading back to Quebec’s Gaspé region after 15 years — a partial win that brings hope",
+     "site": "CBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cbc.ca/news/canada/montreal/via-rail-services-resumes-new-carlisle-2028-9.7426622"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/montreal/via-rail-services-resumes-new-carlisle-2028-9.7426622",
+     "publisher": "CBC News",
+     "published": "Nov 19, 2026, 4:00 AM ET",
+     "checkedAt": "2026-11-19T06:28:18-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "VIA confirms partial service to New Carlisle by spring 2028",
+      "$1.2 billion investment over three years for VIA",
+      "Last train to Gaspé in December 2011; 325 km without service"
+     ],
+     "limits": [
+      "First automated fetch timed out (an access limit); the page opened on the retry. Single outlet; VIA’s own statement was not opened."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/ca-via.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A silver VIA Rail passenger train stands at a small station platform under a blue sky",
+    "caption": "A VIA Rail train at Gaspé station, pictured in 2008, when trains still ran there.",
+    "credit": "abdallahh",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AGare_de_Gasp%C3%A9_train.jpg",
+    "isFilePhoto": true,
+    "year": 2008
+   }
+  },
+  {
+   "id": "ca-hoekstra",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-18T14:45",
+   "dateLabel": "Nov 18, 2026",
+   "headline": "More than 285,000 people sign a petition asking Ottawa to remove U.S. Ambassador Pete Hoekstra",
+   "summary": "A House of Commons e-petition asking the federal government to remove U.S. Ambassador Pete Hoekstra had more than 285,000 signatures as it closed on Wednesday, Nov. 18, The Canadian Press reported via CBC. The petition accuses Hoekstra of public statements that undermined Canada–U.S. relations, including describing the 2025 federal election campaign as “anti-American.” Former Green Party leader Elizabeth May can now present it in the House; the government then has 45 calendar days to respond. Most signers live in Ontario or British Columbia.",
+   "why": "Petitions cannot force a diplomat out, but one this large signals how sour public feeling toward Washington has become while Carney tries to close a trade deal. The government’s written reply will show how carefully Ottawa is handling the relationship.",
+   "label": "Claim + Reported",
+   "sources": [
+    {
+     "title": "Nearly 300,000 people sign petition demanding U.S. Ambassador Pete Hoekstra’s removal",
+     "site": "CBC News (The Canadian Press)",
+     "date": "Nov 18, 2026",
+     "href": "https://www.cbc.ca/news/politics/hoekstra-petition-9.7426916"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/hoekstra-petition-9.7426916",
+     "publisher": "CBC News (The Canadian Press)",
+     "published": "Nov 18, 2026, 2:45 PM ET",
+     "checkedAt": "2026-11-19T06:27:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "More than 285,000 signatures; petition closes Wednesday",
+      "Accuses Hoekstra of statements undermining relations",
+      "Government has 45 days to respond once presented"
+     ],
+     "limits": [
+      "Single outlet (Canadian Press copy). The headline says “nearly 300,000”; the article gives “more than 285,000”. No response from Hoekstra or the U.S. embassy was reported."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/ca-hoekstra.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Portrait of Pete Hoekstra wearing glasses in front of a U.S. flag",
+    "caption": "Pete Hoekstra’s official State Department portrait, 2017.",
+    "credit": "United States Department of State",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3APete_Hoekstra_official_photo_%28cropped%29.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3APete_Hoekstra_official_photo_%28cropped%29.jpg",
+    "isFilePhoto": true,
+    "year": 2017
+   }
+  },
+  {
+   "id": "hk-apec",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-19T05:46",
+   "dateLabel": "Nov 19, 2026",
+   "headline": "John Lee lists “five outcomes” for Hong Kong at APEC and meets Singapore’s prime minister",
+   "summary": "Chief Executive John Lee told reporters in Shenzhen on Thursday, Nov. 19, that Hong Kong had achieved five results at the APEC meetings: supporting China’s hosting, deepening ties with APEC economies, consolidating relations with ASEAN members, exploring emerging markets and “telling the good stories” of the Greater Bay Area. He said Hong Kong sent its largest-ever APEC delegation of more than 50 people and that APEC economies account for 87% of its external trade, according to the government’s transcript. Lee also met Singapore Prime Minister Lawrence Wong, who said ties were “warmer than ever,” and thanked Singapore for supporting Hong Kong’s bid to join the RCEP trade pact, RTHK reported.",
+   "why": "With China hosting APEC next door, Hong Kong used the summit to pitch itself as Beijing’s international “super connector.” The concrete test is RCEP membership, which would give the city better access to Asian markets; Singapore takes the ASEAN chair next year, so its support counts.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "Remarks by CE at media session in Shenzhen",
+     "site": "Hong Kong government (info.gov.hk)",
+     "date": "Nov 19, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/19/P2026111900419.htm"
+    },
+    {
+     "title": "Five positive outcomes for HK at Apec summit: Lee",
+     "site": "RTHK",
+     "date": "Nov 19, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878448-20261119.htm"
+    },
+    {
+     "title": "HK, Singapore leaders meet on Apec sidelines",
+     "site": "RTHK",
+     "date": "Nov 19, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878480-20261119.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/19/P2026111900419.htm",
+     "publisher": "Hong Kong government (info.gov.hk)",
+     "published": "Issued Nov 19, 2026, 4:18 PM HKT (3:18 AM ET)",
+     "checkedAt": "2026-11-19T06:28:59-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Five results listed by Lee",
+      "Largest-ever delegation of 50+; APEC economies 87% of external trade",
+      "Met leaders of seven economies"
+     ],
+     "limits": [
+      "Official government transcript."
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878448-20261119.htm",
+     "publisher": "RTHK",
+     "published": "Nov 19, 2026, 3:31 PM HKT (2:31 AM ET)",
+     "checkedAt": "2026-11-19T06:27:37-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Five outcomes as listed; talks with Peru and Singapore set for Thursday afternoon"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded broadcaster."
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878480-20261119.htm",
+     "publisher": "RTHK",
+     "published": "Nov 19, 2026, 6:46 PM HKT (5:46 AM ET)",
+     "checkedAt": "2026-11-19T06:27:45-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Lee met Lawrence Wong; Wong: ties “warmer than ever”",
+      "Lee thanked Singapore for supporting early RCEP accession"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded broadcaster."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-lights",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-18T09:17",
+   "dateLabel": "Nov 18, 2026",
+   "headline": "“A Symphony of Lights” ends its 22-year run over Victoria Harbour with a fireworks finale",
+   "summary": "Hong Kong’s nightly harbour light show, “A Symphony of Lights,” gave its final performance at 8 p.m. on Wednesday, Nov. 18, with pyrotechnics launched from rooftops and light installations on more than 40 buildings on both sides of Victoria Harbour, RTHK reported. Crowds lined the Tsim Sha Tsui promenade, some arriving an hour early. The government’s Tourism Commission confirmed the grand finale was held on Nov. 18. Tourism minister Rosanna Law noted that Guinness World Records recognised the show in 2005 as the world’s largest permanent light and sound show. It is being replaced by rotating light festivals; the Hong Kong WinterFest, with nightly projections on buildings in Central and Tsim Sha Tsui, began the same evening and runs through the New Year.",
+   "why": "For two decades the show was a free, nightly ritual for residents and one of the first things many visitors saw. Its end marks a shift in Hong Kong’s tourism strategy toward changing events meant to give people new reasons to come back.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "‘A Symphony of Lights’ goes out on a high",
+     "site": "RTHK",
+     "date": "Nov 18, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878341-20261118.htm"
+    },
+    {
+     "title": "Conclusion of “A Symphony of Lights” (SoL) held on 18 November 2026",
+     "site": "Tourism Commission, Hong Kong government",
+     "date": "Nov 2026",
+     "href": "https://www.tourism.gov.hk/symphony/english/SpecialAnnouncements/SpecialAnnouncements.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878341-20261118.htm",
+     "publisher": "RTHK",
+     "published": "Nov 18, 2026, 10:17 PM HKT (9:17 AM ET)",
+     "checkedAt": "2026-11-19T06:27:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Last performance Wednesday at 8pm; 40+ buildings; rooftop fireworks",
+      "Rosanna Law on the 2005 Guinness record",
+      "WinterFest projections nightly 7–11pm"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded broadcaster."
+     ]
+    },
+    {
+     "url": "https://www.tourism.gov.hk/symphony/english/SpecialAnnouncements/SpecialAnnouncements.html",
+     "publisher": "Tourism Commission, Hong Kong government",
+     "published": "No publication date on the page",
+     "checkedAt": "2026-11-19T06:36:57-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "The grand finale was held on Nov 18, 2026"
+     ],
+     "limits": [
+      "Official announcement page with no date stamp."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/hk-lights.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Green laser beams and coloured lights over Hong Kong’s skyline reflected in Victoria Harbour at night",
+    "caption": "“A Symphony of Lights” over Victoria Harbour, pictured in 2018.",
+    "credit": "Krimuk2.0",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHong_Kong%2C_A_Symphony_of_Lights_%282%29.jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "hk-scams",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-19T01:52",
+   "dateLabel": "Nov 19, 2026",
+   "headline": "Hong Kong police arrest 123 people and bust two scam-call centres in cases worth about HK$68 million",
+   "summary": "Hong Kong police said they arrested 123 people, aged 14 to 75, in a two-week operation against phone scams and money laundering that began in early November, involving cases worth about HK$68 million, RTHK reported on Thursday, Nov. 19. Most were suspected of lending their bank accounts or registering phones for the gangs. Officers broke up two scam-call operation centres, one hidden in industrial units in Kwun Tong and Hung Hom, seized two SIM-card devices known as “cat pools” that can dial more than 200 numbers an hour, and froze HK$1.8 million.",
+   "why": "Phone scams are among the most common crimes in Hong Kong, and the arrests show how gangs rely on ordinary people renting out bank accounts and phone numbers. Lending yours can lead to arrest for money laundering, even for teenagers.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "Arrests over HK$68m phone ‘scams’",
+     "site": "RTHK",
+     "date": "Nov 19, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878422-20261119.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878422-20261119.htm",
+     "publisher": "RTHK",
+     "published": "Nov 19, 2026, 2:52 PM HKT (1:52 AM ET)",
+     "checkedAt": "2026-11-19T06:27:42-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "123 arrested aged 14–75; HK$68 million involved; HK$1.8 million frozen",
+      "Two scam-call centres; “cat pool” SIM devices dial 200+ numbers an hour"
+     ],
+     "limits": [
+      "Single outlet relaying police figures; RTHK is Hong Kong’s government-funded broadcaster."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-drones",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-19T05:22",
+   "dateLabel": "Nov 17–19, 2026",
+   "headline": "Five arrested in Hong Kong for flying drones in a no-fly zone set up for the Shenzhen APEC summit",
+   "summary": "Hong Kong police have arrested five men, aged 20 to 67, for allegedly flying drones in restricted areas during a four-day no-fly zone covering much of the city’s northern airspace while neighbouring Shenzhen hosts APEC, Hong Kong Free Press reported on Thursday, Nov. 19. Two were arrested on Tuesday in Nam Sang Wai and Tin Shui Wai, two more in Sheung Shui and Fanling, and one in Lau Fau Shan at midnight on Thursday. The drones were seized. The restriction runs through Friday, Nov. 20.",
+   "why": "The arrests show how far summit security reaches beyond Shenzhen into Hong Kong’s border districts. Hobby drone pilots should check government notices before flying until the zone lifts.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "Hong Kong police arrest five over illegal drone flights during Shenzhen APEC summit",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 19, 2026",
+     "href": "https://hongkongfp.com/2026/11/19/hong-kong-police-arrest-five-over-illegal-drone-flights-during-shenzhen-apec-summit/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/19/hong-kong-police-arrest-five-over-illegal-drone-flights-during-shenzhen-apec-summit/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 19, 2026, 5:22 AM ET",
+     "checkedAt": "2026-11-19T06:27:39-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Five men aged 20–67 arrested in northern districts",
+      "Four-day restricted flying zone through Friday",
+      "Drones seized; criminal investigation units handling cases"
+     ],
+     "limits": [
+      "Single outlet relaying police statements and a police Facebook post (not opened)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-ec",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-19T03:00",
+   "dateLabel": "Nov 19, 2026 (vote scheduled Nov 22)",
+   "headline": "Hong Kong’s Election Committee subsector elections are set for Sunday, with 856 candidates for 723 seats",
+   "summary": "The 2026 Election Committee Subsector Ordinary Elections are scheduled for Sunday, Nov. 22, from 9 a.m. to 6 p.m., the Registration and Electoral Office said on Thursday, Nov. 19. A total of 856 candidates will contest 723 seats in 31 subsectors, and only registered voters in those contested subsectors are eligible. Voting will take place at five ordinary polling stations in sports centres plus two dedicated stations at Happy Valley Police Station and Shek Pik Prison; voters must bring their original Hong Kong ID card.",
+   "why": "The Election Committee chooses Hong Kong’s chief executive and some lawmakers, and only registered voters in its subsectors take part, a small fraction of the city’s electorate. Sunday’s vote shapes the body that will pick the city’s next leader.",
+   "label": "Official statement",
+   "sources": [
+    {
+     "title": "Voters to follow voting procedures in 2026 Election Committee Subsector Ordinary Elections to be held this Sunday",
+     "site": "Hong Kong government (info.gov.hk)",
+     "date": "Nov 19, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/19/P2026111900356.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/19/P2026111900356.htm",
+     "publisher": "Hong Kong government (info.gov.hk)",
+     "published": "Issued Nov 19, 2026, 4:00 PM HKT (3:00 AM ET)",
+     "checkedAt": "2026-11-19T06:28:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Polling Sunday Nov 22, 9am–6pm",
+      "856 candidates, 723 seats, 31 contested subsectors",
+      "Five ordinary and two dedicated polling stations"
+     ],
+     "limits": [
+      "Official release; the context on the committee’s role is Donna Daily background, not from this release."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-xitrump",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-19T03:59",
+   "dateLabel": "Nov 19, 2026",
+   "headline": "Xi tells Trump ties are “stable and positive” but warns the U.S. to “do the right thing” on Taiwan",
+   "summary": "Meeting Donald Trump before the three-way summit in Shenzhen on Thursday, Nov. 19, Xi Jinping said China–U.S. relations had kept a generally stable and positive course and described them as “a constructive China-US relationship of strategic stability.” According to Xinhua, as reported by RTHK, Xi said the U.S. “must keep doing the right thing” on Taiwan to avoid “great turbulence,” and that the two countries should cooperate to keep artificial intelligence “under human control”; RTHK reported Trump told Xi Washington does not support “Taiwan independence.” Al Jazeera said it was the leaders’ third one-on-one meeting this year and lasted about an hour, and quoted Trump calling Xi a “friend” and saying, “As long as the two of us are in charge, I don’t think we’ll have a problem.”",
+   "why": "Taiwan is the issue most likely to upset the U.S.–China truce, so how each side describes what was said matters. Beijing’s account, carried by state media, frames the U.S. as having reassured China; watch whether the White House confirms the wording, because any shift in U.S. language on Taiwan would be closely read in Taipei and Tokyo.",
+   "label": "Official statement + State media + Reported",
+   "sources": [
+    {
+     "title": "China-US relations generally stable and positive: Xi",
+     "site": "RTHK",
+     "date": "Nov 19, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878463-20261119.htm"
+    },
+    {
+     "title": "Trump meets Putin and Xi for trilateral US, Russia, China talks at APEC",
+     "site": "Al Jazeera",
+     "date": "Nov 19, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks"
+    },
+    {
+     "title": "Trump, Xi, Putin conclude trilateral meeting at APEC summit",
+     "site": "CBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cbc.ca/news/world/trump-xi-putin-historic-meeting-9.7427718"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878463-20261119.htm",
+     "publisher": "RTHK",
+     "published": "Nov 19, 2026, 4:59 PM HKT (3:59 AM ET)",
+     "checkedAt": "2026-11-19T06:26:21-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Xi: relations have maintained a stable and positive trajectory",
+      "Xinhua quote: the U.S. “must keep doing the right thing” on Taiwan",
+      "Trump told Xi Washington does not support “Taiwan independence”",
+      "Xi urged cooperation to keep AI “under human control”"
+     ],
+     "limits": [
+      "Rests on Xinhua (Chinese state media) as carried by RTHK, Hong Kong’s government-funded broadcaster. The U.S. account of the Taiwan exchange was not found this morning."
+     ]
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks",
+     "publisher": "Al Jazeera",
+     "published": "Nov 19, 2026, 3:32 AM ET; updated 5:41 AM ET",
+     "checkedAt": "2026-11-19T06:26:17-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Third Xi–Trump one-on-one this year, about an hour",
+      "Xi: “constructive China-US relationship of strategic stability”",
+      "Trump: “As long as the two of us are in charge, I don’t think we’ll have a problem”"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/news/world/trump-xi-putin-historic-meeting-9.7427718",
+     "publisher": "CBC News",
+     "published": "Nov 19, 2026, 4:49 AM ET; updated 5:42 AM ET",
+     "checkedAt": "2026-11-19T06:26:16-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "On Taiwan, Xi told Trump the U.S. must “do the right thing”"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/cn-xitrump.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Donald Trump and Xi Jinping shake hands in front of U.S. and Chinese flags",
+    "caption": "Trump and Xi before their meeting in Busan, South Korea, in October 2025.",
+    "credit": "The White House",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3APresident_Donald_Trump_greets_Chinese_President_Xi_Jinping_before_a_bilateral_meeting_at_the_Gimhae_International_Airport_terminal_%2854890669668%29.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3APresident_Donald_Trump_greets_Chinese_President_Xi_Jinping_before_a_bilateral_meeting_at_the_Gimhae_International_Airport_terminal_%2854890669668%29.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "cn-apec",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-18T21:18",
+   "dateLabel": "Nov 19, 2026 (Shenzhen time)",
+   "headline": "Xi pledges US$20 million for Asia-Pacific cooperation as APEC leaders meet in Shenzhen",
+   "summary": "Opening the APEC Economic Leaders’ Meeting in Shenzhen on Thursday, Nov. 19 (local time), Xi Jinping said China would provide US$20 million to support regional cooperation and would set up a centre for Asia-Pacific community studies in Shenzhen, as well as cooperation bodies on digital technology, cross-border data flows, clean energy and small businesses, according to RTHK. He called for “free and open” trade and investment; CBC noted that Western leaders argue China’s industry-first growth model creates unfair trade imbalances. Putin told the gathering Russia was key to the region’s food and energy security, and Trump said the U.S. had been a Pacific power for hundreds of years, CBC reported.",
+   "why": "China is using its year as APEC host to present itself as the defender of open trade while the U.S. keeps high tariffs. The money is small, but new China-based institutions give Beijing a lasting role in setting regional rules on data and digital trade.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "China pledges US$20m to boost Apec cooperation: Xi",
+     "site": "RTHK",
+     "date": "Nov 19, 2026 (HKT)",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878395-20261119.htm"
+    },
+    {
+     "title": "Trump, Xi, Putin conclude trilateral meeting at APEC summit",
+     "site": "CBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cbc.ca/news/world/trump-xi-putin-historic-meeting-9.7427718"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878395-20261119.htm",
+     "publisher": "RTHK",
+     "published": "Nov 19, 2026, 10:18 AM HKT (Nov 18, 9:18 PM ET)",
+     "checkedAt": "2026-11-19T06:26:25-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Xi announced US$20 million to support regional cooperation at the Economic Leaders’ Meeting",
+      "Centre for Asia-Pacific community studies in Shenzhen; cooperation institutions on digital tech, data flows, clean energy, SMEs"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded broadcaster; the report follows Chinese official accounts."
+     ]
+    },
+    {
+     "url": "https://www.cbc.ca/news/world/trump-xi-putin-historic-meeting-9.7427718",
+     "publisher": "CBC News",
+     "published": "Nov 19, 2026, 4:49 AM ET; updated 5:42 AM ET",
+     "checkedAt": "2026-11-19T06:26:16-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Xi called for “free and open” trade during APEC proceedings; Western criticism of China’s growth model",
+      "Putin on food and energy security; Trump on the U.S. as a Pacific power"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/cn-apec.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Skyscrapers of Shenzhen’s Futian district under a cloudy sky",
+    "caption": "Shenzhen’s Futian district skyline, pictured in 2016.",
+    "credit": "Huangdan2060",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AShenzhen_Skyline_from_Futian_District5.jpg",
+    "isFilePhoto": true,
+    "year": 2016
+   }
+  },
+  {
+   "id": "cn-skills",
+   "region": "cn",
+   "topic": "human",
+   "ts": "2026-11-19T00:00",
+   "dateLabel": "Nov 19, 2026 (draft released Nov 12)",
+   "headline": "China drafts its first rules on vocational skills certificates to curb fake credentials",
+   "summary": "China’s Ministry of Human Resources and Social Security has published a draft regulation on vocational skills certification, its first, that would bar certification bodies from leaking exam questions or making misleading claims and allow certificates only for candidates who pass the assessments, Sixth Tone reported on Nov. 19. Bodies that issue, forge or trade certificates without registering could face suspension and fines of 10,000 to 100,000 yuan. The draft was released on Nov. 12 and is open for public comment until Dec. 12; no start date has been set. The ministry says China has more than 220 million skilled workers, and certificates can bring cash subsidies, school places for children and faster residency applications.",
+   "why": "Because certificates unlock real benefits, a market in bought or fake credentials has grown since China handed most certification to third-party bodies in 2020. Tighter rules could make credentials more trustworthy for employers, but also harder and costlier to obtain for workers chasing better pay.",
+   "label": "Official proposal + Reported",
+   "sources": [
+    {
+     "title": "China Proposes Tougher Rules to Curb Skills Certification Fraud",
+     "site": "Sixth Tone",
+     "date": "Nov 19, 2026",
+     "href": "https://www.sixthtone.com/news/1019293"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.sixthtone.com/news/1019293",
+     "publisher": "Sixth Tone",
+     "published": "Nov 19, 2026",
+     "checkedAt": "2026-11-19T06:28:17-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Draft released Nov 12, comments until Dec 12, no effective date",
+      "Fines of 10,000–100,000 yuan; certificates only for those who pass",
+      "More than 220 million skilled workers; benefits tied to certificates"
+     ],
+     "limits": [
+      "Single outlet. Sixth Tone is owned by a state-owned Shanghai media group. The ministry’s own draft was not opened this morning."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-cart",
+   "region": "cn",
+   "topic": "human",
+   "ts": "2026-11-17T00:00",
+   "dateLabel": "Nov 17, 2026 (announced Nov 14)",
+   "headline": "China will cover a CAR T-cell cancer therapy under national health insurance for the first time",
+   "summary": "China’s National Healthcare Security Administration announced on Nov. 14 that relma-cel (sold as Carteyva), a CAR T-cell therapy for some lymphomas made by Shanghai-based JW Therapeutics, will be covered by basic medical insurance from Jan. 1, Sixth Tone reported. The treatment, which re-engineers a patient’s own immune cells to attack cancer, costs 1.29 million yuan per dose. Sixth Tone said such high-priced drugs had long been kept off the national list, and that use of CAR T therapies in China lags far behind the U.S. Reimbursement levels for patients were not given in the report.",
+   "why": "Most of China’s 1.33 billion insured people can be partly reimbursed only for drugs on the national list, so inclusion could open one of the most expensive cancer treatments to far more patients. How much families still pay out of pocket will decide how big the change really is.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "China’s Basic Insurance to Cover CAR T-Cell Cancer Therapy",
+     "site": "Sixth Tone",
+     "date": "Nov 17, 2026",
+     "href": "https://www.sixthtone.com/news/1019275"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.sixthtone.com/news/1019275",
+     "publisher": "Sixth Tone",
+     "published": "Nov 17, 2026",
+     "checkedAt": "2026-11-19T06:28:16-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "NHSA announced Nov 14 that relma-cel (Carteyva) will be covered from Jan 1",
+      "Costs 1.29 million yuan per dose",
+      "1.33 billion enrolled in basic medical insurance at end of 2025"
+     ],
+     "limits": [
+      "Single outlet; Sixth Tone is owned by a state-owned Shanghai media group. The NHSA notice itself was not opened."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-icj",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-19T05:55",
+   "dateLabel": "Nov 19, 2026",
+   "headline": "UN top court finds Myanmar acted with “genocidal intent” against the Rohingya",
+   "summary": "The International Court of Justice in The Hague ruled on Thursday, Nov. 19, in the case brought by The Gambia, finding that Myanmar’s security forces killed thousands of Rohingya civilians in the 2017 military crackdown and acted with “genocidal intent” in specific cases, Al Jazeera reported. Court President Yuji Iwasawa said evidence showed some 10,000 Rohingya were killed; the court also said Myanmar violated its obligation to prevent genocide. Myanmar has said the operations were a response to attacks by Rohingya fighters. More than 730,000 Rohingya fled to Bangladesh, and about 1.2 million live in camps in Cox’s Bazar. The Guardian reported before the ruling that judges feared U.S. sanctions if the court found genocide, because the ruling could set a precedent for the court’s pending case over Israel’s actions in Gaza.",
+   "why": "The ICJ has never before found a state responsible for genocide, so the reasoning on how to prove “intent” will matter far beyond Myanmar, including in the Gaza case. For Rohingya refugees, the ruling is a formal recognition of what they suffered, though the court has no police force to enforce it.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "UN top court convicts Myanmar of ‘genocidal intent’ against Rohingya",
+     "site": "Al Jazeera",
+     "date": "Nov 19, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+    },
+    {
+     "title": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
+     "site": "The Guardian",
+     "date": "Nov 18, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+     "publisher": "Al Jazeera",
+     "published": "Nov 19, 2026, 5:31 AM ET; updated 5:55 AM ET",
+     "checkedAt": "2026-11-19T06:28:07-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Judgment delivered Thursday; some 10,000 Rohingya killed per court president",
+      "“Genocidal intent” in specific cases; Myanmar violated duty to prevent genocide",
+      "730,000+ fled to Bangladesh; 1.2 million in Cox’s Bazar camps"
+     ],
+     "limits": [
+      "Only post-verdict source opened this morning; a BBC link found in a feed returned HTTP 404 and is not cited. Al Jazeera’s headline says “convicts”; the ICJ rules on state responsibility, not criminal guilt. The full operative findings were not read in the court’s own text."
+     ]
+    },
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court",
+     "publisher": "The Guardian",
+     "published": "Nov 18, 2026, 4:58 AM ET; updated Nov 19, 12:09 AM ET",
+     "checkedAt": "2026-11-19T06:28:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Ruling was scheduled for Thursday",
+      "ICJ has never found a state responsible for genocide",
+      "Judges took advice on protecting assets from possible U.S. sanctions; precedent concerns for Israel case"
+     ],
+     "limits": [
+      "Written before the verdict."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/w-icj.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Peace Palace in The Hague, a red-brick building with a tall clock tower",
+    "caption": "The Peace Palace in The Hague, seat of the International Court of Justice, pictured in 2024.",
+    "credit": "Michielverbeek",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ADen_Haag%2C_het_Vredespaleis_RM333074_IMG_4317_2024-08-05_10.02.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "w-crimea",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-19T06:15",
+   "dateLabel": "Nov 19, 2026 (bridge first hit Nov 17)",
+   "headline": "Ukraine strikes the Crimean Bridge for a third time this week, Russian officials say",
+   "summary": "The Crimean Bridge linking Russia to occupied Crimea was attacked again early on Thursday, Nov. 19, its third strike this week, Crimea’s Moscow-installed head Sergei Aksyonov said; rail traffic was temporarily suspended and he later said it would resume from about 4 p.m. local time, DW reported. Ukraine’s military said its forces carried out the attack. On Tuesday, Nov. 17, Ukrainian missiles and drones destroyed the central road section, collapsing part of it into the water, BBC reported. TASS, citing a Russian deputy prime minister, said some sections could take months to reopen. The strikes came as Vladimir Putin met Donald Trump and Xi Jinping in Shenzhen.",
+   "why": "The bridge is Russia’s main supply route into Crimea and a symbol of its 2014 annexation. Repeated hits put pressure on Moscow’s logistics just as Putin seeks to shape peace terms with Washington and Beijing.",
+   "label": "Official statement + Claim + Reported",
+   "sources": [
+    {
+     "title": "Putin’s Crimean Bridge comes under attack again, Russian official says",
+     "site": "BBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo"
+    },
+    {
+     "title": "Crimea Bridge has been attacked again, Russian official says",
+     "site": "DW",
+     "date": "Nov 19, 2026",
+     "href": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo",
+     "publisher": "BBC News",
+     "published": "Nov 18, 2026, 8:05 PM ET; updated Nov 19, 2:32 AM ET",
+     "checkedAt": "2026-11-19T06:28:10-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Third attack this week per Russia; rail traffic suspended",
+      "Tuesday strike destroyed the central road section"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700",
+     "publisher": "DW",
+     "published": "Nov 18, 2026, 10:43 PM ET; updated Nov 19, 6:15 AM ET",
+     "checkedAt": "2026-11-19T06:28:56-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Aksyonov: traffic to resume around 4pm local time",
+      "Ukrainian military said its forces carried out the attack",
+      "TASS: some sections may take months"
+     ],
+     "limits": [
+      "Damage claims come from Russian officials and Russian state media (TASS)."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/w-crimea.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A long road and rail bridge stretching across a grey strait under a cloudy sky",
+    "caption": "The Crimean Bridge across the Kerch Strait, pictured in 2021.",
+    "credit": "Alexxx1979",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AKerch._Crimean_Bridge_P5020707_2350.jpg",
+    "isFilePhoto": true,
+    "year": 2021
+   }
+  },
+  {
+   "id": "w-han",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-19T05:38",
+   "dateLabel": "Nov 19, 2026",
+   "headline": "South Korea’s Supreme Court overturns ex-prime minister Han Duck-soo’s martial-law conviction and orders a retrial",
+   "summary": "South Korea’s Supreme Court on Thursday, Nov. 19, overturned former Prime Minister Han Duck-soo’s conviction for aiding ousted President Yoon Suk Yeol’s December 2024 martial-law declaration, ruling that prosecutors had not sufficiently proven the case, CBC and DW reported. The Seoul High Court had sentenced Han to 15 years in prison in May; the case now returns to that court. The Supreme Court upheld a four-year prison term for Yoon’s wife, Kim Keon Hee, for corruption including stock-price manipulation and bribery. Both are in prison and did not attend.",
+   "why": "The martial-law crisis is South Korea’s biggest test of democratic accountability in decades. The ruling shows courts drawing a line between those who planned the decree and officials around it, and Han’s retrial will be watched as a measure of how far that accountability reaches.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "South Korea’s top court overturns charges against ex-prime minister for his role in martial law",
+     "site": "CBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cbc.ca/news/world/south-korea-overturns-charges-against-ex-prime-minister-9.7427717"
+    },
+    {
+     "title": "South Korea court overturns jail term for former PM Han",
+     "site": "DW",
+     "date": "Nov 19, 2026",
+     "href": "https://www.dw.com/en/south-korea-s-top-court-overturns-jail-term-for-former-pm-han/a-79987912"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/world/south-korea-overturns-charges-against-ex-prime-minister-9.7427717",
+     "publisher": "CBC News",
+     "published": "Nov 19, 2026, 4:50 AM ET",
+     "checkedAt": "2026-11-19T06:28:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Conviction overturned; prosecutors had not sufficiently proven the case",
+      "Sent back to Seoul High Court, which gave 15 years in May",
+      "Kim Keon Hee’s four-year term upheld"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.dw.com/en/south-korea-s-top-court-overturns-jail-term-for-former-pm-han/a-79987912",
+     "publisher": "DW",
+     "published": "Nov 19, 2026, 4:28 AM ET; updated 5:38 AM ET",
+     "checkedAt": "2026-11-19T06:28:56-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "15-year sentence overturned and returned to lower court",
+      "Kim Keon Hee’s term upheld"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/w-han.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Han Duck-soo, wearing glasses, in front of a South Korean flag",
+    "caption": "Han Duck-soo, then South Korea’s prime minister, pictured in 2022.",
+    "credit": "Bundesministerium für europäische und internationale Angelegenheiten (Austrian Foreign Ministry)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHan_Duck-soo_2022.jpg",
+    "isFilePhoto": true,
+    "year": 2022
+   }
+  },
+  {
+   "id": "w-jepchirchir",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-19T05:56",
+   "dateLabel": "Nov 19, 2026",
+   "headline": "World marathon champion Peres Jepchirchir is banned for three years for EPO",
+   "summary": "Kenya’s Peres Jepchirchir, the reigning world marathon champion and 2021 Olympic gold medallist, has been banned for three years after testing positive for the blood-boosting drug EPO, the Athletics Integrity Unit said on Thursday, Nov. 19. The out-of-competition sample was collected in Kenya before she won the Sydney Marathon on Aug. 30. Al Jazeera said she admitted the violations and accepted the loss of all results since July 17; Irine Cheptai is set to be named the 2026 Sydney champion. BBC Sport said two other Kenyans were also sanctioned: Veronica Loleo (three years) and Ronald Korir (six years).",
+   "why": "Jepchirchir is one of the biggest names in distance running, and her ban deepens a doping crisis in Kenyan athletics that threatens the country’s standing in the sport. Expect pressure for tougher testing in Kenya.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "Kenya’s marathon champion Peres Jepchirchir gets three-year ban for doping",
+     "site": "Al Jazeera",
+     "date": "Nov 19, 2026",
+     "href": "https://www.aljazeera.com/sports/2026/11/19/kenyas-marathon-champion-peres-jepchirchir-gets-three-year-ban-for-doping"
+    },
+    {
+     "title": "Peres Jepchirchir: World marathon champion gets three-year doping ban for using EPO",
+     "site": "BBC Sport",
+     "date": "Nov 19, 2026",
+     "href": "https://www.bbc.co.uk/sport/athletics/articles/cv5y1e1zle88o"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.aljazeera.com/sports/2026/11/19/kenyas-marathon-champion-peres-jepchirchir-gets-three-year-ban-for-doping",
+     "publisher": "Al Jazeera",
+     "published": "Nov 19, 2026, 4:06 AM ET",
+     "checkedAt": "2026-11-19T06:28:09-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Three-year ban for EPO, per AIU statement Thursday",
+      "Admitted violations; results since July 17 disqualified",
+      "Cheptai set to be elevated to Sydney champion"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/athletics/articles/cv5y1e1zle88o",
+     "publisher": "BBC Sport",
+     "published": "Nov 19, 2026, 3:20 AM ET; updated 5:56 AM ET",
+     "checkedAt": "2026-11-19T06:28:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Provisional suspension in October; sample collected before the Aug 30 Sydney Marathon",
+      "Loleo three years and Korir six years also sanctioned"
+     ],
+     "limits": [
+      "The AIU statement itself was not opened."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/w-jepchirchir.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Peres Jepchirchir running in a yellow vest and black cap during a marathon",
+    "caption": "Peres Jepchirchir during the London Marathon in April 2024.",
+    "credit": "Katie Chan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3A2024_London_Marathon_-_Peres_Jepchirchir_%281%29.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "w-senegal",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-19T04:02",
+   "dateLabel": "Nov 18–19, 2026",
+   "headline": "Dozens missing after a boat reportedly carrying about 100 migrants sinks off Senegal",
+   "summary": "Senegalese authorities are searching for dozens of people missing after a boat reportedly carrying about 100 migrants capsized off the coast, BBC reported on Thursday, Nov. 19. The damaged boat washed ashore near the village of Yenne, south of Dakar; initial reports said one person died, while some local media reported at least four bodies recovered. A survivor told police about 100 people were aboard, including five women, according to AFP as cited by the BBC. It came less than two weeks after a shipwreck off the north-western town of Thieppe killed at least 39 people.",
+   "why": "The Atlantic route from West Africa to Spain’s Canary Islands is one of the deadliest migration routes in the world. Two disasters in two weeks show people are still risking it despite crackdowns, driven by poverty and lack of jobs at home.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Senegal boat disaster: Dozens missing as boat with 100 migrants sinks",
+     "site": "BBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/c58j484089ewo"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo",
+     "publisher": "BBC News",
+     "published": "Nov 19, 2026, 2:27 AM ET; updated 4:02 AM ET",
+     "checkedAt": "2026-11-19T06:28:09-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 19 2026",
+     "claimsSupported": [
+      "Boat with about 100 migrants capsized; dozens missing",
+      "Washed ashore near Yenne, south of Dakar",
+      "Death toll reports conflict (one vs at least four)",
+      "Thieppe shipwreck less than two weeks ago killed at least 39"
+     ],
+     "limits": [
+      "Single outlet, partly relying on AFP and local media; the death toll was unsettled."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-19-am/w-senegal.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Colourful wooden fishing pirogues with flags moored side by side in a bay",
+    "caption": "Pirogues moored at Saint-Louis, Senegal, pictured in 2020.",
+    "credit": "Nsoderblom",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AFishing_Fleet%2C_Saint_Louis%2C_Senegal.jpg",
+    "isFilePhoto": true,
+    "year": 2020
+   }
+  }
+ ]
+}

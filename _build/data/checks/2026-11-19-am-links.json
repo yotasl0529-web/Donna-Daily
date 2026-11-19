@@ -1,0 +1,283 @@
+{
+ "edition": "2026-11-19-am",
+ "ranAt": "2026-11-19T06:47:44-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.cbc.ca/news/world/trump-xi-putin-historic-meeting-9.7427718",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:44-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/19/trump-says-summit-with-xi-putin-making-history/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:46-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878445-20261119.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/18/nx-s1-6046212/anthropic-record-ipo-price",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/business/anthropic-ipo-share-price-nasdaq-9.7426856",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/18/nx-s1-6043185/democrats-nominate-jeffries-for-speaker-prep-investigations-into-trumps-orbit",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/artanddesign/2026/nov/19/vincent-van-gogh-painting-sells-for-record-190million",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/19/grand-theft-auto-vi-launches-to-rave-reviews-after-13-year-wait",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/grand-theft-auto-vi-launches-to-global-fanfare/a-79986461",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/entertainment/grand-theft-auto-time-off-work-9.7426919",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cm2d93z0e9gjo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/fiona-hippo-zoo-hat-9.7426251",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/carney-trump-trade-canada-busy-9.7426568",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/business/gas-prices-falling-canada-9.7426928",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/new-brunswick/student-protests-cell-phone-ban-9.7426743",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/montreal/via-rail-services-resumes-new-carlisle-2028-9.7426622",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/hoekstra-petition-9.7426916",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/19/P2026111900419.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878448-20261119.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:46-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878480-20261119.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:46-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878341-20261118.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.tourism.gov.hk/symphony/english/SpecialAnnouncements/SpecialAnnouncements.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:49-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878422-20261119.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:46-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/19/hong-kong-police-arrest-five-over-illegal-drone-flights-during-shenzhen-apec-summit/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:46-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/19/P2026111900356.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878463-20261119.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:46-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878395-20261119.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:46-05:00"
+  },
+  {
+   "url": "https://www.sixthtone.com/news/1019293",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.sixthtone.com/news/1019275",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:44-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/south-korea-overturns-charges-against-ex-prime-minister-9.7427717",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/south-korea-s-top-court-overturns-jail-term-for-former-pm-han/a-79987912",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/sports/2026/11/19/kenyas-marathon-champion-peres-jepchirchir-gets-three-year-ban-for-doping",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/sport/athletics/articles/cv5y1e1zle88o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-19T06:47:45-05:00"
+  }
+ ]
+}
