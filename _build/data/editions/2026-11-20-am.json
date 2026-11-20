@@ -1,0 +1,1458 @@
+{
+ "id": "2026-11-20-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-20",
+ "leadId": "w-kyiv",
+ "topIds": [
+  "cn-declaration",
+  "us-anthropic",
+  "ca-trade",
+  "hk-housing",
+  "w-ukeu"
+ ],
+ "notes": [
+  "Morning Edition for Friday, Nov 20, 2026.",
+  "Leading this morning: Russia’s overnight strikes on Kyiv’s bridges, the U.S.–China–Russia “Declaration toward Peace”, Anthropic’s Nasdaq debut, Canada’s trade outlook and a 10-year low in Hong Kong’s public housing wait. Also: New York City’s plan to close Rikers, the UK–EU summit, COP31’s final day, Pete Rose’s pardon, the Maple Leafs’ slump, Fiona the hippo and a Toronto radio show for Afghan women.",
+  "Updates on earlier stories: Crimean Bridge strikes (Nov 17 and 19 editions) and Russia’s response; the Shenzhen summit (Nov 19, now with a joint declaration); Anthropic (IPO priced, Nov 19, now trading); Fiona the hippo (in care, Nov 19; died Nov 19); Canada–U.S. trade talks (Nov 18–19); COP31 draft text (Nov 17); the ICJ Rohingya ruling (Nov 19, now China’s reaction).",
+  "Planned or under way, not confirmed when this edition was prepared: the UK–EU summit outcomes including the youth mobility scheme, the end of COP31 (likely to overrun), Trump’s Friday news conference, the SCO forum in New Delhi (Nov 20–22) and Rikers’ closure by 2032.",
+  "Photos appear on the lead and on 15 of 23 other stories. All are file photos except the White House photo of the Shenzhen meeting, which shows the event itself. Text-only where no suitable openly licensed photo was found: Canada’s Starlink, ’Ndrangheta and Radio Jawan stories, Hong Kong’s Washington Post and vaccine-exemption stories, China’s chip-sales and ICJ stories, and the India–Pakistan visit.",
+  "Stories by region: U.S. 5, Canada 5, Hong Kong 4, China 5, World 5. Hong Kong has four stories this morning; no further item was strong enough to add. Several stories rest on a single outlet; this is noted under each story’s sources."
+ ],
+ "provenance": [
+  "Compiled from the linked reporting, official releases and state-media reports listed under each story; labels show whether a point is reported, an official statement, a claim, an allegation or analysis.",
+  "Source pages were opened during this morning’s research between about 6:25 AM and 6:36 AM ET on Nov 20; each check time is the logged time that page was fetched.",
+  "RTHK is Hong Kong’s government-funded broadcaster; info.gov.hk is the Hong Kong government’s site; Xinhua, Global Times and People’s Daily are Chinese state media. Wire copy carried by another outlet is marked with the agency’s name.",
+  "Figures differ between outlets on the Kyiv death toll (it rose during the morning), the length of the Shenzhen meeting (80 vs 90 minutes) and Anthropic’s market value ($1.76T vs $1.8T); both figures are given. ESPN returned a bot check (HTTP 202) and SCMP returned HTTP 403 to automated fetches; those are access limits, not evidence of errors, and those pages are not cited."
+ ],
+ "stories": [
+  {
+   "id": "w-kyiv",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-20T06:12",
+   "dateLabel": "Nov 20, 2026 (Crimean Bridge strikes covered Nov 17 and Nov 19)",
+   "headline": "Russia hits three Kyiv bridges in one of the war’s largest missile attacks, days after Ukraine’s Crimean Bridge strikes",
+   "deck": "Ballistic missiles hit three bridges over the Dnipro in Kyiv overnight into Friday, Nov. 20, and at least eight people were killed across Ukraine, officials said.",
+   "summary": "Russia struck Ukraine overnight into Friday, Nov. 20, with what Ukraine’s air force said were almost 100 missiles and about 400 drones, one of the largest attacks since the 2022 invasion, the BBC reported. Ballistic missiles hit three bridges over the Dnipro in Kyiv — the Podilskyi, Darnytskyi and Southern bridges — which were closed or restricted to traffic, and Mayor Vitali Klitschko urged people to avoid driving into the city. Casualty figures rose through the morning: CBC, citing Kyiv authorities, first reported three dead in the capital; Al Jazeera and the BBC, citing Prime Minister Serhiy Koretsky, reported eight killed nationwide (six in Kyiv, according to Al Jazeera) and 28 injured. Strikes also hit railway stations, including one in Lviv where the mayor said two people died, and power generation, causing outages in Kyiv and other regions. Russia’s defence ministry said it targeted bridges used to move weapons. The attack came hours after Vladimir Putin vowed to respond to Ukraine’s strikes this week on the Crimean (Kerch) Bridge. Poland’s defence minister said Russian flying objects entered Polish airspace; the BBC quoted him saying a Russian cruise missile landed about 50 km inside Poland, while DW reported a flying object crashed in the Lublin region.",
+   "why": "The strikes show how quickly the war escalates around symbolic targets: Ukraine hit the bridge Putin built to Crimea, and Russia answered by cutting the bridges that hold Kyiv together. They also landed in the middle of new peace diplomacy — European leaders say they are ready for talks and U.S. envoy Jared Kushner says Moscow may accept NATO-style guarantees for Ukraine — which the Kremlin has pushed back on. Any Russian weapon landing in Poland, a NATO member, raises the stakes further.",
+   "label": "Reported + Official statement + Claim",
+   "sources": [
+    {
+     "title": "Ukraine: Three Kyiv bridges hit during major Russian missile attack",
+     "site": "BBC News",
+     "date": "Nov 20, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o"
+    },
+    {
+     "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
+     "site": "Al Jazeera",
+     "date": "Nov 20, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges"
+    },
+    {
+     "title": "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
+     "site": "CBC News",
+     "date": "Nov 20, 2026",
+     "href": "https://www.cbc.ca/news/world/russian-attacks-on-kyiv-9.7429460"
+    },
+    {
+     "title": "Ukraine updates: Missiles target Kyiv, hit bridges",
+     "site": "DW",
+     "date": "Nov 20, 2026",
+     "href": "https://www.dw.com/en/ukraine-updates-kyiv-targeted-by-missile-strikes-bridges-hit/live-79999822"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o",
+     "publisher": "BBC News",
+     "published": "Nov 20, 2026, 3:04 AM ET; updated 6:12 AM ET",
+     "checkedAt": "2026-11-20T06:27:01-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Three Kyiv bridges (Podilsko-Voskresensky, Darnytskyi, Southern) hit and closed",
+      "Air force: almost 100 missiles and around 400 drones; Zelensky called it one of the most massive strikes",
+      "At least eight dead; PM Koretsky said 28 injured; two killed at Lviv railway station",
+      "Polish defence minister said a Russian cruise missile landed about 50 km inside Poland"
+     ],
+     "limits": [
+      "Casualty figures were still changing when checked."
+     ]
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges",
+     "publisher": "Al Jazeera",
+     "published": "Nov 20, 2026, 4:54 AM ET",
+     "checkedAt": "2026-11-20T06:27:01-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Eight killed including six in Kyiv, 28 wounded (PM Koretskyi)",
+      "Podilskyi, Darnitskyi and Southern bridges damaged",
+      "Russian defence ministry says it targeted bridges used for weapons transport",
+      "Putin pledged a “painful” response to the Kerch Bridge strike"
+     ],
+     "limits": [
+      "Russian military claims are unverified."
+     ]
+    },
+    {
+     "url": "https://www.cbc.ca/news/world/russian-attacks-on-kyiv-9.7429460",
+     "publisher": "CBC News",
+     "published": "Nov 20, 2026, 4:53 AM ET",
+     "checkedAt": "2026-11-20T06:27:02-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Kyiv authorities: three killed and nine injured in the capital",
+      "Widespread power outages in several districts",
+      "Putin: “We will respond to these attacks”"
+     ],
+     "limits": [
+      "Its death toll (Kyiv only, earlier figure) is lower than BBC and Al Jazeera’s nationwide toll."
+     ]
+    },
+    {
+     "url": "https://www.dw.com/en/ukraine-updates-kyiv-targeted-by-missile-strikes-bridges-hit/live-79999822",
+     "publisher": "DW",
+     "published": "Nov 20, 2026, 4:58 AM ET (live page, updating)",
+     "checkedAt": "2026-11-20T06:35:05-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Polish defence minister said several Russian flying objects entered Polish airspace",
+      "Polish prosecutors reported a flying object crashed in the Lublin region"
+     ],
+     "limits": [
+      "Live page; entries change during the day. Its description of what entered Poland is less specific than the BBC’s."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/w-kyiv.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A long bridge crossing the wide Dnipro river in Kyiv under a cloudy sky",
+    "caption": "The Podil Bridge over the Dnipro in Kyiv, pictured in 2019.",
+    "credit": "Maksym Kozlenko",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3A2019-07-13_Dnieper_River_in_Kyiv_and_Podil_Bridge.jpg",
+    "isFilePhoto": true,
+    "year": 2019
+   }
+  },
+  {
+   "id": "us-anthropic",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-20T06:00",
+   "dateLabel": "Nov 19, 2026 (IPO pricing covered in the Nov 19 edition)",
+   "headline": "Anthropic’s shares jump 17% in their Nasdaq debut, valuing the Claude maker at about $1.8 trillion",
+   "summary": "Anthropic’s stock began trading on the Nasdaq on Thursday, Nov. 19, opening at about $111.50 against its $83 offer price and closing at $97.17, up about 17%. That gives the maker of the Claude chatbot a market value of roughly $1.76 trillion (BBC) to $1.8 trillion (CNBC); CNBC says that makes it the seventh-most-valuable U.S. company though it is less than six years old. The company raised $81.3 billion the day before, the largest IPO on record, CNBC reported. The debut came on a weak day for tech: the Nasdaq Composite fell nearly 2.3%, with Alphabet and Amazon down about 3% and 4%. Analysts quoted by the BBC expect big price swings ahead.",
+   "why": "Anthropic is the first pure AI company to go public, so its share price is now a daily public vote on whether the huge sums spent on AI will pay off. A strong debut on a falling day suggests investors still want AI exposure, but the broader tech sell-off shows how nervous the market is about a bubble.",
+   "label": "Reported + Company figures",
+   "sources": [
+    {
+     "title": "Anthropic becomes one of world’s most valuable public companies in first-of-its kind IPO",
+     "site": "BBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o"
+    },
+    {
+     "title": "Anthropic defies odds holding IPO despite ‘massively disruptive’ market",
+     "site": "CNBC",
+     "date": "Nov 20, 2026",
+     "href": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o",
+     "publisher": "BBC News",
+     "published": "Nov 19, 2026, 4:38 PM ET; updated 6:33 PM ET",
+     "checkedAt": "2026-11-20T06:25:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Valuation roughly $1.76 trillion; allocation price $83; opened $111.53, closed $97.17",
+      "Nasdaq Composite closed down nearly 2.3%; Alphabet −2.9%, Amazon −3.9%"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
+     "publisher": "CNBC",
+     "published": "Nov 20, 2026, 6:00 AM ET",
+     "checkedAt": "2026-11-20T06:26:38-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Stock up 17% to $97.17; market cap about $1.8 trillion, seventh-most-valuable U.S. company",
+      "Raised $81.3 billion, largest IPO on record"
+     ],
+     "limits": [
+      "Valuation figure differs slightly from the BBC’s ($1.8T vs $1.76T)."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/us-anthropic.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Two men standing in a bright office lobby with wooden booth seating",
+    "caption": "A visit by UK Secretary of State Peter Kyle to Anthropic’s offices in San Francisco, October 2024.",
+    "credit": "Department for Science, Innovation and Technology",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASecretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854098999333%29.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "us-rikers",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-20T05:00",
+   "dateLabel": "Nov 20, 2026",
+   "headline": "Mayor Mamdani releases a plan to close Rikers Island’s jails by the end of 2032",
+   "summary": "New York City released its long-awaited plan on Friday, Nov. 20, to close the jails on Rikers Island by the end of 2032, Gothamist and NPR reported. Detainees would move to four new borough-based jails and three hospital units, and the island would be turned over to climate and sustainability projects. The plan depends on cutting the jail population to about two-thirds of today’s roughly 6,600 people, a target some advocates told Gothamist may be hard to meet. The city had already acknowledged it would miss the legally required August 2027 closure date. “It is long past time to close what’s been a moral stain on our city,” Mayor Zohran Mamdani told NPR. More than 50 people have died in city custody since 2022, nearly all held at Rikers, NPR reported.",
+   "why": "Rikers has been a byword for jail violence for decades, and closing it is one of Mamdani’s signature promises. The new borough jails are years behind schedule, so the real test is whether the city can shrink its jail population without new court fights or political backlash.",
+   "label": "Reported + Official proposal",
+   "sources": [
+    {
+     "title": "Mamdani lays out plan to close Rikers by 2032, after years of delays",
+     "site": "Gothamist",
+     "date": "Nov 20, 2026",
+     "href": "https://gothamist.com/news/mamdani-lays-out-plan-to-close-rikers-by-2032-after-years-of-delays"
+    },
+    {
+     "title": "New York City plans to close Rikers Island jail",
+     "site": "NPR",
+     "date": "Nov 20, 2026",
+     "href": "https://www.npr.org/2026/11/20/nx-s1-5981356/new-york-city-rikers-jail-plans-germany-prison-model"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://gothamist.com/news/mamdani-lays-out-plan-to-close-rikers-by-2032-after-years-of-delays",
+     "publisher": "Gothamist",
+     "published": "Nov 20, 2026, 5:00 AM ET",
+     "checkedAt": "2026-11-20T06:25:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Plan released Friday: island emptied by end of 2032",
+      "Four borough-based jails and three hospital units; island for climate and sustainability projects",
+      "Jail population target about two-thirds of current 6,600; city will miss August 2027 legal deadline"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.npr.org/2026/11/20/nx-s1-5981356/new-york-city-rikers-jail-plans-germany-prison-model",
+     "publisher": "NPR",
+     "published": "Nov 20, 2026, 5:00 AM ET",
+     "checkedAt": "2026-11-20T06:25:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "City unveiled closure plan Friday",
+      "Mamdani quote: “moral stain on our city”",
+      "More than 50 deaths in Department of Correction custody since 2022, almost all at Rikers"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/us-rikers.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Aerial view of an island with jail buildings next to airport runways in the East River",
+    "caption": "Aerial view of Rikers Island and LaGuardia Airport in New York City, February 2010.",
+    "credit": "Doc Searls",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALaGuardia_Airport_and_Rikers_Island_%284430036264%29.jpg",
+    "isFilePhoto": true,
+    "year": 2010
+   }
+  },
+  {
+   "id": "us-cyber",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-20T05:59",
+   "dateLabel": "Nov 19–20, 2026",
+   "headline": "White House cyber chief Sean Cairncross is out after a run of major tech outages",
+   "summary": "Sean Cairncross, the White House national cyber director since August 2025, is leaving his post after a string of U.S. technology outages that affected air traffic control, banks, Microsoft services and, reportedly, the NSA’s classified internal network. Pentagon chief information officer Kirsten Davies will take over in an acting capacity, according to CNBC and CBC; Secretary of State Marco Rubio and Defense Secretary Pete Hegseth congratulated her on X. Axios, cited by CNBC, reported that chief of staff Stephen Miller pushed for the change, and CBS and AFP sources said Cairncross was fired, the BBC reported. The White House had not publicly given a reason when this edition was prepared, but a White House official confirmed the departure to NBC and CBS, according to CNBC. The administration says there is no sign the outages were a coordinated attack.",
+   "why": "A permanent cyber director needs Senate confirmation, so the country’s top cyber-defence job is now held on an acting basis at a moment when outages are shaking public confidence. Whether the outages have a common cause is still unexplained; a personnel change doesn’t answer that question.",
+   "label": "Reported + Unnamed sources",
+   "sources": [
+    {
+     "title": "White House removes cyber-security chief after series of tech outages",
+     "site": "BBC News",
+     "date": "Nov 20, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo"
+    },
+    {
+     "title": "Top White House cybersecurity official leaves after cyber failures",
+     "site": "CNBC",
+     "date": "Nov 20, 2026",
+     "href": "https://www.cnbc.com/2026/11/20/sean-cairncross-white-house-cyber-director.html"
+    },
+    {
+     "title": "Sean Cairncross out, Kirsten A. Davies in as White House national cyber director: source",
+     "site": "CBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cbc.ca/news/world/cairncross-out-cyber-white-house-9.7429359"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo",
+     "publisher": "BBC News",
+     "published": "Nov 20, 2026, 4:37 AM ET",
+     "checkedAt": "2026-11-20T06:25:49-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Cairncross leaving after outages hit NSA, air traffic control and banks",
+      "CBS and AFP sources say he was fired; Rubio named Davies as new director",
+      "White House has not publicly confirmed or given a reason"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cnbc.com/2026/11/20/sean-cairncross-white-house-cyber-director.html",
+     "publisher": "CNBC",
+     "published": "Nov 20, 2026, 5:59 AM ET",
+     "checkedAt": "2026-11-20T06:25:49-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Davies to serve as acting director; permanent pick needs Senate confirmation",
+      "Axios: Miller pushed for departure; a White House official confirmed it to NBC and CBS"
+     ],
+     "limits": [
+      "Relies partly on Axios’s unnamed White House officials."
+     ]
+    },
+    {
+     "url": "https://www.cbc.ca/news/world/cairncross-out-cyber-white-house-9.7429359",
+     "publisher": "CBC News",
+     "published": "Nov 19, 2026, 9:45 PM ET; updated 11:02 PM ET",
+     "checkedAt": "2026-11-20T06:25:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Unnamed source close to the White House confirmed the change",
+      "Davies thanked Trump and Miller on X; Rubio and Hegseth posted support"
+     ],
+     "limits": [
+      "Based on an unnamed source."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/us-cyber.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Official portrait of a woman with shoulder-length auburn hair in front of U.S. flags",
+    "caption": "Kirsten Davies, the Pentagon’s chief information officer and now acting national cyber director, in an official portrait from February 2026.",
+    "credit": "U.S. Army photo by Rey Ramon (Department of Defense)",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AChief_Information_Officer_of_the_Department_of_War_Kirsten_A._Davies.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AChief_Information_Officer_of_the_Department_of_War_Kirsten_A._Davies.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "us-rose",
+   "region": "us",
+   "topic": "sports",
+   "ts": "2026-11-19T20:01",
+   "dateLabel": "Nov 19, 2026",
+   "headline": "Trump posthumously pardons baseball’s all-time hits leader Pete Rose",
+   "summary": "President Donald Trump said on Thursday, Nov. 19, that he had given a “Complete and Total Pardon” to Pete Rose, the Cincinnati Reds great who died in 2024 at 83. Rose pleaded guilty in 1990 to two counts of filing false tax returns and was banned from Major League Baseball for life after an investigation found he bet on games. MLB Commissioner Rob Manfred reinstated him posthumously last year, making him eligible for the Hall of Fame. The BBC notes that a posthumous pardon is largely symbolic and does not change his Hall of Fame status. Rose holds the record of 4,256 career hits.",
+   "why": "Rose’s case has been baseball’s longest-running argument about gambling and forgiveness. The pardon changes nothing legally for a man who has died, but it adds political weight to the campaign to get him into Cooperstown at a time when legal sports betting is everywhere.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "Trump posthumously pardons US baseball legend Pete Rose",
+     "site": "BBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cx1l0pm7l9jmo"
+    },
+    {
+     "title": "Pete Rose posthumously pardoned by Trump after baseball’s career hits leader was reinstated by MLB",
+     "site": "CBC Sports",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cbc.ca/sports/baseball/mlb/pete-rose-posthumous-pardon-9.7429296"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cx1l0pm7l9jmo",
+     "publisher": "BBC News",
+     "published": "Nov 19, 2026, 6:18 PM ET; updated 6:51 PM ET",
+     "checkedAt": "2026-11-20T06:25:51-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Trump’s Truth Social post announcing the pardon",
+      "Rose pleaded guilty in 1990 to false tax returns; lifetime ban for betting; reinstated last year",
+      "Pardon largely symbolic; 4,256 career hits"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/sports/baseball/mlb/pete-rose-posthumous-pardon-9.7429296",
+     "publisher": "CBC Sports",
+     "published": "Nov 19, 2026, 8:01 PM ET",
+     "checkedAt": "2026-11-20T06:28:00-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Trump said Thursday he pardoned Rose, more than two years after his death and a year after Manfred reinstated him"
+     ],
+     "limits": [
+      "ESPN’s article did not return text to an automated fetch (HTTP 202 bot check); not cited."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/us-rose.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Close-up of an older man in a white cap",
+    "caption": "Pete Rose in Las Vegas in January 2008.",
+    "credit": "Kjunstorm",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3APete_Rose_2008.jpg",
+    "isFilePhoto": true,
+    "year": 2008
+   }
+  },
+  {
+   "id": "us-fiona",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-19T18:40",
+   "dateLabel": "Nov 19, 2026 (her emergency care was covered in the Nov 19 edition)",
+   "headline": "Fiona, the Cincinnati Zoo hippo who survived a premature birth, dies after swallowing a hat",
+   "summary": "Fiona, the Cincinnati Zoo hippopotamus who became a global favourite after surviving a premature birth in 2017, died on Thursday, Nov. 19, after swallowing a knitted hat that fell into her enclosure more than a week earlier. The zoo said vets and keepers made “multiple attempts” to help her, including a vibration plate borrowed from a horse farm, but “it was ultimately too much to overcome.” The hat had been tossed in the air by a visitor and flung through a small opening by a ceiling fan, a zoo spokesperson said. Visitors left flowers by a hippo statue at the entrance, and Cincinnati’s mayor and the Bengals posted tributes. She was nine.",
+   "why": "Fiona was born weighing about half the previous record low for a hippo, and her survival made her a symbol of resilience followed by millions online. Her death is also a reminder of how small items in animal enclosures can be dangerous.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+     "site": "BBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko"
+    },
+    {
+     "title": "Fiona the hippo dies after ingesting visitor’s hat",
+     "site": "CBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cbc.ca/news/world/fiona-hippo-dies-9.7428804"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko",
+     "publisher": "BBC News",
+     "published": "Nov 19, 2026, 4:12 PM ET; updated 6:40 PM ET",
+     "checkedAt": "2026-11-20T06:25:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Zoo statement on Fiona’s death; hat swallowed about 10 days earlier",
+      "Hat flung by ceiling fan through opening; vibration plate tried",
+      "Born premature in 2017 at about half the previous lowest recorded birth weight"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://www.cbc.ca/news/world/fiona-hippo-dies-9.7428804",
+     "publisher": "CBC News",
+     "published": "Nov 19, 2026, 4:01 PM ET; updated 6:06 PM ET",
+     "checkedAt": "2026-11-20T06:25:53-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Died Thursday; nine years old",
+      "Flowers left at hippo statue; tributes from mayor and Bengals"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/us-fiona.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A young hippo swimming underwater beside her mother in a zoo tank",
+    "caption": "Fiona nuzzling her mother, Bibi, at the Cincinnati Zoo in 2018.",
+    "credit": "DarthBotto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AFiona_the_Hippopotamus_%28detail%29.jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "ca-trade",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-19T19:09",
+   "dateLabel": "Nov 19, 2026 (Canada–U.S. talks covered Nov 18 and Nov 19)",
+   "headline": "An interim U.S. trade deal would kick-start formal CUSMA review talks, LeBlanc says, but some tariffs will stay",
+   "summary": "Canada–U.S. Trade Minister Dominic LeBlanc told CBC’s Power & Politics on Thursday, Nov. 19, that an interim agreement with the Trump administration would likely open formal talks on reviewing the Canada–U.S.–Mexico Agreement (CUSMA). He said such a deal would probably keep some Section 232 tariffs on steel, aluminum, autos and lumber, at lower rates, and that Canada wants the separate “338” tariffs imposed in September removed entirely. “We have to be realistic with Canadians — in those particular sectors there is an element of those tariffs that are going to remain,” LeBlanc said. He said progress was being made but work remains.",
+   "why": "This is Ottawa preparing Canadians for a deal that won’t mean zero tariffs. For workers in steel, aluminum, autos and lumber, the question is how low the remaining tariffs go — and whether an interim deal opens the bigger CUSMA review that decides North American trade rules for years.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "Reaching interim U.S. trade agreement would kickstart new CUSMA talks, minister says",
+     "site": "CBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cbc.ca/news/politics/canada-seeking-interim-trade-arrangment-9.7428540"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/canada-seeking-interim-trade-arrangment-9.7428540",
+     "publisher": "CBC News",
+     "published": "Nov 19, 2026, 2:04 PM ET; updated 7:09 PM ET",
+     "checkedAt": "2026-11-20T06:26:39-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "LeBlanc on Power & Politics: interim deal would likely kick-start CUSMA review",
+      "Some 232 tariffs would remain at lower rates; Canada wants 338 tariffs removed",
+      "Quote on being realistic with Canadians"
+     ],
+     "limits": [
+      "Single outlet; based on the minister’s own interview."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/ca-trade.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A man in a suit speaks at a podium in front of Canadian and New Brunswick flags",
+    "caption": "Dominic LeBlanc speaking in New Brunswick in June 2017.",
+    "credit": "Government of New Brunswick",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ADominic_LeBlanc_s%27exprimant_%2837760849902%29.jpg",
+    "isFilePhoto": true,
+    "year": 2017
+   }
+  },
+  {
+   "id": "ca-starlink",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-20T04:00",
+   "dateLabel": "Nov 19–20, 2026",
+   "headline": "Canada takes a step toward a homegrown alternative to Starlink for military communications in the Arctic",
+   "summary": "Ottawa-based defence tech firm Dominion Dynamics and satellite company Telesat announced a $2.2-million partnership on Thursday, Nov. 19, to develop rugged, portable antennas that would connect soldiers and uncrewed aircraft to Telesat’s planned Lightspeed low-Earth-orbit satellites, CBC reported. The project, which includes National Research Council support, aims to give Canadian troops in the Arctic a secure network that does not depend on an American commercial provider such as Elon Musk’s Starlink. Prime Minister Mark Carney has warned about relying on a single technology provider. Telesat separately faces about $3.1 billion in legacy-business debt coming due between December 2026 and October 2027.",
+   "why": "Who controls the satellites controls the signal. As Canada spends more on Arctic defence, it wants communications it can’t lose because of a foreign company’s or government’s decision — but the deal is small and Lightspeed is not yet in orbit.",
+   "label": "Reported + Company figures",
+   "sources": [
+    {
+     "title": "Canada looks to break Starlink’s grip on Arctic military communications",
+     "site": "CBC News",
+     "date": "Nov 20, 2026",
+     "href": "https://www.cbc.ca/news/politics/canada-arctic-starlink-musk-satellites-9.7428908"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/canada-arctic-starlink-musk-satellites-9.7428908",
+     "publisher": "CBC News",
+     "published": "Nov 20, 2026, 4:00 AM ET",
+     "checkedAt": "2026-11-20T06:26:41-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "$2.2M Dominion Dynamics–Telesat partnership announced Thursday",
+      "Antennas for Telesat’s planned Lightspeed constellation; NRC support",
+      "Telesat legacy debt of about $3.1B due Dec 2026–Oct 2027"
+     ],
+     "limits": [
+      "Single outlet checked."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-ndrangheta",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-19T20:50",
+   "dateLabel": "Nov 19, 2026",
+   "headline": "U.S. sanctions what it calls the Toronto-area branch of Italy’s ’Ndrangheta, including three funeral homes",
+   "summary": "The U.S. Treasury Department on Thursday, Nov. 19, sanctioned six men it described as key figures in a Toronto-area faction of the ’Ndrangheta, one of Italy’s most powerful organized crime groups, alleging involvement in drug trafficking, money laundering and murder, CBC reported. One of the men, Luigi Vescio Sr., runs three funeral homes and a limousine business in Ontario that were also added to the sanctions list, along with two of his children who work as funeral directors. The designations are not criminal charges; they freeze any U.S. assets and bar Americans from dealing with those named. CBC said it had contacted the funeral homes for comment.",
+   "why": "U.S. sanctions can hit Canadian businesses hard even without charges in Canada, since banks and partners often avoid anyone on the list. The allegations have not been tested in court.",
+   "label": "Official statement + Allegation",
+   "sources": [
+    {
+     "title": "U.S. sanctions Italian mafia’s alleged Canadian branch, including Toronto-area funeral homes",
+     "site": "CBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cbc.ca/news/canada/ndrangheta-canada-us-sanctions-luigi-vescio-sr-9.7429102"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/ndrangheta-canada-us-sanctions-luigi-vescio-sr-9.7429102",
+     "publisher": "CBC News",
+     "published": "Nov 19, 2026, 6:44 PM ET; updated 8:50 PM ET",
+     "checkedAt": "2026-11-20T06:26:42-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Treasury sanctioned six alleged Toronto-area ’Ndrangheta figures",
+      "Vescio funeral homes and limousine business added to SDN list",
+      "Designations are not criminal charges"
+     ],
+     "limits": [
+      "Single outlet checked; allegations are the U.S. Treasury’s."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-leafs",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-20T05:01",
+   "dateLabel": "Nov 19, 2026",
+   "headline": "Maple Leafs blow a 3-0 lead and lose to the Kings in a shootout, their eighth straight defeat",
+   "summary": "The Toronto Maple Leafs lost 4-3 in a shootout to the Los Angeles Kings at home on Thursday, Nov. 19, after leading 3-0 early in the second period, extending their losing streak to eight games. Adrian Kempe scored the only shootout goal. Toronto (8-13-3) has lost 10 of its last 11 and entered the night 27th in the NHL standings. “It’s on us again,” said head coach Jim Hiller, facing his former team for the first time; the Leafs at least earned a point for the first time in eight games.",
+   "why": "The Leafs’ slump is now one of the NHL’s biggest early-season stories, and pressure on the coach and the core around Auston Matthews will only grow if it continues.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Kings hand Maple Leafs eighth straight loss",
+     "site": "Global News",
+     "date": "Nov 19, 2026",
+     "href": "https://globalnews.ca/news/12159133/kings-hand-maple-leafs-eighth-straight-loss/"
+    },
+    {
+     "title": "Maple Leafs blow big lead as ugly run continues",
+     "site": "Global News",
+     "date": "Nov 20, 2026",
+     "href": "https://globalnews.ca/news/12159312/maple-leafs-blow-big-lead-as-ugly-run-continues/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://globalnews.ca/news/12159133/kings-hand-maple-leafs-eighth-straight-loss/",
+     "publisher": "Global News",
+     "published": "Nov 19, 2026, 10:10 PM ET",
+     "checkedAt": "2026-11-20T06:26:43-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Kings won 4-3 in shootout after trailing 3-0; Kempe only shootout goal",
+      "Toronto 8-13-3, 10 losses in 11, 27th overall"
+     ],
+     "limits": [
+      "Appears to be Canadian Press copy carried by Global News."
+     ]
+    },
+    {
+     "url": "https://globalnews.ca/news/12159312/maple-leafs-blow-big-lead-as-ugly-run-continues/",
+     "publisher": "Global News",
+     "published": "Nov 20, 2026, 5:01 AM ET",
+     "checkedAt": "2026-11-20T06:26:43-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Hiller: “It’s on us again”; first point in eight games"
+     ],
+     "limits": [
+      "Same publisher as the other source."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/ca-leafs.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A large arena with a glowing video screen at dusk in downtown Toronto",
+    "caption": "Scotiabank Arena, home of the Toronto Maple Leafs, pictured at dusk in 2018.",
+    "credit": "Adam Bishop",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AScotiabank_Arena_at_dusk.jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "ca-radio",
+   "region": "ca",
+   "topic": "culture",
+   "ts": "2026-11-20T06:22",
+   "dateLabel": "Nov 20, 2026",
+   "headline": "A Toronto internet radio show is training Afghan women to make their own programs",
+   "summary": "Radio Jawan, an internet radio program run out of Mukhtar Omar’s Toronto home, is giving Afghan women a platform to tell their stories and teaching them to produce shows, CBC reported on Friday, Nov. 20. Omar, who began broadcasting in Afghanistan in 2001 and moved to Canada in 2012, started online classes after a trip home saddened him over women’s conditions under the Taliban; he says eight of 10 class participants have gone on to make programs remotely, and the volunteer team has grown to 28. Former Afghan broadcaster Zakia Haidari, who fled in 2021, said she does it thinking of her teenage niece’s future.",
+   "why": "With women in Afghanistan barred from most work and education, diaspora media is one of the few ways their voices still reach an audience — a small-scale example of radio as a lifeline.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "How a small Toronto radio program is bringing Afghan women’s voices to light",
+     "site": "CBC News",
+     "date": "Nov 20, 2026",
+     "href": "https://www.cbc.ca/news/canada/toronto/afghan-women-radio-program-9.7428784"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/toronto/afghan-women-radio-program-9.7428784",
+     "publisher": "CBC News",
+     "published": "Nov 20, 2026, 4:00 AM ET; updated 6:22 AM ET",
+     "checkedAt": "2026-11-20T06:26:45-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Radio Jawan founded by Mukhtar Omar, run from his home",
+      "Eight of 10 class participants joined; 28 volunteers",
+      "Zakia Haidari’s account"
+     ],
+     "limits": [
+      "Single outlet; participant figures are the founder’s."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-housing",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-20T04:22",
+   "dateLabel": "Nov 20, 2026",
+   "headline": "Hong Kong’s public housing wait falls to 4.4 years, a 10-year low, the government says",
+   "summary": "The average waiting time for Hong Kong public rental housing has fallen to 4.4 years, down from 4.8 years in June and from a peak of 6.1 years, and below 4.5 years for the first time, the Housing Bureau said on Friday, Nov. 20. The figure covers general applicants housed in the 12 months to the end of September, including in “light public housing.” The bureau credited rising production and said more than 35,000 public housing units a year are planned on average from 2027-28 to 2031-32, about 73% more than in the past five years and the most in 25 years.",
+   "why": "Housing is Hong Kong’s most stubborn social problem, and the waiting time is the government’s headline measure of progress. The figure is an average for those already housed, so families still in subdivided flats may wait longer; watch whether the promised supply actually arrives.",
+   "label": "Official figures + Reported",
+   "sources": [
+    {
+     "title": "Latest Composite Waiting Time for Subsidised Rental Housing stands at 4.4 years, hitting 10-year low",
+     "site": "Hong Kong government (info.gov.hk)",
+     "date": "Nov 20, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/20/P2026112000309.htm"
+    },
+    {
+     "title": "Public housing wait falls to decade low of 4.4 years",
+     "site": "RTHK",
+     "date": "Nov 20, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878604-20261120.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/20/P2026112000309.htm",
+     "publisher": "Hong Kong government (info.gov.hk)",
+     "published": "Nov 20, 2026, 3:00 PM HKT (2:00 AM ET)",
+     "checkedAt": "2026-11-20T06:26:49-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "CWT 4.4 years, down from 4.8 (June) and peak 6.1",
+      "Over 35,000 units a year planned 2027-28 to 2031-32, about 73% more"
+     ],
+     "limits": [
+      "Government press release."
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878604-20261120.htm",
+     "publisher": "RTHK",
+     "published": "Nov 20, 2026, 5:22 PM HKT (4:22 AM ET)",
+     "checkedAt": "2026-11-20T06:26:51-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Reports the Housing Bureau figures and target"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded broadcaster; report is based on the bureau’s release."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/hk-housing.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Excavators and red and yellow barriers at a large construction site under a clear sky",
+    "caption": "Construction at the Area 48 public housing site in Fanling, Hong Kong, January 2025.",
+    "credit": "Knowledge Era",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AFanling_Area_48_Public_Housing_Estate_-_January_2025.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "hk-spy",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-20T04:21",
+   "dateLabel": "Nov 18, 2026 inquest finding; reported by HKFP Nov 20",
+   "headline": "UK jury finds a man charged with spying for Hong Kong died by suicide after a contractor failed to fit his tag",
+   "summary": "A coroner’s jury in Reading, England, found on Wednesday, Nov. 18, that Matthew Trickett, a former Royal Marine and Home Office immigration officer charged in 2024 with assisting Hong Kong’s intelligence service, died by suicide, the BBC reported. Trickett, 37, was found in a park in Maidenhead in May 2024, days after being bailed. The jury found that Serco, the contractor responsible for electronic tagging, “failed to take reasonable steps” to locate his address on multiple occasions; a missed tagging visit triggered a bail-breach notice to police. His two co-defendants were jailed in June for 10 and eight years for spying on Hong Kong pro-democracy activists in Britain. Hong Kong has denied any link.",
+   "why": "The case is the most serious example in Britain of alleged transnational surveillance of Hong Kong dissidents, and the inquest adds questions about how the UK handles vulnerable defendants. Hong Kong’s denial and Britain’s convictions remain at odds.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Alleged UK spy for HK died by suicide ahead of trial, British jury rules",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 20, 2026",
+     "href": "https://hongkongfp.com/2026/11/20/alleged-uk-spy-for-hong-kong-died-by-suicide-ahead-of-trial-british-jury-rules/"
+    },
+    {
+     "title": "Alleged Hong Kong spy died by suicide after tag failure, jury finds",
+     "site": "BBC News",
+     "date": "Nov 18, 2026",
+     "href": "https://www.bbc.com/news/articles/cmz74epzwgzyo"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/20/alleged-uk-spy-for-hong-kong-died-by-suicide-ahead-of-trial-british-jury-rules/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 20, 2026, 5:21 PM HKT (4:21 AM ET)",
+     "checkedAt": "2026-11-20T06:26:46-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Jury found Trickett died by suicide; Serco failed to take reasonable steps",
+      "Co-defendants Wai and Yuen jailed for 10 and eight years in June",
+      "Hong Kong denied any link"
+     ],
+     "limits": [
+      "Relies on the BBC’s inquest reporting."
+     ]
+    },
+    {
+     "url": "https://www.bbc.com/news/articles/cmz74epzwgzyo",
+     "publisher": "BBC News",
+     "published": "Nov 18, 2026, 10:23 AM ET; updated 11:31 AM ET",
+     "checkedAt": "2026-11-20T06:28:09-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Jury at Reading Coroner’s Court findings; found in Grenfell Park, Maidenhead, May 19, 2024",
+      "Missed tagging visits triggered a bail-breach notification to Thames Valley Police"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/hk-spy.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A white stone London townhouse with arched windows and black railings",
+    "caption": "The Hong Kong Economic and Trade Office in London, where one of the convicted men worked, pictured in 2020.",
+    "credit": "Mx. Granger",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHong_Kong_Economic_and_Trade_Office_London_2.jpg",
+    "isFilePhoto": true,
+    "year": 2020
+   }
+  },
+  {
+   "id": "hk-wapo",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-20T00:21",
+   "dateLabel": "Nov 20, 2026",
+   "headline": "Hong Kong’s security chief attacks a Washington Post op-ed by a wanted activist as “scaremongering”",
+   "summary": "Hong Kong Secretary for Security Chris Tang wrote to The Washington Post on Friday, Nov. 20, rejecting an opinion piece by U.S.-based activist Frances Hui, who is wanted by Hong Kong’s national security police, Hong Kong Free Press reported. Hui had urged business leaders at the APEC meetings to raise the cases of jailed activists such as Joshua Wong and demand clarity on how the national security law applies to businesses. Tang said the article “grossly misrepresents” the law, that residents engaged in “legitimate business activities have nothing to worry about,” and that Wong and media tycoon Jimmy Lai were not jailed for political reasons.",
+   "why": "Hong Kong is trying to win back international business while keeping its national security crackdown. Exchanges like this show the two messages colliding, and how closely the city now answers critics abroad.",
+   "label": "Official statement + Opinion + Reported",
+   "sources": [
+    {
+     "title": "HK sec. chief hits back at wanted activist’s Washington Post op-ed",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 20, 2026",
+     "href": "https://hongkongfp.com/2026/11/20/hong-kong-security-chief-hits-out-at-the-washington-post-over-scaremongering-op-ed-by-wanted-activist/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/20/hong-kong-security-chief-hits-out-at-the-washington-post-over-scaremongering-op-ed-by-wanted-activist/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 20, 2026, 1:21 PM HKT (12:21 AM ET)",
+     "checkedAt": "2026-11-20T06:26:48-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Tang’s Friday letter calling Hui’s op-ed “scaremongering” and a misrepresentation",
+      "Hui urged APEC business leaders to raise political prisoners"
+     ],
+     "limits": [
+      "Single outlet; the op-ed itself (Washington Post, may be paywalled) was not opened."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-doctor",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-20T05:55",
+   "dateLabel": "Nov 20, 2026",
+   "headline": "Hong Kong doctor found guilty over 3,751 Covid vaccine exemptions he sold during the pandemic",
+   "summary": "A Hong Kong District Court judge on Friday, Nov. 20, found doctor Tai Kong-shing guilty of accessing a computer with dishonest intent and of money laundering over vaccine exemption certificates issued in 2022, HKFP reported. Prosecutors said he issued 3,751 exemptions, charging HK$1,000 to HK$4,000 each, when Hong Kong required vaccination to enter restaurants, gyms and other venues. Clinic volunteer Kriselle Young was also convicted. Judge Ernest Lin said the clinic exploited people’s “unreasonable, unscientific fears” for profit. Both had pleaded not guilty.",
+   "why": "The case closes one of the last big chapters of Hong Kong’s pandemic rules, when a vaccine pass decided where people could go. Sentencing is still to come.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "HK doctor found guilty over fraudulently issuing Covid-19 vaccine exemptions",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 20, 2026",
+     "href": "https://hongkongfp.com/2026/11/20/hong-kong-doctor-found-guilty-over-fraudulently-issuing-over-3700-covid-19-vaccine-exemptions/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/20/hong-kong-doctor-found-guilty-over-fraudulently-issuing-over-3700-covid-19-vaccine-exemptions/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 20, 2026, 6:55 PM HKT (5:55 AM ET)",
+     "checkedAt": "2026-11-20T06:26:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Tai found guilty of accessing a computer with dishonest intent and money laundering",
+      "3,751 exemptions at HK$1,000–4,000 each; volunteer Young also convicted"
+     ],
+     "limits": [
+      "Single outlet checked; sentencing date not given in the extract read."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-declaration",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-20T01:59",
+   "dateLabel": "Nov 19–20, 2026 (summit covered in the Nov 19 edition)",
+   "headline": "U.S., China and Russia issue a joint “Declaration toward Peace” after the Shenzhen summit, as Chinese media credit Xi",
+   "summary": "After their first three-way summit in Shenzhen on Thursday, Nov. 19, Donald Trump, Xi Jinping and Vladimir Putin issued a joint statement saying “nuclear war cannot be won and must never be fought,” committing to dialogue on reducing nuclear risks, pledging to “reform the UN” and saying the International Criminal Court “must not abuse” its jurisdiction, according to the BBC and AFP via HKFP. The countries also said they plan to boost production and supply of petroleum products. Putin is subject to an ICC arrest warrant. Reports differ on the meeting’s length: 90 minutes (BBC) or an hour and 20 minutes (AFP). German Chancellor Friedrich Merz called it a “photo op.” Chinese state media portrayed the meeting as historic and made possible by Xi; a Global Times editorial said it would have been hard to achieve without China. Trump said he would hold a news conference about the trip on Friday.",
+   "why": "A written declaration gives the summit more substance than a photo, but most of it is broad principle. The ICC language matters most in practice: it lines up the three powers against the court that has charged Putin, and could weaken international justice efforts that smaller countries rely on.",
+   "label": "Official statement + Reported + State media",
+   "sources": [
+    {
+     "title": "Trump, Putin and Xi release ‘peace declaration’ after historic meeting",
+     "site": "BBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o"
+    },
+    {
+     "title": "China, US, Russia issue ‘Declaration toward Peace’ after first summit",
+     "site": "Hong Kong Free Press (AFP)",
+     "date": "Nov 20, 2026",
+     "href": "https://hongkongfp.com/2026/11/20/china-us-russia-issue-declaration-toward-peace-after-first-summit/"
+    },
+    {
+     "title": "China paints Xi as maker of historic talks with Trump, Putin",
+     "site": "Hong Kong Free Press (AFP)",
+     "date": "Nov 20, 2026",
+     "href": "https://hongkongfp.com/2026/11/20/china-paints-xi-as-maker-of-historic-talks-with-trump-putin/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o",
+     "publisher": "BBC News",
+     "published": "Nov 19, 2026, 7:07 AM ET; updated 12:38 PM ET",
+     "checkedAt": "2026-11-20T06:26:53-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Joint declaration: nuclear war “cannot be won”; increase petroleum production; reform the UN; ICC must not abuse jurisdiction",
+      "Meeting lasted 90 minutes",
+      "Trump to hold a news conference Friday"
+     ],
+     "limits": []
+    },
+    {
+     "url": "https://hongkongfp.com/2026/11/20/china-us-russia-issue-declaration-toward-peace-after-first-summit/",
+     "publisher": "Hong Kong Free Press (AFP)",
+     "published": "Nov 19, 2026, 8:31 PM ET",
+     "checkedAt": "2026-11-20T06:26:54-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "“Declaration toward Peace”; White House version of the statement quoted",
+      "Dialogue on reducing nuclear risks; ICC passage; Putin under ICC warrant",
+      "Merz: “photo op”; meeting ended after an hour and 20 minutes"
+     ],
+     "limits": [
+      "AFP copy carried by HKFP; meeting length differs from the BBC."
+     ]
+    },
+    {
+     "url": "https://hongkongfp.com/2026/11/20/china-paints-xi-as-maker-of-historic-talks-with-trump-putin/",
+     "publisher": "Hong Kong Free Press (AFP)",
+     "published": "Nov 20, 2026, 1:59 AM ET",
+     "checkedAt": "2026-11-20T06:26:55-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Global Times editorial and People’s Daily coverage crediting China’s role"
+     ],
+     "limits": [
+      "Describes Chinese state-media coverage."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/cn-declaration.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Three leaders and their delegations seated around a large round table in an ornate hall with flags",
+    "caption": "Trump, Putin and Xi at their trilateral meeting at Kylin Villa in Shenzhen, Nov. 19, 2026.",
+    "credit": "Daniel Torok (The White House)",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File%3AXi%E2%80%93Putin%E2%80%93Trump_summit_-_P20261119DT-0985_%2855662747636%29.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AXi%E2%80%93Putin%E2%80%93Trump_summit_-_P20261119DT-0985_%2855662747636%29.jpg",
+    "isFilePhoto": false,
+    "year": 2026
+   }
+  },
+  {
+   "id": "cn-australia",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-20T02:33",
+   "dateLabel": "Nov 20, 2026",
+   "headline": "Xi hails a “comprehensive turnaround” in ties with Australia after meeting Albanese in Shenzhen",
+   "summary": "Chinese President Xi Jinping met Australian Prime Minister Anthony Albanese on the sidelines of APEC in Shenzhen on Friday, Nov. 20, and said the two had “brought about a comprehensive turnaround” in relations, DW and RTHK reported. According to RTHK, citing Chinese official accounts, Xi called for cooperation in agriculture, energy, minerals, the green economy and AI, and said the two sides agreed to make 2027 the China-Australia Year of Tourism. Albanese said Australia would “engage in a constructive way with China, manage our differences, but not be defined by them.” Relations hit bottom when China imposed curbs on about $13 billion of Australian exports after Canberra called for an inquiry into the origins of Covid-19; most have since been lifted.",
+   "why": "Australia is a close U.S. ally that also depends on China as its biggest trading partner. The warm words show Canberra’s balancing act working for now, while friction over security and critical minerals continues.",
+   "label": "Official statement + Reported + State media",
+   "sources": [
+    {
+     "title": "China’s Xi praises ‘turnaround’ in ties with Australia",
+     "site": "DW",
+     "date": "Nov 20, 2026",
+     "href": "https://www.dw.com/en/china-s-xi-praises-turnaround-in-relationship-with-australia/a-79999229"
+    },
+    {
+     "title": "‘China, Australia should be mutually trusted partners’",
+     "site": "RTHK",
+     "date": "Nov 20, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878569-20261120.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.dw.com/en/china-s-xi-praises-turnaround-in-relationship-with-australia/a-79999229",
+     "publisher": "DW",
+     "published": "Nov 20, 2026, 2:33 AM ET",
+     "checkedAt": "2026-11-20T06:26:56-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Xi: “comprehensive turnaround”; Albanese: engage constructively, not defined by differences",
+      "China lifted most curbs worth $13 billion"
+     ],
+     "limits": [
+      "Parts attributed to Xinhua, Chinese state media."
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878569-20261120.htm",
+     "publisher": "RTHK",
+     "published": "Nov 20, 2026, 3:11 PM HKT (2:11 AM ET)",
+     "checkedAt": "2026-11-20T06:26:57-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Xi’s remarks on cooperation areas; 2027 designated China-Australia Year of Tourism"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded broadcaster; account follows official Chinese wording. SCMP’s article returned a bot check (HTTP 403) and is not cited."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/cn-australia.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Close-up of a grey-haired man wearing dark-rimmed glasses",
+    "caption": "Anthony Albanese at the G7 summit in Kananaskis, Canada, June 2025.",
+    "credit": "Simon Dawson / No 10 Downing Street (Number 10)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AAnthony_Albanese_in_2025_%282%29.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "cn-chips",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-19T19:53",
+   "dateLabel": "Nov 19, 2026",
+   "headline": "U.S. approved sales of more than 879,000 AI chips to Chinese companies, House committee documents show",
+   "summary": "The U.S. Commerce Department’s export-control agency approved the sale of more than 879,000 AI chips to Chinese companies including Alibaba and Tencent as of May 2026, according to documents released on Thursday, Nov. 19, by the House Foreign Affairs Committee, CNBC reported. Some approvals went to firms the Pentagon lists as “Chinese Military Companies,” and companies had made 3.4 million requests to sell U.S. AI chips to China from December through May, the committee said. Democrat Gregory Meeks said the Bureau of Industry and Security had “failed to enforce the rules.” Nvidia and AMD said they comply with export laws; the bureau said licensing decisions involve multiple agencies.",
+   "why": "AI chips are the front line of U.S.–China tech rivalry. The documents give a rare look at how many advanced chips Washington actually let through, and will feed a fight in Congress over whether export controls are working.",
+   "label": "Official figures + Claim + Reported",
+   "sources": [
+    {
+     "title": "Commerce approved sales of more than 879,000 AI chips to China: Mast",
+     "site": "CNBC",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+     "publisher": "CNBC",
+     "published": "Nov 19, 2026, 2:55 PM ET; updated 7:53 PM ET",
+     "checkedAt": "2026-11-20T06:26:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "879,000+ AI chips approved as of May 2026, per House Foreign Affairs Committee documents",
+      "Some to Pentagon-listed Chinese military companies; 3.4 million requests Dec–May",
+      "Meeks quote; Nvidia, AMD and BIS responses"
+     ],
+     "limits": [
+      "Single outlet checked; figures come from documents released by the committee, which Donna Daily did not open."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-fuji",
+   "region": "cn",
+   "topic": "human",
+   "ts": "2026-11-19T23:13",
+   "dateLabel": "Nov 19–20, 2026",
+   "headline": "China warns its citizens off winter climbs of Mount Fuji after a missing climber’s family offers a $75,000 reward",
+   "summary": "The Chinese embassy in Japan has warned Chinese citizens against off-season climbs of Mount Fuji, citing strong winds and blizzards, after the family of a missing 25-year-old Chinese climber, Chen Jie, offered 500,000 yuan (about US$75,000) to anyone who finds him alive, the BBC reported. Chen vanished on the mountain on Nov. 8. Yamanashi prefecture’s governor warned that search attempts could lead to “secondary disasters” and appealed to the family not to endanger others. Fuji’s official climbing season runs from about early July to early September, when huts and first-aid stations are open.",
+   "why": "The case shows the pull of social media on risky adventure travel and the dilemma for a desperate family: a big reward could lead to more people being hurt on a mountain that is deadly in winter.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "Mount Fuji: China issues warning as family of missing climber offers reward",
+     "site": "BBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/c61wr088jnzzo"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c61wr088jnzzo",
+     "publisher": "BBC News",
+     "published": "Nov 19, 2026, 11:13 PM ET",
+     "checkedAt": "2026-11-20T06:26:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Embassy warning against off-season ascents",
+      "Chen Jie, 25, missing since Nov 8; 500,000 yuan reward",
+      "Governor Nagasaki’s warning of “secondary disasters”"
+     ],
+     "limits": [
+      "Single outlet; reward amount attributed to Chinese and Japanese media reports."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/cn-fuji.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Snow-capped Mount Fuji at sunset reflected in a lake",
+    "caption": "Mount Fuji at sunset, March 2025.",
+    "credit": "Romain Guy",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMount_Fuji_at_sunset%2C_March_2025.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "cn-icj",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-20T03:27",
+   "dateLabel": "Nov 20, 2026 (ruling covered in the Nov 19 edition)",
+   "headline": "China raises concerns about “judicial overreach” after the UN court’s Rohingya genocide ruling",
+   "summary": "China’s foreign ministry said on Friday, Nov. 20, that it is “concerned about issues such as jurisdiction overreach and expanded interpretation” after the International Court of Justice ruled that Myanmar committed genocide against the Rohingya, RTHK reported, citing AFP and Reuters. Spokesman Guo Jiakun said “such practices are not conducive to the settlement of disputes.” Separately, Malaysia said Turkey had agreed to receive 10,000 Rohingya refugees from Malaysia under a skills-training resettlement program.",
+   "why": "China is Myanmar’s most important backer, and its reaction signals it will resist pressure built on the ruling. It also fits the line in the new U.S.–China–Russia declaration that international courts “must not abuse” their jurisdiction.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "Beijing warns of ‘judicial overreach’ in ICJ ruling",
+     "site": "RTHK",
+     "date": "Nov 20, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878600-20261120.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878600-20261120.htm",
+     "publisher": "RTHK",
+     "published": "Nov 20, 2026, 4:27 PM HKT (3:27 AM ET)",
+     "checkedAt": "2026-11-20T06:27:01-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Guo Jiakun quotes on jurisdiction overreach",
+      "Malaysia: Turkey to receive 10,000 Rohingya refugees"
+     ],
+     "limits": [
+      "Single outlet (RTHK, government-funded, carrying AFP/Reuters)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-ukeu",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-20T04:14",
+   "dateLabel": "Nov 20, 2026",
+   "headline": "UK and EU leaders meet in Brussels for a “reset” summit, with a youth mobility deal expected",
+   "summary": "British Prime Minister Andy Burnham is due to meet European Commission President Ursula von der Leyen and European Council President António Costa in Brussels on Friday, Nov. 20, in only the second UK–EU summit since Brexit. Agreements on food and plant-health checks, carbon-pricing and youth mobility are expected to be sealed, Al Jazeera reported. The BBC, citing unnamed sources, reported that a youth mobility scheme would let up to 100,000 young EU citizens a year travel, work and study in the UK, and the same number of young Britons go to Europe; Downing Street did not comment on the details. Britain estimates removing food and plant checks could be worth £5.1 billion a year. Burnham has said “the Brexit we were given has not worked” and that rejoining should not be ruled out, though NPR notes that is far from imminent. Conservative leader Kemi Badenoch accused him of reopening Brexit divisions.",
+   "why": "For young people, a youth mobility deal would be the most tangible change since Brexit: the chance to live and work across the Channel for a few years without a skilled-worker visa. The summit also tests how far a British government is now willing to go toward Europe as relations with Washington become less predictable.",
+   "label": "Reported + Unnamed sources",
+   "sources": [
+    {
+     "title": "The U.K. and EU hold a rare summit to strengthen ties",
+     "site": "NPR",
+     "date": "Nov 20, 2026",
+     "href": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit"
+    },
+    {
+     "title": "UK and EU to agree youth mobility scheme, BBC understands",
+     "site": "BBC News",
+     "date": "Nov 20, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/c623j4kpg94go"
+    },
+    {
+     "title": "EU and Britain to agree steps towards relations reset",
+     "site": "Al Jazeera",
+     "date": "Nov 20, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/20/eu-and-britain-to-agree-steps-towards-relations-reset"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit",
+     "publisher": "NPR",
+     "published": "Nov 20, 2026, 4:14 AM ET",
+     "checkedAt": "2026-11-20T06:27:03-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Burnham scheduled to meet Costa and von der Leyen in Brussels on Friday; second such summit since Brexit",
+      "Burnham: “The Brexit we were given has not worked”; rejoining one possible outcome, far from imminent"
+     ],
+     "limits": [
+      "AP copy carried by NPR (AP photo credits on page)."
+     ]
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c623j4kpg94go",
+     "publisher": "BBC News",
+     "published": "Nov 19, 2026, 9:17 AM ET; updated Nov 20, 2:14 AM ET",
+     "checkedAt": "2026-11-20T06:27:04-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Up to 100,000 young people each way per year under scheme expected to be approved Friday",
+      "Downing Street has not commented on details",
+      "Badenoch accused Burnham of reopening Brexit divisions"
+     ],
+     "limits": [
+      "Youth-scheme numbers rest on unnamed sources (“BBC understands”)."
+     ]
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-britain-to-agree-steps-towards-relations-reset",
+     "publisher": "Al Jazeera",
+     "published": "Nov 20, 2026, 2:12 AM ET; updated 3:29 AM ET",
+     "checkedAt": "2026-11-20T06:27:04-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Deals on food, emissions and youth mobility expected",
+      "UK estimate: removing food and plant checks worth £5.1bn a year",
+      "Youth scheme reportedly 100,000 people for up to three years; UK originally wanted half"
+     ],
+     "limits": []
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/w-ukeu.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The tall cross-shaped Berlaymont office building in Brussels under a blue sky",
+    "caption": "The Berlaymont building in Brussels, headquarters of the European Commission, in 2015.",
+    "credit": "Andersen Pecorone",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ABerlaymont_building_2015.jpg",
+    "isFilePhoto": true,
+    "year": 2015
+   }
+  },
+  {
+   "id": "w-cop31",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-20T04:52",
+   "dateLabel": "Nov 20, 2026 (draft first reported in the Nov 17 edition)",
+   "headline": "COP31 climate talks in Antalya enter their final day with a new draft that drops any mention of fossil fuels",
+   "summary": "The UN climate summit in Antalya, Turkey, entered its scheduled final phase on Friday, Nov. 20, with no deal in sight, DW reported. A new draft published Thursday by co-host Australia removed both references to transitioning away from coal, oil and gas and a call for an accelerated phase-out that had appeared in an earlier draft. It keeps a Turkish-backed goal of meeting 35% of global final energy demand with electricity by 2035, up from about 20% today, without saying the power must be clean. Oxfam Germany’s Jan Kowalzig called the text “insufficient,” and campaigners described it as a step backwards. DW said the talks are likely to run past their scheduled end, as in previous years.",
+   "why": "The fossil-fuel language is the core fight of every recent climate summit, since COP28 in Dubai agreed to “transition away” from them. Losing that wording in Antalya would signal backsliding at a time of high oil prices and supply shocks; watch whether pressure from vulnerable countries restores it before the gavel.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "COP31: UN Climate summit enters final phase",
+     "site": "DW",
+     "date": "Nov 20, 2026",
+     "href": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516"
+    },
+    {
+     "title": "COP31: Fossil fuels omitted from latest climate deal",
+     "site": "DW",
+     "date": "Nov 19, 2026",
+     "href": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516",
+     "publisher": "DW",
+     "published": "Nov 20, 2026, 4:52 AM ET (live page, updating)",
+     "checkedAt": "2026-11-20T06:27:06-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Talks in Antalya in closing phase on Friday; new draft omits fossil-fuel phase-out",
+      "Summit likely to be extended until consensus"
+     ],
+     "limits": [
+      "Live page; entries change during the day."
+     ]
+    },
+    {
+     "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394",
+     "publisher": "DW",
+     "published": "Nov 19, 2026, 8:49 AM ET; updated Nov 20, 2:51 AM ET",
+     "checkedAt": "2026-11-20T06:27:07-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Draft by co-host Australia removed two references to transitioning away from fossil fuels and a phase-out call",
+      "Keeps 35% electrification target by 2035",
+      "Oxfam Germany’s Kowalzig: “insufficient”"
+     ],
+     "limits": [
+      "Both sources are DW; no second outlet was checked for this story."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/w-cop31.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A wide blue bay with mountains on the horizon seen from a park terrace in Antalya",
+    "caption": "The bay at Antalya, Turkey, the COP31 host city, in 2022.",
+    "credit": "Joe Wallace",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3AAntalya_Bight.jpg",
+    "isFilePhoto": true,
+    "year": 2022
+   }
+  },
+  {
+   "id": "w-indpak",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-20T04:11",
+   "dateLabel": "Nov 20, 2026",
+   "headline": "A Pakistani minister visits India for the first time since the two countries’ 2025 war",
+   "summary": "Pakistan’s climate change minister, Musadik Malik, arrived in New Delhi on Friday, Nov. 20, for a Shanghai Cooperation Organisation (SCO) cultural forum, the first visit by a Pakistani federal minister since the neighbours fought a four-day war in May 2025, and the first since May 2023. Prime Minister Narendra Modi is due to open the three-day Civilisational Dialogue Forum, and Malik is expected to speak on Saturday. No bilateral meeting has been announced, and both governments describe the visit as routine SCO business. India had invited Pakistan’s culture minister; Islamabad sent Malik instead without saying why.",
+   "why": "Even a low-key visit matters between two nuclear-armed neighbours that barely talk. Pakistan hosts the SCO leaders’ summit next August, so this could test whether contact through the bloc can reopen any channel — including a possible Modi trip to Islamabad.",
+   "label": "Reported + Official statement",
+   "sources": [
+    {
+     "title": "Pakistan minister visits India for first time since 2025 war",
+     "site": "Al Jazeera",
+     "date": "Nov 20, 2026",
+     "href": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war"
+    },
+    {
+     "title": "India: Pakistani minister visits Delhi amid frozen ties",
+     "site": "DW",
+     "date": "Nov 20, 2026",
+     "href": "https://www.dw.com/en/india-pakistani-minister-visits-delhi-for-sco-forum-amid-frozen-ties/live-79999264"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war",
+     "publisher": "Al Jazeera",
+     "published": "Nov 20, 2026, 4:11 AM ET",
+     "checkedAt": "2026-11-20T06:27:07-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Malik arrived Friday; first federal minister visit since the May 2025 war",
+      "No bilateral meeting announced; Pakistan Foreign Office statement on SCO participation",
+      "India’s invitation was reportedly for the culture minister"
+     ],
+     "limits": [
+      "Published as news analysis."
+     ]
+    },
+    {
+     "url": "https://www.dw.com/en/india-pakistani-minister-visits-delhi-for-sco-forum-amid-frozen-ties/live-79999264",
+     "publisher": "DW",
+     "published": "Nov 20, 2026, 3:20 AM ET (live page)",
+     "checkedAt": "2026-11-20T06:27:08-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Malik arrived for the SCO Civilizational Dialogue Forum, Nov 20–22",
+      "First visit since Bhutto Zardari in Goa, May 2023; India invited the culture minister"
+     ],
+     "limits": [
+      "Live news roundup page."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-nigeria",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-20T01:32",
+   "dateLabel": "Nov 20, 2026",
+   "headline": "Nigeria’s president asks parliament to stop jailing people who survive suicide attempts",
+   "summary": "Nigerian President Bola Tinubu has asked parliament to decriminalise attempted suicide and offer medical treatment and rehabilitation instead of prosecution, the BBC reported on Friday, Nov. 20. Under current law, a survivor can face up to a year in prison, a fine or both. A separate Senate bill with the same aim has passed its second reading. Senate President Godswill Akpabio, who had earlier said survivors should go to prison, welcomed the proposal and said his remarks had been misunderstood. Mental health professionals have pushed for the change for years.",
+   "why": "Laws that punish suicide attempts push people away from help and make families hide crises. If Nigeria — Africa’s most populous country — changes course, it would join a growing number of countries treating suicide as a health issue rather than a crime. If you or someone you know is struggling, in the U.S. you can call or text 988.",
+   "label": "Reported + Official proposal",
+   "sources": [
+    {
+     "title": "Nigeria suicide bill: Bola Tinubu moves to end jail terms for attempted suicide",
+     "site": "BBC News",
+     "date": "Nov 20, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o",
+     "publisher": "BBC News",
+     "published": "Nov 20, 2026, 1:32 AM ET",
+     "checkedAt": "2026-11-20T06:27:09-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 20 2026",
+     "claimsSupported": [
+      "Tinubu asked parliament to decriminalise attempted suicide",
+      "Current penalty up to one year in prison, a fine or both",
+      "Separate Senate bill passed second reading; Akpabio welcomed proposal"
+     ],
+     "limits": [
+      "Single outlet checked."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-20-am/w-nigeria.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A white domed government building with a green dome and a wide plaza in Abuja",
+    "caption": "Nigeria’s National Assembly building in Abuja, pictured in 2018.",
+    "credit": "Kabusa16",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ANational_Assembly_Building%2C_Abuja%2C_Nigeria.jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  }
+ ]
+}

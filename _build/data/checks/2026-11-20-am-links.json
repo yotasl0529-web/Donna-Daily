@@ -1,0 +1,265 @@
+{
+ "edition": "2026-11-20-am",
+ "ranAt": "2026-11-20T06:40:24-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/russian-attacks-on-kyiv-9.7429460",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/ukraine-updates-kyiv-targeted-by-missile-strikes-bridges-hit/live-79999822",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://gothamist.com/news/mamdani-lays-out-plan-to-close-rikers-by-2032-after-years-of-delays",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/20/nx-s1-5981356/new-york-city-rikers-jail-plans-germany-prison-model",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/20/sean-cairncross-white-house-cyber-director.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/cairncross-out-cyber-white-house-9.7429359",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cx1l0pm7l9jmo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/baseball/mlb/pete-rose-posthumous-pardon-9.7429296",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:26-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/fiona-hippo-dies-9.7428804",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/canada-seeking-interim-trade-arrangment-9.7428540",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/canada-arctic-starlink-musk-satellites-9.7428908",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/ndrangheta-canada-us-sanctions-luigi-vescio-sr-9.7429102",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://globalnews.ca/news/12159133/kings-hand-maple-leafs-eighth-straight-loss/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://globalnews.ca/news/12159312/maple-leafs-blow-big-lead-as-ugly-run-continues/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/toronto/afghan-women-radio-program-9.7428784",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:26-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/20/P2026112000309.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:26-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878604-20261120.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:26-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/20/alleged-uk-spy-for-hong-kong-died-by-suicide-ahead-of-trial-british-jury-rules/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/cmz74epzwgzyo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/20/hong-kong-security-chief-hits-out-at-the-washington-post-over-scaremongering-op-ed-by-wanted-activist/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/20/hong-kong-doctor-found-guilty-over-fraudulently-issuing-over-3700-covid-19-vaccine-exemptions/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/20/china-us-russia-issue-declaration-toward-peace-after-first-summit/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/20/china-paints-xi-as-maker-of-historic-talks-with-trump-putin/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/china-s-xi-praises-turnaround-in-relationship-with-australia/a-79999229",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878569-20261120.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:26-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c61wr088jnzzo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878600-20261120.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:26-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c623j4kpg94go",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-britain-to-agree-steps-towards-relations-reset",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/india-pakistani-minister-visits-delhi-for-sco-forum-amid-frozen-ties/live-79999264",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-20T06:40:25-05:00"
+  }
+ ]
+}
