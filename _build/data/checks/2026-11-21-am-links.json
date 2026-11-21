@@ -1,0 +1,265 @@
+{
+ "edition": "2026-11-21-am",
+ "ranAt": "2026-11-21T06:37:58-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.pbs.org/newshour/world/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/anthropic-researcher-uses-ai-to-solve-math-s-greatest-riddle/a-80008428",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.pbs.org/newshour/nation/federal-jury-convicts-man-of-starting-deadly-2025-palisades-fire-in-los-angeles",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878672-20261121.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:38:00-05:00"
+  },
+  {
+   "url": "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/20/nx-s1-6039337/mlk-i-have-a-dream-speech-draft-public-display",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/trump-canada-tariffs-trade-news-conference-9.7430092",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/british-columbia/premier-cabinet-sworn-in-conservative-9.7429384",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:38:00-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/joly-ford-stellantis-brampton-unifor-meeting-9.7430142",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://globalnews.ca/news/12160415/stellantis-brampton-plant-meeting-doug-ford/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/health/lancet-retraction-motherisk-gideon-koren-study-codeine-breast-milk-9.7430487",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/hockey/nhl/daniel-carr-criminal-probe-on-ice-punch-9.7431143",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878589-20261120.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:38:00-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878624-20261120.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:38:00-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/20/P2026112000803.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:38:00-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/21/P2026112100466.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.uscc.gov/sites/default/files/2026-11/2026_Executive_Summary.pdf",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878708-20261121.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:38:00-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/21/P2026112100278.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:38:00-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/21/research-schooner-tara-sets-sail-from-hong-kong-on-18-month-mission-to-unlock-secrets-of-coral-resilience-secrets/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:38:00-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/20/P2026112000256.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:38:00-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/21/trump-defends-fantastic-ties-with-xi-putin-after-summit-backlash/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/cop31-un-climate-summit-runs-into-overtime-as-deal-remains-elusive/live-79999516",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://gothamist.com/news/princeton-phd-student-from-china-detained-by-ice-in-washington-dc",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.dailyprincetonian.com/article/2026/11/princeton-news-broadfocus-eva-yi-xie-neuroscience-phd-ice-pending-asylum-claim",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.sixthtone.com/news/1019294",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-strengthen-ties-after-brexit/a-80001076",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  },
+  {
+   "url": "https://pet.dk/en/about-pet/news-list/russia-uses-danish-criminal-networks-in-assassination-attempt-on-danish-soil/2026/11/20",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:38:00-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/sports/2026/11/21/ballon-dor-kane-to-miss-a-few-months-after-injury-as-bayern-munich-held",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-21T06:37:59-05:00"
+  }
+ ]
+}
