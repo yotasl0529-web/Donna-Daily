@@ -1,0 +1,1648 @@
+{
+ "id": "2026-11-23-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-23",
+ "leadId": "w-cop31",
+ "topIds": [
+  "us-house",
+  "w-libya",
+  "ca-larkin",
+  "hk-ec",
+  "cn-spy"
+ ],
+ "notes": [
+  "Morning Edition for Monday, Nov 23, 2026. There was no edition on Sunday, Nov 22; this edition covers news since the Nov 21 morning edition.",
+  "Leading this morning: the collapse of the COP31 climate talks, Democrats’ biggest House majority since 1992, Ukraine’s claimed sinking of a Russian warship in Libya, Montreal’s trade for Dylan Larkin, Hong Kong’s Election Committee race and a death sentence for a Chinese official convicted of spying. Also: an ICE arrest on a Seattle jet bridge, the Army’s plan to detonate explosives in Iowa, Tarik Skubal’s record Mets deal, Thanksgiving prices, Nova Scotia’s new Liberal leader, the Senate fight over Bill C-22, a study on daily cannabis use, the Parliamentary Press Gallery dinner, Hong Kong’s Interpol drone ban, Hong Kong winners at the Golden Horse Awards, a cancelled Tai Po fire book launch, a closing 90-year-old saucemaker, Beijing’s response to an FCC phone-number rule, BYD’s Ti7 ruling, a reported SEC inquiry into Nvidia, Kenya and DR Congo restoring ties, South Korea’s education minister resigning and Carlos Alcaraz’s ATP Finals win.",
+  "Updates on earlier stories: COP31 (overtime talks, Nov 21 edition; now collapsed without a deal); Nvidia and chips to China (California subpoena, Nov 21; now a reported SEC inquiry); the Tai Po fire (building-safety penalties, Nov 21; now anniversary events); the U.S. midterms (House count now near final).",
+  "Planned or scheduled, not confirmed when this edition was prepared: the Army’s Iowa detonation (Wednesday, Nov. 25), the Senate committee’s clause-by-clause review of Bill C-22 (Tuesday, Nov. 24), Hong Kong’s Interpol restrictions (Nov. 30–Dec. 3), the expected MLB lockout and the finalising of Skubal’s contract after a physical.",
+  "Photos appear on the lead and on 20 of 23 other stories. All are file photos; the COP31 photo was taken at the talks on Nov. 21, before they collapsed. Text-only where no suitable openly licensed photo was found: the Iowa detonation, the Chinese spy case, the FCC phone-number rule.",
+  "Stories by region: U.S. 5, Canada 5, Hong Kong 5, China 4, World 5. China has four stories: a fifth candidate (China–Singapore trade talks) mostly predated the last edition and rested largely on official and state-media accounts, so it was left out rather than padding the section. Several stories rest on a single outlet; this is noted under each story’s sources. Zelensky’s account of the Libya strike, the Iowa danger assessment and the Seattle assault accusation are claims or allegations, not established facts."
+ ],
+ "provenance": [
+  "Compiled from the linked reporting, official releases and documents listed under each story; labels show whether a point is reported, an official statement, a claim, an allegation or analysis.",
+  "Source pages were opened during this morning’s research between about 6:27 AM and 6:39 AM ET on Nov 23; each check time is the logged time that page was fetched. Photo licences were read from each Wikimedia Commons file page’s metadata at the same session.",
+  "RTHK is Hong Kong’s government-funded broadcaster; Xinhua is Chinese state media; Focus Taiwan is the English service of Taiwan’s state-funded Central News Agency. Wire copy carried by another outlet is marked with the agency’s name (AP, AFP, The Canadian Press).",
+  "Access limits: AP’s own pages returned HTTP 403 to automated fetches, so AP reporting is cited via CBC and CBS; the South China Morning Post was not used because it blocks automated fetches; New York Times and Wall Street Journal originals on Nvidia are paywalled and were not opened. These are access limits, not evidence of errors.",
+  "Figures or details differ between sources on when the U.S. government’s Iowa court filing was made (Saturday vs Sunday) and on Alcaraz’s injury break (about four months vs four and a half); both are noted where relevant."
+ ],
+ "stories": [
+  {
+   "id": "w-cop31",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-23T01:33",
+   "dateLabel": "Nov 22–23, 2026 (overtime talks covered Nov 21)",
+   "headline": "COP31 climate talks collapse without a deal after the final text left out any mention of fossil fuels",
+   "deck": "The longest UN climate summit on record ended in Antalya, Turkey, on Sunday, Nov. 22, with no main political agreement, the first such collapse since Copenhagen in 2009.",
+   "summary": "The longest UN climate summit on record ended in Antalya, Turkey, on Sunday, Nov. 22, with no main political agreement, the first such collapse since Copenhagen in 2009. Talks were due to finish on Friday but ran into Sunday. A last-minute draft presented early Sunday did not contain the words “fossil fuels” at all; an earlier draft had mentioned them six times, which oil producers rejected, the BBC reported. The European Union, speaking through Irish minister Darragh O’Brien and EU climate commissioner Wopke Hoekstra, refused to endorse a text that “does not even mention fossil fuels”, and Panama, the Marshall Islands, Vanuatu and others also objected. Poorer countries also complained that the text set no concrete figures for adaptation finance. Saudi Arabia’s delegate said Arab states had negotiated in good faith; Turkey’s COP31 president Murat Kurum said “there will be no new text”. UN Secretary-General António Guterres said he was “deeply disappointed”. Some side agreements survived: progress on a “just transition” mechanism, and more than 80 countries backed a target for electricity to meet 35% of global energy use by 2035. On Monday, Nov. 23, China’s foreign ministry called the outcome disappointing but said the green transition is “irreversible”.",
+   "why": "COPs work by consensus, so a handful of oil producers can block language the majority wants, and this time the majority refused to accept a weaker deal rather than paper over the split. The failure does not cancel the Paris Agreement or countries’ own plans, but it leaves no new global signal on fossil fuels or money for climate-hit countries just as the world is expected to pass 1.5C of warming. Expect pressure to reform how COPs make decisions.",
+   "label": "Reported + Official statement",
+   "note": "Updates the Nov 21 edition, which reported the talks running past their Friday deadline. The 35%-electrification goal (which China backed, Nov 21 edition) is a voluntary target, not part of a binding deal. China’s reaction comes from RTHK’s agency-based report of a foreign ministry briefing.",
+   "sources": [
+    {
+     "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
+     "site": "BBC News",
+     "date": "Nov 22, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo"
+    },
+    {
+     "title": "COP31 climate talks collapse after member states reject deal for not mentioning fossil fuels",
+     "site": "CBC News",
+     "date": "Nov 22, 2026",
+     "href": "https://www.cbc.ca/news/world/cop31-talks-collapse-fossil-fuel-9.7431847"
+    },
+    {
+     "title": "Climate change talks fall apart in final hours over fossil fuels",
+     "site": "NPR",
+     "date": "Nov 22, 2026",
+     "href": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment"
+    },
+    {
+     "title": "China says global green transition is ‘irreversible’",
+     "site": "RTHK (government-funded broadcaster)",
+     "date": "Nov 23, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878954-20261123.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo",
+     "publisher": "BBC News",
+     "published": "Nov 22, 2026, 1:17 PM ET; updated Nov 23, 2026, 12:15 AM ET",
+     "checkedAt": "2026-11-23T06:27:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "No major new deal; longest UN climate conference in history; last main-deal collapse was Copenhagen 2009",
+      "Final draft did not mention “fossil fuels”; first draft mentioned them six times",
+      "EU (Darragh O’Brien) objected; Panama and Marshall Islands criticised the deal",
+      "Guterres “deeply disappointed”; no concrete adaptation-finance figures",
+      "More than 80 countries backed 35% electricity share by 2035; progress on a just transition mechanism"
+     ]
+    },
+    {
+     "url": "https://www.cbc.ca/news/world/cop31-talks-collapse-fossil-fuel-9.7431847",
+     "publisher": "CBC News",
+     "published": "Nov 22, 2026, 12:11 PM ET; updated Nov 22, 2026, 5:38 PM ET",
+     "checkedAt": "2026-11-23T06:27:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Talks collapsed Sunday in Antalya; first failure since 2009",
+      "EU statement: will not endorse a cover decision that does not mention fossil fuels",
+      "Kurum: “There will be no new text from now on.”"
+     ]
+    },
+    {
+     "url": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment",
+     "publisher": "NPR",
+     "published": "Nov 22, 2026, 11:33 AM ET; updated Nov 22, 2026, 3:13 PM ET",
+     "checkedAt": "2026-11-23T06:30:17-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Talks ran two days longer than planned; EU rejected an outcome without a transition away from fossil fuels",
+      "Saudi Arabia opposed such language; Panama, Belize, Vanuatu and the Marshall Islands objected"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878954-20261123.htm",
+     "publisher": "RTHK (government-funded broadcaster)",
+     "published": "Nov 23, 2026, about 3:56 AM ET (RTHK feed time)",
+     "checkedAt": "2026-11-23T06:29:03-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Chinese foreign ministry spokesman Guo Jiakun expressed disappointment and said the green transition is “irreversible”"
+     ],
+     "limits": [
+      "Agency-based report; the page shows no machine-readable publication time (RTHK feed time Nov 23, 4:56 PM HKT)."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/w-cop31.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Murat Kurum, Turkey’s COP31 president, in a dark suit surrounded by delegates at the climate talks in Antalya",
+    "caption": "Murat Kurum, COP31 president, at the talks in Antalya; the photographer’s camera dates the picture to Nov. 21, 2026, before the talks collapsed.",
+    "credit": "Xuthoria",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:COP31_-_Murat_Kurum_02.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "us-house",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-22T20:23",
+   "dateLabel": "Nov 22, 2026",
+   "headline": "Democrats reach at least 258 House seats, their biggest majority since 1992, as Virginia Foxx concedes after a recount",
+   "deck": "Republican Rep. Virginia Foxx conceded North Carolina’s 5th District to Democrat Chuck Hubbard on Sunday, Nov. 22, after a recount left him 330 votes ahead.",
+   "summary": "Republican Rep. Virginia Foxx conceded North Carolina’s 5th District to Democrat Chuck Hubbard on Sunday, Nov. 22, after a recount left him 330 votes ahead. The machine recount netted Foxx one vote, NC Newsline reported. Foxx, 83, had held the seat since 2005; Hubbard, a former journalist, lost to her in 2024. With the result, Democrats have won at least 258 House seats to Republicans’ at least 173, with four races uncalled, the BBC reported, the most for either party since 1992. North Carolina’s delegation flips from 10 Republicans and four Democrats to 11 Democrats and three Republicans. “The peaceful transition of elected office from one person to another is one of the true hallmarks of our system of government,” Foxx said in her statement. Hubbard said he wanted to hold President Trump accountable and focus on the cost of living.",
+   "why": "A majority this large gives Democrats room to pass their own bills through the House and to run investigations of the administration from January without relying on every member. It also shows how far the cost-of-living backlash reached: districts like this one in north-western North Carolina were considered safely Republican.",
+   "label": "Reported + Official statement",
+   "note": "Final seat totals were not settled when sources were checked; four House races were still uncalled per the BBC.",
+   "sources": [
+    {
+     "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+     "site": "BBC News",
+     "date": "Nov 22, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno"
+    },
+    {
+     "title": "Republican Virginia Foxx concedes in Fifth Congressional District race, following recount",
+     "site": "WRAL",
+     "date": "Nov 22, 2026",
+     "href": "https://www.wral.com/news/nccapitol/virginia-foxx-concedes-november-2026/"
+    },
+    {
+     "title": "Virginia Foxx concedes long-held seat in NC’s closely watched 5th Congressional District",
+     "site": "NC Newsline",
+     "date": "Nov 22, 2026",
+     "href": "https://ncnewsline.com/2026/11/22/virginia-foxx-concedes-congressional-seat-in-ncs-closely-watched-5th-congressional-district/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno",
+     "publisher": "BBC News",
+     "published": "Nov 22, 2026, 3:26 PM ET; updated Nov 22, 2026, 8:23 PM ET",
+     "checkedAt": "2026-11-23T06:27:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Hubbard beat Foxx by 330 votes; race called Sunday after a recount",
+      "Democrats at least 258 seats, Republicans at least 173, four uncalled; most since 1992",
+      "Hubbard pledged to hold Trump accountable; focused on cost of living"
+     ]
+    },
+    {
+     "url": "https://www.wral.com/news/nccapitol/virginia-foxx-concedes-november-2026/",
+     "publisher": "WRAL",
+     "published": "Nov 22, 2026, 1:26 PM ET; updated Nov 22, 2026, 8:54 PM ET",
+     "checkedAt": "2026-11-23T06:27:48-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Foxx conceded in a Facebook statement; Democrats now hold 11 of 14 NC districts",
+      "Foxx and Hubbard statements"
+     ]
+    },
+    {
+     "url": "https://ncnewsline.com/2026/11/22/virginia-foxx-concedes-congressional-seat-in-ncs-closely-watched-5th-congressional-district/",
+     "publisher": "NC Newsline",
+     "published": "Nov 22, 2026, 4:50 PM ET",
+     "checkedAt": "2026-11-23T06:27:48-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Machine recount netted Foxx one vote; Hubbard 330 ahead",
+      "Foxx, 83, held the seat since 2005; delegation goes from 10 R/4 D to 11 D/3 R",
+      "Foxx quote on peaceful transition"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/us-house.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The west front of the U.S. Capitol in Washington with its white dome under a blue sky",
+    "caption": "The west front of the U.S. Capitol in Washington, D.C.; Architect of the Capitol photo from 1997.",
+    "credit": "Architect of the Capitol",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_west_front_edit2.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_west_front_edit2.jpg",
+    "isFilePhoto": true,
+    "year": 1997
+   }
+  },
+  {
+   "id": "us-seattle",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-22T20:59",
+   "dateLabel": "Nov 21–22, 2026",
+   "headline": "Masked ICE officers arrest a father and daughter on a Seattle airport jet bridge, drawing outrage from the airport and Washington’s governor",
+   "deck": "Immigration officers detained two Mexican nationals as they boarded Alaska Airlines Flight 1306 to Los Angeles at Seattle-Tacoma International Airport on Saturday morning, Nov. 21.",
+   "summary": "Immigration officers detained two Mexican nationals as they boarded Alaska Airlines Flight 1306 to Los Angeles at Seattle-Tacoma International Airport on Saturday morning, Nov. 21. The Department of Homeland Security said Ricardo Larrondo Mendoza had overstayed his visa and that his daughter, Sofia Hernandez Mejia, “hurled hot coffee” at officers and would be charged with assaulting a federal officer. Their lawyer, Olia Catala, said they have no criminal record, that the father has a pending asylum claim and that the coffee was knocked from her hand when plain-clothes, masked officers lunged; an eyewitness told Reuters he did not see anyone throw coffee. The Port of Seattle, which runs the airport, said it was “outraged” and was asking whether agreed protocols were breached; Alaska Airlines said it had no advance notice, and the flight left more than two hours late with a new crew, CBS reported. Gov. Bob Ferguson called ICE “completely and totally out of control.” The two were being held at the Northwest ICE Processing Center in Tacoma, their lawyer said.",
+   "why": "Airports are where many immigrants with pending cases travel openly on their documents, so arrests at the gate spread fear well beyond this family. The clash between a federal agency and the local airport operator, and the dispute over the coffee, will matter in court: an assault charge can decide whether someone gets bond.",
+   "label": "Reported + Official statement + Allegation",
+   "note": "The assault accusation is DHS’s allegation and is disputed by the family’s lawyer and an eyewitness; no charge outcome is known. The wire quote from the eyewitness is via the BBC.",
+   "sources": [
+    {
+     "title": "Sea-Tac officials ‘outraged’ by ICE ambush as passengers boarded plane",
+     "site": "The Seattle Times",
+     "date": "Nov 21, 2026",
+     "href": "https://www.seattletimes.com/seattle-news/law-justice/at-least-one-passenger-detained-while-boarding-alaska-flight-at-sea-tac/"
+    },
+    {
+     "title": "ICE officers arrest 2 passengers boarding Alaska Airlines flight in Seattle",
+     "site": "CBS News",
+     "date": "Nov 21–22, 2026",
+     "href": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/"
+    },
+    {
+     "title": "Seattle airport operator ‘outraged’ over ICE arrest of two passengers",
+     "site": "BBC News",
+     "date": "Nov 22, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cmwy479wz91no"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.seattletimes.com/seattle-news/law-justice/at-least-one-passenger-detained-while-boarding-alaska-flight-at-sea-tac/",
+     "publisher": "The Seattle Times",
+     "published": "Nov 21, 2026, 2:29 PM ET; updated Nov 21, 2026, 11:15 PM ET",
+     "checkedAt": "2026-11-23T06:27:51-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Masked agents arrested a father and daughter boarding Alaska Flight 1306",
+      "Port of Seattle statement: “outraged”; checking whether protocols were breached",
+      "Gov. Bob Ferguson: ICE “completely and totally out of control”"
+     ],
+     "limits": [
+      "May be metered for some readers."
+     ]
+    },
+    {
+     "url": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/",
+     "publisher": "CBS News (with AP)",
+     "published": "Nov 21, 2026, 7:37 PM ET; updated Nov 22, 2026, 8:55 PM ET",
+     "checkedAt": "2026-11-23T06:27:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "DHS: Mendoza overstayed visa; Mejia “hurled hot coffee”, faces assault charge",
+      "Flight scheduled 8:45 a.m. left 11:03 a.m.; entire new crew",
+      "Lawyer Olia Catala: clients held at Northwest Processing Center in Tacoma"
+     ]
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cmwy479wz91no",
+     "publisher": "BBC News",
+     "published": "Nov 22, 2026, 8:59 PM ET",
+     "checkedAt": "2026-11-23T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Lawyer: “absolutely no criminal history”",
+      "Eyewitness John Gaedeke (to Reuters): “I didn’t see anyone throw coffee”",
+      "Alaska Airlines: no appropriate notice"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/us-seattle.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A wide, bright departure concourse with gates and shops at Seattle-Tacoma International Airport",
+    "caption": "Concourse N at Seattle-Tacoma International Airport, pictured in January 2026.",
+    "credit": "AirportTerminalGuy",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:SEA_Concourse_N.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "us-iowa",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-22T22:25",
+   "dateLabel": "Nov 22–23, 2026",
+   "headline": "Army plans to detonate nearly five tonnes of unstable lead azide in Iowa on Wednesday despite a court pause, citing an emergency exemption",
+   "deck": "The Justice Department told a federal appeals court the Army will invoke an emergency exception to environmental rules to blow up degraded explosives at the Iowa Army Ammunition Plant near Middletown.",
+   "summary": "The Justice Department told a federal appeals court the Army will invoke an emergency exception to environmental rules to blow up degraded explosives at the Iowa Army Ammunition Plant near Middletown. The 8th U.S. Circuit Court of Appeals had paused the Environmental Protection Agency’s emergency permit after environmental groups sued, saying lead dust could travel far and safer options were not considered. Government lawyers argued that the roughly 9,700 pounds of lead azide in 68 barrels has formed unstable crystals and could “spontaneously explode” as temperatures drop below freezing, and that “a controlled detonation is by far safer than an uncontrolled explosion”. The filing said the Army would act by Tuesday, Nov. 24; on Sunday evening the Army said it now plans the detonation for Wednesday, Nov. 25, “to allow for optimal weather conditions and all mitigation measures to be emplaced”. Earthjustice, representing the groups, argues the move would bypass the court.",
+   "why": "This is a test of how far the government can go around a court order by declaring an emergency. Residents face a real dilemma: an uncontrolled blast would be worse, but lead is toxic and families near the plant were given little notice. Watch whether the court responds before Wednesday.",
+   "label": "Reported + Official statement + Claim",
+   "note": "Planned, not confirmed: the detonation had not happened when sources were checked. Sources differ on when the government’s filing was made (late Saturday per the BBC and Al Jazeera; ABC says Sunday) and on whether the court’s pause came Thursday night or Friday. The danger assessment is the government’s claim in court.",
+   "sources": [
+    {
+     "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
+     "site": "BBC News",
+     "date": "Nov 22, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo"
+    },
+    {
+     "title": "Army moves detonation of 10,000 pounds of lead azide to Wednesday",
+     "site": "ABC News",
+     "date": "Nov 22–23, 2026",
+     "href": "https://abcnews.com/US/army-moves-detonation-10000-pounds-lead-azide-wedneday/story?id=138330909"
+    },
+    {
+     "title": "‘Extremely concerning’: Inside a US Army plan to detonate Iowa lead stores",
+     "site": "Al Jazeera",
+     "date": "Nov 23, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/23/extremely-concerning-inside-a-us-army-plan-to-detonate-iowa-lead-stores"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo",
+     "publisher": "BBC News",
+     "published": "Nov 22, 2026, 10:50 AM ET; updated Nov 22, 2026, 1:29 PM ET",
+     "checkedAt": "2026-11-23T06:27:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Army to move ahead despite the court pause; act by Nov. 24 under an emergency exemption",
+      "Filing: immediate risk of explosion as temperatures drop below 30F"
+     ]
+    },
+    {
+     "url": "https://abcnews.com/US/army-moves-detonation-10000-pounds-lead-azide-wedneday/story?id=138330909",
+     "publisher": "ABC News",
+     "published": "Nov 22, 2026, 10:25 PM ET; updated Nov 23, 2026, 5:30 AM ET",
+     "checkedAt": "2026-11-23T06:27:51-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Army said Sunday night the detonation moves to Wednesday “to allow for optimal weather conditions…”",
+      "8th Circuit administrative stay of the permit; DOJ argues an exemption applies",
+      "“A controlled detonation is by far safer than an uncontrolled explosion”"
+     ]
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/23/extremely-concerning-inside-a-us-army-plan-to-detonate-iowa-lead-stores",
+     "publisher": "Al Jazeera",
+     "published": "Nov 22, 2026, 9:09 PM ET",
+     "checkedAt": "2026-11-23T06:27:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "About 9,700 pounds of lead azide in 68 barrels; crystals formed after liquid evaporated",
+      "Earthjustice: move would bypass judicial review"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "us-skubal",
+   "region": "us",
+   "topic": "sports",
+   "ts": "2026-11-22T19:27",
+   "dateLabel": "Nov 22, 2026",
+   "headline": "Tarik Skubal agrees to a record $450 million, nine-year deal with the New York Mets, sources say",
+   "deck": "The two-time Cy Young winner’s contract would be the largest ever for a pitcher, according to people familiar with the deal; the Mets have not confirmed it pending a physical.",
+   "summary": "The two-time Cy Young winner’s contract would be the largest ever for a pitcher, according to people familiar with the deal; the Mets have not confirmed it pending a physical. The reported terms, first emerging on Sunday, Nov. 22, average $50 million a year, topping Yoshinobu Yamamoto’s $325 million Dodgers deal, and include a full no-trade clause, no opt-outs, a $45 million signing bonus and $30 million in deferred pay. Only Juan Soto, Shohei Ohtani and Vladimir Guerrero Jr. have bigger contracts. Skubal, a left-hander who turned 30 on Nov. 20, joins a Mets team that finished last in the NL East at 74-88 despite baseball’s highest payroll; the Toronto Blue Jays were among the teams that met him. The deal comes about a week before owners are expected to lock players out in a labour fight over the owners’ push for a salary cap.",
+   "why": "For New York fans it is a statement that the Mets will keep spending after a bad season. For the sport, it lands days before a possible lockout: a contract this size is exactly what owners want a salary cap to stop, and what the players’ union wants to protect.",
+   "label": "Reported + Unnamed sources",
+   "sources": [
+    {
+     "title": "2-time Cy Young winner Skubal agrees to record 9-year, $450M US deal with Mets: reports (AP)",
+     "site": "CBC Sports",
+     "date": "Nov 22, 2026",
+     "href": "https://www.cbc.ca/sports/baseball/mlb/tarik-skubal-new-york-mets-free-agency-9.7432063"
+    },
+    {
+     "title": "Mets make the big splash, agree with Skubal for 9 years, $450M (sources)",
+     "site": "MLB.com",
+     "date": "Nov 22, 2026",
+     "href": "https://www.mlb.com/news/tarik-skubal-mets-contract"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/sports/baseball/mlb/tarik-skubal-new-york-mets-free-agency-9.7432063",
+     "publisher": "CBC Sports (AP)",
+     "published": "Nov 22, 2026, 5:27 PM ET; updated Nov 22, 2026, 6:59 PM ET",
+     "checkedAt": "2026-11-23T06:27:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Person familiar told AP: $450 million, nine years, subject to physical",
+      "Largest for a pitcher; full no-trade, $45 million bonus, $30 million deferred",
+      "Mets 74-88; Blue Jays met Skubal; lockout expected about a week later"
+     ],
+     "limits": [
+      "AP’s own page returned HTTP 403 to the automated fetch; the AP report was read via CBC."
+     ]
+    },
+    {
+     "url": "https://www.mlb.com/news/tarik-skubal-mets-contract",
+     "publisher": "MLB.com",
+     "published": "Nov 22, 2026, 7:27 PM ET; updated Nov 23, 2026, 1:23 AM ET",
+     "checkedAt": "2026-11-23T06:27:49-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Nine years, $450 million per multiple sources; no opt-outs, no-trade protection",
+      "Club has not confirmed pending a physical"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/us-skubal.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Tarik Skubal in a grey Detroit Tigers road uniform throwing a ball on an outfield",
+    "caption": "Tarik Skubal throwing in the outfield before a Detroit Tigers game against the Los Angeles Angels, May 2025.",
+    "credit": "Sewageboy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:DET_at_LAA_2025_-_Skubal_(7).jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "us-thanksgiving",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-23T05:00",
+   "dateLabel": "Nov 18–23, 2026",
+   "headline": "A classic Thanksgiving dinner for 10 costs about 6% more this year, Farm Bureau survey says, led by pricier turkey",
+   "deck": "The American Farm Bureau Federation puts the average cost at $58.63, or about $5.86 a person, the first rise since the 2022 record, though another estimate expects deals to keep food bills slightly lower.",
+   "summary": "The American Farm Bureau Federation puts the average cost at $58.63, or about $5.86 a person, the first rise since the 2022 record, though another estimate expects deals to keep food bills slightly lower. A 16-pound frozen turkey averaged $23.68, up 10%, with cranberries, whole milk and dinner rolls also up, while veggie trays, pie crusts, peas and whipping cream fell; the group blamed high diesel costs and farm labour shortages. Volunteers checked prices in the first week of November, and stores often cut turkey prices closer to the holiday. NPR reported on Monday, Nov. 23, that the Wells Fargo Agri-Food Institute expects the average Thanksgiving food bill to come in slightly cheaper than last year thanks to promotions, and that in a LendingTree survey 53% of people said inflation was affecting their holiday plans, with fewer planning to host.",
+   "why": "Thanksgiving prices are a small but very visible measure of the cost-of-living squeeze that dominated the midterms. The gap between the two estimates is a reminder that how you shop, sales and store brands, can matter as much as the headline number.",
+   "label": "Industry figures + Reported",
+   "note": "The Farm Bureau survey is informal and its menu has not changed since 1986; it was released Nov. 18 and is included here as background to NPR’s Nov. 23 report.",
+   "sources": [
+    {
+     "title": "Let’s talk turkey: Here’s how Thanksgiving meal costs have changed this year",
+     "site": "NPR",
+     "date": "Nov 23, 2026",
+     "href": "https://www.npr.org/2026/11/23/nx-s1-6044207/thanksgiving-meal-costs"
+    },
+    {
+     "title": "Cost of Thanksgiving Dinner Increases, Remains Below 2022 Record High",
+     "site": "American Farm Bureau Federation",
+     "date": "Nov 18, 2026",
+     "href": "https://www.fb.org/news-release/cost-of-thanksgiving-dinner-increases-remains-below-2022-record-high"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.npr.org/2026/11/23/nx-s1-6044207/thanksgiving-meal-costs",
+     "publisher": "NPR",
+     "published": "Nov 23, 2026, 5:00 AM ET",
+     "checkedAt": "2026-11-23T06:27:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "AFBF estimate up more than 6%; Wells Fargo expects a slightly cheaper food bill due to promotions",
+      "LendingTree: 53% say inflation affects holiday plans; 51% expect to host, down from 59%"
+     ]
+    },
+    {
+     "url": "https://www.fb.org/news-release/cost-of-thanksgiving-dinner-increases-remains-below-2022-record-high",
+     "publisher": "American Farm Bureau Federation",
+     "published": "Nov 18, 2026, 5:00 AM ET",
+     "checkedAt": "2026-11-23T06:28:03-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "$58.63 for 10, about $5.86 per person; more than 6% up from 2025; 8.5% below 2022 record",
+      "16-lb turkey $23.68, up 10%; cranberries, milk, rolls up; veggie tray, pie crusts down",
+      "Prices checked first week of November"
+     ],
+     "limits": [
+      "Industry group’s own informal survey."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/us-thanksgiving.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A home Thanksgiving table with a roast turkey, cranberry sauce, potatoes and side dishes",
+    "caption": "A home Thanksgiving dinner in California, 2005.",
+    "credit": "Ms Jones from California, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Our_(Almost_Traditional)_Thanksgiving_Dinner.jpg",
+    "isFilePhoto": true,
+    "year": 2005
+   }
+  },
+  {
+   "id": "ca-larkin",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-22T21:39",
+   "dateLabel": "Nov 22, 2026",
+   "headline": "Canadiens land Dylan Larkin from the Red Wings in a blockbuster trade for Dach, Montembeault, Hage and two first-round picks",
+   "deck": "Montreal acquired the former Detroit captain on Sunday, Nov. 22, ending a saga that began when Larkin asked for a trade in the off-season.",
+   "summary": "Montreal acquired the former Detroit captain on Sunday, Nov. 22, ending a saga that began when Larkin asked for a trade in the off-season. The Canadiens sent forward Kirby Dach, goalie Samuel Montembeault, the rights to top prospect Michael Hage, first-round picks in 2027 and 2029, a 2027 second-round pick and a 2028 fourth-round pick; Montreal also got Detroit’s 2027 third-round and 2028 second-round picks, the team said. Larkin, 30, has 278 goals and 649 points in 818 games for Detroit, ranks 10th in team history in both, and has scored at least 30 goals in each of the last five seasons; he won Olympic gold with the United States at Milano-Cortina in 2026. CBC said he slots in behind Nick Suzuki as the second-line centre Montreal has wanted for more than a year.",
+   "why": "Montreal has been rebuilding around young players; paying this much in prospects and picks for a 30-year-old centre signals the Canadiens think they can contend now. For Detroit, it ends an awkward standoff with a franchise player and restocks its pipeline.",
+   "label": "Official statement + Reported",
+   "note": "Draft-pick protection conditions were not set out in the team release checked here.",
+   "sources": [
+    {
+     "title": "Canadiens acquire forward Dylan Larkin from the Detroit Red Wings",
+     "site": "Montréal Canadiens (NHL.com)",
+     "date": "Nov 22, 2026",
+     "href": "https://www.nhl.com/canadiens/news/canadiens-acquire-forward-dylan-larkin-from-the-detroit-red-wings"
+    },
+    {
+     "title": "Montreal Canadiens acquire centre Dylan Larkin from Red Wings in blockbuster trade",
+     "site": "CBC News",
+     "date": "Nov 22, 2026",
+     "href": "https://www.cbc.ca/news/canada/montreal/dylan-larkin-montreal-canadiens-9.7432157"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.nhl.com/canadiens/news/canadiens-acquire-forward-dylan-larkin-from-the-detroit-red-wings",
+     "publisher": "Montréal Canadiens (NHL.com)",
+     "published": "Nov 22, 2026, 8:45 PM ET",
+     "checkedAt": "2026-11-23T06:28:04-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Full trade terms as announced by GM Kent Hughes",
+      "Larkin: 278 goals, 649 points in 818 games; 10th in Red Wings history; 30-goal seasons; 2026 Olympic gold"
+     ],
+     "limits": [
+      "Team’s own announcement."
+     ]
+    },
+    {
+     "url": "https://www.cbc.ca/news/canada/montreal/dylan-larkin-montreal-canadiens-9.7432157",
+     "publisher": "CBC News",
+     "published": "Nov 22, 2026, 9:39 PM ET",
+     "checkedAt": "2026-11-23T06:28:03-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Larkin requested a move in the off-season; trade made Sunday",
+      "Slots in behind Nick Suzuki as second-line centre"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/ca-larkin.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Dylan Larkin in a red Detroit Red Wings jersey skating with his stick on the ice",
+    "caption": "Dylan Larkin playing for the Detroit Red Wings against the Chicago Blackhawks, January 2018.",
+    "credit": "SecretName101",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Dylan_Larkin_20180125_203532.jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "ca-druhan",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-21T17:11",
+   "dateLabel": "Nov 21, 2026",
+   "headline": "Former Tory minister Becky Druhan wins the Nova Scotia Liberal leadership, the first woman to lead the party",
+   "deck": "Druhan, who quit Premier Tim Houston’s Progressive Conservative cabinet and caucus in 2025, beat Richmond County councillor Amanda Mombourquette with about 68% of the points on Saturday, Nov. 21.",
+   "summary": "Druhan, who quit Premier Tim Houston’s Progressive Conservative cabinet and caucus in 2025, beat Richmond County councillor Amanda Mombourquette with about 68% of the points on Saturday, Nov. 21. The result was announced at a convention in Halifax. Almost 2,900 people voted, down from about 3,400 registered in the party’s 2022 race. Druhan, the MLA for Lunenburg West, served as education and justice minister before leaving over what she called a difference in values, sat as an Independent and joined the Liberals in May. The party has been without a permanent leader since the 2024 election cut it to two seats and the NDP became the official Opposition. “I hope that somewhere in Nova Scotia tonight, a young girl sees one more example of what’s possible for her, too,” Druhan said, adding the party would operate “as if the writ could drop at any moment”, since Nova Scotia has no fixed election date.",
+   "why": "Nova Scotia’s Liberals were nearly wiped out in 2024. Choosing a former Houston minister is a bet that someone who knows the government from inside can win back centrist voters, but she first has to rebuild a party that currently has three seats.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Becky Druhan wins N.S. Liberal leadership, becomes first woman to lead party",
+     "site": "CBC News",
+     "date": "Nov 21, 2026",
+     "href": "https://www.cbc.ca/news/canada/nova-scotia/becky-druhan-wins-n-s-liberal-leadership-becomes-first-woman-to-lead-party-9.7431358"
+    },
+    {
+     "title": "Former Tory minister Becky Druhan elected as N.S. Liberal party leader (The Canadian Press)",
+     "site": "Global News",
+     "date": "Nov 21, 2026",
+     "href": "https://globalnews.ca/news/12161081/becky-durhan-nova-scotia-liberals/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/nova-scotia/becky-druhan-wins-n-s-liberal-leadership-becomes-first-woman-to-lead-party-9.7431358",
+     "publisher": "CBC News",
+     "published": "Nov 21, 2026, 5:11 PM ET; updated Nov 21, 2026, 7:51 PM ET",
+     "checkedAt": "2026-11-23T06:28:05-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Druhan beat Amanda Mombourquette with about 68% of points; first woman to lead the party",
+      "Almost 2,900 voted vs about 3,400 registered in 2022",
+      "Left PC cabinet and caucus in fall 2025; joined Liberals in May",
+      "Quotes on “a young girl” and “as if the writ could drop at any moment”"
+     ]
+    },
+    {
+     "url": "https://globalnews.ca/news/12161081/becky-durhan-nova-scotia-liberals/",
+     "publisher": "Global News",
+     "published": "Nov 21, 2026, 5:37 PM ET; updated Nov 22, 2026, 5:48 PM ET",
+     "checkedAt": "2026-11-23T06:28:05-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Won at a convention in Halifax by a wide margin",
+      "Liberals cut from 14 seats to two in 2024; NDP became official Opposition; third seat when Druhan joined"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/ca-druhan.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The sandstone facade of Province House, Nova Scotia’s legislature, in Halifax",
+    "caption": "Province House, Nova Scotia’s legislature in Halifax, pictured in 2008.",
+    "credit": "Louperivois",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Province_House_(Nova_Scotia).jpg",
+    "isFilePhoto": true,
+    "year": 2008
+   }
+  },
+  {
+   "id": "ca-c22",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-23T04:00",
+   "dateLabel": "Nov 23, 2026",
+   "headline": "Big tech and police make final pitches as the Senate weighs Ottawa’s lawful-access bill, C-22",
+   "deck": "A Senate committee hears more witnesses on Monday, Nov. 23, and is scheduled to go through the bill clause by clause on Tuesday, CBC reports.",
+   "summary": "A Senate committee hears more witnesses on Monday, Nov. 23, and is scheduled to go through the bill clause by clause on Tuesday, CBC reports. Bill C-22 would give police and CSIS faster access to electronic data in investigations and could compel tech companies to adapt their systems to preserve and hand over information under warrant. After a backlash, Public Safety Minister Gary Anandasangaree amended it so providers would not have to decrypt data unless they supplied the encryption and hold the key, and cut metadata retention from one year to six months. But the bill still lets the minister issue confidential orders to companies. Signal has threatened to leave Canada if it passes as written, Meta said it would have to “consider” its options, and Google warned of secret surveillance directives. Police and child-protection groups urged senators to pass it quickly; one called the tech threats “a big bluff”. Any Senate amendments would send the bill back to the House of Commons.",
+   "why": "This is the kind of law that decides whether your messaging apps stay fully encrypted in Canada. The fight mirrors Britain’s clash with Apple, and senators now have to choose between police who say they are falling behind and companies and privacy advocates who say secret orders weaken everyone’s security.",
+   "label": "Reported",
+   "note": "Scheduled, not confirmed: the committee hearings and Tuesday’s clause-by-clause review had not happened when sources were checked. Single-outlet story (CBC).",
+   "sources": [
+    {
+     "title": "Big tech, law enforcement make final pitches as Senate considers data access bill’s future",
+     "site": "CBC News",
+     "date": "Nov 23, 2026",
+     "href": "https://www.cbc.ca/news/politics/bill-c-22-lawful-access-privacy-senate-9.7430455"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/bill-c-22-lawful-access-privacy-senate-9.7430455",
+     "publisher": "CBC News",
+     "published": "Nov 23, 2026, 4:00 AM ET",
+     "checkedAt": "2026-11-23T06:28:22-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Committee meets Monday; clause-by-clause Tuesday",
+      "Amendments: decryption only if provider holds the key; metadata retention cut to six months; confidential ministerial orders remain",
+      "Signal threat to leave; Meta would “consider” options; Google submission",
+      "Child-protection witness: tech threats “a big bluff”; amendments would return the bill to the Commons"
+     ],
+     "limits": [
+      "Single source; no second outlet was checked for this story."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/ca-c22.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Senate of Canada Building, a grand stone former railway station, beside the Rideau Canal in Ottawa",
+    "caption": "The Senate of Canada Building (the former Government Conference Centre) beside the Rideau Canal in Ottawa, pictured in 2010.",
+    "credit": "Salwa Farwaneh Dameh",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Government_Conference_Centre_from_Rideau_Canal,_Ottawa_2010.jpg",
+    "isFilePhoto": true,
+    "year": 2010
+   }
+  },
+  {
+   "id": "ca-cannabis",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-23T04:00",
+   "dateLabel": "Nov 23, 2026",
+   "headline": "More Canadian adults now use cannabis daily than drink alcohol daily, a CMAJ study of nearly 100,000 people finds",
+   "deck": "About 5.7% of adults reported daily or near-daily cannabis use in the 2023–24 Canadian Community Health Survey, compared with 5.2% for alcohol, with young adults driving the gap.",
+   "summary": "About 5.7% of adults reported daily or near-daily cannabis use in the 2023–24 Canadian Community Health Survey, compared with 5.2% for alcohol, with young adults driving the gap. The study, published in the Canadian Medical Association Journal, found daily cannabis use exceeded daily drinking in every age group from 18 to 49, and exceeded daily cigarette smoking among adults under 35, though cigarettes remained the most common daily habit overall at 8.5%. Among women aged 18 to 24, daily cannabis use (6.6%) was about 17 times the rate of daily drinking. Most daily users smoked cannabis rather than using edibles or other forms. “We have to take daily cannabis use pretty seriously,” lead author André McDonald of McMaster University told CBC.",
+   "why": "Canada was the first major country to fully legalise and market cannabis, so the world watches its data. For young adults the finding is the headline: daily cannabis is now more common than daily drinking among young adults, and most of it is smoked, which carries its own health risks.",
+   "label": "Reported",
+   "note": "The survey is a one-time snapshot of self-reported use, not proof of a trend over time.",
+   "sources": [
+    {
+     "title": "More Canadians are using cannabis daily than are drinking alcohol daily: study",
+     "site": "CBC News",
+     "date": "Nov 23, 2026",
+     "href": "https://www.cbc.ca/news/health/daily-cannabis-use-higher-alcohol-cigarettes-9.7430174"
+    },
+    {
+     "title": "Daily cannabis, alcohol, and cigarette use in the Canadian provinces: results from the 2023 to 2024 Canadian Community Health Survey",
+     "site": "CMAJ",
+     "date": "Nov 2026",
+     "href": "https://www.cmaj.ca/content/198/41/E1547"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/health/daily-cannabis-use-higher-alcohol-cigarettes-9.7430174",
+     "publisher": "CBC News",
+     "published": "Nov 23, 2026, 4:00 AM ET",
+     "checkedAt": "2026-11-23T06:28:06-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Study published Monday in CMAJ; 5.7% daily cannabis vs 5.2% alcohol",
+      "Only Canadians over 50 report more daily alcohol than cannabis",
+      "McDonald quote"
+     ]
+    },
+    {
+     "url": "https://www.cmaj.ca/content/198/41/E1547",
+     "publisher": "CMAJ",
+     "published": "Nov 2026 (page metadata: Nov 22, 2026)",
+     "checkedAt": "2026-11-23T06:28:07-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "99,920 respondents; 5.7% cannabis, 5.2% alcohol, 8.5% cigarettes daily",
+      "Cannabis exceeded alcohol at ages 18–49 and cigarettes at 18–34; women 18–24: 6.6% vs 0.4%",
+      "Daily use mainly by smoking (3.9% vs 1.8%)"
+     ],
+     "limits": [
+      "Page metadata dates the article Nov 22, 2026; CBC says it was published Monday, Nov 23."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/ca-cannabis.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The storefront of a government-run BC Cannabis Store in a strip mall with cars parked outside",
+    "caption": "A BC Cannabis Store in Kamloops, British Columbia, pictured in 2019.",
+    "credit": "Northwest",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:BC_Cannabis_Store.jpg",
+    "isFilePhoto": true,
+    "year": 2019
+   }
+  },
+  {
+   "id": "ca-dinner",
+   "region": "ca",
+   "topic": "culture",
+   "ts": "2026-11-22T20:55",
+   "dateLabel": "Nov 21, 2026 (reported Nov 22)",
+   "headline": "Carney trades jokes with rivals, and a pair of comedians, at the Parliamentary Press Gallery dinner",
+   "deck": "The prime minister brought out This Hour Has 22 Minutes impersonators of himself and Donald Trump at the annual roast in Ottawa on Saturday, Nov. 21.",
+   "summary": "The prime minister brought out This Hour Has 22 Minutes impersonators of himself and Donald Trump at the annual roast in Ottawa on Saturday, Nov. 21. “This is a tough room. And I’ve been in the Oval Office,” Mark Carney said, before Mark McKinney came out as Carney and Mark Critch as Trump. Carney also joked about his recent comments on telecom competition. Gov. Gen. Louise Arbour teased him about his travel: “God is everywhere, and Mark Carney is everywhere except in Ottawa.” Carney left soon after his speech, which the journalist emcees called out on stage; Conservative Leader Pierre Poilievre stayed all evening and staged a mock “media bailout” with a bag of money. NDP Leader Avi Lewis needled Carney’s early exit, Bloc Leader Yves-François Blanchet paid tribute to independent journalism, and new Green Leader Mike Morrice closed the night.",
+   "why": "The dinner is a rare night when Canadian leaders are expected to laugh at themselves, and the jokes often point at real weak spots: here, Carney’s frequent trips abroad and his relationship with the press. For anyone interested in comedy and performance, it also shows how much political image now depends on timing and delivery.",
+   "label": "Reported",
+   "note": "Single-outlet story (CBC).",
+   "sources": [
+    {
+     "title": "Carney, opposition leaders trade comedic jabs at press gallery dinner",
+     "site": "CBC News",
+     "date": "Nov 22, 2026",
+     "href": "https://www.cbc.ca/news/politics/carney-press-gallery-dinner-9.7432138"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/carney-press-gallery-dinner-9.7432138",
+     "publisher": "CBC News",
+     "published": "Nov 22, 2026, 8:55 PM ET; updated Nov 22, 2026, 9:58 PM ET",
+     "checkedAt": "2026-11-23T06:28:23-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Dinner on Saturday; McKinney as Carney, Critch as Trump",
+      "Carney: “This is a tough room. And I’ve been in the Oval Office.”",
+      "Arbour joke; Carney left after his speech; Poilievre’s mock “media bailout”; Lewis, Blanchet, Morrice speeches"
+     ],
+     "limits": [
+      "Single source; no second outlet was checked for this story."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/ca-dinner.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Mark Carney with Ursula von der Leyen and António Costa in front of an EU–Canada Summit backdrop in Brussels",
+    "caption": "Mark Carney with EU leaders Ursula von der Leyen and António Costa at the EU–Canada summit in Brussels, June 2025.",
+    "credit": "Dati Bendo / European Union",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Mark_Carney_at_the_20th_EU-Canada_Summit_-_2025_-_P067331-112531.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "hk-ec",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-23T01:12",
+   "dateLabel": "Nov 22–23, 2026",
+   "headline": "Record 98.8% turnout in Hong Kong’s small-circle Election Committee race, with surprise losses for some establishment figures; Beijing hails “healthy competition”",
+   "deck": "Only 5,709 people were eligible to vote on Sunday, Nov. 22, for the body that will choose Hong Kong’s next chief executive; 5,640 cast ballots, officials said.",
+   "summary": "Only 5,709 people were eligible to vote on Sunday, Nov. 22, for the body that will choose Hong Kong’s next chief executive; 5,640 cast ballots, officials said, for 723 contested seats across 31 subsectors, with 856 candidates. Hong Kong has about 4.1 million registered voters overall. Together with uncontested, ex-officio and designated seats, the winners form the 1,500-member Election Committee, which will pick the chief executive next year and elect 40 of the 90 lawmakers in 2029. Winners included former justice secretary Rimsky Yuen, Richard Li and Daryl Ng, but Law Society president Roden Tong and General Chamber of Commerce chief executive Patrick Yeung lost, Hong Kong Free Press reported. Chief Executive John Lee called it “healthy competition among patriots”, and on Monday, Nov. 23, Beijing’s Hong Kong and Macao Affairs Office said it showed the “fair competition of the new electoral system”. It was the second such race since Beijing’s 2021 overhaul to ensure only “patriots” govern; critics note much of the former opposition is jailed, in exile or has quit politics.",
+   "why": "This tiny electorate, not the public, decides who leads Hong Kong. Record turnout among a few thousand pre-vetted voters says little about public opinion, but the upsets hint at competition within the pro-Beijing camp ahead of next year’s leadership contest.",
+   "label": "Official figures + Official statement + Reported",
+   "sources": [
+    {
+     "title": "Beijing praises record turnout in Hong Kong Election Committee race",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 23, 2026",
+     "href": "https://hongkongfp.com/2026/11/23/beijing-praises-healthy-competition-as-thousands-vote-in-hong-kong-election-committee-race/"
+    },
+    {
+     "title": "CE congratulates winners of ‘smooth’ EC election",
+     "site": "RTHK (government-funded broadcaster)",
+     "date": "Nov 22, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878849-20261122.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/23/beijing-praises-healthy-competition-as-thousands-vote-in-hong-kong-election-committee-race/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 23, 2026, 1:12 AM ET; updated Nov 23, 2026, 2:25 AM ET",
+     "checkedAt": "2026-11-23T06:28:41-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "5,640 of 5,709 eligible electors voted (98.8%); about 4.1 million registered voters citywide",
+      "856 candidates for 723 seats; 1,500-member committee picks next year’s CE and 40 of 90 lawmakers in 2029",
+      "HKMAO statement; Roden Tong and Patrick Yeung lost; Richard Li, Daryl Ng elected"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878849-20261122.htm",
+     "publisher": "RTHK (government-funded broadcaster)",
+     "published": "Nov 22, 2026, about 10:19 AM ET (RTHK feed time)",
+     "checkedAt": "2026-11-23T06:28:32-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "John Lee: “healthy competition among patriots”",
+      "Rimsky Yuen among winners; turnout 98.79%"
+     ],
+     "limits": [
+      "No machine-readable publication time; RTHK feed time Nov 22, 11:19 PM HKT."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/hk-ec.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Central Government Offices and Legislative Council complex at Admiralty, Hong Kong, seen from Victoria Harbour",
+    "caption": "Hong Kong’s Central Government Offices and Legislative Council complex at Admiralty, pictured in 2024.",
+    "credit": "LN9267",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Central_Government_Offices_and_Legislative_Council_of_the_Hong_Kong_Special_Administrative_Region_19-09-2024.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "hk-interpol",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-23T04:04",
+   "dateLabel": "Nov 23, 2026",
+   "headline": "Hong Kong to ban drones, kites and balloons citywide and close Wan Chai roads for Interpol’s General Assembly",
+   "deck": "Police said the whole of Hong Kong’s airspace becomes a temporary restricted zone from Nov. 30 until 5 p.m. on Dec. 3, when the city hosts Interpol’s annual meeting for the first time.",
+   "summary": "Police said the whole of Hong Kong’s airspace becomes a temporary restricted zone from Nov. 30 until 5 p.m. on Dec. 3, when the city hosts Interpol’s annual meeting for the first time. Unauthorised drones, small aircraft, helicopters, paragliders, kites and “large numbers of balloons” will be barred, though civil flights are unaffected; flying a drone without a permit can bring a HK$100,000 fine and two years in jail. Parts of Victoria Harbour off the Convention and Exhibition Centre in Wan Chai, nearby roads, the waterfront promenade and Golden Bauhinia Square will close, five bus routes will move stops, and the water taxi will skip Wan Chai. About 1,000 delegates from more than 190 countries are expected. It is the third Interpol General Assembly held in China, after Beijing in 1995 and 2017.",
+   "why": "Coming straight after the APEC summit in Shenzhen, it is another big showcase event for Beijing and Hong Kong. For residents and visitors it means traffic jams around Wan Chai and a rare total drone ban across the city.",
+   "label": "Official statement + Reported",
+   "note": "Planned: the restrictions take effect Nov. 30.",
+   "sources": [
+    {
+     "title": "HK to restrict drones, harbour traffic, Wan Chai roads during Interpol summit",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 23, 2026",
+     "href": "https://hongkongfp.com/2026/11/23/hong-kong-to-impose-citywide-drone-ban-harbour-and-road-curbs-for-interpol-general-assembly-next-week/"
+    },
+    {
+     "title": "All drones, choppers to be grounded for Interpol meet",
+     "site": "RTHK (government-funded broadcaster)",
+     "date": "Nov 23, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878914-20261123.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/23/hong-kong-to-impose-citywide-drone-ban-harbour-and-road-curbs-for-interpol-general-assembly-next-week/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 23, 2026, 4:04 AM ET",
+     "checkedAt": "2026-11-23T06:28:42-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "94th Interpol General Assembly Nov 30–Dec 3; entire airspace restricted; civil flights unaffected",
+      "Drone penalty: HK$100,000 and two years’ jail",
+      "First time in Hong Kong; third in China after Beijing 1995 and 2017"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878914-20261123.htm",
+     "publisher": "RTHK (government-funded broadcaster)",
+     "published": "Nov 23, 2026, about 12:33 AM ET (RTHK feed time)",
+     "checkedAt": "2026-11-23T06:28:43-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Ban until 5pm Dec 3; five bus routes relocated; water taxi skips Wan Chai; Golden Bauhinia Square closed",
+      "About 1,000 delegates from more than 190 countries"
+     ],
+     "limits": [
+      "No machine-readable publication time; RTHK feed time Nov 23, 1:33 PM HKT."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/hk-interpol.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Aerial view of the Hong Kong Convention and Exhibition Centre on the Wan Chai waterfront with the Victoria Harbour skyline behind",
+    "caption": "The Hong Kong Convention and Exhibition Centre in Wan Chai, venue of the Interpol assembly, pictured in 2019.",
+    "credit": "Rehman Abubakr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Hong_Kong_Convention_and_Exhibition_Centre.jpg",
+    "isFilePhoto": true,
+    "year": 2019
+   }
+  },
+  {
+   "id": "hk-goldenhorse",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-22T22:08",
+   "dateLabel": "Nov 22, 2026",
+   "headline": "Hong Kong films win big at Taiwan’s Golden Horse Awards, including best film for “We Are Born Good”",
+   "deck": "Yeung Leung-chuen’s drama about an ex-prisoner and a struggling young actress won best narrative feature and best original screenplay in Taipei on Sunday, Nov. 22.",
+   "summary": "Yeung Leung-chuen’s drama about an ex-prisoner and a struggling young actress won best narrative feature and best original screenplay in Taipei on Sunday, Nov. 22. Hong Kong actress Angela Yuen won best leading actress for “Afterpiece”, her first Golden Horse, and singer-actor Anson Kong won best supporting actor for “We’re Nothing at All”. Two films inspired by Hong Kong’s pro-democracy movement also won: the dark comedy short “Three Little Pigs”, whose acceptance speech was dedicated to “every ‘little pig’ who has been or is still in prison”, and the documentary “Scenes from Departure”. Taiwan’s “Double Happiness” won best director (Joseph Hsu) and best actor (Liu Kuan-ting), and actress Shu Qi won best new director for “Girl”. Mainland Chinese stars have largely stayed away since Beijing barred them from the event in 2019.",
+   "why": "Often called the Chinese-language Oscars, the Golden Horses are one of the few top film stages where Hong Kong filmmakers can show politically sensitive work freely. A big night for Hong Kong cinema, especially for its actors, comes as the city’s own industry works under the national security laws.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "‘We Are Born Good’ takes top prize at Golden Horse Awards",
+     "site": "Focus Taiwan (CNA)",
+     "date": "Nov 22, 2026",
+     "href": "https://focustaiwan.tw/culture/202611220016"
+    },
+    {
+     "title": "Hong Kong cinema takes spotlight at Taiwan top film award (AFP)",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 23, 2026",
+     "href": "https://hongkongfp.com/2026/11/23/hong-kong-cinema-takes-spotlight-at-taiwans-golden-horse-film-awards/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://focustaiwan.tw/culture/202611220016",
+     "publisher": "Focus Taiwan (CNA, Taiwan’s state-funded news agency)",
+     "published": "Nov 22, 2026, 10:53 AM ET",
+     "checkedAt": "2026-11-23T06:28:57-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "We Are Born Good: best narrative feature and best original screenplay; director Yeung Leung-chuen; ceremony at Taipei Music Center",
+      "Angela Yuen best leading actress for Afterpiece; Double Happiness best director and actor; Shu Qi best new director"
+     ]
+    },
+    {
+     "url": "https://hongkongfp.com/2026/11/23/hong-kong-cinema-takes-spotlight-at-taiwans-golden-horse-film-awards/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 22, 2026, 10:08 PM ET",
+     "checkedAt": "2026-11-23T06:28:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Three Little Pigs best live action short; Scenes from Departure best documentary feature",
+      "Acceptance speech dedicated to those in prison",
+      "Anson Kong best supporting actor; Beijing banned entertainers from attending in 2019"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/hk-goldenhorse.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Hong Kong actress Angela Yuen with a short dark fringe, smiling, in a shopping centre",
+    "caption": "Actress Angela Yuen in Central, Hong Kong, pictured in 2023.",
+    "credit": "Tombus20032000",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Angela_Yuen_20230810.jpg",
+    "isFilePhoto": true,
+    "year": 2023
+   }
+  },
+  {
+   "id": "hk-taipo",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-23T02:51",
+   "dateLabel": "Nov 22–23, 2026",
+   "headline": "Book launch with migrant survivors of the Tai Po fire is called off a day before it was due, ahead of the disaster’s first anniversary",
+   "deck": "Microlab Collective, a platform for domestic workers and artists hosted by Hong Kong Polytechnic University, cancelled its Sunday, Nov. 22, event at short notice, citing “unforeseen circumstances”.",
+   "summary": "Microlab Collective, a platform for domestic workers and artists hosted by Hong Kong Polytechnic University, cancelled its Sunday, Nov. 22, event at short notice, citing “unforeseen circumstances”. The launch was to share stories from migrant survivors of, and responders to, the Wang Fuk Court fire in Tai Po through storytelling and performances. PolyU told Hong Kong Free Press only that the venue applicant had cancelled the booking. The blaze on Nov. 26, 2025, started in one residential block under renovation, spread to seven others and killed 168 people, including 10 domestic workers. HKFP reported that some organisers of anniversary events appear to have faced pressure: police reportedly questioned two Catholic churches about planned memorial masses. Chief Secretary Eric Chan said on Nov. 20 that the government “definitely allows” legal memorial activities but warned people not to be used by those “with ulterior motives”.",
+   "why": "As the first anniversary approaches on Nov. 26, how Hong Kong lets people grieve in public has become a sensitive political question. Migrant domestic workers were among the victims and are often the least heard; losing this event removes one of the few spaces for their stories.",
+   "label": "Reported + Official statement",
+   "note": "No reason for the cancellation was given by the organisers or the university; any link to official pressure is not established. Single-outlet story (HKFP). Earlier Tai Po fire follow-up (building-safety penalties) was in the Nov 21 edition.",
+   "sources": [
+    {
+     "title": "Tai Po fire: Book launch featuring migrant survivors abruptly cancelled",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 23, 2026",
+     "href": "https://hongkongfp.com/2026/11/23/book-launch-featuring-migrant-survivors-of-deadly-tai-po-fire-abruptly-called-off-ahead-of-anniversary/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/23/book-launch-featuring-migrant-survivors-of-deadly-tai-po-fire-abruptly-called-off-ahead-of-anniversary/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 23, 2026, 2:51 AM ET",
+     "checkedAt": "2026-11-23T06:28:49-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Microlab Collective called off the Sunday event on Saturday citing “unforeseen circumstances”",
+      "PolyU: venue applicant cancelled the booking",
+      "Fire on Nov 26 last year killed 168, including 10 domestic workers",
+      "Churches reportedly questioned by police; Eric Chan’s remarks “last Friday”"
+     ],
+     "limits": [
+      "Single source; no second outlet was checked for the cancellation."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/hk-taipo.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The tall residential towers of Wang Fuk Court in Tai Po rising above green trees",
+    "caption": "Wang Fuk Court in Tai Po, pictured in 2009, years before the fire.",
+    "credit": "WiNG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Wang_Fuk_Court.jpg",
+    "isFilePhoto": true,
+    "year": 2009
+   }
+  },
+  {
+   "id": "hk-sauce",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-22T18:58",
+   "dateLabel": "Nov 22–23, 2026",
+   "headline": "A 90-year-old Hong Kong saucemaker prepares to close after its New Territories factory was cleared for the Northern Metropolis",
+   "deck": "Kui Lee Sauce and Preserved Fruit is selling off its last stock at its Causeway Bay shop after its Kwu Tung factory was cleared in October to make way for the megaproject.",
+   "summary": "Kui Lee Sauce and Preserved Fruit is selling off its last stock at its Causeway Bay shop after its Kwu Tung factory was cleared in October to make way for the megaproject. Run by three generations of the Chan family, the brewer is known for locally made dark soy sauce, black vinegar and sweet soybean paste, made with traditional open-air fermentation under the sun. Its site lies in the 447-hectare Kwu Tung North development area, planned for housing, commercial space and a new MTR station within the Northern Metropolis, which aims to turn about a third of Hong Kong’s land into a tech hub closer to the mainland. Neighbouring Yuet Wo Soy Sauce is looking for space in a Tsuen Wan industrial building, and Koon Chun expects its move to take about a decade. Customers stocking up near Goose Neck Bridge told Hong Kong Free Press they did not know where they would find such sauces once the shop closes.",
+   "why": "The Northern Metropolis is Hong Kong’s biggest development plan, sold as the city’s economic future. Stories like this show the cost on the ground: small heritage businesses and village life that cannot simply be moved into an industrial building.",
+   "label": "Reported",
+   "note": "Single-outlet photo feature (HKFP); no closing date was given.",
+   "sources": [
+    {
+     "title": "In Pictures: Historic HK saucemaker to close after Northern Metropolis clearance",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 23, 2026",
+     "href": "https://hongkongfp.com/2026/11/23/hkfp-lens-time-honoured-hong-kong-saucemaker-to-close-ceding-land-to-northern-metropolis-megaproject/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/23/hkfp-lens-time-honoured-hong-kong-saucemaker-to-close-ceding-land-to-northern-metropolis-megaproject/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 22, 2026, 6:58 PM ET; updated Nov 22, 2026, 10:22 PM ET",
+     "checkedAt": "2026-11-23T06:28:49-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "90-year-old Kui Lee to close its Causeway Bay store after its Kwu Tung factory was cleared",
+      "Kwu Tung North NDA 447 hectares; Northern Metropolis about 300 sq km",
+      "Yuet Wo seeking Tsuen Wan site; Koon Chun move about a decade"
+     ],
+     "limits": [
+      "Single source."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/hk-sauce.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A row of small “villain hitting” stalls with red signs and stools under a flyover in Causeway Bay, with people gathered",
+    "caption": "“Villain hitting” stalls under Goose Neck Bridge (the Canal Road Flyover) in Causeway Bay, near the shop, pictured in 2024.",
+    "credit": "Evancyk",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:%22Villain_hitting%22_ceremony_in_Hong_Kong.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "cn-spy",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-23T02:34",
+   "dateLabel": "Nov 23, 2026",
+   "headline": "China says it sentenced a ministry official to death for selling more than 100 intelligence reports to a foreign spy agency",
+   "deck": "A WeChat account linked to China’s state-secrets watchdog said an official surnamed Ma was recruited while posted abroad and paid more than 1 million yuan.",
+   "summary": "A WeChat account linked to China’s state-secrets watchdog said an official surnamed Ma was recruited while posted abroad and paid more than 1 million yuan. According to the post on Monday, Nov. 23, on the Baomiguan account, Ma befriended a foreign intelligence officer who first asked about Chinese institutions abroad, then was introduced to a second officer who threatened to report his past wrongdoing unless he cooperated. He signed a cooperation document, received a monthly payment and a dedicated laptop, and kept passing classified material after returning to China, collecting documents at work by day and sending them at night. He was sentenced to death for espionage, stripped of political rights for life and had his property confiscated. The post did not name his ministry, the foreign country, the court or when the case took place.",
+   "why": "Beijing increasingly publicises spy cases as warnings to its huge bureaucracy, and a death sentence is meant to be noticed. The vagueness is typical: without the ministry, court or country, the case cannot be checked independently, but it signals how seriously China is treating foreign intelligence work as tensions with the West continue.",
+   "label": "Official statement + Reported",
+   "note": "The case details come only from an official Chinese secrecy-education account, as reported by Singapore outlets; they cannot be independently verified.",
+   "sources": [
+    {
+     "title": "China sentences official to death for spying for foreign power",
+     "site": "The Straits Times",
+     "date": "Nov 23, 2026",
+     "href": "https://www.straitstimes.com/asia/east-asia/china-sentences-official-to-death-for-spying-for-foreign-power"
+    },
+    {
+     "title": "Chinese ministry official sentenced to death for supplying over 100 intelligence reports overseas",
+     "site": "Lianhe Zaobao",
+     "date": "Nov 23, 2026",
+     "href": "https://www.zaobao.com.sg/en/news/china/chinese-ministry-official-sentenced-death-supplying-over-100-intelligence-reports-overseas"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.straitstimes.com/asia/east-asia/china-sentences-official-to-death-for-spying-for-foreign-power",
+     "publisher": "The Straits Times",
+     "published": "Nov 23, 2026, 2:34 AM ET",
+     "checkedAt": "2026-11-23T06:29:36-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Official surnamed Ma sentenced to death for espionage; post on Nov 23 on Baomiguan, linked to the National Administration of State Secret Protection",
+      "Paid more than 1 million yuan; dedicated laptop; agency, date and rank not disclosed"
+     ],
+     "limits": [
+      "The page carries an AI-generated summary box; only the article text was relied on."
+     ]
+    },
+    {
+     "url": "https://www.zaobao.com.sg/en/news/china/chinese-ministry-official-sentenced-death-supplying-over-100-intelligence-reports-overseas",
+     "publisher": "Lianhe Zaobao",
+     "published": "Nov 23, 2026, 2:12 AM ET",
+     "checkedAt": "2026-11-23T06:29:37-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "More than 100 intelligence reports; recruited while posted abroad; continued after returning to China",
+      "Officers named Kailin and Tang Zheng; threat to report past illegal activities; monthly payment"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-fcc",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-22T03:47",
+   "dateLabel": "Nov 19–22, 2026",
+   "headline": "Beijing demands the U.S. revoke an FCC rule barring China’s big three carriers from direct access to American phone numbers",
+   "deck": "China’s Commerce Ministry said on Sunday, Nov. 22, the U.S. regulator had “overstretched the concept of national security” and that China would take “necessary measures”.",
+   "summary": "China’s Commerce Ministry said on Sunday, Nov. 22, the U.S. regulator had “overstretched the concept of national security” and that China would take “necessary measures”. The Federal Communications Commission voted on Thursday, Nov. 19, hours after Donald Trump’s talks with Xi Jinping at the APEC summit in Shenzhen, to bar China Mobile, China Telecom, China Unicom and other providers on its national-security “covered list” from getting U.S. phone numbers directly for internet-based calling services. The FCC said the rules add security certifications and help fight scam robocalls. A ministry spokesperson said the move breaks the “important consensus” reached by the two presidents and undermines stable trade ties, according to Xinhua as carried by RTHK. The FCC had already barred the three state-owned carriers from providing international telecom services in the U.S. several years ago.",
+   "why": "Days after a summit meant to steady U.S.–China relations, the tech decoupling keeps going at the regulatory level. Each such step, on phone numbers, equipment or data centres, invites a Chinese response, and the warning of “necessary measures” suggests Beijing may retaliate.",
+   "label": "Official statement + State media + Reported",
+   "note": "China’s response is from Xinhua (state media) as carried by RTHK. Background on the FCC vote is from Light Reading’s Nov. 20 report.",
+   "sources": [
+    {
+     "title": "China slams US curbs on phone numbers access (Xinhua/AFP)",
+     "site": "RTHK (government-funded broadcaster)",
+     "date": "Nov 22, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1878787-20261122.htm"
+    },
+    {
+     "title": "FCC blocks Chinese telcos from direct access to US phone numbers",
+     "site": "Light Reading",
+     "date": "Nov 20, 2026",
+     "href": "https://www.lightreading.com/regulatory-politics/fcc-tightens-grip-on-chinese-telcos-blocks-direct-access-to-us-phone-numbers"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1878787-20261122.htm",
+     "publisher": "RTHK (government-funded broadcaster)",
+     "published": "Nov 22, 2026, about 3:47 AM ET (RTHK feed time)",
+     "checkedAt": "2026-11-23T06:29:00-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Commerce Ministry called on the U.S. on Sunday to revoke the restrictions; “overstretched the concept of national security”",
+      "Runs counter to the consensus of the two heads of state; China will take necessary measures"
+     ],
+     "limits": [
+      "Based on Xinhua (state media); no machine-readable publication time; RTHK feed time Nov 22, 4:47 PM HKT."
+     ]
+    },
+    {
+     "url": "https://www.lightreading.com/regulatory-politics/fcc-tightens-grip-on-chinese-telcos-blocks-direct-access-to-us-phone-numbers",
+     "publisher": "Light Reading",
+     "published": "Nov 20, 2026, 9:06 AM ET; updated Nov 21, 2026, 3:50 AM ET",
+     "checkedAt": "2026-11-23T06:29:39-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "FCC voted Thursday to bar China Mobile, China Telecom, China Unicom and other covered providers from direct access to U.S. numbers",
+      "Hours after Trump–Xi talks in Shenzhen; robocall and security rationale; earlier ban on international services"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-byd",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-22T10:43",
+   "dateLabel": "Ruling Nov 20; reported Nov 22, 2026",
+   "headline": "Dutch court bars BYD from selling its Ti7 SUV in the EU, ruling it copies Land Rover Defender design",
+   "deck": "A preliminary-relief judge at the district court in The Hague found the Chinese carmaker’s seven-seat plug-in hybrid infringes Jaguar Land Rover’s EU design rights.",
+   "summary": "A preliminary-relief judge at the district court in The Hague found the Chinese carmaker’s seven-seat plug-in hybrid infringes Jaguar Land Rover’s EU design rights. “The characteristic and distinctive elements of the design are reflected in the BYD Ti7,” the ruling said. The ban takes effect one week after Friday’s ruling, the Guardian reported, though the court noted BYD has no concrete plans to sell the Ti7 in the EU and said it had no jurisdiction over the UK, where the SUV is on sale for £47,995, more than £20,000 cheaper than a Defender, with deliveries due from January 2027. JLR, owned by India’s Tata Motors, said legal proceedings are ongoing. The Ti7 has been sold in China since September 2025 and was nicknamed the “Chinese Defender clone” by Top Gear magazine.",
+   "why": "Chinese carmakers are expanding fast in Europe, and design-copying cases are one of the ways established brands push back. A ruling in the EU’s courts gives JLR leverage, but with the car still on sale in Britain the fight is far from over.",
+   "label": "Reported",
+   "note": "Summary proceedings; not a final judgment. Single-outlet story (the Guardian); BYD’s response was not in the article.",
+   "sources": [
+    {
+     "title": "Court bans China’s BYD from selling ‘Defender clone’ SUV in EU",
+     "site": "The Guardian",
+     "date": "Nov 22, 2026",
+     "href": "https://www.theguardian.com/business/2026/nov/22/court-bans-china-byd-selling-defender-clone-suv-in-eu"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/business/2026/nov/22/court-bans-china-byd-selling-defender-clone-suv-in-eu",
+     "publisher": "The Guardian",
+     "published": "Nov 22, 2026, 10:43 AM ET; updated Nov 22, 2026, 9:30 PM ET",
+     "checkedAt": "2026-11-23T06:28:59-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Hague district court preliminary relief judge: Ti7 infringes JLR’s EU design",
+      "Ban effective one week after Friday’s ruling; no jurisdiction over UK",
+      "UK price £47,995, deliveries from January 2027; JLR statement"
+     ],
+     "limits": [
+      "Single source."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/cn-byd.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A grey boxy Fangchengbao Ti7 SUV with a green Chinese number plate in a car park",
+    "caption": "A Ti7 SUV from BYD’s Fangchengbao brand in China; the photographer’s camera dates the picture to Nov. 20, 2026.",
+    "credit": "JustAnotherCarDesigner",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Fangchengbao_Ti7_011.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "cn-nvidia",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-22T06:00",
+   "dateLabel": "Nov 21–22, 2026 (California subpoena covered Nov 21)",
+   "headline": "SEC reportedly opens an early-stage inquiry into Nvidia’s accounting as scrutiny grows over chip sales linked to China",
+   "deck": "U.S. securities regulators are investigating Nvidia’s accounting practices, The New York Times reported on Saturday, Nov. 21, citing people briefed on the confidential inquiry, according to AFP.",
+   "summary": "U.S. securities regulators are investigating Nvidia’s accounting practices, The New York Times reported on Saturday, Nov. 21, citing people briefed on the confidential inquiry, according to AFP. The precise focus is unclear and the probe could end without charges. Questions have grown over Nvidia’s dealings with Megaspeed, a Singapore-based company investigated by U.S. authorities over suspected shipments of restricted AI chips to China, and over a change in how Nvidia reported sales by region that removed Singapore from its breakdown. Chief executive Jensen Huang resigned earlier this month after revelations of extramarital affairs, including with a former Megaspeed executive suspected by U.S. intelligence of working for Beijing; China denies the espionage claims and Megaspeed says it operates lawfully. Commerce Secretary Howard Lutnick is now facing bipartisan calls to resign over his role, the Guardian reported, while President Trump gave him a vote of confidence on Friday. Nvidia shares fell 14% on Friday.",
+   "why": "Nvidia’s chips are at the centre of the U.S.–China tech race, so any sign that restricted chips reached China through a third country goes well beyond one company. With Democrats taking over Congress in January, expect hearings on export controls and on who in Washington knew what.",
+   "label": "Reported + Unnamed sources + Allegation",
+   "note": "The SEC inquiry is reported from unnamed sources; the SEC and Nvidia comments were not in the articles checked. The espionage suspicion is an allegation that China denies.",
+   "sources": [
+    {
+     "title": "Nvidia faces US accounting probe amid deepening turmoil: media (AFP)",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 22, 2026",
+     "href": "https://hongkongfp.com/2026/11/22/nvidia-faces-us-accounting-probe-amid-deepening-turmoil-media/"
+    },
+    {
+     "title": "Howard Lutnick has been Trump’s ally for decades. His ties to Nvidia may spell his downfall",
+     "site": "The Guardian",
+     "date": "Nov 22, 2026",
+     "href": "https://www.theguardian.com/us-news/2026/nov/22/howard-lutnick-nvidia-china"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/22/nvidia-faces-us-accounting-probe-amid-deepening-turmoil-media/",
+     "publisher": "Hong Kong Free Press (AFP)",
+     "published": "Nov 22, 2026, 1:18 AM ET",
+     "checkedAt": "2026-11-23T06:28:59-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "NYT reported Saturday an early-stage confidential SEC inquiry; WSJ reported earlier",
+      "Megaspeed links; regional reporting change removed Singapore",
+      "Huang resigned; Kress interim CEO; shares fell 14% Friday; China denies espionage allegations"
+     ],
+     "limits": [
+      "The New York Times and Wall Street Journal originals were not opened (paywalled); relied on AFP’s account."
+     ]
+    },
+    {
+     "url": "https://www.theguardian.com/us-news/2026/nov/22/howard-lutnick-nvidia-china",
+     "publisher": "The Guardian",
+     "published": "Nov 22, 2026, 6:00 AM ET",
+     "checkedAt": "2026-11-23T06:29:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Lutnick resisting calls to resign amid bipartisan outcry over Nvidia and chip sales to China",
+      "Trump vote of confidence on Friday; Democrats vow investigations"
+     ],
+     "limits": [
+      "Analysis-style article."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/cn-nvidia.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Nvidia’s headquarters building in Santa Clara, California, with a low curved roof and landscaped grounds",
+    "caption": "Nvidia’s headquarters in Santa Clara, California, pictured in 2018.",
+    "credit": "Coolcaesar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "w-libya",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-23T04:47",
+   "dateLabel": "Nov 22–23, 2026",
+   "headline": "Zelensky says Ukrainian sea drones sank a Russian warship at a port in Libya; Russia has not commented",
+   "deck": "Ukraine’s president said seven naval drones sank the Russian corvette Merkury at Benghazi’s naval base on Sunday, Nov. 22, and also hit a Russian cargo ship off the Libyan coast.",
+   "summary": "Ukraine’s president said seven naval drones sank the Russian corvette Merkury at Benghazi’s naval base on Sunday, Nov. 22, and also hit a Russian cargo ship off the Libyan coast. In a statement on Monday, Nov. 23, Volodymyr Zelensky called it “an exemplary Ukrainian operation in response to Russia’s war”, saying a Ka-27 helicopter was also destroyed and that the cargo ship, the Angara, carried weapons. Authorities in eastern Libya said the warship had stopped to refuel on its way back to Russia. The BBC said satellite images from Vantor showed the corvette capsized with only its bow visible; Libya’s eastern health ministry said crew from the cargo ship had been rescued. The UN mission in Libya called for an independent investigation, and eastern Libyan commander Saddam Haftar rejected the use of Libyan territory “as an arena for settling scores”. Moscow had not commented, the BBC and Al Jazeera reported. Separately, Russian strikes on the Kyiv region killed at least 15 people overnight into Nov. 23, including 11 in a partly collapsed apartment block in Dymer, according to Ukrainian officials quoted by Al Jazeera.",
+   "why": "If confirmed, this would be one of Ukraine’s longest-range strikes yet, carried out in the Mediterranean, far from the Black Sea. It shows Kyiv is willing to hit Russian military assets wherever they operate, and it drags Libya, already split between rival governments, further into a war it has no part in. It came a day after a Russia-bound cargo ship was hit in the Gulf of Finland.",
+   "label": "Claim + Reported + Official statement",
+   "note": "The sinking and the weapons cargo are Zelensky’s claims; the BBC’s satellite and video checks support a ship being badly damaged and capsized at Benghazi. Russia’s side was not available. Casualty figures for the Kyiv-region strikes were still rising when sources were checked.",
+   "sources": [
+    {
+     "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+     "site": "BBC News",
+     "date": "Nov 22–23, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
+    },
+    {
+     "title": "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
+     "site": "Al Jazeera",
+     "date": "Nov 23, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya"
+    },
+    {
+     "title": "Zelenskyy confirms Ukraine was behind attack that sank Russian warship off Libya (AP)",
+     "site": "CBC News",
+     "date": "Nov 23, 2026",
+     "href": "https://www.cbc.ca/news/world/ukraine-behind-attack-that-sank-russian-warship-off-libya-9.7432215"
+    },
+    {
+     "title": "At least 15 killed in Ukraine’s Kyiv region as Russia intensifies attacks",
+     "site": "Al Jazeera",
+     "date": "Nov 23, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/23/death-toll-rises-after-deadly-russian-attacks-on-ukraine"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo",
+     "publisher": "BBC News",
+     "published": "Nov 22, 2026, 10:50 AM ET; updated Nov 23, 2026, 3:36 AM ET",
+     "checkedAt": "2026-11-23T06:29:49-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Zelensky: seven naval drones sank the corvette Merkury; Ka-27 helicopter destroyed; second ship MV Angara",
+      "Eastern Libyan government reported an explosion at Benghazi naval base while the ship refuelled",
+      "Vantor imagery shows the corvette capsized; Moscow has not commented",
+      "UNSMIL called for an independent investigation; Sparta II hit in the Gulf of Finland the day before"
+     ]
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya",
+     "publisher": "Al Jazeera",
+     "published": "Nov 23, 2026, 2:37 AM ET; updated Nov 23, 2026, 5:24 AM ET",
+     "checkedAt": "2026-11-23T06:30:01-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Zelensky statement Monday; cargo ship crew rescued per eastern health ministry",
+      "Saddam Haftar quote rejecting Libya as “an arena for settling scores”",
+      "No official Russian comment"
+     ]
+    },
+    {
+     "url": "https://www.cbc.ca/news/world/ukraine-behind-attack-that-sank-russian-warship-off-libya-9.7432215",
+     "publisher": "CBC News (AP)",
+     "published": "Nov 23, 2026, 4:47 AM ET",
+     "checkedAt": "2026-11-23T06:30:01-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Zelensky said on X that seven domestically made naval drones were used; ship commissioned in 2023",
+      "Two Libyan officials: corvette severely damaged at Benghazi Naval Base"
+     ]
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/23/death-toll-rises-after-deadly-russian-attacks-on-ukraine",
+     "publisher": "Al Jazeera",
+     "published": "Nov 23, 2026, 4:34 AM ET; updated Nov 23, 2026, 5:16 AM ET",
+     "checkedAt": "2026-11-23T06:30:03-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "At least 15 killed in the Kyiv region; 11 in Dymer apartment block; 3 in a Vyshneve supermarket"
+     ],
+     "limits": [
+      "Death toll was still being updated."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/w-libya.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Cranes and cargo ships at the port of Benghazi, Libya, seen across calm water",
+    "caption": "The port of Benghazi, Libya, pictured in 2023.",
+    "credit": "Salema younus",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Port_of_Benghazi_1.jpg",
+    "isFilePhoto": true,
+    "year": 2023
+   }
+  },
+  {
+   "id": "w-kenya",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-23T03:53",
+   "dateLabel": "Nov 22, 2026",
+   "headline": "Kenya and DR Congo agree to restore full diplomatic ties after a three-year rift over eastern Congo’s rebels",
+   "deck": "Presidents William Ruto and Félix Tshisekedi agreed on Sunday, Nov. 22, to return ambassadors and restore full relations, at a summit in Oyo, Republic of the Congo.",
+   "summary": "Presidents William Ruto and Félix Tshisekedi agreed on Sunday, Nov. 22, to return ambassadors and restore full relations, at a summit in Oyo, Republic of the Congo, hosted by President Denis Sassou Nguesso with Togo’s Faure Gnassingbé as mediator. Ties soured in 2023, when DR Congo accused Kenya of hosting the launch of a rebel alliance that includes M23, recalled its envoy and later refused to accredit Kenya’s ambassador. Tensions grew after Kenya named a consul-general to M23-held Goma and hosted Congolese opposition figures, including former President Joseph Kabila, in October 2025. According to statements from both leaders, they agreed to restore ambassador-level representation, revive a joint cooperation commission and respect each other’s sovereignty and non-interference, and to work together on trade, security and the Ebola outbreak. The BBC noted that more than 5,700 people have died of Ebola in DR Congo since May.",
+   "why": "Kenya is East Africa’s diplomatic and trade hub, and DR Congo’s war in the east has strained the whole region. Restoring ambassadors does not end the fighting, which the WHO says is disrupting the Ebola response, but it removes one quarrel that had blocked regional mediation.",
+   "label": "Official statement + Reported",
+   "note": "The agreement terms come from the two presidents’ own statements as reported by the BBC and Xinhua (Chinese state media). No timetable for returning ambassadors was given.",
+   "sources": [
+    {
+     "title": "Kenya and DR Congo agree to restore ties after tensions over conflict",
+     "site": "BBC News",
+     "date": "Nov 23, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro"
+    },
+    {
+     "title": "Kenya, DR Congo agree to fully restore diplomatic ties",
+     "site": "Xinhua (state media)",
+     "date": "Nov 22–23, 2026",
+     "href": "https://english.news.cn/africa/20261123/395007b12bf34324bd7465e1d96ad176/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro",
+     "publisher": "BBC News",
+     "published": "Nov 23, 2026, 3:53 AM ET",
+     "checkedAt": "2026-11-23T06:29:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Ruto and Tshisekedi agreed to restore full diplomatic ties at Oyo summit; Sassou Nguesso host, Gnassingbé mediator",
+      "Background: 2023 AFC/M23 launch in Nairobi; Goma consul-general; Kabila meeting October 2025",
+      "Ebola: more than 5,700 deaths in DR Congo since May"
+     ]
+    },
+    {
+     "url": "https://english.news.cn/africa/20261123/395007b12bf34324bd7465e1d96ad176/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 22, 2026 dateline (URL dated Nov 23)",
+     "checkedAt": "2026-11-23T06:30:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Ruto on X: restore ambassador-level representation, resume Joint Grand Commission",
+      "DRC presidency: return of respective ambassadors"
+     ],
+     "limits": [
+      "Chinese state media; used only for the leaders’ published statements. No machine-readable publication time; dateline Nov 22."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/w-kenya.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Kenyan President William Ruto speaking at a podium in front of an African Chiefs of Defense Conference 2025 backdrop, with officers in the foreground",
+    "caption": "Kenyan President William Ruto speaking at the African Chiefs of Defense Conference in Nairobi, May 2025 (U.S. military photo).",
+    "credit": "Senior Airman Julia Ahaesy",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kenyan_President_gives_remarks_during_the_African_Chiefs_of_Defense_Conference_2025_(9069041).jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kenyan_President_gives_remarks_during_the_African_Chiefs_of_Defense_Conference_2025_(9069041).jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "w-korea",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-22T06:17",
+   "dateLabel": "Nov 22, 2026",
+   "headline": "South Korea’s education minister resigns after chaotic anti-AI-cheating measures at the national college entrance exam",
+   "deck": "Choi Kyo-jin stepped down on Sunday, Nov. 22, taking responsibility for last-minute rules meant to stop AI-assisted cheating on the Suneung, sat by about 500,000 students.",
+   "summary": "Choi Kyo-jin stepped down on Sunday, Nov. 22, taking responsibility for last-minute rules meant to stop AI-assisted cheating on the Suneung, sat by about 500,000 students on Thursday, Nov. 19. The measures followed a confession by the top scorer in April’s national tax accountancy exam, who said he photographed questions with a micro-camera, sent them to an AI tool and checked answers on his phone. On exam day, the government sent three nationwide emergency alerts that made phones across the country sound at once, candidates had to cover shirt buttons that could hide cameras, and glasses were inspected; the ministry said 111 candidates were found with unauthorised smart devices. “I believe I cannot escape criticism that we failed to prepare in advance,” Choi said. President Lee Jae Myung accepted the resignation about an hour later and told Prime Minister Han Seong-sook to oversee follow-up measures, Yonhap reported.",
+   "why": "For millions of young Koreans the Suneung shapes university and career chances, so trust in it is a national issue. The episode shows how cheap AI tools plus tiny cameras are forcing exam systems everywhere to rethink security, and how heavy-handed fixes can punish honest students too.",
+   "label": "Reported + Official statement",
+   "sources": [
+    {
+     "title": "South Korea education minister resigns over exam cheating scandal",
+     "site": "BBC News",
+     "date": "Nov 22, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no"
+    },
+    {
+     "title": "(2nd LD) Education minister resigns over college exam chaos amid AI cheating fears",
+     "site": "Yonhap News Agency",
+     "date": "Nov 22, 2026",
+     "href": "https://en.yna.co.kr/view/AEN20261122001052315"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no",
+     "publisher": "BBC News",
+     "published": "Nov 22, 2026, 4:20 AM ET",
+     "checkedAt": "2026-11-23T06:29:51-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Choi resigned over confusion from last-minute anti-AI-cheating measures",
+      "Tax exam top scorer admitted micro-camera and AI cheating",
+      "Three nationwide alerts on exam day; 111 candidates found with unauthorised devices; about 500,000 test takers"
+     ]
+    },
+    {
+     "url": "https://en.yna.co.kr/view/AEN20261122001052315",
+     "publisher": "Yonhap News Agency",
+     "published": "Nov 22, 2026, 6:17 AM ET",
+     "checkedAt": "2026-11-23T06:30:16-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Lee accepted the resignation about an hour after Choi announced it",
+      "Lee instructed PM Han Seong-sook to take responsibility for follow-up measures"
+     ],
+     "limits": [
+      "Yonhap is South Korea’s main news agency, partly publicly funded."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/w-korea.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Students walking out of a high school gate in Seoul after the college entrance exam on an autumn afternoon",
+    "caption": "Students leave an exam site at Puhung High School after the Suneung college entrance exam in November 2017.",
+    "credit": "고려",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Students_returning_from_the_exam_location_(Puhung_High_School)_after_taking_South_Korea_College_Scholastic_Ability_Test,_2018.jpg",
+    "isFilePhoto": true,
+    "year": 2017
+   }
+  },
+  {
+   "id": "w-alcaraz",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-23T01:15",
+   "dateLabel": "Nov 22, 2026",
+   "headline": "Carlos Alcaraz beats world No. 1 Alexander Zverev to win his first ATP Finals title",
+   "deck": "The 23-year-old Spaniard won 6-2, 7-6 (7) on Sunday, Nov. 22, becoming only the fourth man with a career Grand Slam and an ATP Finals trophy.",
+   "summary": "The 23-year-old Spaniard won 6-2, 7-6 (7) on Sunday, Nov. 22, becoming only the fourth man with a career Grand Slam and an ATP Finals trophy, after Andre Agassi, Roger Federer and Novak Djokovic. Alcaraz saved three set points in the second-set tiebreak and finished the season on a 14-match winning streak, having also won in Vienna and Paris, despite missing about four and a half months mid-year with a wrist injury and playing the week with a strapped hamstring. Zverev, who won his first two Grand Slam titles this year and reached No. 1 this month, had not dropped a set before the final. “This trophy is something I have been chasing for a really long time,” Alcaraz said. CBC reported his winner’s cheque at almost $5.2 million US.",
+   "why": "The season-ending event was the one big title missing from Alcaraz’s record. Beating the new world No. 1 so clearly, while carrying injuries, sets up 2027 as a fight over who really leads men’s tennis, with Jannik Sinner returning from a knee injury.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Alcaraz joins an elite club by adding ATP Finals trophy to his career Grand Slam (AP)",
+     "site": "CBC Sports",
+     "date": "Nov 22, 2026",
+     "href": "https://www.cbc.ca/sports/tennis/atp-finals-alcaraz-2026-9.7431995"
+    },
+    {
+     "title": "Alcaraz storms past world number one Zverev to win maiden ATP Finals title",
+     "site": "Al Jazeera",
+     "date": "Nov 23, 2026",
+     "href": "https://www.aljazeera.com/sports/2026/11/23/carlos-alcaraz-atp-finals-2026-title-alexander-zverev-tennis"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/sports/tennis/atp-finals-alcaraz-2026-9.7431995",
+     "publisher": "CBC Sports (AP)",
+     "published": "Nov 22, 2026, 2:44 PM ET",
+     "checkedAt": "2026-11-23T06:30:02-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Alcaraz beat Zverev 6-2, 7-6 (7); fourth man with career Grand Slam and ATP Finals (Agassi, Federer, Djokovic)",
+      "14-match winning streak; titles in Vienna and Paris; hamstring strapping; almost $5.2 million US",
+      "Sinner ended his season early with a knee injury"
+     ]
+    },
+    {
+     "url": "https://www.aljazeera.com/sports/2026/11/23/carlos-alcaraz-atp-finals-2026-title-alexander-zverev-tennis",
+     "publisher": "Al Jazeera",
+     "published": "Nov 23, 2026, 1:15 AM ET",
+     "checkedAt": "2026-11-23T06:30:02-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 23 2026",
+     "claimsSupported": [
+      "Saved three set points in the tiebreak (9-7)",
+      "Zverev won first two Grand Slams this year; had not dropped a set before the final",
+      "Alcaraz quote on chasing the trophy"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-23-am/w-alcaraz.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Carlos Alcaraz in a striped shirt and wristband walking on a clay court",
+    "caption": "Carlos Alcaraz at the French Open in Paris, May 2025.",
+    "credit": "Like tears in rain",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Damir_D%C5%BEumhur_vs_Carlos_Alcaraz,_2025_Roland_Garros,_2025-05-30_(661).jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  }
+ ]
+}

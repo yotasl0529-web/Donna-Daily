@@ -1,0 +1,307 @@
+{
+ "edition": "2026-11-23-am",
+ "ranAt": "2026-11-23T06:40:38-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/cop31-talks-collapse-fossil-fuel-9.7431847",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878954-20261123.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.wral.com/news/nccapitol/virginia-foxx-concedes-november-2026/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:38-05:00"
+  },
+  {
+   "url": "https://ncnewsline.com/2026/11/22/virginia-foxx-concedes-congressional-seat-in-ncs-closely-watched-5th-congressional-district/",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-23T06:40:38-05:00"
+  },
+  {
+   "url": "https://www.seattletimes.com/seattle-news/law-justice/at-least-one-passenger-detained-while-boarding-alaska-flight-at-sea-tac/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cmwy479wz91no",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://abcnews.com/US/army-moves-detonation-10000-pounds-lead-azide-wedneday/story?id=138330909",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/23/extremely-concerning-inside-a-us-army-plan-to-detonate-iowa-lead-stores",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/baseball/mlb/tarik-skubal-new-york-mets-free-agency-9.7432063",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.mlb.com/news/tarik-skubal-mets-contract",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/23/nx-s1-6044207/thanksgiving-meal-costs",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.fb.org/news-release/cost-of-thanksgiving-dinner-increases-remains-below-2022-record-high",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.nhl.com/canadiens/news/canadiens-acquire-forward-dylan-larkin-from-the-detroit-red-wings",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:38-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/montreal/dylan-larkin-montreal-canadiens-9.7432157",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/nova-scotia/becky-druhan-wins-n-s-liberal-leadership-becomes-first-woman-to-lead-party-9.7431358",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://globalnews.ca/news/12161081/becky-durhan-nova-scotia-liberals/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/bill-c-22-lawful-access-privacy-senate-9.7430455",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/health/daily-cannabis-use-higher-alcohol-cigarettes-9.7430174",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.cmaj.ca/content/198/41/E1547",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-23T06:40:38-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/carney-press-gallery-dinner-9.7432138",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/23/beijing-praises-healthy-competition-as-thousands-vote-in-hong-kong-election-committee-race/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878849-20261122.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:40-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/23/hong-kong-to-impose-citywide-drone-ban-harbour-and-road-curbs-for-interpol-general-assembly-next-week/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878914-20261123.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://focustaiwan.tw/culture/202611220016",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/23/hong-kong-cinema-takes-spotlight-at-taiwans-golden-horse-film-awards/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/23/book-launch-featuring-migrant-survivors-of-deadly-tai-po-fire-abruptly-called-off-ahead-of-anniversary/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/23/hkfp-lens-time-honoured-hong-kong-saucemaker-to-close-ceding-land-to-northern-metropolis-megaproject/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.straitstimes.com/asia/east-asia/china-sentences-official-to-death-for-spying-for-foreign-power",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.zaobao.com.sg/en/news/china/chinese-ministry-official-sentenced-death-supplying-over-100-intelligence-reports-overseas",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878787-20261122.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.lightreading.com/regulatory-politics/fcc-tightens-grip-on-chinese-telcos-blocks-direct-access-to-us-phone-numbers",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:38-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/business/2026/nov/22/court-bans-china-byd-selling-defender-clone-suv-in-eu",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:38-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/22/nvidia-faces-us-accounting-probe-amid-deepening-turmoil-media/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/22/howard-lutnick-nvidia-china",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:38-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/ukraine-behind-attack-that-sank-russian-warship-off-libya-9.7432215",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/23/death-toll-rises-after-deadly-russian-attacks-on-ukraine",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:38-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://english.news.cn/africa/20261123/395007b12bf34324bd7465e1d96ad176/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://en.yna.co.kr/view/AEN20261122001052315",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:40-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/tennis/atp-finals-alcaraz-2026-9.7431995",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:39-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/sports/2026/11/23/carlos-alcaraz-atp-finals-2026-title-alexander-zverev-tennis",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-23T06:40:38-05:00"
+  }
+ ]
+}
