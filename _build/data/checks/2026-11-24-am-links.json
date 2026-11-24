@@ -1,0 +1,301 @@
+{
+ "edition": "2026-11-24-am",
+ "ranAt": "2026-11-24T06:33:00-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/business/jensen-huang-reinstated-nvidia-9.7432353",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/technology/2026/nov/24/nvidia-jensen-huang-congress",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-24T06:33:00-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/23/megaspeed-us-trade-blacklist-nvidia",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-24T06:33:00-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/23/iowa-lead-bomb-appeals-court",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-24T06:33:00-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/23/jimmy-gomez-congress-investigation-sexual-misconduct",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-24T06:33:00-05:00"
+  },
+  {
+   "url": "https://www.nyc.gov/mayors-office/news/2026/11/mayor-mamdani-and-lyft-cap-citi-bike-member-e-bike-fares-at--3-6",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://gothamist.com/news/nyc-citi-bike-rides-to-be-capped-at-365-for-members-under-new-deal-with-lyft",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:00-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/23/nyc-ebike-cost-capped-mamdani",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-24T06:33:00-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/soccer/worldcup/womens-world-cup-host-bids-soccer-united-states-england-9.7432482",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/pentagon-criticizes-canadian-military-readiness-9.7433335",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/world/us-politics/article-pentagon-missive-canadian-defence-spending-target/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/alto-expropriation-changes-9.7433464",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.albertaprc.ca/news/news-releases/calgary-police-service-officers-charged-in-connection-with-man-s-death/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:02-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/calgary/jon-wells-blood-tribe-calgary-police-officers-charged-manslaughter-9.7432609",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/london/jackie-dunleavy-murder-case-solved-dna-9.7432089",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/hamilton/brianne-jenner-inaugural-captain-hamilton-havoc-pwhl-9.7432819",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/24/hong-kong-government-rules-out-official-tai-po-fire-memorial-announces-hk630-million-in-new-victim-grants/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:02-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879026-20261124.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:02-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878969-20261123.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:02-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878978-20261123.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:02-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879042-20261124.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:02-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879054-20261124.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:02-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878907-20261123.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:02-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/24/hong-kong-court-orders-activist-eddie-tse-to-pay-govt-legal-fees-over-dropped-san-tin-technopole-challenge/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.channelnewsasia.com/east-asia/china-first-foreign-astronaut-pakistani-national-shenzhou-24-6576981",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:02-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/24/china-to-launch-space-mission-with-first-foreign-astronaut/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879052-20261124.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/business/2026/nov/24/eu-cap-chinese-hybrid-ev-imports-tariff-uk",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-24T06:33:00-05:00"
+  },
+  {
+   "url": "https://live.euronext.com/en/financial-news/eu-sets-limits-hybrid-vehicle-imports-china-and-other-countries",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879073-20261124.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:02-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/24/nx-s1-6042912/drc-congo-mining-china-copper-colbalt-critical-minerals",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:00-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/24/south-korea-tells-island-residents-to-take-shelter-after-russian-military-aircraft-approach",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-24T06:33:00-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/24/why-s-korea-issued-air-raid-alert-after-russian-jets-flew-near-its-airspace",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:00-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/technology/2026/nov/24/social-media-big-tech-fines-global-revenue-australia-digital-duty-care-laws",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-24T06:33:00-05:00"
+  },
+  {
+   "url": "https://www.abc.net.au/news/2026-11-24/federal-politics-labor-makes-deal-greens-on-digital-duty-of-care/107420982",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/24/australia-warns-tech-giants-of-multibillion-dollar-fines-for-online-harm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.channelnewsasia.com/asia/bangladesh-sheikh-hasina-december-return-6576891",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/24/mexico-to-try-el-chapo-isidro-despite-us-extradition-request",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:00-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-24T06:33:00-05:00"
+  },
+  {
+   "url": "https://www.abc.net.au/news/2026-11-23/molly-meldrum-countdown-host-music-industry-icon-dies/3735358",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.abc.net.au/news/2026-11-23/molly-meldrum-dead-tributes-aus-music-champion/107415810",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-24T06:33:01-05:00"
+  }
+ ]
+}
