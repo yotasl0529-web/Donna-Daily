@@ -1,0 +1,265 @@
+{
+ "edition": "2026-11-25-am",
+ "ranAt": "2026-11-25T06:34:25-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/25/china-warns-us-against-imposing-new-tariffs/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/25/nx-s1-6053203/abrego-garcia-leaves-us",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cqg7l5zx4edeo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/25/nx-s1-6037568/100th-macys-thanksgiving-day-parade-balloons",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/24/al-gore-newspaper-tennessee",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/suspected-north-korean-computer-programmers-british-columbia-government-9.7433830",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/defence-canada-us-pentagon-spending-9.7434887",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:26-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/business/bank-canada-governor-tiff-macklem-speech-9.7433693",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.bankofcanada.ca/2026/11/canadas-monetary-policy-framework-a-trusted-anchor-in-uncertain-waters/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/baseball/mlb/kaima-taira-toronto-blue-jays-9.7434493",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:26-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/balsillie-prize-rick-westhead-hockey-culture-9.7435105",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:26-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/25/tai-po-fire-hong-kong-security-chief-defends-police-enquiries-surrounding-memorial-events-citing-sedition-risks/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:27-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/25/hong-kong-govt-response-to-tai-po-fire-reflects-responsibility-and-strong-resolve-beijing-says/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879235-20261125.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:26-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879110-20261124.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:26-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/25/university-of-hong-kong-dean-says-he-may-reconsider-suspension-of-human-rights-in-china-course/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/25/hong-kong-rules-out-government-run-matchmaking-services-amid-low-birth-rate-delayed-marriages/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879226-20261125.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:26-05:00"
+  },
+  {
+   "url": "https://www.universalmusic.ca/2026/10/31/as-the-hong-kong-tour-dates-come-to-an-end-the-weeknd-gifts-fans-the-song-hong-kong-feat-%E7%8E%8B%E8%8F%B2%E5%AD%A3%E5%80%99%E9%A2%A8-a-love-letter-to-the-region/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:26-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/technology/2026/nov/24/huawei-china-convicted-deceiving-banks-stealing-us-trade-secrets",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/25/beijing-slams-us-for-suppressing-chinese-firms-after-huawei-conviction/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:26-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/25/china-investigates-politburo-chen-jining-xi-jinping-purge",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-chen-jining",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879201-20261125.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:26-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/25/pakistan-rejoices-as-countrys-first-astronaut-enters-orbit",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879052-20261124.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:26-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/business/2026/nov/25/chinese-police-wechat-group-hungrypanda-delivery-rider-alleged-murder-melbourne-ntwnfb",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/25/australia-solomon-islands-treaty-blow-to-china-pacific-influence",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://meduza.io/en/feature/2026/11/23/more-than-700-000-russian-troops-died-in-the-war-in-ukraine-by-late-september-2026-meduza-and-mediazona-estimate",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/sport/football/articles/crn80y2l1404o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/25/nx-s1-6053783/africa-cup-senegal-morocco",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://punchng.com/veteran-actor-pete-edochie-dies-at-79/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  },
+  {
+   "url": "https://www.channelstv.com/2026/11/25/enugu-has-lost-an-icon-mbah-mourns-pete-edochie/",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-25T06:34:25-05:00"
+  }
+ ]
+}

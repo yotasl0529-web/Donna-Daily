@@ -1,0 +1,1536 @@
+{
+ "id": "2026-11-25-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-25",
+ "leadId": "cn-huawei",
+ "topIds": [
+  "us-tariffs",
+  "ca-nk",
+  "hk-taipo",
+  "cn-chen",
+  "w-solomon"
+ ],
+ "notes": [
+  "Morning Edition for Wednesday, Nov 25, 2026. Covers news since the Nov 24 morning edition.",
+  "Leading this morning: a Brooklyn jury’s verdict convicting Huawei of stealing U.S. trade secrets, reported plans for new U.S. tariffs on at least 14 trading partners, likely North Korean operatives doing contract coding for British Columbia, Hong Kong’s security chief defending police checks on Tai Po fire memorials, the investigation of Shanghai party chief Chen Jining, and the Solomon Islands’ new security treaty with Australia. Also: Kilmar Ábrego García’s departure for Spain, the planned Iowa lead azide detonation, the 100th Macy’s parade, Al Gore’s newspaper purchase, the Pentagon’s new warning to Canada, the Bank of Canada’s inflation warning, the Blue Jays’ reported deal for Kaima Taira, Rick Westhead’s Balsillie Prize, Hong Kong’s electricity tariff rises, a human rights course at HKU, Hong Kong’s no to official matchmaking, its culture chief’s plan to court overseas stars, the Shenzhou-24 docking, Chinese police calls to a Melbourne WeChat group, Russia’s leaked war-death records, a Cartagena hostage rescue, Senegal’s restored Africa Cup title and the death of Nollywood actor Pete Edochie.",
+  "Updates on earlier stories: the Iowa lead azide detonation (Nov 23 and Nov 24 editions; now set for about 10 a.m. ET Nov 25, with shelter-in-place advisories); the Pentagon’s criticism of Canada (Nov 24; a U.S. official now threatens further measures); the Tai Po fire anniversary (Nov 21, 23 and 24; security chief’s remarks, Beijing’s praise, more rental subsidies); Shenzhou-24 (Nov 24, when the launch was scheduled; it has now launched and docked). The Weeknd’s Faye Wong sample was covered on Nov 6; this item is the Hong Kong government’s response.",
+  "Planned or scheduled, not confirmed when this edition was prepared: the new U.S. tariffs (reported by the BBC as coming as early as Nov 25), the Iowa detonation (about 10 a.m. ET Nov 25, weather permitting), the Macy’s parade (8:30 a.m. ET Nov 26), the Tai Po fire anniversary (Nov 26, Hong Kong time), the fifth estate documentary (Nov 27), the Bank of Canada’s rate decision (Dec 9), Huawei’s sentencing (planned for September 2027) and the completion of Al Gore’s purchase of the Carthage Courier. The Blue Jays–Taira deal is reported but unconfirmed by the team.",
+  "Photos appear on the lead and on 19 of 23 other stories. All are file photos of the people or places involved, not of the events reported here. Text-only where no suitable openly licensed photo was found: the Balsillie Prize, the Russian war-deaths analysis, the Africa Cup ruling, Pete Edochie’s death.",
+  "Stories by region: U.S. 5, Canada 5, Hong Kong 5, China 4, World 5. China has four stories; other candidates were mostly single-source claims or overlapped with the Huawei and tariff stories, so the section was not padded. Australia’s online safety bill, flagged as expected to pass in the Nov 24 edition, is not included: a Guardian live blog headline indicates it passed, but no standalone report was found during research on Nov 25. Several stories rest on a single outlet, and several Hong Kong stories rest on RTHK relaying government statements; this is noted under each story’s sources."
+ ],
+ "provenance": [
+  "Compiled from the linked reporting, official releases and documents listed under each story; labels show whether a point is reported, an official statement, a claim, an allegation or analysis.",
+  "Source pages were opened during this morning’s research between about 6:23 AM and 6:26 AM ET on Nov 25; each check time is the logged time that page was fetched. Photo licences were read from each Wikimedia Commons file page’s metadata in the same session.",
+  "RTHK is Hong Kong’s government-funded broadcaster and sometimes carries Xinhua (Chinese state media) copy; the Shenzhou-24 docking report is Xinhua copy. Wire copy carried by another outlet is marked with the agency’s name (AFP). Meduza is an independent Russian outlet based outside Russia.",
+  "Access limits: the Washington Post report on Kilmar Ábrego García’s departure deal and the ESPN and The Athletic reports on Kaima Taira’s contract were cited by other outlets and not opened; the South China Morning Post was not used because it blocks automated fetches. These are access limits, not evidence of errors.",
+  "Figures differ between sources on the Huawei trial’s length (two months per the BBC, more than two months per the Guardian, three months per AFP), the Iowa stockpile’s weight (9,700 lb per the Guardian; five tonnes per the BBC) and the number of Cartagena hostages; each is noted where relevant."
+ ],
+ "stories": [
+  {
+   "id": "us-tariffs",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-24T19:38",
+   "dateLabel": "Nov 24–25, 2026 (announcement expected as early as Nov 25)",
+   "headline": "U.S. preparing new tariffs on at least 14 trading partners, including China, the EU and Japan, the BBC reports",
+   "deck": "The Trump administration is preparing to announce new tariffs on many of America’s biggest trading partners as early as Wednesday, Nov. 25, the BBC reported, citing its own understanding rather than an official announcement.",
+   "summary": "The Trump administration is preparing to announce new tariffs on many of America’s biggest trading partners as early as Wednesday, Nov. 25, the BBC reported, citing its own understanding rather than an official announcement. At least 14 jurisdictions would be affected, including China, the European Union and Japan, with rates varying according to the trade deals each has already struck with President Trump. The plan follows a “Section 301” trade investigation launched in March, after the U.S. Supreme Court ruled that Trump’s 2025 “Liberation Day” tariffs were illegal. China’s foreign ministry responded on Wednesday that “tariff wars and trade wars are not in anyone’s interest”, called U.S. accusations of overcapacity a “false premise”, and urged Washington to keep to the consensus reached by the two leaders at their APEC summit in Shenzhen the previous week. The U.S.–China trade truce agreed in October 2025 expires in January; the BBC says the interim agreement runs to Jan. 10. On Tuesday China extended its suspension of a ban on exports of gallium, germanium and antimony until Jan. 27.",
+   "why": "Tariffs work like a tax on imports, and their costs often show up in shop prices, so a new round could affect what Americans pay in 2027. The timing matters too: a week after friendly talk at the Shenzhen summit, a fresh tariff list would test whether the U.S.–China truce survives past January. Until the administration publishes the list and the rates, this remains a reported plan, not a policy.",
+   "label": "Reported + Unnamed sources + Official statement",
+   "note": "The tariff plan rests on the BBC’s own reporting (“the BBC understands”); no official announcement had been published when this edition was prepared. China’s reaction is from its foreign ministry, as reported by AFP via Hong Kong Free Press.",
+   "sources": [
+    {
+     "title": "US preparing to unveil plan for new tariffs on global trading partners",
+     "site": "BBC News",
+     "date": "Nov 24, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o"
+    },
+    {
+     "title": "China warns US against imposing new tariffs",
+     "site": "Hong Kong Free Press (AFP)",
+     "date": "Nov 25, 2026",
+     "href": "https://hongkongfp.com/2026/11/25/china-warns-us-against-imposing-new-tariffs/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o",
+     "publisher": "BBC News",
+     "published": "Nov 24, 2026, 7:38 PM ET",
+     "checkedAt": "2026-11-25T06:23:30-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Announcement expected as early as Wednesday; at least 14 jurisdictions including China, EU and Japan",
+      "Follows Section 301 investigation launched in March after Supreme Court ruled Liberation Day tariffs illegal",
+      "Rates to vary by existing deals; interim U.S.–China agreement expires Jan 10",
+      "China extended suspension of gallium/germanium/antimony export ban to Jan 27"
+     ],
+     "limits": [
+      "Based on the BBC’s own sourcing (“the BBC understands”); no official U.S. document was available to check."
+     ]
+    },
+    {
+     "url": "https://hongkongfp.com/2026/11/25/china-warns-us-against-imposing-new-tariffs/",
+     "publisher": "Hong Kong Free Press (AFP copy)",
+     "published": "Nov 25, 2026, 5:41 AM ET",
+     "checkedAt": "2026-11-25T06:23:38-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Guo Jiakun: “Tariff wars and trade wars are not in anyone’s interest”",
+      "Overcapacity accusations a “false premise”",
+      "Trade ceasefire due to expire in January"
+     ],
+     "limits": [
+      "AFP copy; it says reports named South Korea among affected partners, which the BBC article does not list."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/us-tariffs.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Container cranes and two large container ships at the Port of Los Angeles, with a suspension bridge behind",
+    "caption": "Container ships being loaded and unloaded at the Port of Los Angeles, September 2021.",
+    "credit": "Downtowngal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Port_of_Los_Angeles_with_container_ships.jpg",
+    "isFilePhoto": true,
+    "year": 2021
+   }
+  },
+  {
+   "id": "us-abrego",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-25T04:19",
+   "dateLabel": "Nov 24, 2026 (departure); reported Nov 24–25",
+   "headline": "Kilmar Ábrego García leaves the U.S. for Spain, ending his long deportation fight with the Trump administration",
+   "deck": "Kilmar Ábrego García, the Maryland man wrongly deported to a Salvadoran prison in 2025, left the United States for Spain on a commercial flight on Tuesday, Nov. 24, his lawyers and U.S. officials said.",
+   "summary": "Kilmar Ábrego García, the Maryland man wrongly deported to a Salvadoran prison in 2025, left the United States for Spain on a commercial flight on Tuesday, Nov. 24, his lawyers and U.S. officials said. The government had admitted he was sent to El Salvador by mistake despite a 2019 court order protecting him; he was brought back in June 2025 to face human-smuggling charges that were later dismissed, and officials then tried to send him to countries including Uganda, Ghana and Liberia. The Guardian, citing the Washington Post, reported that he negotiated a deal to leave voluntarily rather than be forcibly removed. His lawyer called it a “temporary departure” and said they expect a future administration to let him return to his U.S.-citizen wife and child. Homeland Security Secretary Markwayne Mullin wrote on X that Ábrego García had “self-deported” and repeated accusations, without evidence, that he was a gang member and trafficker. Senator Chris Van Hollen said he left “a free man – unharmed and with dignity.”",
+   "why": "This case became the best-known test of whether the government must follow court orders and give due process before deporting someone. It ends with a negotiated exit rather than a court ruling, so the legal questions it raised about mistaken removals and third-country deportations are still open.",
+   "label": "Reported + Official statement + Claim",
+   "note": "Mullin’s gang and trafficking accusations are claims; the smuggling charges against Ábrego García were dismissed. The reported voluntary-departure deal comes from the Washington Post via the Guardian; the Post article was not opened.",
+   "sources": [
+    {
+     "title": "Kilmar Ábrego García leaves US for Spain, ending Trump deportation battle",
+     "site": "BBC News",
+     "date": "Nov 24, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o"
+    },
+    {
+     "title": "Kilmar Abrego Garcia leaves U.S. voluntarily for Spain",
+     "site": "NPR",
+     "date": "Nov 25, 2026",
+     "href": "https://www.npr.org/2026/11/25/nx-s1-6053203/abrego-garcia-leaves-us"
+    },
+    {
+     "title": "Kilmar Ábrego García, man at center of Trump deportation battle, leaves US",
+     "site": "The Guardian",
+     "date": "Nov 24, 2026",
+     "href": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o",
+     "publisher": "BBC News",
+     "published": "Nov 24, 2026, 8:51 PM ET; updated Nov 25, 2026, 1:36 AM ET",
+     "checkedAt": "2026-11-25T06:23:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Took a commercial flight to Spain on Tuesday",
+      "Lawyer: departure “temporary”",
+      "Van Hollen statement"
+     ]
+    },
+    {
+     "url": "https://www.npr.org/2026/11/25/nx-s1-6053203/abrego-garcia-leaves-us",
+     "publisher": "NPR",
+     "published": "Nov 25, 2026, 4:19 AM ET; updated Nov 25, 2026, 5:17 AM ET",
+     "checkedAt": "2026-11-25T06:23:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Left voluntarily for Spain; lawyers and administration officials confirmed",
+      "Mullin on X: “self-deported”; accusations made without evidence",
+      "Costa Rica had offered refugee status; Liberia removal blocked by courts; smuggling charges dismissed"
+     ]
+    },
+    {
+     "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+     "publisher": "The Guardian",
+     "published": "Nov 24, 2026, 6:50 PM ET; updated Nov 24, 2026, 10:34 PM ET",
+     "checkedAt": "2026-11-25T06:23:32-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "DHS confirmed he was travelling to Spain",
+      "Washington Post reported a negotiated voluntary departure",
+      "2019 immigration judge ruling against removal to El Salvador"
+     ],
+     "limits": [
+      "The Washington Post report it cites was not opened (paywall)."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/us-abrego.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Senator Chris Van Hollen, in a dark jacket, talks across a table with Kilmar Ábrego García, who wears a baseball cap",
+    "caption": "Senator Chris Van Hollen meets Kilmar Ábrego García in El Salvador, April 17, 2025.",
+    "credit": "Office of Senator Chris Van Hollen",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Chris_Van_Hollen_and_Kilmar_%C3%81brego_Garc%C3%ADa.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Chris_Van_Hollen_and_Kilmar_%C3%81brego_Garc%C3%ADa.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "us-iowa",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-25T05:00",
+   "dateLabel": "Nov 24–25, 2026 (first reported in the Nov 23 edition); detonation scheduled for about 10 a.m. ET, Nov 25",
+   "headline": "Iowa town shelters in place as the Army prepares to detonate its entire lead azide stockpile, scheduled for about 10 a.m. ET Wednesday",
+   "deck": "The U.S. Army says it plans to blow up 68 barrels of degraded lead azide at the Iowa Army Ammunition Plant in Middletown on Wednesday, Nov. 25, currently scheduled for 10 a.m. ET, with the exact time depending on the weather.",
+   "summary": "The U.S. Army says it plans to blow up 68 barrels of degraded lead azide at the Iowa Army Ammunition Plant in Middletown on Wednesday, Nov. 25, currently scheduled for 10 a.m. ET, with the exact time depending on the weather. The Guardian reports this is the country’s entire stockpile of the detonator chemical, about 9,700 lb (4,400 kg); the BBC puts it at five tonnes. Officials have set a five-mile optional evacuation zone and a 20-mile shelter-in-place advisory, and say lead dust could travel up to 100 miles depending on wind. New Army maps released on Tuesday show the projected plume moving south-west of Middletown and into northern Missouri, and the Army advised infants, children, pregnant women and people with chronic illness in affected areas to stay indoors. Acting Army Secretary Adam Telle said experts agree a controlled blast is “far preferable” to a spontaneous one. Senator-elect Josh Turek said the chemicals “should never have been allowed to degrade to this point”. Some residents told the BBC they fear for their farmland.",
+   "why": "For people downwind, the key questions start after the blast: where the dust actually lands and whether testing of soil, water and crops is shared quickly and openly. The Army has argued that waiting risks a far worse accidental explosion as temperatures fall.",
+   "label": "Reported + Official statement",
+   "note": "Updates the Nov 23 and Nov 24 editions. The detonation is scheduled, not confirmed, as of this edition; the Army says the precise time will follow weather checks. The stockpile weight differs between sources (9,700 lb per the Guardian; “five tonnes” per the BBC; the Nov 24 edition cited nearly 9,500 lb from the BBC).",
+   "sources": [
+    {
+     "title": "Iowa town shelters in place as army prepares to detonate entire US stockpile of lead azide",
+     "site": "The Guardian",
+     "date": "Nov 25, 2026",
+     "href": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide"
+    },
+    {
+     "title": "Iowans hunker down for controlled blast of explosives stockpile",
+     "site": "BBC News",
+     "date": "Nov 24, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cqg7l5zx4edeo"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
+     "publisher": "The Guardian",
+     "published": "Nov 25, 2026, 5:00 AM ET",
+     "checkedAt": "2026-11-25T06:23:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Entire U.S. stockpile; 9,700 lb (4,400 kg) at Middletown, about 400 residents",
+      "Currently scheduled for 10 a.m. ET; precise time to follow weather evaluation",
+      "New maps: plume south-west of Middletown into northern Missouri",
+      "Telle and Turek quotes"
+     ]
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cqg7l5zx4edeo",
+     "publisher": "BBC News",
+     "published": "Nov 24, 2026, 9:17 PM ET",
+     "checkedAt": "2026-11-25T06:23:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "68 barrels; five-mile optional evacuation zone, 20-mile shelter-in-place advisory; dust up to 100 miles",
+      "Appeals court overturned earlier stop",
+      "Residents’ concerns (Margo Sprenger quote)"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/us-iowa.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A red sign reading United States Army Iowa Army Ammunition Plant",
+    "caption": "The entrance sign at the Iowa Army Ammunition Plant, 2026.",
+    "credit": "Lori McFate, Iowa Army Ammunition Plant (U.S. Army)",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:2026_United_States_Army_Iowa_Ammunition_Plant_sign.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:2026_United_States_Army_Iowa_Ammunition_Plant_sign.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "us-macys",
+   "region": "us",
+   "topic": "culture",
+   "ts": "2026-11-25T05:00",
+   "dateLabel": "Nov 25, 2026 (parade scheduled for Nov 26)",
+   "headline": "The 100th Macy’s Thanksgiving Day Parade is set to bring 100 inflatables, including a Joe Cool Snoopy, Bluey and Hello Kitty",
+   "deck": "The Macy’s Thanksgiving Day Parade is scheduled to make its 100th trip through Manhattan on Thursday, Nov. 26, with 100 inflatables and new balloons including Snoopy as Joe Cool, Bluey, Hello Kitty and Sorcerer’s Apprentice Mickey, NPR reports.",
+   "summary": "The Macy’s Thanksgiving Day Parade is scheduled to make its 100th trip through Manhattan on Thursday, Nov. 26, with 100 inflatables and new balloons including Snoopy as Joe Cool, Bluey, Hello Kitty and Sorcerer’s Apprentice Mickey, NPR reports. Snoopy has flown in the parade 45 times since 1968, more than any other character. Each large balloon needs about 100 volunteer handlers, out of roughly 11,000 volunteers and participants, and a new Harry Potter float has a talking, animatronic Sorting Hat. The forecast is a worry: NPR says Thursday looks stormy, and high winds can force balloons to fly lower or be grounded, though the parade itself goes ahead. The parade is scheduled to start at 8:30 a.m. ET on the Upper West Side and end at Herald Square, and airs on NBC and Peacock. It has run every year except three during the Second World War, when rubber and helium were needed for the war effort.",
+   "why": "A hundred parades is a rare run for any live show. The 100th edition is also a big piece of street theatre, built by puppeteers, designers and thousands of volunteers. If the wind is strong, the balloons, which are the most famous part, could be the first thing cut.",
+   "label": "Reported + Company figures",
+   "note": "The parade is scheduled, not yet held. Balloon and volunteer figures come from Macy’s executive producer Will Coss as quoted by NPR.",
+   "sources": [
+    {
+     "title": "New balloons will fly for the 100th Macy’s Thanksgiving Day Parade",
+     "site": "NPR",
+     "date": "Nov 25, 2026",
+     "href": "https://www.npr.org/2026/11/25/nx-s1-6037568/100th-macys-thanksgiving-day-parade-balloons"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.npr.org/2026/11/25/nx-s1-6037568/100th-macys-thanksgiving-day-parade-balloons",
+     "publisher": "NPR",
+     "published": "Nov 25, 2026, 5:00 AM ET",
+     "checkedAt": "2026-11-25T06:23:57-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "100th parade; 100 inflatables; new Joe Cool Snoopy, Bluey, Hello Kitty, Sorcerer’s Apprentice Mickey",
+      "About 100 handlers per large balloon; about 11,000 volunteers and participants",
+      "Stormy forecast; winds can lower or ground balloons",
+      "8:30 a.m. ET start, Upper West Side to Herald Square; NBC and Peacock"
+     ],
+     "limits": [
+      "Single outlet."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/us-macys.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Workers in yellow jackets prepare a giant cartoon character balloon under nets on a city street at night",
+    "caption": "A balloon being inflated on the Upper West Side the night before the 2018 parade.",
+    "credit": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Macy%27s_parade_balloon_inflation_(11693).jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "us-gore",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-24T21:31",
+   "dateLabel": "Nov 24, 2026",
+   "headline": "Al Gore is buying his hometown weekly, the Carthage Courier, to keep it locally owned",
+   "deck": "Former Vice-President Al Gore will buy the Carthage Courier, a family-owned weekly newspaper in his Tennessee hometown, in the coming weeks, the Lake family that has run it for five decades said on Tuesday, Nov. 24.",
+   "summary": "Former Vice-President Al Gore will buy the Carthage Courier, a family-owned weekly newspaper in his Tennessee hometown, in the coming weeks, the Lake family that has run it for five decades said on Tuesday, Nov. 24. The paper serves Smith County, home to about 20,000 people some 55 miles east of Nashville. Gore, 78, who worked as an Army reporter in Vietnam and then as an investigative reporter at the Tennessean before entering Congress in 1976, said “a free, independent local press is irreplaceable for the enduring health of our community.” The price was not disclosed, and it is not yet clear how involved Gore will be in running the paper. The Guardian notes that the Courier’s announcement presented him simply as a local man buying his town’s paper.",
+   "why": "Hundreds of U.S. communities have lost their local paper, leaving no one to cover school boards, courts and town councils. A famous buyer does not fix the business model, but it keeps one small paper in local hands at a time when many are being closed or sold to chains.",
+   "label": "Reported + Official statement",
+   "note": "The sale is announced but not yet completed (“in the coming weeks”). Single outlet.",
+   "sources": [
+    {
+     "title": "Al Gore buys local, family-owned newspaper in central Tennessee",
+     "site": "The Guardian",
+     "date": "Nov 24, 2026",
+     "href": "https://www.theguardian.com/us-news/2026/nov/24/al-gore-newspaper-tennessee"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/us-news/2026/nov/24/al-gore-newspaper-tennessee",
+     "publisher": "The Guardian",
+     "published": "Nov 24, 2026, 9:31 PM ET",
+     "checkedAt": "2026-11-25T06:23:59-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Lake family to sell the Carthage Courier to Gore in the coming weeks",
+      "Smith County, about 20,000 residents, 55 miles east of Nashville",
+      "Gore quote on independent local press; terms not disclosed"
+     ],
+     "limits": [
+      "Single outlet; the Courier’s own announcement was not opened."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/us-gore.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Al Gore smiles as he receives a medal on a ribbon around his neck",
+    "caption": "Al Gore receives the Presidential Medal of Freedom at the White House, May 3, 2024.",
+    "credit": "The White House",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:President_Joe_Biden_presents_the_Medal_of_Freedom_to_Al_Gore.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:President_Joe_Biden_presents_the_Medal_of_Freedom_to_Al_Gore.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "ca-nk",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-25T04:00",
+   "dateLabel": "Nov 25, 2026",
+   "headline": "Four likely North Korean operatives did contract coding work on B.C.’s business registry, CBC’s the fifth estate reports",
+   "deck": "Four remote computer programmers hired between 2023 and 2025 to work on British Columbia’s business registry platform were likely North Korean operatives, CBC’s the fifth estate reported on Wednesday, Nov. 25.",
+   "summary": "Four remote computer programmers hired between 2023 and 2025 to work on British Columbia’s business registry platform were likely North Korean operatives, CBC’s the fifth estate reported on Wednesday, Nov. 25. They were supplied through a Lower Mainland IT staffing firm whose owner said he had no idea who they were. The first, using the name Kevin Zhang, had two fake Chinese passports stored in an online profile, listing a birthplace in Liaoning province next to North Korea, and a headshot that did not match them; he then recommended the other three as former colleagues. The workers repeatedly changed where their pay should go, including to a now-defunct company registered at an abandoned bank building in Dawson City, Yukon. Michael Barnhart, a former U.S. Army intelligence officer who investigates North Korea, said Zhang was already known to researchers. The B.C. government did not respond, and in reply to a freedom of information request the ministry said it could not locate an employee by that name. The full documentary is scheduled to air Friday, Nov. 27.",
+   "why": "North Korea is known to use remote IT jobs abroad to earn money and sometimes to gain access to systems. If a provincial government can hire such workers through a contractor without noticing, other public bodies and companies that rely on remote contractors may face the same gap in identity checks.",
+   "label": "Reported + Analysis",
+   "note": "The identification as “likely” North Korean operatives is the fifth estate’s conclusion, supported by an outside expert; it is not a government finding. The B.C. government had not responded when this edition was prepared. Single outlet (an investigation).",
+   "sources": [
+    {
+     "title": "Suspected North Korean computer programmers did contract work for B.C. government",
+     "site": "CBC News (the fifth estate)",
+     "date": "Nov 25, 2026",
+     "href": "https://www.cbc.ca/news/canada/suspected-north-korean-computer-programmers-british-columbia-government-9.7433830"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/suspected-north-korean-computer-programmers-british-columbia-government-9.7433830",
+     "publisher": "CBC News",
+     "published": "Nov 25, 2026, 4:00 AM ET",
+     "checkedAt": "2026-11-25T06:24:09-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Four programmers hired 2023–2025 for the B.C. business registry platform",
+      "Fake Chinese passports and mismatched headshot for “Kevin Zhang”",
+      "Pay redirected, including to Dev Dragon Inc. registered in Dawson City",
+      "B.C. government gave no response; FOI reply could not locate an employee by that name",
+      "Documentary airs Friday at 9 p.m."
+     ],
+     "limits": [
+      "Single outlet; conclusions are CBC’s and its expert sources’."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/ca-nk.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The domed stone British Columbia Parliament Buildings in Victoria under a blue sky",
+    "caption": "The British Columbia Parliament Buildings in Victoria, June 2018.",
+    "credit": "Michal Klajban",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:British_Columbia_Parliament_Buildings_in_Victoria,_British_Columbia,_Canada_01.jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "ca-pentagon",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-24T19:08",
+   "dateLabel": "Nov 24, 2026 (first reported in the Nov 24 edition)",
+   "headline": "Pentagon official says the U.S. is “postured to up the ante” on Canada’s defence spending; McGuinty says “we don’t report to the United States”",
+   "deck": "A senior U.S. defence official warned on Tuesday, Nov. 24, of further, unspecified “mitigation measures” if Canada does not focus its military spending on defending North America, a day after the Pentagon published a fact sheet criticizing Canada’s readiness.",
+   "summary": "A senior U.S. defence official warned on Tuesday, Nov. 24, of further, unspecified “mitigation measures” if Canada does not focus its military spending on defending North America, a day after the Pentagon published a fact sheet criticizing Canada’s readiness. In a background briefing for Canadian journalists approved by the U.S. Department of War, the official said suspending the Permanent Joint Board on Defense in spring 2026 “sent a message but has not solved the problem” and that “we’re postured to up the ante when we need to.” The official said the gap “between rhetoric and reality in Ottawa is the widest in all of NATO” and held up Germany as a model. Defence Minister David McGuinty replied: “Canada’s a sovereign nation… We don’t report to the United States,” pointing to the budget’s path to 4% of GDP by 2030. Former NATO ambassador Kerry Buck suggested the real U.S. concern may be Canada buying more military equipment from non-U.S. suppliers; Carleton University’s Steve Saideman said U.S. domestic politics around War Secretary Pete Hegseth are also at play.",
+   "why": "The threat is vague but the direction is clear: Washington is turning defence into another pressure point alongside trade. How far it goes will affect NORAD co-operation and Ottawa’s plans to diversify military purchases away from the U.S.",
+   "label": "Official statement + Claim + Analysis",
+   "note": "Updates the Nov 24 edition’s story on the Pentagon fact sheet. The U.S. criticisms are the official’s assessments, given on background (unnamed by agreement). The analysts’ views are their interpretation. Single outlet.",
+   "sources": [
+    {
+     "title": "Pentagon prepared to ‘up the ante’ in defence dispute with Canada",
+     "site": "CBC News",
+     "date": "Nov 24, 2026",
+     "href": "https://www.cbc.ca/news/politics/defence-canada-us-pentagon-spending-9.7434887"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/defence-canada-us-pentagon-spending-9.7434887",
+     "publisher": "CBC News",
+     "published": "Nov 24, 2026, 7:08 PM ET",
+     "checkedAt": "2026-11-25T06:24:10-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Background briefing approved for release by the U.S. Department of War",
+      "“Postured to up the ante”; PJBD suspension “sent a message”",
+      "“Widest in all of NATO” gap; Germany as model",
+      "McGuinty: “We don’t report to the United States”; 4% of GDP by 2030",
+      "Kerry Buck and Steve Saideman analysis"
+     ],
+     "limits": [
+      "Single outlet; the U.S. official is unnamed under the briefing’s ground rules."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/ca-pentagon.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Pete Hegseth and David McGuinty shake hands outside the Pentagon as honour guards stand nearby",
+    "caption": "Pete Hegseth (left) greets Canadian Defence Minister David McGuinty at the Pentagon, Sept. 22, 2025.",
+    "credit": "U.S. Air Force Staff Sgt. Madelyn Keech / U.S. Department of War",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bilateral_exchange_between_Secretary_of_War_Pete_Hegseth_and_Canadian_Minister_of_Defense_David_McGuinty_at_the_Pentagon,_USA_on_September_22,_2025_-_5.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Bilateral_exchange_between_Secretary_of_War_Pete_Hegseth_and_Canadian_Minister_of_Defense_David_McGuinty_at_the_Pentagon,_USA_on_September_22,_2025_-_5.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "ca-macklem",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-24T13:22",
+   "dateLabel": "Nov 24, 2026",
+   "headline": "Bank of Canada’s Macklem warns a second round of oil-driven inflation is coming in 2027; one economist now expects a December rate hike",
+   "deck": "Bank of Canada Governor Tiff Macklem said on Tuesday, Nov. 24, that a “second-round effect” of the 2026 oil shock will keep inflation elevated in 2027, as businesses pass more of their higher energy and transport costs on to consumers.",
+   "summary": "Bank of Canada Governor Tiff Macklem said on Tuesday, Nov. 24, that a “second-round effect” of the 2026 oil shock will keep inflation elevated in 2027, as businesses pass more of their higher energy and transport costs on to consumers. Speaking to the Economic Club of Canada in Toronto, he said “this second-round effect of the oil shock will add to inflation persistence” and that the bank is preparing for “larger and more frequent supply shocks.” Canada’s inflation rate was 3.1% in October, and the bank raised its policy rate by a quarter point to 2.5% in October. CIBC chief economist Avery Shenfeld wrote that the remarks point to another hike at the bank’s Dec. 9 decision rather than in January. In the same speech Macklem published the conclusions of the bank’s five-year review, which kept the 2% inflation target, and launched a new inflation dashboard. Macklem announced earlier in November that he will step down when his term ends on June 2, 2027.",
+   "why": "For anyone with a variable-rate loan, a line of credit or a lease coming up, this is a signal that borrowing costs may rise again before they fall. Macklem is also saying that cheaper oil now will not quickly show up in other prices.",
+   "label": "Official statement + Reported + Analysis",
+   "note": "The December rate-hike call is one economist’s forecast, not a Bank of Canada decision.",
+   "sources": [
+    {
+     "title": "Bank of Canada expects 2nd round of oil-linked inflation in 2027, Macklem says",
+     "site": "CBC News",
+     "date": "Nov 24, 2026",
+     "href": "https://www.cbc.ca/news/business/bank-canada-governor-tiff-macklem-speech-9.7433693"
+    },
+    {
+     "title": "Canada’s monetary policy framework: A trusted anchor in uncertain waters (speech)",
+     "site": "Bank of Canada",
+     "date": "Nov 24, 2026",
+     "href": "https://www.bankofcanada.ca/2026/11/canadas-monetary-policy-framework-a-trusted-anchor-in-uncertain-waters/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/business/bank-canada-governor-tiff-macklem-speech-9.7433693",
+     "publisher": "CBC News",
+     "published": "Nov 24, 2026, 1:22 PM ET; updated Nov 24, 2026, 5:06 PM ET",
+     "checkedAt": "2026-11-25T06:24:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Second round of oil shock to stoke inflation in 2027",
+      "CPI 3.1% in October; rate raised to 2.5% last month (October)",
+      "Shenfeld: points to a December hike; decision scheduled Dec 9",
+      "Macklem to step down June 2 (announced earlier this month)"
+     ]
+    },
+    {
+     "url": "https://www.bankofcanada.ca/2026/11/canadas-monetary-policy-framework-a-trusted-anchor-in-uncertain-waters/",
+     "publisher": "Bank of Canada",
+     "published": "Nov 24, 2026",
+     "checkedAt": "2026-11-25T06:24:35-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "“This second-round effect of the oil shock will add to inflation persistence.”",
+      "Framework renewed with the 2% target; new inflation dashboard launched"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/ca-macklem.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Tiff Macklem in a grey suit and glasses smiles in front of a Bank of Canada sign",
+    "caption": "Tiff Macklem, Governor of the Bank of Canada, in November 2020.",
+    "credit": "Bank of Canada - Banque du Canada from Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Tiff_Macklem_(50587676931).jpg",
+    "isFilePhoto": true,
+    "year": 2020
+   }
+  },
+  {
+   "id": "ca-jays",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-24T15:33",
+   "dateLabel": "Nov 24, 2026",
+   "headline": "Blue Jays reportedly agree to a five-year, US$80 million deal with Japanese pitcher Kaima Taira",
+   "deck": "The Toronto Blue Jays have agreed to a five-year, US$80-million contract with Japanese right-hander Kaima Taira, according to several outlets cited by CBC Sports on Tuesday, Nov. 24; the team had not confirmed the deal.",
+   "summary": "The Toronto Blue Jays have agreed to a five-year, US$80-million contract with Japanese right-hander Kaima Taira, according to several outlets cited by CBC Sports on Tuesday, Nov. 24; the team had not confirmed the deal. ESPN and The Athletic reported that the contract includes a US$5-million signing bonus and an opt-out after the third year, and the New York Post and Sportsnet also reported an agreement. Taira went 12-5 with a 1.36 ERA and 141 strikeouts in 146 innings for the Seibu Lions of Japan’s Nippon Professional Baseball league in 2026. CBC describes the five-foot-eight starter as using an eight-pitch mix with a fastball reaching 99 mph. He could join a rotation led by Dylan Cease.",
+   "why": "CBC calls this Toronto’s first big signing of the off-season. A 1.36 ERA in Japan is elite, but pitchers moving to Major League Baseball face a heavier schedule and stronger hitters, so the opt-out could become important for both sides.",
+   "label": "Reported + Unnamed sources",
+   "note": "The agreement is reported, not confirmed by the Blue Jays, as of this edition. Contract details come from ESPN and The Athletic as cited by CBC; those reports were not opened.",
+   "sources": [
+    {
+     "title": "Blue Jays agree to 5-year, $80M US contract with star Japanese pitcher Kaima Taira: reports",
+     "site": "CBC Sports",
+     "date": "Nov 24, 2026",
+     "href": "https://www.cbc.ca/sports/baseball/mlb/kaima-taira-toronto-blue-jays-9.7434493"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/sports/baseball/mlb/kaima-taira-toronto-blue-jays-9.7434493",
+     "publisher": "CBC Sports",
+     "published": "Nov 24, 2026, 3:33 PM ET; updated Nov 24, 2026, 5:32 PM ET",
+     "checkedAt": "2026-11-25T06:24:11-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Multiple reports of a five-year, US$80M deal; $5M signing bonus, opt-out after year three (ESPN, The Athletic)",
+      "Blue Jays have yet to confirm",
+      "12-5, 1.36 ERA, 141 strikeouts in 146 innings with Seibu"
+     ],
+     "limits": [
+      "Single outlet relaying other outlets’ reports; the original ESPN/The Athletic reports were not opened."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/ca-jays.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Aerial view of the Rogers Centre stadium with its roof closed, beside downtown Toronto railway tracks",
+    "caption": "The Rogers Centre, home of the Toronto Blue Jays, seen from the CN Tower in August 2017.",
+    "credit": "Arild Vågen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Rogers_Centre_August_2017_01.jpg",
+    "isFilePhoto": true,
+    "year": 2017
+   }
+  },
+  {
+   "id": "ca-westhead",
+   "region": "ca",
+   "topic": "culture",
+   "ts": "2026-11-24T23:03",
+   "dateLabel": "Nov 24, 2026",
+   "headline": "Rick Westhead’s book on Canada’s troubled hockey culture wins the $70,000 Balsillie Prize for Public Policy",
+   "deck": "Sports journalist Rick Westhead’s We Breed Lions: Confronting Canada’s Troubled Hockey Culture won the $70,000 Balsillie Prize for Public Policy, the Writers’ Trust of Canada announced at a dinner in Toronto on Tuesday, Nov. 24.",
+   "summary": "Sports journalist Rick Westhead’s We Breed Lions: Confronting Canada’s Troubled Hockey Culture won the $70,000 Balsillie Prize for Public Policy, the Writers’ Trust of Canada announced at a dinner in Toronto on Tuesday, Nov. 24. The book examines allegations of sexual assault, hazing and abuse that have shaken the sport in recent years, and profiles people and groups working to educate players. Jurors praised its “clarity, rigorous evidence and unflinching purpose.” The runners-up, who each receive $7,500, included Dennis Molinaro’s book on Chinese interference and espionage in Canada, Moira Welsh’s book on older women, Jesse Winter’s wildfire dispatches and a book by Tim Wu. The prize, now in its sixth year, is funded by the Balsillie Family Foundation.",
+   "why": "Hockey is close to a national institution in Canada, and a prize for public policy writing going to a book about its culture shows how much the abuse scandals have become a public question, not just a sports one.",
+   "label": "Reported + Official statement",
+   "note": "Single outlet; the Writers’ Trust announcement itself was not opened.",
+   "sources": [
+    {
+     "title": "Sports journalist Rick Westhead wins Balsillie prize for book about hockey culture in Canada",
+     "site": "CBC News",
+     "date": "Nov 24, 2026",
+     "href": "https://www.cbc.ca/news/canada/balsillie-prize-rick-westhead-hockey-culture-9.7435105"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/balsillie-prize-rick-westhead-hockey-culture-9.7435105",
+     "publisher": "CBC News",
+     "published": "Nov 24, 2026, 11:03 PM ET",
+     "checkedAt": "2026-11-25T06:24:24-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "We Breed Lions wins the $70,000 Balsillie Prize, announced Tuesday evening in Toronto",
+      "Jury citation quote",
+      "Runners-up receive $7,500 each"
+     ],
+     "limits": [
+      "Single outlet."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-taipo",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-25T04:36",
+   "dateLabel": "Nov 25, 2026 HKT (Nov 24–25 ET); anniversary Nov 26",
+   "headline": "On the eve of the Tai Po fire anniversary, Hong Kong’s security chief defends police checks on memorial events, citing “sedition” risks",
+   "deck": "Security Secretary Chris Tang said on Wednesday, Nov. 25, that police enquiries into memorial events ahead of the first anniversary of the Wang Fuk Court fire were needed to assess risks and stop people “using the special date to conduct seditious acts.”",
+   "summary": "Security Secretary Chris Tang said on Wednesday, Nov. 25, that police enquiries into memorial events ahead of the first anniversary of the Wang Fuk Court fire were needed to assess risks and stop people “using the special date to conduct seditious acts.” The blaze in Tai Po on Nov. 26, 2025, killed 168 people. Earlier in November police made enquiries with two Catholic churches planning memorial services; one, in Tai Po, replaced its anniversary mass with a general service, and parishioners suggested that followed official pressure. Tang said lawful memorials are allowed but some people might try to “hijack” them, and that the government does not count how many events have been called off. Beijing’s Hong Kong and Macao Affairs Office and its liaison office in the city both published commentaries on Tuesday praising the city government’s “strong resolve” and reforms after the fire. The government says it will hold no official commemoration. RTHK reported that Chief Executive John Lee visited displaced residents who will move into new homes, and the government said households will get two more rental subsidy payments of HK$75,000 each, in December and June 2027.",
+   "why": "A year on, the government is presenting the fire as a story of relief and reform, while treating unofficial remembrance as a possible security risk. How Thursday’s private memorials go will show how much room is left for public grief that the authorities do not organise.",
+   "label": "Official statement + Reported + Claim",
+   "note": "Updates the Nov 21, 23 and 24 editions. The anniversary is Thursday, Nov. 26 (Hong Kong time). Tang’s remarks were made on a radio programme and are reported by HKFP. RTHK’s report says Lee’s visit took place on Saturday; it was published on Wednesday.",
+   "sources": [
+    {
+     "title": "Tai Po fire: Hong Kong security chief defends police enquiries surrounding memorial events citing ‘sedition’ risks",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 25, 2026",
+     "href": "https://hongkongfp.com/2026/11/25/tai-po-fire-hong-kong-security-chief-defends-police-enquiries-surrounding-memorial-events-citing-sedition-risks/"
+    },
+    {
+     "title": "Hong Kong gov’t response to Tai Po fire reflects responsibility and ‘strong resolve,’ Beijing says",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 25, 2026",
+     "href": "https://hongkongfp.com/2026/11/25/hong-kong-govt-response-to-tai-po-fire-reflects-responsibility-and-strong-resolve-beijing-says/"
+    },
+    {
+     "title": "CE pledges full support for Wang Fuk Court residents",
+     "site": "RTHK",
+     "date": "Nov 25, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879235-20261125.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/25/tai-po-fire-hong-kong-security-chief-defends-police-enquiries-surrounding-memorial-events-citing-sedition-risks/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 24, 2026, 11:18 PM ET",
+     "checkedAt": "2026-11-25T06:24:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Tang: “using the special date to conduct seditious acts”; “risk-based approach”",
+      "Police enquiries into two Catholic churches; Tai Po church replaced anniversary mass",
+      "No tally of called-off events"
+     ]
+    },
+    {
+     "url": "https://hongkongfp.com/2026/11/25/hong-kong-govt-response-to-tai-po-fire-reflects-responsibility-and-strong-resolve-beijing-says/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 25, 2026, 12:36 AM ET",
+     "checkedAt": "2026-11-25T06:24:52-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "HKMAO commentary on “strong resolve”; liaison office commentary",
+      "No official commemorations"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879235-20261125.htm",
+     "publisher": "RTHK",
+     "published": "Nov 25, 2026, 5:36 PM HKT",
+     "checkedAt": "2026-11-25T06:24:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Lee visit to Wang Fuk Court residents (dated Saturday in the report)",
+      "Two more HK$75,000 rental subsidies, in December and June 2027"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster.",
+      "Report dates the visit to Saturday without a calendar date."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/hk-taipo.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A row of tall residential towers at Wang Fuk Court in Tai Po, with green hills behind",
+    "caption": "Wang Fuk Court in Tai Po, pictured in 2009.",
+    "credit": "WiNG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Wang_Fuk_Court.jpg",
+    "isFilePhoto": true,
+    "year": 2009
+   }
+  },
+  {
+   "id": "hk-power",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-11-24T06:49",
+   "dateLabel": "Nov 24, 2026 HKT (rises take effect in January)",
+   "headline": "HK Electric to raise net tariffs 7.9% from January, CLP Power 1.8%, as fuel costs widen the gap between Hong Kong’s two power firms",
+   "deck": "HK Electric, which supplies Hong Kong Island and Lamma, will raise its net tariff by 7.9% from January, while CLP Power, serving Kowloon and the New Territories, will raise its charges by 1.8%, the companies told a Legislative Council panel on Tuesday, Nov. 24.",
+   "summary": "HK Electric, which supplies Hong Kong Island and Lamma, will raise its net tariff by 7.9% from January, while CLP Power, serving Kowloon and the New Territories, will raise its charges by 1.8%, the companies told a Legislative Council panel on Tuesday, Nov. 24. That is about 12.9 cents more per unit for HK Electric customers and 2.6 cents more for CLP households. Environment Secretary Tse Chin-wan said the widening gap reflects higher international fuel prices since the Middle East conflict began in 2026: HK Electric relies entirely on fossil fuels, while CLP also has nuclear power. Tse said the government wants to stabilise tariffs and narrow the gap, will not allow either firm to build new fossil-fuel generators, and plans for both to build facilities at Tseung Kwan O’s Area 132 to receive zero-carbon electricity from mainland China.",
+   "why": "Where you live in Hong Kong now noticeably changes your power bill. Moving the city’s supply towards imported mainland clean power could help in the long run, but it ties energy security more closely to the mainland grid.",
+   "label": "Official statement + Company figures + Reported",
+   "sources": [
+    {
+     "title": "7.9pc increase in HK Electric tariffs, 1.8pc for CLP",
+     "site": "RTHK",
+     "date": "Nov 24, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879110-20261124.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879110-20261124.htm",
+     "publisher": "RTHK",
+     "published": "Nov 24, 2026, 7:49 PM HKT",
+     "checkedAt": "2026-11-25T06:25:02-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "HK Electric +7.9%, CLP +1.8% from January",
+      "About 12.9 cents and 2.6 cents more per unit",
+      "Tse: gap due to fuel prices; no new fossil-fuel generators; Area 132 zero-carbon import facilities"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster.",
+      "Single outlet."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/hk-power.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Aerial view of Lamma Power Station with its chimneys and coal yards on the coast of Lamma Island",
+    "caption": "Lamma Power Station on Lamma Island, operated by HK Electric, October 2019.",
+    "credit": "Rehman Abubakr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Lamma_Power_Station_-_October_2019.jpg",
+    "isFilePhoto": true,
+    "year": 2019
+   }
+  },
+  {
+   "id": "hk-hku",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-24T23:37",
+   "dateLabel": "Nov 24–25, 2026",
+   "headline": "HKU law dean says he may restore a cancelled course on human rights in China after students were told it was suspended",
+   "deck": "University of Hong Kong law dean Fu Hualing told Hong Kong Free Press on Wednesday, Nov. 25, that he may reconsider suspending his Human Rights in China elective, which students were told in the week of Nov. 23 would not run in the 2026–27 second semester.",
+   "summary": "University of Hong Kong law dean Fu Hualing told Hong Kong Free Press on Wednesday, Nov. 25, that he may reconsider suspending his Human Rights in China elective, which students were told in the week of Nov. 23 would not run in the 2026–27 second semester. Local media reported on Monday that the 2026–27 second-semester course for master’s and Juris Doctor students would be suspended because Fu is stepping down as dean. Fu said he made the decision only because it will be his last semester as dean and he needs time for the transition, adding: “Perhaps I should cut down on my travel and restore the course.” The course covers criminal justice, freedom of expression, association and religion, labour rights, discrimination and minority rights in China. The faculty still offers Equality Rights in China and Human Rights in Hong Kong. HKU did not respond to HKFP’s requests for comment.",
+   "why": "Since the national security law, what Hong Kong universities teach about rights has been watched closely. The dean gives a practical reason, but the public reaction shows how any gap in such courses is now read as a sign of political pressure.",
+   "label": "Reported + Official statement",
+   "note": "Fu’s explanation is his own; there is no evidence in the reporting of outside pressure. Single outlet.",
+   "sources": [
+    {
+     "title": "University of Hong Kong law school dean says he may reconsider suspension of human rights in China course",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 25, 2026",
+     "href": "https://hongkongfp.com/2026/11/25/university-of-hong-kong-dean-says-he-may-reconsider-suspension-of-human-rights-in-china-course/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/25/university-of-hong-kong-dean-says-he-may-reconsider-suspension-of-human-rights-in-china-course/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 24, 2026, 11:37 PM ET; updated Nov 25, 2026, 3:19 AM ET",
+     "checkedAt": "2026-11-25T06:24:59-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Students told the elective was cancelled; local media reported suspension on Monday",
+      "Fu: decision due to last semester as dean; “Perhaps I should… restore the course”",
+      "HKU did not respond"
+     ],
+     "limits": [
+      "Single outlet."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/hk-hku.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The red-brick and granite Main Building of the University of Hong Kong with palm trees in front",
+    "caption": "The University of Hong Kong’s Main Building, September 2010.",
+    "credit": "Ka-Fai,So",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Main_Building_HKU_20100926_03.JPG",
+    "isFilePhoto": true,
+    "year": 2010
+   }
+  },
+  {
+   "id": "hk-dating",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-25T05:18",
+   "dateLabel": "Nov 25, 2026 HKT",
+   "headline": "Hong Kong rules out government-run matchmaking like Singapore’s as marriages are delayed and births stay low",
+   "deck": "Hong Kong will not follow Singapore in offering official matchmaking to tackle delayed marriage and low birth rates, Home and Youth Affairs Secretary Alice Mak said in a written reply to a lawmaker on Wednesday, Nov. 25.",
+   "summary": "Hong Kong will not follow Singapore in offering official matchmaking to tackle delayed marriage and low birth rates, Home and Youth Affairs Secretary Alice Mak said in a written reply to a lawmaker on Wednesday, Nov. 25. Mak said other places’ experience “may not be necessarily applicable” given different social and demographic conditions, and that “the ultimate decision on whether to start a family does not necessarily hinge on whether matchmaking activities are organised.” HKFP notes that the share of unmarried men aged 25 to 29 rose from 81% in 2006 to 87% in 2021, and for women of the same age from 68% to 76%. Singapore piloted FirstDate, a matchmaking platform for public servants aged 21 to 45, in September.",
+   "why": "Governments across East Asia are trying almost anything to lift very low birth rates. Hong Kong’s answer is that dating is not the main problem, which leaves the bigger pressures on young people, such as housing costs and long working hours, as the issues to watch.",
+   "label": "Official statement + Reported",
+   "note": "Single outlet; the LegCo written reply itself was not opened.",
+   "sources": [
+    {
+     "title": "Hong Kong rules out government-run matchmaking services amid low birth rate, delayed marriages",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 25, 2026",
+     "href": "https://hongkongfp.com/2026/11/25/hong-kong-rules-out-government-run-matchmaking-services-amid-low-birth-rate-delayed-marriages/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/25/hong-kong-rules-out-government-run-matchmaking-services-amid-low-birth-rate-delayed-marriages/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 25, 2026, 5:18 AM ET",
+     "checkedAt": "2026-11-25T06:25:01-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Alice Mak written reply to Roy Chu: no official matchmaking",
+      "Unmarried shares aged 25–29: men 81%→87%, women 68%→76% (2006–2021)",
+      "Singapore FirstDate pilot in September"
+     ],
+     "limits": [
+      "Single outlet; the government’s written reply was not opened."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/hk-dating.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A wooden sign reading City Hall Marriage Registry in English and Chinese",
+    "caption": "The City Hall Marriage Registry in Central, Hong Kong, November 2017.",
+    "credit": "Raysonho @ Open Grid Scheduler / Grid Engine",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:CityHallMarriageRegistry.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:CityHallMarriageRegistry.jpg",
+    "isFilePhoto": true,
+    "year": 2017
+   }
+  },
+  {
+   "id": "hk-culture",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-25T04:02",
+   "dateLabel": "Nov 25, 2026 HKT (song released Oct 31)",
+   "headline": "Hong Kong’s culture chief wants more overseas stars to promote the city, praising The Weeknd’s Faye Wong sample as “brilliant”",
+   "deck": "Culture Secretary Rosanna Law told the Legislative Council on Wednesday, Nov. 25, that the government will keep seeking collaborations with overseas artists to promote Hong Kong culture, after a lawmaker raised The Weeknd’s song “Hong Kong”, which samples Faye Wong’s 1993 Cantonese hit “Monsoon”.",
+   "summary": "Culture Secretary Rosanna Law told the Legislative Council on Wednesday, Nov. 25, that the government will keep seeking collaborations with overseas artists to promote Hong Kong culture, after a lawmaker raised The Weeknd’s song “Hong Kong”, which samples Faye Wong’s 1993 Cantonese hit “Monsoon”. Law called the sample “brilliant” and pointed to K-pop group BIGBANG introducing Hong Kong food on stage during a recent visit. She said the government has suggested that event organisers give visiting artists souvenirs linked to Hong Kong’s intangible cultural heritage and ask them to show them off, and that organisers had mostly responded positively. The Weeknd first performed the song at Kai Tak Stadium on Oct. 24 and released it on Oct. 31; his label says it sent Wong’s original back up the charts in mainland China.",
+   "why": "A Canadian superstar’s love letter to Cantopop did more for the city’s image online than many official campaigns. Officials now want to repeat that, but fans tend to respond to genuine tributes, which are hard to arrange through souvenirs and suggestions.",
+   "label": "Official statement + Reported",
+   "note": "The song itself was covered in the Nov 6 edition; the new element is the government’s plan. Chart claims are from Universal Music Canada’s own release.",
+   "sources": [
+    {
+     "title": "‘Govt to enlist foreign artists to promote HK culture’",
+     "site": "RTHK",
+     "date": "Nov 25, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879226-20261125.htm"
+    },
+    {
+     "title": "The Weeknd gifts fans the song “Hong Kong (feat. 王菲季候風)” (press release)",
+     "site": "Universal Music Canada",
+     "date": "Oct 31, 2026",
+     "href": "https://www.universalmusic.ca/2026/10/31/as-the-hong-kong-tour-dates-come-to-an-end-the-weeknd-gifts-fans-the-song-hong-kong-feat-%E7%8E%8B%E8%8F%B2%E5%AD%A3%E5%80%99%E9%A2%A8-a-love-letter-to-the-region/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879226-20261125.htm",
+     "publisher": "RTHK",
+     "published": "Nov 25, 2026, 5:02 PM HKT",
+     "checkedAt": "2026-11-25T06:25:03-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Rosanna Law at LegCo: will seek collaboration with overseas artists",
+      "Lawmaker Kenneth Fok raised The Weeknd’s sample of 1993 “Monsoon”; Law called it “brilliant”",
+      "BIGBANG example; souvenir suggestion to organisers"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster.",
+      "Single outlet for the LegCo exchange."
+     ]
+    },
+    {
+     "url": "https://www.universalmusic.ca/2026/10/31/as-the-hong-kong-tour-dates-come-to-an-end-the-weeknd-gifts-fans-the-song-hong-kong-feat-%E7%8E%8B%E8%8F%B2%E5%AD%A3%E5%80%99%E9%A2%A8-a-love-letter-to-the-region/",
+     "publisher": "Universal Music Canada",
+     "published": "Oct 31, 2026, 10:00 AM ET; updated Nov 2, 2026, 10:45 AM ET",
+     "checkedAt": "2026-11-25T06:25:18-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "First performed Oct 24 at Kai Tak Stadium; released Oct 31",
+      "Built on Faye Wong’s 1993 “Monsoon” (季候風)",
+      "Label reports chart climbs for the original in China"
+     ],
+     "limits": [
+      "Record label press release (company claims)."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/hk-culture.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Faye Wong sings on stage under red lights",
+    "caption": "Faye Wong in concert at the Hong Kong Coliseum, December 2003.",
+    "credit": "770 from Hong Kong, China",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Faye_Wong_in_concert_2003.jpg",
+    "isFilePhoto": true,
+    "year": 2003
+   }
+  },
+  {
+   "id": "cn-huawei",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-25T05:52",
+   "dateLabel": "Nov 24, 2026 (verdict); Beijing’s response Nov 25",
+   "headline": "Brooklyn jury convicts Huawei of stealing U.S. trade secrets and bank fraud but acquits it of racketeering; Beijing condemns “suppression”",
+   "deck": "A federal jury in Brooklyn on Tuesday, Nov. 24, found Huawei guilty on 10 of 12 counts, including conspiracy to steal trade secrets, bank fraud and conspiracy to violate U.S. sanctions on Iran, but acquitted the Chinese tech giant of the central racketeering charge.",
+   "summary": "A federal jury in Brooklyn on Tuesday, Nov. 24, found Huawei guilty on 10 of 12 counts, including conspiracy to steal trade secrets, bank fraud and conspiracy to violate U.S. sanctions on Iran, but acquitted the Chinese tech giant of the central racketeering charge. The racketeering count would have required jurors to find that Huawei acted as a criminal enterprise; it was also cleared of obstruction of justice, according to AFP. Prosecutors had accused Huawei and three subsidiaries of spending two decades lying to banks about its business in Iran and stealing technology from rivals. “No person or company is above the law,” Attorney General Todd Blanche said. Huawei said the acquittal “confirms that these allegations lack factual basis” and called the remaining convictions “without legal or factual merit”, promising “all necessary legal actions”. Its lawyer told the BBC he expects an appeal. Sentencing is planned for September 2027. China’s foreign ministry said on Wednesday it “firmly opposes the US suppressing and containing Chinese enterprises.” The case dates to 2018, when Huawei finance chief Meng Wanzhou was arrested in Canada, setting off a three-way diplomatic crisis.",
+   "why": "This is the most significant U.S. criminal verdict yet against a major Chinese tech company, and it lands a week after the Trump–Xi summit and alongside reports of new U.S. tariffs. A conviction adds legal weight to Washington’s long-running case against Huawei’s equipment. Experts quoted by the Guardian say the case has not undermined Huawei’s business, though, so the bigger effects may be diplomatic rather than commercial.",
+   "label": "Reported + Official statement + Allegation",
+   "note": "Huawei can appeal; convictions are not final until sentencing and any appeals. Sources differ on trial length (“two-month” per the BBC; “more than two months” per the Guardian; “three-month” per AFP via HKFP).",
+   "sources": [
+    {
+     "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+     "site": "BBC News",
+     "date": "Nov 24, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo"
+    },
+    {
+     "title": "China’s Huawei convicted of stealing US trade secrets",
+     "site": "The Guardian",
+     "date": "Nov 24, 2026",
+     "href": "https://www.theguardian.com/technology/2026/nov/24/huawei-china-convicted-deceiving-banks-stealing-us-trade-secrets"
+    },
+    {
+     "title": "Beijing slams US for ‘suppressing’ Chinese firms after Huawei conviction",
+     "site": "Hong Kong Free Press (AFP)",
+     "date": "Nov 25, 2026",
+     "href": "https://hongkongfp.com/2026/11/25/beijing-slams-us-for-suppressing-chinese-firms-after-huawei-conviction/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo",
+     "publisher": "BBC News",
+     "published": "Nov 24, 2026, 3:41 PM ET; updated Nov 25, 2026, 5:52 AM ET",
+     "checkedAt": "2026-11-25T06:23:37-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Guilty on 10 of 12 counts in a Brooklyn court; not guilty of racketeering conspiracy",
+      "Blanche statement; Huawei statement",
+      "Sentencing planned for September 2027; defence expects appeal"
+     ]
+    },
+    {
+     "url": "https://www.theguardian.com/technology/2026/nov/24/huawei-china-convicted-deceiving-banks-stealing-us-trade-secrets",
+     "publisher": "The Guardian",
+     "published": "Nov 24, 2026, 4:11 PM ET; updated Nov 24, 2026, 9:58 PM ET",
+     "checkedAt": "2026-11-25T06:23:49-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Convicted of bank fraud, conspiracy to steal trade secrets and conspiracy to defraud the US",
+      "Trial lasted more than two months; 60+ prosecution witnesses",
+      "Meng Wanzhou background"
+     ]
+    },
+    {
+     "url": "https://hongkongfp.com/2026/11/25/beijing-slams-us-for-suppressing-chinese-firms-after-huawei-conviction/",
+     "publisher": "Hong Kong Free Press (AFP copy)",
+     "published": "Nov 25, 2026, 5:35 AM ET",
+     "checkedAt": "2026-11-25T06:23:37-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Foreign ministry: “firmly opposes the US suppressing and containing Chinese enterprises”",
+      "Acquitted of racketeering conspiracy and obstruction of justice",
+      "Huawei: remaining charges “without legal or factual merit”"
+     ],
+     "limits": [
+      "AFP copy; describes a “three-month trial”, unlike the BBC and Guardian."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/cn-huawei.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The tall pale stone Theodore Roosevelt U.S. Courthouse in Downtown Brooklyn against a blue sky",
+    "caption": "The Theodore Roosevelt U.S. Courthouse in Downtown Brooklyn, home of the federal Eastern District of New York, April 2026.",
+    "credit": "ajay_suresh",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_United_States_Courthouse_(55268323856).jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "cn-chen",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-25T04:44",
+   "dateLabel": "Nov 24, 2026 (Beijing time); reported Nov 24–25",
+   "headline": "China investigates Shanghai party chief Chen Jining, the fourth Politburo member to be targeted since 2025",
+   "deck": "China’s anti-corruption watchdog is investigating Shanghai Communist Party secretary Chen Jining, a member of the 24-member Politburo, for “suspected severe violations of discipline and laws”, Chinese state media announced on Tuesday, Nov. 24.",
+   "summary": "China’s anti-corruption watchdog is investigating Shanghai Communist Party secretary Chen Jining, a member of the 24-member Politburo, for “suspected severe violations of discipline and laws”, Chinese state media announced on Tuesday, Nov. 24. The phrase is a common euphemism for corruption, and a public announcement of this kind usually signals an official’s downfall. Chen, 62, an environmental scientist with a doctorate from Imperial College London, was president of Tsinghua University, then environment minister from 2015, mayor of Beijing and, from 2022, party chief of Shanghai. He is the fourth Politburo member from the body formed in 2022 to be investigated, after He Weidong, Zhang Youxia and Ma Xingrui. The Shanghai party committee said it “expressed firm support” for the decision. The Guardian reported that a Weibo hashtag on the case had about 240 million views by Wednesday morning, with many users saying they were shocked.",
+   "why": "Chen was widely seen as a rising star and possible candidate for higher office, so his fall suggests that no one in Xi Jinping’s leadership is safe from the anti-corruption campaign. Purges at this level also reshape who could rise to the very top of China’s leadership.",
+   "label": "Reported + State media + Analysis",
+   "note": "The announcement came via Xinhua (Chinese state media) and the party’s discipline commission; no details of the allegations have been published. Analysts’ views are interpretation.",
+   "sources": [
+    {
+     "title": "China investigates politburo star in Xi Jinping’s latest purge",
+     "site": "The Guardian",
+     "date": "Nov 24, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/25/china-investigates-politburo-chen-jining-xi-jinping-purge"
+    },
+    {
+     "title": "China investigates Politburo member and Shanghai party chief Chen Jining",
+     "site": "NPR",
+     "date": "Nov 25, 2026",
+     "href": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-chen-jining"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/25/china-investigates-politburo-chen-jining-xi-jinping-purge",
+     "publisher": "The Guardian",
+     "published": "Nov 24, 2026, 8:31 PM ET; updated Nov 25, 2026, 6:06 AM ET",
+     "checkedAt": "2026-11-25T06:25:27-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Xinhua announced investigation Tuesday; fourth Politburo member probed since 2025",
+      "Chen’s career (Imperial College PhD, Tsinghua president, environment minister 2015, Beijing mayor, Shanghai 2022)",
+      "Weibo hashtag about 240m views"
+     ],
+     "limits": [
+      "Relies on Xinhua (state media) for the announcement."
+     ]
+    },
+    {
+     "url": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-chen-jining",
+     "publisher": "NPR",
+     "published": "Nov 25, 2026, 4:44 AM ET",
+     "checkedAt": "2026-11-25T06:25:28-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "CCDI investigation; brief announcement with no details",
+      "Shanghai party committee “expressed firm support”",
+      "Eurasia Group: fourth Politburo member to fall"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/cn-chen.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Chen Jining, seated in an armchair in a reception room, faces U.S. Secretary of State Antony Blinken",
+    "caption": "Chen Jining (right) meets U.S. Secretary of State Antony Blinken in Shanghai, April 25, 2024.",
+    "credit": "Chuck Kennedy / U.S. Department of State",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Secretary_Blinken_Meets_with_Chinese_Communist_Party_Secretary_of_Shanghai_(53677543966).jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Secretary_Blinken_Meets_with_Chinese_Communist_Party_Secretary_of_Shanghai_(53677543966).jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "cn-shenzhou",
+   "region": "cn",
+   "topic": "human",
+   "ts": "2026-11-25T02:05",
+   "dateLabel": "Nov 25, 2026 Beijing time (launch Nov 24, 7:18 PM ET; first reported in the Nov 24 edition)",
+   "headline": "Shenzhou-24 launches and docks with Tiangong, carrying Pakistan’s Muhammad Zeeshan Ali, the first foreign astronaut on China’s space station",
+   "deck": "China’s Shenzhou-24 spacecraft lifted off from the Jiuquan launch centre at 8:18 a.m. Beijing time on Wednesday, Nov. 25 (7:18 p.m. ET Tuesday), and docked with the Tiangong space station about three and a half hours later, China’s space agency said.",
+   "summary": "China’s Shenzhou-24 spacecraft lifted off from the Jiuquan launch centre at 8:18 a.m. Beijing time on Wednesday, Nov. 25 (7:18 p.m. ET Tuesday), and docked with the Tiangong space station about three and a half hours later, China’s space agency said. On board are Chinese astronauts Tang Hongbo and Wu Yi and Pakistani payload specialist Muhammad Zeeshan Ali, 40, the first person from Pakistan to reach orbit and the first foreigner to visit Tiangong. Ali, who trained in China for months and learned Chinese, is due to stay five to 10 days, according to Al Jazeera. Pakistani Prime Minister Shehbaz Sharif called it “the journey of 240 million Pakistanis”, and Xi Jinping called the mission “a vivid embodiment” of the two countries’ friendship. Ali is scheduled to return with two Shenzhou-23 crew members, including Lai Ka-ying, the first astronaut from Hong Kong.",
+   "why": "Opening Tiangong to a foreign astronaut is China’s clearest step yet towards turning its station into an international platform, something Al Jazeera notes Beijing is keen to show the world. For Pakistan, it is a moment of national pride built almost entirely on Chinese hardware.",
+   "label": "Official statement + State media + Reported",
+   "note": "Updates the Nov 24 edition, which reported the launch as scheduled. Launch and docking details come from the China Manned Space Agency via Xinhua (state media), carried by RTHK; Al Jazeera independently reported the docking and reactions.",
+   "sources": [
+    {
+     "title": "Shenzhou-24 docks with Tiangong space station",
+     "site": "RTHK (Xinhua)",
+     "date": "Nov 25, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879201-20261125.htm"
+    },
+    {
+     "title": "Pakistan rejoices as country’s first astronaut enters orbit",
+     "site": "Al Jazeera",
+     "date": "Nov 25, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/25/pakistan-rejoices-as-countrys-first-astronaut-enters-orbit"
+    },
+    {
+     "title": "Hong Kong SAR’s first astronaut set to return home",
+     "site": "RTHK",
+     "date": "Nov 24, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879052-20261124.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879201-20261125.htm",
+     "publisher": "RTHK (Xinhua copy)",
+     "published": "Nov 25, 2026, 1:29 PM HKT",
+     "checkedAt": "2026-11-25T06:25:28-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Docked at 11:56 a.m. Wednesday; docking took about 3.5 hours",
+      "Launch at 8:18 a.m. from Jiuquan; CMSA: “a complete success”"
+     ],
+     "limits": [
+      "Xinhua (Chinese state media) copy carried by RTHK, Hong Kong’s government-funded broadcaster."
+     ]
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/25/pakistan-rejoices-as-countrys-first-astronaut-enters-orbit",
+     "publisher": "Al Jazeera",
+     "published": "Nov 25, 2026, 2:05 AM ET",
+     "checkedAt": "2026-11-25T06:25:30-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Ali, 40, first Pakistani in orbit and first foreigner on Tiangong",
+      "Stay of five to 10 days",
+      "Sharif and Xi quotes"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879052-20261124.htm",
+     "publisher": "RTHK",
+     "published": "Nov 24, 2026, 12:27 PM HKT",
+     "checkedAt": "2026-11-25T06:25:04-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Ali to return with Shenzhou-23’s Lai Ka-ying (Hong Kong’s first astronaut) and Zhang Zhiyuan"
+     ],
+     "limits": [
+      "Government-funded broadcaster relaying CMSA statements."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/cn-shenzhou.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A Long March rocket lifts off at night beside its launch tower, trailing bright flame",
+    "caption": "The launch of Shenzhou-13 from the Jiuquan Satellite Launch Center in October 2021.",
+    "credit": "ForrestXYC",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Launch_of_Shenzhou_13.jpg",
+    "isFilePhoto": true,
+    "year": 2021
+   }
+  },
+  {
+   "id": "cn-wechat",
+   "region": "cn",
+   "topic": "human",
+   "ts": "2026-11-24T20:01",
+   "dateLabel": "Nov 24, 2026 (events earlier in November)",
+   "headline": "Chinese police called members of a WeChat group that discussed a Melbourne vigil for a murdered HungryPanda rider, Guardian Australia reports",
+   "deck": "Police in China contacted at least three members of a WeChat group, or their parents, after the group discussed attending a Melbourne vigil for Feng Jianming, a HungryPanda delivery rider allegedly murdered on Nov. 6, Guardian Australia reported.",
+   "summary": "Police in China contacted at least three members of a WeChat group, or their parents, after the group discussed attending a Melbourne vigil for Feng Jianming, a HungryPanda delivery rider allegedly murdered on Nov. 6, Guardian Australia reported. Feng, 49, was allegedly stabbed near Queen Victoria Market that evening after he and another rider confronted a man allegedly tampering with their bikes. The group, which grew to more than 400 members, was disbanded after the calls; members declined to speak on the record, citing safety concerns. The Guardian says a similar thing happened in February, when HungryPanda riders in Sydney were contacted by Chinese police after discussing a strike on WeChat. Australia’s Home Affairs department said it is “unacceptable for any foreign government to target members of our community”. The Chinese embassy in Canberra declined to comment.",
+   "why": "If chats on a Chinese-owned app can lead to calls from police back home, Chinese workers and students abroad may stay silent even about local issues like pay and safety. It raises hard questions for countries like Australia, Canada and the U.S. about how they protect people from foreign pressure.",
+   "label": "Reported + Allegation + Unnamed sources",
+   "note": "Rests on one outlet’s review of the group’s chat history and on members who declined to be named; how the police learned of the discussion is not known. The murder charge is an allegation before the courts.",
+   "sources": [
+    {
+     "title": "Chinese police contacted members of WeChat group after they discussed Melbourne vigil for HungryPanda rider",
+     "site": "The Guardian (Guardian Australia)",
+     "date": "Nov 24, 2026",
+     "href": "https://www.theguardian.com/business/2026/nov/25/chinese-police-wechat-group-hungrypanda-delivery-rider-alleged-murder-melbourne-ntwnfb"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/business/2026/nov/25/chinese-police-wechat-group-hungrypanda-delivery-rider-alleged-murder-melbourne-ntwnfb",
+     "publisher": "The Guardian",
+     "published": "Nov 24, 2026, 9:00 AM ET; updated Nov 24, 2026, 8:01 PM ET",
+     "checkedAt": "2026-11-25T06:25:36-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "At least three members said they or parents were called by home-town police in China",
+      "Group of 400+ disbanded the next day",
+      "Similar February incident with Sydney riders",
+      "Home Affairs statement; Chinese embassy declined to comment"
+     ],
+     "limits": [
+      "Single outlet; sources unnamed for safety reasons."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/cn-wechat.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The ornate yellow facade of the Meat and Fish Hall at Queen Victoria Market in Melbourne",
+    "caption": "Queen Victoria Market in Melbourne, October 2017.",
+    "credit": "Crisco 1492",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_Market,_Melbourne,_2017-10-29_01.jpg",
+    "isFilePhoto": true,
+    "year": 2017
+   }
+  },
+  {
+   "id": "w-solomon",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-24T22:15",
+   "dateLabel": "Nov 25, 2026 (Canberra time; Nov 24 ET)",
+   "headline": "Solomon Islands signs a security treaty making Australia its main partner after telling China it will end their 2022 pact",
+   "deck": "Solomon Islands Prime Minister Matthew Wale signed a treaty in Canberra on Wednesday, Nov. 25, making Australia the Pacific nation’s “security partner of choice”, after reports that Honiara told Beijing it would not renew a controversial 2022 security pact.",
+   "summary": "Solomon Islands Prime Minister Matthew Wale signed a treaty in Canberra on Wednesday, Nov. 25, making Australia the Pacific nation’s “security partner of choice”, after reports that Honiara told Beijing it would not renew a controversial 2022 security pact. The Guardian reports the deal includes A$740 million in Australian funding over 10 years, mostly grants, and commits Solomon Islands not to host foreign military bases or major security infrastructure. About 14 Chinese police officers posted under the old pact are expected to leave by the middle of 2027; the BBC says the China pact was understood to expire in April 2027. “Solomon Islands has been, for a number of years, a source of uncertainty and doubt in the region… Those days are done. Gone,” Wale said. He said there were “ongoing discussions” with China but that he could not discuss the pact because of a non-disclosure agreement. China’s foreign ministry did not confirm or deny that the pact had been ended, saying its co-operation involves no “geopolitical rivalry or bloc confrontation”.",
+   "why": "The 2022 pact was the biggest sign of China’s growing security reach in the South Pacific, so its end is a significant reversal in the U.S.–China–Australia contest for influence there. It also shows how much small island states can gain by being courted by both sides.",
+   "label": "Official statement + Reported",
+   "note": "The termination of the China pact is reported by Australian media and the Guardian; Beijing had not confirmed it. The Guardian’s “$740m” is assumed to be Australian dollars.",
+   "sources": [
+    {
+     "title": "Solomon Islands ends controversial security pact with China for Australian treaty",
+     "site": "BBC News",
+     "date": "Nov 24, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno"
+    },
+    {
+     "title": "Australia’s security pact with Solomon Islands a blow to China’s influence in the Pacific",
+     "site": "The Guardian",
+     "date": "Nov 24, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/25/australia-solomon-islands-treaty-blow-to-china-pacific-influence"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno",
+     "publisher": "BBC News",
+     "published": "Nov 24, 2026, 10:15 PM ET",
+     "checkedAt": "2026-11-25T06:25:37-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Treaty signed in Canberra; “security partner of choice”",
+      "Honiara reportedly told Beijing it would not renew the 2022 pact, expiring April 2027",
+      "Wale: non-disclosure agreement; China foreign ministry neither confirmed nor denied"
+     ]
+    },
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/25/australia-solomon-islands-treaty-blow-to-china-pacific-influence",
+     "publisher": "The Guardian",
+     "published": "Nov 24, 2026, 8:51 PM ET; updated Nov 25, 2026, 1:33 AM ET",
+     "checkedAt": "2026-11-25T06:25:38-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "$740m over 10 years ($670m grants, $70m loans)",
+      "No foreign military bases; about 14 Chinese police to leave by mid-2027",
+      "Wale “Those days are done. Gone.”"
+     ],
+     "limits": [
+      "Currency not stated explicitly in the text read."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/w-solomon.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Anthony Albanese and Matthew Wale shake hands in front of the Australian and Solomon Islands flags",
+    "caption": "Australian Prime Minister Anthony Albanese (left) and Solomon Islands Prime Minister Matthew Wale at the United Nations in New York, September 2026.",
+    "credit": "Andrew Kelly / Australian Department of Foreign Affairs and Trade",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Matthew_Wale_shakes_hands_with_Anthony_Albanese.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "w-russia",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-24T19:56",
+   "dateLabel": "Nov 24, 2026 (Meduza/Mediazona analysis Nov 23)",
+   "headline": "Leaked Russian death records show at least 490,000 soldiers killed in the Ukraine war, BBC and independent Russian outlets find",
+   "deck": "Leaked records from Russia’s own statistics agency show at least 490,334 Russian soldiers have died since the full-scale invasion of Ukraine began in 2022, according to an analysis by BBC Russian published on Tuesday, Nov. 24.",
+   "summary": "Leaked records from Russia’s own statistics agency show at least 490,334 Russian soldiers have died since the full-scale invasion of Ukraine began in 2022, according to an analysis by BBC Russian published on Tuesday, Nov. 24. The more than 11 million death records, from 2021 to September 2026, were taken in a hack by the Belarusian group Cyber Partisans and Ukraine’s Silent Crow. Rosstat acknowledged a cyber-attack but denied that protected information leaked. The BBC says the data matched 90% of its own open-source list of confirmed deaths. In the records, 65% of Russians aged 18 to 24 who died in 2025 were killed in the war, and men from poor Siberian regions such as Tyva and Buryatia were 20 to 25 times more likely to die in it than residents of Moscow or St Petersburg. Independent Russian outlets Meduza and Mediazona, analysing the same data, also count about 490,000 registered deaths and estimate more than 700,000 once missing soldiers are included, with wide uncertainty for the past year.",
+   "why": "Russia does not publish its war dead, so these figures are the closest view yet of the human cost from its own records. They show the burden falling hardest on young men and poorer regions, which matters for how long Russia can keep fighting and for any peace talks.",
+   "label": "Reported + Analysis",
+   "note": "Based on hacked data whose authenticity the BBC, Meduza and Mediazona say they tested; Rosstat denies protected information leaked. Figures are lower bounds for registered deaths; the 700,000 figure is Meduza and Mediazona’s estimate. Meduza is an independent Russian outlet based outside Russia.",
+   "sources": [
+    {
+     "title": "Russia’s own figures show it has lost almost 500,000 people in Ukraine war",
+     "site": "BBC News",
+     "date": "Nov 24, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo"
+    },
+    {
+     "title": "More than 700,000 Russian troops died in the war in Ukraine by late September 2026, Meduza and Mediazona estimate",
+     "site": "Meduza",
+     "date": "Nov 23, 2026",
+     "href": "https://meduza.io/en/feature/2026/11/23/more-than-700-000-russian-troops-died-in-the-war-in-ukraine-by-late-september-2026-meduza-and-mediazona-estimate"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo",
+     "publisher": "BBC News",
+     "published": "Nov 24, 2026, 7:56 PM ET",
+     "checkedAt": "2026-11-25T06:25:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "At least 490,334 soldiers’ deaths in leaked Rosstat data; 11 million records 2021–Sept 2026",
+      "Hack by Cyber Partisans BY and Silent Crow; Rosstat denies protected data leaked",
+      "90% match with BBC list; 65% of 18–24 deaths in 2025 were war deaths",
+      "Tyva, Buryatia, Zabaykalsky 20–25 times more likely"
+     ]
+    },
+    {
+     "url": "https://meduza.io/en/feature/2026/11/23/more-than-700-000-russian-troops-died-in-the-war-in-ukraine-by-late-september-2026-meduza-and-mediazona-estimate",
+     "publisher": "Meduza",
+     "published": "Nov 23, 2026, 2:24 PM ET",
+     "checkedAt": "2026-11-25T06:26:11-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "About 490,000 registered deaths; more than 700,000 including missing",
+      "Database judged very likely authentic; uncertainty concentrated in latest 12 months"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-colombia",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-25T04:56",
+   "dateLabel": "Nov 24–25, 2026",
+   "headline": "Colombian forces storm a Cartagena supermarket and free about 20 hostages after a 17-hour siege; one gunman killed",
+   "deck": "Colombian police and soldiers stormed a supermarket in the Caribbean city of Cartagena shortly after midnight on Wednesday, Nov. 25, freeing about 20 shoppers and employees held at gunpoint for roughly 17 hours, President Abelardo de la Espriella said.",
+   "summary": "Colombian police and soldiers stormed a supermarket in the Caribbean city of Cartagena shortly after midnight on Wednesday, Nov. 25, freeing about 20 shoppers and employees held at gunpoint for roughly 17 hours, President Abelardo de la Espriella said. Gunmen had entered the Éxito store at about 8 a.m. on Tuesday after what local media described as a failed attempt to rob an armoured car, and then demanded safe passage out. They released about 10 hostages during the day, including elderly women. Security forces used stun grenades as they went in, and one hostage-taker was killed. De la Espriella, who flew to the city and appeared at the scene in fatigues with a sidearm, called it “an extraordinary joint operation” and said the gunmen had refused a chance to surrender. Cartagena’s mayor said all the hostages were “safe and sound”.",
+   "why": "A daylong armed siege in one of Latin America’s biggest tourist cities is a shock for Colombia, where security is a central political issue. The president’s very visible role shows how much he wants to be seen as tough on crime, but the outcome could easily have been far worse.",
+   "label": "Reported + Official statement",
+   "note": "Hostage numbers are approximate and vary slightly between sources (about 30 held at first per the Guardian).",
+   "sources": [
+    {
+     "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
+     "site": "BBC News",
+     "date": "Nov 25, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo"
+    },
+    {
+     "title": "All hostages rescued after Colombian security forces storm supermarket, says president",
+     "site": "The Guardian",
+     "date": "Nov 25, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo",
+     "publisher": "BBC News",
+     "published": "Nov 25, 2026, 4:56 AM ET",
+     "checkedAt": "2026-11-25T06:25:48-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "About 20 freed after about 17 hours; gunmen entered at 08:00 Tuesday after failed armoured-car robbery",
+      "Stun grenades; one gunman killed",
+      "President’s “extraordinary joint operation” quote"
+     ]
+    },
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+     "publisher": "The Guardian",
+     "published": "Nov 25, 2026, 4:26 AM ET",
+     "checkedAt": "2026-11-25T06:25:48-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Éxito supermarket; operation shortly after midnight Wednesday",
+      "10 of an estimated 30 released earlier",
+      "Mayor: all hostages “safe and sound”"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-25-am/w-colombia.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Old stone city walls and a bastion in Cartagena beside a seafront road",
+    "caption": "The old city walls of Cartagena, Colombia, January 2020.",
+    "credit": "Bernard Gagnon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:City_walls_of_Cartagena_01.jpg",
+    "isFilePhoto": true,
+    "year": 2020
+   }
+  },
+  {
+   "id": "w-afcon",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-25T01:43",
+   "dateLabel": "Nov 24, 2026",
+   "headline": "Sport’s top court gives the 2025 Africa Cup of Nations title back to Senegal; Morocco plans to challenge",
+   "deck": "The Court of Arbitration for Sport on Tuesday, Nov. 24, reinstated Senegal as 2025 Africa Cup of Nations champions, overturning a ruling that had handed the title to hosts Morocco after Senegal’s players walked off during the final.",
+   "summary": "The Court of Arbitration for Sport on Tuesday, Nov. 24, reinstated Senegal as 2025 Africa Cup of Nations champions, overturning a ruling that had handed the title to hosts Morocco after Senegal’s players walked off during the final. In January’s final in Rabat, Senegal left the pitch in second-half stoppage time to protest a penalty awarded to Morocco; play resumed after more than 15 minutes, Brahim Díaz’s spot kick was saved, and Senegal won 1-0 in extra time through Pape Gueye. A Confederation of African Football appeals board later awarded Morocco a 3-0 default win. The three CAS judges ruled unanimously that the referee, Jean-Jacques Ndala, “did not err in law” and had sole authority to restart the match. Morocco plans to appeal, likely to Switzerland’s supreme court, challenging the integrity of a senior CAS judge, NPR reported; Senegal’s lawyer called the allegation “unreal”.",
+   "why": "The ruling settles, for now, a 10-month fight over who won Africa’s biggest football tournament, and it backs the referee’s authority over what happens on the pitch. A Swiss appeal is possible only on narrow procedural grounds, so Senegal is likely, though not certain, to keep the title.",
+   "label": "Reported + Official statement + Allegation",
+   "note": "Morocco’s challenge to a CAS judge’s integrity is an allegation and had not been decided when this edition was prepared.",
+   "sources": [
+    {
+     "title": "Senegal reinstated as Afcon 2025 winners by court ruling",
+     "site": "BBC Sport",
+     "date": "Nov 24, 2026",
+     "href": "https://www.bbc.co.uk/sport/football/articles/crn80y2l1404o"
+    },
+    {
+     "title": "Africa Cup title given back to Senegal after sports court rules against Morocco",
+     "site": "NPR",
+     "date": "Nov 25, 2026",
+     "href": "https://www.npr.org/2026/11/25/nx-s1-6053783/africa-cup-senegal-morocco"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/sport/football/articles/crn80y2l1404o",
+     "publisher": "BBC Sport",
+     "published": "Nov 24, 2026, 9:26 AM ET; updated Nov 24, 2026, 12:16 PM ET",
+     "checkedAt": "2026-11-25T06:25:49-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "CAS reinstated Senegal; overturned CAF appeals board decision",
+      "Walk-off in stoppage time; Díaz penalty saved; Gueye winner in extra time",
+      "Hearing in Lausanne on Oct 8; unanimous verdict"
+     ]
+    },
+    {
+     "url": "https://www.npr.org/2026/11/25/nx-s1-6053783/africa-cup-senegal-morocco",
+     "publisher": "NPR",
+     "published": "Nov 25, 2026, 1:43 AM ET",
+     "checkedAt": "2026-11-25T06:25:49-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Referee “did not err in law”; panel unanimous",
+      "Morocco plans to appeal, likely to Swiss supreme court, challenging a CAS judge’s integrity",
+      "CAF panel had awarded Morocco a 3-0 default win"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-edochie",
+   "region": "world",
+   "topic": "culture",
+   "ts": "2026-11-25T00:13",
+   "dateLabel": "Nov 25, 2026 (West Africa time; Nov 24 evening ET)",
+   "headline": "Pete Edochie, the Nollywood great who played Okonkwo in Things Fall Apart, dies at 79",
+   "deck": "Veteran Nigerian actor Pete Edochie, one of Africa’s best-known screen stars, died early on Wednesday, Nov. 25, in Enugu after a long illness with prostate cancer, his family said. He was 79.",
+   "summary": "Veteran Nigerian actor Pete Edochie, one of Africa’s best-known screen stars, died early on Wednesday, Nov. 25, in Enugu after a long illness with prostate cancer, his family said. He was 79. The family statement, signed by his son Leo Pete Edochie and shared on Instagram, said he died at 12:30 a.m. local time. Edochie began as a broadcaster in 1967 and became famous in 1987 playing Okonkwo, the proud Igbo warrior at the centre of Chinua Achebe’s Things Fall Apart, in a television adaptation. Known for his deep voice, commanding presence and use of proverbs, he went on to play kings, patriarchs and tycoons in many Nollywood films. Enugu State Governor Peter Mbah called him “an institution”.",
+   "why": "Edochie helped shape the style of Nollywood, now one of the world’s largest film industries, and his Okonkwo brought Achebe’s classic novel to a huge television audience.",
+   "label": "Reported + Official statement",
+   "note": "The death was announced by his family in a signed statement; funeral arrangements are to be announced later, according to Punch.",
+   "sources": [
+    {
+     "title": "Pete Edochie: Veteran Nigerian Nollywood actor dies aged 79",
+     "site": "BBC News",
+     "date": "Nov 25, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo"
+    },
+    {
+     "title": "Veteran actor Pete Edochie dies at 79",
+     "site": "Punch (Nigeria)",
+     "date": "Nov 24, 2026",
+     "href": "https://punchng.com/veteran-actor-pete-edochie-dies-at-79/"
+    },
+    {
+     "title": "We have lost an icon, Mbah, Soludo mourn Pete Edochie",
+     "site": "Channels Television",
+     "date": "Nov 25, 2026",
+     "href": "https://www.channelstv.com/2026/11/25/enugu-has-lost-an-icon-mbah-mourns-pete-edochie/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo",
+     "publisher": "BBC News",
+     "published": "Nov 25, 2026, 12:13 AM ET; updated Nov 25, 2026, 5:37 AM ET",
+     "checkedAt": "2026-11-25T06:25:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Died early Wednesday in Enugu after a prolonged battle with prostate cancer, family said",
+      "Broadcaster from 1967; Okonkwo in 1987 Things Fall Apart adaptation"
+     ]
+    },
+    {
+     "url": "https://punchng.com/veteran-actor-pete-edochie-dies-at-79/",
+     "publisher": "Punch",
+     "published": "Nov 24, 2026, 9:00 PM ET; updated Nov 25, 2026, 12:25 AM ET",
+     "checkedAt": "2026-11-25T06:26:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Died at 12:30 a.m. on Nov 25, 2026, in Enugu; statement signed by son Leo Pete Edochie and shared on Instagram"
+     ]
+    },
+    {
+     "url": "https://www.channelstv.com/2026/11/25/enugu-has-lost-an-icon-mbah-mourns-pete-edochie/",
+     "publisher": "Channels Television",
+     "published": "Nov 25, 2026, 1:46 AM ET; updated Nov 25, 2026, 4:21 AM ET",
+     "checkedAt": "2026-11-25T06:26:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 25 2026",
+     "claimsSupported": [
+      "Governor Peter Mbah tribute: “an institution”"
+     ]
+    }
+   ]
+  }
+ ]
+}
