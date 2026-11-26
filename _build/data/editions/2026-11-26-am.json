@@ -1,0 +1,1408 @@
+{
+ "id": "2026-11-26-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-26",
+ "leadId": "us-tariffs",
+ "topIds": [
+  "us-macys",
+  "ca-bc",
+  "hk-taipo",
+  "cn-philippines",
+  "w-taylor"
+ ],
+ "notes": [
+  "Morning Edition for Thursday, Nov. 26, 2026 (Thanksgiving Day in the U.S.). Covers news since the Nov 25 morning edition.",
+  "Leading this morning: the U.S. Trade Representative’s proposed tariffs on 14 economies and China’s warning that it may respond. Also: Macy’s postponing its 100th Thanksgiving parade to Saturday as a nor’easter arrives, the Army’s Iowa detonation, a judge blocking the FCC’s review of ABC licences, the Steelers releasing Aaron Rodgers, B.C.’s new premier pulling SOGI 123 materials, Friday’s Supreme Court of Canada ruling on Bill 21, astronaut Joshua Kutryk becoming a father from orbit, Margaret Atwood’s fight over a Pelee Island tower, Mont-Tremblant’s cancelled World Cup races, the Tai Po fire’s first anniversary, the URBTIX data breach, Hong Kong’s AI-driven export surge, the HK Phil’s European tour, William Wong’s sentencing, China’s warning over the Australia–Philippines defence deal, claims that China misuses Interpol, Pakistan’s first astronaut reciting Iqbal on Tiangong, the death of Duran Duran’s Andy Taylor, the Cairo tanker fire, Congo’s Ebola outbreak and Jannik Sinner’s Australian Open withdrawal.",
+  "Updates on earlier stories: the tariffs (Nov 25 edition reported them as being prepared; the USTR has now published proposals); the Iowa lead azide detonation (Nov 23–25 editions, when it was planned; it took place on Nov 25); the Tai Po fire anniversary (Nov 21, 23, 24 and 25); B.C. Premier Lorne Doerkson (sworn in, Nov 21 edition); Hong Kong’s Interpol assembly (security arrangements, Nov 23); Shenzhou-24 (launch and docking, Nov 25).",
+  "Planned or scheduled, not confirmed when this edition was prepared: the Macy’s parade (now Saturday, Nov. 28), the Supreme Court of Canada’s Bill 21 ruling (9:45 a.m. ET Friday, Nov. 27), Interpol’s general assembly in Hong Kong (Nov. 30–Dec. 3), the tariff comment deadline (Jan. 5, 2027) and hearings (from Jan. 25, 2027), and the federal decision on the Pelee Island impact study (expected by Jan. 19). The proposed tariffs are not in effect.",
+  "Photos appear on the lead and on 18 of 21 other stories. All are file photos of the people or places involved, not of the events reported here. Text-only where no suitable openly licensed photo was found: the Hong Kong Philharmonic’s tour opening, William Wong’s sentencing, China’s warning on the Australia–Philippines deal.",
+  "Stories by region: U.S. 5, Canada 5, Hong Kong 5, China 3, World 4. China has three stories: China’s main development of the morning, its response to the U.S. tariffs, is folded into the lead rather than repeated, and other candidates found were single-source or older, so the section was not padded. World has four. Several stories rest on a single outlet or on official releases; this is noted under each story’s sources."
+ ],
+ "provenance": [
+  "Compiled from the linked reporting, official releases and documents listed under each story; labels show whether a point is reported, an official statement, a claim or rests on unnamed sources.",
+  "Source pages were opened during this morning’s research between about 06:24 AM and 06:31 AM ET on Nov 26; each check time is the logged time that page was fetched. Two pages (France 24 and the Canadian Space Agency) refused the scripted fetch and were read through a web-fetch tool at the logged time. Photo licences were read from each Wikimedia Commons file page’s metadata in the same session.",
+  "RTHK is Hong Kong’s government-funded broadcaster; its tariff item is AFP/Reuters copy. Wire copy carried by another outlet is marked with the agency’s name (AFP, AP, Reuters).",
+  "Access limits: the South China Morning Post and Reuters’ own site were not used because they block automated fetches; a Reuters exclusive on Chinese AI model delays (carried by Investing.com) could not be opened and was left out. These are access limits, not evidence of errors.",
+  "Figures differ between sources on the top U.S. tariff rate for China (up to 20% on most goods in the USTR release; up to 40% per the BBC and AFP; up to 45% with stacking per the Guardian) and on the size of the Iowa stockpile (9,700 lb per the Guardian; nearly five tonnes per the BBC); both are noted in the stories."
+ ],
+ "stories": [
+  {
+   "id": "us-tariffs",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-26T04:01",
+   "dateLabel": "Proposed Nov 25, 2026; reactions Nov 25–26 (update to the Nov 25 edition)",
+   "headline": "U.S. proposes new tariffs on 14 economies, including China, the EU and Japan; Beijing says it “reserves the right” to respond",
+   "deck": "The U.S. Trade Representative on Wednesday, Nov. 25, proposed new tariffs on goods from 14 economies it says fuel “structural excess capacity”, with proposed ceilings ranging from 15% to 35% depending on the country. The duties are proposals: public comments are due Jan. 5 and hearings start Jan. 25, 2027.",
+   "summary": "The U.S. Trade Representative on Wednesday, Nov. 25, proposed new tariffs on goods from 14 economies it says fuel “structural excess capacity”, with proposed ceilings ranging from 15% to 35% depending on the country. The duties are proposals: public comments are due Jan. 5 and hearings start Jan. 25, 2027. The 14 are China, the European Union, Singapore, Switzerland, Indonesia, Malaysia, Cambodia, Thailand, South Korea, Vietnam, Taiwan, Bangladesh, Japan and India; the USTR made no finding on Mexico or Norway. According to the USTR’s release, the proposed ceilings include up to 15% for the EU, Japan, South Korea, Switzerland and Taiwan, up to 18% for several Southeast Asian countries and Bangladesh, up to 20% for most Chinese goods and Singapore, up to 25% for India and up to 35% for Vietnam, in each case adjusted for existing deals and duties. Reports differ on the effective rate for China: the USTR release lists up to 20% for most goods, AFP says the rate could double to 40%, and the Guardian says stacking on other duties could take some goods to 45%. China’s commerce ministry said on Thursday that “overcapacity” was a “pretext for protectionism” and that China “reserves the right to take necessary measures”; Japan called the move “regrettable” and Singapore said it was “very disappointed”. Brazil, which faces a separate proposal, said it “will not yield to this type of threat”. The USTR’s Jamieson Greer said the plan would “level the playing field for American workers”.",
+   "why": "Tariffs are paid by importers and often passed on in prices, so if these go ahead in 2027 they could show up in the cost of electronics, clothes and other everyday goods. For now it is a proposal with a comment period, which is why trading partners are reacting with words rather than retaliation. The China rate matters most: the current U.S.–China truce runs to Jan. 10, just before the hearings.",
+   "label": "Official statement + Reported",
+   "note": "Follows the Nov 25 edition, which reported the BBC’s account that tariffs were being prepared; the USTR has now published the proposals. Reactions from China, Japan and Singapore are from RTHK and France 24 (AFP/Reuters copy).",
+   "sources": [
+    {
+     "title": "USTR Makes Determinations and Proposes Actions in 14 Section 301 Investigations",
+     "site": "Office of the U.S. Trade Representative",
+     "date": "Nov 25, 2026",
+     "href": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+    },
+    {
+     "title": "US announces new tariffs on host of countries including China",
+     "site": "BBC News",
+     "date": "Nov 25, 2026 (updated Nov 25, 11:10 PM ET)",
+     "href": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o"
+    },
+    {
+     "title": "Trump tariff threat ‘unacceptable’, says Brazil, as China denounces levies as baseless",
+     "site": "The Guardian",
+     "date": "Nov 26, 2026",
+     "href": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
+    },
+    {
+     "title": "Commerce Ministry slams new US tariffs",
+     "site": "RTHK (AFP/Reuters)",
+     "date": "Nov 26, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879382-20261126.htm"
+    },
+    {
+     "title": "China warns of ‘necessary measures’ after new US tariffs",
+     "site": "France 24 (AFP)",
+     "date": "Nov 26, 2026",
+     "href": "https://www.france24.com/en/live-news/20261126-china-warns-of-necessary-measures-after-new-us-tariffs"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+     "publisher": "Office of the U.S. Trade Representative",
+     "published": "Nov 25, 2026",
+     "checkedAt": "2026-11-26T06:26:49-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "14 economies named; no determinations for Mexico or Norway",
+      "Proposed tariff ceilings by economy (EU/Japan/Korea/Switzerland/Taiwan up to 15%; China up to 20% on most goods; India up to 25%; Vietnam up to 35%)",
+      "Written comments due Jan 5, 2027; hearings Jan 25, 2027",
+      "Greer quote"
+     ]
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o",
+     "publisher": "BBC News",
+     "published": "Nov 24, 2026, 7:38 PM ET; updated Nov 25, 2026, 11:10 PM ET",
+     "checkedAt": "2026-11-26T06:24:57-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "USTR announced proposed tariffs; not expected to take effect until next year; public consultation and possible hearings",
+      "BBC reports China faces up to 40%"
+     ],
+     "limits": [
+      "BBC’s “up to 40%” figure for China differs from the USTR release’s 20% ceiling for most goods."
+     ]
+    },
+    {
+     "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+     "publisher": "The Guardian",
+     "published": "Nov 26, 2026, 1:10 AM ET; updated Nov 26, 2026, 5:15 AM ET",
+     "checkedAt": "2026-11-26T06:24:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Brazil statement (“will not yield to this type of threat”)",
+      "China embassy rejects overcapacity claim",
+      "China capped at 20%, stacking to 45% in some cases; truce expires Jan 10, 2027"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879382-20261126.htm",
+     "publisher": "RTHK (AFP/Reuters copy)",
+     "published": "Nov 26, 2026, 5:01 PM HKT (4:01 AM ET)",
+     "checkedAt": "2026-11-26T06:24:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Commerce ministry spokesman He Yadong: “pretext for protectionism”; China “reserves the right to take necessary measures”",
+      "Japan “regrettable”; Singapore “very disappointed”"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded broadcaster; this item is AFP/Reuters copy."
+     ]
+    },
+    {
+     "url": "https://www.france24.com/en/live-news/20261126-china-warns-of-necessary-measures-after-new-us-tariffs",
+     "publisher": "France 24 (AFP)",
+     "checkedAt": "2026-11-26T06:26:42-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "China rate set at 20% but could double to 40% (AFP)",
+      "Truce extended to Jan 10; Greer says China “understands” some level of tariffs"
+     ],
+     "published": "Nov 26, 2026, 10:59 (Paris time; 4:59 AM ET)",
+     "limits": [
+      "The scripted fetch was refused (an access limit, not evidence of a broken link); the page was read through a web-fetch tool at the logged time."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/us-tariffs.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Container cranes and stacked shipping containers at Port Newark–Elizabeth Marine Terminal in New Jersey",
+    "caption": "Port Newark–Elizabeth Marine Terminal in New Jersey, pictured in 2012.",
+    "credit": "Ken Lund from Reno, Nevada, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Port_Newark-Elizabeth_Marine_Terminal_(7238101072).jpg",
+    "isFilePhoto": true,
+    "year": 2012
+   }
+  },
+  {
+   "id": "us-macys",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-26T04:43",
+   "dateLabel": "Announced Nov 25, 2026; parade now planned for Sat, Nov 28",
+   "headline": "Macy’s postpones its 100th Thanksgiving Day Parade to Saturday as a nor’easter hits New York",
+   "deck": "Macy’s has moved its 100th Thanksgiving Day Parade from Thursday, Nov. 26, to Saturday, Nov. 28, because of forecast heavy rain and strong winds, the first weather postponement in the parade’s history, according to the BBC.",
+   "summary": "Macy’s has moved its 100th Thanksgiving Day Parade from Thursday, Nov. 26, to Saturday, Nov. 28, because of forecast heavy rain and strong winds, the first weather postponement in the parade’s history, according to the BBC. The decision was announced on Wednesday, Nov. 25, while balloons were already being inflated; executive producer Will Cross said they would be deflated and stored in New Jersey until Saturday. Mayor Zohran Mamdani said “extreme weather has forced” the change. Gov. Kathy Hochul declared a state of emergency for New York City, Long Island and Westchester, and New Jersey declared one statewide. The National Weather Service issued a high wind warning for the city from 10 a.m. Thursday to 1 a.m. Friday, with gusts possibly reaching 60 mph. NBC said it would air the 2025 parade on Thursday. Nationally, NPR reports hundreds of flights already cancelled or delayed by early Thursday as storms hit both coasts, with AAA expecting 81.5 million people to travel between Thursday and Monday. Balloons were grounded once before, in 1971, and the parade was cancelled outright in 1942–44.",
+   "why": "For New Yorkers this changes Thanksgiving plans: the march down from the Upper West Side to Herald Square moves to the weekend, and Thursday itself is a storm day with official warnings to stay off the roads. It is also a rare break in a century-old tradition, and whether every performer returns on Saturday is still unclear.",
+   "label": "Reported + Official statement",
+   "note": "The parade is planned for Saturday, Nov. 28; whether all performers and celebrities scheduled for Thursday will take part is unclear, the BBC says.",
+   "sources": [
+    {
+     "title": "Macy’s postpones Thanksgiving parade due to severe weather",
+     "site": "BBC News",
+     "date": "Nov 25, 2026 (updated 11:04 PM ET)",
+     "href": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo"
+    },
+    {
+     "title": "Powerful storms disrupt holiday travel, as Macy’s Thanksgiving Day Parade is postponed",
+     "site": "NPR",
+     "date": "Nov 26, 2026",
+     "href": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving"
+    },
+    {
+     "title": "New York City’s Macy’s Thanksgiving Day parade postponed due to weather",
+     "site": "The Guardian",
+     "date": "Nov 25, 2026",
+     "href": "https://www.theguardian.com/us-news/2026/nov/25/macys-thanksgiving-day-parade-postponed-weather"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo",
+     "publisher": "BBC News",
+     "published": "Nov 25, 2026, 4:15 PM ET; updated Nov 25, 2026, 11:04 PM ET",
+     "checkedAt": "2026-11-26T06:25:00-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Postponed to Saturday; never before postponed for weather; balloons grounded in 1971",
+      "Will Cross and Mayor Mamdani quotes; balloons stored in New Jersey",
+      "Hochul state of emergency (NYC, Long Island, Westchester); NJ statewide emergency",
+      "NWS high wind warning 10 a.m. Thu–1 a.m. Fri, gusts up to 60 mph; NBC to air 2025 parade"
+     ]
+    },
+    {
+     "url": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving",
+     "publisher": "NPR",
+     "published": "Nov 26, 2026, 4:43 AM ET",
+     "checkedAt": "2026-11-26T06:31:23-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Hundreds of flights cancelled or delayed by early Thursday",
+      "AAA: 81.5 million travelling Thursday–Monday",
+      "Parade expected Saturday"
+     ]
+    },
+    {
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/macys-thanksgiving-day-parade-postponed-weather",
+     "publisher": "The Guardian",
+     "published": "Nov 25, 2026, 4:08 PM ET",
+     "checkedAt": "2026-11-26T06:25:02-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Parade postponed to Saturday because of wind; balloon wind limits (23 mph sustained / 34 mph gusts)",
+      "Cancelled 1942–44"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/us-macys.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Volunteers in blue jumpsuits secure a giant parade balloon under netting on a New York street at night",
+    "caption": "Balloon inflation for the Macy’s Thanksgiving Day Parade near the American Museum of Natural History, pictured in 2018.",
+    "credit": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Macy%27s_parade_balloon_inflation_(11698).jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "us-iowa",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-26T05:38",
+   "dateLabel": "Blast Nov 25, 2026, about 10 a.m. ET (update to the Nov 23–25 editions)",
+   "headline": "Army detonates Iowa lead azide stockpile and calls it a “huge success”; EPA says early air monitoring found no airborne lead",
+   "deck": "The U.S. Army detonated its stockpile of the explosive lead azide at the Iowa Army Ammunition Plant at about 10 a.m. ET on Wednesday, Nov. 25, after weeks of delays, public alarm and legal challenges.",
+   "summary": "The U.S. Army detonated its stockpile of the explosive lead azide at the Iowa Army Ammunition Plant at about 10 a.m. ET on Wednesday, Nov. 25, after weeks of delays, public alarm and legal challenges. Smoke rose over the area near Middletown before dispersing, and an all-clear was issued. The Army called the operation a “huge success”. EPA Administrator Lee Zeldin said late Wednesday that air monitors were detecting zero airborne lead, that more than 1,000 samples had been taken from homes, parks, farms and taps, and that laboratory results were expected over the following 24 to 48 hours, with churches, schools and playgrounds to be sampled on Thursday. Figures for the amount differ slightly: the Guardian says 9,700 lb (4,400 kg), the BBC “nearly five tonnes”. Some residents had feared a toxic plume; one Burlington resident told the AP the blast was smaller than expected.",
+   "why": "This closes the most anxious chapter of a story that had residents across a 100-mile radius preparing to shelter in place. The “success” claim rests on early readings from the Army and the EPA; independent lab results due over the next two days are what will actually show whether soil and water were affected.",
+   "label": "Reported + Official statement",
+   "note": "Earlier editions (Nov 23–25) reported the detonation as planned; it has now taken place. The safety findings are the Army’s and EPA’s own early statements; lab results were still pending.",
+   "sources": [
+    {
+     "title": "US Army says controlled blast of explosives in Iowa was ‘huge success’",
+     "site": "BBC News",
+     "date": "Nov 25, 2026 (updated Nov 26, 5:38 AM ET)",
+     "href": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko"
+    },
+    {
+     "title": "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
+     "site": "The Guardian",
+     "date": "Nov 25, 2026",
+     "href": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko",
+     "publisher": "BBC News",
+     "published": "Nov 25, 2026, 1:48 PM ET; updated Nov 26, 2026, 5:38 AM ET",
+     "checkedAt": "2026-11-26T06:25:11-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Army called blast a “huge success”; all-clear issued",
+      "Zeldin: zero airborne lead detected; >1,000 samples; lab results expected in 24–48 hours",
+      "Nearly five tonnes"
+     ]
+    },
+    {
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
+     "publisher": "The Guardian",
+     "published": "Nov 25, 2026, 1:24 PM ET; updated Nov 25, 2026, 2:34 PM ET",
+     "checkedAt": "2026-11-26T06:25:11-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Blast about 10 a.m. ET Wednesday; 9,700 lb (4,400 kg)",
+      "Plume seen dispersing; resident quoted via AP"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/us-iowa.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Large red sign reading United States Army Iowa Army Ammunition Plant at the plant entrance",
+    "caption": "Entrance sign at the Iowa Army Ammunition Plant, pictured in 2026.",
+    "credit": "Lori McFate/Iowa Army Ammunition Plant (Army Sustainment Command, Public Affairs Specialist) as of November 2026",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:2026_United_States_Army_Iowa_Ammunition_Plant_sign.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:2026_United_States_Army_Iowa_Ammunition_Plant_sign.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "us-abc",
+   "region": "us",
+   "topic": "politics",
+   "ts": "2026-11-25T20:54",
+   "dateLabel": "Ruling Nov 25, 2026",
+   "headline": "Federal judge blocks the FCC’s early review of ABC station licences, calling it retaliation for speech Trump disliked",
+   "deck": "U.S. District Judge Loren AliKhan on Wednesday, Nov. 25, issued a preliminary injunction blocking the Federal Communications Commission from pursuing early licence reviews of eight Disney-owned ABC stations.",
+   "summary": "U.S. District Judge Loren AliKhan on Wednesday, Nov. 25, issued a preliminary injunction blocking the Federal Communications Commission from pursuing early licence reviews of eight Disney-owned ABC stations. She found the reviews were likely retaliation for coverage and comedy the president disliked, citing Jimmy Kimmel’s jokes, remarks on The View and ABC’s moderation of a 2024 presidential debate. “This is not a close case,” she wrote, adding that FCC chair Brendan Carr “has taken President Trump’s rhetoric as his marching orders.” Carr ordered the reviews in April, although the licences were not due for renewal until October 2028; CBC (Reuters copy) says the FCC had not ordered an early review in more than 50 years. The judge also rejected the administration’s motion to dismiss Disney and ABC’s lawsuit. Carr, the White House, Disney and ABC had not commented when CBC published.",
+   "why": "Broadcast licences are the FCC’s strongest lever over TV networks, so this is a major test of whether the government can pressure news and late-night comedy it dislikes. It is a preliminary ruling, not the end of the case, and an appeal is possible.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "U.S. Judge rules FCC violated ABC’s free speech rights to please Trump",
+     "site": "NPR",
+     "date": "Nov 26, 2026",
+     "href": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr"
+    },
+    {
+     "title": "U.S. judge blocks FCC from revoking licences of Disney-owned ABC stations",
+     "site": "CBC News (Reuters)",
+     "date": "Nov 25, 2026",
+     "href": "https://www.cbc.ca/news/world/judge-blocks-fcc-revoking-abc-licences-9.7436635"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr",
+     "publisher": "NPR",
+     "published": "Nov 26, 2026, 12:23 AM ET",
+     "checkedAt": "2026-11-26T06:25:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Preliminary injunction by Judge Loren AliKhan filed Wednesday",
+      "Cited Kimmel, The View, 2024 debate; motion to dismiss rejected"
+     ]
+    },
+    {
+     "url": "https://www.cbc.ca/news/world/judge-blocks-fcc-revoking-abc-licences-9.7436635",
+     "publisher": "CBC News (Reuters copy)",
+     "published": "Nov 25, 2026, 8:54 PM ET",
+     "checkedAt": "2026-11-26T06:25:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "“This is not a close case”; Carr “marching orders” quote",
+      "Eight ABC stations; reviews ordered in April; renewals not due until October 2028; no early review in >50 years"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/us-abc.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Official portrait of Brendan Carr in front of an American flag and the FCC seal",
+    "caption": "FCC chair Brendan Carr in an official portrait, 2017.",
+    "credit": "Federal Communications Commission",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Brendan_Carr_official_portrait.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Brendan_Carr_official_portrait.jpg",
+    "isFilePhoto": true,
+    "year": 2017
+   }
+  },
+  {
+   "id": "us-rodgers",
+   "region": "us",
+   "topic": "sports",
+   "ts": "2026-11-26T01:26",
+   "dateLabel": "Released Nov 25, 2026",
+   "headline": "Steelers release Aaron Rodgers hours after he tears into coach Mike McCarthy on ESPN",
+   "deck": "The Pittsburgh Steelers released four-time NFL MVP Aaron Rodgers on Wednesday, Nov. 25, a day after benching him and hours after he criticized head coach Mike McCarthy on ESPN’s “The Pat McAfee Show.”",
+   "summary": "The Pittsburgh Steelers released four-time NFL MVP Aaron Rodgers on Wednesday, Nov. 25, a day after benching him and hours after he criticized head coach Mike McCarthy on ESPN’s “The Pat McAfee Show.” The team had announced late Tuesday that Mason Rudolph would start Friday’s game against Denver. On the show Rodgers said he learned of the benching from teammates, said “that ship has sailed” about returning, and questioned McCarthy’s fitness, including accusing him of sleeping in meetings. McCarthy, who coached Rodgers in Green Bay, said Rodgers had issued an “ultimatum” that was “clearly outside his job description” and that letting him go was his decision. Rodgers, who turns 43 next week, may have played his last NFL game, the BBC says.",
+   "why": "It is an abrupt end for one of the great quarterbacks of his era, and a public mess for a franchise that hired McCarthy only this year. It also shows how much power players now have to tell their side directly on shows like McAfee’s, bypassing teams entirely.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Steelers cut Aaron Rodgers after the QB rips coach Mike McCarthy on TV",
+     "site": "NPR (AP)",
+     "date": "Nov 26, 2026",
+     "href": "https://www.npr.org/2026/11/26/nx-s1-6054760/steelers-cut-aaron-rodgers"
+    },
+    {
+     "title": "Aaron Rodgers: Pittsburgh Steelers release four-time NFL MVP",
+     "site": "BBC Sport",
+     "date": "Nov 25, 2026 (updated Nov 26)",
+     "href": "https://www.bbc.co.uk/sport/american-football/articles/c64gn8ryp7jno"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.npr.org/2026/11/26/nx-s1-6054760/steelers-cut-aaron-rodgers",
+     "publisher": "NPR (AP copy)",
+     "published": "Nov 26, 2026, 1:26 AM ET",
+     "checkedAt": "2026-11-26T06:25:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Released Wednesday after McAfee appearance; benched for Mason Rudolph ahead of Friday vs Denver",
+      "McCarthy: “ultimatum … clearly out of his job description”"
+     ]
+    },
+    {
+     "url": "https://www.bbc.co.uk/sport/american-football/articles/c64gn8ryp7jno",
+     "publisher": "BBC Sport",
+     "published": "Nov 25, 2026, 9:37 AM ET; updated Nov 26, 2026, 2:51 AM ET",
+     "checkedAt": "2026-11-26T06:25:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Steelers statement Wednesday afternoon; “That ship has sailed”; turns 43 next week",
+      "Learned of benching from Pat Freiermuth; may have played last game"
+     ],
+     "limits": [
+      "NPR and the BBC give different ages for McCarthy (62 vs 63); omitted here."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/us-rodgers.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Aaron Rodgers in a Steelers practice jersey talks with head coach Mike McCarthy on a practice field",
+    "caption": "Aaron Rodgers and Mike McCarthy at Steelers training camp, pictured in August 2026.",
+    "credit": "Cramerwiki",
+    "license": "CC0 (public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:RodgersandMcCarthy.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "ca-bc",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-25T15:39",
+   "dateLabel": "Nov 25, 2026 (follow-up to the Nov 21 edition)",
+   "headline": "B.C.’s new Conservative premier orders SOGI 123 school materials removed, backs a Massey bridge and calls public servants back to the office",
+   "deck": "British Columbia Premier Lorne Doerkson said on Wednesday, Nov. 25, after his first cabinet meeting, that SOGI 123 materials on sexual orientation and gender identity would come off government websites “as of today” and be taken out of schools.",
+   "summary": "British Columbia Premier Lorne Doerkson said on Wednesday, Nov. 25, after his first cabinet meeting, that SOGI 123 materials on sexual orientation and gender identity would come off government websites “as of today” and be taken out of schools. SOGI 123 is a resource teachers use to make schools safer and more inclusive for students of all gender identities and orientations, according to its website. Doerkson said parents should have a say in how “sensitive topics” are introduced, and that teachers who keep using it would get “pushback from me as well.” His other two immediate priorities: a notice of intent to design a bridge, rather than the previous NDP government’s tunnel, to replace the George Massey Tunnel between Richmond and Delta, with a final decision he hopes to make before Christmas; and a phased return to the office, five days a week, for public servants who can work there.",
+   "why": "This is the first concrete test of what B.C.’s first Conservative government will do, and it starts with a culture-war issue that has divided parents and teachers for years. How school districts and teachers respond will show how far a premier can reach into classrooms.",
+   "label": "Reported + Official statement",
+   "note": "Doerkson was sworn in on Nov. 20 (covered in the Nov 21 edition).",
+   "sources": [
+    {
+     "title": "B.C.’s new premier outlines 3 immediate priorities after first cabinet meeting",
+     "site": "CBC News",
+     "date": "Nov 25, 2026",
+     "href": "https://www.cbc.ca/news/canada/british-columbia/bc-premier-doerkson-immediate-priorities-9.7436031"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/british-columbia/bc-premier-doerkson-immediate-priorities-9.7436031",
+     "publisher": "CBC News",
+     "published": "Nov 25, 2026, 3:39 PM ET; updated Nov 25, 2026, 5:16 PM ET",
+     "checkedAt": "2026-11-26T06:25:27-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Three priorities after first cabinet meeting: Massey bridge design notice, SOGI 123 removal, return to office",
+      "SOGI materials off government websites “as of today”; “pushback from me as well”",
+      "Bridge decision hoped for before Christmas; five days a week in office"
+     ],
+     "limits": [
+      "Single outlet; the premier’s remarks were made at a news conference."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/ca-bc.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Lorne Doerkson signs an oath book at a table beside the lieutenant governor at Government House",
+    "caption": "Lorne Doerkson signs the oath book at his swearing-in as B.C. premier, Government House, Victoria, Nov. 20, 2026.",
+    "credit": "GovernmentofBC",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Lorne_Doerkson_-B.C._Premier-_Swearing_in,_20_November_2026.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "ca-bill21",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-26T04:00",
+   "dateLabel": "Ruling scheduled Fri, Nov 27, 2026, 9:45 a.m. ET",
+   "headline": "Supreme Court of Canada to rule Friday on Quebec’s religious-symbols law and the notwithstanding clause",
+   "deck": "The Supreme Court of Canada says it will release its decision on Quebec’s secularism law, Bill 21, at 9:45 a.m. ET on Friday, Nov. 27, CBC reports.",
+   "summary": "The Supreme Court of Canada says it will release its decision on Quebec’s secularism law, Bill 21, at 9:45 a.m. ET on Friday, Nov. 27, CBC reports. The 2019 law bars some public sector workers, including teachers and police officers, from wearing religious symbols on the job. It was shielded with the Constitution’s notwithstanding clause, which lets governments override certain Charter rights for renewable five-year periods, and the big question is whether the court will set limits on that power. Legal observers quoted by CBC expect the ruling to matter well beyond Quebec; the court is already scheduled to hear a Saskatchewan notwithstanding-clause case on school pronoun rules in March. The Parti Québécois, which now leads a minority government, has vowed to go further than Bill 21.",
+   "why": "The notwithstanding clause is increasingly used by provinces to shield laws from court challenges, so the decision could reshape how far any Canadian government can go in overriding rights. Until Friday morning, though, nothing has been decided.",
+   "label": "Reported",
+   "note": "Scheduled, not yet released when this edition was prepared.",
+   "sources": [
+    {
+     "title": "What’s at stake as Canada’s top court ruling on Quebec secularism law looms",
+     "site": "CBC News",
+     "date": "Nov 26, 2026",
+     "href": "https://www.cbc.ca/news/canada/montreal/supreme-court-bill-21-quebec-9.7436487"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/montreal/supreme-court-bill-21-quebec-9.7436487",
+     "publisher": "CBC News",
+     "published": "Nov 26, 2026, 4:00 AM ET",
+     "checkedAt": "2026-11-26T06:25:28-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Decision to be released 9:45 a.m. ET Friday",
+      "Law adopted June 2019; applies to teachers and police among others",
+      "Saskatchewan notwithstanding-clause case to be heard in March; PQ minority government"
+     ],
+     "limits": [
+      "Single outlet; the release time is attributed to the court via CBC. Plain-language description of the notwithstanding clause is Donna Daily’s."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/ca-bill21.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Supreme Court of Canada building, a stone building with a green copper roof, under a blue summer sky",
+    "caption": "The Supreme Court of Canada building in Ottawa, pictured in 2017.",
+    "credit": "Dig deeper",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Supreme_court_of_Canada_in_summer.jpg",
+    "isFilePhoto": true,
+    "year": 2017
+   }
+  },
+  {
+   "id": "ca-kutryk",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-25T10:41",
+   "dateLabel": "Announced Nov 24, 2026; reported Nov 25",
+   "headline": "Canadian astronaut Joshua Kutryk welcomes his third child from the International Space Station",
+   "deck": "Canadian Space Agency astronaut Joshua Kutryk and his wife, Heather, announced the birth of their daughter on Tuesday, Nov. 24, while he is on a six-month mission aboard the International Space Station.",
+   "summary": "Canadian Space Agency astronaut Joshua Kutryk and his wife, Heather, announced the birth of their daughter on Tuesday, Nov. 24, while he is on a six-month mission aboard the International Space Station. The CSA said Kutryk shared the news from orbit and that mother and baby were doing well. “Even with the distance between us, we feel incredibly connected as we welcome our new little star into our lives,” the couple said. The BBC reports that Kutryk, a former fighter pilot from Fort Saskatchewan, Alberta, is only the fourth astronaut to miss a child’s birth while on the station. He launched on Oct. 1 as part of NASA’s SpaceX Crew-13 mission, his first spaceflight.",
+   "why": "A small, human story inside a very big job: long missions mean astronauts miss milestones at home, and space agencies now plan for that. It is also a reminder that Canada has an astronaut in orbit right now.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "The Kutryks announce birth of third child",
+     "site": "Canadian Space Agency",
+     "date": "Nov 24, 2026",
+     "href": "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-11-24-kutryks-announce-birth-third-child.asp"
+    },
+    {
+     "title": "Canadian astronaut welcomes baby girl from space station",
+     "site": "BBC News",
+     "date": "Nov 25, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-11-24-kutryks-announce-birth-third-child.asp",
+     "publisher": "Canadian Space Agency",
+     "checkedAt": "2026-11-26T06:28:29-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Birth of daughter announced Nov 24; shared from ISS; mother and baby well",
+      "Couple’s statement"
+     ],
+     "published": "Nov 24, 2026",
+     "limits": [
+      "The scripted fetch was refused (an access limit, not evidence of a broken link); the page was read through a web-fetch tool at the logged time."
+     ]
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo",
+     "publisher": "BBC News",
+     "published": "Nov 25, 2026, 10:41 AM ET",
+     "checkedAt": "2026-11-26T06:25:29-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Fourth astronaut to miss a birth aboard the ISS",
+      "From Fort Saskatchewan; Crew-13 launched Oct 1; first mission"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/ca-kutryk.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Official portrait of astronaut Joshua Kutryk in a blue flight suit, smiling",
+    "caption": "Joshua Kutryk in a 2017 NASA portrait taken when he was a Canadian Space Agency astronaut candidate.",
+    "credit": "Bill Stafford",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Josh_Kutryk_official_portrait.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Josh_Kutryk_official_portrait.jpg",
+    "isFilePhoto": true,
+    "year": 2017
+   }
+  },
+  {
+   "id": "ca-atwood",
+   "region": "ca",
+   "topic": "culture",
+   "ts": "2026-11-25T16:19",
+   "dateLabel": "Nov 25, 2026",
+   "headline": "Margaret Atwood’s bird observatory says 27,000 letters back a federal review of a 200-metre Pelee Island tower",
+   "deck": "The Pelee Island Bird Observatory, where novelist Margaret Atwood is honorary chair, said on Wednesday, Nov. 25, that more than 27,000 people had written in under a week to support a federal impact study of a planned 200-metre telecom tower on the Lake Erie island.",
+   "summary": "The Pelee Island Bird Observatory, where novelist Margaret Atwood is honorary chair, said on Wednesday, Nov. 25, that more than 27,000 people had written in under a week to support a federal impact study of a planned 200-metre telecom tower on the Lake Erie island. Opponents say the tower’s height, lights and guy wires threaten birds on Canada’s southernmost migratory route. “We are not done,” said Atwood, who turned 87 last week. The tower is planned for next year by DRW, a Chicago-based trading firm, which says it will voluntarily install “best-in-class bird collision mitigation” and that it went through a federal consultation. The observatory expects a decision on the impact study by Jan. 19.",
+   "why": "It is a classic clash between the infrastructure that powers high-speed finance and a fragile migration corridor, with one of Canada’s most famous writers putting her name behind the birds. The federal decision in January will show how much weight public pressure carries in tower approvals.",
+   "label": "Reported + Claim",
+   "note": "The 27,000 figure is the observatory’s own count, as reported by CBC.",
+   "sources": [
+    {
+     "title": "Margaret Atwood, bird advocates fighting Pelee Island telecom tower say battle is gaining steam",
+     "site": "CBC News",
+     "date": "Nov 25, 2026",
+     "href": "https://www.cbc.ca/news/canada/windsor/atwood-bird-tower-pelee-island-9.7435820"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/windsor/atwood-bird-tower-pelee-island-9.7435820",
+     "publisher": "CBC News",
+     "published": "Nov 25, 2026, 4:19 PM ET",
+     "checkedAt": "2026-11-26T06:25:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "More than 27,000 letters in under a week (PIBO figure); decision expected by Jan 19",
+      "Atwood quote; turned 87 last week",
+      "DRW plans tower next year; says it will install bird collision mitigation"
+     ],
+     "limits": [
+      "Single outlet; letter count is the advocacy group’s own figure."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/ca-atwood.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Close-up of author Margaret Atwood, with curly grey hair, speaking on stage",
+    "caption": "Margaret Atwood at the Collision conference in Toronto, 2022.",
+    "credit": "Collision Conf",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Margaret_Atwood_(52161564186)_(cropped).jpg",
+    "isFilePhoto": true,
+    "year": 2022
+   }
+  },
+  {
+   "id": "ca-tremblant",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-25T06:45",
+   "dateLabel": "Nov 25, 2026",
+   "headline": "Lack of snow cancels Mont-Tremblant’s women’s World Cup giant slaloms again",
+   "deck": "Two women’s World Cup giant slalom races planned for Mont-Tremblant, Que., from Dec. 5 have been cancelled because of a lack of snow, the International Ski and Snowboard Federation (FIS) said on Wednesday, Nov. 25.",
+   "summary": "Two women’s World Cup giant slalom races planned for Mont-Tremblant, Que., from Dec. 5 have been cancelled because of a lack of snow, the International Ski and Snowboard Federation (FIS) said on Wednesday, Nov. 25. FIS said it was “working on a potential rescheduling.” The races were also cancelled in December 2024 because of warm weather; half the events have now been called off since Tremblant returned to the calendar, CBC reports. A Weather Network meteorologist told CBC that an exceptionally strong El Niño could make this one of Canada’s warmest winters on record, and that counting on early-season cold is becoming risky. Alpine Canada says it is looking ahead to December 2027.",
+   "why": "Canada’s only women’s World Cup stop keeps falling victim to warm early winters, a small but telling sign of how climate shifts hit winter sport scheduling. Fewer home races also means fewer chances for Canadian skiers to compete in front of home crowds.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Lack of snow forces cancellation of Canadian World Cup alpine skiing races",
+     "site": "CBC Sports",
+     "date": "Nov 25, 2026",
+     "href": "https://www.cbc.ca/sports/olympics/winter/alpine-skiing/alpine-skiing-mont-tremblant-cancellation-9.7435170"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/sports/olympics/winter/alpine-skiing/alpine-skiing-mont-tremblant-cancellation-9.7435170",
+     "publisher": "CBC Sports",
+     "published": "Nov 25, 2026, 6:45 AM ET; updated Nov 25, 2026, 3:53 PM ET",
+     "checkedAt": "2026-11-26T06:25:30-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Two GS races from Dec 5 cancelled; FIS working on rescheduling",
+      "Also cancelled Dec 2024; El Niño warning; Alpine Canada looks to Dec 2027"
+     ],
+     "limits": [
+      "Single outlet."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/ca-tremblant.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Snow-covered ski runs cut through forest on the south face of Mont Tremblant",
+    "caption": "The south face of the Mont-Tremblant ski hill in Quebec, pictured in 2017.",
+    "credit": "Meg.jenk",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Mont-Tremblant_ski_hill_South_Face.jpg",
+    "isFilePhoto": true,
+    "year": 2017
+   }
+  },
+  {
+   "id": "hk-taipo",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-26T03:07",
+   "dateLabel": "Nov 26, 2026 HKT (anniversary; follows the Nov 21–25 editions)",
+   "headline": "Hongkongers lay flowers for the 168 Tai Po fire victims on the first anniversary, as some lament the lack of an official memorial",
+   "deck": "Mourners left flowers, notes and paper cranes at a park beside Wang Fuk Court in Tai Po on Thursday, Nov. 26, one year after the fire that killed 168 people, while some told Hong Kong Free Press they were disappointed the government held no official remembrance.",
+   "summary": "Mourners left flowers, notes and paper cranes at a park beside Wang Fuk Court in Tai Po on Thursday, Nov. 26, one year after the fire that killed 168 people, while some told Hong Kong Free Press they were disappointed the government held no official remembrance. A makeshift altar grew through the morning at the Kwong Fuk Sitting-out Area as plainclothes officers watched, HKFP reported; RTHK said former residents observed a moment of silence. Chief Secretary Eric Chan said on Tuesday that the government would not host official mourning events and urged people to be “careful” about which memorials they joined; one mourner told HKFP that a government-organised event was “the least authorities could do.” Deputy Financial Secretary Michael Wong said on Thursday that support for displaced residents would continue: most of the almost 2,000 households have agreed to sell their flats to the government, about 1,400 have chosen subsidised flats, and legislation to take the remaining units would be a “last resort” and not before next year. An independent committee’s report last month found the blaze, which spread during a renovation, was preventable and that government departments mishandled residents’ complaints.",
+   "why": "A year on, the anniversary shows two Hong Kongs side by side: grief expressed quietly at a roadside altar, and an official approach that offers money and rehousing but avoids public mourning. With police enquiries around memorial events already defended by the security chief this week, how people are allowed to remember is itself part of the story.",
+   "label": "Reported + Official statement",
+   "note": "Ongoing: the Nov 21, 23, 24 and 25 editions covered the run-up to the anniversary, including the security chief’s defence of police enquiries (Nov 25). The BBC feature published Nov 25 (ET) gives survivors’ accounts.",
+   "sources": [
+    {
+     "title": "Hongkongers mourn Tai Po fire victims on first anniversary as some lament lack of official memorial",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 26, 2026",
+     "href": "https://hongkongfp.com/2026/11/26/hongkongers-mourn-tai-po-fire-victims-on-first-anniversary-as-some-lament-lack-of-official-memorial/"
+    },
+    {
+     "title": "Tai Po fire victims remembered, one year on",
+     "site": "RTHK",
+     "date": "Nov 26, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879360-20261126.htm"
+    },
+    {
+     "title": "Govt pledges continued support for Wang Fuk residents",
+     "site": "RTHK",
+     "date": "Nov 26, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879336-20261126.htm"
+    },
+    {
+     "title": "A renovation was meant to improve these Hong Kong homes - it ended in a blaze that killed 168",
+     "site": "BBC News",
+     "date": "Nov 25, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/26/hongkongers-mourn-tai-po-fire-victims-on-first-anniversary-as-some-lament-lack-of-official-memorial/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 26, 2026, 1:12 AM ET; updated Nov 26, 2026, 5:38 AM ET",
+     "checkedAt": "2026-11-26T06:25:39-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Makeshift altar at Kwong Fuk Sitting-out Area on Thursday; plainclothes officers nearby",
+      "Eric Chan: no official mourning events; mourners’ disappointment",
+      "Independent committee report last month found departments mishandled complaints"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879360-20261126.htm",
+     "publisher": "RTHK",
+     "published": "Nov 26, 2026, 4:07 PM HKT (3:07 AM ET)",
+     "checkedAt": "2026-11-26T06:25:39-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Former residents and public laid flowers and observed a moment of silence"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster."
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879336-20261126.htm",
+     "publisher": "RTHK",
+     "published": "Nov 26, 2026, 12:16 PM HKT (Nov 25, 11:16 PM ET)",
+     "checkedAt": "2026-11-26T06:25:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Michael Wong: support continues; almost 2,000 households, 1,400 chose subsidised flats; 13 refused; legislation a last resort, not this year"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster."
+     ]
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o",
+     "publisher": "BBC News",
+     "published": "Nov 25, 2026, 6:26 PM ET",
+     "checkedAt": "2026-11-26T06:25:42-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "168 killed; final report found tragedy preventable; fire spread about 10 m per second"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/hk-taipo.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Row of tall residential tower blocks of Wang Fuk Court in Tai Po, with green hills behind",
+    "caption": "Wang Fuk Court in Tai Po, pictured in 2009, years before the fire.",
+    "credit": "WiNG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Wang_Fuk_Court.jpg",
+    "isFilePhoto": true,
+    "year": 2009
+   }
+  },
+  {
+   "id": "hk-urbtix",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-25T08:11",
+   "dateLabel": "Nov 25, 2026 HKT",
+   "headline": "Hack of Hong Kong’s URBTIX arts ticketing system exposes data of about 1.3 million users",
+   "deck": "Hong Kong’s Leisure and Cultural Services Department (LCSD) said on Wednesday, Nov. 25, that the personal data of about 1.3 million users of URBTIX, the main ticketing system for its performance venues, had been accessed in an attack on the contractor that runs it.",
+   "summary": "Hong Kong’s Leisure and Cultural Services Department (LCSD) said on Wednesday, Nov. 25, that the personal data of about 1.3 million users of URBTIX, the main ticketing system for its performance venues, had been accessed in an attack on the contractor that runs it. Preliminary findings show names or usernames, phone numbers and email addresses were affected; the LCSD said the system does not collect identity-document details and masks credit card information. RTHK reports the contractor, Tianjin Maoyan Weying Technology (Maoyan), notified authorities on Tuesday; the department has reported the incident to police, the Security Bureau, the Digital Policy Office and the privacy commissioner, asked the contractor for a report, and is arranging to inform affected users.",
+   "why": "URBTIX is how most people in Hong Kong buy tickets for concerts, theatre and dance at public venues, so a breach this size touches a large share of the city’s arts audience. Leaked phone numbers and emails are often used for convincing scam messages, so users should be wary of “ticket” texts and emails in the coming weeks.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "LCSD reports information security incident",
+     "site": "Hong Kong government (LCSD press release)",
+     "date": "Nov 25, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/25/P2026112500565.htm"
+    },
+    {
+     "title": "Data of 1.3 million URBTIX users compromised in attack",
+     "site": "RTHK",
+     "date": "Nov 25, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879255-20261125.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/25/P2026112500565.htm",
+     "publisher": "Hong Kong government (LCSD)",
+     "published": "Nov 25, 2026, 7:35 PM HKT (6:35 AM ET)",
+     "checkedAt": "2026-11-26T06:27:57-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "About 1,300,000 users; usernames/names, phone numbers, emails",
+      "No ID document data collected; card info masked",
+      "Reported to police, Security Bureau, DPO, PCPD; affected persons to be informed"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879255-20261125.htm",
+     "publisher": "RTHK",
+     "published": "Nov 25, 2026, 9:11 PM HKT (8:11 AM ET)",
+     "checkedAt": "2026-11-26T06:25:43-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Contractor Maoyan notified authorities Tuesday; system launched December 2022"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/hk-urbtix.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Hong Kong Cultural Centre’s curved, windowless building on the Tsim Sha Tsui waterfront, seen across the harbour",
+    "caption": "The Hong Kong Cultural Centre, one of the LCSD’s main performance venues, pictured in 2014.",
+    "credit": "Wing1990hk",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Cultural_Centre_201408.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Cultural_Centre_201408.jpg",
+    "isFilePhoto": true,
+    "year": 2014
+   }
+  },
+  {
+   "id": "hk-exports",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-11-26T04:42",
+   "dateLabel": "Nov 26, 2026 HKT (October figures)",
+   "headline": "Hong Kong’s exports jump 65.6% in October on demand for AI-related electronics",
+   "deck": "The value of Hong Kong’s total goods exports rose 65.6% year on year in October 2026 to HK$764.5 billion, government figures released on Thursday, Nov. 26, show.",
+   "summary": "The value of Hong Kong’s total goods exports rose 65.6% year on year in October 2026 to HK$764.5 billion, government figures released on Thursday, Nov. 26, show. Imports rose 56.2% to HK$783.8 billion, leaving a trade deficit of HK$19.3 billion. A government spokesman credited continued strong growth in exports of AI-related electronic products. Exports to Taiwan nearly tripled (up 198.3%), exports to the mainland rose 65.4%, those to the U.S. rose 105.2% and those to Mexico 258.6%. For the first ten months of the year, exports were up 47.4%. The spokesman warned of uncertainties including trade and technology policies, risks tied to the rapid growth of AI investment and geopolitical tensions.",
+   "why": "Hong Kong is a major re-export hub for the servers and chips behind the global AI boom, and these numbers show how heavily its trade now leans on that one trend. The government’s own warning, plus the new U.S. tariff proposals this week, are reminders that it could reverse quickly.",
+   "label": "Official figures",
+   "sources": [
+    {
+     "title": "External merchandise trade statistics for October 2026",
+     "site": "Hong Kong government (Census and Statistics Department)",
+     "date": "Nov 26, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/26/P2026112600263.htm"
+    },
+    {
+     "title": "HK exports rise in October on AI electronics demand",
+     "site": "RTHK",
+     "date": "Nov 26, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879381-20261126.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/26/P2026112600263.htm",
+     "publisher": "Hong Kong government (C&SD)",
+     "published": "Nov 26, 2026",
+     "checkedAt": "2026-11-26T06:27:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Exports +65.6% to HK$764.5bn; imports +56.2% to HK$783.8bn; deficit HK$19.3bn",
+      "Taiwan +198.3%, mainland +65.4%, Mexico +258.6%, USA +105.2%; Jan–Oct exports +47.4%"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879381-20261126.htm",
+     "publisher": "RTHK",
+     "published": "Nov 26, 2026, 5:42 PM HKT (4:42 AM ET)",
+     "checkedAt": "2026-11-26T06:25:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Spokesman attributes growth to AI-related electronics; warns of uncertainties"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/hk-exports.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Rows of red gantry cranes and container stacks at the Kwai Tsing Container Terminals, with hills behind",
+    "caption": "Kwai Tsing Container Terminals in Hong Kong, pictured in 2024.",
+    "credit": "Qwer132477",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kwai_Tsing_Container_Terminals_2024_05_part1.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "hk-phil",
+   "region": "hk",
+   "topic": "culture",
+   "ts": "2026-11-26T01:45",
+   "dateLabel": "Concert Nov 23, 2026 (Barcelona); release Nov 26 HKT",
+   "headline": "Hong Kong Philharmonic opens its European tour in Barcelona under new music director Tarmo Peltokoski",
+   "deck": "The Hong Kong Philharmonic Orchestra opened its 2026 European tour at Barcelona’s Palau de la Música Catalana on Nov. 23, the Hong Kong government said in a release on Thursday, Nov. 26.",
+   "summary": "The Hong Kong Philharmonic Orchestra opened its 2026 European tour at Barcelona’s Palau de la Música Catalana on Nov. 23, the Hong Kong government said in a release on Thursday, Nov. 26. It is the orchestra’s first international tour under its new music director, Tarmo Peltokoski, who began his tenure this season, and continues to seven more cities in Germany, Finland and Austria. The concert was supported by Hong Kong’s Economic and Trade Office in Brussels and its culture bureau, whose representative used a pre-concert reception to invite guests to Art March Hong Kong in March 2027.",
+   "why": "Touring Europe’s great halls is how an orchestra builds an international reputation, and the HK Phil is doing it with one of classical music’s youngest star conductors. The government’s heavy involvement also shows how Hong Kong is using culture to promote the city abroad.",
+   "label": "Official statement",
+   "note": "Based on a Hong Kong government press release; no independent review of the concert was found.",
+   "sources": [
+    {
+     "title": "Brussels ETO supports opening of Hong Kong Philharmonic Orchestra’s European tour in Barcelona, Spain",
+     "site": "Hong Kong government press release",
+     "date": "Nov 26, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/26/P2026112600128.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/26/P2026112600128.htm",
+     "publisher": "Hong Kong government press release",
+     "published": "Nov 26, 2026, 2:45 PM HKT (1:45 AM ET)",
+     "checkedAt": "2026-11-26T06:27:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Concert at Palau de la Música Catalana Nov 23 opened European tour",
+      "First tour under music director Tarmo Peltokoski; seven more cities in Germany, Finland and Austria",
+      "Art March Hong Kong in March 2027"
+     ],
+     "limits": [
+      "Government promotional release; single source."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hk-wong",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-26T03:49",
+   "dateLabel": "Sentenced Nov 26, 2026 HKT",
+   "headline": "Former lawmaker William Wong gets 120 hours of community service over drink-driving crash at CUHK",
+   "deck": "Former Hong Kong legislator William Wong was sentenced on Thursday, Nov. 26, to 120 hours of community service, a one-year driving ban and fines totalling HK$6,000 after pleading guilty to drink driving and three other offences.",
+   "summary": "Former Hong Kong legislator William Wong was sentenced on Thursday, Nov. 26, to 120 hours of community service, a one-year driving ban and fines totalling HK$6,000 after pleading guilty to drink driving and three other offences. The charges arose from a June 29 incident in which his car hit two parked vehicles on the Chinese University of Hong Kong campus; he left the scene and later returned, failing a breath test, HKFP reported. Wong, then an associate dean in CUHK’s engineering faculty, resigned from the Legislative Council and the university after his arrest. HKFP says the magistrate took into account his early guilty plea and that a previous drink-driving offence was more than a decade ago.",
+   "why": "Wong was a sitting legislator when the crash happened and quit both his seat and his university post over it. The sentence, which follows the usual weight given to an early guilty plea, closes a case that drew wide attention to conduct expected of public figures.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Ex-lawmaker William Wong sentenced to 120 hours of community service, fined HK$6k over drink-driving crash",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 26, 2026",
+     "href": "https://hongkongfp.com/2026/11/26/ex-lawmaker-william-wong-sentenced-to-120-hours-of-community-service-fined-hk6k-over-drink-driving-crash/"
+    },
+    {
+     "title": "Ex-lawmaker William Wong sentenced over CUHK crash",
+     "site": "RTHK",
+     "date": "Nov 26, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879335-20261126.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/26/ex-lawmaker-william-wong-sentenced-to-120-hours-of-community-service-fined-hk6k-over-drink-driving-crash/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 26, 2026, 3:49 AM ET",
+     "checkedAt": "2026-11-26T06:28:00-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "120 hours community service; one-year ban; HK$6,000 in fines; early plea and decade-old prior considered",
+      "Resigned from LegCo and CUHK; left scene and later failed breath test"
+     ],
+     "limits": [
+      "HKFP says it relied partly on local media reports of the hearing."
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879335-20261126.htm",
+     "publisher": "RTHK",
+     "published": "Nov 26, 2026, 11:50 AM HKT (Nov 25, 10:50 PM ET)",
+     "checkedAt": "2026-11-26T06:25:45-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Sentence; four charges; incident on CUHK campus June 29; hit two parked vehicles"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-philippines",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-26T06:23",
+   "dateLabel": "Nov 26, 2026",
+   "headline": "China warns that a new Australia–Philippines defence deal will “exacerbate tensions” in the South China Sea",
+   "deck": "China’s defence ministry on Thursday, Nov. 26, denounced a defence agreement struck this month between Australia and the Philippines, saying it would “exacerbate tensions and undermine regional stability.”",
+   "summary": "China’s defence ministry on Thursday, Nov. 26, denounced a defence agreement struck this month between Australia and the Philippines, saying it would “exacerbate tensions and undermine regional stability.” Spokesman Chen Xi accused “certain Philippine politicians” of spreading “false narratives” and of enlisting “forces from outside the region”, and said China would “take necessary measures to respond firmly” to any provocations. The deal, agreed during Australian Prime Minister Anthony Albanese’s visit to Manila, updates a decades-old memorandum and covers enhanced maritime activities, information sharing and defence infrastructure, according to Canberra. China claims most of the South China Sea despite an international ruling that its claim has no legal basis.",
+   "why": "The South China Sea is one of the world’s most important shipping lanes and a frequent scene of confrontations between Chinese and Philippine vessels. Each new security tie among U.S. allies draws a sharper response from Beijing, raising the stakes of any incident at sea.",
+   "label": "Reported + Official statement",
+   "note": "AFP copy carried by Hong Kong Free Press.",
+   "sources": [
+    {
+     "title": "China warns Australia-Philippines defence deal to fuel ‘tensions’",
+     "site": "Hong Kong Free Press (AFP)",
+     "date": "Nov 26, 2026",
+     "href": "https://hongkongfp.com/2026/11/26/china-warns-australia-philippines-defence-deal-to-fuel-tensions/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/26/china-warns-australia-philippines-defence-deal-to-fuel-tensions/",
+     "publisher": "Hong Kong Free Press (AFP copy)",
+     "published": "Nov 26, 2026, 6:23 AM ET",
+     "checkedAt": "2026-11-26T06:26:00-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Defence ministry spokesman Chen Xi quotes on Thursday",
+      "Deal struck this month during Albanese visit; updates decades-old memorandum; maritime activities, information sharing, infrastructure"
+     ],
+     "limits": [
+      "Single wire report."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-interpol",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-25T06:00",
+   "dateLabel": "Nov 25, 2026; Interpol assembly in Hong Kong Nov 30–Dec 3",
+   "headline": "British lawyer says China misuses Interpol red notices to target dissidents, days before Hong Kong hosts Interpol’s assembly",
+   "deck": "A British lawyer who specialises in Interpol “red notices” told the Guardian that China is misusing the system to target and silence dissidents abroad, ahead of Interpol’s 94th general assembly in Hong Kong from Nov. 30 to Dec. 3.",
+   "summary": "A British lawyer who specialises in Interpol “red notices” told the Guardian that China is misusing the system to target and silence dissidents abroad, ahead of Interpol’s 94th general assembly in Hong Kong from Nov. 30 to Dec. 3. Ben Keith said he was working on five cases involving questionable Chinese requests, and that he had asked Interpol in July whether Beijing had sought notices against five prominent UK-based Chinese dissidents without a substantive answer. A report he co-wrote, “The Red Notice Trap”, cites the case of Uyghur activist Idris Hasan, held in Morocco for nearly four years on a Chinese red notice that Interpol itself suspended within two weeks. Keith said hosting the assembly gives Beijing a chance to “reputation wash”. Interpol said it has strengthened safeguards and that its constitution bars requests of a predominantly political character. The Chinese embassy had been approached for comment.",
+   "why": "Red notices can get someone detained at a border far from home, which is why rights groups watch closely how authoritarian governments use them. With police chiefs from 196 countries heading to Hong Kong next week, the question of political abuse of Interpol will hang over the meeting.",
+   "label": "Claim",
+   "note": "The allegations are the lawyer’s and his report’s; China had not responded in the Guardian report. The Nov 23 edition covered Hong Kong’s security arrangements for the assembly.",
+   "sources": [
+    {
+     "title": "China misusing Interpol to target dissidents, says leading UK lawyer",
+     "site": "The Guardian",
+     "date": "Nov 25, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/25/china-misusing-interpol-target-dissidents-uk-lawyer"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/25/china-misusing-interpol-target-dissidents-uk-lawyer",
+     "publisher": "The Guardian",
+     "published": "Nov 25, 2026, 6:00 AM ET; updated Nov 25, 2026, 11:02 AM ET",
+     "checkedAt": "2026-11-26T06:26:00-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Ben Keith claims; five cases; July request to Interpol",
+      "Hong Kong hosts 94th general assembly Nov 30–Dec 3; 196 member countries",
+      "Idris Hasan case; Interpol response; Chinese embassy approached"
+     ],
+     "limits": [
+      "Single outlet; claims by a lawyer acting for affected people, not independently verified."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/cn-interpol.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Modern glass headquarters building of Interpol in Lyon, behind a fence and trees",
+    "caption": "Interpol’s headquarters in Lyon, France, pictured in 2011.",
+    "credit": "Jean-Marc Brivet",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Interpol_-_Lyon.JPG",
+    "isFilePhoto": true,
+    "year": 2011
+   }
+  },
+  {
+   "id": "cn-iqbal",
+   "region": "cn",
+   "topic": "culture",
+   "ts": "2026-11-26T04:40",
+   "dateLabel": "Recital Nov 25, 2026; reported Nov 26",
+   "headline": "Pakistan’s first astronaut recites poet Muhammad Iqbal aboard China’s Tiangong station",
+   "deck": "Floating inside China’s Tiangong space station on Wednesday, Nov. 25, Pakistan’s first astronaut, Muhammad Zeeshan Ali, recited a couplet by the national poet Muhammad Iqbal and translated it into Mandarin for his Chinese crewmates, Al Jazeera reports.",
+   "summary": "Floating inside China’s Tiangong space station on Wednesday, Nov. 25, Pakistan’s first astronaut, Muhammad Zeeshan Ali, recited a couplet by the national poet Muhammad Iqbal and translated it into Mandarin for his Chinese crewmates, Al Jazeera reports. The line, “Sitaron se aage jahan aur bhi hain” (“Countless worlds lie beyond the stars”), drew applause and midair hugs. Iqbal, who died in 1938 and is revered in both Pakistan and India, has been quoted in orbit before: India’s first astronaut, Rakesh Sharma, echoed his poem “Tarana” in 1984, and in 1997 Indian Prime Minister Inder Kumar Gujral quoted the same couplet to astronaut Kalpana Chawla. Ali reached the station this week aboard Shenzhou-24.",
+   "why": "China is starting to use its space station diplomatically, inviting astronauts from partner countries. Ali’s choice of a poet loved on both sides of the India–Pakistan border turned a political milestone into a cultural moment, and a reminder of how poetry travels.",
+   "label": "Reported",
+   "note": "The Nov 25 edition covered Shenzhou-24’s launch and docking.",
+   "sources": [
+    {
+     "title": "Iqbal in space: Urdu poet’s verses unite India, Pakistan beyond Earth",
+     "site": "Al Jazeera",
+     "date": "Nov 26, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/26/iqbal-in-space-urdu-poets-verses-unite-india-pakistan-beyond-earth"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/26/iqbal-in-space-urdu-poets-verses-unite-india-pakistan-beyond-earth",
+     "publisher": "Al Jazeera",
+     "published": "Nov 26, 2026, 4:40 AM ET",
+     "checkedAt": "2026-11-26T06:26:01-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Ali recited Iqbal couplet on Tiangong Wednesday and translated it into Mandarin",
+      "Rakesh Sharma 1984 and Kalpana Chawla/Gujral 1997 precedents",
+      "Iqbal died April 21, 1938"
+     ],
+     "limits": [
+      "Single outlet."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/cn-iqbal.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Black-and-white photo of Muhammad Iqbal seated in a wicker chair in a garden",
+    "caption": "Poet and philosopher Muhammad Iqbal, photographed in 1935 by Lady Ottoline Morrell.",
+    "credit": "Lady Ottoline Morrell",
+    "license": "Public domain (PD-old-70)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sir_Muhammad_Iqbal_1935_by_Lady_Ottoline_Morrell.png",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Sir_Muhammad_Iqbal_1935_by_Lady_Ottoline_Morrell.png",
+    "isFilePhoto": true,
+    "year": 1935
+   }
+  },
+  {
+   "id": "w-taylor",
+   "region": "world",
+   "topic": "culture",
+   "ts": "2026-11-26T01:34",
+   "dateLabel": "Died Nov 23, 2026; announced Nov 25",
+   "headline": "Andy Taylor, Duran Duran’s original guitarist, dies at 65",
+   "deck": "Andy Taylor, the guitarist who helped make Duran Duran one of the defining bands of the early MTV era, has died at 65 after “a long and courageous battle with prostate cancer,” his bandmates said.",
+   "summary": "Andy Taylor, the guitarist who helped make Duran Duran one of the defining bands of the early MTV era, has died at 65 after “a long and courageous battle with prostate cancer,” his bandmates said. The band said he died peacefully at home with his family on Monday, Nov. 23; the news was made public on Wednesday. Born in Tynemouth in north-east England, the self-taught son of a fisherman answered an advert for a “live-wire guitarist” and joined the band in Birmingham in 1980, co-writing hits including “Girls on Film”, “Rio”, “Save a Prayer” and “Hungry Like the Wolf”. He also worked with Robert Palmer, Rod Stewart and Belinda Carlisle. When Duran Duran entered the Rock & Roll Hall of Fame in November 2022, Taylor revealed he had stage 4 metastatic prostate cancer and could not attend.",
+   "why": "Duran Duran’s videos helped invent the music-video era that shaped pop for decades, and Taylor’s guitar gave the synth-pop its bite. His public disclosure of advanced prostate cancer also drew attention to a disease that is often caught late.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Duran Duran guitarist Andy Taylor dies aged 65",
+     "site": "BBC News",
+     "date": "Nov 25, 2026 (updated Nov 26)",
+     "href": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po"
+    },
+    {
+     "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+     "site": "NPR",
+     "date": "Nov 26, 2026",
+     "href": "https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po",
+     "publisher": "BBC News",
+     "published": "Nov 25, 2026, 4:43 PM ET; updated Nov 26, 2026, 12:19 AM ET",
+     "checkedAt": "2026-11-26T06:26:24-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Died Monday Nov 23 at home after prostate cancer (band statement)",
+      "Born Tynemouth; joined in 1980; co-wrote Save A Prayer, Rio, Girls On Film; worked with Palmer, Stewart, Carlisle"
+     ]
+    },
+    {
+     "url": "https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit",
+     "publisher": "NPR",
+     "published": "Nov 26, 2026, 1:34 AM ET",
+     "checkedAt": "2026-11-26T06:26:26-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Death confirmed by family and bandmates",
+      "Revealed stage 4 prostate cancer at November 2022 Rock & Roll Hall of Fame induction"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/w-taylor.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Black-and-white group portrait of the five members of Duran Duran in 1983",
+    "caption": "Duran Duran around 1983; Andy Taylor is second from right.",
+    "credit": "Brian Aris; Distributed by Capitol Records",
+    "license": "Public domain (US, no copyright notice)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Duran_Duran_1983.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Duran_Duran_1983.jpg",
+    "isFilePhoto": true,
+    "year": 1983
+   }
+  },
+  {
+   "id": "w-cairo",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-25T19:39",
+   "dateLabel": "Nov 25, 2026 (evening, Cairo time)",
+   "headline": "Fuel tanker crash sets off fire on Cairo’s ring road, killing at least 31",
+   "deck": "At least 31 people were killed and 21 injured on Wednesday evening, Nov. 25, when a fuel tanker crashed and caught fire on Cairo’s ring road in the Warraq area of Giza, Egypt’s health ministry said.",
+   "summary": "At least 31 people were killed and 21 injured on Wednesday evening, Nov. 25, when a fuel tanker crashed and caught fire on Cairo’s ring road in the Warraq area of Giza, Egypt’s health ministry said. More than two dozen cars and motorcycles were burned, the Guardian reports. State media said the tanker overturned and doused nearby vehicles with fuel; the state-owned Al-Ahram, citing sources close to the investigation, said a high-voltage cable fell in front of the truck, causing the driver to lose control. The public prosecutor has opened an investigation and ordered DNA testing to identify victims. President Abdel Fattah al-Sisi expressed condolences.",
+   "why": "The ring road is a key artery encircling the Egyptian capital, and the disaster renews scrutiny of transport safety and ageing infrastructure in Egypt. The cause is still under investigation; the cable account comes from unnamed sources in state media.",
+   "label": "Reported + Official figures + Unnamed sources",
+   "note": "Casualty figures are from Egypt’s health ministry and may change. The falling-cable explanation is from Al-Ahram citing unnamed sources, as relayed by the BBC.",
+   "sources": [
+    {
+     "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+     "site": "BBC News",
+     "date": "Nov 25, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o"
+    },
+    {
+     "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+     "site": "The Guardian (AP)",
+     "date": "Nov 25, 2026",
+     "href": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o",
+     "publisher": "BBC News",
+     "published": "Nov 25, 2026, 4:25 PM ET; updated Nov 25, 2026, 5:18 PM ET",
+     "checkedAt": "2026-11-26T06:26:27-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "31 killed, 21 injured (health ministry); Warraq; Wednesday evening",
+      "State media: tanker overturned; Al-Ahram: high-voltage cable fell; prosecutor investigating, DNA samples"
+     ]
+    },
+    {
+     "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+     "publisher": "The Guardian (with AP)",
+     "published": "Nov 25, 2026, 7:39 PM ET; updated Nov 26, 2026, 5:01 AM ET",
+     "checkedAt": "2026-11-26T06:26:42-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "At least 31 killed, 21 injured; more than two dozen vehicles charred",
+      "Sisi condolences; DNA investigations"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/w-cairo.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Cars and a minibus driving along a wide stretch of the Cairo Ring Road in Giza",
+    "caption": "Traffic on the Cairo Ring Road in Giza, pictured in May 2026.",
+    "credit": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Cairo_Ring_Road_in_Giza,_Egypt.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "w-ebola",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-26T02:41",
+   "dateLabel": "Nov 26, 2026 (ongoing outbreak since May)",
+   "headline": "Congo’s Ebola outbreak passes 12,000 confirmed cases as fighting forces health workers out",
+   "deck": "Confirmed Ebola cases in the Democratic Republic of the Congo have passed 12,000, with 5,904 deaths, government data showed on Thursday, Nov. 26, as fighting in Ituri province disrupts the response, Al Jazeera reports.",
+   "summary": "Confirmed Ebola cases in the Democratic Republic of the Congo have passed 12,000, with 5,904 deaths, government data showed on Thursday, Nov. 26, as fighting in Ituri province disrupts the response, Al Jazeera reports. The World Health Organization’s Ebola incident manager, Catherine Smallwood, said about a dozen people, including two WHO staff, were evacuated to Bunia after three days trapped in a hospital amid crossfire between the army and the CRP armed group. The outbreak, caused by the rare Bundibugyo species of the virus, was declared in mid-May and has spread to eight of the country’s 26 provinces. There are no approved treatments or vaccines for this species.",
+   "why": "This is the deadliest Ebola outbreak Congo has recorded, and with no approved vaccine for this strain, containment depends on health workers reaching patients and contacts, which the fighting is now preventing. Outbreaks that run unchecked raise the risk of spread across borders.",
+   "label": "Reported + Official figures",
+   "note": "Single outlet (Al Jazeera, citing Congolese government data, the WHO and the UN mission).",
+   "sources": [
+    {
+     "title": "DR Congo Ebola cases surpass 12,000 as fighting disrupts response in east",
+     "site": "Al Jazeera",
+     "date": "Nov 26, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/26/dr-congo-ebola-cases-surpass-12000-as-fighting-disrupts-response-in-east"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/26/dr-congo-ebola-cases-surpass-12000-as-fighting-disrupts-response-in-east",
+     "publisher": "Al Jazeera",
+     "published": "Nov 26, 2026, 2:41 AM ET",
+     "checkedAt": "2026-11-26T06:26:28-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "At least 12,021 confirmed infections, 5,904 deaths (government data Thursday)",
+      "WHO’s Smallwood: dozen evacuated to Bunia after three days trapped",
+      "Bundibugyo species; declared mid-May; 8 of 26 provinces; no approved vaccines"
+     ],
+     "limits": [
+      "Single outlet; figures attributed to Congolese government data."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/w-ebola.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Coloured electron microscope image of a long, looped blue Ebola virus particle on a pink background",
+    "caption": "Electron micrograph of an Ebola virus particle, from the U.S. Centers for Disease Control and Prevention (undated file image).",
+    "credit": "CDC/Cynthia Goldsmith",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ebola_virus_virion.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Ebola_virus_virion.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "w-sinner",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-26T02:19",
+   "dateLabel": "Nov 26, 2026",
+   "headline": "Jannik Sinner ruled out of the 2027 Australian Open after knee surgery",
+   "deck": "World No. 2 Jannik Sinner will miss the Australian Open in January after knee surgery, Tennis Australia said on Thursday, Nov. 26.",
+   "summary": "World No. 2 Jannik Sinner will miss the Australian Open in January after knee surgery, Tennis Australia said on Thursday, Nov. 26. The 25-year-old Italian, champion in Melbourne in 2024 and 2025, said this week he had surgery to “improve the condition of my iliotibial band”; Al Jazeera says the operation was on his right knee, at a clinic in Finland. He has not played since winning Wimbledon in July. Tennis Australia chief executive Andrew Abdo said Sinner “is looking forward to returning for AO 2028.” The 2027 main draw starts on Jan. 17.",
+   "why": "Sinner was the dominant player of the first half of 2026, so his absence blows open the first Grand Slam of the year. It also marks a long layoff for one of the sport’s biggest stars.",
+   "label": "Reported + Official statement",
+   "sources": [
+    {
+     "title": "Knee surgery rules Sinner out of Australian Open",
+     "site": "BBC Sport",
+     "date": "Nov 26, 2026",
+     "href": "https://www.bbc.co.uk/sport/tennis/articles/c6x29q88r9v5o"
+    },
+    {
+     "title": "Jannik Sinner ruled out of 2027 Australian Open after knee surgery",
+     "site": "Al Jazeera (AFP)",
+     "date": "Nov 26, 2026",
+     "href": "https://www.aljazeera.com/sports/2026/11/26/jannik-sinner-australian-open-2027-knee-injury-surgery-tennis"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/sport/tennis/articles/c6x29q88r9v5o",
+     "publisher": "BBC Sport",
+     "published": "Nov 26, 2026, 2:19 AM ET",
+     "checkedAt": "2026-11-26T06:26:28-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Ruled out after knee surgery (iliotibial band); Tennis Australia CEO Andrew Abdo statement",
+      "Won 2024 and 2025 titles; not played since Wimbledon July 12; main draw starts Jan 17"
+     ]
+    },
+    {
+     "url": "https://www.aljazeera.com/sports/2026/11/26/jannik-sinner-australian-open-2027-knee-injury-surgery-tennis",
+     "publisher": "Al Jazeera (AFP)",
+     "published": "Nov 26, 2026, 1:32 AM ET",
+     "checkedAt": "2026-11-26T06:26:42-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 26 2026",
+     "claimsSupported": [
+      "Right knee surgery at a clinic in Finland; world No. 2; ruled out Thursday"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-26-am/w-sinner.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Jannik Sinner in a white cap and orange shirt holding his racket during a match",
+    "caption": "Jannik Sinner at the 2025 US Open.",
+    "credit": "The White House",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jannik_Sinner_2025_US_Open.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Jannik_Sinner_2025_US_Open.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  }
+ ]
+}

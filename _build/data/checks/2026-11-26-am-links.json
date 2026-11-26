@@ -1,0 +1,254 @@
+{
+ "edition": "2026-11-26-am",
+ "ranAt": "2026-11-26T06:34:59-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879382-20261126.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:01-05:00"
+  },
+  {
+   "url": "https://www.france24.com/en/live-news/20261126-china-warns-of-necessary-measures-after-new-us-tariffs",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/25/macys-thanksgiving-day-parade-postponed-weather",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/judge-blocks-fcc-revoking-abc-licences-9.7436635",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/26/nx-s1-6054760/steelers-cut-aaron-rodgers",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/sport/american-football/articles/c64gn8ryp7jno",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/british-columbia/bc-premier-doerkson-immediate-priorities-9.7436031",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/montreal/supreme-court-bill-21-quebec-9.7436487",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-11-24-kutryks-announce-birth-third-child.asp",
+   "status": "ERR",
+   "tag": "WARN",
+   "error": "ECONNRESET",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/windsor/atwood-bird-tower-pelee-island-9.7435820",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/olympics/winter/alpine-skiing/alpine-skiing-mont-tremblant-cancellation-9.7435170",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/26/hongkongers-mourn-tai-po-fire-victims-on-first-anniversary-as-some-lament-lack-of-official-memorial/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:01-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879360-20261126.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879336-20261126.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/25/P2026112500565.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879255-20261125.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/26/P2026112600263.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879381-20261126.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/26/P2026112600128.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/26/ex-lawmaker-william-wong-sentenced-to-120-hours-of-community-service-fined-hk6k-over-drink-driving-crash/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879335-20261126.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/26/china-warns-australia-philippines-defence-deal-to-fuel-tensions/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:01-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/25/china-misusing-interpol-target-dissidents-uk-lawyer",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/26/iqbal-in-space-urdu-poets-verses-unite-india-pakistan-beyond-earth",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+   "status": 403,
+   "tag": "WARN",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/26/dr-congo-ebola-cases-surpass-12000-as-fighting-disrupts-response-in-east",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/sport/tennis/articles/c6x29q88r9v5o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:35:00-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/sports/2026/11/26/jannik-sinner-australian-open-2027-knee-injury-surgery-tennis",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-26T06:34:59-05:00"
+  }
+ ]
+}
