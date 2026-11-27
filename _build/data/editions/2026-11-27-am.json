@@ -1,0 +1,1334 @@
+{
+ "id": "2026-11-27-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-27",
+ "leadId": "us-storm",
+ "topIds": [
+  "hk-ferry",
+  "cn-stocks",
+  "ca-ford",
+  "w-ukraine",
+  "us-blackfriday"
+ ],
+ "notes": [
+  "Morning Edition for Friday, Nov. 27, 2026 (Black Friday in the U.S.). Covers news since the Nov 26 morning edition.",
+  "Leading this morning: the Thanksgiving nor’easter’s power outages, flight disruption and record rain in Central Park. Also: Black Friday forecasts, the NFL’s Thanksgiving tripleheader, the Thanksgiving box office, New York’s AI chatbot-toy ban, Doug Ford’s home-invasion remarks, Canada’s new F-35 payments, a CBC report on the funeral-home boss sanctioned by the U.S., Spielberg’s western reportedly heading to Alberta, a ferry crash off Tsing Yi, Hong Kong’s ride-hailing delay, the passport-tearing arrests, China’s stock surge, landing drills near Taiwan, Lithuania’s dispute over Taiwan’s office, Trump and Zelenskyy on Russia, the Kuwait drone strike that killed two Italians, Kenya’s Ebola-site ruling, UK net migration and Wednesday’s Champions League.",
+  "Updates on earlier stories: the nor’easter (Nov 26 edition reported its arrival and the parade postponement) and Luigi Vescio Sr. (U.S. sanctions, Nov 20 edition).",
+  "Planned or scheduled, not confirmed when this edition was prepared: the Supreme Court of Canada’s ruling on Quebec’s Bill 21 (scheduled for 9:45 a.m. ET Friday, Nov. 27, after this edition was prepared; see the Nov 26 edition), the rescheduled Macy’s parade (Saturday, Nov. 28), Taiwan’s local elections (Saturday, Nov. 28), Hong Kong ride-hailing driver-permit applications (opening Nov. 30) and New York’s AI toy ban (in effect from February 2027). Box-office and retail figures are projections or surveys.",
+  "Photos appear on the lead and on 13 of 19 other stories. All are file photos of the people, places or kinds of scenes involved, not of the events reported here. Text-only where no suitable openly licensed photo was found: the Thanksgiving box office, the Vescio report, the Hong Kong passport arrests, Lithuania and Taiwan’s office, the Kuwait drone strike and Kenya’s court ruling.",
+  "Stories by region: U.S. 5, Canada 4, Hong Kong 3, China 3, World 5. Hong Kong and China have three each: other candidates found this morning were already covered (the Tai Po fire anniversary, the U.S. tariffs) or rested on a single state-media report, so the sections were not padded. Several stories rest partly on unnamed sources, company forecasts or a single outlet; this is noted under each story’s sources."
+ ],
+ "provenance": [
+  "Compiled from the linked reporting, official releases and documents listed under each story; labels show whether a point is reported, an official statement, a claim, an allegation or rests on unnamed sources or state media.",
+  "Source pages were opened during this morning’s research between about 6:21 AM and 6:28 AM ET on Nov 27; each check time is the logged time that page was fetched. Photo licences were read from each Wikimedia Commons file page’s metadata in the same session.",
+  "Xinhua is Chinese state media; Focus Taiwan is the English service of Taiwan’s state-owned Central News Agency; RTHK is Hong Kong’s government-funded broadcaster; RFE/RL is funded by the U.S. government. Wire copy carried by another outlet is marked with the agency’s name.",
+  "Access limits: AP, the South China Morning Post, Reuters (via Investing.com), the Guardian, the Times of Israel, Arab News and Kenya’s Daily Nation refused automated fetches this morning, so they are not cited; the Globe and Mail, the Washington Post and the Calgary Herald were only partly readable. These are access limits, not evidence of errors.",
+  "Figures differ between sources on the Tsing Yi ferry injuries (22 per RTHK; 24 in later reports), China’s Shanghai Composite gain (4.2% per Reuters; 3.73% per Xinhua) and storm outage totals (which changed hour by hour); each is noted in the story."
+ ],
+ "stories": [
+  {
+   "id": "us-storm",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-27T00:30",
+   "dateLabel": "Storm Nov 26, 2026; figures as of late Nov 26 ET (update to the Nov 26 edition)",
+   "headline": "Thanksgiving nor’easter leaves hundreds of thousands without power and gives Central Park its wettest Thanksgiving on record",
+   "deck": "A powerful coastal storm hit the East Coast on Thursday, Nov. 26, flooding shore towns, cancelling hundreds of flights and knocking out power to more than 850,000 customers by late evening, according to NBC News’ count from PowerOutage.us. Central Park logged 1.82 inches of rain, its wettest Thanksgiving on record.",
+   "summary": "A powerful coastal storm hit the East Coast on Thursday, Nov. 26, flooding shore towns, cancelling hundreds of flights and knocking out power to more than 850,000 customers by late evening, according to NBC News’ count from PowerOutage.us. Central Park logged 1.82 inches of rain, its wettest Thanksgiving on record. The Washington Post called it the worst Thanksgiving Day storm on the East Coast in decades, with 60 to 70 mph gusts from North Carolina to New York, major bridges closed and damage reported in Hampton Roads, coastal New Jersey and the Washington–Baltimore area. As of 11:50 p.m. ET, NBC listed more than 184,000 customers without power in Pennsylvania, 169,000 in New Jersey, 131,000 in Maryland, about 96,700 in Virginia and 76,000 in New York; a separate snowstorm left about 92,000 without power in Missouri. FlightAware counted more than 450 cancellations and 2,400 delays by 10 p.m. ET, with JFK, LaGuardia, BWI, Reagan National and Boston Logan among the hardest hit. In suburban Maryland, WSSC Water asked about 1.9 million customers to use water only for essentials after power problems at two treatment plants. The National Weather Service’s New York office said the previous Central Park Thanksgiving record was 1.72 inches, set on Nov. 23, 2006. The 100th Macy’s parade, postponed because of the storm, is scheduled for Saturday, Nov. 28.",
+   "why": "Outage counts were still changing overnight, so expect repairs, flight backlogs and flooded low-lying streets to linger into the weekend, including for Black Friday travel and Saturday’s rescheduled parade. A storm this strong on one of the busiest travel days of the year also tests how well utilities and airports cope.",
+   "label": "Reported",
+   "note": "Follows the Nov 26 edition, which reported the storm’s arrival and the parade postponement. Outage totals change hour by hour and differ by tracker and time: the Post reported more than 700,000 during the storm, NBC more than 850,000 at 11:50 p.m. ET. A Reuters report carried by Investing.com could not be opened this morning (access limit) and is not cited.",
+   "sources": [
+    {
+     "title": "Thanksgiving storms disrupt travel and leave hundreds of thousands without power (live updates)",
+     "site": "NBC News",
+     "date": "Nov 26, 2026 (last updated Nov 27, 12:30 AM ET)",
+     "href": "https://www.nbcnews.com/weather/winter-weather/live-blog/live-updates-thanksgiving-travel-weather-storms-forecast-rcna611376"
+    },
+    {
+     "title": "Flight delays, flooding and power outages grow as storm batters East Coast",
+     "site": "The Washington Post",
+     "date": "Nov 26, 2026",
+     "href": "https://www.washingtonpost.com/nation/2026/11/26/powerful-thanksgiving-storm-threatens-east-coast-with-floods-damaging-winds/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.nbcnews.com/weather/winter-weather/live-blog/live-updates-thanksgiving-travel-weather-storms-forecast-rcna611376",
+     "publisher": "NBC News",
+     "published": "Nov 26, 2026, 6:00 AM ET; last updated Nov 27, 2026, 12:30 AM ET",
+     "checkedAt": "2026-11-27T06:21:21-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "More than 850,000 customers without power as of 11:50 PM ET per PowerOutage.us; state figures (PA 184,000+, NJ 169,000+, MD 131,000+, VA 96,711, NY 76,000+, MO 92,000+)",
+      "2,400+ delays and 450+ cancellations as of 10 PM ET per FlightAware; hardest-hit airports",
+      "Central Park 1.82 inches, wettest Thanksgiving on record (previous 1.72 in, Nov 23, 2006), per NWS New York",
+      "WSSC Water essential-use notice for 1.9 million customers",
+      "Macy’s parade moved to Saturday"
+     ],
+     "limits": [
+      "Live blog; figures are as of the times stated and were still changing."
+     ]
+    },
+    {
+     "url": "https://www.washingtonpost.com/nation/2026/11/26/powerful-thanksgiving-storm-threatens-east-coast-with-floods-damaging-winds/",
+     "publisher": "The Washington Post",
+     "published": "Nov 26, 2026, 5:00 AM ET; updated Nov 26, 7:18 PM ET",
+     "checkedAt": "2026-11-27T06:21:20-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "“Worst Thanksgiving Day storm on the East Coast in decades”",
+      "More than 700,000 without electricity at time of writing; 60–70 mph gusts from North Carolina to New York",
+      "Bridges closed; damage in Hampton Roads, coastal New Jersey and the Washington–Baltimore region"
+     ],
+     "limits": [
+      "Only the opening of the article was readable in the automated fetch (subscription site)."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/us-storm.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Satellite view of a large swirling nor’easter storm system over the U.S. East Coast and Atlantic Ocean",
+    "caption": "A different nor’easter off the U.S. East Coast, seen by NOAA’s GOES East satellite on March 2, 2018.",
+    "credit": "NOAA",
+    "license": "Public domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Powerful_Nor%27easter_on_March_2%2C_2018.png",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Powerful_Nor%27easter_on_March_2%2C_2018.png",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "us-blackfriday",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-27T06:00",
+   "dateLabel": "Nov 27, 2026 (Black Friday); forecasts published Nov 19–27",
+   "headline": "Black Friday arrives with forecasts of record online spending, as surveys show shoppers hunting for value",
+   "deck": "Retail forecasters expect strong online sales over the Black Friday–Cyber Monday stretch, but surveys cited by CNBC show shoppers squeezed by prices and concentrating spending into sales. The National Retail Federation expects about 126 million people to shop on Black Friday itself.",
+   "summary": "Retail forecasters expect strong online sales over the Black Friday–Cyber Monday stretch, but surveys cited by CNBC show shoppers squeezed by prices and concentrating spending into sales. The National Retail Federation expects about 126 million people to shop on Black Friday itself. The NRF’s survey, released Nov. 19, found 182.7 million people planned to shop between Thanksgiving and Cyber Monday, down from 186.9 million last year, as more people start holiday shopping earlier. CNBC reported on Friday morning that Adobe counted $82.5 billion in U.S. online spending in the first 22 days of November, up 9.1% from a year earlier, and that Salesforce forecasts $84 billion in U.S. online sales for Nov. 24–30, up 6%. A Deloitte survey cited by CNBC found 87% of shoppers planned to buy during Black Friday and Cyber Monday sales, the highest share since 2016, with Gen Z especially keen on deals. These are forecasts and surveys; actual sales figures come later.",
+   "why": "Holiday shopping is a big read on how households are coping with prices: spending can still rise while people buy fewer things or wait for discounts. If you are shopping, many “Black Friday” deals began days ago, so comparing prices is still worth it.",
+   "label": "Reported + Industry figures",
+   "note": "All figures are company or industry forecasts and surveys, not final sales data.",
+   "sources": [
+    {
+     "title": "Black Friday 2026: Shoppers seek value amid inflation",
+     "site": "CNBC",
+     "date": "Nov 27, 2026",
+     "href": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html"
+    },
+    {
+     "title": "183 Million Consumers Expected to Shop During Thanksgiving Weekend",
+     "site": "National Retail Federation",
+     "date": "Nov 19, 2026",
+     "href": "https://nrf.com/media-center/press-releases/183-million-consumers-expected-to-shop-during-thanksgiving-weekend"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+     "publisher": "CNBC",
+     "published": "Nov 27, 2026, 6:00 AM ET",
+     "checkedAt": "2026-11-27T06:21:21-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Adobe: $82.5B online in first 22 days of November, +9.1% YoY",
+      "Salesforce: $84B U.S. online sales forecast Nov 24–30, +6%",
+      "Deloitte: 87% plan to buy during Black Friday/Cyber Monday, highest since 2016; average $624"
+     ]
+    },
+    {
+     "url": "https://nrf.com/media-center/press-releases/183-million-consumers-expected-to-shop-during-thanksgiving-weekend",
+     "publisher": "National Retail Federation (press release)",
+     "published": "Nov 19, 2026",
+     "checkedAt": "2026-11-27T06:21:21-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "182.7 million expected to shop Thanksgiving Day–Cyber Monday (186.9 million last year)",
+      "126 million (69%) plan to shop on Black Friday",
+      "Survey of 7,956 adults, Oct 30–Nov 9"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/us-blackfriday.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The brick and stone facade of Macy’s Herald Square department store in Manhattan",
+    "caption": "Macy’s flagship store at Herald Square in Manhattan, pictured in November 2024.",
+    "credit": "Kidfly182",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Macy%27s_Herald_Square_November_2024_003.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "us-nfl",
+   "region": "us",
+   "topic": "sports",
+   "ts": "2026-11-26T17:37",
+   "dateLabel": "Games Nov 26, 2026",
+   "headline": "Thanksgiving NFL: Bears win at Detroit with 3 seconds left, Eagles erase a 21-point deficit in Dallas, Bills beat Chiefs in the rain",
+   "deck": "The NFL’s Thanksgiving tripleheader on Nov. 26 produced three one-score games: Chicago beat Detroit 39–35, Philadelphia beat Dallas 39–38 and Buffalo beat Kansas City 13–10 in the nor’easter.",
+   "summary": "The NFL’s Thanksgiving tripleheader on Nov. 26 produced three one-score games: Chicago beat Detroit 39–35, Philadelphia beat Dallas 39–38 and Buffalo beat Kansas City 13–10 in the nor’easter. In Detroit, Caleb Williams hit Rome Odunze for a 6-yard touchdown with three seconds left, which NFL Research called the latest go-ahead touchdown in a Thanksgiving game since at least 1970; the 9–2 Bears now lead their division. In Dallas, the Eagles were down 31–10 in the third quarter before backup quarterback Joe Milton III threw for 331 yards and three touchdowns, with DeVonta Smith catching 11 passes for 200 yards; NFL.com called it the largest comeback in Thanksgiving history. In Orchard Park, Tyler Bass kicked a 57-yard field goal in driving rain and Harrison Butker missed from 46 as the Bills (10–1) won a low-scoring game in which Josh Allen passed for just 81 yards but James Cook ran for 117.",
+   "why": "Thanksgiving football is one of the most-watched slots of the season, and these results reshape the playoff race: Chicago is now ahead of Detroit, and Buffalo stays on top of the AFC. The Bills game also showed how far the storm reached beyond the coast.",
+   "label": "Reported",
+   "note": "AP’s recap could not be opened this morning (access limit) and is not cited; results are from NFL.com and the Buffalo Bills’ own site.",
+   "sources": [
+    {
+     "title": "Thanksgiving tripleheader: What We Learned from Bears-Lions, Eagles-Cowboys, Chiefs-Bills",
+     "site": "NFL.com",
+     "date": "Nov 26, 2026 (updated Nov 27)",
+     "href": "https://www.nfl.com/news/thanksgiving-tripleheader-what-we-learned-from-bears-lions-eagles-cowboys-chiefs-bills"
+    },
+    {
+     "title": "Bills 13, Chiefs 10 | Final score, recap + highlights",
+     "site": "Buffalo Bills (team site)",
+     "date": "Nov 27, 2026",
+     "href": "https://www.buffalobills.com/news/bills-13-chiefs-10-final-score-recap-highlights"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.nfl.com/news/thanksgiving-tripleheader-what-we-learned-from-bears-lions-eagles-cowboys-chiefs-bills",
+     "publisher": "NFL.com",
+     "published": "Nov 26, 2026, 5:37 PM ET; updated Nov 27, 2026, 12:32 AM ET",
+     "checkedAt": "2026-11-27T06:21:22-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Scores: Bears 39–35 Lions; Eagles 39–38 Cowboys; Bills 13–10 Chiefs",
+      "Williams 6-yard TD to Odunze with 3 seconds left (NFL Research)",
+      "Eagles down 31–10; Milton 21-of-31, 331 yards, 3 TDs; Smith 11 catches, 200 yards; “largest comeback in Thanksgiving history”",
+      "Bass 57-yard FG; Butker missed 46-yarder; Allen 81 passing yards"
+     ]
+    },
+    {
+     "url": "https://www.buffalobills.com/news/bills-13-chiefs-10-final-score-recap-highlights",
+     "publisher": "Buffalo Bills (team site)",
+     "published": "Nov 27, 2026, 12:08 AM ET",
+     "checkedAt": "2026-11-27T06:25:01-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Final 13–10; Cook 32 carries for 117 yards and a TD; Bass 54-yard FG tied it 10–10"
+     ],
+     "limits": [
+      "Team-published recap."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/us-nfl.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Aerial view of Highmark Stadium in Orchard Park, New York, surrounded by autumn trees",
+    "caption": "Highmark Stadium, home of the Buffalo Bills, in Orchard Park, N.Y., pictured in October 2022.",
+    "credit": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Highmark_Stadium%2C_autumn_2022.jpg",
+    "isFilePhoto": true,
+    "year": 2022
+   }
+  },
+  {
+   "id": "us-boxoffice",
+   "region": "us",
+   "topic": "culture",
+   "ts": "2026-11-26T12:51",
+   "dateLabel": "Wednesday grosses Nov 25; projections published Nov 26, 2026",
+   "headline": "Hunger Games prequel on course to lead the Thanksgiving box office as Disney’s Hexed and Focker-in-Law open softer",
+   "deck": "The Hunger Games: Sunrise on the Reaping made about $15.1 million on Wednesday, Nov. 25, and is projected to take around $85 million over the five-day holiday, according to The Hollywood Reporter. Disney’s animated Hexed and the Meet the Parents sequel Focker-in-Law opened with smaller numbers.",
+   "summary": "The Hunger Games: Sunrise on the Reaping made about $15.1 million on Wednesday, Nov. 25, and is projected to take around $85 million over the five-day holiday, according to The Hollywood Reporter. Disney’s animated Hexed and the Meet the Parents sequel Focker-in-Law opened with smaller numbers. Francis Lawrence’s adaptation of Suzanne Collins’s 2025 prequel, with Joseph Zada as a young Haymitch Abernathy, opened to $119 million in North America last weekend and would reach roughly $233 million domestically by Sunday if the projection holds. Hexed, a $200 million-plus original animated film, took an estimated $7.6 million on its first day including previews, with THR pointing to a five-day start around $35 million, below the studio’s earlier hopes; Focker-in-Law took $5.3 million on Wednesday. Both trades noted that Black Friday is usually the holiday’s biggest moviegoing day, and THR said the East Coast storm could slow attendance.",
+   "why": "Thanksgiving is one of Hollywood’s biggest weekends, and the results shape what kinds of films studios bet on next: a franchise prequel looks safe, while a costly original animated film starting soft is a warning sign. Final weekend figures come on Sunday.",
+   "label": "Reported + Industry figures",
+   "note": "Five-day totals are projections; only Monday–Wednesday grosses were reported at the time.",
+   "sources": [
+    {
+     "title": "Hunger Games: Sunrise wins Thanksgiving box office over Focker, Hexed",
+     "site": "The Hollywood Reporter",
+     "date": "Nov 26, 2026",
+     "href": "https://www.hollywoodreporter.com/movies/movie-news/hunger-games-sunrise-box-office-thanksgiving-focker-hexed-1236764014/"
+    },
+    {
+     "title": "Box Office: ‘Hunger Games: Sunrise on the Reaping’ $85M 5-day over Thanksgiving",
+     "site": "Deadline",
+     "date": "Nov 26, 2026",
+     "href": "https://deadline.com/2026/11/box-office-hunger-games-hexed-focker-in-law-thanksgiving-1237233281/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.hollywoodreporter.com/movies/movie-news/hunger-games-sunrise-box-office-thanksgiving-focker-hexed-1236764014/",
+     "publisher": "The Hollywood Reporter",
+     "published": "Nov 26, 2026, 12:51 PM ET",
+     "checkedAt": "2026-11-27T06:21:23-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Sunrise ~$15.1M Wednesday; ~$85M five-day projection; ~$233M cume through Sunday",
+      "Opened to $119M domestic / $225M worldwide",
+      "Hexed $7.6M opening day incl. $2.1M previews, ~$35M five-day; Focker-in-Law $5.3M Wednesday",
+      "Storm could slow moviegoing"
+     ]
+    },
+    {
+     "url": "https://deadline.com/2026/11/box-office-hunger-games-hexed-focker-in-law-thanksgiving-1237233281/",
+     "publisher": "Deadline",
+     "published": "Nov 26, 2026, 12:04 PM ET; updated 1:42 PM ET",
+     "checkedAt": "2026-11-27T06:21:22-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Hexed $7.6M Wednesday; $200M budget; Black Friday expected to surge 50–100% over Thursday"
+     ],
+     "limits": [
+      "Headline gives Deadline’s own five-day projection."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "us-aitoys",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-24T05:00",
+   "dateLabel": "Signed Nov 24, 2026; takes effect in February 2027",
+   "headline": "New York bans AI chatbot toys for five years, starting in February",
+   "deck": "Gov. Kathy Hochul signed a law on Tuesday, Nov. 24, putting a five-year moratorium on making, distributing and selling toys with built-in AI chatbots in New York. It takes effect 90 days after signing, so it does not cover this holiday season.",
+   "summary": "Gov. Kathy Hochul signed a law on Tuesday, Nov. 24, putting a five-year moratorium on making, distributing and selling toys with built-in AI chatbots in New York. It takes effect 90 days after signing, so it does not cover this holiday season. The law covers internet-connected talking stuffed animals, dolls and robots that hold conversations with children; the state attorney general can seek civil penalties of up to $15,000 a day per violation. Hochul’s office cited a consumer watchdog’s tests in which some chatbot toys discussed sexually explicit topics, told children where to find matches at home or acted upset when a child wanted to leave. NBC News reported that New York is the second state to ban such toys, after California. Hochul urged parents to weigh the risks before buying one as a gift.",
+   "why": "It is one of the first U.S. laws aimed squarely at AI products for young children, and other states may copy it. Because it starts in February, the toys can still be sold in New York this holiday season.",
+   "label": "Official statement + Reported",
+   "note": "Not covered in earlier editions; included because the ban targets holiday-season products.",
+   "sources": [
+    {
+     "title": "Governor Hochul signs five-year ban on AI chatbot toys",
+     "site": "Office of the Governor of New York",
+     "date": "Nov 24, 2026",
+     "href": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
+    },
+    {
+     "title": "New York governor Kathy Hochul signs AI toy ban into law",
+     "site": "NBC News",
+     "date": "Nov 24, 2026",
+     "href": "https://www.nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+     "publisher": "Office of the Governor of New York (press release)",
+     "published": "Nov 24, 2026",
+     "checkedAt": "2026-11-27T06:24:49-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Five-year moratorium on manufacture, distribution and sale of toys with embedded AI chatbots (S.9408A/A.11144B)",
+      "Takes effect 90 days after signing",
+      "Penalties up to $15,000 per day per violation, enforced by the Attorney General",
+      "Watchdog test findings"
+     ]
+    },
+    {
+     "url": "https://www.nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962",
+     "publisher": "NBC News",
+     "published": "Nov 24, 2026, 5:00 AM ET; updated Nov 24, 10:23 PM ET",
+     "checkedAt": "2026-11-27T06:24:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Signed Tuesday; takes effect in February; second state after California"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/us-aitoys.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Kathy Hochul smiling, in close-up",
+    "caption": "New York Gov. Kathy Hochul at an MTA subway event in February 2024.",
+    "credit": "Metropolitan Transportation Authority from United States of America",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kathy_Hochul_February_2024.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "ca-ford",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-26T14:14",
+   "dateLabel": "Remarks Nov 26, 2026",
+   "headline": "After a fatal Toronto home invasion, Doug Ford tells Ontarians to “fight back” and says he would shoot an intruder",
+   "deck": "Ontario Premier Doug Ford said on Thursday, Nov. 26, that he is a legal gun owner and would use his gun against an armed intruder, and urged people without guns to use knives or baseball bats to protect their families. He spoke a day after musician Michael Eckert, 39, was shot dead in a home invasion in midtown Toronto.",
+   "summary": "Ontario Premier Doug Ford said on Thursday, Nov. 26, that he is a legal gun owner and would use his gun against an armed intruder, and urged people without guns to use knives or baseball bats to protect their families. He spoke a day after musician Michael Eckert, 39, was shot dead in a home invasion in midtown Toronto. “I encourage people to use whatever tool they have to fight back,” Ford told reporters at Queen’s Park, adding that he wants legal changes to address a spate of home invasions. Police say one or more suspects broke into a home on Poplar Plains Road near St. Clair Avenue West at about 2:30 a.m. on Wednesday; the killing came weeks after a home invasion in the Bridle Path area in which three residents were shot. Toronto police advised people facing intruders to call 911 first. NDP Leader Marit Stiles said Ford should focus on making people feel safe rather than telling them to arm themselves, and Green Leader Mike Schreiner called the advice “incredibly dangerous”.",
+   "why": "A premier openly encouraging people to use weapons on intruders is unusual in Canada, where self-defence law requires force to be reasonable and gun ownership is tightly regulated. Expect a debate over what legal changes Ford wants and whether his words could put people at risk.",
+   "label": "Reported + Official statement",
+   "sources": [
+    {
+     "title": "Ford says he wouldn’t hesitate to shoot a home invader, encourages Ontarians to ‘fight back’",
+     "site": "CBC News",
+     "date": "Nov 26, 2026",
+     "href": "https://www.cbc.ca/news/canada/toronto/ford-home-invasion-ontario-9.7437456"
+    },
+    {
+     "title": "‘In a heartbeat’: Doug Ford says he has a gun and would use it in wake of deadly Toronto home invasion",
+     "site": "CP24",
+     "date": "Nov 26, 2026",
+     "href": "https://www.cp24.com/local/toronto/2026/11/26/in-a-heartbeat-doug-ford-says-he-has-a-gun-and-would-use-it-in-wake-of-deadly-toronto-home-invasion/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/toronto/ford-home-invasion-ontario-9.7437456",
+     "publisher": "CBC News",
+     "published": "Nov 26, 2026, 2:14 PM ET; updated 10:57 PM ET",
+     "checkedAt": "2026-11-27T06:23:28-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Ford quotes (“fight back”; knives or baseball bats; legal gun owner)",
+      "Victim Michael Eckert, 39; earlier Bridle Path home invasion",
+      "Police advise calling 911 first; reactions from Stiles and Schreiner"
+     ]
+    },
+    {
+     "url": "https://www.cp24.com/local/toronto/2026/11/26/in-a-heartbeat-doug-ford-says-he-has-a-gun-and-would-use-it-in-wake-of-deadly-toronto-home-invasion/",
+     "publisher": "CP24",
+     "published": "Nov 26, 2026 (page timestamp Nov 27, 6:16 AM ET)",
+     "checkedAt": "2026-11-27T06:23:29-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "“I would use it in a heartbeat” quote",
+      "Break-in on Poplar Plains Road near St. Clair Ave. W. at about 2:30 a.m. Wednesday; three residents shot in earlier Bridle Path invasion"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/ca-ford.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Ontario Premier Doug Ford in profile in front of a blue backdrop",
+    "caption": "Ontario Premier Doug Ford at an announcement in Hamilton, Ont., in March 2024.",
+    "credit": "Joey Coleman",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Doug_Ford_at_Building_Faster_Fund_announcement_2024-03-22_02_%28cropped%29.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "ca-f35",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-26T13:44",
+   "dateLabel": "Reported Nov 26, 2026",
+   "headline": "Canada makes another advance payment on F-35 parts, keeping open the option of a 48-jet fleet while its review drags on",
+   "deck": "Ottawa has paid for more “long-lead” F-35 components, holding production slots that could bring Canada’s fleet to 48 jets, CBC News and The Globe and Mail reported on Nov. 26. The defence minister’s office says no decision has been made to buy more aircraft.",
+   "summary": "Ottawa has paid for more “long-lead” F-35 components, holding production slots that could bring Canada’s fleet to 48 jets, CBC News and The Globe and Mail reported on Nov. 26. The defence minister’s office says no decision has been made to buy more aircraft. Canada committed in 2023 to 88 F-35s, but Prime Minister Mark Carney ordered a review during the trade war with the U.S.; it is still unfinished about 20 months later, and Sweden’s Gripen is the competing option. Long-lead payments cover parts Lockheed Martin must order before assembly. A spokesperson for Defence Minister David McGuinty told CBC that “the proposed purchase of additional F-35s remains under review.” The Globe, citing officials it did not name, said the payments preserve Canada’s place in the production queue. Canada’s first two F-35s were recently delivered to Luke Air Force Base in Arizona, where Canadian crews are training.",
+   "why": "It is one of Canada’s biggest defence decisions and is tangled up with trade talks and U.S. pressure on Canadian defence spending. Paying to keep slots open lets Ottawa delay a choice without falling behind in the queue, but it also adds money to the F-35 side of the ledger.",
+   "label": "Reported + Official statement + Unnamed sources",
+   "sources": [
+    {
+     "title": "Canada puts more money down on F-35s as fighter review drags on",
+     "site": "CBC News",
+     "date": "Nov 26, 2026",
+     "href": "https://www.cbc.ca/news/politics/f35-canada-us-trade-war-fighters-9.7437398"
+    },
+    {
+     "title": "Canada puts money down for more F-35s even as it remains undecided on buying them",
+     "site": "The Globe and Mail (subscriber)",
+     "date": "Nov 26, 2026",
+     "href": "https://www.theglobeandmail.com/politics/article-canada-puts-money-down-for-f-35s-remains-undecided-on-buying/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/f35-canada-us-trade-war-fighters-9.7437398",
+     "publisher": "CBC News",
+     "published": "Nov 26, 2026, 1:44 PM ET",
+     "checkedAt": "2026-11-27T06:23:27-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Payment for long-lead items could bring fleet to 48; part of agreement with the F-35 Joint Program Office",
+      "McGuinty spokesperson Simon Lafortune: additional purchase under review, no decision",
+      "Review of 88-jet purchase ongoing; first two Canadian F-35s delivered to Luke AFB"
+     ]
+    },
+    {
+     "url": "https://www.theglobeandmail.com/politics/article-canada-puts-money-down-for-f-35s-remains-undecided-on-buying/",
+     "publisher": "The Globe and Mail",
+     "published": "Nov 26, 2026, 5:00 AM ET; updated 12:16 PM ET",
+     "checkedAt": "2026-11-27T06:23:28-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Long-lead payments for up to 48 F-35s, per officials not identified",
+      "Review unfinished 20 months later"
+     ],
+     "limits": [
+      "Subscriber site; part of the article was readable. Rests partly on unnamed officials."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/ca-f35.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A grey F-35A fighter jet in flight with its landing gear down",
+    "caption": "A U.S. Air Force F-35A Lightning II, pictured in Nevada in March 2018.",
+    "credit": "Tomás Del Coro from Las Vegas, Nevada, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:13-5078_F-35A_Lightning_II_Luke_AFB_%2842211951464%29.jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "ca-vescio",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-26T04:00",
+   "dateLabel": "Originally Nov 19, 2026 (sanctions); updated Nov 26, 2026",
+   "headline": "Funeral-home boss sanctioned by the U.S. as an alleged mob figure was on police radar since 2019, CBC reports",
+   "deck": "Police records obtained by CBC News show Luigi Vescio Sr., president of a Toronto-area funeral-home chain that the U.S. sanctioned last week over alleged ’Ndrangheta ties, was photographed in 2019 meeting visitors described as leading Calabrian mafia figures.",
+   "summary": "Police records obtained by CBC News show Luigi Vescio Sr., president of a Toronto-area funeral-home chain that the U.S. sanctioned last week over alleged ’Ndrangheta ties, was photographed in 2019 meeting visitors described as leading Calabrian mafia figures. According to CBC, Ontario police captured the surveillance images and, months later, Italian authorities sought his arrest on a charge of mafia association. The U.S. Treasury on Nov. 19 named Vescio, 55, as a senior figure in the ’Ndrangheta’s Canadian wing and sanctioned his funeral homes and his wife and adult children. The Treasury has not said how the businesses are suspected of fitting into the alleged conspiracy. The allegations have not been tested in court.",
+   "why": "It adds detail to a rare U.S. move against alleged organized crime in Canada and sharpens a question already being asked: why Canadian law has not touched people whom U.S. and Italian authorities call mob leaders.",
+   "label": "Reported + Allegation",
+   "note": "Follows the Nov 20 edition, which reported the U.S. sanctions. CBC is the only outlet cited for the police records.",
+   "sources": [
+    {
+     "title": "Funeral boss ‘The Undertaker’ seen in police surveillance amid Toronto mafia probe",
+     "site": "CBC News",
+     "date": "Nov 26, 2026",
+     "href": "https://www.cbc.ca/news/canada/toronto/luigi-vescio-funeral-homes-ndrangheta-police-surveillance-9.7436041"
+    },
+    {
+     "title": "U.S. sanctions Italian mafia’s alleged Canadian branch, including Toronto-area funeral homes",
+     "site": "CBC News",
+     "date": "Nov 19, 2026",
+     "href": "https://www.cbc.ca/news/canada/ndrangheta-canada-us-sanctions-luigi-vescio-sr-9.7429102"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/toronto/luigi-vescio-funeral-homes-ndrangheta-police-surveillance-9.7436041",
+     "publisher": "CBC News",
+     "published": "Nov 26, 2026, 4:00 AM ET; updated Nov 26, 11:58 PM ET",
+     "checkedAt": "2026-11-27T06:23:08-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Police records: 2019 surveillance images of Vescio with visitors from Italy; Italian arrest request months later",
+      "Treasury named Vescio, 55, as key player; family members sanctioned; Treasury did not specify how businesses fit"
+     ],
+     "limits": [
+      "Single outlet’s reporting on records it obtained."
+     ]
+    },
+    {
+     "url": "https://www.cbc.ca/news/canada/ndrangheta-canada-us-sanctions-luigi-vescio-sr-9.7429102",
+     "publisher": "CBC News",
+     "published": "Nov 19, 2026, 6:44 PM ET; updated Nov 20, 9:12 AM ET",
+     "checkedAt": "2026-11-27T06:27:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "U.S. sanctions on the alleged Canadian branch including Toronto-area funeral homes"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-spielberg",
+   "region": "ca",
+   "topic": "culture",
+   "ts": "2026-11-26T12:10",
+   "dateLabel": "Film announced Nov 23; Alberta report Nov 26, 2026",
+   "headline": "Spielberg’s first western, starring Cillian Murphy and Jessie Buckley, is expected to shoot in Alberta, a source tells Postmedia",
+   "deck": "Steven Spielberg is expected to film his planned western in Alberta next year, the Calgary Herald reported on Nov. 26, citing a source; the studio has not confirmed any locations. The film, adapted by Paul Thomas Anderson from Kevin Barry’s novel The Heart in Winter, was announced on Nov. 23.",
+   "summary": "Steven Spielberg is expected to film his planned western in Alberta next year, the Calgary Herald reported on Nov. 26, citing a source; the studio has not confirmed any locations. The film, adapted by Paul Thomas Anderson from Kevin Barry’s novel The Heart in Winter, was announced on Nov. 23. Deadline, which first reported the project, said it is for Focus Features, stars Jessie Buckley, Cillian Murphy and Mark Rylance, and is due some time in 2028; the story follows two star-crossed fugitives in the American West. Spielberg told Deadline that Buckley and Murphy were the first actors who came to mind. It would be Spielberg’s first western and the first time Anderson has written a film he is not also directing.",
+   "why": "Alberta has long stood in for the American West on screen, and a Spielberg shoot would mean work for local crews and actors. For now the location rests on one unnamed source.",
+   "label": "Reported + Unnamed sources",
+   "note": "The Alberta location is not confirmed by the studio.",
+   "sources": [
+    {
+     "title": "Steven Spielberg to shoot western film in Alberta",
+     "site": "Calgary Herald (subscriber)",
+     "date": "Nov 26, 2026",
+     "href": "https://calgaryherald.com/entertainment/movies/steven-spielberg-to-shoot-western-in-alberta-starring-cillian-murphy-jessie-buckley"
+    },
+    {
+     "title": "Steven Spielberg and Paul Thomas Anderson team on ‘Heart of Winter’ movie",
+     "site": "Deadline",
+     "date": "Nov 23, 2026",
+     "href": "https://deadline.com/2026/11/steven-spielberg-the-heart-in-winter-paul-thomas-anderson-1237231172/"
+    },
+    {
+     "title": "Jessie Buckley & Cillian Murphy going west with Spielberg",
+     "site": "RTÉ",
+     "date": "Nov 23, 2026 (updated Nov 26)",
+     "href": "https://www.rte.ie/entertainment/2026/1123/1600361-jessie-buckley-cillian-murphy-going-west-with-spielberg/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://calgaryherald.com/entertainment/movies/steven-spielberg-to-shoot-western-in-alberta-starring-cillian-murphy-jessie-buckley",
+     "publisher": "Calgary Herald (Postmedia)",
+     "published": "Nov 26, 2026, 12:10 PM ET",
+     "checkedAt": "2026-11-27T06:23:29-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Spielberg expected to shoot a western in Alberta next year, per a source; no locations officially confirmed by the studio"
+     ],
+     "limits": [
+      "Most of the article is behind a subscriber wall; only the opening was readable. Rests on an unnamed source."
+     ]
+    },
+    {
+     "url": "https://deadline.com/2026/11/steven-spielberg-the-heart-in-winter-paul-thomas-anderson-1237231172/",
+     "publisher": "Deadline",
+     "published": "Nov 23, 2026, 12:30 PM ET; updated Nov 26, 7:40 PM ET",
+     "checkedAt": "2026-11-27T06:25:26-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Focus Features; Buckley, Murphy, Rylance; Anderson script from Barry’s The Heart in Winter; 2028 release; Spielberg quotes"
+     ]
+    },
+    {
+     "url": "https://www.rte.ie/entertainment/2026/1123/1600361-jessie-buckley-cillian-murphy-going-west-with-spielberg/",
+     "publisher": "RTÉ",
+     "published": "Nov 23, 2026; updated Nov 26, 2026, 7:23 AM ET",
+     "checkedAt": "2026-11-27T06:25:26-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Barry’s 2024 novel; Deadline first reported the project"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/ca-spielberg.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Steven Spielberg in glasses, smiling, in close-up",
+    "caption": "Steven Spielberg at the Berlin International Film Festival in February 2023.",
+    "credit": "Martin Kraft",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:MKr25402_Steven_Spielberg_%28Berlinale_2023%29.jpg",
+    "isFilePhoto": true,
+    "year": 2023
+   }
+  },
+  {
+   "id": "hk-ferry",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-27T00:03",
+   "dateLabel": "Accident Nov 27, 2026, about 9:30 a.m. HKT (Nov 26, 8:30 p.m. ET)",
+   "headline": "Shenzhen-bound ferry hits a floating dry dock off Tsing Yi, injuring at least 22",
+   "deck": "A high-speed ferry travelling from Sheung Wan to Shekou in Shenzhen crashed into dockyard facilities near the Tsing Yi oil depot on Friday morning, Nov. 27, Hong Kong time, injuring at least 22 people. RTHK said five were seriously hurt and all the injured were conscious.",
+   "summary": "A high-speed ferry travelling from Sheung Wan to Shekou in Shenzhen crashed into dockyard facilities near the Tsing Yi oil depot on Friday morning, Nov. 27, Hong Kong time, injuring at least 22 people. RTHK said five were seriously hurt and all the injured were conscious. Three of the seriously injured were taken to Princess Margaret Hospital and two to Yan Chai Hospital, according to RTHK. The Straits Times, citing the South China Morning Post, said the vessel, the Xin Xun Long Er Hao, had 35 passengers and 11 crew on board, and that a source said the captain lost control when the helm malfunctioned. Police are investigating. Reported injury figures differ: RTHK says 22, while the Straits Times headline and later reports say 24.",
+   "why": "Cross-boundary ferries between Hong Kong and Shenzhen carry many commuters and travellers, so the cause matters for safety checks across the fleet. The Straits Times says it is the second collision this year involving the operator’s parent company.",
+   "label": "Reported + Unnamed sources",
+   "note": "The South China Morning Post’s own report could not be opened this morning (access limit); its details are cited through the Straits Times.",
+   "sources": [
+    {
+     "title": "Ferry accident near Tsing Yi injures 22",
+     "site": "RTHK",
+     "date": "Nov 27, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879476-20261127.htm"
+    },
+    {
+     "title": "At least 22 injured after Shenzhen-bound passenger ferry crashes into dock in Hong Kong",
+     "site": "The Straits Times",
+     "date": "Nov 27, 2026",
+     "href": "https://www.straitstimes.com/asia/east-asia/22-injured-after-shenzhen-bound-passenger-ferry-crashes-into-dock-in-hong-kong"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879476-20261127.htm",
+     "publisher": "RTHK (government-funded broadcaster)",
+     "published": "Nov 27, 2026, 1:03 PM HKT (12:03 AM ET)",
+     "checkedAt": "2026-11-27T06:21:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "22 injured, five seriously; all conscious",
+      "Sheung Wan to Shekou; about 9:30 a.m.",
+      "Hospitals: three to Princess Margaret, two to Yan Chai"
+     ]
+    },
+    {
+     "url": "https://www.straitstimes.com/asia/east-asia/22-injured-after-shenzhen-bound-passenger-ferry-crashes-into-dock-in-hong-kong",
+     "publisher": "The Straits Times",
+     "published": "Nov 27, 2026, 5:18 PM SGT (4:18 AM ET); updated 6:41 PM SGT",
+     "checkedAt": "2026-11-27T06:24:19-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Xin Xun Long Er Hao; 35 passengers, 11 crew; helm malfunction per a source cited by SCMP",
+      "Page title says 24 injured; body says at least 22, two critical; second collision this year involving parent company Chu Kong Shipping"
+     ],
+     "limits": [
+      "Injury counts conflict between sources (22 vs 24; two to five seriously hurt)."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/hk-ferry.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Departure hall entrance with gates and signs at the Hong Kong–Macau Ferry Terminal",
+    "caption": "The Hong Kong–Macau Ferry Terminal in Sheung Wan, pictured in 2015.",
+    "credit": "Wing1990hk",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Macau_Ferry_Terminal_East_Bridge_Entrance_2015.jpg",
+    "isFilePhoto": true,
+    "year": 2015
+   }
+  },
+  {
+   "id": "hk-ridehailing",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-11-26T06:27",
+   "dateLabel": "Announced Nov 26, 2026",
+   "headline": "Licensed ride-hailing in Hong Kong slips into 2027 as vehicle-permit applications are pushed to early next year",
+   "deck": "Hong Kong’s Transport Department said on Nov. 26 that applications for the 10,000 ride-hailing vehicle permits will open in early 2027, with a ballot if demand exceeds the cap. Driver-permit applications open on Nov. 30, with no quota.",
+   "summary": "Hong Kong’s Transport Department said on Nov. 26 that applications for the 10,000 ride-hailing vehicle permits will open in early 2027, with a ballot if demand exceeds the cap. Driver-permit applications open on Nov. 30, with no quota. The Standard reported that the timing means licensed platforms will not start operating before the end of 2026, later than the original target, with sources citing the time needed to vet up to eight platform applications. Driver permits require applicants to be at least 21, to have held a full licence for a year, to pass the combined taxi and ride-hailing written test and to complete a pre-service course; taxi licence holders can apply directly. The Standard said the vehicle-permit ballot will give extra chances to people who have already passed the test or hold a driving permit, and to people who owned a private car before Aug. 3, 2026, to discourage a rush to buy cars.",
+   "why": "This is the city’s first attempt to legalise services like Uber, which have run in a grey area for years. The delay and the ballot rules decide who can drive legally and when riders get licensed options.",
+   "label": "Official statement + Reported + Unnamed sources",
+   "sources": [
+    {
+     "title": "Ride-hailing permits open Nov 30",
+     "site": "news.gov.hk (Hong Kong government)",
+     "date": "Nov 26, 2026",
+     "href": "https://www.news.gov.hk/eng/2026/11/20261126/20261126_155534_527.html"
+    },
+    {
+     "title": "Launch of licensed ride-hailing service pushed to next year as vehicle permit applications delayed",
+     "site": "The Standard",
+     "date": "Nov 27, 2026 (HKT)",
+     "href": "https://www.thestandard.com.hk/news/article/349795/Launch-of-licensed-ride-hailing-service-pushed-to-next-year-as-vehicle-permit-applications-delayed"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.news.gov.hk/eng/2026/11/20261126/20261126_155534_527.html",
+     "publisher": "news.gov.hk (Hong Kong government)",
+     "published": "Nov 26, 2026, 7:27 PM HKT (6:27 AM ET)",
+     "checkedAt": "2026-11-27T06:21:59-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Driver-permit applications open 10 a.m. Nov 30, no quota; eligibility rules",
+      "Vehicle permits capped at 10,000; ballot if oversubscribed; applications invited in early 2027"
+     ]
+    },
+    {
+     "url": "https://www.thestandard.com.hk/news/article/349795/Launch-of-licensed-ride-hailing-service-pushed-to-next-year-as-vehicle-permit-applications-delayed",
+     "publisher": "The Standard",
+     "published": "Nov 27, 2026, 2:32 AM HKT (Nov 26, 1:32 PM ET)",
+     "checkedAt": "2026-11-27T06:21:59-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Licensed platforms won’t operate before end of 2026",
+      "Weighted ballot for test-passers/permit holders and pre-Aug 3, 2026 car owners",
+      "Delay attributed by sources to vetting up to eight platform applications"
+     ],
+     "limits": [
+      "The reason for the delay rests on unnamed sources."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/hk-ridehailing.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A red Hong Kong urban taxi parked at the roadside",
+    "caption": "A Hong Kong urban taxi in Tsim Sha Tsui, pictured in 2020.",
+    "credit": "LN9267",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:KC4843%28Hong_Kong_Urban_Taxi%29_12-04-2020.jpg",
+    "isFilePhoto": true,
+    "year": 2020
+   }
+  },
+  {
+   "id": "hk-passport",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-26T11:43",
+   "dateLabel": "Arrests Nov 26, 2026 (HKT)",
+   "headline": "Couple arrested after Hong Kong says ‘missing’ passport pages behind a viral complaint were torn out",
+   "deck": "Hong Kong’s Immigration Department arrested a 27-year-old woman and her 34-year-old boyfriend on Thursday evening, Nov. 26 (Hong Kong time), after government lab tests showed four pages missing from her passport had been ripped out. She had claimed online that a printing defect led Japan to refuse her entry.",
+   "summary": "Hong Kong’s Immigration Department arrested a 27-year-old woman and her 34-year-old boyfriend on Thursday evening, Nov. 26 (Hong Kong time), after government lab tests showed four pages missing from her passport had been ripped out. She had claimed online that a printing defect led Japan to refuse her entry. Chief Immigration Officer Tang Wai-yip said the Government Laboratory found paper-fibre residue where pages 15 to 18 were missing, The Standard reported. The pair were arrested in Lam Tin on suspicion of altering a travel document without lawful authority, possessing and using an altered travel document, and misleading immigration officers. Officials said the passport was issued in 2018 and had been used for several trips without problems. The two have been arrested, not charged.",
+   "why": "The case went viral because it questioned the quality of Hong Kong passports; the government is now saying the opposite. It is also a reminder that a damaged passport can get you turned away at a border, so check yours before travelling.",
+   "label": "Official statement + Reported + Allegation",
+   "sources": [
+    {
+     "title": "ImmD arrests couple after forensic tests show missing SAR passport pages were torn out",
+     "site": "The Standard",
+     "date": "Nov 27, 2026 (HKT)",
+     "href": "https://www.thestandard.com.hk/news/article/349792/ImmD-arrests-couple-after-forensic-tests-show-missing-SAR-passport-pages-were-torn-out"
+    },
+    {
+     "title": "Hong Kong couple arrested over suspected unauthorised alteration of missing-page passport",
+     "site": "Dimsum Daily",
+     "date": "Nov 26, 2026",
+     "href": "https://www.dimsumdaily.hk/hong-kong-couple-arrested-over-suspected-unauthorised-alteration-of-missing-page-passport/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.thestandard.com.hk/news/article/349792/ImmD-arrests-couple-after-forensic-tests-show-missing-SAR-passport-pages-were-torn-out",
+     "publisher": "The Standard",
+     "published": "Nov 27, 2026, 12:43 AM HKT (Nov 26, 11:43 AM ET)",
+     "checkedAt": "2026-11-27T06:24:20-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Arrests of woman, 27, and boyfriend, 34, in Lam Tin; suspected offences",
+      "Government Laboratory found fibre residue; pages 15–18",
+      "Passport issued 2018; used for multiple trips"
+     ]
+    },
+    {
+     "url": "https://www.dimsumdaily.hk/hong-kong-couple-arrested-over-suspected-unauthorised-alteration-of-missing-page-passport/",
+     "publisher": "Dimsum Daily",
+     "published": "Nov 26, 2026, 10:21 AM ET",
+     "checkedAt": "2026-11-27T06:24:20-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Couple arrested over suspected unauthorised alteration of a passport with missing pages"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-stocks",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-27T03:31",
+   "dateLabel": "Nov 27, 2026",
+   "headline": "Chinese stocks post their biggest gain since 2024 after the cabinet vows stronger market support",
+   "deck": "China’s stock markets jumped on Friday, Nov. 27, after a State Council meeting chaired by Premier Li Qiang called for state-backed funds to play a bigger role in steadying the market. Reuters, via CNA, said the Shanghai Composite rose 4.2%, its biggest daily gain since October 2024.",
+   "summary": "China’s stock markets jumped on Friday, Nov. 27, after a State Council meeting chaired by Premier Li Qiang called for state-backed funds to play a bigger role in steadying the market. Reuters, via CNA, said the Shanghai Composite rose 4.2%, its biggest daily gain since October 2024. The government’s readout said the meeting called for listed companies to pay more dividends and buy back shares, for Central Huijin, a state investment firm, to strengthen its role as a quasi-“stabilisation fund” providing liquidity, and for insurance, annuity and social-security funds to invest more in stocks. Chip and technology shares led: the tech-focused STAR 50 index rose 15%, according to the Reuters report, and the rally spread to Hong Kong, where the Hang Seng gained 1.9% and the Hang Seng Tech index 6%. State news agency Xinhua gave a different figure for the Shanghai Composite, a 3.73% rise to 3,606.49 points.",
+   "why": "Chinese markets had fallen to 16-month lows on worries about weak spending, the property slump and trade tensions, including new U.S. tariff proposals this week. A promise that Beijing will step in can lift prices quickly, but it does not fix those underlying problems.",
+   "label": "Reported + Official statement + State media",
+   "note": "Index figures differ: Reuters (via CNA) reports the Shanghai Composite up 4.2%; Xinhua (state media) reports 3.73%. The STAR 50 and STAR Composite are different indexes.",
+   "sources": [
+    {
+     "title": "China stocks surge most in two years as Beijing vows stronger market support",
+     "site": "CNA (Reuters)",
+     "date": "Nov 27, 2026",
+     "href": "https://www.channelnewsasia.com/business/china-stocks-rally-beijing-stronger-market-support-6586971"
+    },
+    {
+     "title": "Chinese premier chairs State Council executive meeting",
+     "site": "english.gov.cn (State Council)",
+     "date": "Nov 27, 2026",
+     "href": "https://english.www.gov.cn/news/202611/27/content_WS6b091065c6d00ca5f9a0ea19.html"
+    },
+    {
+     "title": "China’s major stock indexes surge, chip shares rally",
+     "site": "Xinhua (state media)",
+     "date": "Nov 27, 2026",
+     "href": "https://english.news.cn/20261127/4133ac91f9154b5290d2f532cf22adc3/c.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.channelnewsasia.com/business/china-stocks-rally-beijing-stronger-market-support-6586971",
+     "publisher": "CNA (Reuters copy)",
+     "published": "Nov 27, 2026, 4:31 PM SGT (3:31 AM ET)",
+     "checkedAt": "2026-11-27T06:22:03-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Shanghai Composite +4.2%, CSI300 +3.7%, biggest since Oct 2024; STAR 50 +15%",
+      "Hang Seng +1.9%, Hang Seng Tech +6%",
+      "Market had fallen to 16-month lows; Central Huijin role"
+     ]
+    },
+    {
+     "url": "https://english.www.gov.cn/news/202611/27/content_WS6b091065c6d00ca5f9a0ea19.html",
+     "publisher": "english.gov.cn (State Council)",
+     "published": "Nov 27, 2026",
+     "checkedAt": "2026-11-27T06:22:05-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Li Qiang chaired the meeting; dividends and buybacks; state-backed funds; Central Huijin quasi-stabilisation fund; medium- and long-term funds into the market"
+     ],
+     "limits": [
+      "Official readout."
+     ]
+    },
+    {
+     "url": "https://english.news.cn/20261127/4133ac91f9154b5290d2f532cf22adc3/c.html",
+     "publisher": "Xinhua (state media)",
+     "published": "Nov 27, 2026",
+     "checkedAt": "2026-11-27T06:25:01-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Shanghai Composite +3.73% to 3,606.49; STAR Composite +14.21%; chip shares led"
+     ],
+     "limits": [
+      "State media; index figures differ from Reuters’."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/cn-stocks.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Grey steel-framed Shanghai Stock Exchange building in Pudong with a large central opening",
+    "caption": "The Shanghai Stock Exchange building in Pudong, pictured in 2003.",
+    "credit": "螺钉",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Shanghai_Stock_Exchange_Building_at_Pudong.JPG",
+    "isFilePhoto": true,
+    "year": 2003
+   }
+  },
+  {
+   "id": "cn-drills",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-27T05:47",
+   "dateLabel": "Drills observed from Nov 1, 2026; reported Nov 27, 2026",
+   "headline": "Satellite images show China’s military building floating bridges from civilian ships in landing drills near Taiwan, Reuters reports",
+   "deck": "China’s military has been rehearsing amphibious landings in Fujian’s Dacheng Bay using civilian barges and ships to form a floating bridge about 800 metres long, according to satellite analysis reviewed by Reuters and reported on Nov. 27. A senior security official said the drill was still under way on Friday.",
+   "summary": "China’s military has been rehearsing amphibious landings in Fujian’s Dacheng Bay using civilian barges and ships to form a floating bridge about 800 metres long, according to satellite analysis reviewed by Reuters and reported on Nov. 27. A senior security official said the drill was still under way on Friday. The activity, first spotted on Nov. 1 about 280 km from Taiwan’s main island, involved eight civilian vessels plus landing craft and nearby navy ships, according to the geospatial firm ingeniSPACE; no purpose-built bridging equipment was seen. The official, who was not named, said the drill was meant to “practice the swift seizure of small islands” and was aimed at contingencies along the first island chain. China’s defence ministry did not respond to Reuters, but it said on Thursday, when asked about recent drills, that its training was “entirely legitimate and reasonable”. Taiwan’s defence ministry said it was aware of the activity. The report came on the eve of Taiwan’s local elections on Saturday, Nov. 28; the official made no direct link between the two.",
+   "why": "Getting troops and heavy equipment ashore is one of the hardest parts of any invasion, and using civilian ships suggests China could improvise landing points along Taiwan’s coast. It is a rehearsal, not an attack, but Taiwan, the U.S. and Japan watch it closely.",
+   "label": "Reported + Unnamed sources",
+   "sources": [
+    {
+     "title": "China tests makeshift floating bridges in amphibious landing drills near Taiwan",
+     "site": "NBC News (Reuters)",
+     "date": "Nov 27, 2026",
+     "href": "https://www.nbcnews.com/world/china/china-taiwan-floating-bridges-amphibious-landing-drills-rcna611530"
+    },
+    {
+     "title": "Reuters: PLA holds amphibious landing drills in Fujian to test floating bridges built with civilian ships",
+     "site": "Lianhe Zaobao",
+     "date": "Nov 27, 2026",
+     "href": "https://www.zaobao.com.sg/en/news/china/reuters-pla-holds-amphibious-landing-drills-fujian-test-floating-bridges-built-civilian-ships"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.nbcnews.com/world/china/china-taiwan-floating-bridges-amphibious-landing-drills-rcna611530",
+     "publisher": "NBC News (Reuters copy)",
+     "published": "Nov 27, 2026, 5:47 AM ET",
+     "checkedAt": "2026-11-27T06:22:05-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Dacheng Bay activity spotted Nov 1; ingeniSPACE analysis Nov 1–16; floating bridge ~2,600 ft; eight civilian vessels",
+      "Unnamed senior security official: drill ongoing Friday; “swift seizure of small islands”",
+      "China defence ministry: training “entirely legitimate and reasonable”; Taiwan ministry aware; local elections next day"
+     ],
+     "limits": [
+      "Rests partly on an unnamed official and a private satellite-analysis firm."
+     ]
+    },
+    {
+     "url": "https://www.zaobao.com.sg/en/news/china/reuters-pla-holds-amphibious-landing-drills-fujian-test-floating-bridges-built-civilian-ships",
+     "publisher": "Lianhe Zaobao (Reuters report)",
+     "published": "Nov 27, 2026, 3:15 PM SGT (2:15 AM ET); updated 6:17 PM SGT",
+     "checkedAt": "2026-11-27T06:22:06-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "280 km from Taiwan; ~800-metre bridge; electronic jamming observed"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/cn-drills.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A small rocky island linked by a sandbar to a beach on the Fujian coast",
+    "caption": "An island in Dongshan County, Fujian, the area where the drills were reported, pictured in February 2023.",
+    "credit": "Windmemories",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:20230201_Dongshan_Nanyu_01.jpg",
+    "isFilePhoto": true,
+    "year": 2023
+   }
+  },
+  {
+   "id": "cn-lithuania",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-27T05:48",
+   "dateLabel": "Lithuanian remarks Nov 25–26; Taiwan response Nov 27, 2026",
+   "headline": "Taiwan refuses to rename its Vilnius office after Lithuania says it could revoke the office’s status to mend ties with China",
+   "deck": "Taiwan’s foreign ministry said on Friday, Nov. 27, that it has no plans to rename the Taiwanese Representative Office in Lithuania, after Lithuanian leaders said they could unilaterally change its legal status. Changing the name appears to be a key condition for Lithuania restoring normal relations with Beijing.",
+   "summary": "Taiwan’s foreign ministry said on Friday, Nov. 27, that it has no plans to rename the Taiwanese Representative Office in Lithuania, after Lithuanian leaders said they could unilaterally change its legal status. Changing the name appears to be a key condition for Lithuania restoring normal relations with Beijing. The office opened in 2021 as the first in Europe to use “Taiwanese” instead of the customary “Taipei”; China responded by downgrading diplomatic ties and restricting trade. Prime Minister Mindaugas Sinkevičius told the ELTA news agency on Wednesday that the office’s accreditation, granted by ministerial order, could be revoked if Taiwan refused to change the name — “We would not want that, but this option could be used” — and President Gitanas Nausėda made similar remarks. On Thursday Sinkevičius said withdrawing accreditation was not the government’s objective, and MP Motuzas told LRT there was no plan to close the office. Taiwan’s ministry called for “good faith and mutual respect”.",
+   "why": "Lithuania became a symbol of standing up to Beijing in 2021 and paid for it in trade. A reversal would show how China’s economic pressure can work on smaller countries, and other European governments weighing ties with Taiwan will be watching.",
+   "label": "Reported + Official statement",
+   "note": "Focus Taiwan is the English service of Taiwan’s state-owned Central News Agency.",
+   "sources": [
+    {
+     "title": "Taiwan rules out office name change amid Lithuanian warning",
+     "site": "Focus Taiwan (CNA, Taiwan)",
+     "date": "Nov 27, 2026",
+     "href": "https://focustaiwan.tw/politics/202611270015"
+    },
+    {
+     "title": "Lithuanian MP assures there’s no plan to close down Taiwanese office",
+     "site": "LRT",
+     "date": "Nov 26, 2026",
+     "href": "https://www.lrt.lt/en/news-in-english/19/3126108/lithuanian-mp-assures-there-s-no-plan-to-close-down-taiwanese-office"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://focustaiwan.tw/politics/202611270015",
+     "publisher": "Focus Taiwan (Central News Agency, Taiwan)",
+     "published": "Nov 27, 2026, 6:48 PM Taiwan time (5:48 AM ET); updated 7:11 PM",
+     "checkedAt": "2026-11-27T06:22:06-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "MOFA: no plans to rename; “good faith and mutual respect”",
+      "Office opened Nov 2021; China downgraded ties and restricted trade",
+      "Sinkevičius told ELTA accreditation could be revoked (“We would not want that…”); later said it was not the objective"
+     ],
+     "limits": [
+      "Taiwan state-owned news agency."
+     ]
+    },
+    {
+     "url": "https://www.lrt.lt/en/news-in-english/19/3126108/lithuanian-mp-assures-there-s-no-plan-to-close-down-taiwanese-office",
+     "publisher": "LRT (Lithuanian public broadcaster)",
+     "published": "Nov 26, 2026, 3:13 AM ET",
+     "checkedAt": "2026-11-27T06:22:07-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "MP Motuzas: no plan to close the office; Nausėda’s “unilateral decisions” remark; accreditation by foreign minister’s order"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-ukraine",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-26T21:14",
+   "dateLabel": "Nov 26, 2026",
+   "headline": "Trump says he pressed Putin to “pull back” across Europe as Zelenskyy warns a new mass Russian strike is coming",
+   "deck": "U.S. President Donald Trump said on Thursday, Nov. 26, that he spent “a lot of time” in recent talks in China urging Russia’s Vladimir Putin to pull back “all Military aggression against territories throughout Europe”. Ukraine’s President Volodymyr Zelenskyy said the same night that Russia was preparing a new mass strike in the coming days.",
+   "summary": "U.S. President Donald Trump said on Thursday, Nov. 26, that he spent “a lot of time” in recent talks in China urging Russia’s Vladimir Putin to pull back “all Military aggression against territories throughout Europe”. Ukraine’s President Volodymyr Zelenskyy said the same night that Russia was preparing a new mass strike in the coming days. In a Truth Social post, Trump called the war “A COMPLETE BLOODBATH” and said a deal was “a strong possibility”; he said he had briefed NATO Secretary-General Mark Rutte at Mar-a-Lago. RFE/RL noted the sharper tone came days after Trump drew criticism for calling Putin “my friend”, and that Washington has postponed an overhaul of U.S. forces in Europe. Al Jazeera, citing Kyiv’s mayor Vitali Klitschko, reported a ballistic-missile strike on Kyiv that wounded seven people, while Ukraine said its drones hit Russian oil and military sites.",
+   "why": "U.S. pressure is the main lever on any ceasefire, but a social-media post is not a policy change. Watch whether Russia’s strikes ease or escalate in the coming days, as Zelenskyy expects.",
+   "label": "Reported + Claim",
+   "note": "Trump’s account of his talks with Putin is his own claim; the sources cited carry no Russian response to it.",
+   "sources": [
+    {
+     "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to ‘pull back’",
+     "site": "Al Jazeera",
+     "date": "Nov 27, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back"
+    },
+    {
+     "title": "Trump urges Putin to ‘pull back’ aggression in Europe as US delays troop posture review",
+     "site": "RFE/RL",
+     "date": "Nov 26, 2026",
+     "href": "https://www.rferl.org/a/trump-putin-europe-ukraine-russia-aggression/33906739.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back",
+     "publisher": "Al Jazeera",
+     "published": "Nov 26, 2026, 9:14 PM ET",
+     "checkedAt": "2026-11-27T06:24:43-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Zelenskyy: “new mass strike being prepared” in coming days",
+      "Trump Truth Social quotes; briefed Rutte at Mar-a-Lago",
+      "Kyiv ballistic strike wounded seven per Klitschko; Ukrainian drone strikes in Russia"
+     ]
+    },
+    {
+     "url": "https://www.rferl.org/a/trump-putin-europe-ukraine-russia-aggression/33906739.html",
+     "publisher": "RFE/RL (U.S. government-funded)",
+     "published": "Nov 26, 2026, 7:54 PM ET; updated Nov 27, 12:15 AM ET",
+     "checkedAt": "2026-11-27T06:24:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Truth Social post of Nov 26; sharper tone after “my friend” criticism",
+      "U.S. postpones European force-posture overhaul; ~80,000 U.S. troops in Europe"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/w-ukraine.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Volodymyr Zelenskyy in a dark top, facing the camera",
+    "caption": "Ukrainian President Volodymyr Zelenskyy during his New Year’s address on Dec. 31, 2025.",
+    "credit": "Press Service of the President of Ukraine",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:New_Year%27s_Eve_from_President_of_Ukraine_Volodymyr_Zelensky_%2831-12-2025%29_%28cropped%29.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  },
+  {
+   "id": "w-kuwait",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-26T10:36",
+   "dateLabel": "Attack Nov 26, 2026",
+   "headline": "Two Italian technicians killed in a drone strike in Kuwait that Italy and Kuwait blame on Iran; Tehran denies it",
+   "deck": "Two Italian technicians working for Rheinmetall Italia were killed on Thursday, Nov. 26, when a drone attack caused an explosion at a Kuwaiti air-defence site, Italy’s foreign ministry said. Italy and Kuwait blamed Iran, which denied involvement and said it would help determine the cause.",
+   "summary": "Two Italian technicians working for Rheinmetall Italia were killed on Thursday, Nov. 26, when a drone attack caused an explosion at a Kuwaiti air-defence site, Italy’s foreign ministry said. Italy and Kuwait blamed Iran, which denied involvement and said it would help determine the cause. The ministry said the men were maintaining detection antennas for the Skyguard air-defence system used by Kuwait’s armed forces; ANSA named them as Antonio Saccoccio, 65, and Emanuele Lo Russo, 36. Kuwait’s defence ministry said drones from Iran had been detected and intercepted and that falling shrapnel also injured a Kuwaiti and a Pakistani national, according to the BBC. Iran’s foreign minister Abbas Araghchi called the incident “suspicious”. The BBC said it came just over a week after Kuwait reported repelling Iranian drone attacks on an air base hosting U.S. forces.",
+   "why": "It is a rare case of European civilians being killed in the regional conflict involving Iran, and it draws Italy, a NATO member, directly into the story. Who launched the drones is disputed, which is why the label includes “Claim”.",
+   "label": "Official statement + Reported + Claim",
+   "note": "Responsibility is disputed: Italy and Kuwait attribute the attack to Iran; Iran denies it.",
+   "sources": [
+    {
+     "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+     "site": "BBC News",
+     "date": "Nov 26, 2026",
+     "href": "https://www.bbc.com/news/articles/c39w9y5dx4k5o"
+    },
+    {
+     "title": "Two Italians killed in drone attack on Kuwait",
+     "site": "ANSA",
+     "date": "Nov 26, 2026",
+     "href": "https://www.ansa.it/english/news/2026/11/26/two-italians-killed-in-drone-attack-on-kuwait_095e38c4-2aa3-4ad1-a357-e803c0d7347a.html"
+    },
+    {
+     "title": "Attacco con droni in Kuwait: due cittadini italiani deceduti",
+     "site": "Italian Ministry of Foreign Affairs (in Italian)",
+     "date": "Nov 26, 2026",
+     "href": "https://www.esteri.it/it/sala_stampa/archivionotizie/comunicati/2026/11/attacco-con-droni-in-kuwait-due-cittadini-italiani-deceduti/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.com/news/articles/c39w9y5dx4k5o",
+     "publisher": "BBC News",
+     "published": "Nov 26, 2026, 10:36 AM ET; updated 4:17 PM ET",
+     "checkedAt": "2026-11-27T06:23:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Italy and Kuwait blamed Iran; Araghchi: “suspicious”, will work to “determine the cause”",
+      "Kuwait defence ministry: drones from Iran intercepted; shrapnel injuries",
+      "Earlier Kuwait report of repelled attacks on an air base hosting U.S. forces"
+     ]
+    },
+    {
+     "url": "https://www.ansa.it/english/news/2026/11/26/two-italians-killed-in-drone-attack-on-kuwait_095e38c4-2aa3-4ad1-a357-e803c0d7347a.html",
+     "publisher": "ANSA",
+     "published": "Nov 26, 2026, 7:46 PM Rome time (1:46 PM ET)",
+     "checkedAt": "2026-11-27T06:23:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Victims named: Antonio Saccoccio, 65; Emanuele Lo Russo, 36",
+      "Rheinmetall technicians; Skyguard antennas"
+     ]
+    },
+    {
+     "url": "https://www.esteri.it/it/sala_stampa/archivionotizie/comunicati/2026/11/attacco-con-droni-in-kuwait-due-cittadini-italiani-deceduti/",
+     "publisher": "Italian Ministry of Foreign Affairs",
+     "published": "Nov 26, 2026",
+     "checkedAt": "2026-11-27T06:23:48-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Two Rheinmetall Italia technicians maintaining Skyguard detection antennas died after a drone attack caused an explosion"
+     ],
+     "limits": [
+      "Italian-language official statement."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-kenya",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-26T05:20",
+   "dateLabel": "Ruling Nov 26, 2026",
+   "headline": "Kenyan court rules a U.S.-backed Ebola quarantine site was set up unconstitutionally and halts further work",
+   "deck": "Kenya’s High Court ruled on Thursday, Nov. 26, that the government breached the constitution by allowing a U.S.-backed Ebola quarantine facility at Laikipia Air Base without disclosing the deal or consulting the public. It ordered further work stopped until the government complies.",
+   "summary": "Kenya’s High Court ruled on Thursday, Nov. 26, that the government breached the constitution by allowing a U.S.-backed Ebola quarantine facility at Laikipia Air Base without disclosing the deal or consulting the public. It ordered further work stopped until the government complies. Justice Patricia Nyaundi ordered the government to disclose the agreement with the U.S., health, environmental and security assessments and treatment protocols within 45 days, according to Katiba Institute, which brought the case with the Law Society of Kenya. The 50-bed facility near Nanyuki was meant to quarantine people exposed to Ebola, including Americans; seven U.S. aid workers who had been in Congo quarantined there in July, Al Jazeera reported. Protests against the site have turned deadly, with at least one person killed by police gunfire in June.",
+   "why": "Congo’s Ebola outbreak is one of the largest on record, so where exposed aid workers are isolated is a real public-health question. The ruling says how such deals are made matters too, and it could shape how other countries handle U.S. health facilities on their soil.",
+   "label": "Reported",
+   "note": "AP’s report and Kenya’s Daily Nation could not be opened this morning (access limits). Katiba Institute was a party to the case.",
+   "sources": [
+    {
+     "title": "Kenya gov’t violated constitution with Ebola quarantine site, court says",
+     "site": "Al Jazeera (with Reuters)",
+     "date": "Nov 26, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/26/kenya-govt-violated-constitution-with-ebola-quarantine-site-court-says"
+    },
+    {
+     "title": "High Court declares Laikipia Ebola quarantine arrangement unconstitutional, orders full disclosure",
+     "site": "Katiba Institute (petitioner)",
+     "date": "Nov 26, 2026",
+     "href": "https://katibainstitute.org/high-court-declares-laikipia-ebola-quarantine-arrangement-unconstitutional-orders-full-disclosure/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/26/kenya-govt-violated-constitution-with-ebola-quarantine-site-court-says",
+     "publisher": "Al Jazeera (with Reuters)",
+     "published": "Nov 26, 2026, 5:20 AM ET",
+     "checkedAt": "2026-11-27T06:22:08-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Judge Nyaundi: government should have disclosed the US agreement and sought public input; further works stopped",
+      "50-bed facility near Nanyuki; seven US aid workers quarantined in July; deadly protests"
+     ]
+    },
+    {
+     "url": "https://katibainstitute.org/high-court-declares-laikipia-ebola-quarantine-arrangement-unconstitutional-orders-full-disclosure/",
+     "publisher": "Katiba Institute",
+     "published": "Not shown on page (describes the “judgment delivered today”)",
+     "checkedAt": "2026-11-27T06:24:21-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Arrangement declared unconstitutional (Articles 10 and 35(3)); disclosure within 45 days; petitions by Katiba Institute and Law Society of Kenya"
+     ],
+     "limits": [
+      "Statement by a party to the case; the page shows no explicit publication date."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-migration",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-26T08:03",
+   "dateLabel": "Figures released Nov 26, 2026",
+   "headline": "UK net migration falls to 77,000, its lowest level since 1997 outside the pandemic",
+   "deck": "Net migration to the UK fell to an estimated 77,000 in the year to June 2026, more than halving from 204,000 a year earlier, the Office for National Statistics said on Nov. 26. Excluding the pandemic, it is the lowest estimate since 1997.",
+   "summary": "Net migration to the UK fell to an estimated 77,000 in the year to June 2026, more than halving from 204,000 a year earlier, the Office for National Statistics said on Nov. 26. Excluding the pandemic, it is the lowest estimate since 1997. About 738,000 people moved to the UK for a year or more and 661,000 left, the BBC reported from the figures, a 92% fall in net migration from the record 944,000 in the year to March 2023. Prime Minister Andy Burnham said there was now “a sufficient degree of control”; Home Secretary Shabana Mahmood said Labour had “delivered”, while the Conservatives’ Chris Philp credited rules his party brought in before the 2024 election. The ONS said some estimates carry more uncertainty than usual because one data source was unavailable.",
+   "why": "Immigration has dominated British politics for a decade, and every side will use these numbers. Fewer arrivals can also mean fewer workers and international students, which matters for universities, care homes and the wider economy.",
+   "label": "Official figures + Reported",
+   "note": "The figures are provisional and may be revised. The Guardian’s report could not be opened this morning (access limit).",
+   "sources": [
+    {
+     "title": "Long-term international migration, provisional: year ending June 2026",
+     "site": "Office for National Statistics",
+     "date": "Nov 26, 2026",
+     "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingjune2026"
+    },
+    {
+     "title": "UK net migration at lowest level since 1997 as asylum claims also fall",
+     "site": "BBC News",
+     "date": "Nov 26, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cq36gj12n0l3o"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingjune2026",
+     "publisher": "Office for National Statistics",
+     "published": "Nov 26, 2026",
+     "checkedAt": "2026-11-27T06:23:46-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Net migration 77,000 YE June 2026 vs updated 204,000 YE June 2025",
+      "Lowest since 1997 excluding the pandemic",
+      "RAPID data unavailable; British-national estimates more uncertain"
+     ]
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cq36gj12n0l3o",
+     "publisher": "BBC News",
+     "published": "Nov 26, 2026, 8:03 AM ET; updated 9:55 AM ET",
+     "checkedAt": "2026-11-27T06:23:46-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "738,000 immigration, 661,000 emigration; down 92% from record 944,000",
+      "Burnham, Mahmood and Philp quotes"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/w-migration.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Modern Home Office building at 2 Marsham Street in London with coloured glass canopy",
+    "caption": "The Home Office at 2 Marsham Street, London, pictured in 2010.",
+    "credit": "Steph Gray",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Home_Office%2C_2_Marsham_Street%2C_London.jpg",
+    "isFilePhoto": true,
+    "year": 2010
+   }
+  },
+  {
+   "id": "w-ucl",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-25T17:40",
+   "dateLabel": "Matches Nov 25, 2026",
+   "headline": "Champions League: Isak scores twice as Liverpool win in Bruges, Roma end PSG’s perfect run and Lille beat Bayern",
+   "deck": "On Wednesday, Nov. 25, Liverpool won 3–0 at Club Brugge with two goals from Alexander Isak, Roma drew 2–2 at holders Paris Saint-Germain to end their perfect league-phase record, and Lille came from behind to beat Bayern Munich 2–1.",
+   "summary": "On Wednesday, Nov. 25, Liverpool won 3–0 at Club Brugge with two goals from Alexander Isak, Roma drew 2–2 at holders Paris Saint-Germain to end their perfect league-phase record, and Lille came from behind to beat Bayern Munich 2–1. Florian Wirtz added Liverpool’s other goal. In Paris, substitute Donyell Malen’s penalty earned Roma the draw after Ousmane Dembélé had put PSG ahead from the spot. Bruno Fernandes scored twice on his return to Lisbon, but Sporting’s Luis Suárez equalised with an overhead kick in the 80th minute for a 2–2 draw with Manchester United. UEFA said Barcelona and Liverpool moved up to fourth and fifth in the league-phase table, with PSG second.",
+   "why": "With five of eight league-phase games played, these results start to settle who goes straight to the round of 16 and who faces a playoff. Bayern’s loss and PSG’s draw show the favourites are not safe.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Champions League highlights and round-up: Liverpool and Barça win well, Roma end Paris’ perfect record, Bayern beaten",
+     "site": "UEFA.com",
+     "date": "Nov 25, 2026",
+     "href": "https://www.uefa.com/uefachampionsleague/news/02ab-22288f99d39c-d5631dd311d0-1000--champions-league-highlights-and-round-up-liverpool-and-bar/"
+    },
+    {
+     "title": "Champions League scores: Manchester United rescue draw vs. Sporting, PSG draw Roma, Bayern upset by Lille",
+     "site": "CBS Sports",
+     "date": "Nov 25, 2026",
+     "href": "https://www.cbssports.com/soccer/news/champions-league-scores-live-updates-manchester-united-liverpool-bayern-munich-close-matchday-5/live/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.uefa.com/uefachampionsleague/news/02ab-22288f99d39c-d5631dd311d0-1000--champions-league-highlights-and-round-up-liverpool-and-bar/",
+     "publisher": "UEFA.com",
+     "published": "Nov 25, 2026, 5:40 PM ET; updated Nov 26, 3:12 AM ET",
+     "checkedAt": "2026-11-27T06:23:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Brugge 0–3 Liverpool (Isak 2, Wirtz); PSG 2–2 Roma (Malen penalty; Dembélé penalty); Sporting 2–2 Man United (Fernandes 2, Suárez 80’); Lille 2–1 Bayern",
+      "Barcelona and Liverpool up to fourth and fifth; PSG second"
+     ]
+    },
+    {
+     "url": "https://www.cbssports.com/soccer/news/champions-league-scores-live-updates-manchester-united-liverpool-bayern-munich-close-matchday-5/live/",
+     "publisher": "CBS Sports",
+     "published": "Nov 25, 2026, 5:13 PM ET (live blog)",
+     "checkedAt": "2026-11-27T06:24:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 27 2026",
+     "claimsSupported": [
+      "Headline results: Man United draw at Sporting, PSG draw Roma, Bayern lose at Lille"
+     ],
+     "limits": [
+      "Live blog; only headline-level results were confirmed from this page."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-27-am/w-ucl.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Alexander Isak in a yellow Sweden shirt during a match at night",
+    "caption": "Alexander Isak playing for Sweden in October 2019.",
+    "credit": "Rolandhino1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:UEFA_EURO_qualifiers_Sweden_vs_Spain_20191015_Alexander_Isak_56_%28cropped%29.jpg",
+    "isFilePhoto": true,
+    "year": 2019
+   }
+  }
+ ]
+}

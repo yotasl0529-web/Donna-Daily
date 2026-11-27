@@ -1,0 +1,265 @@
+{
+ "edition": "2026-11-27-am",
+ "ranAt": "2026-11-27T06:35:33-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.nbcnews.com/weather/winter-weather/live-blog/live-updates-thanksgiving-travel-weather-storms-forecast-rcna611376",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.washingtonpost.com/nation/2026/11/26/powerful-thanksgiving-storm-threatens-east-coast-with-floods-damaging-winds/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://nrf.com/media-center/press-releases/183-million-consumers-expected-to-shop-during-thanksgiving-weekend",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.nfl.com/news/thanksgiving-tripleheader-what-we-learned-from-bears-lions-eagles-cowboys-chiefs-bills",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.buffalobills.com/news/bills-13-chiefs-10-final-score-recap-highlights",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/hunger-games-sunrise-box-office-thanksgiving-focker-hexed-1236764014/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://deadline.com/2026/11/box-office-hunger-games-hexed-focker-in-law-thanksgiving-1237233281/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/toronto/ford-home-invasion-ontario-9.7437456",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:34-05:00"
+  },
+  {
+   "url": "https://www.cp24.com/local/toronto/2026/11/26/in-a-heartbeat-doug-ford-says-he-has-a-gun-and-would-use-it-in-wake-of-deadly-toronto-home-invasion/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/politics/f35-canada-us-trade-war-fighters-9.7437398",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:34-05:00"
+  },
+  {
+   "url": "https://www.theglobeandmail.com/politics/article-canada-puts-money-down-for-f-35s-remains-undecided-on-buying/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/toronto/luigi-vescio-funeral-homes-ndrangheta-police-surveillance-9.7436041",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:34-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/ndrangheta-canada-us-sanctions-luigi-vescio-sr-9.7429102",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:34-05:00"
+  },
+  {
+   "url": "https://calgaryherald.com/entertainment/movies/steven-spielberg-to-shoot-western-in-alberta-starring-cillian-murphy-jessie-buckley",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://deadline.com/2026/11/steven-spielberg-the-heart-in-winter-paul-thomas-anderson-1237231172/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.rte.ie/entertainment/2026/1123/1600361-jessie-buckley-cillian-murphy-going-west-with-spielberg/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879476-20261127.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:34-05:00"
+  },
+  {
+   "url": "https://www.straitstimes.com/asia/east-asia/22-injured-after-shenzhen-bound-passenger-ferry-crashes-into-dock-in-hong-kong",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:34-05:00"
+  },
+  {
+   "url": "https://www.news.gov.hk/eng/2026/11/20261126/20261126_155534_527.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:37-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/news/article/349795/Launch-of-licensed-ride-hailing-service-pushed-to-next-year-as-vehicle-permit-applications-delayed",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.thestandard.com.hk/news/article/349792/ImmD-arrests-couple-after-forensic-tests-show-missing-SAR-passport-pages-were-torn-out",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.dimsumdaily.hk/hong-kong-couple-arrested-over-suspected-unauthorised-alteration-of-missing-page-passport/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:34-05:00"
+  },
+  {
+   "url": "https://www.channelnewsasia.com/business/china-stocks-rally-beijing-stronger-market-support-6586971",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://english.www.gov.cn/news/202611/27/content_WS6b091065c6d00ca5f9a0ea19.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:34-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261127/4133ac91f9154b5290d2f532cf22adc3/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:34-05:00"
+  },
+  {
+   "url": "https://www.nbcnews.com/world/china/china-taiwan-floating-bridges-amphibious-landing-drills-rcna611530",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.zaobao.com.sg/en/news/china/reuters-pla-holds-amphibious-landing-drills-fujian-test-floating-bridges-built-civilian-ships",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:34-05:00"
+  },
+  {
+   "url": "https://focustaiwan.tw/politics/202611270015",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:34-05:00"
+  },
+  {
+   "url": "https://www.lrt.lt/en/news-in-english/19/3126108/lithuanian-mp-assures-there-s-no-plan-to-close-down-taiwanese-office",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.rferl.org/a/trump-putin-europe-ukraine-russia-aggression/33906739.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.bbc.com/news/articles/c39w9y5dx4k5o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.ansa.it/english/news/2026/11/26/two-italians-killed-in-drone-attack-on-kuwait_095e38c4-2aa3-4ad1-a357-e803c0d7347a.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:34-05:00"
+  },
+  {
+   "url": "https://www.esteri.it/it/sala_stampa/archivionotizie/comunicati/2026/11/attacco-con-droni-in-kuwait-due-cittadini-italiani-deceduti/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:34-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/26/kenya-govt-violated-constitution-with-ebola-quarantine-site-court-says",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://katibainstitute.org/high-court-declares-laikipia-ebola-quarantine-arrangement-unconstitutional-orders-full-disclosure/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingjune2026",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cq36gj12n0l3o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.uefa.com/uefachampionsleague/news/02ab-22288f99d39c-d5631dd311d0-1000--champions-league-highlights-and-round-up-liverpool-and-bar/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:33-05:00"
+  },
+  {
+   "url": "https://www.cbssports.com/soccer/news/champions-league-scores-live-updates-manchester-united-liverpool-bayern-munich-close-matchday-5/live/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-27T06:35:35-05:00"
+  }
+ ]
+}
