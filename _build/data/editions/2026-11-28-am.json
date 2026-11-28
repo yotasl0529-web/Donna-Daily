@@ -1,0 +1,1705 @@
+{
+ "id": "2026-11-28-am",
+ "kind": "edition",
+ "title": "Morning Edition",
+ "date": "2026-11-28",
+ "leadId": "ca-bill21",
+ "topIds": [
+  "cn-taiwan",
+  "w-victoria",
+  "hk-flag",
+  "us-openai",
+  "us-aa"
+ ],
+ "notes": [
+  "Morning Edition for Saturday, Nov. 28, 2026. Covers news since the Nov 27 morning edition.",
+  "Leading this morning: the Supreme Court of Canada’s ruling upholding almost all of Quebec’s Bill 21. Also: the American Airlines wing clip at Reagan National, OpenAI’s countersuit against Apple, Black Friday online spending, the USWNT’s World Cup berth and Inter Miami’s playoff exit, the rescheduled Macy’s parade, the CRTC’s ruling on phone fees, Kenneth Law’s sentencing hearing, the Blue Jays’ Taira and Chisholm deals, the Mackenzie Valley Highway, Hong Kong’s flag-desecration ruling, the SmartPLAY and Octopus data breaches, the Central Kowloon Bypass opening date, the posthumous bravery medal for a Tai Po firefighter, Taiwan’s local elections (partial count), China’s industrial profits, the Shenzhou crew handover, a BBC report on exiled activists, Victoria’s election, the Kunar school explosion, the Shakahola manslaughter verdict, the strike on an MSF clinic in Gaza and Marc Márquez’s retirement.",
+  "Updates on earlier stories: Bill 21 (Nov 26 and Nov 27 editions reported the ruling was scheduled), Black Friday (Nov 27 edition reported forecasts), Kaima Taira (Nov 25 edition reported the agreement before it was official), the Macy’s parade postponement (Nov 26–27), the Tai Po fire anniversary (Nov 27) and Shenzhou-24 (Nov 25–26).",
+  "Planned or scheduled, not confirmed when this edition was prepared: the rescheduled Macy’s parade (Saturday, Nov. 28), Canada’s CONCACAF W Championship quarterfinal against Panama (Saturday, Nov. 28), Shenzhou-23’s return (“in the coming days”), Marc Márquez’s final race in Valencia (Sunday, Nov. 29), Taira’s introduction in Toronto (Monday, Nov. 30), the Central Kowloon Bypass opening (Sunday, Dec. 6) and the CRTC’s Dec. 27 deadline. Spain’s general election (Sunday, Nov. 29) is not covered as a story because it has not happened yet. Taiwan and Victoria results were partial; Black Friday totals are industry estimates.",
+  "Photos appear on the lead and on 13 of 22 other stories. All are file photos of the people, places or kinds of scenes involved, not of the events reported here. Text-only where no suitable openly licensed photo was found or a photo would be inappropriate: the CRTC ruling, the Kenneth Law hearing, Black Friday spending, China’s industrial profits, the Shenzhou handover, the BBC activists report, the Kunar explosion, the Shakahola verdict and the MSF clinic strike.",
+  "Stories by region: U.S. 5, Canada 5, Hong Kong 4, China 4, World 5. Hong Kong and China have four each: other candidates found this morning were minor (a contained scaffolding fire in Tuen Mun), already covered, or rested on a single report, so the sections were not padded. Several stories rest partly on unnamed sources, company or industry figures, state media or a single outlet; this is noted under each story’s sources."
+ ],
+ "provenance": [
+  "Compiled from the linked reporting, official releases and documents listed under each story; labels show whether a point is reported, an official statement, a claim, an allegation or rests on unnamed sources or state media.",
+  "Source pages were opened during this morning’s research between about 6:17 AM and 6:26 AM ET on Nov 28; each check time is the logged time that page was fetched. Photo licences were read from each Wikimedia Commons file page’s metadata in the same session.",
+  "Xinhua is Chinese state media; Focus Taiwan is the English service of Taiwan’s state-owned Central News Agency; RTHK is Hong Kong’s government-funded broadcaster; ABC and SBS are Australian public broadcasters. Wire copy carried by another outlet is marked with the agency’s name.",
+  "Access limits: the Guardian, Reuters (directly and via Investing.com), Arab News and the CRTC’s decision page refused automated fetches this morning, so they are not cited. These are access limits, not evidence of errors.",
+  "Figures differ between sources on the Kunar explosion casualties (BBC: 7 dead, 99 injured; AP: 7 and 90+; Al Jazeera: 6 and 97), the Jazz Chisholm Jr. contract (AP: US$34.5 million over two seasons; MLB.com: one year, US$20 million with options) and Black Friday online sales (Adobe and Salesforce use different methods); each is noted in the story."
+ ],
+ "stories": [
+  {
+   "id": "ca-bill21",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-27T09:55",
+   "dateLabel": "Ruling Nov 27, 2026 (update to the Nov 26 and Nov 27 editions)",
+   "headline": "Supreme Court of Canada upholds almost all of Quebec’s religious-symbols ban, striking only its application to elected members",
+   "deck": "Canada’s top court on Friday, Nov. 27, upheld nearly all of Quebec’s Bill 21, the 2019 secularism law that bars teachers, police officers and other public employees in positions of authority from wearing religious symbols at work. The one exception: the ban cannot apply to members of Quebec’s National Assembly, because that would infringe elected officials’ democratic rights.",
+   "summary": "Canada’s top court on Friday, Nov. 27, upheld nearly all of Quebec’s Bill 21, the 2019 secularism law that bars teachers, police officers and other public employees in positions of authority from wearing religious symbols at work. The one exception: the ban cannot apply to members of Quebec’s National Assembly, because that would infringe elected officials’ democratic rights. “Bill 21 is rooted in Quebec’s legitimate and historical commitment to ensuring the laicity of the state in a free and democratic society,” Chief Justice Richard Wagner wrote, according to CBC News. Quebec shielded the law with the Charter’s notwithstanding clause, which lets legislatures override some rights for renewable five-year periods; the court upheld that use. CBC reports the seven judges dismissed all the appeals and split 4–3 on whether the law violates the Charter’s guarantee of equality between the sexes (Section 28), with three dissenters saying it does; the BBC reports the court also said courts may still declare whether a law is consistent with the Charter even when the clause is invoked, but declined to do so here. Quebec Premier Paul St-Pierre Plamondon called the ruling “a victory for secularism,” AP reported. Prime Minister Mark Carney said he respected the decision and, per AP, pledged his government would not use the override; Manitoba Premier Wab Kinew called Bill 21 “legislative racism.” The National Council of Canadian Muslims called the law discriminatory.",
+   "why": "The ruling gives every province a clearer green light to use the notwithstanding clause pre-emptively, so the fight over religious symbols and minority rights now moves from the courts to politics: future elections, the clause’s five-year renewals and possible copycat laws elsewhere. For teachers and others who wear a hijab, turban, kippah or cross, the job restrictions in Quebec stay in place.",
+   "label": "Reported",
+   "note": "Follows the Nov 26 and Nov 27 editions, which reported that the ruling was scheduled. Outlets describe the judges’ splits differently because the court answered about ten separate questions with different majorities; this summary uses CBC’s account of the 4–3 split on Section 28. The ruling itself was not read in full for this edition.",
+   "sources": [
+    {
+     "title": "Supreme Court of Canada rules Quebec’s secularism law is constitutionally valid",
+     "site": "CBC News",
+     "date": "Nov 27, 2026",
+     "href": "https://www.cbc.ca/news/politics/supreme-court-decison-bill-21-9.7437512"
+    },
+    {
+     "title": "Canada’s top court largely upholds Quebec ban on religious symbols for public servants",
+     "site": "BBC News",
+     "date": "Nov 27, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o"
+    },
+    {
+     "title": "Canada’s Supreme Court largely upholds a Quebec ban on religious symbols for public servants (AP)",
+     "site": "PBS News",
+     "date": "Nov 27, 2026",
+     "href": "https://www.pbs.org/newshour/world/canadas-supreme-court-largely-upholds-a-quebec-ban-on-religious-symbols-for-public-servants"
+    },
+    {
+     "title": "Upheld Quebec religious symbols bill ‘legislative racism,’ Manitoba premier says",
+     "site": "CBC News",
+     "date": "Nov 27, 2026",
+     "href": "https://www.cbc.ca/news/canada/manitoba/wab-kinew-quebec-bill-21-legislative-racism-alberta-saskatchewan-discrimination-supreme-court-ruling-9.7440050"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/politics/supreme-court-decison-bill-21-9.7437512",
+     "publisher": "CBC News",
+     "published": "Nov 27, 2026 (updated 2:47 PM ET)",
+     "checkedAt": "2026-11-28T06:17:10-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Bill 21 almost completely upheld; exception for members of the National Assembly",
+      "Wagner quote on laicity",
+      "All appeals dismissed; 4–3 split on Section 28 (sex equality)"
+     ]
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o",
+     "publisher": "BBC News",
+     "published": "Nov 27, 2026, 9:55 AM ET (updated 11:53 AM ET)",
+     "checkedAt": "2026-11-28T06:17:11-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Law largely upheld; infringes democratic rights of elected officials",
+      "Courts may still declare Charter consistency when the notwithstanding clause is used, but did not here",
+      "Carney reaction; NCCM calls law discriminatory"
+     ]
+    },
+    {
+     "url": "https://www.pbs.org/newshour/world/canadas-supreme-court-largely-upholds-a-quebec-ban-on-religious-symbols-for-public-servants",
+     "publisher": "PBS News (Associated Press)",
+     "published": "Nov 27, 2026, 3:48 PM ET",
+     "checkedAt": "2026-11-28T06:17:11-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Covered workers and symbols",
+      "St-Pierre Plamondon: ‘a victory for secularism’",
+      "Carney respects ruling, pledges not to use the override",
+      "Override must be renewed every five years"
+     ],
+     "limits": [
+      "Associated Press copy carried by PBS."
+     ]
+    },
+    {
+     "url": "https://www.cbc.ca/news/canada/manitoba/wab-kinew-quebec-bill-21-legislative-racism-alberta-saskatchewan-discrimination-supreme-court-ruling-9.7440050",
+     "publisher": "CBC News",
+     "published": "Nov 27, 2026, 9:03 PM ET",
+     "checkedAt": "2026-11-28T06:20:27-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Kinew calls Bill 21 ‘legislative racism’"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/ca-bill21.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The Supreme Court of Canada building, a grey stone building with a steep copper roof, on Wellington Street in Ottawa",
+    "caption": "The Supreme Court of Canada building on Wellington Street, Ottawa, pictured in 2014. (The court has been sitting in a temporary building during renovations.)",
+    "credit": "Rleir",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Supreme_Court_of_Canada%2C_Wellington_Street%2C_Ottawa.jpg",
+    "isFilePhoto": true,
+    "year": 2014
+   }
+  },
+  {
+   "id": "ca-crtc",
+   "region": "ca",
+   "topic": "business",
+   "ts": "2026-11-27T09:00",
+   "dateLabel": "Decision Nov 27, 2026; fees must stop by Dec 27, 2026",
+   "headline": "CRTC orders Bell, Rogers and Telus to stop charging phone set-up and SIM fees by Dec. 27, and weighs a fine for Bell",
+   "deck": "Canada’s telecom regulator ruled on Friday, Nov. 27, that a Bell cellphone handling charge, a Rogers set-up charge and a Telus SIM and eSIM provisioning fee break the Telecommunications Act, and ordered the companies to stop charging them by Dec. 27.",
+   "summary": "Canada’s telecom regulator ruled on Friday, Nov. 27, that a Bell cellphone handling charge, a Rogers set-up charge and a Telus SIM and eSIM provisioning fee break the Telecommunications Act, and ordered the companies to stop charging them by Dec. 27. The CRTC also found that a provider broke consumer rules by selling phones locked to its network for up to 60 days and will consider a penalty of up to $10 million; CBC News identifies that provider as Bell. Fees Rogers and Telus charge to replace lost or broken SIM cards, and Rogers’ shipping fees, were found to be allowed. The CRTC said it acted after learning consumers were still being charged extra fees after earlier rules took effect.",
+   "why": "Device and SIM fees are small individually but are charged on almost every new plan, so ending them makes switching carriers cheaper — which is the point of the rules. Whether Bell is actually fined will show how hard the regulator is prepared to push.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "CRTC orders Bell, Rogers, Telus to stop charging prohibited wireless fees by Dec. 27",
+     "site": "CBC News",
+     "date": "Nov 27, 2026",
+     "href": "https://www.cbc.ca/news/business/bell-rogers-telus-fees-9.7438448"
+    },
+    {
+     "title": "CRTC takes action to eliminate extra cellphone fees (news release)",
+     "site": "CRTC / Canada.ca",
+     "date": "Nov 27, 2026",
+     "href": "https://www.canada.ca/en/radio-television-telecommunications/news/2026/11/crtc-takes-action-to-eliminate-extra-cellphone-fees.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/business/bell-rogers-telus-fees-9.7438448",
+     "publisher": "CBC News",
+     "published": "Nov 27, 2026, 10:21 AM ET",
+     "checkedAt": "2026-11-28T06:17:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Which fees were ruled prohibited and which allowed",
+      "Dec. 27 deadline",
+      "Bell faces fine of up to $10M over locked phones"
+     ]
+    },
+    {
+     "url": "https://www.canada.ca/en/radio-television-telecommunications/news/2026/11/crtc-takes-action-to-eliminate-extra-cellphone-fees.html",
+     "publisher": "Canadian Radio-television and Telecommunications Commission",
+     "published": "Nov 27, 2026",
+     "checkedAt": "2026-11-28T06:20:27-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Providers in violation; must stop set-up/provisioning fees by end of year",
+      "Locking for up to 60 days; penalty of up to $10M under consideration"
+     ],
+     "limits": [
+      "The CRTC’s full decision page (crtc.gc.ca) refused the automated fetch (security check), so it is not cited."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-law",
+   "region": "ca",
+   "topic": "human",
+   "ts": "2026-11-27T17:00",
+   "dateLabel": "Hearing Nov 27, 2026",
+   "headline": "Kenneth Law apologizes to victims’ families as Crown seeks 25 years and defence asks for 12",
+   "deck": "Kenneth Law, the Ontario man who sold potentially deadly substances online to people who used them to end their lives, apologized in a Newmarket, Ont., courtroom on Friday, Nov. 27, calling his actions “categorically wrong.”",
+   "summary": "Kenneth Law, the Ontario man who sold potentially deadly substances online to people who used them to end their lives, apologized in a Newmarket, Ont., courtroom on Friday, Nov. 27, calling his actions “categorically wrong.” “To the families of the victims, words can never replace the loss of your loved ones,” he said, according to The Canadian Press. Law, 61, pleaded guilty earlier this year to 14 counts of aiding suicide in the deaths of 14 people in Ontario. Prosecutors asked for a 25-year sentence, arguing money was his motive; his lawyers proposed 12 years minus credit for time served, saying he was misguided rather than a “mercenary predator.” He has been linked to dozens of deaths worldwide, including 79 in the United Kingdom that are being considered at sentencing; the BBC reports he will not face charges in the UK under a plea deal in which more serious Canadian murder charges were withdrawn.",
+   "why": "No Canadian court has sentenced a case like this, so the judge’s decision will set a benchmark for online sales of lethal substances. Families in Canada and Britain are watching whether the sentence reflects deaths far beyond the 14 charged.",
+   "label": "Reported",
+   "note": "If you or someone you know is struggling, in Canada call or text 9-8-8; in the U.S. call or text 988. The sources checked did not give a date for the sentencing decision.",
+   "sources": [
+    {
+     "title": "Kenneth Law apologizes in court to families of victims (The Canadian Press)",
+     "site": "CBC News",
+     "date": "Nov 27, 2026",
+     "href": "https://www.cbc.ca/news/canada/toronto/kenneth-law-sentencing-hearing-poison-seller-9.7438391"
+    },
+    {
+     "title": "‘Poison seller’ Kenneth Law apologises in court to the families of his victims",
+     "site": "BBC News",
+     "date": "Nov 27, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/news/canada/toronto/kenneth-law-sentencing-hearing-poison-seller-9.7438391",
+     "publisher": "CBC News (The Canadian Press)",
+     "published": "Nov 27, 2026, 7:15 AM ET (updated Nov 27, 9:22 PM ET)",
+     "checkedAt": "2026-11-28T06:17:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Apology quotes",
+      "Crown seeks 25 years; defence proposes 12 years minus credit",
+      "14 counts; 79 UK deaths considered"
+     ]
+    },
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo",
+     "publisher": "BBC News",
+     "published": "Nov 27, 2026 (updated Nov 27, 7:56 PM ET)",
+     "checkedAt": "2026-11-28T06:17:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Apology; 25-year Crown request; 12-year defence request",
+      "Plea deal: no UK charges; murder charges withdrawn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ca-jays",
+   "region": "ca",
+   "topic": "sports",
+   "ts": "2026-11-27T15:11",
+   "dateLabel": "Nov 27, 2026 (Taira deal: update to the Nov 25 edition)",
+   "headline": "Blue Jays make Kaima Taira’s five-year deal official and reportedly agree with Jazz Chisholm Jr.",
+   "deck": "The Toronto Blue Jays on Friday, Nov. 27, announced a five-year, US$80-million contract with Japanese right-hander Kaima Taira, first reported earlier in the week. Hours later, several outlets reported the club had also agreed to terms with former Yankees infielder-outfielder Jazz Chisholm Jr.",
+   "summary": "The Toronto Blue Jays on Friday, Nov. 27, announced a five-year, US$80-million contract with Japanese right-hander Kaima Taira, first reported earlier in the week. Taira is to be introduced at a news conference on Monday, Nov. 30. Hours later, several outlets reported the club had also agreed to terms with former Yankees infielder-outfielder Jazz Chisholm Jr., a two-time all-star who stole a career-high 41 bases this season. The Blue Jays had not confirmed the Chisholm deal. Reported terms differ: the Associated Press, citing two people familiar with the talks, said it guarantees US$34.5 million over two seasons, while MLB.com, citing a source, described a one-year, US$20-million deal with a player option for 2028 that could lead to a larger club option. MLB.com notes Toronto finished last in the AL East at 79–83 and had the majors’ lowest-scoring offence.",
+   "why": "After a last-place season, Toronto is spending early and leaning into the Japanese market alongside Kazuma Okamoto. Chisholm would add speed to the weakest lineup in baseball — but until the team confirms it, treat the contract details as reported, not final.",
+   "label": "Official statement + Reported + Unnamed sources",
+   "note": "Follows the Nov 25 edition, which reported the Taira agreement before it was official. The Chisholm deal rests on unnamed sources, and the reported figures differ by outlet.",
+   "sources": [
+    {
+     "title": "Blue Jays announce 5-year, $80M US contract with Japanese right-hander Kaima Taira (The Canadian Press)",
+     "site": "CBC Sports",
+     "date": "Nov 27, 2026",
+     "href": "https://www.cbc.ca/sports/baseball/mlb/kaima-taira-toronto-blue-jays-contract-9.7439352"
+    },
+    {
+     "title": "Blue Jays bring in Japanese ERA leader Taira on five-year deal",
+     "site": "MLB.com",
+     "date": "Nov 27, 2026",
+     "href": "https://www.mlb.com/news/blue-jays-kaima-taira-free-agent-contract"
+    },
+    {
+     "title": "Blue Jays reportedly agree to deal with Jazz Chisholm Jr. (AP)",
+     "site": "CBC Sports",
+     "date": "Nov 27, 2026",
+     "href": "https://www.cbc.ca/sports/baseball/mlb/jazz-chisholm-signing-blue-jays-report-mlb-yankees-9.7439624"
+    },
+    {
+     "title": "Jazz, Blue Jays agree to one-year deal with player option for ’28 (source)",
+     "site": "MLB.com",
+     "date": "Nov 27, 2026",
+     "href": "https://www.mlb.com/news/jazz-chisholm-blue-jays-contract"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/sports/baseball/mlb/kaima-taira-toronto-blue-jays-contract-9.7439352",
+     "publisher": "CBC Sports (The Canadian Press)",
+     "published": "Nov 27, 2026, 3:11 PM ET",
+     "checkedAt": "2026-11-28T06:17:13-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Taira signing announced: five years, US$80M",
+      "Introduction at press conference Monday"
+     ]
+    },
+    {
+     "url": "https://www.mlb.com/news/blue-jays-kaima-taira-free-agent-contract",
+     "publisher": "MLB.com",
+     "published": "Nov 27, 2026",
+     "checkedAt": "2026-11-28T06:20:39-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Five years, $80M",
+      "79–83, last in AL East; lowest-scoring offence; Japanese-market strategy"
+     ]
+    },
+    {
+     "url": "https://www.cbc.ca/sports/baseball/mlb/jazz-chisholm-signing-blue-jays-report-mlb-yankees-9.7439624",
+     "publisher": "CBC Sports (Associated Press)",
+     "published": "Nov 27, 2026, 4:59 PM ET",
+     "checkedAt": "2026-11-28T06:17:15-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "US$34.5M over two seasons per two people familiar with talks",
+      "ESPN reports one-year, US$20M",
+      "Club has not confirmed"
+     ],
+     "limits": [
+      "Rests on unnamed sources."
+     ]
+    },
+    {
+     "url": "https://www.mlb.com/news/jazz-chisholm-blue-jays-contract",
+     "publisher": "MLB.com",
+     "published": "Nov 27, 2026",
+     "checkedAt": "2026-11-28T06:20:40-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "One-year, $20M with 2028 player option, per a source; club has not confirmed"
+     ],
+     "limits": [
+      "Rests on an unnamed source."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/ca-jays.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The white domed Rogers Centre stadium in Toronto seen from street level",
+    "caption": "Rogers Centre, the Blue Jays’ home stadium in Toronto, pictured in 2023.",
+    "credit": "Fabian Roudra Baroi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Rogers_Centre.jpg",
+    "isFilePhoto": true,
+    "year": 2023
+   }
+  },
+  {
+   "id": "ca-highway",
+   "region": "ca",
+   "topic": "politics",
+   "ts": "2026-11-27T09:27",
+   "dateLabel": "Announced Nov 27, 2026",
+   "headline": "Carney lists the Mackenzie Valley Highway as the North’s first ‘project of national interest’",
+   "deck": "Prime Minister Mark Carney on Friday, Nov. 27, listed the long-proposed Mackenzie Valley Highway in the Northwest Territories as a project of national interest under the Building Canada Act, the first in Canada’s North, to speed up federal approvals.",
+   "summary": "Prime Minister Mark Carney on Friday, Nov. 27, listed the long-proposed Mackenzie Valley Highway in the Northwest Territories as a project of national interest under the Building Canada Act, the first in Canada’s North, to speed up federal approvals. The planned 800-kilometre all-season road would link Highway 1 at Wrigley to the Dempster Highway near Inuvik, reducing reliance on seasonal barges and winter roads that a warming climate has made less predictable. The Prime Minister’s Office says the designation respects Aboriginal and treaty rights and the treaty-based assessment process under the Mackenzie Valley Resource Management Act. CBC News reports construction could begin as early as late 2027; federal, territorial and Indigenous leaders signed a governance agreement in Yellowknife. Versions of the highway have been studied for nearly 70 years, and it has faced Indigenous opposition before land-claim settlements, community worries about drugs and crime, and rising costs.",
+   "why": "An all-season road would change the cost of living and supply in communities such as Norman Wells and Fort Good Hope, and Ottawa is pitching it as Arctic sovereignty too. The designation speeds paperwork, not geography: cost, permafrost and the territorial review still decide when — or whether — it gets built.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "Prime Minister Carney lists the Mackenzie Valley Highway as a project of national interest (news release)",
+     "site": "Prime Minister of Canada",
+     "date": "Nov 27, 2026",
+     "href": "https://www.pm.gc.ca/en/news/news-releases/2026/11/27/prime-minister-carney-lists-mackenzie-valley-highway-project-national"
+    },
+    {
+     "title": "Prime Minister Mark Carney officially lists Mackenzie Valley Highway as project of national interest (live updates)",
+     "site": "CBC News",
+     "date": "Nov 27, 2026",
+     "href": "https://www.cbc.ca/news/canada/north/livestory/prime-minister-mark-carney-north-9.7438167"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/27/prime-minister-carney-lists-mackenzie-valley-highway-project-national",
+     "publisher": "Prime Minister’s Office",
+     "published": "Nov 27, 2026, 9:27 AM",
+     "checkedAt": "2026-11-28T06:20:27-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Listed under the Building Canada Act, first in the North",
+      "800-km all-season highway from Wrigley; respects treaty-based assessment",
+      "Nearly 70 years of studies"
+     ]
+    },
+    {
+     "url": "https://www.cbc.ca/news/canada/north/livestory/prime-minister-mark-carney-north-9.7438167",
+     "publisher": "CBC News",
+     "published": "Nov 27, 2026 (live page; last updated Nov 27, 5:45 PM ET)",
+     "checkedAt": "2026-11-28T06:17:16-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Construction could begin as soon as late 2027",
+      "Reduces reliance on barges/winter roads",
+      "Governance agreement signed; history of opposition and costs"
+     ],
+     "limits": [
+      "Live page; updates added through the day."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/ca-highway.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A small ferry crossing the wide Mackenzie River under a blue sky, with a gravel landing in the foreground",
+    "caption": "The Mackenzie River ferry on the Dempster Highway in the Northwest Territories, pictured in 2010.",
+    "credit": "Murray Foubister",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Mackenzie_River_Ferry%2C_Dempster_Highway.jpg",
+    "isFilePhoto": true,
+    "year": 2010
+   }
+  },
+  {
+   "id": "us-aa",
+   "region": "us",
+   "topic": "human",
+   "ts": "2026-11-27T17:10",
+   "dateLabel": "Nov 27, 2026, about 5:10 PM ET",
+   "headline": "Two American Airlines jets clip wingtips while taxiing at Reagan National; no injuries, FAA to investigate",
+   "deck": "Two American Airlines Boeing 737-800s touched wingtips while taxiing for departure at Ronald Reagan Washington National Airport at about 5:10 p.m. ET on Friday, Nov. 27, the Federal Aviation Administration said. No one was hurt.",
+   "summary": "Two American Airlines Boeing 737-800s touched wingtips while taxiing for departure at Ronald Reagan Washington National Airport at about 5:10 p.m. ET on Friday, Nov. 27, the Federal Aviation Administration said. No one was hurt. The FAA said Flight 638, bound for Dallas-Fort Worth, clipped the wing of Flight 2152, bound for Chicago O’Hare; both planes returned to the gate and were taken out of service for inspection, and the FAA said it would investigate. On air-traffic-control audio reported by CNN, one pilot said they had “swapped paint” with the plane beside them, and a winglet was broken off; another arriving flight was told to abort its landing. A passenger told the BBC the plane “shook quite violently.” American said passengers would be rebooked. The airport is where 67 people died in a midair collision between a jetliner and an Army helicopter in January 2025.",
+   "why": "Ground collisions are usually minor, but this one happened at one of the country’s most congested airports, already under scrutiny since the 2025 crash, on one of the busiest travel weekends of the year. The FAA’s findings on how two jets ended up that close will matter more than the dented metal.",
+   "label": "Official statement + Reported",
+   "sources": [
+    {
+     "title": "Two American Airlines planes clip wings before takeoff at Reagan airport in ‘tense’ moment",
+     "site": "BBC News",
+     "date": "Nov 27, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cqkgr4g5nrnlo"
+    },
+    {
+     "title": "Two American Airlines planes clip wings at Reagan National Airport (CNN)",
+     "site": "ABC7 Chicago",
+     "date": "Nov 27, 2026",
+     "href": "https://abc7chicago.com/post/american-airlines-planes-including-chicago-flight-aa-2152-clip-wings-reagan-national-airport-washington-dc-area/20092458/"
+    },
+    {
+     "title": "American Airlines plane ‘clipped the wing’ of 2nd plane at Reagan National Airport",
+     "site": "NBC4 Washington",
+     "date": "Nov 27, 2026",
+     "href": "https://www.nbcwashington.com/news/local/american-airlines-plane-clipped-the-wing-of-2nd-plane-at-reagan-national-airport/4188653/"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cqkgr4g5nrnlo",
+     "publisher": "BBC News",
+     "published": "Nov 27, 2026, 7:10 PM ET (updated 8:31 PM ET)",
+     "checkedAt": "2026-11-28T06:18:48-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "FAA statement: Flight 638 clipped Flight 2152 around 5:10 PM ET; no injuries; FAA to investigate",
+      "Both 737-800s returned to gate, removed from service",
+      "Passenger account; 2025 collision context"
+     ]
+    },
+    {
+     "url": "https://abc7chicago.com/post/american-airlines-planes-including-chicago-flight-aa-2152-clip-wings-reagan-national-airport-washington-dc-area/20092458/",
+     "publisher": "ABC7 Chicago (CNN)",
+     "published": "Nov 27, 2026, 7:51 PM ET (page metadata)",
+     "checkedAt": "2026-11-28T06:19:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "ATC audio: ‘swapped paint’; winglet broken off",
+      "Arriving plane told to abort landing"
+     ],
+     "limits": [
+      "CNN copy carried by ABC7 Chicago."
+     ]
+    },
+    {
+     "url": "https://www.nbcwashington.com/news/local/american-airlines-plane-clipped-the-wing-of-2nd-plane-at-reagan-national-airport/4188653/",
+     "publisher": "NBC4 Washington",
+     "published": "Nov 27, 2026, 6:13 PM ET",
+     "checkedAt": "2026-11-28T06:19:32-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "FAA and American Airlines statements"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/us-aa.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A wide, flat view across taxiways to the terminal buildings of Reagan National Airport under a grey sky",
+    "caption": "Ronald Reagan Washington National Airport seen from a taxiway, pictured in 2019.",
+    "credit": "Fletcher",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Reagan_National_Airport_from_Taxiway.jpg",
+    "isFilePhoto": true,
+    "year": 2019
+   }
+  },
+  {
+   "id": "us-openai",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-27T13:42",
+   "dateLabel": "Filing Nov 27, 2026",
+   "headline": "OpenAI countersues Apple, accusing it of taking OpenAI device secrets and pressuring suppliers; Apple calls it a distraction",
+   "deck": "OpenAI filed counterclaims against Apple in federal court in San Jose, California, on Friday, Nov. 27, alleging that Apple obtained confidential information about an unreleased OpenAI device and pressured shared suppliers not to work on OpenAI hardware.",
+   "summary": "OpenAI filed counterclaims against Apple in federal court in San Jose, California, on Friday, Nov. 27, alleging that Apple obtained confidential information about an unreleased OpenAI device and pressured shared suppliers not to work on OpenAI hardware. The filing answers Apple’s July lawsuit accusing OpenAI and its hardware chief Tang Tan of a campaign to steal Apple trade secrets through recruits. According to Bloomberg’s account of the filing, OpenAI says a former employee who returned to Apple sent more than a hundred confidential files about at least one unreleased OpenAI device to personal accounts, and that suppliers moved or rescheduled meetings to avoid Apple seeing them — one shifting OpenAI work to a night shift. OpenAI is also challenging Apple’s employment agreements, including a one-year ban on recruiting former colleagues. Apple called the counterclaims “a transparent attempt to distract” from its case, in which, it said, OpenAI has already been ordered to stop using Apple’s confidential information.",
+   "why": "The two companies used to be partners on ChatGPT in the iPhone; now they are fighting over who gets the engineers and factories for the next AI gadget. Everything here is allegation on both sides, but the supplier claims could draw antitrust interest if a court finds Apple squeezed a rival out of shared factories.",
+   "label": "Allegation + Reported",
+   "note": "These are allegations in court filings; none has been proven. Reuters’ report could not be opened (access limit).",
+   "sources": [
+    {
+     "title": "OpenAI countersues Apple, alleging trade secret theft and supplier threats; Apple responds",
+     "site": "9to5Mac",
+     "date": "Nov 27, 2026",
+     "href": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/"
+    },
+    {
+     "title": "OpenAI says Apple pressured suppliers to shun its devices (Bloomberg)",
+     "site": "Moneycontrol",
+     "date": "Nov 28, 2026",
+     "href": "https://www.moneycontrol.com/news/business/openai-says-apple-pressured-suppliers-to-shun-its-devices-14090587.html"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
+     "publisher": "9to5Mac",
+     "published": "Nov 27, 2026, 1:42 PM ET",
+     "checkedAt": "2026-11-28T06:19:32-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "OpenAI counterclaims alleging trade-secret theft and supplier threats",
+      "Apple statement calling it a distraction"
+     ]
+    },
+    {
+     "url": "https://www.moneycontrol.com/news/business/openai-says-apple-pressured-suppliers-to-shun-its-devices-14090587.html",
+     "publisher": "Moneycontrol (Bloomberg)",
+     "published": "Nov 27, 2026, 9:13 PM ET",
+     "checkedAt": "2026-11-28T06:19:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Filed in San Jose federal court Friday",
+      "Former employee sent 100+ confidential files; supplier night-shift claim",
+      "Challenge to Apple employment agreements",
+      "Apple’s July suit against OpenAI and Tang Tan; Apple statement"
+     ],
+     "limits": [
+      "Bloomberg copy carried by Moneycontrol."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/us-openai.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Aerial view of Apple Park, Apple’s ring-shaped headquarters building in Cupertino, surrounded by trees",
+    "caption": "Apple Park, Apple’s headquarters in Cupertino, California, pictured in 2022.",
+    "credit": "InvadingInvader",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Apple_Park_2022.jpg",
+    "isFilePhoto": true,
+    "year": 2022
+   }
+  },
+  {
+   "id": "us-blackfriday",
+   "region": "us",
+   "topic": "business",
+   "ts": "2026-11-27T18:30",
+   "dateLabel": "Figures as of 6:30 PM ET, Nov 27, 2026 (update to the Nov 27 edition)",
+   "headline": "Black Friday online spending runs ahead of forecasts, Adobe says, on track for $13 billion or more",
+   "deck": "U.S. shoppers spent $9.7 billion online on Black Friday through 6:30 p.m. ET on Nov. 27, up 12.8% from the same point last year, according to Adobe Analytics, which now expects the day to finish between $13 billion and $13.4 billion — above its September forecast of $12.9 billion.",
+   "summary": "U.S. shoppers spent $9.7 billion online on Black Friday through 6:30 p.m. ET on Nov. 27, up 12.8% from the same point last year, according to Adobe Analytics, which now expects the day to finish between $13 billion and $13.4 billion — above its September forecast of $12.9 billion. Adobe said Thanksgiving Day online sales rose 10.4% to a record $7.1 billion. It forecasts $6.1 billion on Saturday, $6.4 billion on Sunday and $15.1 billion on Cyber Monday, Nov. 30, for $47.5 billion across the five days. Salesforce, which measures differently, projected $18.7 billion in U.S. Black Friday online sales, up 4%.",
+   "why": "Online spending growing faster than expected suggests shoppers are still spending despite inflation worries, though much of it is chasing discounts. These are industry tallies of online sales only, not total retail; the government’s figures come later.",
+   "label": "Industry figures + Reported",
+   "note": "Follows the Nov 27 edition, which reported the forecasts before Black Friday. Adobe and Salesforce use different data and methods, so their totals are not comparable. Final Black Friday totals were not yet published when this edition was prepared. Reuters’ original report could not be opened directly (access limit); it is cited as carried by CNA.",
+   "sources": [
+    {
+     "title": "Black Friday isn’t dead, but definitely different as AI and online grow (Forbes)",
+     "site": "Yahoo Finance",
+     "date": "Nov 28, 2026",
+     "href": "https://finance.yahoo.com/media-advertising/articles/black-friday-isn-t-dead-110059015.html"
+    },
+    {
+     "title": "US Black Friday online sales to cross $13 billion, Adobe says (Reuters)",
+     "site": "CNA",
+     "date": "Nov 27, 2026",
+     "href": "https://www.channelnewsasia.com/business/us-black-friday-online-sales-cross-13-billion-adobe-says-6588836"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://finance.yahoo.com/media-advertising/articles/black-friday-isn-t-dead-110059015.html",
+     "publisher": "Yahoo Finance (Forbes)",
+     "published": "Nov 28, 2026, 6:00 AM ET",
+     "checkedAt": "2026-11-28T06:19:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "$9.7B by 6:30 PM ET, +12.8%; final $13B–$13.4B",
+      "Thanksgiving +10.4% to record $7.1B",
+      "Weekend, Cyber Monday and five-day forecasts"
+     ]
+    },
+    {
+     "url": "https://www.channelnewsasia.com/business/us-black-friday-online-sales-cross-13-billion-adobe-says-6588836",
+     "publisher": "CNA (Reuters)",
+     "published": "Nov 27, 2026",
+     "checkedAt": "2026-11-28T06:19:46-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Adobe figures and forecasts",
+      "Salesforce projection of $18.7B US, +4%",
+      "Adobe’s September forecast of $12.9B"
+     ],
+     "limits": [
+      "Reuters copy carried by CNA."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "us-soccer",
+   "region": "us",
+   "topic": "sports",
+   "ts": "2026-11-27T23:29",
+   "dateLabel": "Matches Nov 27, 2026",
+   "headline": "USWNT books a 2027 World Cup place with 8–0 rout of El Salvador; Columbus knocks Messi’s Inter Miami out of the playoffs",
+   "deck": "Ashley Sanchez scored a first-half hat trick as the United States beat El Salvador 8–0 in Mansfield, Texas, on Friday, Nov. 27, winning a CONCACAF W Championship quarterfinal and a place at the 2027 Women’s World Cup in Brazil.",
+   "summary": "Ashley Sanchez scored a first-half hat trick as the United States beat El Salvador 8–0 in Mansfield, Texas, on Friday, Nov. 27, winning a CONCACAF W Championship quarterfinal and a place at the 2027 Women’s World Cup in Brazil. The U.S. meets Jamaica, which also qualified with a 3–0 win over Costa Rica, in the semifinals; Canada plays Panama and Mexico plays Haiti in the remaining quarterfinals on Saturday, Nov. 28, with all four winners earning World Cup berths. In MLS, the Columbus Crew eliminated defending champions Inter Miami and Lionel Messi on Friday: Santiago Rodríguez scored in the 92nd minute for a 1–0 win that completed a two-game sweep of their best-of-three first-round series. Columbus faces New England or Philadelphia in the Eastern Conference semifinals on Dec. 5–6.",
+   "why": "For the U.S. women, qualifying early takes pressure off a rebuilding squad and leaves a year to settle a lineup for Brazil. For MLS, losing its biggest star in the first round dents playoff ratings and raises fresh questions about Miami’s ageing core.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Sanchez nets hat trick as U.S. qualifies for Women’s World Cup with 8-0 win over El Salvador (AP)",
+     "site": "CBC Sports",
+     "date": "Nov 27, 2026",
+     "href": "https://www.cbc.ca/sports/soccer/canada-womens-soccer-concacaf-w-championship-9.7440152"
+    },
+    {
+     "title": "USWNT vs. El Salvador: Match recap & highlights",
+     "site": "U.S. Soccer",
+     "date": "Nov 27, 2026",
+     "href": "https://www.ussoccer.com/stories/2026/11/uswnt-vs-el-salvador-match-recap-highlights-concacaf-w-championship"
+    },
+    {
+     "title": "Columbus Crew eliminate Inter Miami in playoff shocker",
+     "site": "MLSSoccer.com",
+     "date": "Nov 27, 2026",
+     "href": "https://www.mlssoccer.com/playoffs/2026/news/columbus-crew-oust-leo-messi-inter-miami-in-playoff-shocker"
+    },
+    {
+     "title": "Columbus dumps Miami, Messi from MLS playoffs with stoppage-time winner",
+     "site": "ESPN",
+     "date": "Nov 27, 2026",
+     "href": "https://www.espn.com/soccer/story/_/id/50617897/columbus-eliminates-inter-miami-messi-mls-playoffs"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.cbc.ca/sports/soccer/canada-womens-soccer-concacaf-w-championship-9.7440152",
+     "publisher": "CBC Sports (Associated Press)",
+     "published": "Nov 27, 2026, 11:29 PM ET",
+     "checkedAt": "2026-11-28T06:18:50-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "8–0; Sanchez first-half hat trick; World Cup berth",
+      "Semifinal vs Jamaica; Saturday quarterfinals; all four winners qualify"
+     ]
+    },
+    {
+     "url": "https://www.ussoccer.com/stories/2026/11/uswnt-vs-el-salvador-match-recap-highlights-concacaf-w-championship",
+     "publisher": "U.S. Soccer",
+     "published": "Nov 27, 2026",
+     "checkedAt": "2026-11-28T06:19:56-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "8–0 with seven first-half goals; World Cup qualification",
+      "Sanchez’s first international hat trick, in 6 minutes 43 seconds from the 36th minute"
+     ],
+     "limits": [
+      "The federation’s own recap."
+     ]
+    },
+    {
+     "url": "https://www.mlssoccer.com/playoffs/2026/news/columbus-crew-oust-leo-messi-inter-miami-in-playoff-shocker",
+     "publisher": "MLSSoccer.com",
+     "published": "Nov 27, 2026",
+     "checkedAt": "2026-11-28T06:19:56-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Rodríguez 92nd-minute goal, 1–0; sweep of best-of-three series",
+      "Next opponent and Dec. 5–6 dates"
+     ]
+    },
+    {
+     "url": "https://www.espn.com/soccer/story/_/id/50617897/columbus-eliminates-inter-miami-messi-mls-playoffs",
+     "publisher": "ESPN",
+     "published": "Nov 27, 2026, 10:12 PM ET",
+     "checkedAt": "2026-11-28T06:19:56-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Columbus eliminates Inter Miami and Messi with stoppage-time winner"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/us-soccer.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Close-up of U.S. midfielder Ashley Sanchez in a navy club kit during a match",
+    "caption": "Ashley Sanchez during a Gotham FC–North Carolina Courage match in March 2026.",
+    "credit": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Ashley_Sanchez_Gotham_NC_Courage_Mar_21_2026-63.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "us-parade",
+   "region": "us",
+   "topic": "culture",
+   "ts": "2026-11-27T10:15",
+   "dateLabel": "Parade scheduled for Sat, Nov 28, 2026",
+   "headline": "Macy’s 100th parade is set to march on Saturday after the storm delay, as visiting bands scramble to cover extra days in New York",
+   "deck": "The 100th Macy’s Thanksgiving Day Parade, postponed for the first time in its history because of the Thanksgiving storm, is scheduled for Saturday, Nov. 28 — leaving hundreds of touring performers to rearrange travel and pay for extra nights in New York.",
+   "summary": "The 100th Macy’s Thanksgiving Day Parade, postponed for the first time in its history because of the Thanksgiving storm, is scheduled for Saturday, Nov. 28 — leaving hundreds of touring performers to rearrange travel and pay for extra nights in New York. The BBC reports that the director of Texas’s Pearland High School band, with more than 500 people on the trip, launched a fundraiser that raised $350,000 within hours; some performers reportedly had to skip the parade. Organizers announced the postponement on Wednesday afternoon, partly over concerns about the giant balloons in strong winds; the parade was suspended altogether during World War II but had never been postponed. NPR reports some new balloons are set to fly; executive producer Will Coss told NPR organizers wanted to do everything they could so student musicians could stay in New York and march.",
+   "why": "The parade is a TV ritual for millions, but for school bands it is often a once-in-a-lifetime trip paid for with bake sales — a weather delay can cost them thousands. Saturday’s forecast and crowds will show how well New York absorbs a rescheduled mega-event.",
+   "label": "Reported",
+   "note": "Planned event: whether the parade went ahead as scheduled had not been reported when this edition was prepared. Follows the Nov 26 and Nov 27 editions, which reported the postponement.",
+   "sources": [
+    {
+     "title": "‘We couldn’t give up that easily’: Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+     "site": "BBC News",
+     "date": "Nov 27, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo"
+    },
+    {
+     "title": "New balloons will fly in the postponed 100th Macy’s Thanksgiving Day Parade",
+     "site": "NPR",
+     "date": "Nov 27, 2026",
+     "href": "https://www.npr.org/2026/11/27/nx-s1-6043796/new-balloons-will-fly-in-the-postponed-100th-macys-thanksgiving-day-parade"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo",
+     "publisher": "BBC News",
+     "published": "Nov 27, 2026, 10:15 AM ET (updated 3:06 PM ET)",
+     "checkedAt": "2026-11-28T06:18:49-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Parade rescheduled for Saturday; first postponement in 100 years",
+      "Pearland band fundraiser of $350,000; some performers skipped",
+      "Balloon wind concerns"
+     ]
+    },
+    {
+     "url": "https://www.npr.org/2026/11/27/nx-s1-6043796/new-balloons-will-fly-in-the-postponed-100th-macys-thanksgiving-day-parade",
+     "publisher": "NPR",
+     "published": "Nov 27, 2026, 4:45 AM ET",
+     "checkedAt": "2026-11-28T06:26:06-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Parade set for Saturday; some new balloons to fly",
+      "Executive producer Will Coss on keeping student musicians in New York"
+     ],
+     "limits": [
+      "Radio transcript."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/us-parade.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A giant yellow parade balloon lying under netting with sandbags during inflation in New York",
+    "caption": "A Macy’s parade balloon being inflated the day before the parade, pictured in November 2018.",
+    "credit": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Macy%27s_parade_balloon_inflation_%2811713%29.jpg",
+    "isFilePhoto": true,
+    "year": 2018
+   }
+  },
+  {
+   "id": "hk-flag",
+   "region": "hk",
+   "topic": "politics",
+   "ts": "2026-11-27T03:34",
+   "dateLabel": "Ruling Nov 27, 2026 (HK time)",
+   "headline": "Hong Kong’s top court quashes an autistic man’s flag-desecration convictions, saying intent to insult was never proved",
+   "deck": "Hong Kong’s Court of Final Appeal on Friday, Nov. 27, unanimously quashed the convictions of a young man with autism for desecrating the national and Hong Kong flags, ruling the prosecution never proved he intended to insult the flags as symbols.",
+   "summary": "Hong Kong’s Court of Final Appeal on Friday, Nov. 27, unanimously quashed the convictions of a young man with autism for desecrating the national and Hong Kong flags, ruling the prosecution never proved he intended to insult the flags as symbols. Wong Chun-lok, then 19, pulled down one national flag and four regional flags in Sham Shui Po on National Day in 2022 by bending their flagpoles, and was sentenced to a rehabilitation centre. He was diagnosed with autism at three and also has ADHD and hypersensitivity to visual stimuli; his mother testified about a similar 2018 incident in which he pulled down shop banners that disturbed him. Delivering the judgment, Justice Joseph Fok held that both offences require proof of intent to undermine the flag’s dignity as a symbol — recklessness is not enough — and called the earlier appeal judge’s analysis “wholly inadequate,” RTHK reported.",
+   "why": "Flag offences are politically charged in Hong Kong, so a unanimous ruling that prosecutors must prove deliberate intent sets a clear limit on how the law can be applied — especially to people whose disabilities explain their actions. It is a reminder that the top court can still check lower courts on the facts.",
+   "label": "Reported",
+   "sources": [
+    {
+     "title": "Hong Kong’s top court quashes autistic man’s conviction for flag desecration citing his condition",
+     "site": "Hong Kong Free Press",
+     "date": "Nov 28, 2026",
+     "href": "https://hongkongfp.com/2026/11/28/hong-kongs-top-court-quashes-autistic-mans-conviction-for-flag-desecration-citing-his-condition/"
+    },
+    {
+     "title": "Top court quashes flag desecration convictions",
+     "site": "RTHK",
+     "date": "Nov 27, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879506-20261127.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://hongkongfp.com/2026/11/28/hong-kongs-top-court-quashes-autistic-mans-conviction-for-flag-desecration-citing-his-condition/",
+     "publisher": "Hong Kong Free Press",
+     "published": "Nov 28, 2026, 8:40 AM HKT (Nov 27, 7:40 PM ET)",
+     "checkedAt": "2026-11-28T06:17:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Top court quashes autistic man’s flag-desecration conviction, citing his condition"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879506-20261127.htm",
+     "publisher": "RTHK",
+     "published": "Nov 27, 2026, 4:34 PM HKT",
+     "checkedAt": "2026-11-28T06:17:31-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Unanimous; intent to insult not proved",
+      "Wong Chun-lok, 19 at the time; Sham Shui Po, National Day 2022",
+      "Autism, ADHD diagnosis; mother’s testimony",
+      "Justice Fok: recklessness not enough; ‘wholly inadequate’ analysis"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/hk-flag.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Aerial view of Hong Kong’s Court of Final Appeal, a domed colonial-era granite building among trees and skyscrapers in Central",
+    "caption": "The Court of Final Appeal building in Central, Hong Kong, pictured in 2022.",
+    "credit": "THE LION ROCK",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Court_of_Final_Appeal_Building.jpg",
+    "isFilePhoto": true,
+    "year": 2022
+   }
+  },
+  {
+   "id": "hk-cyber",
+   "region": "hk",
+   "topic": "business",
+   "ts": "2026-11-27T08:53",
+   "dateLabel": "Disclosed Nov 27, 2026 (HK time)",
+   "headline": "Two Hong Kong data breaches in a day: government sports-booking system SmartPLAY and Octopus disclose cyberattacks",
+   "deck": "Hong Kong’s Leisure and Cultural Services Department said on Friday, Nov. 27, that hackers had reached personal data linked to about 90,000 old Leisure Link accounts through its SmartPLAY sports-booking system. Hours later, Octopus said a cyberattack had exposed data on about 7,500 customers and 22,000 merchants.",
+   "summary": "Hong Kong’s Leisure and Cultural Services Department said on Friday, Nov. 27, that hackers had reached personal data linked to about 90,000 old Leisure Link accounts through its SmartPLAY sports-booking system. Hours later, Octopus said a cyberattack had exposed data on about 7,500 customers and 22,000 merchants. The LCSD said preliminary findings show the intrusion came through SmartPLAY’s “Reactivate Leisure Link Account” function, reported by its contractor on Nov. 26; the data involved dates of birth, phone numbers, addresses, gender and email addresses, plus names of about 1,500 users, but no identity-document or payment details. The privacy commissioner has opened an investigation, and password recovery has been suspended. Octopus said it detected the attack on the morning of Nov. 27 and contained it; customer names and photographs were affected, and for some Automatic Add Value Service users, bank codes and top-up amounts, but no credit-card or bank-account information. It said core services were running normally and it had found no customer financial loss.",
+   "why": "SmartPLAY and Octopus are part of daily life for millions of Hong Kongers, and leaked names, numbers and photos are exactly what scammers use to sound convincing. Expect a wave of phishing calls and messages; the privacy watchdog is urging people to stop and think before sharing details or paying anyone who contacts them, even if the caller knows their personal information.",
+   "label": "Official statement + Company figures + Reported",
+   "sources": [
+    {
+     "title": "LCSD reports information security incident (press release)",
+     "site": "Hong Kong government (LCSD)",
+     "date": "Nov 27, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/27/P2026112700684.htm"
+    },
+    {
+     "title": "90,000 users compromised in SmartPLAY data breach",
+     "site": "RTHK",
+     "date": "Nov 27, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879523-20261127.htm"
+    },
+    {
+     "title": "Octopus issues notification on information security incident (press release)",
+     "site": "Octopus Cards Limited",
+     "date": "Nov 27, 2026",
+     "href": "https://www.octopus.com.hk/en/corporate/media/press-releases/2026/20261127.html"
+    },
+    {
+     "title": "Personal data of 7,500 Octopus users leaked",
+     "site": "RTHK",
+     "date": "Nov 27, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/27/P2026112700684.htm",
+     "publisher": "Hong Kong government (Leisure and Cultural Services Department)",
+     "published": "Nov 27, 2026, 7:30 PM HKT",
+     "checkedAt": "2026-11-28T06:17:36-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Hacking via ‘Reactivate Leisure Link Account’ function; contractor reported Nov 26",
+      "Data of around 90,000 Leisure Link accounts incl. names of about 1,500 users; no ID or payment data"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879523-20261127.htm",
+     "publisher": "RTHK",
+     "published": "Nov 27, 2026, 6:47 PM HKT (updated 9:20 PM HKT)",
+     "checkedAt": "2026-11-28T06:17:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "PCPD investigation; data types",
+      "Password recovery suspended"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster."
+     ]
+    },
+    {
+     "url": "https://www.octopus.com.hk/en/corporate/media/press-releases/2026/20261127.html",
+     "publisher": "Octopus Cards Limited",
+     "published": "Nov 27, 2026",
+     "checkedAt": "2026-11-28T06:21:23-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Attack detected morning of Nov 27 and contained",
+      "About 7,500 customers (names, photos); some AAVS bank codes/top-up amounts; no card or bank-account data"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm",
+     "publisher": "RTHK",
+     "published": "Nov 27, 2026, 9:53 PM HKT",
+     "checkedAt": "2026-11-28T06:17:34-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "22,000 merchants’ contact data affected",
+      "No customer financial loss identified; core services normal"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/hk-cyber.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "A green Octopus card reader at a light rail stop exit gate in Hong Kong",
+    "caption": "An Octopus card reader at an MTR Light Rail stop in Hong Kong, pictured in 2016.",
+    "credit": "NoahLovesNesquick",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Octopus_card_reader_exit_gate%2C_MTR_Light_Rail_Wetland_Park_Stop%2C_Hong_Kong.jpg",
+    "isFilePhoto": true,
+    "year": 2016
+   }
+  },
+  {
+   "id": "hk-bypass",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-26T23:05",
+   "dateLabel": "Announced Nov 27, 2026 (HK time); opening planned for Dec 6, 2026",
+   "headline": "Central Kowloon Bypass to open fully on Dec. 6, completing Route 6 with a flat HK$8 toll",
+   "deck": "The last section of Hong Kong’s Central Kowloon Bypass — a 3.4-kilometre Kowloon Bay link that is mostly tunnel — is scheduled to open at 7 a.m. on Sunday, Dec. 6, completing the 12.5-kilometre Route 6 across Kowloon, the government said on Friday, Nov. 27.",
+   "summary": "The last section of Hong Kong’s Central Kowloon Bypass — a 3.4-kilometre Kowloon Bay link that is mostly tunnel — is scheduled to open at 7 a.m. on Sunday, Dec. 6, completing the 12.5-kilometre Route 6 across Kowloon, the government said on Friday, Nov. 27. Officials expect peak-hour trips between Tseung Kwan O and Yau Ma Tei to drop to about 12 minutes; RTHK reports the figure was 65 minutes before the project. The currently toll-free Yau Ma Tei section will close from midnight to 7 a.m. on opening day, after which a flat HK$8 toll will apply to all vehicles through HKeToll. Some bus routes will be diverted through the new section. The Transport Department says the Yau Ma Tei section, opened last year, has already diverted about 20% of traffic from existing corridors, according to RTHK.",
+   "why": "Cross-Kowloon traffic between Tseung Kwan O, Kai Tak and West Kowloon is notoriously slow, so a 12-minute crossing would change commutes — but the new HK$8 toll on the previously free section, and how traffic re-routes in the first weeks, will decide whether drivers feel the benefit.",
+   "label": "Official statement + Reported",
+   "note": "Planned opening; not yet open when this edition was prepared.",
+   "sources": [
+    {
+     "title": "Press briefing and media visit on commissioning of Central Kowloon Bypass (Kowloon Bay Section) on December 6",
+     "site": "Hong Kong government (CEDD)",
+     "date": "Nov 27, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/27/P2026112700188.htm"
+    },
+    {
+     "title": "Traffic, transport and toll arrangements upon full commissioning of Central Kowloon Bypass",
+     "site": "Hong Kong government (Transport Department)",
+     "date": "Nov 27, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/27/P2026112700189.htm"
+    },
+    {
+     "title": "Central Kowloon Bypass to fully open Dec 6 at 7am",
+     "site": "RTHK",
+     "date": "Nov 27, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879472-20261127.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/27/P2026112700188.htm",
+     "publisher": "Hong Kong government (Civil Engineering and Development Department)",
+     "published": "Nov 27, 2026, 12:05 PM HKT",
+     "checkedAt": "2026-11-28T06:21:08-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Kowloon Bay section (3.4 km, 3.1 km tunnel) commissioned 7am Dec 6",
+      "Completes 12.5-km Route 6; TKO–YMT about 12 minutes"
+     ]
+    },
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/27/P2026112700189.htm",
+     "publisher": "Hong Kong government (Transport Department)",
+     "published": "Nov 27, 2026, 12:10 PM HKT",
+     "checkedAt": "2026-11-28T06:21:07-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Flat $8 toll via HKeToll",
+      "YMT section closed 0:00–7:00 Dec 6",
+      "Bus route diversions"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879472-20261127.htm",
+     "publisher": "RTHK",
+     "published": "Nov 27, 2026, 12:40 PM HKT",
+     "checkedAt": "2026-11-28T06:17:37-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "65 minutes before the project",
+      "20% diversion after YMT section opened"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/hk-bypass.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The entrance of a brightly lit road tunnel with traffic and an overhead sign in Hong Kong",
+    "caption": "The Jordan entrance of the Central Kowloon Bypass’s Yau Ma Tei section tunnel, opened last year.",
+    "credit": "任晏延",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Central_Kowloon_Bypass_%28Yau_Ma_Tei_Section_Tunnel%29_Jordan_entrance_2025-01-23.jpg",
+    "isFilePhoto": true
+   }
+  },
+  {
+   "id": "hk-honours",
+   "region": "hk",
+   "topic": "human",
+   "ts": "2026-11-28T02:37",
+   "dateLabel": "Nov 28, 2026 (HK time)",
+   "headline": "Firefighter who died in the Wang Fuk Court blaze receives Hong Kong’s Gold Medal for Bravery; official says the site’s future may take years",
+   "deck": "Senior fireman Ho Wai-ho, who died fighting last November’s Wang Fuk Court fire in Tai Po, was awarded the Medal for Bravery (Gold) posthumously on Saturday, Nov. 28, at Government House; his brother and fiancée accepted it from Chief Executive John Lee.",
+   "summary": "Senior fireman Ho Wai-ho, who died fighting last November’s Wang Fuk Court fire in Tai Po, was awarded the Medal for Bravery (Gold) posthumously on Saturday, Nov. 28, at Government House; his brother and fiancée accepted it from Chief Executive John Lee, and the room applauded for about half a minute, RTHK reported. The government said 302 people received honours on the first day of the two-day ceremony, including three Grand Bauhinia Medals — RTHK names Executive Council member Chan Kin-por, economist Lawrence Lau and banker Lam Kwong-siu. Separately, acting housing secretary Michael Wong said on Commercial Radio that deciding the long-term future of the Wang Fuk Court site could take years: the government has said the land will be used for community facilities or a park rather than redevelopment, but consolidating ownership and demolishing the blocks will take time. He would not say whether a memorial park will be built.",
+   "why": "Two days after the first anniversary of a fire that killed 168 people, the honour recognises a firefighter’s sacrifice while families are still waiting to learn what happens to the site. Decisions about any memorial will be watched closely by survivors and families.",
+   "label": "Official statement + Reported",
+   "note": "Follows the Nov 27 edition’s coverage of the fire’s first anniversary (Nov 26).",
+   "sources": [
+    {
+     "title": "Gold Medal for Bravery for fallen firefighter",
+     "site": "RTHK",
+     "date": "Nov 28, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879596-20261128.htm"
+    },
+    {
+     "title": "CE officiates on first day of 2026 Honours and Awards Presentation Ceremony (press release)",
+     "site": "Hong Kong government",
+     "date": "Nov 28, 2026",
+     "href": "https://www.info.gov.hk/gia/general/202611/28/P2026112700314.htm"
+    },
+    {
+     "title": "‘Decision on Wang Fuk site’s future may take years’",
+     "site": "RTHK",
+     "date": "Nov 28, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879584-20261128.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879596-20261128.htm",
+     "publisher": "RTHK",
+     "published": "Nov 28, 2026, 3:37 PM HKT",
+     "checkedAt": "2026-11-28T06:20:58-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Ho Wai-ho awarded Gold Medal for Bravery posthumously; brother and fiancée accepted",
+      "Grand Bauhinia Medal recipients named"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster."
+     ]
+    },
+    {
+     "url": "https://www.info.gov.hk/gia/general/202611/28/P2026112700314.htm",
+     "publisher": "Hong Kong government",
+     "published": "Nov 28, 2026, 6:24 PM HKT",
+     "checkedAt": "2026-11-28T06:21:07-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "302 recipients on day one; three Grand Bauhinia Medals; one Medal for Bravery (Gold) posthumously"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879584-20261128.htm",
+     "publisher": "RTHK",
+     "published": "Nov 28, 2026, 11:38 AM HKT",
+     "checkedAt": "2026-11-28T06:17:42-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Michael Wong: site’s future may take years; community facilities or park, not redevelopment",
+      "Declined to speculate on a memorial park; fire killed 168"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded public broadcaster."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/hk-honours.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Hong Kong’s Government House, a white colonial building with a tower, framed by trees and skyscrapers",
+    "caption": "Government House in Hong Kong, where the honours were presented, pictured in 2024.",
+    "credit": "LN9267",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Government_House_08-09-2024%281%29.jpg",
+    "isFilePhoto": true,
+    "year": 2024
+   }
+  },
+  {
+   "id": "cn-taiwan",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-28T06:22",
+   "dateLabel": "Vote Nov 28, 2026; partial count as of 7:22 PM Taipei time (6:22 AM ET)",
+   "headline": "Taiwan local elections: KMT mayor leads China critic Puma Shen in Taipei count as the opposition claims early wins",
+   "deck": "Taiwan voted on Saturday, Nov. 28, in “nine-in-one” local elections for about 11,000 posts. With counting under way, official Central Election Commission figures at 7:18 p.m. Taipei time showed Kuomintang (KMT) Taipei Mayor Chiang Wan-an ahead of the governing Democratic Progressive Party’s Puma Shen by about 455,000 votes to 385,000, according to Focus Taiwan.",
+   "summary": "Taiwan voted on Saturday, Nov. 28, in “nine-in-one” local elections for about 11,000 posts. With counting under way, official Central Election Commission figures at 7:18 p.m. Taipei time showed Kuomintang (KMT) Taipei Mayor Chiang Wan-an ahead of the governing Democratic Progressive Party’s Puma Shen by about 455,000 votes to 385,000, according to Focus Taiwan, which said Shen appeared set to fall well short. Shen, an academic-turned-lawmaker and expert on Chinese information warfare, is wanted by Chinese police for “separatism,” Al Jazeera notes. In New Taipei, the KMT’s Lee Shu-chuan led the DPP’s Su Chiao-hui 50.70% to 48.75% in the official count. By 7:16 p.m., KMT candidates had declared victory in Kinmen, Lienchiang, Miaoli, Keelung, Nantou and Taitung, and the DPP’s Chou Chun-mi in Pingtung. A referendum on nuclear power was held alongside the vote; its result had not been reported in the sources checked.",
+   "why": "Local elections are read as a test of President William Lai’s DPP ahead of the 2028 presidential race, and of how voters weigh pressure from Beijing. A DPP loss in Taipei after a high-profile campaign by a China critic would be welcomed in Beijing, while the KMT’s strength in the cities sets the tone for the next two years.",
+   "label": "Reported + State media",
+   "note": "Partial results only; counts were changing when this edition was prepared, and results are official only when confirmed by the Central Election Commission. Focus Taiwan is the English service of Taiwan’s state-owned Central News Agency.",
+   "sources": [
+    {
+     "title": "Taiwan local elections live results",
+     "site": "Focus Taiwan (CNA, state-owned)",
+     "date": "Nov 28, 2026",
+     "href": "https://focustaiwan.tw/politics/202611285002"
+    },
+    {
+     "title": "Taiwan votes in local elections to choose mayors, other leaders",
+     "site": "Al Jazeera",
+     "date": "Nov 28, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://focustaiwan.tw/politics/202611285002",
+     "publisher": "Focus Taiwan (Central News Agency)",
+     "published": "Nov 28, 2026, 4:08 PM Taipei time; live page updated through 7:22 PM Taipei time",
+     "checkedAt": "2026-11-28T06:23:33-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "CEC count: Chiang ~455,000 vs Shen ~385,000 at 7:18 PM",
+      "New Taipei: Lee 574,538 (50.70%) vs Su 552,459 (48.75%)",
+      "Declared winners as of 7:16 PM"
+     ],
+     "limits": [
+      "Live page; figures were partial and changing.",
+      "State-owned news agency."
+     ]
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders",
+     "publisher": "Al Jazeera (with AFP and Reuters)",
+     "published": "Nov 28, 2026",
+     "checkedAt": "2026-11-28T06:17:46-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "About 11,000 positions in ‘nine-in-one’ elections; polls 8am–4pm",
+      "Shen profile; wanted by Chinese police for ‘separatism’"
+     ],
+     "limits": [
+      "Published before results."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/cn-taiwan.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Taipei City Hall, a large modern office building, seen across an open plaza with skyscrapers behind",
+    "caption": "Taipei City Hall, seat of the mayor’s office, pictured in February 2026.",
+    "credit": "4300streetcar",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Taipei_City_Hall_February_2026.jpg",
+    "isFilePhoto": true,
+    "year": 2026
+   }
+  },
+  {
+   "id": "cn-profits",
+   "region": "cn",
+   "topic": "business",
+   "ts": "2026-11-26T20:38",
+   "dateLabel": "Data released Nov 27, 2026 (Beijing time)",
+   "headline": "China’s industrial profits jump 20.1% in October, led by AI-linked electronics while consumer manufacturers struggle",
+   "deck": "Profits at China’s larger industrial companies rose 20.1% in October from a year earlier, up from 14.4% in September and the fastest pace since May, the National Bureau of Statistics said on Friday, Nov. 27 (Beijing time).",
+   "summary": "Profits at China’s larger industrial companies rose 20.1% in October from a year earlier, up from 14.4% in September and the fastest pace since May, the National Bureau of Statistics said on Friday, Nov. 27 (Beijing time). Profits for the first ten months were up 16%. The gains were lopsided: Reuters, via RTHK, reports profits in computer, telecom and other electronics manufacturing doubled over the ten months while furniture makers’ fell 52.4%, and CNBC says growth was concentrated in sectors tied to the global AI build-out or higher commodity prices, while consumer-facing manufacturers struggled to pass on rising costs. The figures cover firms with annual revenue of at least 20 million yuan.",
+   "why": "The headline number looks strong, but it is being carried by AI hardware and energy, not by Chinese households. With domestic demand weak and new U.S. tariffs looming, the rebound depends heavily on exports and one tech boom.",
+   "label": "Official figures + Reported",
+   "note": "The NBS release is in Chinese; percentages were checked against it.",
+   "sources": [
+    {
+     "title": "Profits of industrial enterprises above designated size, January–October 2026 (in Chinese)",
+     "site": "National Bureau of Statistics of China",
+     "date": "Nov 27, 2026",
+     "href": "https://www.stats.gov.cn/sj/zxfb/202611/t20261127_1965949.html"
+    },
+    {
+     "title": "China’s factories are growing profits again, but the AI boom is picking the winners",
+     "site": "CNBC",
+     "date": "Nov 26, 2026",
+     "href": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html"
+    },
+    {
+     "title": "Manufacturing profits rise at faster pace in China (Reuters)",
+     "site": "RTHK",
+     "date": "Nov 27, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879466-20261127.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261127_1965949.html",
+     "publisher": "National Bureau of Statistics of China",
+     "published": "Nov 27, 2026 (Beijing time)",
+     "checkedAt": "2026-11-28T06:21:46-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "October profits +20.1% y/y",
+      "January–October profits +16.0%"
+     ],
+     "limits": [
+      "Chinese-language release; government statistics."
+     ]
+    },
+    {
+     "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+     "publisher": "CNBC",
+     "published": "Nov 26, 2026, 8:38 PM ET (updated Nov 27, 1:09 AM ET)",
+     "checkedAt": "2026-11-28T06:21:44-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Fastest pace since May; 14.4% in September; 16% Jan–Oct",
+      "Gains in AI-linked and commodity sectors; consumer-facing firms squeezed"
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879466-20261127.htm",
+     "publisher": "RTHK (Reuters)",
+     "published": "Nov 27, 2026, 12:15 PM HKT",
+     "checkedAt": "2026-11-28T06:17:45-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Electronics profits doubled in 10 months; furniture −52.4%",
+      "Coverage threshold of 20 million yuan revenue"
+     ],
+     "limits": [
+      "Reuters copy carried by RTHK, Hong Kong’s government-funded broadcaster."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-shenzhou",
+   "region": "cn",
+   "topic": "human",
+   "ts": "2026-11-28T05:44",
+   "dateLabel": "Handover Nov 28, 2026 (Beijing time); return planned in the coming days",
+   "headline": "Shenzhou crews complete handover on Tiangong; Hong Kong’s Lai Ka-ying and Pakistan’s first astronaut due home in the coming days",
+   "deck": "Astronauts from China’s Shenzhou-23 and Shenzhou-24 missions completed their in-orbit handover aboard the Tiangong space station on Saturday, Nov. 28, Xinhua reported, ahead of a planned return to Earth.",
+   "summary": "Astronauts from China’s Shenzhou-23 and Shenzhou-24 missions completed their in-orbit handover aboard the Tiangong space station on Saturday, Nov. 28, Xinhua reported, ahead of a planned return to Earth. According to RTHK, those returning aboard Shenzhou-23 will be Zhang Zhiyuan, Hong Kong’s Lai Ka-ying and Pakistani astronaut Muhammad Zeeshan Ali, who flew up on Shenzhou-24 this week as the first foreign astronaut to visit Tiangong. The Dongfeng landing site completed a final safety drill for the return “in the coming days,” RTHK said, citing mainland authorities. Pakistan’s prime minister and army chief held a space-to-ground call with Ali on Saturday, according to the China Manned Space Agency.",
+   "why": "The landing would bring home both Hong Kong’s first astronaut and the first foreign visitor to China’s station — milestones Beijing is using to showcase its space programme to partners. A smooth return matters for China’s plans to host more international crew.",
+   "label": "State media + Reported",
+   "note": "Planned event: the return date had not been announced in the sources checked. Follows the Nov 25 and Nov 26 editions on the Shenzhou-24 launch. The Xinhua English page available was a short bulletin.",
+   "sources": [
+    {
+     "title": "Shenzhou-23, Shenzhou-24 astronauts complete in-orbit handover",
+     "site": "Xinhua (state media)",
+     "date": "Nov 28, 2026",
+     "href": "https://english.news.cn/20261128/ec6dc06bdb9d48fba8bdebed298fdde1/c.html"
+    },
+    {
+     "title": "All systems go: mainland ready for Shenzhou-23 return",
+     "site": "RTHK",
+     "date": "Nov 28, 2026",
+     "href": "https://news.rthk.hk/rthk/en/component/k2/1879605-20261128.htm"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://english.news.cn/20261128/ec6dc06bdb9d48fba8bdebed298fdde1/c.html",
+     "publisher": "Xinhua (Chinese state media)",
+     "published": "Nov 28, 2026, 5:29 PM Beijing time",
+     "checkedAt": "2026-11-28T06:21:43-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "In-orbit handover completed"
+     ],
+     "limits": [
+      "Short bulletin only."
+     ]
+    },
+    {
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879605-20261128.htm",
+     "publisher": "RTHK (with Xinhua)",
+     "published": "Nov 28, 2026, 6:44 PM HKT",
+     "checkedAt": "2026-11-28T06:17:43-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Returning crew: Zhang Zhiyuan, Lai Ka-ying, Muhammad Zeeshan Ali",
+      "Dongfeng landing-site drill; return in the coming days",
+      "Sharif and Munir call with Ali"
+     ],
+     "limits": [
+      "RTHK is Hong Kong’s government-funded broadcaster; parts of the report come from Xinhua."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cn-dissent",
+   "region": "cn",
+   "topic": "politics",
+   "ts": "2026-11-27T18:02",
+   "dateLabel": "Published Nov 27, 2026",
+   "headline": "As China’s economic clout grows, exiled Uyghur and other activists tell the BBC their causes are being drowned out",
+   "deck": "Exiled activists say China’s economic and soft-power rise is pushing human-rights concerns down other governments’ agendas, in a BBC report published on Nov. 27.",
+   "summary": "Exiled activists say China’s economic and soft-power rise is pushing human-rights concerns down other governments’ agendas, in a BBC report published on Nov. 27. Uyghur activist Dolkun Isa, a former president of the World Uyghur Congress who has lived in Germany for nearly three decades, told the BBC that protests that drew thousands in 2018 now struggle to attract 500. Activists also told the BBC that Beijing has offered family reunions, money and promises of safety in exchange for information about their networks and for promoting party narratives; the Chinese embassy in the UK dismissed claims that exiles were asked to spy on one another. The BBC notes that China’s human-rights record did not feature in any of the three summits between Xi Jinping and U.S. President Donald Trump this year.",
+   "why": "This is a feature built on activists’ accounts rather than breaking news, but it captures a real shift: as trade and technology dominate relations with Beijing, the political cost of ignoring rights issues has fallen.",
+   "label": "Reported + Claim",
+   "note": "Feature report; activists’ accounts of approaches by Chinese officials are claims that China disputes.",
+   "sources": [
+    {
+     "title": "Behind China’s spectacular rise, voices who defied it say they are being drowned out",
+     "site": "BBC News",
+     "date": "Nov 27, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cme3d4y094x7o"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cme3d4y094x7o",
+     "publisher": "BBC News",
+     "published": "Nov 27, 2026, 6:02 PM ET",
+     "checkedAt": "2026-11-28T06:17:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Dolkun Isa quotes on shrinking protests",
+      "Activists’ claims of offers in exchange for information",
+      "Chinese embassy denial",
+      "No mention of rights at three Xi–Trump summits"
+     ],
+     "limits": [
+      "Single outlet; feature based on interviews."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-victoria",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-28T04:30",
+   "dateLabel": "Election Nov 28, 2026 (Melbourne time)",
+   "headline": "Liberals’ Jess Wilson wins Victoria’s state election, ending 12 years of Labor government; premier Ben Carroll loses his own seat",
+   "deck": "Liberal leader Jess Wilson will become premier of the Australian state of Victoria after the Liberal-National Coalition defeated Labor in Saturday’s election, ending 12 years of Labor rule, ABC News reports.",
+   "summary": "Liberal leader Jess Wilson will become premier of the Australian state of Victoria after the Liberal-National Coalition defeated Labor in Saturday’s election, ending 12 years of Labor rule, ABC News reports. Premier Ben Carroll, who took over the Labor leadership about four months ago, conceded before 8:30 p.m. local time and lost his own seat of Niddrie, the ABC says. “It’s not the result we wanted but it is a result we accept,” he said. Wilson, 36, will be the state’s first popularly elected female premier; she campaigned on potholes, crime and state debt, and days before the vote announced plans to partly privatise Melbourne’s sewerage network and scale back some Labor programmes. SBS reported that whether the Coalition wins an outright majority was still uncertain as counting continued.",
+   "why": "Victoria has long been a Labor stronghold, so losing it is a warning for the federal Labor government and shows voters punishing incumbents over debt and cost of living. Whether Wilson governs alone or needs crossbench support will shape how far her privatisation plans go.",
+   "label": "Reported",
+   "note": "Counting was continuing; seat totals were not final when this edition was prepared. Guardian Australia’s coverage refused the automated fetch (access limit).",
+   "sources": [
+    {
+     "title": "Jess Wilson to become 51st Victorian premier as Coalition swept to state election victory",
+     "site": "ABC News (Australia)",
+     "date": "Nov 28, 2026",
+     "href": "https://www.abc.net.au/news/2026-11-28/jess-wilson-victorian-liberals-form-government-state-election/107438320"
+    },
+    {
+     "title": "Ben Carroll concedes, taking ‘full responsibility’ for Labor’s defeat in Victorian election",
+     "site": "SBS News",
+     "date": "Nov 28, 2026",
+     "href": "https://www.sbs.com.au/news/article/victorians-head-to-the-polls-election-labor-trails/lk4zko2ki"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.abc.net.au/news/2026-11-28/jess-wilson-victorian-liberals-form-government-state-election/107438320",
+     "publisher": "ABC News (Australia)",
+     "published": "Nov 28, 2026, 7:44 PM AEDT (updated 9:50 PM AEDT)",
+     "checkedAt": "2026-11-28T06:19:08-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Wilson to become premier; Coalition defeats Labor after 12 years",
+      "Carroll conceded and lost Niddrie; quotes",
+      "Wilson’s campaign and late privatisation announcements"
+     ],
+     "limits": [
+      "ABC is Australia’s public broadcaster."
+     ]
+    },
+    {
+     "url": "https://www.sbs.com.au/news/article/victorians-head-to-the-polls-election-labor-trails/lk4zko2ki",
+     "publisher": "SBS News (with AAP)",
+     "published": "Nov 28, 2026, 8:39 AM AEDT (updated 9:43 PM AEDT)",
+     "checkedAt": "2026-11-28T06:22:20-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Carroll concedes and takes full responsibility",
+      "Outright majority still uncertain"
+     ],
+     "limits": [
+      "SBS is a publicly funded Australian broadcaster."
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/w-victoria.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "The colonnaded front of Parliament House in Melbourne at dusk, with steps leading up from Spring Street",
+    "caption": "Parliament House in Melbourne, seat of Victoria’s parliament, pictured in 2015.",
+    "credit": "chee.hong",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Parliament_House%2C_Melbourne%2C_Victoria.jpg",
+    "isFilePhoto": true,
+    "year": 2015
+   }
+  },
+  {
+   "id": "w-afghan",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-28T00:30",
+   "dateLabel": "Nov 28, 2026, about 10 AM local time",
+   "headline": "Explosion beside a school in Afghanistan’s Kunar province kills at least seven students and injures about 100",
+   "deck": "An explosion next to a school on the outskirts of Asadabad, capital of eastern Afghanistan’s Kunar province, killed at least seven students and injured about 100 on Saturday morning, Nov. 28, Taliban officials said.",
+   "summary": "An explosion next to a school on the outskirts of Asadabad, capital of eastern Afghanistan’s Kunar province, killed at least seven students and injured about 100 on Saturday morning, Nov. 28, Taliban officials said. An interior ministry spokesperson said initial investigations pointed to “negligence and carelessness” at an explosives depot belonging to nearby mining companies, the BBC reported; a provincial information official told Al Jazeera the blast happened in a house beside a middle school where people involved in mining had stored dynamite. Figures differ slightly: the BBC reports seven dead and 99 injured, AP (via CBC) seven dead and more than 90 injured, and Al Jazeera, citing the provincial hospital head, at least six dead and 97 injured, with numbers expected to change.",
+   "why": "Officials are blaming careless storage of mining explosives rather than an attack, which points to how loosely regulated Afghanistan’s growing mining sector is — and how close it operates to homes and schools. The toll may rise as information comes in.",
+   "label": "Official statement + Reported",
+   "note": "Casualty figures are preliminary and differ by source; the cause rests on initial official statements.",
+   "sources": [
+    {
+     "title": "Seven students killed and nearly 100 injured in explosion in Afghanistan, official says",
+     "site": "BBC News",
+     "date": "Nov 28, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o"
+    },
+    {
+     "title": "Explosion at a middle school in Afghanistan kills at least 7, injures more than 90 (AP)",
+     "site": "CBC News",
+     "date": "Nov 28, 2026",
+     "href": "https://www.cbc.ca/news/world/afghanistan-school-explosion-9.7440205"
+    },
+    {
+     "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+     "site": "Al Jazeera",
+     "date": "Nov 28, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o",
+     "publisher": "BBC News",
+     "published": "Nov 28, 2026, 5:14 AM ET",
+     "checkedAt": "2026-11-28T06:18:45-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "At least 7 students killed, 99 injured; Asadabad, Kunar",
+      "Interior ministry: negligence at mining companies’ explosives depot"
+     ]
+    },
+    {
+     "url": "https://www.cbc.ca/news/world/afghanistan-school-explosion-9.7440205",
+     "publisher": "CBC News (Associated Press)",
+     "published": "Nov 28, 2026, 5:29 AM ET",
+     "checkedAt": "2026-11-28T06:18:45-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "7 killed, more than 90 wounded; depot negligence"
+     ]
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region",
+     "publisher": "Al Jazeera",
+     "published": "Nov 28, 2026, 2:42 AM ET",
+     "checkedAt": "2026-11-28T06:18:46-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "At least 6 killed, 97 injured per hospital head; figures preliminary",
+      "Blast in a house beside a middle school where dynamite was stored, about 10am"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-kenya",
+   "region": "world",
+   "topic": "human",
+   "ts": "2026-11-27T11:06",
+   "dateLabel": "Verdict Nov 27, 2026",
+   "headline": "Kenyan cult leader Paul Mackenzie convicted of manslaughter over 123 more Shakahola starvation deaths",
+   "deck": "A Kenyan High Court judge in Mombasa on Friday, Nov. 27, found self-styled pastor Paul Mackenzie guilty of manslaughter over the deaths of 123 adult followers he ordered to fast to death in Shakahola forest between 2021 and 2023.",
+   "summary": "A Kenyan High Court judge in Mombasa on Friday, Nov. 27, found self-styled pastor Paul Mackenzie guilty of manslaughter over the deaths of 123 adult followers he ordered to fast to death in Shakahola forest between 2021 and 2023. Judge Alex Ithuku also convicted 29 others, including Mackenzie’s wife, and acquitted 60; prosecutors said they would appeal the acquittals. Earlier this month Mackenzie was jailed for 200 years for murdering 191 people, all but one of them children, in the same mass killing. Kenya’s prosecutors called Friday’s verdict “the final conviction” in the cases against him and said he had “systematically persuaded his followers to fast until they died.” More than 400 bodies were found in shallow graves after his 2023 arrest. One of his lawyers said he would appeal, Reuters reported, according to the BBC.",
+   "why": "The verdict closes the main criminal cases over one of the world’s deadliest cult tragedies, but the acquittals and appeals mean it is not over for families. It also keeps pressure on Kenya over how it oversees fringe churches.",
+   "label": "Reported + Official statement",
+   "sources": [
+    {
+     "title": "Paul Mackenzie: Kenyan doomsday cult leader convicted over further 123 deaths",
+     "site": "BBC News",
+     "date": "Nov 27, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo"
+    },
+    {
+     "title": "Shakahola massacre: Mackenzie, 29 followers found guilty of manslaughter",
+     "site": "The Star (Kenya)",
+     "date": "Nov 27, 2026",
+     "href": "https://www.the-star.co.ke/news/2026-11-27-shakahola-fast-to-death-cult-mackenzie-29-followers-convicted"
+    },
+    {
+     "title": "Kenyan cult leader guilty of manslaughter over 123 starvation deaths",
+     "site": "Al Jazeera",
+     "date": "Nov 27, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo",
+     "publisher": "BBC News",
+     "published": "Nov 27, 2026, 11:06 AM ET (updated 12:19 PM ET)",
+     "checkedAt": "2026-11-28T06:18:46-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Guilty of manslaughter over 123 deaths; 29 others convicted, 60 acquitted",
+      "200-year sentence earlier this month for 191 murders",
+      "ODPP statement quotes; 400+ bodies; appeal plans"
+     ]
+    },
+    {
+     "url": "https://www.the-star.co.ke/news/2026-11-27-shakahola-fast-to-death-cult-mackenzie-29-followers-convicted",
+     "publisher": "The Star (Kenya)",
+     "published": "Nov 27, 2026, 6:15 PM EAT",
+     "checkedAt": "2026-11-28T06:22:12-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Judge Alex Ithuku delivered judgment at Mombasa Law Courts on Nov. 27; fourth conviction"
+     ]
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths",
+     "publisher": "Al Jazeera",
+     "published": "Nov 27, 2026, 5:33 PM ET",
+     "checkedAt": "2026-11-28T06:22:14-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Mackenzie guilty of manslaughter over 123 starvation deaths"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-msf",
+   "region": "world",
+   "topic": "politics",
+   "ts": "2026-11-27T22:45",
+   "dateLabel": "Strike late Nov 27, 2026 (Gaza time)",
+   "headline": "MSF says an Israeli strike on its Gaza City clinic killed two of its watchmen; Israel says they were Hamas operatives",
+   "deck": "Médecins Sans Frontières (Doctors Without Borders) says an Israeli strike late on Friday, Nov. 27, scored a “direct hit” on one of its clinics in Gaza City and killed two staff members, both watchmen.",
+   "summary": "Médecins Sans Frontières (Doctors Without Borders) says an Israeli strike late on Friday, Nov. 27, scored a “direct hit” on one of its clinics in Gaza City and killed two staff members, both watchmen. The charity said its premises were clearly marked and their location was known to the Israeli military, and that the deaths bring the number of its staff killed in Gaza to 17. The Israel Defense Forces said the two men were Hamas operatives “acting as security guards” at the clinic, that the strike was not directed at a hospital and that no medical infrastructure was damaged. World Health Organization chief Tedros Adhanom Ghebreyesus called attacks on health workers in Gaza “outrageous and unacceptable.”",
+   "why": "Deadly strikes are continuing in Gaza, and each side’s account of who was killed is contested. A hit on a clearly marked aid clinic raises the risks for the few medical groups still operating there and adds to scrutiny of how Israel’s military picks its targets.",
+   "label": "Claim + Official statement + Reported",
+   "note": "MSF’s and the IDF’s accounts conflict and could not be independently checked. The exact time of the strike was not given; MSF described it as “tonight” in a Friday post.",
+   "sources": [
+    {
+     "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+     "site": "BBC News",
+     "date": "Nov 28, 2026",
+     "href": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o"
+    },
+    {
+     "title": "Israeli ‘direct hit’ on Doctors Without Borders Gaza clinic kills 2 staff",
+     "site": "Al Jazeera",
+     "date": "Nov 28, 2026",
+     "href": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o",
+     "publisher": "BBC News",
+     "published": "Nov 28, 2026, 1:52 AM ET (updated 5:34 AM ET)",
+     "checkedAt": "2026-11-28T06:18:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "MSF: direct hit, two watchmen killed, 17 staff killed in Gaza",
+      "IDF: two Hamas operatives acting as security guards; not directed at a hospital",
+      "Tedros statement"
+     ]
+    },
+    {
+     "url": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff",
+     "publisher": "Al Jazeera",
+     "published": "Nov 27, 2026, 10:45 PM ET",
+     "checkedAt": "2026-11-28T06:18:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Strike on an MSF clinic in Gaza City; MSF statement on X on Friday"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "w-marquez",
+   "region": "world",
+   "topic": "sports",
+   "ts": "2026-11-27T05:25",
+   "dateLabel": "Announced Nov 27, 2026; final race planned for Sun, Nov 29, 2026",
+   "headline": "Marc Márquez to retire from MotoGP after Sunday’s Valencia finale, days after a record-equalling eighth title",
+   "deck": "Eight-time MotoGP champion Marc Márquez announced on Friday, Nov. 27, that this weekend’s Valencia Grand Prix will be his last race, days after retaining the title in Portugal to match Giacomo Agostini’s record.",
+   "summary": "Eight-time MotoGP champion Marc Márquez announced on Friday, Nov. 27, that this weekend’s Valencia Grand Prix will be his last race, days after retaining the title in Portugal to match Giacomo Agostini’s record. The 33-year-old Spaniard broke the news during the first practice session by holding up a series of handwritten cards in the Ducati garage — “This will be my last race in MotoGP. We made history,” one read — in a nod to the film Love Actually, the BBC reported. He had extended his Ducati contract to 2028 in June. Márquez won six titles with Honda between 2013 and 2019, remains the only rider to win the premier-class title as a rookie, and won the championship in each of his two seasons with Ducati’s factory team.",
+   "why": "Márquez is the dominant rider of his generation and its biggest draw; leaving on top, with a contract still running, reshapes Ducati’s line-up and the sport’s marketing overnight.",
+   "label": "Reported",
+   "note": "Planned: the Valencia race is scheduled for Sunday, Nov. 29.",
+   "sources": [
+    {
+     "title": "MotoGP: Marc Marquez to retire after final race of 2026 season",
+     "site": "BBC Sport",
+     "date": "Nov 27, 2026",
+     "href": "https://www.bbc.co.uk/sport/motorsport/articles/c539gd3r3mk2o"
+    },
+    {
+     "title": "Marc Marquez announces retirement from MotoGP",
+     "site": "MotoGP.com",
+     "date": "Nov 27, 2026",
+     "href": "https://www.motogp.com/en/news/2026/11/27/marc-marquez-announces-retirement-from-motogp/1268528"
+    },
+    {
+     "title": "Marc Marquez announces MotoGP retirement days after clinching record 8th world title",
+     "site": "DW",
+     "date": "Nov 27, 2026",
+     "href": "https://www.dw.com/en/spanish-rider-marc-marquez-announces-motogp-retirement-days-after-clinching-record-8th-world-title/a-80079930"
+    }
+   ],
+   "sourceChecks": [
+    {
+     "url": "https://www.bbc.co.uk/sport/motorsport/articles/c539gd3r3mk2o",
+     "publisher": "BBC Sport",
+     "published": "Nov 27, 2026, 5:25 AM ET (updated 7:28 AM ET)",
+     "checkedAt": "2026-11-28T06:18:47-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Retiring after Valencia on Sunday; eighth title level with Agostini",
+      "Flash-card announcement in FP1; contract to 2028",
+      "Honda and Ducati record"
+     ]
+    },
+    {
+     "url": "https://www.motogp.com/en/news/2026/11/27/marc-marquez-announces-retirement-from-motogp/1268528",
+     "publisher": "MotoGP.com",
+     "published": "Nov 27, 2026",
+     "checkedAt": "2026-11-28T06:22:14-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Announcement in FP1 at Valencia; 2026 is his last season; eight titles equalling Agostini"
+     ]
+    },
+    {
+     "url": "https://www.dw.com/en/spanish-rider-marc-marquez-announces-motogp-retirement-days-after-clinching-record-8th-world-title/a-80079930",
+     "publisher": "DW",
+     "published": "Nov 27, 2026, 1:01 PM ET",
+     "checkedAt": "2026-11-28T06:22:15-05:00",
+     "checkedBy": "Donna Daily morning source check, Nov 28 2026",
+     "claimsSupported": [
+      "Retirement announced days after record eighth title"
+     ]
+    }
+   ],
+   "image": {
+    "src": "img/2026-11-28-am/w-marquez.webp",
+    "width": 800,
+    "height": 450,
+    "alt": "Marc Márquez leaning his red Ducati motorcycle through a corner on track",
+    "caption": "Marc Márquez riding at the Czech Motorcycle Grand Prix in Brno in July 2025.",
+    "credit": "Pavel21kriz",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Marc_M%C3%A1rquez_at_Czech_Motorcycle_Grand_Prix_at_Brno_2025.jpg",
+    "isFilePhoto": true,
+    "year": 2025
+   }
+  }
+ ]
+}

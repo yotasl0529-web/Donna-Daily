@@ -1,0 +1,368 @@
+{
+ "edition": "2026-11-28-am",
+ "ranAt": "2026-11-28T06:29:33-05:00",
+ "method": "HTTP GET with a mobile browser user-agent; follows redirects",
+ "results": [
+  {
+   "url": "https://www.cbc.ca/news/politics/supreme-court-decison-bill-21-9.7437512",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.pbs.org/newshour/world/canadas-supreme-court-largely-upholds-a-quebec-ban-on-religious-symbols-for-public-servants",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/manitoba/wab-kinew-quebec-bill-21-legislative-racism-alberta-saskatchewan-discrimination-supreme-court-ruling-9.7440050",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/business/bell-rogers-telus-fees-9.7438448",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.canada.ca/en/radio-television-telecommunications/news/2026/11/crtc-takes-action-to-eliminate-extra-cellphone-fees.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/toronto/kenneth-law-sentencing-hearing-poison-seller-9.7438391",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/baseball/mlb/kaima-taira-toronto-blue-jays-contract-9.7439352",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.mlb.com/news/blue-jays-kaima-taira-free-agent-contract",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/baseball/mlb/jazz-chisholm-signing-blue-jays-report-mlb-yankees-9.7439624",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.mlb.com/news/jazz-chisholm-blue-jays-contract",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/27/prime-minister-carney-lists-mackenzie-valley-highway-project-national",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/canada/north/livestory/prime-minister-mark-carney-north-9.7438167",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cqkgr4g5nrnlo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://abc7chicago.com/post/american-airlines-planes-including-chicago-flight-aa-2152-clip-wings-reagan-national-airport-washington-dc-area/20092458/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.nbcwashington.com/news/local/american-airlines-plane-clipped-the-wing-of-2nd-plane-at-reagan-national-airport/4188653/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.moneycontrol.com/news/business/openai-says-apple-pressured-suppliers-to-shun-its-devices-14090587.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://finance.yahoo.com/media-advertising/articles/black-friday-isn-t-dead-110059015.html",
+   "status": "ERR",
+   "tag": "WARN",
+   "error": "UND_ERR_HEADERS_OVERFLOW",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.channelnewsasia.com/business/us-black-friday-online-sales-cross-13-billion-adobe-says-6588836",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/sports/soccer/canada-womens-soccer-concacaf-w-championship-9.7440152",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.ussoccer.com/stories/2026/11/uswnt-vs-el-salvador-match-recap-highlights-concacaf-w-championship",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.mlssoccer.com/playoffs/2026/news/columbus-crew-oust-leo-messi-inter-miami-in-playoff-shocker",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:33-05:00"
+  },
+  {
+   "url": "https://www.espn.com/soccer/story/_/id/50617897/columbus-eliminates-inter-miami-messi-mls-playoffs",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:33-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.npr.org/2026/11/27/nx-s1-6043796/new-balloons-will-fly-in-the-postponed-100th-macys-thanksgiving-day-parade",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://hongkongfp.com/2026/11/28/hong-kongs-top-court-quashes-autistic-mans-conviction-for-flag-desecration-citing-his-condition/",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:35-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879506-20261127.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:35-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/27/P2026112700684.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879523-20261127.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:35-05:00"
+  },
+  {
+   "url": "https://www.octopus.com.hk/en/corporate/media/press-releases/2026/20261127.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:35-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/27/P2026112700188.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:35-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/27/P2026112700189.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879472-20261127.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:35-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879596-20261128.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:35-05:00"
+  },
+  {
+   "url": "https://www.info.gov.hk/gia/general/202611/28/P2026112700314.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879584-20261128.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:35-05:00"
+  },
+  {
+   "url": "https://focustaiwan.tw/politics/202611285002",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:35-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261127_1965949.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:39-05:00"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879466-20261127.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://english.news.cn/20261128/ec6dc06bdb9d48fba8bdebed298fdde1/c.html",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879605-20261128.htm",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:36-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cme3d4y094x7o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.abc.net.au/news/2026-11-28/jess-wilson-victorian-liberals-form-government-state-election/107438320",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.sbs.com.au/news/article/victorians-head-to-the-polls-election-labor-trails/lk4zko2ki",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/afghanistan-school-explosion-9.7440205",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.the-star.co.ke/news/2026-11-27-shakahola-fast-to-death-cult-mackenzie-29-followers-convicted",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:35-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.bbc.co.uk/sport/motorsport/articles/c539gd3r3mk2o",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.motogp.com/en/news/2026/11/27/marc-marquez-announces-retirement-from-motogp/1268528",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  },
+  {
+   "url": "https://www.dw.com/en/spanish-rider-marc-marquez-announces-motogp-retirement-days-after-clinching-record-8th-world-title/a-80079930",
+   "status": 200,
+   "tag": "OK",
+   "checkedAt": "2026-11-28T06:29:34-05:00"
+  }
+ ]
+}
